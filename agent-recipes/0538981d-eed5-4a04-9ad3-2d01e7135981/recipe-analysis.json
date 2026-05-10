@@ -1,0 +1,340 @@
+{
+  "recipe": {
+    "title": "Chicken Enchiladas",
+    "sourceType": "url",
+    "sourceUrl": "https://www.gimmesomeoven.com/best-chicken-enchiladas-ever/",
+    "ingredients": [
+      {
+        "name": "avocado oil or olive oil",
+        "quantity": "2 tablespoons",
+        "note": "for sauteing onion and chicken"
+      },
+      {
+        "name": "small white onion",
+        "quantity": "1",
+        "note": "peeled and diced"
+      },
+      {
+        "name": "boneless skinless chicken breasts",
+        "quantity": "1 1/2 pounds",
+        "note": "diced into small 1/2-inch pieces"
+      },
+      {
+        "name": "diced green chiles",
+        "quantity": "1 (4-ounce) can",
+        "note": "added to the chicken filling"
+      },
+      {
+        "name": "sea salt",
+        "quantity": null,
+        "note": "to season"
+      },
+      {
+        "name": "freshly-cracked black pepper",
+        "quantity": null,
+        "note": "to season"
+      },
+      {
+        "name": "black beans",
+        "quantity": "1 (15-ounce) can",
+        "note": "rinsed and drained; pinto beans are an acceptable variation"
+      },
+      {
+        "name": "large flour tortillas",
+        "quantity": "8",
+        "note": "corn tortillas can be used with extra care to prevent tearing"
+      },
+      {
+        "name": "Mexican-blend shredded cheese",
+        "quantity": "3 cups",
+        "note": "Asadero, Pepper Jack, or Mexican blend suggested"
+      },
+      {
+        "name": "red enchilada sauce",
+        "quantity": "1 batch",
+        "note": "homemade red enchilada sauce recommended by source"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": null,
+        "note": "optional topping"
+      },
+      {
+        "name": "red onion",
+        "quantity": null,
+        "note": "optional chopped topping"
+      },
+      {
+        "name": "avocado",
+        "quantity": null,
+        "note": "optional diced topping"
+      },
+      {
+        "name": "sour cream or Mexican crema",
+        "quantity": null,
+        "note": "optional finishing drizzle or dollop"
+      },
+      {
+        "name": "cotija cheese",
+        "quantity": null,
+        "note": "optional crumbled topping"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Preheat oven to 350°F and prepare the red enchilada sauce.",
+        "timing": "prep phase",
+        "visualCue": "deep red chile sauce glossy enough to coat a spoon",
+        "block": "sauce",
+        "textureCue": "smooth brick-red sauce, medium viscosity, light steam",
+        "runwayRisk": "sauce can look like tomato soup unless chile color and thickness are specified"
+      },
+      {
+        "position": 2,
+        "text": "Heat oil in a large saute pan over medium-high heat.",
+        "timing": "start filling",
+        "visualCue": "thin shimmering oil on dark pan surface",
+        "block": "filling",
+        "textureCue": "oil shimmer before aromatics hit the pan",
+        "runwayRisk": "induction must not show flame or burner glow"
+      },
+      {
+        "position": 3,
+        "text": "Add diced onion and saute for 3 minutes.",
+        "timing": "3 minutes",
+        "visualCue": "white onion cubes turning translucent at the edges",
+        "block": "filling",
+        "textureCue": "softening onion with wet shine and light sizzling",
+        "runwayRisk": "tiny diced pieces may drift unless shot is macro and single-motion"
+      },
+      {
+        "position": 4,
+        "text": "Add diced chicken, green chiles, salt, and pepper.",
+        "timing": "6-8 minutes cooking begins",
+        "visualCue": "pale chicken cubes and green chile flecks spreading through onions",
+        "block": "filling",
+        "textureCue": "raw chicken turns opaque, chile moisture steams",
+        "runwayRisk": "raw-to-cooked transformation should be shown with hard cuts rather than a long morph"
+      },
+      {
+        "position": 5,
+        "text": "Saute until the chicken is cooked through.",
+        "timing": "6-8 minutes",
+        "visualCue": "opaque chicken cubes with lightly browned edges and moist steam",
+        "block": "filling",
+        "textureCue": "juicy cooked chicken, glossy onion, green chile specks",
+        "runwayRisk": "avoid dry shredded chicken unless source variation is chosen"
+      },
+      {
+        "position": 6,
+        "text": "Stir in rinsed and drained black beans until evenly combined.",
+        "timing": "end filling",
+        "visualCue": "black beans folded through chicken mixture without mashing",
+        "block": "filling",
+        "textureCue": "matte black bean skins against glossy chicken and onions",
+        "runwayRisk": "beans can become sauce dots; keep whole bean shapes visible"
+      },
+      {
+        "position": 7,
+        "text": "Set up tortillas, enchilada sauce, filling, and cheese for assembly.",
+        "timing": "assembly setup",
+        "visualCue": "single tortilla on the island with red sauce, filling, and cheese nearby",
+        "block": "assembly",
+        "textureCue": "soft matte tortilla beside glossy sauce and loose shredded cheese",
+        "runwayRisk": "avoid neutral ingredient lineup as a story beat; use it only as a quick context reset"
+      },
+      {
+        "position": 8,
+        "text": "Spread two tablespoons of enchilada sauce over a tortilla.",
+        "timing": "per enchilada",
+        "visualCue": "spoon smears red sauce into a thin glossy oval on a pale tortilla",
+        "block": "assembly",
+        "textureCue": "red sauce drag marks and tortilla grain",
+        "runwayRisk": "sauce should stay on tortilla and not flood the counter"
+      },
+      {
+        "position": 9,
+        "text": "Add chicken filling in a line down the center of the tortilla.",
+        "timing": "per enchilada",
+        "visualCue": "spoonful of chicken, beans, onions, and chiles placed in a neat central stripe",
+        "block": "assembly",
+        "textureCue": "chunky filling ridge, bean shine, chicken cubes",
+        "runwayRisk": "line geometry can collapse unless filling reference is clear"
+      },
+      {
+        "position": 10,
+        "text": "Sprinkle about 1/3 cup shredded cheese over the filling.",
+        "timing": "per enchilada",
+        "visualCue": "pale shredded cheese falling over the hot filling",
+        "block": "assembly",
+        "textureCue": "loose strands of cheese catching steam",
+        "runwayRisk": "floating cheese without visible hand; require visible fingers or falling strands"
+      },
+      {
+        "position": 11,
+        "text": "Roll up the tortilla and place it seam-side down in a greased 9 x 13-inch baking dish.",
+        "timing": "per enchilada",
+        "visualCue": "tight tortilla roll sliding into a rectangular dish",
+        "block": "assembly",
+        "textureCue": "soft tortilla folds, seam tucked under",
+        "runwayRisk": "rolling can create burrito shape if pan context is absent"
+      },
+      {
+        "position": 12,
+        "text": "Repeat with remaining tortillas.",
+        "timing": "assembly compression",
+        "visualCue": "parallel rolled enchiladas filling the dish in a neat row",
+        "block": "assembly",
+        "textureCue": "repeated soft cylinders with visible seams",
+        "runwayRisk": "row count does not need exact eight if continuity preserves a full baking dish"
+      },
+      {
+        "position": 13,
+        "text": "Spread remaining red enchilada sauce evenly over the top.",
+        "timing": "pre-bake topping",
+        "visualCue": "thick red sauce poured and spread across tortilla rolls",
+        "block": "assembly",
+        "textureCue": "glossy sauce flowing into shallow valleys between rolls",
+        "runwayRisk": "sauce may erase roll topology; preserve ridges beneath the sauce"
+      },
+      {
+        "position": 14,
+        "text": "Scatter extra shredded cheese over the sauced enchiladas.",
+        "timing": "pre-bake topping",
+        "visualCue": "blanket of shredded cheese on red sauce with some sauce still visible",
+        "block": "assembly",
+        "textureCue": "cheese strands piled unevenly over glossy sauce",
+        "runwayRisk": "too much cheese can hide enchilada structure before bake"
+      },
+      {
+        "position": 15,
+        "text": "Bake uncovered for 20 minutes until cooked through and slightly crispy outside.",
+        "timing": "20 minutes",
+        "visualCue": "baking dish in oven, then bubbling cheese and browned tortilla edges",
+        "block": "bake",
+        "textureCue": "melted cheese bubbles, red sauce simmer, crisp tortilla rims",
+        "runwayRisk": "use hard cut from unbaked to baked state; do not ask for long oven time-lapse"
+      },
+      {
+        "position": 16,
+        "text": "Transfer the baking dish to a rack.",
+        "timing": "post-bake",
+        "visualCue": "hot dish lands on counter with steam rising",
+        "block": "finish",
+        "textureCue": "active bubbling settling into glossy melted cheese",
+        "runwayRisk": "oven door and rack movement should be simple and single-action"
+      },
+      {
+        "position": 17,
+        "text": "Garnish while hot with fresh toppings.",
+        "timing": "serve immediately",
+        "visualCue": "cilantro, red onion, avocado, crema, and cotija brighten the red-and-gold surface",
+        "block": "finish",
+        "textureCue": "cool fresh matte toppings against glossy hot sauce and melted cheese",
+        "runwayRisk": "tiny garnish pieces can drift; use controlled falls and stable final frame"
+      },
+      {
+        "position": 18,
+        "text": "Serve hot and melty.",
+        "timing": "final hero",
+        "visualCue": "spatula lifts one enchilada with stretchy cheese and red sauce trails",
+        "block": "serve",
+        "textureCue": "cheese pull, saucy underside, steam, tender tortilla",
+        "runwayRisk": "lift can tear the roll; use a plated portion or state reference if needed"
+      }
+    ],
+    "subRecipes": [
+      "red enchilada sauce",
+      "chicken chile bean filling",
+      "tortilla rolling assembly",
+      "sauced cheese bake",
+      "fresh garnish and serve"
+    ],
+    "assumptions": [
+      "The video follows the source's flour tortilla Tex-Mex version rather than the corn tortilla variation.",
+      "The homemade red enchilada sauce is represented visually, but its full separate sauce recipe is compressed because the linked sauce page is a dependency and the requested recipe page provides the main flow.",
+      "The final dish can be shown as a full 9 x 13-inch baking dish plus one lifted serving; exact count of eight tortillas is less important than preserving the rolled enchilada geometry.",
+      "No paid generation services are launched; recipe-specific reference images are only planned for later app execution.",
+      "Mandatory ingest retry confirmed the source information is sufficient; no clarifying questions are needed for storyboard, references, duration, or geometry.",
+      "Validation after hardening rewrote this analysis as strict JSON before the GitHub checkpoint."
+    ],
+    "timing": {
+      "prepTimeMinutes": 15,
+      "cookTimeMinutes": 45,
+      "totalTimeMinutes": 60,
+      "targetVideoDurationSeconds": 60
+    },
+    "criticalTransformations": [
+      {
+        "name": "red sauce viscosity",
+        "risk": "If too thin it reads as tomato soup; if too thick it reads as paste.",
+        "visualSolution": "Use spoon-coating brick-red chile sauce with glossy flow and light steam."
+      },
+      {
+        "name": "chicken saute",
+        "risk": "Long raw-to-cooked morph can look unsafe or rubbery.",
+        "visualSolution": "Show hard cuts from raw cubes to opaque browned cooked pieces."
+      },
+      {
+        "name": "rolled enchilada topology",
+        "risk": "Tortilla rolls may become burritos or flat lasagna layers.",
+        "visualSolution": "Use assembly and unbaked pan references with clear parallel cylinders and visible seams."
+      },
+      {
+        "name": "sauce-over-rolls coverage",
+        "risk": "Sauce can erase the roll ridges.",
+        "visualSolution": "Keep shallow ridges visible under glossy red sauce."
+      },
+      {
+        "name": "baked cheese surface",
+        "risk": "Melted top may become uniform plastic.",
+        "visualSolution": "Specify bubbling cheese, browned freckles, crisp tortilla edges, and sauce pockets."
+      },
+      {
+        "name": "serving lift",
+        "risk": "The enchilada can tear or the cheese pull can become excessive.",
+        "visualSolution": "Use a final plated or lifted state reference with controlled cheese stretch and sauce trail."
+      }
+    ],
+    "visualTextureOpportunities": [
+      "macro red sauce pour over pale tortilla rolls",
+      "sizzling onion and green chile steam",
+      "black beans folded through glossy chicken filling",
+      "sauce smear across a tortilla showing drag marks",
+      "shredded cheese falling onto hot filling",
+      "tortilla roll seam tucked into the baking dish",
+      "red sauce flowing into valleys between rolls",
+      "melted cheese bubbling around browned tortilla edges",
+      "fresh cilantro, avocado, red onion, crema, and cotija contrast on the hot surface",
+      "spatula lift with stretchy cheese, red sauce trails, and steam"
+    ],
+    "possibleHooks": [
+      {
+        "id": "sauce-pour-hero",
+        "description": "Open on glossy red enchilada sauce cascading over parallel tortilla rolls.",
+        "reason": "Texture-first, instantly identifies enchiladas, and pays off with baked bubbling cheese."
+      },
+      {
+        "id": "cheese-pull-future",
+        "description": "Open with a one-second macro cheese pull, then jump back to saucing the rolls.",
+        "reason": "Strong scroll stop, but risks becoming a final-dish opening; use only as a micro flash if selected."
+      },
+      {
+        "id": "sizzle-to-roll",
+        "description": "Open on chicken and chiles sizzling, then quickly reveal it being rolled inside tortillas.",
+        "reason": "More process-forward, less immediate than the sauce pour."
+      }
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "recipe-ingest",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "asset-reference-system",
+      "suno-music-generation"
+    ]
+  },
+  "clarifyingQuestions": []
+}

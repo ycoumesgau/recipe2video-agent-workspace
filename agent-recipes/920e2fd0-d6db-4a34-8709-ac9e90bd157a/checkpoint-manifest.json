@@ -1,0 +1,16 @@
+{
+  "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+  "stage": "recipe_ingest",
+  "branch": "cursor/recipe-ingest-enchiladas-920e2-89a5",
+  "commitSha": "",
+  "artifactPaths": [
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/recipe-analysis.json",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/logical-scenes.json",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/seedance-segments.json",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/reference-plan.json",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/decisions.md",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/changelog.md",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/suno-prompt.md",
+    "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/checkpoint-manifest.json"
+  ]
+}

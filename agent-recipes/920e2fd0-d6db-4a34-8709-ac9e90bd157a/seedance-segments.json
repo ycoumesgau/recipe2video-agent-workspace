@@ -1,0 +1,756 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 1,
+      "title": "Sauce roux shimmer",
+      "arc": "roux-stock-simmer",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05"
+      ],
+      "description": "oil sheen cue roux tightens spice bloom toast...",
+      "prompt": "Use @KitchenIslandDefault only as global Licorn kitchen identity. Use @SaucepanLarge only as the saucepan silhouette anchor. Use @InductionCloseup only as hob framing guard. Use @Whisk only as whisk prop geometry. Use @KitchenIslandOverhead only as brief overhead viscosity check. Use @GPTStateEnchiladaSauceReduced only as fragile final reduced sauce viscosity target still, not timing driver.\n\nGenerate exactly 5 shots with hard cuts, total duration 6 seconds exact, no slow motion, no fades, no extra angles. TikTok vertical 1080:1920 food ASMR, no lettering.\n\nIntegrated audio: no speech, no voiceover, no music; only cookware and liquid ASMR synced to cuts.\n\nMandatory timing:\n0.0-0.9s shimmering hot oil tight macro before flour hits.\n0.9-1.8s blond roux paste snapping on whisk wires.\n1.8-2.9s dusty brick-red spice matrix toasting visibly.\n2.9-4.5s stock jets dissolving lumps into swirling emulsion ribbons.\n4.5-6.0s low simmer blister field reading satin meniscus glide.\n\nHard negatives: no recipe text overlay, no human face, only hands permissible if wrists stay anonymous and fast.\n\nMandatory audio cues: shimmering heat hiss, matte whisk chatter, bubbling reduction lap.",
+      "promptInitial": "Use @KitchenIslandDefault only as global Licorn kitchen identity. Use @SaucepanLarge only as the saucepan silhouette anchor. Use @InductionCloseup only as hob framing guard. Use @Whisk only as whisk prop geometry. Use @KitchenIslandOverhead only as brief overhead viscosity check. Use @GPTStateEnchiladaSauceReduced only as fragile final reduced sauce viscosity target still, not timing driver.\n\nGenerate exactly 5 shots with hard cuts, total duration 6 seconds exact, no slow motion, no fades, no extra angles. TikTok vertical 1080:1920 food ASMR, no lettering.\n\nIntegrated audio: no speech, no voiceover, no music; only cookware and liquid ASMR synced to cuts.\n\nMandatory timing:\n0.0-0.9s shimmering hot oil tight macro before flour hits.\n0.9-1.8s blond roux paste snapping on whisk wires.\n1.8-2.9s dusty brick-red spice matrix toasting visibly.\n2.9-4.5s stock jets dissolving lumps into swirling emulsion ribbons.\n4.5-6.0s low simmer blister field reading satin meniscus glide.\n\nHard negatives: no recipe text overlay, no human face, only hands permissible if wrists stay anonymous and fast.\n\nMandatory audio cues: shimmering heat hiss, matte whisk chatter, bubbling reduction lap.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "sauce cooking tight kitchen zone",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "sauce vessel reference",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "whisk gesture reference",
+          "name": "Whisk",
+          "label": "Whisk",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "overhead viscosity read when needed",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "fragile thickened sauce silhouette still",
+          "name": "GPTStateEnchiladaSauceReduced",
+          "label": "GPTStateEnchiladaSauceReduced",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "oil sheen cue",
+        "roux tightens",
+        "spice bloom toast",
+        "stock emulsion swirl",
+        "simmer meniscus glide"
+      ],
+      "timing": [
+        "0.0-0.9s: extreme macro shimmering oil pellicle inside saucepan rim",
+        "0.9-1.8s: hard cut blond roux clinging whisk torsion",
+        "1.8-2.9s: hard cut rusty spice dust marrying fat with aggressive whisk arcs",
+        "2.9-4.5s: hard cut gradual stock ribbons erasing lumps into silk pour",
+        "4.5-6.0s: hard cut lazy simmer bubble field emphasizing satin cling"
+      ],
+      "continuity": "Opening viscosity-first hook honoring sauce sub-recipe before protein.",
+      "risk": "Spice hue could mimic cocoa; negatives must keep Southwest red identity clear.",
+      "audioPrompt": "hot metal hush escalating to brisk whisk chatter then low sauce burble chorus",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 2,
+      "title": "Salt gloss bridge",
+      "arc": "season-filling saute",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10"
+      ],
+      "description": "salt swirl kitchen furnace calm onion sweat...",
+      "prompt": "Use @KitchenIslandDefault only as global Licorn kitchen identity. Use @Spoon only as tasting spoon backlight reference. Use @KitchenIslandWide only as calm oven-preheat pacing shot. Use @InductionWide only as onion sauté plane. Use @Spatula only as protein toss tool geometry. Use @GPTStateChickenBeanFillingGloss only as target gloss still post-beans optional insert for color bind, never as lone hero.\n\nGenerate exactly 5 shots, total duration 6 seconds, razor hard cuts only, TikTok macro ASMR portrait 1080:1920, no typography.\n\nIntegrated audio: sizzle dominance, spatula percussive clacks, restrained steam hiss; no vocals.\n\nMandatory timing mirrors beat list precisely 0.0-0.9 swirl salt gloss, 0.9-1.9 furnace calm shot, 1.9-3.3 onions glass, 3.3-4.9 whitening chicken cubes, 4.9-6.0 toss freeze.\n\nHard negatives: no tutorial bullets, skip face, limit clutter props.\n\nMandatory audio accents: bubbling sauce tail, saute sizzle escalation, spatula rim hits.",
+      "promptInitial": "Use @KitchenIslandDefault only as global Licorn kitchen identity. Use @Spoon only as tasting spoon backlight reference. Use @KitchenIslandWide only as calm oven-preheat pacing shot. Use @InductionWide only as onion sauté plane. Use @Spatula only as protein toss tool geometry. Use @GPTStateChickenBeanFillingGloss only as target gloss still post-beans optional insert for color bind, never as lone hero.\n\nGenerate exactly 5 shots, total duration 6 seconds, razor hard cuts only, TikTok macro ASMR portrait 1080:1920, no typography.\n\nIntegrated audio: sizzle dominance, spatula percussive clacks, restrained steam hiss; no vocals.\n\nMandatory timing mirrors beat list precisely 0.0-0.9 swirl salt gloss, 0.9-1.9 furnace calm shot, 1.9-3.3 onions glass, 3.3-4.9 whitening chicken cubes, 4.9-6.0 toss freeze.\n\nHard negatives: no tutorial bullets, skip face, limit clutter props.\n\nMandatory audio accents: bubbling sauce tail, saute sizzle escalation, spatula rim hits.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon backlight for sauce gloss checks",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "wide kitchen pacing context",
+          "name": "KitchenIslandWide",
+          "label": "KitchenIslandWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "stovetop context plane",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "saute spatula action geometry",
+          "name": "Spatula",
+          "label": "Spatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "fragile rested filling gloss still after beans",
+          "name": "GPTStateChickenBeanFillingGloss",
+          "label": "GPTStateChickenBeanFillingGloss",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "salt swirl",
+        "kitchen furnace calm",
+        "onion sweat",
+        "chicken whitening",
+        "toss hiss"
+      ],
+      "timing": [
+        "0.0-0.9s: tight spoon swirl salting shimmering sauce cling",
+        "0.9-1.9s: hard cut calm wide Licorn oven readiness context",
+        "1.9-3.3s: hard cut diced onion sweating glass rims in oil halo",
+        "3.3-4.9s: hard cut pink chicken drowning then whitening toss macro",
+        "4.9-6.0s: hard cut rapid spatula toss freeze on steam veil"
+      ],
+      "continuity": "Bridges silky sauce payoff into protein heat story.",
+      "risk": "Steam may smother diced read; prioritize macro contrast edges.",
+      "audioPrompt": "spoon-metal whisper to wide room tone to aggressive pan sizzle and spatula rim percussion",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 3,
+      "title": "Beans and roll torque",
+      "arc": "beans-assembly-roll",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-11",
+        "scene-12",
+        "scene-13",
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17"
+      ],
+      "description": "chiles confetti bean avalanche filling fold...",
+      "prompt": "Use @KitchenIslandDefault only as global Licorn kitchen identity and warm neutral grade. Use @KitchenIslandOverhead only as tortilla assembly runway. Use @PoseTopDown only as wrist pacing guard for top-down humane scale. Use @Spoon only as saucing spoon silhouette. Use @GPTStateRolledEnchiladaCylinder only as tight rolled cylinder reference to stop Seedance collapsing seam geometry.\n\nSeven hard-cut shots totaling 7 seconds exact, TikTok handheld micro energy 1080:1920, ASMR prioritized, banned vocals.\n\nIntegrated audio only: sprinkled chiles hiss, glossy bean avalanche patter, folding scrape, tortilla soft rub, delicate cheese shard rain, decisive roll crease squeeze.\n\nMandatory timing enumerated in beat bullets with no drift.\n\nHard negatives: no ingredient labels readable, disallow ultra-wide sterile grocery vibe.\n\nMandatory audio climax: audible roll tuck creasing wheat flex.",
+      "promptInitial": "Use @KitchenIslandDefault only as global Licorn kitchen identity and warm neutral grade. Use @KitchenIslandOverhead only as tortilla assembly runway. Use @PoseTopDown only as wrist pacing guard for top-down humane scale. Use @Spoon only as saucing spoon silhouette. Use @GPTStateRolledEnchiladaCylinder only as tight rolled cylinder reference to stop Seedance collapsing seam geometry.\n\nSeven hard-cut shots totaling 7 seconds exact, TikTok handheld micro energy 1080:1920, ASMR prioritized, banned vocals.\n\nIntegrated audio only: sprinkled chiles hiss, glossy bean avalanche patter, folding scrape, tortilla soft rub, delicate cheese shard rain, decisive roll crease squeeze.\n\nMandatory timing enumerated in beat bullets with no drift.\n\nHard negatives: no ingredient labels readable, disallow ultra-wide sterile grocery vibe.\n\nMandatory audio climax: audible roll tuck creasing wheat flex.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead hands geometry for rolling lane",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down tactile pose anchor",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "spoon spreading sauce",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rolled cylinder fragile geometry still",
+          "name": "GPTStateRolledEnchiladaCylinder",
+          "label": "GPTStateRolledEnchiladaCylinder",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "chiles confetti",
+        "bean avalanche",
+        "filling fold",
+        "sauce halo smear",
+        "filling mound",
+        "cheese blizzard start",
+        "roll tuck torque"
+      ],
+      "timing": [
+        "0.0-0.8s: confetti canned green chile flecks scattering across meat",
+        "0.8-1.9s: hard cut glossy black bean cascade rinsed spheres",
+        "1.9-3.2s: hard cut spatula folding satin glaze union off heat cues",
+        "3.2-4.8s: hard cut spoon smears two tablespoons scarlet swirl on flour tortilla overhead",
+        "4.8-5.9s: hard cut generous mound filling stripe steaming micro",
+        "5.9-6.9s: hard cut cheese snowfall burying mound",
+        "6.9-7.0s: instantaneous roll tuck completing cylinder using @GPTStateRolledEnchiladaCylinder as geometry guard"
+      ],
+      "continuity": "Escalates from filling body to tactile roll payoff.",
+      "risk": "Cheese avalanche can obscure tortilla read; prioritize timing clarity.",
+      "audioPrompt": "layered sprinkle patter escalating to spatula gloss scrape then supple tortilla rub ending crease slap",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 4,
+      "title": "Casserole flood lattice",
+      "arc": "pan-pack-sauce-cheese-cap",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-18",
+        "scene-19",
+        "scene-20",
+        "scene-21",
+        "scene-22"
+      ],
+      "description": "seam down rhythm grid satisfaction sauce tidal pour...",
+      "prompt": "Use @KitchenIslandDefault only as global Licorn continuity. Use @KitchenIslandOverhead only as nine-by-thirteen stacking geometry guard. Use @PoseThreeQuarterRight only as angled human torque reference for platter muscle memory. Use @GPTStateEnchiladaTrayPreBake only as casserole lattice target before oven to avoid collapsed spacing.\n\nExactly 4 cuts, aggregate 6 seconds, vertical ASMR TikTok fidelity 1080:1920, zero typography.\n\nIntegrated audio solely: casserole ceramic hush, viscous sauce pour rumble across tortillas, snowfall cheese susurrus.\n\nMandatory timing aligns with stacking, grid reveal, tidal sauce, snowfall cap arcs.\n\nHard negatives: no phantom extra rolls beyond grid, disallow floating plates.\n\nMandatory audio swell on final cheese avalanche.",
+      "promptInitial": "Use @KitchenIslandDefault only as global Licorn continuity. Use @KitchenIslandOverhead only as nine-by-thirteen stacking geometry guard. Use @PoseThreeQuarterRight only as angled human torque reference for platter muscle memory. Use @GPTStateEnchiladaTrayPreBake only as casserole lattice target before oven to avoid collapsed spacing.\n\nExactly 4 cuts, aggregate 6 seconds, vertical ASMR TikTok fidelity 1080:1920, zero typography.\n\nIntegrated audio solely: casserole ceramic hush, viscous sauce pour rumble across tortillas, snowfall cheese susurrus.\n\nMandatory timing aligns with stacking, grid reveal, tidal sauce, snowfall cap arcs.\n\nHard negatives: no phantom extra rolls beyond grid, disallow floating plates.\n\nMandatory audio swell on final cheese avalanche.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead casserole grid discipline",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter plating torque",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "target filled dish pre-bake silhouette",
+          "name": "GPTStateEnchiladaTrayPreBake",
+          "label": "GPTStateEnchiladaTrayPreBake",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "seam down rhythm",
+        "grid satisfaction",
+        "sauce tidal pour",
+        "cheese avalanche cap"
+      ],
+      "timing": [
+        "0.0-1.2s: seam-down cylinder stacking tight beat into greased casserole",
+        "1.2-2.8s: hard cut widening overhead grid hypnotic symmetry",
+        "2.8-4.9s: hard cut ladle floods valleys between rolls drowning pale backs",
+        "4.9-6.0s: hard cut final cheese snowfall sealing sauce sheen referencing @GPTStateEnchiladaTrayPreBake silhouette"
+      ],
+      "continuity": "Sets bake-ready visual contract before oven insert.",
+      "risk": "Sauce tidal may mis-route between rolls unless overhead locked.",
+      "audioPrompt": "ceramic clink escalating to magma sauce pour hiss and powdery cheese snowfall",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 5,
+      "title": "Blister halo oven",
+      "arc": "oven-blister-crisp",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-23",
+        "scene-24",
+        "scene-25"
+      ],
+      "description": "door insert swoosh blister inflate crisp rim micro curl...",
+      "prompt": "Use @KitchenIslandDefault only as kitchen identity tether even inside oven glimpses if visible. Use @OvenWide only as door choreography scale. Use @OvenCloseup only as blister macro hero plane. Use @GPTStateBakedCheeseBubbleField only as topography truth still for bubbly cheese realism.\n\nExactly 3 hard cuts totaling 5 seconds, no fades, TikTok kinetic ASMR portrait 1080:1920, silent.\n\nIntegrated audio: oven fan hum swell, bubbly cheese blister snap micro, tortilla edge rasp.\n\nMandatory timing enumerated.\n\nHard negatives: no burnt black char, disallow smoke plumes implying failure.\n\nMandatory audio climax on blister swell.",
+      "promptInitial": "Use @KitchenIslandDefault only as kitchen identity tether even inside oven glimpses if visible. Use @OvenWide only as door choreography scale. Use @OvenCloseup only as blister macro hero plane. Use @GPTStateBakedCheeseBubbleField only as topography truth still for bubbly cheese realism.\n\nExactly 3 hard cuts totaling 5 seconds, no fades, TikTok kinetic ASMR portrait 1080:1920, silent.\n\nIntegrated audio: oven fan hum swell, bubbly cheese blister snap micro, tortilla edge rasp.\n\nMandatory timing enumerated.\n\nHard negatives: no burnt black char, disallow smoke plumes implying failure.\n\nMandatory audio climax on blister swell.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "oven choreography wide",
+          "name": "OvenWide",
+          "label": "OvenWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "blister climax macro",
+          "name": "OvenCloseup",
+          "label": "OvenCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "post bake cheese topography still reference",
+          "name": "GPTStateBakedCheeseBubbleField",
+          "label": "GPTStateBakedCheeseBubbleField",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "door insert swoosh",
+        "blister inflate",
+        "crisp rim micro curl"
+      ],
+      "timing": [
+        "0.0-1.4s: respectful oven shelf slide with shimmering interior glow",
+        "1.4-3.9s: hard cut extreme macro bubbling cheese blister inflations anchored by @OvenCloseup",
+        "3.9-5.0s: hard cut hunt toasted tortilla ridges crisping referencing @GPTStateBakedCheeseBubbleField still for bubble density truth"
+      ],
+      "continuity": "Delivers unmistakable baked Tex-Mex climax.",
+      "risk": "Overbake reads failure; negatives cap color into tawny blister range.",
+      "audioPrompt": "door seal exhale transitioning to succulent bubble chorus and restrained crackle hiss",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 6,
+      "title": "Steam lift strata",
+      "arc": "rack-lift-reveal",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-26",
+        "scene-27",
+        "scene-28"
+      ],
+      "description": "rack exhale first spatula lift stretch strata vapor ribbon...",
+      "prompt": "Use @KitchenIslandDefault only as counter identity anchor. Use @Spatula only as metal lifter silhouette for stretch physics authenticity. Use @GPTStateEnchiladaCrossSectionSteam only as strata steam geometry guard avoiding collapsed filling misread.\n\nThree shots, cumulative 5 seconds, instant cuts only, TikTok ASMR tactile 1080:1920, voiceless.\n\nIntegrated audio rack ping, gooey elastic cheese stretch squeak whisper, restrained steam hiss.\n\nMandatory timing enumerated.\n\nHard negatives: no melodramatic slow pull; keep realtime bite.\n\nMandatory audio climax on tether snap echo.",
+      "promptInitial": "Use @KitchenIslandDefault only as counter identity anchor. Use @Spatula only as metal lifter silhouette for stretch physics authenticity. Use @GPTStateEnchiladaCrossSectionSteam only as strata steam geometry guard avoiding collapsed filling misread.\n\nThree shots, cumulative 5 seconds, instant cuts only, TikTok ASMR tactile 1080:1920, voiceless.\n\nIntegrated audio rack ping, gooey elastic cheese stretch squeak whisper, restrained steam hiss.\n\nMandatory timing enumerated.\n\nHard negatives: no melodramatic slow pull; keep realtime bite.\n\nMandatory audio climax on tether snap echo.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spatula iconography",
+          "name": "Spatula",
+          "label": "Spatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "cross-section strata reference guard",
+          "name": "GPTStateEnchiladaCrossSectionSteam",
+          "label": "GPTStateEnchiladaCrossSectionSteam",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "rack exhale",
+        "first spatula lift stretch",
+        "strata vapor ribbon"
+      ],
+      "timing": [
+        "0.0-1.4s: wire rack exhale veil lifting politely off molten dome",
+        "1.4-3.9s: hard cut spatula stressing dramatic cheese tether lift",
+        "3.9-5.0s: hard cut optional precise cross-section glimpsing strata steam referencing @GPTStateEnchiladaCrossSectionSteam fragile still"
+      ],
+      "continuity": "Bridges bake completion into edible proof.",
+      "risk": "Cross-section hallucination risk prompts reference still requirement.",
+      "audioPrompt": "soft rack ping escalating to supple stretch whimper slicing back to hiss",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-07",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 7,
+      "title": "Garden confetti tableau",
+      "arc": "garnishes-hero",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33"
+      ],
+      "description": "cilantro drizzle crema ribbons onion magenta...",
+      "prompt": "Use @KitchenIslandDefault only as global ambiance anchor. Use @KitchenIslandOverhead only as garnish tableau discipline. Use @PoseThreeQuarterRight only as restrained wrist choreography for bottle squeeze. Use @GPTStateGarnishedEnchiladasHero only as final chromatic mosaic guard.\n\nFive contiguous shots totaling 7 seconds, instant cuts only, TikTok hyper-color food ASMR portrait 1080:1920, silent.\n\nIntegrated audio delicate herb whisper, squeezed crema hiss, brittle onion sparkle, crumble patter exhale into composed room tone.\n\nMandatory timing enumerated.\n\nHard negatives: no cluttered prop explosion beyond garnishes indicated.\n\nMandatory audio climax on cotija snowfall patter fading into triumphant tableau hush.",
+      "promptInitial": "Use @KitchenIslandDefault only as global ambiance anchor. Use @KitchenIslandOverhead only as garnish tableau discipline. Use @PoseThreeQuarterRight only as restrained wrist choreography for bottle squeeze. Use @GPTStateGarnishedEnchiladasHero only as final chromatic mosaic guard.\n\nFive contiguous shots totaling 7 seconds, instant cuts only, TikTok hyper-color food ASMR portrait 1080:1920, silent.\n\nIntegrated audio delicate herb whisper, squeezed crema hiss, brittle onion sparkle, crumble patter exhale into composed room tone.\n\nMandatory timing enumerated.\n\nHard negatives: no cluttered prop explosion beyond garnishes indicated.\n\nMandatory audio climax on cotija snowfall patter fading into triumphant tableau hush.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead garnish composition control",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter garnish wrist",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "ultimate garnished casserole still anchor",
+          "name": "GPTStateGarnishedEnchiladasHero",
+          "label": "GPTStateGarnishedEnchiladasHero",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "cilantro drizzle",
+        "crema ribbons",
+        "onion magenta",
+        "cotija snow",
+        "money overhead"
+      ],
+      "timing": [
+        "0.0-1.3s: bright cilantro raining confetti arcs",
+        "1.3-2.9s: hard cut ivory crema bottle zigzag hissing viscosity contrast",
+        "2.9-4.5s: hard cut magenta diced onion jewels scatter crisp promise",
+        "4.5-5.9s: hard pinch cotija snowfall salt sparkle audio",
+        "5.9-7.0s: hard overhead money tableau referencing @GPTStateGarnishedEnchiladasHero color harmony still"
+      ],
+      "continuity": "Delivers shareable topper chaos under control.",
+      "risk": "Over-garnishing can bury cheese read; pacing keeps reds visible.",
+      "audioPrompt": "whisper herbal scatter to hiss squeeze brittle sprinkle crumble then calm tableau tail",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-08",
+      "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
+      "position": 8,
+      "title": "Licorn savor close",
+      "arc": "character-satisfaction",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-34",
+        "scene-35",
+        "scene-36",
+        "scene-37",
+        "scene-38"
+      ],
+      "description": "steam fork vent platter boast smile payoff...",
+      "prompt": "Use @KitchenIslandDefault only as closing kitchen tableau identity. Use @CharacterSheet only as wardrobe silhouette anchor. Use @CharacterExpressions only as genuine satisfied micro-expression catalogue. Use @PoseThreeQuarterLeft only as platter presentation torso angle. Use @PoseThreeQuarterRight only as subdued bite choreography guard.\n\nExactly 5 cuts totaling 8 seconds, hard cuts mandated, TikTok portrait ASMR intimacy 1080:1920, zero dialogue.\n\nIntegrated audio subtle fork ceramic kiss, restrained fabric rustle, human pleasure hum sans speech, concluding exhale synced to affirmative nod.\n\nMandatory timing enumerated.\n\nHard negatives: no conversational mouth animation implying speech.\n\nMandatory audio closure: soft nod paired exhale with kitchen room tone dissolve.",
+      "promptInitial": "Use @KitchenIslandDefault only as closing kitchen tableau identity. Use @CharacterSheet only as wardrobe silhouette anchor. Use @CharacterExpressions only as genuine satisfied micro-expression catalogue. Use @PoseThreeQuarterLeft only as platter presentation torso angle. Use @PoseThreeQuarterRight only as subdued bite choreography guard.\n\nExactly 5 cuts totaling 8 seconds, hard cuts mandated, TikTok portrait ASMR intimacy 1080:1920, zero dialogue.\n\nIntegrated audio subtle fork ceramic kiss, restrained fabric rustle, human pleasure hum sans speech, concluding exhale synced to affirmative nod.\n\nMandatory timing enumerated.\n\nHard negatives: no conversational mouth animation implying speech.\n\nMandatory audio closure: soft nod paired exhale with kitchen room tone dissolve.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character proportions anchor",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "expression satisfaction library",
+          "name": "CharacterExpressions",
+          "label": "CharacterExpressions",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "presenting stance left oblique",
+          "name": "PoseThreeQuarterLeft",
+          "label": "PoseThreeQuarterLeft",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        },
+        {
+          "role": "bite stance right reciprocity",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
+      ],
+      "beats": [
+        "steam fork vent",
+        "platter boast",
+        "smile payoff",
+        "polite chew",
+        "affirm nod"
+      ],
+      "timing": [
+        "0.0-1.8s: extreme macro fork tine steam choreography on cratered cheese",
+        "1.8-4.5s: hard cut Licorn showcases platter using @PoseThreeQuarterLeft disciplined reveal",
+        "4.5-5.9s: hard cut @CharacterExpressions soft satisfied smile toward casserole",
+        "5.9-7.6s: hard cut respectful chewing micro-motion with ASMR hinted jaw hush referencing @PoseThreeQuarterRight restraint",
+        "7.6-8.0s: hard affirmative closing nod tethered @CharacterSheet grounding"
+      ],
+      "continuity": "Closes Recipe2Video arc with Licorn visibly satisfied beside finished dish.",
+      "risk": "Friendly expression drift must stay anchored to CharacterExpressions cues.",
+      "audioPrompt": "delicate utensil pings building to restrained human pleasure hum devoid of consonants ending calm exhale",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text",
+        "no extra shots"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": []
+      },
+      "durationTarget": 8,
+      "status": "ready"
+    }
+  ]
+}

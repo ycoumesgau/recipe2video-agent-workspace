@@ -1,0 +1,340 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "global Licorn kitchen environment",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: global Licorn kitchen environment (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "sauce cooking tight kitchen zone",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: sauce cooking tight kitchen zone (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "sauce vessel reference",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: sauce vessel reference (utensil silhouette anchor from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Whisk",
+      "role": "whisk gesture reference",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: whisk gesture reference (utensil silhouette anchor from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead viscosity read when needed",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: overhead viscosity read when needed (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-07"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateEnchiladaSauceReduced",
+      "role": "fragile thickened sauce silhouette still",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: fragile thickened sauce silhouette still (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "spoon backlight for sauce gloss checks",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: spoon backlight for sauce gloss checks (utensil silhouette anchor from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandWide",
+      "role": "wide kitchen pacing context",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: wide kitchen pacing context (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "stovetop context plane",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: stovetop context plane (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spatula",
+      "role": "saute spatula action geometry",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: saute spatula action geometry (utensil silhouette anchor from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-06"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateChickenBeanFillingGloss",
+      "role": "fragile rested filling gloss still after beans",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: fragile rested filling gloss still after beans (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character_pose",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down tactile pose anchor",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: top-down tactile pose anchor (Licorn character anchors from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateRolledEnchiladaCylinder",
+      "role": "rolled cylinder fragile geometry still",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: rolled cylinder fragile geometry still (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character_pose",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "three-quarter plating torque",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: three-quarter plating torque (Licorn character anchors from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateEnchiladaTrayPreBake",
+      "role": "target filled dish pre-bake silhouette",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: target filled dish pre-bake silhouette (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenWide",
+      "role": "oven choreography wide",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: oven choreography wide (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenCloseup",
+      "role": "blister climax macro",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: blister climax macro (global environment guard from bundled PNG references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateBakedCheeseBubbleField",
+      "role": "post bake cheese topography still reference",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: post bake cheese topography still reference (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateEnchiladaCrossSectionSteam",
+      "role": "cross-section strata reference guard",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: cross-section strata reference guard (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "food_state",
+      "canonicalName": "GPTStateGarnishedEnchiladasHero",
+      "role": "ultimate garnished casserole still anchor",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: ultimate garnished casserole still anchor (gpt_image_2 planned still for fragile geometry or viscosity fidelity).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "character proportions anchor",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: character proportions anchor (Licorn character anchors from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterExpressions",
+      "role": "expression satisfaction library",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: expression satisfaction library (Licorn character anchors from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "ready_png"
+    },
+    {
+      "type": "character_pose",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "presenting stance left oblique",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Use strictly as Seedance References input: presenting stance left oblique (Licorn character anchors from bundled references).",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "ready_png"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "recipe": {
+    "title": "Best Chicken Enchiladas Ever (Tex-Mex)",
+    "sourceType": "url",
+    "sourceUrl": "https://www.gimmesomeoven.com/best-chicken-enchiladas-ever/",
+    "ingredients": [
+      { "name": "avocado or olive oil (filling saute)", "quantity": "2 tablespoons", "note": "For chicken-bean saute; separate oil for sauce roux uses its own measurement on sauce page." },
+      { "name": "white onion", "quantity": "1 small", "note": "Diced." },
+      { "name": "boneless skinless chicken breast", "quantity": "1 1/2 pounds", "note": "Diced about 1/2 inch pieces." },
+      { "name": "canned diced green chiles", "quantity": "1 can (4 oz)", "note": null },
+      { "name": "sea salt and freshly cracked black pepper", "quantity": null, "note": "Season filling to taste." },
+      { "name": "black beans", "quantity": "1 can (15 oz)", "note": "Rinsed and drained." },
+      { "name": "large flour tortillas", "quantity": "8", "note": "Recipe default; corn possible with tortilla prep variation." },
+      { "name": "shredded cheese (Mexican blend or similar)", "quantity": "3 cups", "note": "Filling rolls plus topping; Pepper Jack optional." },
+      { "name": "red enchilada sauce", "quantity": "1 batch", "note": "Homemade Southwestern tomato-free red sauce from linked sibling recipe." },
+      { "name": "neutral oil", "quantity": "2 tablespoons", "note": "For sauce roux." },
+      { "name": "all-purpose flour", "quantity": "2 tablespoons", "note": "Roux thickener; GF blend substitution possible." },
+      { "name": "American-style chili powder", "quantity": "1/4 cup", "note": "Critical: blend not cayenne-only." },
+      { "name": "garlic powder", "quantity": "1/2 teaspoon", "note": null },
+      { "name": "ground cumin", "quantity": "1/2 teaspoon", "note": null },
+      { "name": "dried oregano", "quantity": "1/4 teaspoon", "note": null },
+      { "name": "chicken or vegetable stock", "quantity": "2 cups", "note": null },
+      { "name": "fine sea salt", "quantity": "to taste", "note": "Sauce seasoning; blogger often cites about 1/2 teaspoon baseline." },
+      { "name": "optional fresh toppings", "quantity": null, "note": "Cilantro, red onion, avocado, sour cream, cotija crumble." }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Heat avocado or olive oil in a small saucepan over medium-high heat for the homemade enchilada sauce.",
+        "timing": "~1 minute to hot sheen",
+        "visualCue": "thin film of oil shimmering with clean heat whisper",
+        "block": "enchilada_sauce",
+        "textureCue": "viscous precursor before roux solids",
+        "runwayRisk": "indistinguishable between generic sauté oil clips"
+      },
+      {
+        "position": 2,
+        "text": "Add all-purpose flour; cook whisking constantly about 1 minute to form roux paste.",
+        "timing": "~1 minute",
+        "visualCue": "smooth blonde paste tightening on whisk tines",
+        "block": "enchilada_sauce",
+        "textureCue": "matte flour absorbing oil toward compact slurry",
+        "runwayRisk": "whisk speed reads as frantic blur unless framed tight"
+      },
+      {
+        "position": 3,
+        "text": "Add chili powder, garlic powder, cumin and oregano; cook whisking constantly 1 minute to toast spices in roux.",
+        "timing": "~1 minute",
+        "visualCue": "brick-red dust blooming into warmed fat",
+        "block": "enchilada_sauce",
+        "textureCue": "dry spice granules marrying fat into rusty velvet",
+        "runwayRisk": "spice dust could read as cocoa or paprika mistaken identity"
+      },
+      {
+        "position": 4,
+        "text": "Gradually pour in chicken or vegetable stock while whisking until smooth and lump-free.",
+        "timing": "continuous pour + whisk",
+        "visualCue": "thin rivulets cutting roux ribbons into silky sauce body",
+        "block": "enchilada_sauce",
+        "textureCue": "emulsion tightening from gritty to cohesive pourable sauce",
+        "runwayRisk": "lump formation if pour cadence mismatched visually"
+      },
+      {
+        "position": 5,
+        "text": "Bring sauce to simmer; maintain gentle low bubbles uncovered 10-15 minutes until slightly thickened.",
+        "timing": "10-15 minutes simmer",
+        "visualCue": "lazy surface burbles and satin meniscus glide",
+        "block": "enchilada_sauce",
+        "textureCue": "low reduction velvety nap on spatula back",
+        "runwayRisk": "simmer mistaken for vigorous boil collapses glossy read"
+      },
+      {
+        "position": 6,
+        "text": "Season enchilada sauce with fine sea salt to taste after tasting.",
+        "timing": "~30 seconds folding",
+        "visualCue": "fine salt disappearing into dark red swirl",
+        "block": "enchilada_sauce",
+        "textureCue": "post-season gloss sharpening cling on metal spoon",
+        "runwayRisk": "minimal standalone motion aside from swirl"
+      },
+      {
+        "position": 7,
+        "text": "Preheat oven to 350°F and lightly grease a 9 x 13 inch baking dish for enchiladas.",
+        "timing": "oven ramps while sauce cooks",
+        "visualCue": "open oven cavity amber glow cue",
+        "block": "bake_prep",
+        "textureCue": "dry dish sheen after grease brushing",
+        "runwayRisk": "oven reads as generic appliance without food anchor"
+      },
+      {
+        "position": 8,
+        "text": "Heat 2 tablespoons oil in large sauté pan over medium-high heat; sauté diced onion ~3 minutes until softened stirring occasionally.",
+        "timing": "~3 minutes",
+        "visualCue": "translucent onion edges with audible sizzle fringe",
+        "block": "filling",
+        "textureCue": "onion sweating from crunchy white to supple glass",
+        "runwayRisk": "steam obscuring diced geometry"
+      },
+      {
+        "position": 9,
+        "text": "Add diced chicken and canned green chiles; season generously with salt and pepper; sauté 6-8 minutes until chicken cooked through, stirring occasionally.",
+        "timing": "6-8 minutes",
+        "visualCue": "pink chicken cubes whitening with pepper fleck pop",
+        "block": "filling",
+        "textureCue": "protein tightening and releasing pooled juices that reduce",
+        "runwayRisk": "doneness color subtle on diced breast"
+      },
+      {
+        "position": 10,
+        "text": "Stir in rinsed drained black beans until evenly combined then remove filling from heat and set aside.",
+        "timing": "~1 minute fold",
+        "visualCue": "dark beans marrying paler chicken tumble",
+        "block": "filling",
+        "textureCue": "beans coat lightly with reduced pan juices satin",
+        "runwayRisk": "bean smash if overworked spoon"
+      },
+      {
+        "position": 11,
+        "text": "Lay out tortillas, prepared enchilada sauce, cooked chicken filling and shredded cheese for assembly line rolling.",
+        "timing": "~2 minutes setup",
+        "visualCue": "parallel stacks implying flow not static pantry flatlay",
+        "block": "assembly",
+        "textureCue": "warmed tortilla slight flex versus dry crack risk",
+        "runwayRisk": "looks like mise lineup if framed too wide and static"
+      },
+      {
+        "position": 12,
+        "text": "Spread about 2 tablespoons enchilada sauce evenly across face of tortilla before filling.",
+        "timing": "~10 seconds each tortilla macro",
+        "visualCue": "rust-red sauce halo dragged by spoon belly",
+        "block": "assembly",
+        "textureCue": "semi-thick sauce tack on porous flour tortilla",
+        "runwayRisk": "sauce quantity misread floods tortilla visually"
+      },
+      {
+        "position": 13,
+        "text": "Add generous spoonful of chicken filling in line down tortilla center.",
+        "timing": "~10 seconds",
+        "visualCue": "mounded savory strip with glossy bean glimpses",
+        "block": "assembly",
+        "textureCue": "chunk fork-tender dice clinging loosely",
+        "runwayRisk": "filling slump off-center breaks roll symmetry"
+      },
+      {
+        "position": 14,
+        "text": "Sprinkle about 1/3 cup shredded cheese over filling stripe then roll tortilla closed and transfer seam-down to baking dish.",
+        "timing": "roll ~5 seconds repeat",
+        "visualCue": "cheese snowfall then cylinder tuck with seam discipline",
+        "block": "assembly",
+        "textureCue": "shreds softening slight contact heat from filling",
+        "runwayRisk": "roll tightness ambiguity tears tortilla"
+      },
+      {
+        "position": 15,
+        "text": "Repeat to fill baking dish snugly then spread remaining enchilada sauce evenly over rolls followed by remaining cheese snowfall.",
+        "timing": "~3 minutes layering",
+        "visualCue": "sauce tidal pour across white tortilla backs then cheese avalanche",
+        "block": "assembly",
+        "textureCue": "sauce settles into grooves between cylinders",
+        "runwayRisk": "coverage bald patches if pour uneven"
+      },
+      {
+        "position": 16,
+        "text": "Bake uncovered ~20 minutes at 350°F until heated through with tortillas lightly crisp outside and melted cheese topping.",
+        "timing": "~20 minutes",
+        "visualCue": "surface cheese blister micro-bubbles and nutty edge tan",
+        "block": "bake",
+        "textureCue": "elastic cheese pull potential forming",
+        "runwayRisk": "over-brown reads burnt not Tex-Mex home"
+      },
+      {
+        "position": 17,
+        "text": "Transfer baking dish briefly to rack; serve immediately hot garnished cilantro onion avocado sour cream or cotija as desired.",
+        "timing": "~2 minute garnish choreography",
+        "visualCue": "bright herbs and ivory crema ribbons over red sauce glaze",
+        "block": "serve",
+        "textureCue": "cool crema dribble against hot bubbly cheese contrast",
+        "runwayRisk": "garnish avalanche hides hero cheese texture"
+      }
+    ],
+    "subRecipes": [
+      "southwestern_red_enchilada_sauce",
+      "chicken_bean_green_chile_filling",
+      "rolled_baked_casserole",
+      "fresh_toppings"
+    ],
+    "assumptions": [
+      "Flour tortillas are the default tortilla for easier rolling as written (corn optional with flash-fry or warm-sauce dip workflow).",
+      "Homemade Southwestern tomato-free red enchilada sauce from the sibling Gimme Some Oven recipe batch is paired with these enchiladas for strongest flavor payoff.",
+      "Sauce simmer can overlap oven preheat and filling prep so total timeline stays near one hour headline without serializing every minute.",
+      "Cheese behaves like a Mexican shredded blend melting into soft stretch (Pepper Jack acceptable variant).",
+      "SFX and pacing follow production defaults: ASMR-forward seedance2 and asmr_food style preset.",
+      "Image references for ambiguous rolled cross-section or cheese blister climax may need explicit GPT image stills labeled as fragile states.",
+      "Licorn kitchen anchors global references with @KitchenIslandDefault per Seedance References policy.",
+      "TTS eleven_multilingual_v2 and eleven_text_to_sound_v2 noted as pipeline defaults though this ingest stores no voiced script."
+    ],
+    "timing": {
+      "prep": "15 minutes",
+      "cook": "45 minutes",
+      "total": "60 minutes"
+    },
+    "criticalTransformations": [
+      "Roux binds oil and flour before chili powder toasted matrix accepts stock emulsion lump-free simmer reduction to clingy satin red Southwestern sauce",
+      "Diced breast transitions from blush pink translucent centers to opaque white curds releasing then reabsorbing savory juices alongside soft onion and earthy beans",
+      "Loose grated cheese melts into fused blanket with blister micro-domes while exposed tortilla ridges desiccate to light crisp laminar contrast against steamy interiors",
+      "Optional cool crema drizzle hits molten cheese creating thickening swirl rivulets and sudden steam wisps around herb scatter"
+    ],
+    "visualTextureOpportunities": [
+      "Close macro of whisk dragging through brick-red spiced roux snapping into glossy swirl on first stock splash",
+      "Lazy bubble field across reducing sauce meniscus catching low warm kitchen reflections",
+      "Onion dice glassing edges in shimmer oil soundtracking sizzle ASMR fringe",
+      "Chicken cube flip revealing still-pink facets whitening in fast succession",
+      "Black beans pouring into saute pan cascading gloss coat over poultry",
+      "Spoon smoothing two tablespoon annular swoosh sauce on supple flour tortilla topography",
+      "Cheese snowfall freeze-frame shards tumbling onto warm filling mound",
+      "Rolling torque fingers tucking cylindrical seam-down placement into tight casserole lattice",
+      "Ladle tidal wash of leftover sauce drowning pale tortilla roofs before final cheese snowfall",
+      "Oven-lit cheese blister inflation with tiny pop promise",
+      "Spatula first-lift unveiling stretch cheese bridge from pan",
+      "Cilantro feather scatter and ivory crema zigzag contrasting molten reds"
+    ],
+    "possibleHooks": [
+      "Open on brick-red spiced roux avalanche meeting hot oil micro-shiver before stock saves it into silk",
+      "First stock pour fracturing dusty roux into cinematic swirl ASMR hinge",
+      "Aggressive saute hiss as chicken cubes surface-sear from pink to snowy white cubes",
+      "Assembly line macro: scarlet spoon painting tortilla then cheese blizzard trapping steam",
+      "Post-bake cheese dome micro-bubbles pulsing before crema dagger chill contrast"
+    ],
+    "promptPolicySources": [
+      "Workspace rule seedance-references: seedance2, References mode only, nine-image cap per segment, each reference role spelled, @KitchenIslandDefault mandatory global anchor",
+      "Workspace rule recipe-agent-core: thirty to forty-eight logical editorial scenes, five to ten Seedance segments, seventy-five to eighty percent detail shots versus context, fragile food states merit reference stills instead of hallucinated interpolations",
+      "Source page Gimme Some Oven Chicken Enchiladas canonical ingredients and timings plus linked red sauce structural steps for roux-stock-simmer pillar",
+      "Skill seedance-workflow: English prompts, hard cuts mandatory timing negatives ban speech voiceover music, integrated kitchen ASMR",
+      "Production defaults ingest note: video model seedance2, reference image generator gpt_image_2 noted for planned states only in this workspace"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "tortilla-choice",
+      "question": "Should the Seedance visuals lock to flour tortillas (easy roll) or switch to warmed corn tortillas with flash-fry or sauce-dip choreography for authenticity emphasis?",
+      "reason": "Tortilla type changes roll geometry, tactile stress cracks, reflective sauce uptake, reference stills count, and brittle risk notes."
+    },
+    {
+      "id": "cheese-brand",
+      "question": "Confirm which melting cheese should read on camera (Mexican blend default, Pepper Jack for stretch spikes, or a split layer for color contrast)?",
+      "reason": "Melt sheen color temperature and blister density shift reference lighting and climax satisfaction beat."
+    },
+    {
+      "id": "toppings-hero",
+      "question": "Should the heroic final beat emphasize bare blistered cheesy tops or lavish cilantro-avocado-sour cream finish for brand color?",
+      "reason": "Topping density competes with cheese-pull readability and closing plate composition framing."
+    }
+  ]
+}

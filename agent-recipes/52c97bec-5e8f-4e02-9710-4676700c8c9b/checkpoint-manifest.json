@@ -1,0 +1,61 @@
+{
+  "videoId": "52c97bec-5e8f-4e02-9710-4676700c8c9b",
+  "stage": "recipe_ingest",
+  "branch": "cursor/recipe-ingest-52c97bec-2620",
+  "latestPushedCommitSha": "922e0d36aae2dbde55745c225339d49376d71cd2",
+  "updatedAtUtc": "2026-05-10T19:52:00Z",
+  "artifacts": [
+    {
+      "path": "recipe-analysis.json",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "logical-scenes.json",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "seedance-segments.json",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "reference-plan.json",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "suno-prompt.md",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "decisions.md",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "changelog.md",
+      "status": "ready",
+      "required": true
+    }
+  ],
+  "validation": {
+    "jsonFilesValidated": [
+      "recipe-analysis.json",
+      "logical-scenes.json",
+      "seedance-segments.json",
+      "reference-plan.json",
+      "checkpoint-manifest.json"
+    ],
+    "logicalSceneCount": 36,
+    "logicalSceneDurationSeconds": 60,
+    "seedanceSegmentCount": 8,
+    "seedanceSegmentDurationSeconds": 60,
+    "maxReferencesPerSegment": 9,
+    "allSegmentsHaveKitchenIslandDefault": true,
+    "clarifyingQuestionsCount": 0
+  },
+  "paidGenerationLaunched": false
+}

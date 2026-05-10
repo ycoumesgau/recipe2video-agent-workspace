@@ -3,7 +3,7 @@
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-52c97bec-2620",
   "latestPushedCommitSha": "6b9e30b187d553ebeabce1c8753869e380dd721b",
-  "updatedAtUtc": "2026-05-10T19:59:00Z",
+  "updatedAtUtc": "2026-05-10T20:06:00Z",
   "artifacts": [
     {
       "path": "recipe-analysis.json",
@@ -57,5 +57,6 @@
     "allSegmentsHaveKitchenIslandDefault": true,
     "clarifyingQuestionsCount": 0
   },
+  "syncReady": true,
   "paidGenerationLaunched": false
 }

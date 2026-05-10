@@ -322,7 +322,8 @@
       "suno-music-generation",
       "checkpoint-contract-fix",
       "parser-workspace-rule-fix",
-      "github-consistency-retry-patch"
+      "github-consistency-retry-patch",
+      "manifest-parser-compatibility-fix"
     ]
   },
   "clarifyingQuestions": []

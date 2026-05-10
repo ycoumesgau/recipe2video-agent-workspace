@@ -3,7 +3,7 @@
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-52c97bec-2620",
   "latestPushedCommitSha": "76339e650840e4e4387c53cbeefd9c37b6f2562f",
-  "updatedAtUtc": "2026-05-10T20:06:00Z",
+  "updatedAtUtc": "2026-05-10T20:10:00Z",
   "artifacts": [
     {
       "path": "recipe-analysis.json",
@@ -37,6 +37,11 @@
     },
     {
       "path": "changelog.md",
+      "status": "ready",
+      "required": true
+    },
+    {
+      "path": "checkpoint-manifest.json",
       "status": "ready",
       "required": true
     }

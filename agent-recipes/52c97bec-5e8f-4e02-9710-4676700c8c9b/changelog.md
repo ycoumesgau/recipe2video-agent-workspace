@@ -31,3 +31,9 @@
 - Refreshed `checkpoint-manifest.json` timestamp and marked the artifact set as `syncReady`.
 - Kept all planning artifacts ready; the source remains complete and `clarifyingQuestions` remains empty.
 - Committed and pushed sync-ready artifacts in commit `76339e650840e4e4387c53cbeefd9c37b6f2562f`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.
+
+## 2026-05-10 - recipe_ingest retry after manifest parser compatibility fix
+
+- Updated `recipe-analysis.json` in this run by recording `manifest-parser-compatibility-fix` in `promptPolicySources`.
+- Kept `checkpoint-manifest.json` parser-friendly with top-level `latestPushedCommitSha` and `artifacts`.
+- Added `checkpoint-manifest.json` to the manifest `artifacts` list so the sync package advertises the checkpoint file explicitly.

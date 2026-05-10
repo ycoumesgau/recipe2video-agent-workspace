@@ -45,3 +45,4 @@
 - Converted `recipe.timing` to `prep`, `cook`, and `total` keys.
 - Converted `criticalTransformations` and `possibleHooks` to arrays of plain strings.
 - Confirmed `visualTextureOpportunities` and `promptPolicySources` remain arrays of plain strings.
+- Committed and pushed the normalized artifacts in commit `9c969a3813442fde8273f5a86a4bb7231dbbe241`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.

@@ -320,7 +320,8 @@
       "seedance-workflow",
       "asset-reference-system",
       "suno-music-generation",
-      "checkpoint-contract-fix"
+      "checkpoint-contract-fix",
+      "parser-workspace-rule-fix"
     ]
   },
   "clarifyingQuestions": []

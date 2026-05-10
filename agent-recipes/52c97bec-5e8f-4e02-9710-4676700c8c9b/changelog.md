@@ -17,3 +17,9 @@
 - Kept the existing complete planning set because the recipe source remains complete and no clarifying questions are needed.
 - Prepared the project artifacts for commit and push on branch `cursor/recipe-ingest-52c97bec-2620` per the retry request.
 - Committed and pushed the project artifacts in commit `9c088d11b4662c46df35694738e34c51a3dcbaa2`, then updated `checkpoint-manifest.json` to record that pushed artifact checkpoint.
+
+## 2026-05-10 - recipe_ingest retry after parser and workspace-rule fixes
+
+- Updated `recipe-analysis.json` in this run by recording `parser-workspace-rule-fix` in `promptPolicySources`.
+- Refreshed `checkpoint-manifest.json` timestamp for this retry while keeping all required artifacts ready.
+- No source gaps were introduced; `clarifyingQuestions` remains empty.

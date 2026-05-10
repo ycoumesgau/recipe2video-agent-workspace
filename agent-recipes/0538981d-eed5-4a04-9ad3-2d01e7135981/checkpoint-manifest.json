@@ -1,0 +1,26 @@
+{
+  "videoId": "0538981d-eed5-4a04-9ad3-2d01e7135981",
+  "stage": "recipe_ingest",
+  "workspace": "agent-recipes/0538981d-eed5-4a04-9ad3-2d01e7135981",
+  "branch": "cursor/recipe-ingest-enchiladas-fbf0",
+  "baseBranch": "main",
+  "artifactCommitSha": "63689c4f0601f08a25ea0235d6bfb09cc70b63d1",
+  "latestPushedCommitSha": "63689c4f0601f08a25ea0235d6bfb09cc70b63d1",
+  "recipeAnalysisVerified": true,
+  "clarifyingQuestionsCount": 0,
+  "artifacts": [
+    "recipe-analysis.json",
+    "decisions.md",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.md",
+    "changelog.md",
+    "checkpoint-manifest.json"
+  ],
+  "notes": [
+    "Source information is sufficient for the complete planning artifact set.",
+    "No costly generation services were called.",
+    "Recipe-specific image references are planned for later Recipe2Video execution."
+  ]
+}

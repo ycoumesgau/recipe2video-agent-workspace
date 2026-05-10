@@ -1,8 +1,8 @@
 {
   "videoId": "920e2fd0-d6db-4a34-8709-ac9e90bd157a",
-  "stage": "recipe_ingest",
+  "stage": "general",
   "branch": "cursor/recipe-ingest-enchiladas-920e2-89a5",
-  "commitSha": "00ef39a7b0edad693db23cbc0ca3fbba848ebc5e",
+  "commitSha": "57b4978468b11678f498c09506c74ec87980e241",
   "artifactPaths": [
     "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/recipe-analysis.json",
     "agent-recipes/920e2fd0-d6db-4a34-8709-ac9e90bd157a/logical-scenes.json",

@@ -9,7 +9,9 @@ alwaysApply: true
 - Work only inside `agent-recipes/{videoId}/` unless the user explicitly asks to improve shared rules or examples.
 - Maintain editable files, not long one-off chat answers.
 - Never call Runway, Suno, Supabase, Mux, Remotion, OpenAI, or any paid generation service from this workspace.
-- Never commit daily recipe artifacts. Recipe2Video validates and syncs artifacts into Supabase.
+- Commit and push recipe artifacts on the project branch after meaningful progress; do not leave ingest outputs uncommitted.
+- Always update `agent-recipes/{videoId}/checkpoint-manifest.json` with the latest pushed commit SHA.
+- Finish every run with a machine-readable JSON block: `{"recipe2videoCheckpoint":{"branch":"<branch>","commitSha":"<sha>","manifestPath":"agent-recipes/{videoId}/checkpoint-manifest.json"}}`.
 - Do not modify app code. The app repo owns execution; this workspace owns creative planning.
 
 ## Required Artifacts

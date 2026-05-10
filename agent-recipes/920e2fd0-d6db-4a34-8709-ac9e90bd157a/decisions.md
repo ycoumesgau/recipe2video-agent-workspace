@@ -24,7 +24,9 @@ Roughly **sixty-seven percent logical scenes classify as macro detail beats** co
 
 Eight Seedance segments map overlapping arcs to conserve reference budget (`<=9` per segment) while still isolating bake blister risk, lift stretch ASMR, and Licorn closure satisfaction.
 
-planned_status.png assets remain canonical for global kitchen/character utensils; GPT reference names beginning `GPTState` are ingestion placeholders only resolved later in GPT Image 2 per pipeline defaults—not generated here.
+## Checkpoint manifests and Git ancestry
+
+Git history uses two pushes: ingest commit **`00ef39a` houses every creative JSON/Markdown payload**, then **`e206b4a`** appends checkpoint manifest bookkeeping so `checkpoint-manifest.commitSha` currently references **`00ef39a`**. Operational sync should still read manifests from the tracked branch HEAD so GitHub ingestion picks up the manifest update while using the pinned hash when a reproducible artifact snapshot identifier is explicitly required elsewhere in Recipe2Video.
 
 ## Known gaps deferred to GPT reference pack
 

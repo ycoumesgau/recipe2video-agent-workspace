@@ -8,3 +8,4 @@
 - Authored consolidated `reference-plan.json` aligning canonical PNG anchors with planned GPT stills keyed as `GPTState*` entries for sauce viscosity, fillings, casserole states, strata steam, garnish hero tableau.
 - Produced `decisions.md` capturing editorial defaults, unanswered creative forks, GPT dependency notes.
 - Produced `suno-prompt.md` with Tex-Mex forward acoustic pop brief separated from Seedance prompts per Suno policy (manual execution only downstream).
+- Checkpoint manifest pins `commitSha` to ingest commit `00ef39a` (artifact bundle revision); companion manifest-only commit landed as branch tip `e206b4a` — sync using branch head for the freshest manifest metadata when resolving from GitHub.

@@ -13,8 +13,17 @@ The Cursor AI agent reads rules (`.cursor/rules/`), skills (`.cursor/skills/`), 
 - **No dependencies to install.** There is no `package.json`, `requirements.txt`, or equivalent.
 - **No lint, test, or build commands.** Validation is structural: JSON must be strict (no comments, no Markdown fences) and conform to `contracts/artifact-schemas.md`.
 - **67 static PNG assets** live in `assets/` (character, kitchen, utensils). The `asset-reference-system` skill maps canonical `@Names` to file paths.
-- **`agent-recipes/`** is gitignored. Daily recipe artifacts are never committed; Recipe2Video retrieves and syncs them via the Cursor SDK.
+- **`agent-recipes/` is tracked by Git.** Recipe artifacts must be committed and pushed on the project branch for each ingest/revision checkpoint.
+- **GitHub is the primary sync source.** Recipe2Video resolves artifacts from the checkpoint commit SHA on GitHub, with SDK snapshots only as a secondary fallback for non-JSON notes.
 - **`examples/paris-brest/`** is the canonical worked example showing the full artifact set.
+
+### Required checkpoint output
+
+At the end of a run, include a machine-readable JSON block in the final response:
+
+```json
+{"recipe2videoCheckpoint":{"branch":"<branch>","commitSha":"<sha>","manifestPath":"agent-recipes/{videoId}/checkpoint-manifest.json"}}
+```
 
 ### Validating artifacts
 

@@ -38,3 +38,10 @@
 - Kept `checkpoint-manifest.json` parser-friendly with top-level `latestPushedCommitSha` and `artifacts`.
 - Added `checkpoint-manifest.json` to the manifest `artifacts` list so the sync package advertises the checkpoint file explicitly.
 - Committed and pushed parser-compatible artifacts in commit `26000f2933a199f9aef85f05e498478033c3d9a0`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.
+
+## 2026-05-10 - recipe_ingest strict recipe-analysis contract normalization
+
+- Updated `recipe-analysis.json` in this run to match strict contract types.
+- Converted `recipe.timing` to `prep`, `cook`, and `total` keys.
+- Converted `criticalTransformations` and `possibleHooks` to arrays of plain strings.
+- Confirmed `visualTextureOpportunities` and `promptPolicySources` remain arrays of plain strings.

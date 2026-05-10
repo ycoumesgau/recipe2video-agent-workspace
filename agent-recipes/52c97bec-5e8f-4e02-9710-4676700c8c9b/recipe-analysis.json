@@ -249,40 +249,15 @@
       "Target a 60-second vertical ASMR food video with Seedance 2 References mode and no generated media launched from this workspace."
     ],
     "timing": {
-      "prepTime": "15 minutes",
-      "cookTime": "45 minutes",
-      "totalRecipeTime": "1 hour",
-      "videoTargetDurationSeconds": 60
+      "prep": "15 minutes",
+      "cook": "45 minutes",
+      "total": "1 hour"
     },
     "criticalTransformations": [
-      {
-        "id": "sauce-roux-to-glossy-red",
-        "block": "red enchilada sauce",
-        "description": "Oil and flour roux blooms with chili powder and spices, then stock turns it into a smooth brick-red sauce.",
-        "visibleEvidence": "spice paste darkens, stock loosens lumps, sauce simmers until it coats a spoon",
-        "referenceNeed": "glossy finished red sauce reference recommended"
-      },
-      {
-        "id": "raw-to-cooked-chicken",
-        "block": "chicken-bean filling",
-        "description": "Diced chicken cooks with onion and green chiles before black beans are folded in.",
-        "visibleEvidence": "chicken cubes become opaque, steam rises, chile flecks cling to pan juices",
-        "referenceNeed": "handled by hard cuts and close pan prompts"
-      },
-      {
-        "id": "rolled-enchilada-row-geometry",
-        "block": "assembly",
-        "description": "Filled tortillas become a neat row of eight cylinders in a baking dish.",
-        "visibleEvidence": "parallel seams, rounded tortilla ridges, sauce pooled between rolls",
-        "referenceNeed": "unbaked row state reference recommended"
-      },
-      {
-        "id": "bake-to-melty-crisp",
-        "block": "bake",
-        "description": "Sauced and cheesed rolls bake until the filling is hot, cheese melts, and tortilla edges crisp.",
-        "visibleEvidence": "bubbling cheese, small brown blisters, red sauce simmering at edges, steam",
-        "referenceNeed": "baked cheese blister state reference recommended"
-      }
+      "Oil and flour roux blooms with chili powder and spices, then stock turns it into a smooth brick-red sauce that coats a spoon.",
+      "Diced chicken cooks with onion and green chiles until opaque before black beans are folded through the steaming filling.",
+      "Filled tortillas roll into eight distinct seam-side-down cylinders with rounded ridges in a rectangular baking dish.",
+      "Sauced and cheesed rolls bake until the filling is hot, cheese bubbles and blisters, sauce simmers at the edges, and tortilla tips crisp."
     ],
     "visualTextureOpportunities": [
       "Glossy brick-red enchilada sauce ribbon dragged across a soft flour tortilla.",
@@ -297,21 +272,9 @@
       "Final spatula lift with cheese stretch and steam."
     ],
     "possibleHooks": [
-      {
-        "id": "sauce-ribbon-on-tortilla",
-        "description": "A glossy red enchilada sauce ribbon sweeps across a tortilla in the first second, then hard-cuts back to the sauce bubbling in the pan.",
-        "reason": "Texture-first, immediately ties the final assembly to the homemade sauce."
-      },
-      {
-        "id": "cheese-blister-bake-reveal",
-        "description": "Open on bubbling baked cheese and crisp red-sauced edges, then jump back to assembly.",
-        "reason": "Strong payoff but risks feeling like final-dish hook; not selected as primary."
-      },
-      {
-        "id": "spatula-lift-cheese-stretch",
-        "description": "Hot enchilada lifted from the pan with cheese strands stretching.",
-        "reason": "High satisfaction, reserved for ending to avoid opening on final serving."
-      }
+      "A glossy red enchilada sauce ribbon sweeps across a tortilla in the first second, then hard-cuts back to the sauce bubbling in the pan.",
+      "Bubbling baked cheese and crisp red-sauced edges appear as a payoff beat, then the edit jumps back to assembly.",
+      "A hot enchilada lifts from the pan with cheese strands stretching, reserved for the ending rather than the opening."
     ],
     "promptPolicySources": [
       "recipe-ingest",
@@ -323,7 +286,8 @@
       "checkpoint-contract-fix",
       "parser-workspace-rule-fix",
       "github-consistency-retry-patch",
-      "manifest-parser-compatibility-fix"
+      "manifest-parser-compatibility-fix",
+      "recipe-analysis-strict-contract-normalization"
     ]
   },
   "clarifyingQuestions": []

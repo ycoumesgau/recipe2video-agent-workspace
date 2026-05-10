@@ -1,5 +1,11 @@
 # Changelog — 920e2fd0-d6db-4a34-8709-ac9e90bd157a
 
+## Reference plan schema fix (Recipe2Video validator)
+
+- Rewrote `reference-plan.json` to match the **Paris-Brest exemplar**: `existing_asset` + `planned` for bundled kitchen/utensil/character references, `recipe_state` + `generated_reference_needed` + `planned` for all `GPTState*` stills, removed invalid `ready_png`, `food_state`, `character_pose`, and `agent_reference_plan` combinations that broke Zod (or equivalent) validation downstream.
+- Expanded each `recipe_state.prompt` into a concise imperative generation brief consistent with `contracts/reference-image-generation.md`.
+- Updated `decisions.md` with the contract delta notes; bumped `checkpoint-manifest.json` `stage` to `general` after the repair pass.
+
 ## Ingest checkpoint (Chicken Enchiladas)
 
 - Added `recipe-analysis.json` consolidating main casserole workflow plus mirrored Southwest red sauce steps sourced from sibling Gimme Some Oven page; enumerated assumptions, fragile transformations, TikTok-detail hooks, and three clarifying questions about tortilla fidelity, melting cheese characterization, garnish hero emphasis.

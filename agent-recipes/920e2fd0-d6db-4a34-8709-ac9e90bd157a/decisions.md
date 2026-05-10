@@ -24,6 +24,15 @@ Roughly **sixty-seven percent logical scenes classify as macro detail beats** co
 
 Eight Seedance segments map overlapping arcs to conserve reference budget (`<=9` per segment) while still isolating bake blister risk, lift stretch ASMR, and Licorn closure satisfaction.
 
+## Reference plan contract repair (general stage)
+
+Recipe2Video rejected the first `reference-plan.json` ingest because it diverged from the **production enum** demonstrated in `examples/paris-brest/reference-plan.json`. Corrections applied:
+
+- Bundled Licorn PNG anchors now use `source: "existing_asset"` plus `status: "planned"` (replacing the non-contract `agent_reference_plan` / `ready_png` pairing).
+- Planned GPT Image stills use `type: "recipe_state"` with `source: "generated_reference_needed"` (replacing `food_state` and the incorrect `agent_reference_plan` source).
+- Licorn pose PNGs remain listed with `type: "character"` alongside `CharacterSheet` / `CharacterExpressions`, matching the bundled character library rather than inventing a `character_pose` discriminator the validator does not expose in the Paris example.
+- `recipe_state.prompt` fields were rewritten as imperative “Generate …” briefs to mirror the Paris-Brest metadata style the app expects prior to reference generation.
+
 ## Checkpoint manifests and Git ancestry
 
 Git history uses two pushes: ingest commit **`00ef39a` houses every creative JSON/Markdown payload**, then **`e206b4a`** appends checkpoint manifest bookkeeping so `checkpoint-manifest.commitSha` currently references **`00ef39a`**. Operational sync should still read manifests from the tracked branch HEAD so GitHub ingestion picks up the manifest update while using the pinned hash when a reproducible artifact snapshot identifier is explicitly required elsewhere in Recipe2Video.

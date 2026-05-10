@@ -1,0 +1,52 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "global kitchen identity for all Seedance segments",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use only to preserve the Licorn kitchen surfaces, island, material identity, lighting and final hero-shot context. Do not copy exact framing when a macro shot is required.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-05"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "RawChouxCrownFrame",
+      "role": "raw Paris-Brest crown topology before baking",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a raw Paris-Brest crown made of separate piped choux domes touching in a circular ring, each topped with a neat crumble disc. It is not a smooth ring and has no flat edible base underneath.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-05"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "BakedChouxCrownFrame",
+      "role": "baked target topology after oven reveal",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate the same Paris-Brest crown baked: separate puffed golden choux domes touching in a ring, cracked crumble tops, airy structure, light steam. It is not a smooth donut ring.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-05"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FilledCrownFrame",
+      "role": "filled Paris-Brest target state for assembly",
+      "priority": 2,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a horizontally opened Paris-Brest crown filled with satin praline cream rosettes, preserving the repeated choux dome topology.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-07"],
+      "status": "planned"
+    }
+  ]
+}

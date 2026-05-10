@@ -1,0 +1,86 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "paris-brest-example",
+      "position": 1,
+      "title": "Hook praline",
+      "arc": "praline",
+      "mode": "References",
+      "logicalSceneIds": ["scene-01", "scene-02", "scene-03", "scene-04"],
+      "description": "Caramel pour, brittle crack, blender, smooth praline ribbon.",
+      "prompt": "Use @KitchenIslandOverhead for overhead countertop actions. Use @KitchenIslandDefault to preserve kitchen identity if the shot becomes wider. Use @BakingMat, @SaucepanLarge, @RollingPin, @Blender and @Spoon only as object references. Use @CharacterSheet and @PoseTopDown to preserve character hands. Generate exactly 8 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.7s amber caramel pours; 0.7-1.2s glossy puddle spreads; 1.2-1.7s caramel is hardened glass, rolling pin raised; 1.7-2.1s one vertical hit, no rolling; 2.1-2.6s brittle angular shards; 2.6-3.5s shards and hazelnuts in blender; 3.5-4.2s quick vortex; 4.2-5.0s smooth praline ribbon on spoon. Global negatives: no rolling pin handles, no spreading gesture, no grainy paste on mat, no text.",
+      "promptInitial": "Use @KitchenIslandOverhead for overhead countertop actions. Use @KitchenIslandDefault to preserve kitchen identity if the shot becomes wider. Use @BakingMat, @SaucepanLarge, @RollingPin, @Blender and @Spoon only as object references. Use @CharacterSheet and @PoseTopDown to preserve character hands. Generate exactly 8 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.7s amber caramel pours; 0.7-1.2s glossy puddle spreads; 1.2-1.7s caramel is hardened glass, rolling pin raised; 1.7-2.1s one vertical hit, no rolling; 2.1-2.6s brittle angular shards; 2.6-3.5s shards and hazelnuts in blender; 3.5-4.2s quick vortex; 4.2-5.0s smooth praline ribbon on spoon. Global negatives: no rolling pin handles, no spreading gesture, no grainy paste on mat, no text.",
+      "references": [
+        { "role": "overhead countertop identity", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "required": true },
+        { "role": "global kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "required": true },
+        { "role": "silicone mat topology", "name": "BakingMat", "label": "BakingMat", "required": true },
+        { "role": "saucepan shape", "name": "SaucepanLarge", "label": "SaucepanLarge", "required": true },
+        { "role": "rolling pin shape only", "name": "RollingPin", "label": "RollingPin", "required": true },
+        { "role": "blender shape", "name": "Blender", "label": "Blender", "required": true },
+        { "role": "spoon shape", "name": "Spoon", "label": "Spoon", "required": true },
+        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "required": true },
+        { "role": "top-down hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "required": true }
+      ],
+      "beats": ["caramel pour", "brittle crack", "blender vortex", "praline ribbon"],
+      "timing": ["0.0-0.7s caramel pour", "1.7-2.1s crack", "4.2-5.0s praline ribbon"],
+      "continuity": "Opening segment.",
+      "risk": "Rolling pin can be misread as spreading. Lock vertical mallet hit.",
+      "audioPrompt": "hot caramel pour; brittle crack; blender; sticky praline ribbon",
+      "negatives": ["no text", "no music", "no rolling pin handles", "no spreading gesture"],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction"]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "paris-brest-example",
+      "position": 5,
+      "title": "Bake and reveal choux crown",
+      "arc": "choux",
+      "mode": "References",
+      "logicalSceneIds": ["scene-19", "scene-20", "scene-21"],
+      "description": "Oven insertion, hard cut from raw crown to baked crown, golden cracked reveal.",
+      "prompt": "Use @OvenWide for the already-open oven context. Use @OvenCloseup for the baked reveal. Use @KitchenIslandDefault only for kitchen identity. Use @RawChouxCrownFrame only for the raw separate piped choux domes touching in a ring. Use @BakedChouxCrownFrame only as the target baked topology: puffed golden separate domes, cracked crumble, not a smooth ring. Generate exactly 5 short shots with hard cuts, total duration 6 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s tray slides into already-open oven; 1.0-2.0s raw crown reference visible; 2.0-2.3s hard cut; 2.3-4.0s baked crown reference topology appears; 4.0-6.0s steam and crisp cracked crumble close-up. Global negatives: no smooth donut ring, no invented base disc, no melting choux, no oven door manipulation.",
+      "promptInitial": "Use @OvenWide for the already-open oven context. Use @OvenCloseup for the baked reveal. Use @KitchenIslandDefault only for kitchen identity. Use @RawChouxCrownFrame only for the raw separate piped choux domes touching in a ring. Use @BakedChouxCrownFrame only as the target baked topology: puffed golden separate domes, cracked crumble, not a smooth ring. Generate exactly 5 short shots with hard cuts, total duration 6 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s tray slides into already-open oven; 1.0-2.0s raw crown reference visible; 2.0-2.3s hard cut; 2.3-4.0s baked crown reference topology appears; 4.0-6.0s steam and crisp cracked crumble close-up. Global negatives: no smooth donut ring, no invented base disc, no melting choux, no oven door manipulation.",
+      "references": [
+        { "role": "oven context", "name": "OvenWide", "label": "OvenWide", "required": true },
+        { "role": "baked reveal angle", "name": "OvenCloseup", "label": "OvenCloseup", "required": true },
+        { "role": "global kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "required": true },
+        { "role": "raw crown topology", "name": "RawChouxCrownFrame", "label": "RawChouxCrownFrame", "required": true },
+        { "role": "baked crown topology", "name": "BakedChouxCrownFrame", "label": "BakedChouxCrownFrame", "required": true }
+      ],
+      "beats": ["raw crown", "hard cut", "baked crown", "cracked crumble"],
+      "timing": ["0.0-1.0s tray slide", "2.0-2.3s hard cut", "4.0-6.0s baked reveal"],
+      "continuity": "Requires raw and baked state references created before Seedance.",
+      "risk": "Seedance may smooth the Paris-Brest into a donut ring. State references are mandatory.",
+      "audioPrompt": "tray slide; oven warmth; crisp crackle",
+      "negatives": ["no smooth ring", "no base disc", "no free morphing"],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference"]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    }
+  ]
+}

@@ -52,3 +52,4 @@
 - Updated `recipe-analysis.json` in this run by recording `reference-insert-null-id-fix` and `strict-ingest-artifacts-retry` in `promptPolicySources`.
 - Removed null `runwayUri` and `mediaAssetId` fields from `reference-plan.json` and `seedance-segments.json` reference objects.
 - Preserved strict `recipe-analysis.json` contract types: timing uses `prep`, `cook`, `total`; contract list fields remain arrays of plain strings.
+- Committed and pushed the null-id-safe strict ingest artifacts in commit `c33e526307f35bf5d461cb1efc1f1e4649f537d0`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.

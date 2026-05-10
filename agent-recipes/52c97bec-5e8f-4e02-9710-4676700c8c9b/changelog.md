@@ -37,3 +37,4 @@
 - Updated `recipe-analysis.json` in this run by recording `manifest-parser-compatibility-fix` in `promptPolicySources`.
 - Kept `checkpoint-manifest.json` parser-friendly with top-level `latestPushedCommitSha` and `artifacts`.
 - Added `checkpoint-manifest.json` to the manifest `artifacts` list so the sync package advertises the checkpoint file explicitly.
+- Committed and pushed parser-compatible artifacts in commit `26000f2933a199f9aef85f05e498478033c3d9a0`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.

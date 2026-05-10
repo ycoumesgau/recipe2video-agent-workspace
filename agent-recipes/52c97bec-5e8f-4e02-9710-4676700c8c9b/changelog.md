@@ -46,3 +46,9 @@
 - Converted `criticalTransformations` and `possibleHooks` to arrays of plain strings.
 - Confirmed `visualTextureOpportunities` and `promptPolicySources` remain arrays of plain strings.
 - Committed and pushed the normalized artifacts in commit `9c969a3813442fde8273f5a86a4bb7231dbbe241`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.
+
+## 2026-05-10 - recipe_ingest retry after reference insert null-id fix
+
+- Updated `recipe-analysis.json` in this run by recording `reference-insert-null-id-fix` and `strict-ingest-artifacts-retry` in `promptPolicySources`.
+- Removed null `runwayUri` and `mediaAssetId` fields from `reference-plan.json` and `seedance-segments.json` reference objects.
+- Preserved strict `recipe-analysis.json` contract types: timing uses `prep`, `cook`, `total`; contract list fields remain arrays of plain strings.

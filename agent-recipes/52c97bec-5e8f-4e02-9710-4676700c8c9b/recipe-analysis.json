@@ -287,7 +287,9 @@
       "parser-workspace-rule-fix",
       "github-consistency-retry-patch",
       "manifest-parser-compatibility-fix",
-      "recipe-analysis-strict-contract-normalization"
+      "recipe-analysis-strict-contract-normalization",
+      "reference-insert-null-id-fix",
+      "strict-ingest-artifacts-retry"
     ]
   },
   "clarifyingQuestions": []

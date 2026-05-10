@@ -7,9 +7,16 @@
       "priority": 1,
       "source": "existing_asset",
       "prompt": "Use only to preserve the Licorn kitchen surfaces, island, material identity, lighting, and final hero-shot context. Do not copy exact framing when a macro shot is required.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -19,9 +26,13 @@
       "priority": 1,
       "source": "existing_asset",
       "prompt": "Use only for overhead food action on the island. Keep visible hands and macro food textures dominant.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-03", "segment-04", "segment-05", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -31,9 +42,10 @@
       "priority": 1,
       "source": "existing_asset",
       "prompt": "Use for pan and saucepan close-ups on induction. Do not show flames or burner glow.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02"
+      ],
       "status": "planned"
     },
     {
@@ -43,9 +55,9 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use for the oven insertion context only. The oven door must already be open and not manipulated.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -55,9 +67,9 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use for close baked reveal only: bubbling cheese, steam, and crisp tortilla edges.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -67,9 +79,16 @@
       "priority": 1,
       "source": "existing_asset",
       "prompt": "Use for character identity, especially visible hands. Do not re-describe the character from scratch.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -79,9 +98,9 @@
       "priority": 3,
       "source": "existing_asset",
       "prompt": "Use only for the final satisfied expression; no exaggerated acting, no speaking.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -91,9 +110,14 @@
       "priority": 1,
       "source": "existing_asset",
       "prompt": "Use for top-down sauce, filling, rolling, cheese, and topping actions where hands must be visible.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -103,9 +127,10 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use for three-quarter character body positioning during oven handling and the final plate presentation.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-06",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -115,9 +140,9 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use only as the saucepan object reference for roux, whisking, and simmering shots.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01"],
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
       "status": "planned"
     },
     {
@@ -127,9 +152,9 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use only as the whisk object reference; keep the whisk visibly held by Licorn hands.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01"],
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
       "status": "planned"
     },
     {
@@ -139,9 +164,13 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use as spoon shape only. Avoid floating spoon actions by requiring visible hands.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-03", "segment-05", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-05",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -151,9 +180,9 @@
       "priority": 2,
       "source": "existing_asset",
       "prompt": "Use as serving spatula shape only for lifting one enchilada from the pan.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -163,9 +192,12 @@
       "priority": 1,
       "source": "existing_asset",
       "prompt": "Use the rectangular dish shape to preserve the 9 x 13-inch pan feel and row geometry.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03", "segment-04", "segment-05", "segment-06"],
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -175,9 +207,10 @@
       "priority": 3,
       "source": "existing_asset",
       "prompt": "Use only as an object reference when diced chicken or chopped toppings need a prep surface.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -187,9 +220,10 @@
       "priority": 3,
       "source": "existing_asset",
       "prompt": "Use as object shape only; do not add extra knife-work shots unless explicitly prompted.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -199,9 +233,9 @@
       "priority": 4,
       "source": "existing_asset",
       "prompt": "Use only if a pan-handling utensil appears in the filling segment.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02"],
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
       "status": "planned"
     },
     {
@@ -211,9 +245,10 @@
       "priority": 1,
       "source": "generated_reference_needed",
       "prompt": "Generate a macro overhead reference of smooth tomato-free red enchilada sauce in a spoon and shallow saucepan: deep brick-red chili-spice color, glossy medium-thick viscosity, coating the back of a spoon with a clean drip edge, no tomato chunks, no salsa texture, no garnish.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-03"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03"
+      ],
       "status": "planned"
     },
     {
@@ -223,9 +258,11 @@
       "priority": 1,
       "source": "generated_reference_needed",
       "prompt": "Generate an overhead reference of eight large flour-tortilla chicken enchiladas rolled seam-side down in a rectangular baking dish, neat parallel rounded cylinders, lightly covered with glossy red enchilada sauce and shredded Mexican-blend cheese. Rolls must remain distinct; not a flat casserole or lasagna.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03", "segment-04", "segment-05"],
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04",
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -235,9 +272,12 @@
       "priority": 1,
       "source": "generated_reference_needed",
       "prompt": "Generate a close reference of baked chicken enchiladas in a rectangular dish: melted Mexican-blend cheese bubbling and lightly blistered, brick-red sauce visible between rounded tortilla ridges, slightly crisp tortilla tips at the edges, light steam, not charred, not flat.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -247,9 +287,10 @@
       "priority": 1,
       "source": "generated_reference_needed",
       "prompt": "Generate a final plated chicken enchilada in the Licorn kitchen context: one saucy red enchilada with melted cheese, cilantro, diced avocado, diced red onion, sour cream ribbon, crumbled cotija, light steam, glossy sauce, appetizing but not messy, no bite taken, no text.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     }
   ]

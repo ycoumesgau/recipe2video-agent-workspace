@@ -7,27 +7,95 @@
       "title": "Glossy red sauce hook",
       "arc": "sauce hook",
       "mode": "References",
-      "logicalSceneIds": ["scene-01", "scene-02", "scene-03", "scene-04", "scene-05"],
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05"
+      ],
       "description": "Texture-first sauce smear, then chili-spice roux, stock whisk, simmer, and spoon-coating payoff.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead tortilla and spoon actions. Use @InductionCloseup only for the saucepan simmer and whisking shots. Use @SaucepanLarge, @Whisk and @Spoon only as object references. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @RedEnchiladaSauceGlossyFrame only as the finished sauce texture target: glossy brick-red, medium-thick, no tomato chunks. Generate exactly 5 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR sounds synchronized with food actions. Mandatory timing: 0.0-1.0s spoon drags glossy red sauce across a soft flour tortilla; 1.0-2.4s hard cut to saucepan lightly bubbling on induction; 2.4-3.8s chili powder and spices bloom in roux as whisk pulls dark paste; 3.8-5.6s stock streams in while whisk smooths sauce; 5.6-7.0s finished sauce coats the back of a spoon in one thick glossy pull. Global negatives: no flame, no text, no captions, no music, no voice, no tomato chunks, no floating spoon, no extra hands, no sauce splashing outside the pan.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead tortilla and spoon actions. Use @InductionCloseup only for the saucepan simmer and whisking shots. Use @SaucepanLarge, @Whisk and @Spoon only as object references. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @RedEnchiladaSauceGlossyFrame only as the finished sauce texture target: glossy brick-red, medium-thick, no tomato chunks. Generate exactly 5 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR sounds synchronized with food actions. Mandatory timing: 0.0-1.0s spoon drags glossy red sauce across a soft flour tortilla; 1.0-2.4s hard cut to saucepan lightly bubbling on induction; 2.4-3.8s chili powder and spices bloom in roux as whisk pulls dark paste; 3.8-5.6s stock streams in while whisk smooths sauce; 5.6-7.0s finished sauce coats the back of a spoon in one thick glossy pull. Global negatives: no flame, no text, no captions, no music, no voice, no tomato chunks, no floating spoon, no extra hands, no sauce splashing outside the pan.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "overhead island action framing", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "induction stovetop close-up context", "name": "InductionCloseup", "label": "InductionCloseup", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "saucepan shape", "name": "SaucepanLarge", "label": "SaucepanLarge", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "whisk shape", "name": "Whisk", "label": "Whisk", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "spoon shape and sauce-coating action", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down visible hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "finished red enchilada sauce texture target", "name": "RedEnchiladaSauceGlossyFrame", "label": "RedEnchiladaSauceGlossyFrame", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "overhead island action framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "induction stovetop close-up context",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "required": true
+        },
+        {
+          "role": "saucepan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "required": true
+        },
+        {
+          "role": "whisk shape",
+          "name": "Whisk",
+          "label": "Whisk",
+          "required": true
+        },
+        {
+          "role": "spoon shape and sauce-coating action",
+          "name": "Spoon",
+          "label": "Spoon",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        },
+        {
+          "role": "finished red enchilada sauce texture target",
+          "name": "RedEnchiladaSauceGlossyFrame",
+          "label": "RedEnchiladaSauceGlossyFrame",
+          "required": true
+        }
       ],
-      "beats": ["sauce smear hook", "spice roux bloom", "stock whisk", "glossy spoon coat"],
-      "timing": ["0.0-1.0s sauce smear hook", "2.4-3.8s spice roux", "3.8-5.6s stock whisk", "5.6-7.0s spoon coating"],
+      "beats": [
+        "sauce smear hook",
+        "spice roux bloom",
+        "stock whisk",
+        "glossy spoon coat"
+      ],
+      "timing": [
+        "0.0-1.0s sauce smear hook",
+        "2.4-3.8s spice roux",
+        "3.8-5.6s stock whisk",
+        "5.6-7.0s spoon coating"
+      ],
       "continuity": "Opening segment. The sauce on the tortilla is immediately re-anchored to the homemade sauce process.",
       "risk": "Dark sauce may be misread as tomato sauce or salsa. The sauce state reference and no-tomato-chunks negative keep it as smooth chili-spice enchilada sauce.",
       "audioPrompt": "wet spoon smear; soft simmer; whisk scrape; liquid pour; thick sauce drip",
-      "negatives": ["no text", "no music", "no speech", "no flame", "no tomato chunks", "no floating utensils"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no flame",
+        "no tomato chunks",
+        "no floating utensils"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -38,7 +106,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 7,
       "status": "ready"
@@ -50,25 +123,84 @@
       "title": "Chicken, chiles, and beans sizzle",
       "arc": "sizzle filling",
       "mode": "References",
-      "logicalSceneIds": ["scene-06", "scene-07", "scene-08", "scene-09", "scene-10"],
+      "logicalSceneIds": [
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10"
+      ],
       "description": "Onion sizzle, diced chicken, green chiles, black beans, and a steaming filling lift.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @InductionCloseup only for pan cooking shots. Use @cutting_board and @chef_knife only as object references for diced chicken preparation, not as extra actions. Use @tongs only as a pan-handling utensil reference if needed. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Generate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, close macro food action, no text on screen. Integrated audio: no speech, no voiceover, no music. Only synchronized saute, sizzle, scrape and steam sounds. Mandatory timing: 0.0-1.3s diced onion hits shimmering oil; 1.3-2.7s small chicken cubes slide from cutting board into pan; 2.7-4.3s hard cut to opaque cooked chicken as green chiles scatter over it; 4.3-6.0s black beans fold through with one turning motion; 6.0-8.0s spoon lifts steaming chunky filling with chicken, beans, onion and green chile flecks. Global negatives: no raw chicken after 2.7s, no flame, no text, no music, no voice, no olives, no floating tools, no second pair of hands.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @InductionCloseup only for pan cooking shots. Use @cutting_board and @chef_knife only as object references for diced chicken preparation, not as extra actions. Use @tongs only as a pan-handling utensil reference if needed. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Generate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, close macro food action, no text on screen. Integrated audio: no speech, no voiceover, no music. Only synchronized saute, sizzle, scrape and steam sounds. Mandatory timing: 0.0-1.3s diced onion hits shimmering oil; 1.3-2.7s small chicken cubes slide from cutting board into pan; 2.7-4.3s hard cut to opaque cooked chicken as green chiles scatter over it; 4.3-6.0s black beans fold through with one turning motion; 6.0-8.0s spoon lifts steaming chunky filling with chicken, beans, onion and green chile flecks. Global negatives: no raw chicken after 2.7s, no flame, no text, no music, no voice, no olives, no floating tools, no second pair of hands.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "induction pan cooking context", "name": "InductionCloseup", "label": "InductionCloseup", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "cutting board shape", "name": "cutting_board", "label": "cutting_board", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "chef knife shape only", "name": "chef_knife", "label": "chef_knife", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "tongs shape if pan utensil appears", "name": "tongs", "label": "tongs", "runwayUri": null, "mediaAssetId": null, "required": false },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down visible hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "induction pan cooking context",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "required": true
+        },
+        {
+          "role": "cutting board shape",
+          "name": "cutting_board",
+          "label": "cutting_board",
+          "required": true
+        },
+        {
+          "role": "chef knife shape only",
+          "name": "chef_knife",
+          "label": "chef_knife",
+          "required": true
+        },
+        {
+          "role": "tongs shape if pan utensil appears",
+          "name": "tongs",
+          "label": "tongs",
+          "required": false
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        }
       ],
-      "beats": ["onion sizzle", "diced chicken drop", "green chile scatter", "black bean fold", "steaming filling lift"],
-      "timing": ["0.0-1.3s onion sizzle", "2.7-4.3s cooked chicken and chiles", "4.3-6.0s bean fold", "6.0-8.0s steam lift"],
+      "beats": [
+        "onion sizzle",
+        "diced chicken drop",
+        "green chile scatter",
+        "black bean fold",
+        "steaming filling lift"
+      ],
+      "timing": [
+        "0.0-1.3s onion sizzle",
+        "2.7-4.3s cooked chicken and chiles",
+        "4.3-6.0s bean fold",
+        "6.0-8.0s steam lift"
+      ],
       "continuity": "Follows homemade sauce. Filling remains chunky and hot for assembly.",
       "risk": "Raw chicken should not appear to remain raw; use hard cut to cooked opaque state.",
       "audioPrompt": "onion sizzle; chicken tumble; pan hiss; spatula scrape; steam lift",
-      "negatives": ["no text", "no music", "no speech", "no raw chicken after hard cut", "no flame", "no olives"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no raw chicken after hard cut",
+        "no flame",
+        "no olives"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -79,7 +211,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 8,
       "status": "ready"
@@ -91,26 +228,91 @@
       "title": "Sauce, fill, cheese, fold",
       "arc": "sauce and fill",
       "mode": "References",
-      "logicalSceneIds": ["scene-11", "scene-12", "scene-13", "scene-14", "scene-15"],
+      "logicalSceneIds": [
+        "scene-11",
+        "scene-12",
+        "scene-13",
+        "scene-14",
+        "scene-15"
+      ],
       "description": "Overhead assembly: sauce on tortilla, filling line, cheese fall, and first fold.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for the overhead assembly view. Use @Spoon only as the sauce and filling spoon reference. Use @baking_dish only as the nearby rectangular dish reference, not yet the hero. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @RedEnchiladaSauceGlossyFrame only as the red sauce texture target. Use @EnchiladaRowUnbakedFrame only as future row geometry guidance, not as the current tortilla shot. Generate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead close food assembly, no text on screen. Integrated audio: no speech, no voiceover, no music. Only tortilla, spoon, filling and cheese ASMR. Mandatory timing: 0.0-1.3s tortilla lands and red sauce dots the center; 1.3-2.8s spoon spreads sauce into a glossy oval; 2.8-4.6s chunky chicken-bean filling is placed in a straight center line; 4.6-6.0s shredded cheese falls onto the filling; 6.0-8.0s first tortilla edge folds over the filling. Global negatives: no text, no music, no voice, no ingredient lineup, no messy scattered filling, no extra rolls appearing before the hard cuts, no floating spoon.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for the overhead assembly view. Use @Spoon only as the sauce and filling spoon reference. Use @baking_dish only as the nearby rectangular dish reference, not yet the hero. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @RedEnchiladaSauceGlossyFrame only as the red sauce texture target. Use @EnchiladaRowUnbakedFrame only as future row geometry guidance, not as the current tortilla shot. Generate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead close food assembly, no text on screen. Integrated audio: no speech, no voiceover, no music. Only tortilla, spoon, filling and cheese ASMR. Mandatory timing: 0.0-1.3s tortilla lands and red sauce dots the center; 1.3-2.8s spoon spreads sauce into a glossy oval; 2.8-4.6s chunky chicken-bean filling is placed in a straight center line; 4.6-6.0s shredded cheese falls onto the filling; 6.0-8.0s first tortilla edge folds over the filling. Global negatives: no text, no music, no voice, no ingredient lineup, no messy scattered filling, no extra rolls appearing before the hard cuts, no floating spoon.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "overhead island assembly framing", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "spoon shape for sauce and filling", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "rectangular baking dish shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down visible hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "red sauce texture target", "name": "RedEnchiladaSauceGlossyFrame", "label": "RedEnchiladaSauceGlossyFrame", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "future unbaked row topology guidance", "name": "EnchiladaRowUnbakedFrame", "label": "EnchiladaRowUnbakedFrame", "runwayUri": null, "mediaAssetId": null, "required": false }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "overhead island assembly framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "spoon shape for sauce and filling",
+          "name": "Spoon",
+          "label": "Spoon",
+          "required": true
+        },
+        {
+          "role": "rectangular baking dish shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        },
+        {
+          "role": "red sauce texture target",
+          "name": "RedEnchiladaSauceGlossyFrame",
+          "label": "RedEnchiladaSauceGlossyFrame",
+          "required": true
+        },
+        {
+          "role": "future unbaked row topology guidance",
+          "name": "EnchiladaRowUnbakedFrame",
+          "label": "EnchiladaRowUnbakedFrame",
+          "required": false
+        }
       ],
-      "beats": ["tortilla down", "sauce oval", "filling line", "cheese fall", "first fold"],
-      "timing": ["0.0-1.3s tortilla and sauce", "1.3-2.8s sauce spread", "2.8-4.6s filling line", "4.6-6.0s cheese fall", "6.0-8.0s fold"],
+      "beats": [
+        "tortilla down",
+        "sauce oval",
+        "filling line",
+        "cheese fall",
+        "first fold"
+      ],
+      "timing": [
+        "0.0-1.3s tortilla and sauce",
+        "1.3-2.8s sauce spread",
+        "2.8-4.6s filling line",
+        "4.6-6.0s cheese fall",
+        "6.0-8.0s fold"
+      ],
       "continuity": "Uses the sauce and filling from the first two segments; begins the repeated enchilada assembly.",
       "risk": "Assembly can become a neutral ingredient lineup. Keep every shot action-based and macro.",
       "audioPrompt": "tortilla slap; wet spoon smear; warm filling drop; cheese scatter; soft tortilla fold",
-      "negatives": ["no text", "no music", "no speech", "no ingredient lineup", "no floating tools", "no messy scatter"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no ingredient lineup",
+        "no floating tools",
+        "no messy scatter"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -121,7 +323,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 8,
       "status": "ready"
@@ -133,24 +340,79 @@
       "title": "Neat enchilada rows",
       "arc": "roll rows",
       "mode": "References",
-      "logicalSceneIds": ["scene-16", "scene-17", "scene-18", "scene-19", "scene-20"],
+      "logicalSceneIds": [
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19",
+        "scene-20"
+      ],
       "description": "Rolling and placing enchiladas seam-side down, then completing the row geometry.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead row-building shots. Use @baking_dish only as the rectangular greased baking dish reference. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @EnchiladaRowUnbakedFrame only as the target topology: eight rolled flour tortillas in parallel rows, rounded ridges, seam-side down, not flat casserole layers. Generate exactly 5 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead tactile assembly, no text on screen. Integrated audio: no speech, no voiceover, no music. Only tortilla roll, pan tap, and sauce drip ASMR. Mandatory timing: 0.0-1.3s one enchilada rolls closed in a single smooth motion; 1.3-2.7s roll is placed seam-side down into the greased baking dish; 2.7-3.9s hard cut to several parallel rolls snug in the dish; 3.9-5.4s final roll slides into the last gap; 5.4-7.0s thin red sauce streak appears between two unbaked rolls. Global negatives: no text, no music, no voice, no flat lasagna slab, no torn tortillas, no multiple hands crossing, no extra shots.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead row-building shots. Use @baking_dish only as the rectangular greased baking dish reference. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @EnchiladaRowUnbakedFrame only as the target topology: eight rolled flour tortillas in parallel rows, rounded ridges, seam-side down, not flat casserole layers. Generate exactly 5 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead tactile assembly, no text on screen. Integrated audio: no speech, no voiceover, no music. Only tortilla roll, pan tap, and sauce drip ASMR. Mandatory timing: 0.0-1.3s one enchilada rolls closed in a single smooth motion; 1.3-2.7s roll is placed seam-side down into the greased baking dish; 2.7-3.9s hard cut to several parallel rolls snug in the dish; 3.9-5.4s final roll slides into the last gap; 5.4-7.0s thin red sauce streak appears between two unbaked rolls. Global negatives: no text, no music, no voice, no flat lasagna slab, no torn tortillas, no multiple hands crossing, no extra shots.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "overhead row-building framing", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "rectangular baking dish shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down visible hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "unbaked enchilada row topology target", "name": "EnchiladaRowUnbakedFrame", "label": "EnchiladaRowUnbakedFrame", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "overhead row-building framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "rectangular baking dish shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        },
+        {
+          "role": "unbaked enchilada row topology target",
+          "name": "EnchiladaRowUnbakedFrame",
+          "label": "EnchiladaRowUnbakedFrame",
+          "required": true
+        }
       ],
-      "beats": ["roll closed", "seam-side placement", "parallel rows", "final gap filled", "sauce streak bridge"],
-      "timing": ["0.0-1.3s roll", "1.3-2.7s placement", "2.7-3.9s rows", "3.9-5.4s final roll", "5.4-7.0s sauce streak"],
+      "beats": [
+        "roll closed",
+        "seam-side placement",
+        "parallel rows",
+        "final gap filled",
+        "sauce streak bridge"
+      ],
+      "timing": [
+        "0.0-1.3s roll",
+        "1.3-2.7s placement",
+        "2.7-3.9s rows",
+        "3.9-5.4s final roll",
+        "5.4-7.0s sauce streak"
+      ],
       "continuity": "Builds from individual tortilla fold into the full unbaked pan geometry needed before saucing.",
       "risk": "The row structure can collapse into a flat casserole. Use the unbaked row reference as mandatory topology.",
       "audioPrompt": "soft tortilla roll; gentle pan tap; dish slide; small sauce drip",
-      "negatives": ["no text", "no music", "no speech", "no flat casserole", "no torn tortillas", "no extra hands"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no flat casserole",
+        "no torn tortillas",
+        "no extra hands"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -161,7 +423,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 7,
       "status": "ready"
@@ -173,26 +440,91 @@
       "title": "Sauce blanket and cheese shower",
       "arc": "sauce blanket",
       "mode": "References",
-      "logicalSceneIds": ["scene-21", "scene-22", "scene-23", "scene-24", "scene-25"],
+      "logicalSceneIds": [
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24",
+        "scene-25"
+      ],
       "description": "Remaining red sauce covers the unbaked rows, cheese falls, and the pan becomes oven-ready.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead saucing and cheese shots. Use @baking_dish only as the rectangular dish reference. Use @Spoon only as the spreading spoon reference. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @EnchiladaRowUnbakedFrame as the unbaked row topology: rounded tortilla ridges must remain visible under sauce. Use @BakedCheeseBlisterFrame only as future baked target, not before oven. Generate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead saucy macro, no text on screen. Integrated audio: no speech, no voiceover, no music. Only thick sauce pour, spoon glide, cheese scatter and dish slide sounds. Mandatory timing: 0.0-1.6s red enchilada sauce pours in a thick stripe over unbaked rows; 1.6-3.0s spoon spreads sauce into valleys between rolls; 3.0-4.5s shredded cheese falls over the red-sauced pan; 4.5-6.1s macro still-like view of sauce and cheese hugging raised tortilla edges; 6.1-8.0s full oven-ready dish slides on the island. Global negatives: no text, no music, no voice, no flat casserole slab, no disappearing roll ridges, no burnt cheese before oven, no floating spoon.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead saucing and cheese shots. Use @baking_dish only as the rectangular dish reference. Use @Spoon only as the spreading spoon reference. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @EnchiladaRowUnbakedFrame as the unbaked row topology: rounded tortilla ridges must remain visible under sauce. Use @BakedCheeseBlisterFrame only as future baked target, not before oven. Generate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead saucy macro, no text on screen. Integrated audio: no speech, no voiceover, no music. Only thick sauce pour, spoon glide, cheese scatter and dish slide sounds. Mandatory timing: 0.0-1.6s red enchilada sauce pours in a thick stripe over unbaked rows; 1.6-3.0s spoon spreads sauce into valleys between rolls; 3.0-4.5s shredded cheese falls over the red-sauced pan; 4.5-6.1s macro still-like view of sauce and cheese hugging raised tortilla edges; 6.1-8.0s full oven-ready dish slides on the island. Global negatives: no text, no music, no voice, no flat casserole slab, no disappearing roll ridges, no burnt cheese before oven, no floating spoon.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "overhead saucing and cheese framing", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "rectangular baking dish shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "spreading spoon shape", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down visible hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "unbaked row topology under sauce", "name": "EnchiladaRowUnbakedFrame", "label": "EnchiladaRowUnbakedFrame", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "future baked cheese target", "name": "BakedCheeseBlisterFrame", "label": "BakedCheeseBlisterFrame", "runwayUri": null, "mediaAssetId": null, "required": false }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "overhead saucing and cheese framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "rectangular baking dish shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "required": true
+        },
+        {
+          "role": "spreading spoon shape",
+          "name": "Spoon",
+          "label": "Spoon",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        },
+        {
+          "role": "unbaked row topology under sauce",
+          "name": "EnchiladaRowUnbakedFrame",
+          "label": "EnchiladaRowUnbakedFrame",
+          "required": true
+        },
+        {
+          "role": "future baked cheese target",
+          "name": "BakedCheeseBlisterFrame",
+          "label": "BakedCheeseBlisterFrame",
+          "required": false
+        }
       ],
-      "beats": ["sauce pour", "sauce spread", "cheese shower", "oven-ready macro", "dish slide"],
-      "timing": ["0.0-1.6s sauce stripe", "1.6-3.0s spoon spread", "3.0-4.5s cheese shower", "4.5-6.1s macro ready state", "6.1-8.0s dish slide"],
+      "beats": [
+        "sauce pour",
+        "sauce spread",
+        "cheese shower",
+        "oven-ready macro",
+        "dish slide"
+      ],
+      "timing": [
+        "0.0-1.6s sauce stripe",
+        "1.6-3.0s spoon spread",
+        "3.0-4.5s cheese shower",
+        "4.5-6.1s macro ready state",
+        "6.1-8.0s dish slide"
+      ],
       "continuity": "Preserves unbaked row geometry before the oven transformation.",
       "risk": "Sauce and cheese can obscure the roll topology. The prompt requires visible raised tortilla ridges.",
       "audioPrompt": "thick sauce pour; spoon glide; dry cheese scatter; dish slide",
-      "negatives": ["no text", "no music", "no speech", "no flat casserole", "no burnt cheese before oven", "no floating spoon"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no flat casserole",
+        "no burnt cheese before oven",
+        "no floating spoon"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -203,7 +535,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 8,
       "status": "ready"
@@ -215,25 +552,83 @@
       "title": "Oven bake and bubbling reveal",
       "arc": "bake reveal",
       "mode": "References",
-      "logicalSceneIds": ["scene-26", "scene-27", "scene-28", "scene-29"],
+      "logicalSceneIds": [
+        "scene-26",
+        "scene-27",
+        "scene-28",
+        "scene-29"
+      ],
       "description": "Pan enters the open oven, hard-cuts to bubbling cheese, crisp tortilla edges, then rests steaming on the island.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity and the pan resting shot. Use @OvenWide only for the already-open oven slide-in shot. Use @OvenCloseup only for the baked cheese reveal. Use @baking_dish only as the rectangular dish reference. Use @CharacterSheet and @PoseThreeQuarterRight to preserve character hands/body position during oven handling. Use @BakedCheeseBlisterFrame only as the baked target state: bubbling melted Mexican-blend cheese, brick-red sauce, slightly crisp tortilla ridges, steam. Generate exactly 4 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, hot oven reveal and macro bubbling surface, no text on screen. Integrated audio: no speech, no voiceover, no music. Only rack slide, bubbling cheese, crisp edge and pan set-down sounds. Mandatory timing: 0.0-1.6s baking dish slides into an already-open oven; 1.6-3.8s hard cut to baked enchiladas bubbling under melted cheese; 3.8-5.6s close edge shows slightly crisp tortilla tips through sauce; 5.6-8.0s hot pan rests back on island with steam lifting from cheese. Global negatives: no text, no music, no voice, no oven door action, no continuous morph from raw to baked, no flames, no charred black cheese, no flat casserole slab.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity and the pan resting shot. Use @OvenWide only for the already-open oven slide-in shot. Use @OvenCloseup only for the baked cheese reveal. Use @baking_dish only as the rectangular dish reference. Use @CharacterSheet and @PoseThreeQuarterRight to preserve character hands/body position during oven handling. Use @BakedCheeseBlisterFrame only as the baked target state: bubbling melted Mexican-blend cheese, brick-red sauce, slightly crisp tortilla ridges, steam. Generate exactly 4 short shots with hard cuts, total duration 8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, hot oven reveal and macro bubbling surface, no text on screen. Integrated audio: no speech, no voiceover, no music. Only rack slide, bubbling cheese, crisp edge and pan set-down sounds. Mandatory timing: 0.0-1.6s baking dish slides into an already-open oven; 1.6-3.8s hard cut to baked enchiladas bubbling under melted cheese; 3.8-5.6s close edge shows slightly crisp tortilla tips through sauce; 5.6-8.0s hot pan rests back on island with steam lifting from cheese. Global negatives: no text, no music, no voice, no oven door action, no continuous morph from raw to baked, no flames, no charred black cheese, no flat casserole slab.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "already-open oven wide context", "name": "OvenWide", "label": "OvenWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "baked cheese close-up angle", "name": "OvenCloseup", "label": "OvenCloseup", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "rectangular baking dish shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "three-quarter oven-handling pose", "name": "PoseThreeQuarterRight", "label": "PoseThreeQuarterRight", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "baked bubbling cheese target state", "name": "BakedCheeseBlisterFrame", "label": "BakedCheeseBlisterFrame", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "already-open oven wide context",
+          "name": "OvenWide",
+          "label": "OvenWide",
+          "required": true
+        },
+        {
+          "role": "baked cheese close-up angle",
+          "name": "OvenCloseup",
+          "label": "OvenCloseup",
+          "required": true
+        },
+        {
+          "role": "rectangular baking dish shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "three-quarter oven-handling pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "required": true
+        },
+        {
+          "role": "baked bubbling cheese target state",
+          "name": "BakedCheeseBlisterFrame",
+          "label": "BakedCheeseBlisterFrame",
+          "required": true
+        }
       ],
-      "beats": ["oven slide", "hard cut baked bubbling", "crisp tortilla edge", "steaming pan set-down"],
-      "timing": ["0.0-1.6s oven slide", "1.6-3.8s bubbling reveal", "3.8-5.6s crisp edge", "5.6-8.0s steaming pan"],
+      "beats": [
+        "oven slide",
+        "hard cut baked bubbling",
+        "crisp tortilla edge",
+        "steaming pan set-down"
+      ],
+      "timing": [
+        "0.0-1.6s oven slide",
+        "1.6-3.8s bubbling reveal",
+        "3.8-5.6s crisp edge",
+        "5.6-8.0s steaming pan"
+      ],
       "continuity": "The baked state is a hard-cut transformation from the oven-ready pan.",
       "risk": "The model may morph the unbaked dish or operate the oven door. Prompt locks hard cuts and already-open oven.",
       "audioPrompt": "oven rack slide; hot cheese bubbling; tiny crisp crackle; pan set-down",
-      "negatives": ["no text", "no music", "no speech", "no oven door action", "no continuous morph", "no flames", "no flat casserole"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no oven door action",
+        "no continuous morph",
+        "no flames",
+        "no flat casserole"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -244,7 +639,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 8,
       "status": "ready"
@@ -256,27 +656,94 @@
       "title": "Fresh topping contrast",
       "arc": "fresh toppings",
       "mode": "References",
-      "logicalSceneIds": ["scene-30", "scene-31", "scene-32", "scene-33"],
+      "logicalSceneIds": [
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33"
+      ],
       "description": "Cilantro, avocado, sour cream, cotija, and red onion land on the hot baked enchiladas.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead topping shots. Use @cutting_board and @chef_knife only as object references for chopped toppings, not as additional prep shots. Use @Spoon only for sour cream spooning. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @BakedCheeseBlisterFrame as the hot pan base. Use @FinalPlatedEnchiladaFrame only as color and topping composition guidance for the final look. Generate exactly 4 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead macro topping contrast, no text on screen. Integrated audio: no speech, no voiceover, no music. Only herb sprinkle, avocado taps, cream dollop and crumb scatter sounds. Mandatory timing: 0.0-1.4s chopped cilantro falls over bubbling cheese; 1.4-3.1s avocado cubes drop onto red sauce and cheese; 3.1-5.1s sour cream is spooned in a clean white ribbon; 5.1-7.0s cotija crumbles and red onion finish the pan. Global negatives: no text, no music, no voice, no tiny garnish drifting away, no jalapenos unless already in topping composition, no extra shots, no fully plated serving yet.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead only for overhead topping shots. Use @cutting_board and @chef_knife only as object references for chopped toppings, not as additional prep shots. Use @Spoon only for sour cream spooning. Use @CharacterSheet and @PoseTopDown to preserve visible Licorn hands. Use @BakedCheeseBlisterFrame as the hot pan base. Use @FinalPlatedEnchiladaFrame only as color and topping composition guidance for the final look. Generate exactly 4 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, overhead macro topping contrast, no text on screen. Integrated audio: no speech, no voiceover, no music. Only herb sprinkle, avocado taps, cream dollop and crumb scatter sounds. Mandatory timing: 0.0-1.4s chopped cilantro falls over bubbling cheese; 1.4-3.1s avocado cubes drop onto red sauce and cheese; 3.1-5.1s sour cream is spooned in a clean white ribbon; 5.1-7.0s cotija crumbles and red onion finish the pan. Global negatives: no text, no music, no voice, no tiny garnish drifting away, no jalapenos unless already in topping composition, no extra shots, no fully plated serving yet.",
       "references": [
-        { "role": "global Licorn kitchen identity", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "overhead topping framing", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "cutting board shape for chopped toppings", "name": "cutting_board", "label": "cutting_board", "runwayUri": null, "mediaAssetId": null, "required": false },
-        { "role": "chef knife shape only", "name": "chef_knife", "label": "chef_knife", "runwayUri": null, "mediaAssetId": null, "required": false },
-        { "role": "spoon shape for sour cream", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down visible hands pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "hot baked enchilada base", "name": "BakedCheeseBlisterFrame", "label": "BakedCheeseBlisterFrame", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "final topping color composition guidance", "name": "FinalPlatedEnchiladaFrame", "label": "FinalPlatedEnchiladaFrame", "runwayUri": null, "mediaAssetId": null, "required": false }
+        {
+          "role": "global Licorn kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "overhead topping framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "cutting board shape for chopped toppings",
+          "name": "cutting_board",
+          "label": "cutting_board",
+          "required": false
+        },
+        {
+          "role": "chef knife shape only",
+          "name": "chef_knife",
+          "label": "chef_knife",
+          "required": false
+        },
+        {
+          "role": "spoon shape for sour cream",
+          "name": "Spoon",
+          "label": "Spoon",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        },
+        {
+          "role": "hot baked enchilada base",
+          "name": "BakedCheeseBlisterFrame",
+          "label": "BakedCheeseBlisterFrame",
+          "required": true
+        },
+        {
+          "role": "final topping color composition guidance",
+          "name": "FinalPlatedEnchiladaFrame",
+          "label": "FinalPlatedEnchiladaFrame",
+          "required": false
+        }
       ],
-      "beats": ["cilantro sprinkle", "avocado drop", "sour cream ribbon", "cotija and red onion finish"],
-      "timing": ["0.0-1.4s cilantro", "1.4-3.1s avocado", "3.1-5.1s sour cream", "5.1-7.0s cotija and onion"],
+      "beats": [
+        "cilantro sprinkle",
+        "avocado drop",
+        "sour cream ribbon",
+        "cotija and red onion finish"
+      ],
+      "timing": [
+        "0.0-1.4s cilantro",
+        "1.4-3.1s avocado",
+        "3.1-5.1s sour cream",
+        "5.1-7.0s cotija and onion"
+      ],
       "continuity": "Adds cool fresh contrast over the baked pan before serving.",
       "risk": "Small toppings can drift or multiply. Keep each topping family isolated in one controlled shot.",
       "audioPrompt": "herb sprinkle; avocado taps; thick sour cream dollop; cotija crumb scatter",
-      "negatives": ["no text", "no music", "no speech", "no garnish drift", "no extra shots", "no plated serving yet"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no garnish drift",
+        "no extra shots",
+        "no plated serving yet"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -287,7 +754,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 7,
       "status": "ready"
@@ -299,26 +771,85 @@
       "title": "Cheese pull and Licorn hero plate",
       "arc": "serve and smile",
       "mode": "References",
-      "logicalSceneIds": ["scene-34", "scene-35", "scene-36"],
+      "logicalSceneIds": [
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
       "description": "One enchilada lifts with cheese stretch, lands plated with steam, and ends with Licorn satisfaction in the kitchen.",
       "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity and final hero context. Use @Spatula only as the serving lift utensil reference. Use @Spoon only if a final sauce or cream touch appears. Use @CharacterSheet for character identity, @CharacterExpressions for satisfied expression guidance, and @PoseThreeQuarterRight for final plate presentation. Use @BakedCheeseBlisterFrame as the hot pan state. Use @FinalPlatedEnchiladaFrame as the final plated target: one saucy enchilada with melted cheese, red sauce, cilantro, avocado, red onion, sour cream and cotija, light steam. Generate exactly 3 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, final macro payoff then warm kitchen hero, no text on screen. Integrated audio: no speech, no voiceover, no music. Only sticky cheese pull, plate set-down and soft kitchen presentation sounds. Mandatory timing: 0.0-2.4s spatula lifts one enchilada from the pan with thin cheese strands stretching; 2.4-4.6s plated enchilada steams under colorful toppings; 4.6-7.0s Licorn character holds the finished plate in the kitchen, visibly satisfied, no speaking. Global negatives: no text, no music, no voice, no bite shot, no fork entering mouth, no exaggerated face, no extra dish, no sauce spill.",
       "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity and final hero context. Use @Spatula only as the serving lift utensil reference. Use @Spoon only if a final sauce or cream touch appears. Use @CharacterSheet for character identity, @CharacterExpressions for satisfied expression guidance, and @PoseThreeQuarterRight for final plate presentation. Use @BakedCheeseBlisterFrame as the hot pan state. Use @FinalPlatedEnchiladaFrame as the final plated target: one saucy enchilada with melted cheese, red sauce, cilantro, avocado, red onion, sour cream and cotija, light steam. Generate exactly 3 short shots with hard cuts, total duration 7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, final macro payoff then warm kitchen hero, no text on screen. Integrated audio: no speech, no voiceover, no music. Only sticky cheese pull, plate set-down and soft kitchen presentation sounds. Mandatory timing: 0.0-2.4s spatula lifts one enchilada from the pan with thin cheese strands stretching; 2.4-4.6s plated enchilada steams under colorful toppings; 4.6-7.0s Licorn character holds the finished plate in the kitchen, visibly satisfied, no speaking. Global negatives: no text, no music, no voice, no bite shot, no fork entering mouth, no exaggerated face, no extra dish, no sauce spill.",
       "references": [
-        { "role": "global Licorn kitchen identity and final hero context", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "serving spatula shape", "name": "Spatula", "label": "Spatula", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "spoon shape for optional final sauce or cream touch", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": false },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "satisfied character expression guidance", "name": "CharacterExpressions", "label": "CharacterExpressions", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "three-quarter final plate pose", "name": "PoseThreeQuarterRight", "label": "PoseThreeQuarterRight", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "hot baked enchilada pan state", "name": "BakedCheeseBlisterFrame", "label": "BakedCheeseBlisterFrame", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "final plated enchilada target state", "name": "FinalPlatedEnchiladaFrame", "label": "FinalPlatedEnchiladaFrame", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "global Licorn kitchen identity and final hero context",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "serving spatula shape",
+          "name": "Spatula",
+          "label": "Spatula",
+          "required": true
+        },
+        {
+          "role": "spoon shape for optional final sauce or cream touch",
+          "name": "Spoon",
+          "label": "Spoon",
+          "required": false
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "satisfied character expression guidance",
+          "name": "CharacterExpressions",
+          "label": "CharacterExpressions",
+          "required": true
+        },
+        {
+          "role": "three-quarter final plate pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "required": true
+        },
+        {
+          "role": "hot baked enchilada pan state",
+          "name": "BakedCheeseBlisterFrame",
+          "label": "BakedCheeseBlisterFrame",
+          "required": true
+        },
+        {
+          "role": "final plated enchilada target state",
+          "name": "FinalPlatedEnchiladaFrame",
+          "label": "FinalPlatedEnchiladaFrame",
+          "required": true
+        }
       ],
-      "beats": ["spatula cheese pull", "steaming plated enchilada", "Licorn satisfied hero"],
-      "timing": ["0.0-2.4s cheese pull", "2.4-4.6s plated steam", "4.6-7.0s final hero"],
+      "beats": [
+        "spatula cheese pull",
+        "steaming plated enchilada",
+        "Licorn satisfied hero"
+      ],
+      "timing": [
+        "0.0-2.4s cheese pull",
+        "2.4-4.6s plated steam",
+        "4.6-7.0s final hero"
+      ],
       "continuity": "Final payoff from pan to plate, ending with character visible and satisfied in the Licorn kitchen.",
       "risk": "Cheese pull can over-stretch or become rubbery; keep strands thin and brief, then hard cut to plated hero.",
       "audioPrompt": "sticky cheese pull; plate set-down; soft kitchen presentation",
-      "negatives": ["no text", "no music", "no speech", "no bite shot", "no exaggerated face", "no sauce spill"],
+      "negatives": [
+        "no text",
+        "no music",
+        "no speech",
+        "no bite shot",
+        "no exaggerated face",
+        "no sauce spill"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -329,7 +860,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "food-physics-reference", "tiktok-food-direction", "asset-reference-system"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
       },
       "durationTarget": 7,
       "status": "ready"

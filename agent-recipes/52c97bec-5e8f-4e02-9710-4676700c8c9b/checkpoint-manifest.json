@@ -3,7 +3,7 @@
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-52c97bec-2620",
   "latestPushedCommitSha": "9c969a3813442fde8273f5a86a4bb7231dbbe241",
-  "updatedAtUtc": "2026-05-10T20:16:00Z",
+  "updatedAtUtc": "2026-05-10T20:22:00Z",
   "artifacts": [
     {
       "path": "recipe-analysis.json",

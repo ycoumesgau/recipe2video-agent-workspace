@@ -23,3 +23,4 @@
 - Updated `recipe-analysis.json` in this run by recording `parser-workspace-rule-fix` in `promptPolicySources`.
 - Refreshed `checkpoint-manifest.json` timestamp for this retry while keeping all required artifacts ready.
 - No source gaps were introduced; `clarifyingQuestions` remains empty.
+- Committed and pushed retry artifacts in commit `6b9e30b187d553ebeabce1c8753869e380dd721b`, then recorded that pushed checkpoint in `checkpoint-manifest.json`.

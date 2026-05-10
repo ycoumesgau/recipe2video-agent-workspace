@@ -1,0 +1,25 @@
+---
+description: Suno music generation remains manual and separate from video prompts
+alwaysApply: true
+---
+
+# Suno Music
+
+- Suno is a manual workflow.
+- Produce copy-ready Suno prompts, not API calls.
+- Video generation prompts must not request music.
+- Suno music is uploaded later into Recipe2Video and aligned in assembly.
+
+## Required Suno Fields
+
+Keep these fields separate:
+
+- `Style of Music`
+- `Exclude Styles`
+- `Title`
+- `Auto Lyrics Prompt`
+- `Short Version To Extract Later`
+
+Default lyrics language is English.
+Do not ask Suno to imitate real artists, protected voices, brands, or tutorial lyrics.
+Transform the recipe into singable images: texture, color, material, emotion, gesture.

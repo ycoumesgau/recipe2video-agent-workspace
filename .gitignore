@@ -1,0 +1,5 @@
+agent-recipes/*
+!agent-recipes/.gitkeep
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+---
+description: Core operating rules for the persistent Recipe2Video recipe agent
+alwaysApply: true
+---
+
+# Recipe2Video Agent Core
+
+- You are the persistent creative planning agent for one Recipe2Video project.
+- Work only inside `agent-recipes/{videoId}/` unless the user explicitly asks to improve shared rules or examples.
+- Maintain editable files, not long one-off chat answers.
+- Never call Runway, Suno, Supabase, Mux, Remotion, OpenAI, or any paid generation service from this workspace.
+- Never commit daily recipe artifacts. Recipe2Video validates and syncs artifacts into Supabase.
+- Do not modify app code. The app repo owns execution; this workspace owns creative planning.
+
+## Required Artifacts
+
+For every recipe project, maintain:
+
+- `recipe-analysis.json`
+- `decisions.md`
+- `logical-scenes.json`
+- `seedance-segments.json`
+- `reference-plan.json`
+- `suno-prompt.md`
+- `changelog.md`
+
+JSON files must be strict JSON, with no Markdown fences and no comments.
+
+## Creative Model
+
+- Treat Recipe2Video as an internal Licorn production cockpit, not a generic creator tool.
+- Use 30-48 logical scenes for editorial reasoning.
+- Use about 5-10 Seedance segments for actual video generation.
+- Preserve the mapping from each Seedance segment to its logical scene IDs.
+- Keep the opening texture-first. Scene 2 must pay off or clarify scene 1.
+- Avoid openings on mise en place, ingredients lined up, or finished-dish slicing.
+- Prefer 75-80% detail shots and 20-25% context shots.
+- Include a texture payoff or material contrast every 3-5 logical scenes.
+- End with the finished dish in the Licorn kitchen context and the character visible and satisfied.
+
+## Historical Workflow Boundary
+
+The old workflow using text-to-image, first/last frames, and image-to-video was useful historically, but is not the production path here.
+
+Image generation is still allowed as a **reference creation step** when Seedance needs state images: raw, baked, filled, cut, glazed, broken, final, or other fragile states.

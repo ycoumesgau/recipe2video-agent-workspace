@@ -1,0 +1,49 @@
+---
+description: Non-negotiable Seedance 2 reference and prompt rules
+alwaysApply: true
+---
+
+# Seedance 2 References
+
+- Default video model is `seedance2`.
+- Default output ratio is `1080:1920` for 9:16 vertical 1080p.
+- Product-side cost estimate is 40 credits per second.
+- Use Seedance References mode as the primary workflow.
+- Do not use first/last keyframes as the production pattern.
+- If an image must act as start or target state, pass it as a named reference and state its role explicitly in the prompt.
+- Each segment must stay within 9 image inputs total.
+- Every segment needs a global kitchen reference, ideally `@KitchenIslandDefault`.
+- Every reference in a prompt must state its role exactly.
+- If the 9-image limit is hit, remove expression/pose niceties before removing kitchen identity or critical food-state references.
+
+## Prompt Shape
+
+Seedance prompts should be concise English prompts with:
+
+- reference roles;
+- exact number of shots;
+- total duration;
+- hard cuts;
+- mandatory timing;
+- integrated ASMR audio;
+- short negatives;
+- no speech;
+- no voiceover;
+- no music;
+- no text on screen;
+- no extra shots.
+
+## Fragile Food States
+
+Use state references for transformations Seedance is likely to misread:
+
+- choux puffing;
+- pastry lamination;
+- rising dough;
+- brittle caramel;
+- glazing;
+- cracking crust;
+- repeated crowns or rosettes;
+- filled/cut/final geometry.
+
+For complex transformations, prefer short hard cuts between state references instead of asking Seedance to invent the full transformation.

@@ -16,4 +16,10 @@
 
 - Voir `recipe-analysis.json` → `clarifyingQuestions` (choix Thermomix vs casserole; type de mozzarella pour le cœur).
 
-- Le fichier `checkpoint-manifest.json` pointe `commitSha` vers le commit **ingest** `ab65f7d` (tous les artefacts JSON et Markdown sauf le manifeste), afin d’obtenir un arbre de contenu stable; le sommet de branche après ajout du manifeste est un commit ultérieur — utiliser `git pull` sur la branche pour la révision complète.
+## Hypothèses acceptées
+
+- Le fil mozzarella au hook suppose un produit récemment frit / tiède; un service froid est exclu pour ce payoff.
+
+## Sync Git
+
+- Le fichier `checkpoint-manifest.json` référence en `commitSha` le commit **ingest principal** (tous les artefacts JSON et Markdown hors manifeste), pour un arbre stable; le sommet de branche inclut souvent un commit manifeste ultérieur — se placer sur la tête de branche pour la révision complète.

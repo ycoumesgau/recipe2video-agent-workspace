@@ -1,5 +1,10 @@
 # Décisions — videoId `3dd86fd1-8ddf-442a-b123-635b5eee5037`
 
+## `checkpoint-manifest.json`
+
+- Champ `commitSha` : **hash du commit où les artefacts ingest (JSON + markdown hors manifest) ont été enregistrés** ; le commit qui ajoute uniquement le manifest pointe donc vers cet ancêtre pour l'app qui fige le bundle.
+- Champ `branch` : branche utilisée pour pousser cet ingest.
+
 ## Source et hypothèses photo
 
 - **Source primaire**: photographie de page de livre (liste d'ingrédients, étapes Thermomix, données nutritionnelles) ainsi qu'une photographie platter fini montrant une coupe ouverte mozzarella-pois dans la croûte dorée (fichiers téléversés `photo_2026-05-11_07-09-12.jpg` et `photo_2026-05-11_07-09-10.jpg`).

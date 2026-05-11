@@ -10,9 +10,15 @@
 - **Source primaire**: photographie de page de livre (liste d'ingrédients, étapes Thermomix, données nutritionnelles) ainsi qu'une photographie platter fini montrant une coupe ouverte mozzarella-pois dans la croûte dorée (fichiers téléversés `photo_2026-05-11_07-09-12.jpg` et `photo_2026-05-11_07-09-10.jpg`).
 - **Traduction Thermomix → vidéo**: tous les temps/temperatures robot sont rendus équivalents en mise en visible du risotto façon casserole sur plaque Licorn avec spatule et mains pour garder une continuité avec nos assets `@SaucepanLarge`, `@Spatula`, `@InductionCloseup`.
 
+## Références visuelles (révision générale)
+
+- **Bibliothèque Licorn uniquement** dans les tableaux Seedance/`reference-plan` : îlots `@KitchenIslandDefault` / `@KitchenIslandOverhead` / `@KitchenIslandWide`, `@InductionCloseup`, `@SaucepanLarge`, `@Spatula`, `@CharacterSheet`, `@PoseTopDown`, `@PoseThreeQuarterRight`, `@PoseThreeQuarterLeft`.
+- **Aucune** entrée `recipe_state` prévue côté génération image (pas de placeholders type `CoolRisottoPeaParmesanFold`, etc.). Les morphologies risotto→boule→panure→frit→coupe filante sont **imposées par le texte de prompt Seedance**, avec coupes franches et physique explicite, acceptant qu’un modèle puisse encore dériver plus qu’avec des plaques de référence offline.
+- Ceci reflète une demande produit : plat jugé suffisamment simple pour un unique passage Seedance par segment sans surcharge de six images hors librairie.
+
 ## Défauts production workspace (inchangés ici)
 
-- Style preset catalogue `asmr_food`; vidéo Seedance **seedance2** références **1080:1920** ; références images futures via workflow **gpt_image_2** (référence seulement dans ce dépôt créatif, aucun appel API ici) ; TTS **eleven_multilingual_v2** et SFX **eleven_text_to_sound_v2** restent gérés hors workspace.
+- Style preset catalogue `asmr_food`; vidéo Seedance **seedance2** références **1080:1920** ; **`gpt_image_2` inchangé en documentation pipeline** mais **non utilisé comme prérequis** pour cet arc arancini ; TTS **eleven_multilingual_v2** et SFX **eleven_text_to_sound_v2** restent gérés hors workspace.
 
 ## Ouverture créative
 

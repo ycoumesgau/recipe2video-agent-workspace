@@ -223,7 +223,8 @@
       "seedance-workflow skill default References mode avec seedance2 ratio 1080:1920",
       "tiktok-food-direction skill texture ouverte et balance détail contre contexte",
       "recipe-agent-core rule ouverture texture d'abord sans mise en place statique prolongée",
-      "Workspace production default style preset label asmr_food"
+      "Workspace production default style preset label asmr_food",
+      "Revision 2026-05-11: états plat arancini décrits dans prompts Seedance uniquement, sans références images générées hors bibliothèque Licorn"
     ]
   },
   "clarifyingQuestions": [

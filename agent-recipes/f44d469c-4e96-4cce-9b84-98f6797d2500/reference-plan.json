@@ -87,15 +87,16 @@
     {
       "type": "utensil",
       "canonicalName": "Spoon",
-      "role": "spoon for serving nudge and cooled risotto scoop",
+      "role": "spoon for serving nudge, cooled risotto scoop, and frying drain lift",
       "priority": 3,
       "source": "existing_asset",
-      "prompt": "Use as spoon shape reference only when a serving nudge or scoop is visible.",
+      "prompt": "Use as spoon shape reference when a serving nudge, risotto scoop, or draining lift is visible.",
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": [
         "segment-01",
-        "segment-04"
+        "segment-04",
+        "segment-06"
       ],
       "status": "planned"
     },
@@ -109,6 +110,7 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": [
+        "segment-01",
         "segment-02",
         "segment-03",
         "segment-04",
@@ -128,6 +130,7 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": [
+        "segment-01",
         "segment-02",
         "segment-03",
         "segment-04",
@@ -211,6 +214,20 @@
     },
     {
       "type": "recipe_state",
+      "canonicalName": "HotCreamyPeaRisottoPanFrame",
+      "role": "hot thick risotto state after stock absorption",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a vertical 9:16 close macro image in the Licorn kitchen: hot risotto in a pan after stock absorption, thick glossy starchy rice forming a slow wave behind a spatula, pale creamy grains with a few translucent edges, no soupiness, no dry separate rice, no peas added yet, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
       "canonicalName": "CooledPeaRisottoSheetFrame",
       "role": "cooled risotto state ready to scoop and shape",
       "priority": 1,
@@ -230,7 +247,7 @@
       "role": "sealed mozzarella-stuffed rice ball topology before breading",
       "priority": 1,
       "source": "generated_reference_needed",
-      "prompt": "Generate a vertical 9:16 macro overhead image in the Licorn kitchen: a smooth 6 cm pale risotto ball with green pea specks is sealed around a hidden mozzarella cube. Show one ball whole and one small cutaway diagram-like food state is not allowed; no exposed cheese on the outside, no breading, no frying oil, no text.",
+      "prompt": "Generate a vertical 9:16 macro overhead image in the Licorn kitchen: a smooth 6 cm pale risotto ball with green pea specks is sealed around a hidden mozzarella cube. Show one whole sealed ball only; no cutaway diagram, no exposed cheese on the outside, no breading, no frying oil, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": [

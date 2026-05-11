@@ -15,8 +15,8 @@
         "scene-05"
       ],
       "description": "Open with the finished arancini: crisp crack, creamy rice, peas, and mozzarella reveal.",
-      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SourceFinalAranciniPhoto only as serving composition reference from the uploaded recipe photo. Use @SourceCutOpenAranciniPhoto only as cut-open interior reference from the uploaded recipe photo. Use @FriedGoldenAranciniFrame only as golden breadcrumb crust color reference. Use @CutOpenAranciniMozzarellaFrame only as interior structure reference: creamy rice, green peas, central mozzarella, realistic short cheese stretch. Use @Spoon only as spoon shape reference. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts and food actions. Mandatory timing: 0.0-1.0s golden crust cracks open; 1.0-2.1s cut widens to creamy rice, peas, and mozzarella; 2.1-2.9s rustic bowl of round golden arancini; 2.9-3.7s spoon nudges one arancino and crumbs fall; 3.7-5.0s extreme macro pea and mozzarella interior. Global negatives: no raw rice, no tomato sauce, no long elastic pizza-style cheese pull, no extra hands, no text, no captions, no music.",
-      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SourceFinalAranciniPhoto only as serving composition reference from the uploaded recipe photo. Use @SourceCutOpenAranciniPhoto only as cut-open interior reference from the uploaded recipe photo. Use @FriedGoldenAranciniFrame only as golden breadcrumb crust color reference. Use @CutOpenAranciniMozzarellaFrame only as interior structure reference: creamy rice, green peas, central mozzarella, realistic short cheese stretch. Use @Spoon only as spoon shape reference. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts and food actions. Mandatory timing: 0.0-1.0s golden crust cracks open; 1.0-2.1s cut widens to creamy rice, peas, and mozzarella; 2.1-2.9s rustic bowl of round golden arancini; 2.9-3.7s spoon nudges one arancino and crumbs fall; 3.7-5.0s extreme macro pea and mozzarella interior. Global negatives: no raw rice, no tomato sauce, no long elastic pizza-style cheese pull, no extra hands, no text, no captions, no music.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SourceFinalAranciniPhoto only as serving composition reference from the uploaded recipe photo. Use @SourceCutOpenAranciniPhoto only as cut-open interior reference from the uploaded recipe photo. Use @FriedGoldenAranciniFrame only as golden breadcrumb crust color reference. Use @CutOpenAranciniMozzarellaFrame only as interior structure reference: creamy rice, green peas, central mozzarella, realistic short cheese stretch. Use @Spoon only as spoon shape reference. Use @CharacterSheet and @PoseTopDown only to keep the cutting hand visible and attached to a small kitchen knife described in the shot. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts and food actions. Mandatory timing: 0.0-1.0s visible hand guides a small knife tip, golden crust cracks open; 1.0-2.1s cut widens to creamy rice, peas, and mozzarella; 2.1-2.9s rustic bowl of round golden arancini; 2.9-3.7s spoon nudges one arancino and crumbs fall; 3.7-5.0s extreme macro pea and mozzarella interior. Global negatives: no floating knife, no self-opening food, no raw rice, no tomato sauce, no long elastic pizza-style cheese pull, no extra hands, no text, no captions, no music.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SourceFinalAranciniPhoto only as serving composition reference from the uploaded recipe photo. Use @SourceCutOpenAranciniPhoto only as cut-open interior reference from the uploaded recipe photo. Use @FriedGoldenAranciniFrame only as golden breadcrumb crust color reference. Use @CutOpenAranciniMozzarellaFrame only as interior structure reference: creamy rice, green peas, central mozzarella, realistic short cheese stretch. Use @Spoon only as spoon shape reference. Use @CharacterSheet and @PoseTopDown only to keep the cutting hand visible and attached to a small kitchen knife described in the shot. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts and food actions. Mandatory timing: 0.0-1.0s visible hand guides a small knife tip, golden crust cracks open; 1.0-2.1s cut widens to creamy rice, peas, and mozzarella; 2.1-2.9s rustic bowl of round golden arancini; 2.9-3.7s spoon nudges one arancino and crumbs fall; 3.7-5.0s extreme macro pea and mozzarella interior. Global negatives: no floating knife, no self-opening food, no raw rice, no tomato sauce, no long elastic pizza-style cheese pull, no extra hands, no text, no captions, no music.",
       "references": [
         {
           "role": "global Licorn kitchen identity",
@@ -65,6 +65,22 @@
           "runwayUri": null,
           "mediaAssetId": null,
           "required": false
+        },
+        {
+          "role": "character identity for visible cutting hand",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down visible cutting hand pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
         }
       ],
       "beats": [
@@ -91,7 +107,9 @@
         "no voiceover",
         "no music",
         "no tomato sauce",
-        "no long cheese pull"
+        "no long cheese pull",
+        "no floating knife",
+        "no self-opening food"
       ],
       "qaChecklist": {
         "referencesWithinLimit": true,
@@ -252,8 +270,8 @@
         "scene-17"
       ],
       "description": "Stock pour, creamy state jump, parmesan melt, peas and parsley fold, cooling spread.",
-      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for mixing and cooling shots. Use @InductionCloseup only for stock and simmer shots with no flame. Use @SaucepanLarge only as pan shape. Use @Spatula only as folding and spreading tool. Use @CooledPeaRisottoSheetFrame only as the target cooled state: pale risotto spread thin, green peas visible, matte enough to scoop. Use @CharacterSheet and @PoseTopDown only for visible hands. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.9s stock floods rice; 0.9-2.0s hard cut to thick glossy risotto wave behind spatula; 2.0-2.9s parmesan snow melts; 2.9-3.7s peas and parsley tumble in; 3.7-4.8s one broad sticky fold; 4.8-6.0s risotto spreads thin to cool, matte target state. Global negatives: no soupy rice after the hard cut, no dry separate rice, no flame, no text, no extra shots.",
-      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for mixing and cooling shots. Use @InductionCloseup only for stock and simmer shots with no flame. Use @SaucepanLarge only as pan shape. Use @Spatula only as folding and spreading tool. Use @CooledPeaRisottoSheetFrame only as the target cooled state: pale risotto spread thin, green peas visible, matte enough to scoop. Use @CharacterSheet and @PoseTopDown only for visible hands. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.9s stock floods rice; 0.9-2.0s hard cut to thick glossy risotto wave behind spatula; 2.0-2.9s parmesan snow melts; 2.9-3.7s peas and parsley tumble in; 3.7-4.8s one broad sticky fold; 4.8-6.0s risotto spreads thin to cool, matte target state. Global negatives: no soupy rice after the hard cut, no dry separate rice, no flame, no text, no extra shots.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for mixing and cooling shots. Use @InductionCloseup only for stock and simmer shots with no flame. Use @SaucepanLarge only as pan shape. Use @Spatula only as folding and spreading tool. Use @HotCreamyPeaRisottoPanFrame only as the hot cooked risotto target state: thick glossy starchy rice wave, green peas not yet folded. Use @CooledPeaRisottoSheetFrame only as the later cooled state: pale risotto spread thin, green peas visible, matte enough to scoop. Use @CharacterSheet and @PoseTopDown only for visible hands. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.9s stock floods rice; 0.9-2.0s hard cut to thick glossy risotto wave behind spatula using hot risotto state; 2.0-2.9s parmesan snow melts; 2.9-3.7s peas and parsley tumble in; 3.7-4.8s one broad sticky fold; 4.8-6.0s risotto spreads thin to cool, matte target state. Global negatives: no soupy rice after the hard cut, no dry separate rice, no flame, no text, no extra shots.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for mixing and cooling shots. Use @InductionCloseup only for stock and simmer shots with no flame. Use @SaucepanLarge only as pan shape. Use @Spatula only as folding and spreading tool. Use @HotCreamyPeaRisottoPanFrame only as the hot cooked risotto target state: thick glossy starchy rice wave, green peas not yet folded. Use @CooledPeaRisottoSheetFrame only as the later cooled state: pale risotto spread thin, green peas visible, matte enough to scoop. Use @CharacterSheet and @PoseTopDown only for visible hands. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.9s stock floods rice; 0.9-2.0s hard cut to thick glossy risotto wave behind spatula using hot risotto state; 2.0-2.9s parmesan snow melts; 2.9-3.7s peas and parsley tumble in; 3.7-4.8s one broad sticky fold; 4.8-6.0s risotto spreads thin to cool, matte target state. Global negatives: no soupy rice after the hard cut, no dry separate rice, no flame, no text, no extra shots.",
       "references": [
         {
           "role": "global Licorn kitchen identity",
@@ -291,6 +309,14 @@
           "role": "folding and spreading tool",
           "name": "Spatula",
           "label": "Spatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hot creamy risotto target state",
+          "name": "HotCreamyPeaRisottoPanFrame",
+          "label": "HotCreamyPeaRisottoPanFrame",
           "runwayUri": null,
           "mediaAssetId": null,
           "required": true
@@ -620,8 +646,8 @@
         "scene-34"
       ],
       "description": "Oil shimmer, sizzle entry, golden color change, lift, and drain.",
-      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @InductionCloseup only as induction frying context, no flame. Use @SaucepanLarge only as deep high-sided pan reference. Use @DoubleBreadedAranciniTrayFrame only as pale pre-fry breadcrumb shell state. Use @FriedGoldenAranciniFrame only as target fried state: round golden breadcrumb shell, tiny oil droplets, no burnt patches. Use @CharacterSheet and @PoseThreeQuarterLeft only for safe visible hand/tool presence when lowering food. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.7s clear oil shimmers in pan; 0.7-1.7s one breaded ball lowers into oil and bubbles erupt; 1.7-2.7s batch gently bubbles and turns golden by hard cut; 2.7-3.8s golden arancino lifts in draining spoon with oil droplets; 3.8-5.0s arancini drain on absorbent paper. Global negatives: no open flame, no oil splash onto hands, no black burnt crust, no text, no captions, no music.",
-      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @InductionCloseup only as induction frying context, no flame. Use @SaucepanLarge only as deep high-sided pan reference. Use @DoubleBreadedAranciniTrayFrame only as pale pre-fry breadcrumb shell state. Use @FriedGoldenAranciniFrame only as target fried state: round golden breadcrumb shell, tiny oil droplets, no burnt patches. Use @CharacterSheet and @PoseThreeQuarterLeft only for safe visible hand/tool presence when lowering food. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.7s clear oil shimmers in pan; 0.7-1.7s one breaded ball lowers into oil and bubbles erupt; 1.7-2.7s batch gently bubbles and turns golden by hard cut; 2.7-3.8s golden arancino lifts in draining spoon with oil droplets; 3.8-5.0s arancini drain on absorbent paper. Global negatives: no open flame, no oil splash onto hands, no black burnt crust, no text, no captions, no music.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @InductionCloseup only as induction frying context, no flame. Use @SaucepanLarge only as deep high-sided pan reference. Use @DoubleBreadedAranciniTrayFrame only as pale pre-fry breadcrumb shell state. Use @FriedGoldenAranciniFrame only as target fried state: round golden breadcrumb shell, tiny oil droplets, no burnt patches. Use @Spoon only as draining spoon or skimmer shape reference. Use @CharacterSheet and @PoseThreeQuarterLeft only for safe visible hand/tool presence when lowering and lifting food. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.7s clear oil shimmers in pan; 0.7-1.7s one breaded ball lowers into oil and bubbles erupt; 1.7-2.7s batch gently bubbles and turns golden by hard cut; 2.7-3.8s golden arancino lifts in a visible draining spoon with oil droplets; 3.8-5.0s arancini drain on absorbent paper. Global negatives: no floating skimmer, no open flame, no oil splash onto hands, no black burnt crust, no text, no captions, no music.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @InductionCloseup only as induction frying context, no flame. Use @SaucepanLarge only as deep high-sided pan reference. Use @DoubleBreadedAranciniTrayFrame only as pale pre-fry breadcrumb shell state. Use @FriedGoldenAranciniFrame only as target fried state: round golden breadcrumb shell, tiny oil droplets, no burnt patches. Use @Spoon only as draining spoon or skimmer shape reference. Use @CharacterSheet and @PoseThreeQuarterLeft only for safe visible hand/tool presence when lowering and lifting food. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-0.7s clear oil shimmers in pan; 0.7-1.7s one breaded ball lowers into oil and bubbles erupt; 1.7-2.7s batch gently bubbles and turns golden by hard cut; 2.7-3.8s golden arancino lifts in a visible draining spoon with oil droplets; 3.8-5.0s arancini drain on absorbent paper. Global negatives: no floating skimmer, no open flame, no oil splash onto hands, no black burnt crust, no text, no captions, no music.",
       "references": [
         {
           "role": "global Licorn kitchen identity",
@@ -659,6 +685,14 @@
           "role": "fried golden target state",
           "name": "FriedGoldenAranciniFrame",
           "label": "FriedGoldenAranciniFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "draining spoon or skimmer shape",
+          "name": "Spoon",
+          "label": "Spoon",
           "runwayUri": null,
           "mediaAssetId": null,
           "required": true
@@ -705,7 +739,8 @@
         "no music",
         "no flame",
         "no burnt crust",
-        "no unsafe splash"
+        "no unsafe splash",
+        "no floating skimmer"
       ],
       "qaChecklist": {
         "referencesWithinLimit": true,
@@ -740,8 +775,8 @@
         "scene-38"
       ],
       "description": "Final bowl, cut-open plate, short mozzarella stretch, and satisfied character in kitchen context.",
-      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity and final hero context. Use @SourceFinalAranciniPhoto only as serving bowl composition reference. Use @SourceCutOpenAranciniPhoto only as plated cut-open arancino reference. Use @FriedGoldenAranciniFrame only as golden crust state. Use @CutOpenAranciniMozzarellaFrame only as creamy rice, green pea, and short mozzarella stretch state. Use @CharacterSheet, @CharacterExpressions, and @PoseThreeQuarterRight only for the satisfied Licorn character at the end, supporting the dish. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s rustic bowl of golden arancini with young salad leaves nearby; 1.0-2.1s knife opens one arancino on small plate; 2.1-3.6s cut half lifts slightly with short mozzarella stretch and visible peas; 3.6-5.0s finished bowl foreground, Licorn character visible and satisfied in kitchen context. Global negatives: no dialogue, no captions, no music, no long cheese pull, no tomato sauce, no extra dishes, no extra shots.",
-      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity and final hero context. Use @SourceFinalAranciniPhoto only as serving bowl composition reference. Use @SourceCutOpenAranciniPhoto only as plated cut-open arancino reference. Use @FriedGoldenAranciniFrame only as golden crust state. Use @CutOpenAranciniMozzarellaFrame only as creamy rice, green pea, and short mozzarella stretch state. Use @CharacterSheet, @CharacterExpressions, and @PoseThreeQuarterRight only for the satisfied Licorn character at the end, supporting the dish. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s rustic bowl of golden arancini with young salad leaves nearby; 1.0-2.1s knife opens one arancino on small plate; 2.1-3.6s cut half lifts slightly with short mozzarella stretch and visible peas; 3.6-5.0s finished bowl foreground, Licorn character visible and satisfied in kitchen context. Global negatives: no dialogue, no captions, no music, no long cheese pull, no tomato sauce, no extra dishes, no extra shots.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity and final hero context. Use @SourceFinalAranciniPhoto only as serving bowl composition reference. Use @SourceCutOpenAranciniPhoto only as plated cut-open arancino reference. Use @FriedGoldenAranciniFrame only as golden crust state. Use @CutOpenAranciniMozzarellaFrame only as creamy rice, green pea, and short mozzarella stretch state. Use @CharacterSheet for the visible cutting hand and final character identity. Use @CharacterExpressions and @PoseThreeQuarterRight only for the satisfied Licorn character at the end, supporting the dish. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s rustic bowl of golden arancini with young salad leaves nearby; 1.0-2.1s visible hand guides a small kitchen knife to open one arancino on a small plate; 2.1-3.6s cut half lifts slightly with short mozzarella stretch and visible peas; 3.6-5.0s finished bowl foreground, Licorn character visible and satisfied in kitchen context. Global negatives: no floating knife, no self-opening food, no dialogue, no captions, no music, no long cheese pull, no tomato sauce, no extra dishes, no extra shots.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity and final hero context. Use @SourceFinalAranciniPhoto only as serving bowl composition reference. Use @SourceCutOpenAranciniPhoto only as plated cut-open arancino reference. Use @FriedGoldenAranciniFrame only as golden crust state. Use @CutOpenAranciniMozzarellaFrame only as creamy rice, green pea, and short mozzarella stretch state. Use @CharacterSheet for the visible cutting hand and final character identity. Use @CharacterExpressions and @PoseThreeQuarterRight only for the satisfied Licorn character at the end, supporting the dish. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s rustic bowl of golden arancini with young salad leaves nearby; 1.0-2.1s visible hand guides a small kitchen knife to open one arancino on a small plate; 2.1-3.6s cut half lifts slightly with short mozzarella stretch and visible peas; 3.6-5.0s finished bowl foreground, Licorn character visible and satisfied in kitchen context. Global negatives: no floating knife, no self-opening food, no dialogue, no captions, no music, no long cheese pull, no tomato sauce, no extra dishes, no extra shots.",
       "references": [
         {
           "role": "global Licorn kitchen identity and final hero context",
@@ -830,7 +865,9 @@
         "no voiceover",
         "no music",
         "no long cheese pull",
-        "no tomato sauce"
+        "no tomato sauce",
+        "no floating knife",
+        "no self-opening food"
       ],
       "qaChecklist": {
         "referencesWithinLimit": true,

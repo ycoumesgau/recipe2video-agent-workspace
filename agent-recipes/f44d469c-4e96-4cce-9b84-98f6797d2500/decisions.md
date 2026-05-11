@@ -19,6 +19,8 @@
 - Global Seedance references use the canonical names from the workspace asset reference system, including `@KitchenIslandDefault`, `@KitchenIslandOverhead`, `@InductionCloseup`, character references, and utensil references.
 - Uploaded source photos are planned as `SourceFinalAranciniPhoto` and `SourceCutOpenAranciniPhoto` for serving composition and interior structure.
 - Generated reference images are planned only for fragile food states: cooled pea risotto, sealed stuffed ball, double-breaded shell, fried golden crust, and cut-open mozzarella interior.
+- A hot creamy risotto pan reference is also planned to prevent the stock absorption jump from drifting into soupy or dry rice.
+- Knife and draining-spoon actions are handled with explicit visible-hand language and existing character/spoon references because no dedicated knife or skimmer asset is available in the common asset list.
 - No paid generation service was launched. Reference prompts are planning metadata only.
 
 ## Remaining gaps

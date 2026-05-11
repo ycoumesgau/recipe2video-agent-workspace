@@ -2,10 +2,10 @@
   "videoId": "c7897a41-db3b-4ae8-b979-4b7ebcdc9590",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-c7897a41-b8e1",
-  "commitSha": null,
+  "commitSha": "0d00ae18db4f02500ee40b5b7330e346168df0b1",
   "manifestPath": "agent-recipes/c7897a41-db3b-4ae8-b979-4b7ebcdc9590/checkpoint-manifest.json",
   "updatedAt": "2026-05-11T08:35:00Z",
-  "status": "pending_push_checkpoint",
+  "status": "pushed_checkpoint",
   "artifacts": [
     "recipe-analysis.json",
     "logical-scenes.json",
@@ -17,7 +17,7 @@
     "checkpoint-manifest.json"
   ],
   "notes": [
-    "Initial manifest placeholder; commitSha will be updated after the first recipe_ingest artifact push.",
+    "commitSha points to the pushed recipe_ingest artifact commit.",
     "No paid generation services were launched."
   ]
 }

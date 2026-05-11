@@ -1,3 +1,7 @@
+Copyright (c) 2026 Yoann Coumes-Gauchet
+
+This repository is publicly visible for evaluation purposes only. No permission is granted to use, copy, modify, distribute, or commercialize this code. All rights reserved.
+
 # Recipe2Video Agent Workspace
 
 This repository is the focused Cursor workspace for Recipe2Video creative planning.

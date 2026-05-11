@@ -1,0 +1,289 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "global Licorn kitchen identity and final hero context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use only to preserve the Licorn kitchen island, materials, lighting, and overall identity. Do not force wide framing when a macro food texture is requested.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead countertop identity for prep, folding, shaping, and breading",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use only for overhead countertop composition and hand actions on the island.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "induction stovetop context for risotto and frying",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use only for close stovetop pan actions. The induction surface must not show flames, coals, or glowing gas burners.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "large pan shape for risotto and high-sided frying pan",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use as shape reference for the cooking vessel only; do not add extra burners or flames.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spatula",
+      "role": "spatula for risotto stirring, folding, and spreading",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use as tool reference for one clear stir, fold, or spread action at a time.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "spoon for serving nudge and cooled risotto scoop",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use as spoon shape reference only when a serving nudge or scoop is visible.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity for visible hands and final satisfied presence",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use to preserve character identity; do not re-invent the character design from text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down visible hands pose for prep, folding, shaping, and breading",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use only to keep hands readable in overhead food-action shots.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "safe three-quarter hand presence for lowering arancini into oil",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use to keep the frying hand/tool pose stable and safe; no oil splashing onto hands.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "final satisfied character pose at the kitchen island",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use only for the final shot where the dish stays foreground and the character supports the scene.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterExpressions",
+      "role": "satisfied expression for final hero shot",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for a warm satisfied expression only; no speech or exaggerated performance.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_source",
+      "canonicalName": "SourceFinalAranciniPhoto",
+      "role": "uploaded final arancini bowl photo for serving composition and crumb color",
+      "priority": 1,
+      "source": "uploaded_recipe_photo",
+      "sourceFile": "photo_2026-05-11_07-09-10.jpg",
+      "prompt": "Use the attached final dish photo to preserve the rustic bowl, round arancini pile, golden breadcrumb texture, and nearby green salad leaves.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07"
+      ],
+      "status": "available_from_ingest"
+    },
+    {
+      "type": "recipe_source",
+      "canonicalName": "SourceCutOpenAranciniPhoto",
+      "role": "uploaded cut-open arancino photo for interior structure",
+      "priority": 1,
+      "source": "uploaded_recipe_photo",
+      "sourceFile": "photo_2026-05-11_07-09-10.jpg",
+      "prompt": "Use the cut-open plated arancino area in the attached photo to preserve the creamy rice, peas, pale mozzarella center, and thin golden shell.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07"
+      ],
+      "status": "available_from_ingest"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CooledPeaRisottoSheetFrame",
+      "role": "cooled risotto state ready to scoop and shape",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a vertical 9:16 close overhead image in the Licorn kitchen: pale creamy risotto with green peas and parsley is spread thin on a plate or shallow tray, glossy but cooling into a matte moldable texture. No text, no hands, no final fried arancini.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "StuffedRiceBallFrame",
+      "role": "sealed mozzarella-stuffed rice ball topology before breading",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a vertical 9:16 macro overhead image in the Licorn kitchen: a smooth 6 cm pale risotto ball with green pea specks is sealed around a hidden mozzarella cube. Show one ball whole and one small cutaway diagram-like food state is not allowed; no exposed cheese on the outside, no breading, no frying oil, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "DoubleBreadedAranciniTrayFrame",
+      "role": "double-breaded pre-fry arancini shell",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a vertical 9:16 close overhead image in the Licorn kitchen: several round 6 cm arancini coated in pale coarse breadcrumbs rest on a tray with a few loose crumbs. The surface is dry, rough, pebbly, and fully covers the rice. No golden frying color yet, no exposed filling, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FriedGoldenAranciniFrame",
+      "role": "fried golden arancini target crust",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a vertical 9:16 macro food image in the Licorn kitchen: round arancini with crisp golden breadcrumb crust, uneven toasted speckles, tiny oil droplets, and dry crumb texture. No burnt black patches, no tomato sauce, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CutOpenAranciniMozzarellaFrame",
+      "role": "cut-open arancino interior with peas and mozzarella",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate a vertical 9:16 macro food image in the Licorn kitchen: one fried arancino is cut open, showing a thin crisp golden shell, creamy white risotto with green peas and parsley, and a soft central mozzarella core with a short realistic stretch. No tomato sauce, no long pizza pull, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07"
+      ],
+      "status": "planned"
+    }
+  ]
+}

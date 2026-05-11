@@ -1,0 +1,65 @@
+{
+  "videoId": "f44d469c-4e96-4cce-9b84-98f6797d2500",
+  "stage": "recipe_ingest",
+  "branch": "cursor/recipe-ingest-arancini-e939",
+  "commitSha": null,
+  "manifestPath": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/checkpoint-manifest.json",
+  "updatedAt": "2026-05-11T08:32:00Z",
+  "source": {
+    "type": "photos",
+    "files": [
+      "photo_2026-05-11_07-09-12.jpg",
+      "photo_2026-05-11_07-09-10.jpg"
+    ]
+  },
+  "productionDefaults": {
+    "stylePreset": "asmr_food",
+    "videoModel": "seedance2",
+    "imageModelForReferenceGeneration": "gpt_image_2",
+    "ttsModel": "eleven_multilingual_v2",
+    "sfxModel": "eleven_text_to_sound_v2",
+    "cursorAgentModel": "gpt-5.5",
+    "cursorAgentReasoning": "high",
+    "cursorAgentFastMode": false
+  },
+  "artifacts": [
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/recipe-analysis.json",
+      "status": "ready"
+    },
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/logical-scenes.json",
+      "status": "ready"
+    },
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/seedance-segments.json",
+      "status": "ready"
+    },
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/reference-plan.json",
+      "status": "ready"
+    },
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/suno-prompt.md",
+      "status": "ready"
+    },
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/decisions.md",
+      "status": "ready"
+    },
+    {
+      "path": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/changelog.md",
+      "status": "ready"
+    }
+  ],
+  "validation": {
+    "jsonSyntax": "valid",
+    "logicalSceneCount": 38,
+    "seedanceSegmentCount": 7,
+    "notes": [
+      "Validated with Python json.load for all JSON artifacts.",
+      "Recipe timing uses prep, cook, and total keys.",
+      "recipe-analysis texture, hook, transformation, and policy fields are arrays of strings."
+    ]
+  }
+}

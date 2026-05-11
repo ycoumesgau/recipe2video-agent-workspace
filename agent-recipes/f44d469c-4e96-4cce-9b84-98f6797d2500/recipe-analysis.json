@@ -1,0 +1,238 @@
+{
+  "recipe": {
+    "title": "Arancini mozza, riz & petits pois",
+    "sourceType": "photos",
+    "sourceUrl": null,
+    "sourceFiles": [
+      "photo_2026-05-11_07-09-12.jpg",
+      "photo_2026-05-11_07-09-10.jpg"
+    ],
+    "yield": "24 arancini",
+    "ingredients": [
+      {
+        "name": "parmesan",
+        "quantity": "100 g",
+        "note": "in pieces, grated before mixing into risotto"
+      },
+      {
+        "name": "echalotes",
+        "quantity": "100 g",
+        "note": "cut in half, chopped"
+      },
+      {
+        "name": "butter",
+        "quantity": "60 g",
+        "note": "for sweating shallots and coating rice"
+      },
+      {
+        "name": "risotto rice",
+        "quantity": "320 g",
+        "note": "short-grain rice for creamy binding"
+      },
+      {
+        "name": "dry white wine",
+        "quantity": "100 g",
+        "note": "deglazing liquid"
+      },
+      {
+        "name": "vegetable stock",
+        "quantity": "680 g",
+        "note": "absorbed into rice"
+      },
+      {
+        "name": "parsley",
+        "quantity": "3 sprigs",
+        "note": "chopped"
+      },
+      {
+        "name": "green peas",
+        "quantity": "150 g",
+        "note": "folded into hot risotto"
+      },
+      {
+        "name": "mozzarella",
+        "quantity": "125 g",
+        "note": "cut into cubes for the center"
+      },
+      {
+        "name": "flour",
+        "quantity": "75 g",
+        "note": "first breading station"
+      },
+      {
+        "name": "eggs",
+        "quantity": "2",
+        "note": "beaten for breading"
+      },
+      {
+        "name": "breadcrumbs",
+        "quantity": "250 g",
+        "note": "double coating for crisp shell"
+      },
+      {
+        "name": "frying oil",
+        "quantity": "1 liter",
+        "note": "heated to 180-190 C"
+      },
+      {
+        "name": "salt",
+        "quantity": null,
+        "note": "to season risotto"
+      },
+      {
+        "name": "pepper",
+        "quantity": null,
+        "note": "to season risotto"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Grate the parmesan finely and reserve.",
+        "timing": "10 sec",
+        "visualCue": "pale parmesan turns into fine snowy shavings",
+        "block": "prep",
+        "textureCue": "dry grated cheese flakes",
+        "runwayRisk": "Low if shown as a short texture insert rather than a machine action."
+      },
+      {
+        "position": 2,
+        "text": "Chop the echalotes and scrape them down.",
+        "timing": "5 sec",
+        "visualCue": "small wet shallot pieces gather against the bowl or board",
+        "block": "risotto",
+        "textureCue": "translucent aromatic dice",
+        "runwayRisk": "Avoid appliance-specific controls; show chopped shallots landing in pan."
+      },
+      {
+        "position": 3,
+        "text": "Add butter and sweat the shallots.",
+        "timing": "3 min",
+        "visualCue": "butter cubes melt into glossy foam around shallot pieces",
+        "block": "risotto",
+        "textureCue": "foaming butter and softened aromatics",
+        "runwayRisk": "Induction should not show flame or glowing burner."
+      },
+      {
+        "position": 4,
+        "text": "Add risotto rice and toast briefly.",
+        "timing": "3 min",
+        "visualCue": "rice pearls become glossy and semi-translucent at the edge",
+        "block": "risotto",
+        "textureCue": "slick rice grains clicking through butter",
+        "runwayRisk": "Keep one visible stirring action, not chaotic tool motion."
+      },
+      {
+        "position": 5,
+        "text": "Pour in white wine and cook briefly.",
+        "timing": "1 min",
+        "visualCue": "wine hisses and releases a small vapor cloud over glossy rice",
+        "block": "risotto",
+        "textureCue": "thin liquid deglaze turning starchy",
+        "runwayRisk": "Do not over-emphasize alcohol flame; no fire."
+      },
+      {
+        "position": 6,
+        "text": "Add vegetable stock, salt, and pepper, scrape the base, then cook until creamy.",
+        "timing": "20 min plus 1 min rest",
+        "visualCue": "stock floods rice, then hard cut to thick creamy risotto pulling away from spatula",
+        "block": "risotto",
+        "textureCue": "starchy glossy grains suspended in creamy sauce",
+        "runwayRisk": "Long absorption should be compressed with hard cuts and state references."
+      },
+      {
+        "position": 7,
+        "text": "Transfer risotto to a plate, mix in parmesan, parsley, and peas, then cool.",
+        "timing": "30 min rest",
+        "visualCue": "green peas and parsley streak through pale risotto as parmesan melts",
+        "block": "cooling",
+        "textureCue": "creamy rice becoming matte enough to shape",
+        "runwayRisk": "Cooling is invisible; use a spread-out sheet and a later firmer state."
+      },
+      {
+        "position": 8,
+        "text": "Form 6 cm balls, open a center well, add a mozzarella cube, and close.",
+        "timing": null,
+        "visualCue": "hands press a rice cup around a white mozzarella cube and seal it into a sphere",
+        "block": "forming",
+        "textureCue": "sticky rice shell around firm cheese cube",
+        "runwayRisk": "The filled sphere geometry needs a state reference so the model keeps the filling inside."
+      },
+      {
+        "position": 9,
+        "text": "Coat each ball in flour, egg, breadcrumbs, then egg and breadcrumbs again.",
+        "timing": null,
+        "visualCue": "white flour dust, yellow egg gloss, and coarse crumb armor build in layers",
+        "block": "breading",
+        "textureCue": "dry dust to wet gloss to rough breadcrumb crust",
+        "runwayRisk": "Multiple stations can confuse continuity; show one ball moving station by station."
+      },
+      {
+        "position": 10,
+        "text": "Fry batches in 180-190 C oil for 3-4 minutes, drain, and serve hot.",
+        "timing": "3-4 min per batch",
+        "visualCue": "furious bubbles thin out as the shell turns golden, then steam escapes when opened",
+        "block": "frying and serving",
+        "textureCue": "crisp golden crust, creamy rice, molten mozzarella",
+        "runwayRisk": "Oil bubbles can obscure the food; require visible safe lowering with hands/tools and hard cuts."
+      }
+    ],
+    "subRecipes": [
+      "grated parmesan prep",
+      "pea-parmesan risotto base",
+      "cooling and shaping",
+      "mozzarella filling",
+      "double breading",
+      "deep frying",
+      "hot service"
+    ],
+    "assumptions": [
+      "The Thermomix-specific appliance actions are translated into visible pan and countertop actions for video clarity.",
+      "The final arancini are round, about 6 cm wide, with visible peas in the rice and a central mozzarella core.",
+      "A young leaf salad is optional serving context and should not distract from the arancini.",
+      "The uploaded final-dish photo can guide the golden crumb color, bowl stack, and cut-open mozzarella reveal."
+    ],
+    "timing": {
+      "prep": "25 min",
+      "cook": "40 min",
+      "total": "1 h 35"
+    },
+    "criticalTransformations": [
+      "Risotto rice changes from dry opaque grains to glossy toasted grains.",
+      "Stock absorption turns loose liquid rice into creamy starchy risotto.",
+      "Hot risotto with parmesan, peas, and parsley must cool into a moldable matte mass.",
+      "A mozzarella cube is sealed inside a rice sphere without showing exposed filling before frying.",
+      "Double breading changes a sticky rice ball into a rough, dry breadcrumb-coated shell.",
+      "Frying changes pale breadcrumb coating into a crisp golden crust while the mozzarella center melts.",
+      "Opening a hot arancino reveals creamy rice, green peas, steam, and soft mozzarella."
+    ],
+    "visualTextureOpportunities": [
+      "Golden breadcrumb crust breaking into small crisp crumbs.",
+      "Mozzarella stretching from a cut-open arancino.",
+      "Green peas dotting creamy rice against the white cheese center.",
+      "Butter foaming around chopped shallots.",
+      "Risotto rice pearls turning glossy in the pan.",
+      "Wine hitting hot rice with a brief vapor hiss.",
+      "Parmesan snow melting into the hot rice.",
+      "Flour dust, egg shine, and coarse breadcrumb texture in sequence.",
+      "Oil bubbles racing around the arancini during frying.",
+      "Final warm arancini piled in a rustic bowl beside fresh green leaves."
+    ],
+    "possibleHooks": [
+      "Open on a crisp arancino cracking to reveal molten mozzarella and peas.",
+      "Open on breadcrumbs erupting into bubbles as a pale ball enters hot oil.",
+      "Open on a double-breaded ball rolling through coarse crumbs before a hard cut to golden fried crust.",
+      "Open on a spoon nudging a stack of golden arancini before a cut-open payoff.",
+      "Open on a close macro cheese pull from the first bite, then rewind into shaping."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest",
+      "seedance-workflow",
+      "seedance-references",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "suno-music"
+    ]
+  },
+  "clarifyingQuestions": []
+}

@@ -1,5 +1,12 @@
 # Changelog — `3dd86fd1-8ddf-442a-b123-635b5eee5037`
 
+## 2026-05-11 — Révision prompts segment 3 (échelle ~5–6 cm)
+
+- **`seedance-segments.json` segment-03** : bloc **HARD SCALE** (5–6 cm ø, comparaison mains/assiette, interdits melon–ballon-de-foot), timings et négatifs alignés ; `risk`/`negatives` enrichis.
+- **Segments 04–06** : même cote **~5–6 cm** et négatifs taille où pertinent (panure, friture, money shot).
+- **`logical-scenes.json`** scènes **15–18** : énoncé diamètre et notes anti-gonflement.
+- **`recipe-analysis.json`** : hypothèse explicite pour la génération Seedance sur l'échelle boule.
+
 ## 2026-05-11 — Allègement références (sans `recipe_state`)
 
 - Suppression des **six** images d’état arancini planifiées en amont dans `reference-plan.json`; le plan ne référenc plus que les PNG **kitchen / ustensiles / poses / perso**.

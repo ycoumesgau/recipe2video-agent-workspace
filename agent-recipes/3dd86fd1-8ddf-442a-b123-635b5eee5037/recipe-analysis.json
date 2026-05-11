@@ -190,7 +190,8 @@
       "Les réglages robot type Thermomix de la page source sont traduits en gestes visibles casserole ou sauteuse sur plaque.",
       "Le rendement 24 pièces est conservé pour l'échelle des plans macro vs contexte.",
       "La salade de jeunes pousses reste un accompagnement secondaire sauf validation production.",
-      "Les photos uploadées servent d'ancrage visuel couleur et dressage final."
+      "Les photos uploadées servent d'ancrage visuel couleur et dressage final.",
+      "La génération vidéo (segment 3) impose une échelle de boule d'environ 5 à 6 cm de diamètre (bouchée hors-d'œuvre) pour éviter les dérives type sphère surdimensionnée."
     ],
     "timing": {
       "prep": "25 min",

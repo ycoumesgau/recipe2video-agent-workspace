@@ -2,7 +2,7 @@
   "videoId": "06233b67-93fe-479f-85f1-965fe57f7829",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-06233b67-765b",
-  "commitSha": null,
+  "commitSha": "04b2d726ce49c39a6b1d21fc5c22b3a6b4b6e0d4",
   "manifestPath": "agent-recipes/06233b67-93fe-479f-85f1-965fe57f7829/checkpoint-manifest.json",
   "updatedAt": "2026-05-11T05:10:00Z",
   "source": {

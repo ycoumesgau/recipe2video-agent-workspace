@@ -1,0 +1,743 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 1,
+      "title": "Neige parmesan et suer",
+      "arc": "fonds_aromatiques",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05",
+        "scene-06"
+      ],
+      "description": "Râpé fin, échalotes prêtes, beurre mousse, suer, torréfaction riz sec.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for overhead countertop identity on râpé and riz. Use @InductionCloseup for hot pan close context. Use @SaucepanLarge only as pan shape. Use @Spatula only as tool shape. Use @CharacterSheet and @PoseTopDown for visible hands.\n\nGenerate exactly 7 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. Vertical 1080:1920 TikTok food ASMR, no text on screen, no captions.\n\nIntegrated audio: no speech, no voiceover, no music; only synchronized kitchen ASMR.\n\nMandatory timing:\n- 0.0-1.0s: parmesan showers as powder snow macro;\n- 1.0-2.0s: shallot cubes glassy piled payoff;\n- 2.0-3.2s: butter foaming blond with fine bubbles;\n- 3.2-4.2s: shallots glassy sweat without deep brown;\n- 4.2-5.2s: dry risotto rice slides and toasts glossy in fat, grains still identifiable;\n- 5.2-6.0s: quick rake with @Spatula showing chalk-to-gloss edge.\n\nGlobal negatives: no mise-en-place parade, no cookbook text readable, no extra hands, no music, no voice.\n\nMandatory audio: fine grate tick; butter sizzle; rice clatter; spatula scrape softer ASMR.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for overhead countertop identity on râpé and riz. Use @InductionCloseup for hot pan close context. Use @SaucepanLarge only as pan shape. Use @Spatula only as tool shape. Use @CharacterSheet and @PoseTopDown for visible hands.\n\nGenerate exactly 7 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. Vertical 1080:1920 TikTok food ASMR, no text on screen, no captions.\n\nIntegrated audio: no speech, no voiceover, no music; only synchronized kitchen ASMR.\n\nMandatory timing:\n- 0.0-1.0s: parmesan showers as powder snow macro;\n- 1.0-2.0s: shallot cubes glassy piled payoff;\n- 2.0-3.2s: butter foaming blond with fine bubbles;\n- 3.2-4.2s: shallots glassy sweat without deep brown;\n- 4.2-5.2s: dry risotto rice slides and toasts glossy in fat, grains still identifiable;\n- 5.2-6.0s: quick rake with @Spatula showing chalk-to-gloss edge.\n\nGlobal negatives: no mise-en-place parade, no cookbook text readable, no extra hands, no music, no voice.\n\nMandatory audio: fine grate tick; butter sizzle; rice clatter; spatula scrape softer ASMR.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction zone close",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "large saucepan silhouette",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spatula tool shape",
+          "name": "Spatula",
+          "label": "Spatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "parmesan snow",
+        "shallot payoff",
+        "butter foam",
+        "rice toast"
+      ],
+      "timing": [
+        "0.0-1.0s parmesan",
+        "4.2-5.2s rice toast"
+      ],
+      "continuity": "Opening stays texture-first; scene 2 in logical board pays off aromatics after cold cheese powder.",
+      "risk": "Avoid anonymous powder that could read as flour; keep parmesan warm yellow-white.",
+      "audioPrompt": "fine grate; butter foam sizzle; rice clatter; spatula scrape",
+      "negatives": [
+        "no text",
+        "no music",
+        "no voice",
+        "no tutorial typography"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 2,
+      "title": "Risotto et confetti verts",
+      "arc": "risotto_cremeux",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12",
+        "scene-13"
+      ],
+      "description": "Déglace vin, louches, crème du riz, transfert, pois persil parmesan.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SaucepanLarge as cooking vessel. Use @Spatula for folding motion reference. Use @KitchenIslandOverhead for louche waves. Use @CharacterSheet and @PoseTopDown for hands. Use @CoolRisottoPeaParmesanFold only as the target cooled stir-in state: creamy rice, visible grains, bright peas, parsley flecks, parmesan veins, not soup.\n\nGenerate exactly 7 short shots with hard cuts, total duration 6 seconds, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music; ASMR only.\n\nMandatory timing:\n- 0.0-1.0s: white wine hits pan, short steam hiss, grains still separate;\n- 1.0-2.3s: first hot broth wave sheets across rice, glossy starch veil starts;\n- 2.3-3.6s: fold shows satin cream with distinct arborio kernels;\n- 3.6-4.2s: quick context lift to wider plate transfer beat;\n- 4.2-5.4s: peas and parsley confetti tumble and embed;\n- 5.4-6.0s: parmesan fold then hard cue toward cooler dense surface matching @CoolRisottoPeaParmesanFold.\n\nGlobal negatives: no soup flood hiding grains, no day-glo peas, no music.\n\nMandatory audio: wine hiss; broth pour; spatula fold; herb sprinkle rasp; parmesan whisper.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SaucepanLarge as cooking vessel. Use @Spatula for folding motion reference. Use @KitchenIslandOverhead for louche waves. Use @CharacterSheet and @PoseTopDown for hands. Use @CoolRisottoPeaParmesanFold only as the target cooled stir-in state: creamy rice, visible grains, bright peas, parsley flecks, parmesan veins, not soup.\n\nGenerate exactly 7 short shots with hard cuts, total duration 6 seconds, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music; ASMR only.\n\nMandatory timing:\n- 0.0-1.0s: white wine hits pan, short steam hiss, grains still separate;\n- 1.0-2.3s: first hot broth wave sheets across rice, glossy starch veil starts;\n- 2.3-3.6s: fold shows satin cream with distinct arborio kernels;\n- 3.6-4.2s: quick context lift to wider plate transfer beat;\n- 4.2-5.4s: peas and parsley confetti tumble and embed;\n- 5.4-6.0s: parmesan fold then hard cue toward cooler dense surface matching @CoolRisottoPeaParmesanFold.\n\nGlobal negatives: no soup flood hiding grains, no day-glo peas, no music.\n\nMandatory audio: wine hiss; broth pour; spatula fold; herb sprinkle rasp; parmesan whisper.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "large saucepan silhouette",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spatula tool shape",
+          "name": "Spatula",
+          "label": "Spatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "target folded risotto with peas parmesan parsley",
+          "name": "CoolRisottoPeaParmesanFold",
+          "label": "CoolRisottoPeaParmesanFold",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "wine hiss",
+        "broth cream fold",
+        "pea parsley confetti"
+      ],
+      "timing": [
+        "0.0-1.0s wine deglaze",
+        "4.2-5.4s pea confetti"
+      ],
+      "continuity": "Thermomix choreography from cookbook is replaced by visible casserole physics.",
+      "risk": "Model may puree peas; insist on whole peas popping in cream.",
+      "audioPrompt": "hiss steam; broth pour; spatula fold; herb sprinkle",
+      "negatives": [
+        "no music",
+        "no voice",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 3,
+      "title": "Refroidir et fermer mozzarella",
+      "arc": "farçage_sphere",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19"
+      ],
+      "description": "Temps malléable, sphères 6 cm, puits cube mozzarella, fermeture.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for forming. Use @CharacterSheet with @PoseThreeQuarterRight for side-angle hands closing balls. Use @CoolRisottoPeaParmesanFold as source mass texture before shaping. Use @StuffedRawAranciniBall as target sealed stuffed sphere with mozzarella hidden.\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no morphing between references, no extra shots.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.1s: spread mass shows satin cooling to mouldable clay;\n- 1.1-2.2s: first press shaping 6 cm sphere imperfections visible;\n- 2.2-3.0s: finger opens clean pocket;\n- 3.0-3.8s: mozzarella cube inserted and buried;\n- 3.8-4.6s: seam closed and rolled between palms;\n- 4.6-5.0s: match exterior to @StuffedRawAranciniBall sealed shell.\n\nGlobal negatives: no leaking cheese pre-fry, no cracked seam gaping, no music.\n\nMandatory audio: soft pat; finger pop; smooth palm roll ASMR.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for forming. Use @CharacterSheet with @PoseThreeQuarterRight for side-angle hands closing balls. Use @CoolRisottoPeaParmesanFold as source mass texture before shaping. Use @StuffedRawAranciniBall as target sealed stuffed sphere with mozzarella hidden.\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no morphing between references, no extra shots.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.1s: spread mass shows satin cooling to mouldable clay;\n- 1.1-2.2s: first press shaping 6 cm sphere imperfections visible;\n- 2.2-3.0s: finger opens clean pocket;\n- 3.0-3.8s: mozzarella cube inserted and buried;\n- 3.8-4.6s: seam closed and rolled between palms;\n- 4.6-5.0s: match exterior to @StuffedRawAranciniBall sealed shell.\n\nGlobal negatives: no leaking cheese pre-fry, no cracked seam gaping, no music.\n\nMandatory audio: soft pat; finger pop; smooth palm roll ASMR.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter right hands",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "cooled risotto mass colour",
+          "name": "CoolRisottoPeaParmesanFold",
+          "label": "CoolRisottoPeaParmesanFold",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "sealed stuffed raw arancini target",
+          "name": "StuffedRawAranciniBall",
+          "label": "StuffedRawAranciniBall",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "cool mass",
+        "pocket",
+        "mozzarella tuck",
+        "sealed ball"
+      ],
+      "timing": [
+        "2.2-3.0s pocket",
+        "3.8-4.6s seam close"
+      ],
+      "continuity": "State references avoid invented sphere topology.",
+      "risk": "Risk of cube visible through wall; keep plug interior hidden until fry segment.",
+      "audioPrompt": "pat; pop; roll",
+      "negatives": [
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 4,
+      "title": "Double panure mate",
+      "arc": "panure",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24"
+      ],
+      "description": "Farine, œuf, chapelure, seconde couche.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for breading station. Use @CharacterSheet and @PoseTopDown for hands. Use @StuffedRawAranciniBall as pre-dredge ball. Use @DoubleBreadedPaleAranciniBall as final pale crust before fry.\n\nGenerate exactly 5 short shots with hard cuts, total duration 5 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.0s: flour tap coat white veil;\n- 1.0-2.0s: egg curtain cling yellow film;\n- 2.0-3.0s: first breadcrumb coat fine grit;\n- 3.0-4.0s: second egg dip;\n- 4.0-5.0s: second crumb heavier micro peaks matching @DoubleBreadedPaleAranciniBall.\n\nGlobal negatives: no skipping second pass, no neon crumbs, no text.\n\nMandatory audio: flour dust; egg drip; crumb rustle doubled.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandOverhead for breading station. Use @CharacterSheet and @PoseTopDown for hands. Use @StuffedRawAranciniBall as pre-dredge ball. Use @DoubleBreadedPaleAranciniBall as final pale crust before fry.\n\nGenerate exactly 5 short shots with hard cuts, total duration 5 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.0s: flour tap coat white veil;\n- 1.0-2.0s: egg curtain cling yellow film;\n- 2.0-3.0s: first breadcrumb coat fine grit;\n- 3.0-4.0s: second egg dip;\n- 4.0-5.0s: second crumb heavier micro peaks matching @DoubleBreadedPaleAranciniBall.\n\nGlobal negatives: no skipping second pass, no neon crumbs, no text.\n\nMandatory audio: flour dust; egg drip; crumb rustle doubled.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pre-bread raw stuffed ball",
+          "name": "StuffedRawAranciniBall",
+          "label": "StuffedRawAranciniBall",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "double breaded pale shell target",
+          "name": "DoubleBreadedPaleAranciniBall",
+          "label": "DoubleBreadedPaleAranciniBall",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "flour veil",
+        "egg curtain",
+        "double crumb"
+      ],
+      "timing": [
+        "0.0-1.0s flour",
+        "4.0-5.0s second crumb"
+      ],
+      "continuity": "Hard cut between pale states rather than continuous morph.",
+      "risk": "Crumb may read as sand; specify fine uniform grain.",
+      "audioPrompt": "dust; drip; rustle",
+      "negatives": [
+        "no music",
+        "no voice"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 5,
+      "title": "Bain 180 et dorure",
+      "arc": "friture",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-25",
+        "scene-26",
+        "scene-27",
+        "scene-28",
+        "scene-29"
+      ],
+      "description": "Huile chaude, plongeon, halo bulle, rotation dorée, sortie égout.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SaucepanLarge as fry pot shape. Use @InductionCloseup for oil surface. Use @Spatula for gentle turn. Use @DoubleBreadedPaleAranciniBall as pre-fry reference. Use @FriedGoldenAranciniBall as post-fry colour texture target: even gold, crisp micro pores, no burned spots.\n\nGenerate exactly 5 short shots with hard cuts, total duration 6 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: wide context pot then tight shimmer 180-190C oil;\n- 1.2-2.4s: pale ball from @DoubleBreadedPaleAranciniBall enters, violent micro bubble halo;\n- 2.4-3.6s: roll with @Spatula, colour shift toward @FriedGoldenAranciniBall;\n- 3.6-4.8s: lift drain drip silhouette;\n- 4.8-6.0s: rack rest with droplets sheen.\n\nGlobal negatives: no flames, no black smoke, no floating ball without oil contact, no music.\n\nMandatory audio: oil shimmer hush; fry crackle crescendo; lift drip.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @SaucepanLarge as fry pot shape. Use @InductionCloseup for oil surface. Use @Spatula for gentle turn. Use @DoubleBreadedPaleAranciniBall as pre-fry reference. Use @FriedGoldenAranciniBall as post-fry colour texture target: even gold, crisp micro pores, no burned spots.\n\nGenerate exactly 5 short shots with hard cuts, total duration 6 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: wide context pot then tight shimmer 180-190C oil;\n- 1.2-2.4s: pale ball from @DoubleBreadedPaleAranciniBall enters, violent micro bubble halo;\n- 2.4-3.6s: roll with @Spatula, colour shift toward @FriedGoldenAranciniBall;\n- 3.6-4.8s: lift drain drip silhouette;\n- 4.8-6.0s: rack rest with droplets sheen.\n\nGlobal negatives: no flames, no black smoke, no floating ball without oil contact, no music.\n\nMandatory audio: oil shimmer hush; fry crackle crescendo; lift drip.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "deep saucepan fry vessel",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction close for oil",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spatula tool shape",
+          "name": "Spatula",
+          "label": "Spatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pale double breaded ball",
+          "name": "DoubleBreadedPaleAranciniBall",
+          "label": "DoubleBreadedPaleAranciniBall",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "fried golden ball target",
+          "name": "FriedGoldenAranciniBall",
+          "label": "FriedGoldenAranciniBall",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "shimmer",
+        "drop fry",
+        "turn gold",
+        "drain"
+      ],
+      "timing": [
+        "1.2-2.4s drop",
+        "2.4-3.6s colour shift"
+      ],
+      "continuity": "Uses explicit pale-to-fried state cut to protect fragile browning read.",
+      "risk": "Avoid under-oil framing that hides bubble physics.",
+      "audioPrompt": "crackle fry; metal lift; drip",
+      "negatives": [
+        "no music",
+        "no voice"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 6,
+      "title": "Blot pull fil cheese",
+      "arc": "money_shot_fromage",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33",
+        "scene-34"
+      ],
+      "description": "Score coque, ouverture vapeur, stretch mozzarella, intérieur grains, bol rustique.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @CharacterSheet with @PoseThreeQuarterRight for hands breaking ball. Use @FriedGoldenAranciniBall for intact shell reference. Use @SplitAranciniCheesePullInterior for cross-section with stretchy mozzarella, steam wisp, peas in rice matrix. Use @RusticBowlAranciniPileHero for stacked bowl composition echoing plated photo.\n\nGenerate exactly 5 short shots with hard cuts, total duration 6 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: knife tip scores crust from @FriedGoldenAranciniBall;\n- 1.2-2.4s: hands crack halves, steam vent;\n- 2.4-4.0s: slow pull referencing @SplitAranciniCheesePullInterior filaments;\n- 4.0-5.0s: interior macro grains plus peas clarity;\n- 5.0-6.0s: hard cut to @RusticBowlAranciniPileHero pile context.\n\nGlobal negatives: no cold rubber cheese, no empty cavity, no text.\n\nMandatory audio: crust micro-crack; breath steam; stretch squeak ultra subtle.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @CharacterSheet with @PoseThreeQuarterRight for hands breaking ball. Use @FriedGoldenAranciniBall for intact shell reference. Use @SplitAranciniCheesePullInterior for cross-section with stretchy mozzarella, steam wisp, peas in rice matrix. Use @RusticBowlAranciniPileHero for stacked bowl composition echoing plated photo.\n\nGenerate exactly 5 short shots with hard cuts, total duration 6 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: knife tip scores crust from @FriedGoldenAranciniBall;\n- 1.2-2.4s: hands crack halves, steam vent;\n- 2.4-4.0s: slow pull referencing @SplitAranciniCheesePullInterior filaments;\n- 4.0-5.0s: interior macro grains plus peas clarity;\n- 5.0-6.0s: hard cut to @RusticBowlAranciniPileHero pile context.\n\nGlobal negatives: no cold rubber cheese, no empty cavity, no text.\n\nMandatory audio: crust micro-crack; breath steam; stretch squeak ultra subtle.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter right hands",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "fried shell reference",
+          "name": "FriedGoldenAranciniBall",
+          "label": "FriedGoldenAranciniBall",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "split cheese pull interior target",
+          "name": "SplitAranciniCheesePullInterior",
+          "label": "SplitAranciniCheesePullInterior",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rustic pile hero plating",
+          "name": "RusticBowlAranciniPileHero",
+          "label": "RusticBowlAranciniPileHero",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "score",
+        "steam split",
+        "cheese pull"
+      ],
+      "timing": [
+        "2.4-4.0s stretch",
+        "5.0-6.0s bowl cut"
+      ],
+      "continuity": "Cheese physics require split reference rather than imagining stretch.",
+      "risk": "Model may liquefy mozzarella; reinforce elastic threads staying opaque white.",
+      "audioPrompt": "crack crust; steam; stretch",
+      "negatives": [
+        "no music",
+        "no voice"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-07",
+      "videoId": "3dd86fd1-8ddf-442a-b123-635b5eee5037",
+      "position": 7,
+      "title": "Fin accompagnée et chef",
+      "arc": "cloture_service",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-35",
+        "scene-36",
+        "scene-37",
+        "scene-38"
+      ],
+      "description": "Petite assiette, salade option, personnage satisfait macro final.",
+      "prompt": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandWide for breathable context establishing island background. Use @CharacterSheet with @PoseThreeQuarterLeft showing satisfied softened smile after tasting beat. Reference @RusticBowlAranciniPileHero for consistent pile styling beside optional greens.\n\nGenerate exactly 4 short shots with hard cuts, total duration 5 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: torn half on side plate plus scattered baby leaves still life;\n- 1.2-2.5s: optional quick greens bowl cue or skip fade if unset;\n- 2.5-3.9s: chef satisfaction medium shot Licorn expressive eyes;\n- 3.9-5.0s: return macro tighter on golden pile residual steam ribbons.\n\nGlobal negatives: no speech, no on-screen captions, no music logos.\n\nMandatory audio: soft cloth move; leafy rustle optional; airy exhale very low.",
+      "promptInitial": "Use @KitchenIslandDefault for global Licorn kitchen identity. Use @KitchenIslandWide for breathable context establishing island background. Use @CharacterSheet with @PoseThreeQuarterLeft showing satisfied softened smile after tasting beat. Reference @RusticBowlAranciniPileHero for consistent pile styling beside optional greens.\n\nGenerate exactly 4 short shots with hard cuts, total duration 5 seconds.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: torn half on side plate plus scattered baby leaves still life;\n- 1.2-2.5s: optional quick greens bowl cue or skip fade if unset;\n- 2.5-3.9s: chef satisfaction medium shot Licorn expressive eyes;\n- 3.9-5.0s: return macro tighter on golden pile residual steam ribbons.\n\nGlobal negatives: no speech, no on-screen captions, no music logos.\n\nMandatory audio: soft cloth move; leafy rustle optional; airy exhale very low.",
+      "references": [
+        {
+          "role": "global Licorn kitchen environment",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wide island readable context",
+          "name": "KitchenIslandWide",
+          "label": "KitchenIslandWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter left body frame",
+          "name": "PoseThreeQuarterLeft",
+          "label": "PoseThreeQuarterLeft",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rustic plating continuity",
+          "name": "RusticBowlAranciniPileHero",
+          "label": "RusticBowlAranciniPileHero",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "side plate composed",
+        "chef smile",
+        "final macro pile"
+      ],
+      "timing": [
+        "2.5-3.9s character satisfaction",
+        "3.9-5.0s macro stack"
+      ],
+      "continuity": "Closes Licorn cockpit rule character visible gratified beside finished pile.",
+      "risk": "Avoid second context shot back-to-back if greens feel redundant; can compress.",
+      "audioPrompt": "leaf rustle; subtle exhale",
+      "negatives": [
+        "no music",
+        "no voice",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "seedance-references.mdc"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

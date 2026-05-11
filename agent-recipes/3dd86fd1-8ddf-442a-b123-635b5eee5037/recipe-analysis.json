@@ -1,0 +1,241 @@
+{
+  "recipe": {
+    "title": "Arancini mozza, riz et petits pois",
+    "sourceType": "photos",
+    "sourceUrl": null,
+    "ingredients": [
+      {
+        "name": "parmesan",
+        "quantity": "100 g",
+        "note": "en morceaux, râpé finement"
+      },
+      {
+        "name": "échalotes",
+        "quantity": "100 g",
+        "note": "coupées en deux puis hachées au robot ou au couteau"
+      },
+      {
+        "name": "beurre",
+        "quantity": "60 g",
+        "note": "en morceaux"
+      },
+      {
+        "name": "riz à risotto",
+        "quantity": "320 g",
+        "note": "riz arborio ou carnaroli"
+      },
+      {
+        "name": "vin blanc sec",
+        "quantity": "100 g",
+        "note": "pour déglacer"
+      },
+      {
+        "name": "bouillon de légumes",
+        "quantity": "680 g",
+        "note": "chaud en cuisson crémeuse ou ajout louche par louche"
+      },
+      {
+        "name": "persil",
+        "quantity": "3 brins",
+        "note": "ciselés"
+      },
+      {
+        "name": "petits pois",
+        "quantity": "150 g",
+        "note": "verts brillants mélangés en fin de cuisson du riz"
+      },
+      {
+        "name": "mozzarella",
+        "quantity": "125 g",
+        "note": "en cubes au cœur de chaque boule"
+      },
+      {
+        "name": "farine",
+        "quantity": "75 g",
+        "note": "panure étape 1"
+      },
+      {
+        "name": "œufs",
+        "quantity": "2",
+        "note": " battus pour panure"
+      },
+      {
+        "name": "chapelure",
+        "quantity": "250 g",
+        "note": "double panure"
+      },
+      {
+        "name": "huile de friture",
+        "quantity": "1 l",
+        "note": "légère, haut bac ou friteuse jusqu'à dépasser les boules"
+      },
+      {
+        "name": "sel et poivre",
+        "quantity": null,
+        "note": "assaisonnement du bouillon ou du risotto"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Râper très finement le parmesan et réserver.",
+        "timing": null,
+        "visualCue": "flammules de parmesan blanc doré tombant depuis une grille fine",
+        "block": "appareils_et_fonds",
+        "textureCue": "poudre sèche légère, parfums salés sans gras",
+        "runwayRisk": "main invisible si la grille n'est pas cadrée en macro"
+      },
+      {
+        "position": 2,
+        "text": "Hacher ou mixer les échalotes en dés réguliers, racler les parois.",
+        "timing": null,
+        "visualCue": "échalotes en cubes translucides et homogènes",
+        "block": "aromatiques",
+        "textureCue": "chair ferme encore humide avant cuisson",
+        "runwayRisk": "mixer ambigu peut ressembler à de la bouillie verte si mauvais cadrage"
+      },
+      {
+        "position": 3,
+        "text": "Faire mousser le beurre puis suer les échalotes sans coloration forte.",
+        "timing": "~3 minutes",
+        "visualCue": "beurre blond mousseux et bulles fines sur les dés d'échalote",
+        "block": "aromatiques",
+        "textureCue": "liquide grasses translucides, vapeur courte",
+        "runwayRisk": "confondre sauté brunissant avec véritable blondissement"
+      },
+      {
+        "position": 4,
+        "text": "Ajouter le riz sec et le torréfier dans les matières grasses jusqu'à un grain encore blanc mais nacré.",
+        "timing": "~3 minutes",
+        "visualCue": "riz qui glisse puis se couvre d'un voile lipidique",
+        "block": "risotto",
+        "textureCue": "grain mat qui devient légèrement vitreux",
+        "runwayRisk": "morphologie des grains doit rester identique à Arborio plat"
+      },
+      {
+        "position": 5,
+        "text": "Déglacer au vin blanc et laisser s'évaporer jusqu'à odeur alcooleuse atténuée.",
+        "timing": "~1 minute",
+        "visualCue": "vapeur courte et léger hiss sur le fond de casserole",
+        "block": "risotto",
+        "textureCue": "liquide clair tirant sur le sirupeux très léger avant absorption",
+        "runwayRisk": "vapeur masque trop le grain sous pluie de vin opaque"
+      },
+      {
+        "position": 6,
+        "text": "Ajouter le bouillon, saler poivrer, mijoter jusqu'à absorption complète puis crème léger starch release du riz (équivalent 20 minutes de cuisson suivie du repos très court puis transfert hors feu décrit dans la source).",
+        "timing": "~20 minutes actives + repos court",
+        "visualCue": "vagues de louche crémeuses et rotation du riz devenant onctueux",
+        "block": "risotto",
+        "textureCue": "grain tendre encore distinct à la fourchette puis crème reliant",
+        "runwayRisk": "soupe épaisse générique sans grains visibles comme risotto individuels"
+      },
+      {
+        "position": 7,
+        "text": "Hors cuisson intensive, incorporer le parmesan rapé frais persil ciselé et petits pois tièdes jusqu'à diffusion homogène, étaler puis laisser refroidir 30 minutes jusqu'à masses malléable.",
+        "timing": "~30 minutes de refroidissement",
+        "visualCue": " verts pois discrets dans la crème blonde et herbes en particules brillantes ",
+        "block": "temps mort",
+        "textureCue": "masse encore souple puis plus dense et façonnable à la main",
+        "runwayRisk": "pâte molle encore chaude peut coller lors du façonnage"
+      },
+      {
+        "position": 8,
+        "text": "Former des boules 6 cm de diamètre, creuser un trou au centre puis insérer un cube mozzarella et reboucher par pression douce.",
+        "timing": null,
+        "visualCue": "empreinte digitale sur sphères et cube blanc mou à l'intérieur",
+        "block": "farcissage",
+        "textureCue": "couche extérieure légèrement collante fermée comme modelage",
+        "runwayRisk": "géométrie sphériques vs ovales si la jointure n'est pas montrée"
+      },
+      {
+        "position": 9,
+        "text": "Paner successivement dans la farine, l'œuf battu, la chapelure, puis rejouer œufs et chapelure pour double enveloppe granuleuse compacte.",
+        "timing": null,
+        "visualCue": "enrobage blanc puis jaune mouillé puis brun pâle de chapelure avant friture",
+        "block": "panure",
+        "textureCue": "croûte brute mate avec micro aspérités visibles avant cuisson huile ",
+        "runwayRisk": "sauter trop vite la deuxième passe rend la coupe fade"
+      },
+      {
+        "position": 10,
+        "text": "Monter huile ou bain semi-profond à 180-190 °C et frire par fournées 3-4 minutes jusqu'à coque dorée uniforme et croustillante.",
+        "timing": "3-4 minutes par fournée",
+        "visualCue": "bulles micro autour de la sphère et couleur noisette homogène",
+        "block": "friture",
+        "textureCue": "coque mince vitrifiée par l'huile et bruit de friture ASMR",
+        "runwayRisk": "sphère flottant sans contact visible du bain"
+      },
+      {
+        "position": 11,
+        "text": "Égoutter sur papier absorbant servir chaud éventuellement avec salade de jeunes pousses.",
+        "timing": null,
+        "visualCue": "gouttes d'huile capillaires sur papier et brisure montrant filaments mozzarella",
+        "block": "dressage",
+        "textureCue": "contraste coque friable et cœur collant filant",
+        "runwayRisk": "fromage refroidi ne file plus si attente trop longue avant plan"
+      }
+    ],
+    "subRecipes": [
+      "fonds_fromage",
+      "aromatiques_beurre",
+      "risotto_peas_parsley",
+      "refroidissement_malléable",
+      "farcissage_mozzarella",
+      "double_panure",
+      "friture_dorée",
+      "service_chaud"
+    ],
+    "assumptions": [
+      "Les réglages robot type Thermomix de la page source sont traduits en gestes visibles casserole ou sauteuse sur plaque.",
+      "Le rendement 24 pièces est conservé pour l'échelle des plans macro vs contexte.",
+      "La salade de jeunes pousses reste un accompagnement secondaire sauf validation production.",
+      "Les photos uploadées servent d'ancrage visuel couleur et dressage final."
+    ],
+    "timing": {
+      "prep": "25 min",
+      "cook": "40 min",
+      "total": "95 min"
+    },
+    "criticalTransformations": [
+      "Torréfaction des grains de riz arborio à sec dans le corps gras avant absorption du vin puis du bouillon pour libérer l'amidon en crème lisible grain par grain.",
+      "Refroidissement contrôlé jusqu'à malléabilité permettant d'enfermer mozzarella sans dissolution immédiate de la chapelure ensuite.",
+      "Double panure créant stratification chapelure mouillée sèche visible avant après friture.",
+      "Friture entre 180 et 190 °C transformant chapelure mate en enveloppe poreuse dorée craquante tout en migrant la chaleur vers filante mozzarella sans explosion de graisse hors cadre macro."
+    ],
+    "visualTextureOpportunities": [
+      "Brume courte au vin blanc contre le métal brillant encore humide.",
+      "Vagues crémeuses de louche reliant les grains arborio encore reconnaissables.",
+      "Verts pois discrets contre crème de riz blanc dorée au parmesan.",
+      "Coque chapelure brute micro granule puis coque dorée poreuse brillante après bain huile intense.",
+      "Filaments de mozzarella élastiques blanc lacté contrastant avec le cœur au riz et aux pois encore distincts lors de la rupture."
+    ],
+    "possibleHooks": [
+      "Gros plan de riz sec qui glisse et cliquette dans la casserole chaude avant la première louche.",
+      "Chute lente d'une louche de bouillon contre une surface d'huile encore calme précédant un halo de micro-bulles explosives.",
+      "Première plongée d'une boule encore pâle jusqu'à un halo bruyant puis rotation douce à la spatule.",
+      "Nuage de chapelure projeté sur fond sombre façon cascade silencieuse micro-ASMR avant friture.",
+      "Ouverture d'une boule encore fumante montrant mozzarella filante trois secondes puis plan de respiration satisfaite."
+    ],
+    "promptPolicySources": [
+      "Uploaded cookbook page photo photo_2026-05-11_07-09-12.jpg",
+      "Uploaded plated hero photo photo_2026-05-11_07-09-10.jpg",
+      "seedance-workflow skill default References mode avec seedance2 ratio 1080:1920",
+      "tiktok-food-direction skill texture ouverte et balance détail contre contexte",
+      "recipe-agent-core rule ouverture texture d'abord sans mise en place statique prolongée",
+      "Workspace production default style preset label asmr_food"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "appliance-vs-casserole",
+      "question": "Souhaitez-vous garder une esthétique bol de robot multimixeur multicooker visible plusieurs plans ou préférez vous exclusivement casserole profonde plaque induction Licorn?",
+      "reason": "Contraint les références ustensiles et la crédibilité des mains par rapport aux assets Spoon Spatula SaucepanLarge disponibles."
+    },
+    {
+      "id": "salad-plating-weight",
+      "question": "La salade de jeunes pousses doit-elle apparaître en plan large final secondaire comme sur la photographie imprimée ou rester hors champ sauf coupe rapide?",
+      "reason": "Modifie le ratio contexte contre détail hero et nombre de références vaisselle non couvertes par les PNG assets fixes."
+    }
+  ]
+}

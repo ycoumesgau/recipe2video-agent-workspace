@@ -1,0 +1,195 @@
+{
+  "recipe": {
+    "title": "Chicken Enchiladas (Tex-Mex style)",
+    "sourceType": "url",
+    "sourceUrl": "https://www.gimmesomeoven.com/best-chicken-enchiladas-ever/",
+    "ingredients": [
+      {
+        "name": "avocado oil or olive oil",
+        "quantity": "2 tablespoons",
+        "note": "for sautéing filling"
+      },
+      {
+        "name": "white onion",
+        "quantity": "1 small",
+        "note": "peeled and diced"
+      },
+      {
+        "name": "boneless skinless chicken breasts",
+        "quantity": "1 1/2 pounds",
+        "note": "diced into roughly 1/2-inch pieces"
+      },
+      {
+        "name": "diced green chiles",
+        "quantity": "1 (4-ounce) can",
+        "note": null
+      },
+      {
+        "name": "sea salt",
+        "quantity": null,
+        "note": "to taste"
+      },
+      {
+        "name": "black pepper",
+        "quantity": null,
+        "note": "freshly cracked, to taste"
+      },
+      {
+        "name": "black beans",
+        "quantity": "1 (15-ounce) can",
+        "note": "rinsed and drained"
+      },
+      {
+        "name": "flour tortillas",
+        "quantity": "8 large",
+        "note": "recipe default; corn tortillas are an optional variation requiring different handling"
+      },
+      {
+        "name": "Mexican-blend shredded cheese",
+        "quantity": "3 cups",
+        "note": "plus extra for topping; source suggests Asadero or Pepper Jack as alternatives"
+      },
+      {
+        "name": "red enchilada sauce",
+        "quantity": "1 batch",
+        "note": "homemade preferred per source; linked separate recipe"
+      },
+      {
+        "name": "optional toppings",
+        "quantity": null,
+        "note": "cilantro, chopped red onion, avocado, sour cream, cotija—or quick-pickled red onion suggested in article"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Preheat oven to 350°F and prepare red enchilada sauce (homemade batch or chosen substitute).",
+        "timing": null,
+        "visualCue": "oven digital glow, saucepan with dark red sauce",
+        "block": "setup_and_sauce",
+        "textureCue": "sauce surface tension and slow simmer gloss",
+        "runwayRisk": "oven UI text may need framing that avoids readable labels"
+      },
+      {
+        "position": 2,
+        "text": "Heat oil in a large sauté pan over medium-high heat; sauté onion until softened, stirring occasionally (~3 minutes).",
+        "timing": "~3 minutes",
+        "visualCue": "oil shimmer, diced onion tossing",
+        "block": "filling_saute",
+        "textureCue": "onion translucency and light edge gold",
+        "runwayRisk": "stove knob labels; keep macro on pan center"
+      },
+      {
+        "position": 3,
+        "text": "Add diced chicken and green chiles; season generously with salt and pepper. Sauté until chicken cooks through (~6–8 minutes), stirring occasionally.",
+        "timing": "~6–8 minutes",
+        "visualCue": "pink-to-white chicken transition, chiles distributed",
+        "block": "filling_saute",
+        "textureCue": "steam burst, juicy chicken crumb texture",
+        "runwayRisk": "undercooked pink may read unappetizing; prefer fully cooked crumb reference"
+      },
+      {
+        "position": 4,
+        "text": "Stir in drained beans until evenly mixed; remove pan from heat.",
+        "timing": null,
+        "visualCue": "dark beans folded through chicken mixture",
+        "block": "filling_saute",
+        "textureCue": "bean skins catching light, creamy-cheesy potential when cheese later added",
+        "runwayRisk": "bean mash can look muddy; emphasize whole beans"
+      },
+      {
+        "position": 5,
+        "text": "Assembly line: lay tortilla, spread ~2 tbsp enchilada sauce on surface, add generous spoonful of filling down the center, sprinkle ~1/3 cup cheese.",
+        "timing": null,
+        "visualCue": "burrito-style longitudinal fill on flat tortilla",
+        "block": "assembly",
+        "textureCue": "sauce drag sheen vs dry tortilla edge",
+        "runwayRisk": "sauce thickness varies; fragile spread geometry"
+      },
+      {
+        "position": 6,
+        "text": "Roll tortilla and place seam logic down in greased 9x13-inch baking dish; repeat for all tortillas.",
+        "timing": null,
+        "visualCue": "packed parallel rolls, slight squeeze",
+        "block": "assembly",
+        "textureCue": "soft tortilla flex and tight cylinder stack",
+        "runwayRisk": "hand geometry during roll must stay readable without extra fingers"
+      },
+      {
+        "position": 7,
+        "text": "Pour remaining sauce evenly over tops of rolls; sprinkle any extra cheese on top.",
+        "timing": null,
+        "visualCue": "red sauce cascading into gaps between rolls",
+        "block": "assembly",
+        "textureCue": "sauce pooling gloss and snowy cheese snowfall",
+        "runwayRisk": "sauce may hide roll edges; alternating angles help"
+      },
+      {
+        "position": 8,
+        "text": "Bake uncovered ~20 minutes until hot through with lightly crisp tortilla exterior; rest briefly then serve hot with toppings.",
+        "timing": "~20 minutes bake",
+        "visualCue": "bubbly cheese blotches and sauce steam from dish",
+        "block": "bake_and_serve",
+        "textureCue": "molten stretch prep, crispy tortilla lip",
+        "runwayRisk": "cheese burn vs pale; need clear melt reference"
+      }
+    ],
+    "subRecipes": [
+      "homemade_red_enchilada_sauce",
+      "chicken_bean_fill_saute",
+      "rolled_assembly_and_baking",
+      "fresh_topping_service"
+    ],
+    "assumptions": [
+      "Flour tortillas are the default styling for Ingredient visuals to match typical Tex-Mex presentation in the article; corn tortillas are noted as variation with flash-fry or dip-in-warm-sauce workaround.",
+      "Homemade red enchilada sauce is treated as culturally linked ingredient (linked recipe); we show simmering thickened sauce visuals rather than reciting full sauce sub-steps unless reference images are expanded later.",
+      "Bake timing follows source (20 minutes uncovered at 350°F after assembly)."
+    ],
+    "timing": {
+      "prep": "15 minutes",
+      "cook": "45 minutes",
+      "total": "About 1 hour"
+    },
+    "criticalTransformations": [
+      "Onion sauté to translucent with light gold before proteins added",
+      "Chicken dice cooks from pink/raw to opaque with released juices binding to chiles",
+      "Thin enchilada sauce spread on tortillas vs thicker batch used for topping—viscosity tells the story",
+      "Cheese sprinkled inside roll vs cheese layer on top—two melt behaviors across bake cycle",
+      "Bake drives sauce reduction at edges while tortilla rims dry to gentle crisp against molten valleys"
+    ],
+    "visualTextureOpportunities": [
+      "Simmering red sauce: slow popping bubbles and chili-oil shimmer",
+      "Hot oil shimmer right before diced onion rains in",
+      "Steam veil lifting off chicken as it sears-white in the sauté pan",
+      "Spoon smoothing thick red stripes across pale tortilla—not a flood, an intentional drag",
+      "Cheese snowfall on sauce-wet rolls with dusty micro-strands catching light",
+      "Post-bake blistered cheese micro-domes and mahogany sauce corners in the casserole",
+      "Cold sour cream ribbon over hot surface creating contrast melt-track",
+      "Avocado emerald against deep red sauce on the slice or fork bite"
+    ],
+    "possibleHooks": [
+      "Open on extreme macro bubbles breaking across scarlet simmering sauce with steam curls",
+      "Hard cut from sauce macro to audible sizzle as chicken and chiles meet the pan",
+      "Late beat: spatula lifting one roll revealing sauce lacquer on the tortilla skirt"
+    ],
+    "promptPolicySources": [
+      "Source URL: https://www.gimmesomeoven.com/best-chicken-enchiladas-ever/",
+      "Linked sauce reference: https://www.gimmesomeoven.com/red-enchilada-sauce/",
+      "Workspace rules: seedance-references.mdc (References mode, @KitchenIslandDefault baseline, 9 image cap, ASMR audio only, no speech/music/text)",
+      "Workspace rules: recipe-agent-core.mdc (30–48 logical scenes, 5–10 Seedance segments, texture-first opening, end on satisfied character in Licorn kitchen)",
+      "Production defaults: style_preset=asmr_food, video_model=seedance2, reference_image_model=gpt_image_2, tts_model=eleven_multilingual_v2, sfx_model=eleven_text_to_sound_v2"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "tortilla-style",
+      "question": "Should the hero assembly and bake reference flour tortillas (softer, larger rolls) or corn tortillas (smaller, more rustic edges, often pre-softened in oil or sauce)?",
+      "reason": "Changes roll geometry, surface color, and reference images for fragile rolled states."
+    },
+    {
+      "id": "sauce-depth",
+      "question": "Do you want the video to include on-camera roux-based sauce building (oil, flour, spice bloom, stock reduction) or only the finished simmering sauce tied to the enchilada steps?",
+      "reason": "Determines whether an extra segment and additional state references are needed for flour bloom and whisk tracks."
+    }
+  ]
+}

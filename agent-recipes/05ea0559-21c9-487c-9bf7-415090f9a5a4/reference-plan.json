@@ -1,0 +1,241 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "global Licorn kitchen identity across all segments",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Preserve island materials, lighting, and spatial context; allow macro crops that still feel like the same kitchen.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead workstation framing for saucing, rolling, toppings, and hero lifts",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for top-down food actions; keep hands readable and consistent with PoseTopDown when both appear.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-03", "segment-05", "segment-06"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "cooktop close context for sauce simmer and sauté beats",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Anchor pan bottom heat reads and reflections; avoid readable digital text on controls.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-02"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "occasional medium safety stitch for saucepan context",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Single controlled wide if macro clarity fails; still no readable UI.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenWide",
+      "role": "oven doorway staging for tray movement",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for insert motion continuity; keep rack geometry consistent with Licorn oven reference.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-04"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenCloseup",
+      "role": "interior macro for melt hints, blister reveal, edge toast, steam",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Glass reflections acceptable; avoid inventing extra racks or UI.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-04"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "large saucepan silhouette for sauce and sauté",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Match handle angle and scale with Licorn asset; keep interior food reads dominant.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-02"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Whisk",
+      "role": "whisk identity for sauce surface agitation",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Thin tines; no substitution with random fork unless prompt omits whisk beat.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spatula",
+      "role": "folding and serving tool for filling and lift shots",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Flexible blade read for toss and lift; avoid spatulas with brand marks.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-02", "segment-06"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "back-of-spoon sauce spread and optional cream drag",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Rounded bowl silhouette for saucing strokes.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-03", "segment-05"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Sieve",
+      "role": "drained black beans staging beat",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Mesh and rim shape only; beans should look rinsed with occasional water bead.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-02"],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity for any visible performer",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Do not redesign face or outfit; pair with listed pose references for hands and body.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down hand discipline for overhead food work",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Align wrist angles with overhead shots; avoid extra disembodied hands.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-05",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "standing satisfaction outro framing",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Quiet pride body language; tray or casserole visible at chest height.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "SimmeringRedEnchiladaSurface",
+      "role": "fragile sauce skin: chili-red shimmer, controlled bubbles, minimal chunk read",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate gpt_image_2 reference: overhead or slight angle macro of Tex-Mex red enchilada sauce actively simmering in a stainless saucepan, glossy oil film, sparse spice specks, no tomato pulp cubes, warm tungsten Licorn-like kitchen reflections, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FilledUnbakedEnchiladaCasserole",
+      "role": "unbaked parallel roll geometry packed in rectangular ceramic before oven",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate gpt_image_2 reference: 9x13 greased casserole with parallel large flour tortillas rolled seam-down, valleys filled with pooled red sauce, snowy shredded cheese unevenly topping, tortilla faces still pale—not blistered.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-03"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "BakedEnchiladasMoltenTop",
+      "role": "post-bake blister cheese and reduced sauce channels",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate gpt_image_2 reference: baked Tex-Mex chicken enchiladas same layout as pre-bake, blistered browned cheese highs, mahogany sauce edges between rolls, parallel rolls still recognizable, restrained steam wisps.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-04"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "EnchiladaCrossSectionPull",
+      "role": "cut bite with modest REALISTIC cheese threads and visible strata",
+      "priority": 2,
+      "source": "generated_reference_needed",
+      "prompt": "Generate gpt_image_2 reference: fork lifting a cut section of baked enchilada showing chicken, beans, melted cheese strata, restrained short cheese pull arcs—avoid rubber band stretch, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-06"],
+      "status": "planned"
+    }
+  ]
+}

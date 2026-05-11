@@ -1,0 +1,65 @@
+{
+  "recipe": {
+    "title": "Unknown recipe from uploaded photos",
+    "sourceType": "photos",
+    "sourceUrl": null,
+    "ingredients": [],
+    "steps": [],
+    "subRecipes": [],
+    "assumptions": [
+      "The ingest request names two photo sources, but neither photo file is currently present anywhere under /workspace.",
+      "No recipe title, ingredient list, method text, final dish geometry, or timing could be read from the unavailable photos.",
+      "Planning beyond source analysis is intentionally blocked to avoid inventing a recipe, dish topology, fragile transformations, or Seedance references."
+    ],
+    "timing": {
+      "prep": null,
+      "cook": null,
+      "total": null
+    },
+    "criticalTransformations": [
+      "Unknown until the recipe photos or transcribed recipe text are available."
+    ],
+    "visualTextureOpportunities": [
+      "Unknown until the dish identity, cooking method, and final food state are available from the source photos."
+    ],
+    "possibleHooks": [
+      "Blocked until the source photos reveal a real texture-first opening such as pouring, cracking, glazing, steaming, piping, or cutting."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "seedance-workflow",
+      "asset-reference-system",
+      "suno-music-generation",
+      "recipe-agent-core"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "source-files-unavailable",
+      "question": "Can you re-upload photo_2026-05-11_07-09-12.jpg and photo_2026-05-11_07-09-10.jpg, or provide a readable transcription of their recipe text?",
+      "reason": "The named photo files are not present in the workspace, so the recipe cannot be reconstructed without hallucination."
+    },
+    {
+      "id": "dish-identity",
+      "question": "What is the recipe title or final dish shown in the photos?",
+      "reason": "Dish identity determines the editorial arc, final hero state, recipe-specific references, and Suno imagery."
+    },
+    {
+      "id": "ingredients-method",
+      "question": "What ingredients and cooking steps are visible in the source photos?",
+      "reason": "Ingredients and step order are required to identify sub-recipes, dependencies, and visible food actions."
+    },
+    {
+      "id": "timing",
+      "question": "Do the photos include prep time, cook time, or total time?",
+      "reason": "Recipe timing affects pacing decisions and whether cooking transformations can be compressed safely."
+    },
+    {
+      "id": "final-geometry",
+      "question": "Does the finished dish have a specific shape, cut face, layered structure, garnish pattern, or serving format that must be preserved?",
+      "reason": "Non-standard geometry changes reference planning and determines whether state reference images are mandatory."
+    }
+  ]
+}

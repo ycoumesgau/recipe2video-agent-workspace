@@ -1,0 +1,29 @@
+{
+  "videoId": "06233b67-93fe-479f-85f1-965fe57f7829",
+  "stage": "recipe_ingest",
+  "branch": "cursor/recipe-ingest-06233b67-765b",
+  "commitSha": null,
+  "manifestPath": "agent-recipes/06233b67-93fe-479f-85f1-965fe57f7829/checkpoint-manifest.json",
+  "updatedAt": "2026-05-11T05:10:00Z",
+  "source": {
+    "type": "photos",
+    "files": [
+      "photo_2026-05-11_07-09-12.jpg",
+      "photo_2026-05-11_07-09-10.jpg"
+    ],
+    "filesAvailableInWorkspace": false
+  },
+  "artifacts": {
+    "recipe-analysis.json": "ready_with_clarifying_questions",
+    "decisions.md": "ready",
+    "changelog.md": "ready",
+    "logical-scenes.json": "blocked_missing_source_photos",
+    "seedance-segments.json": "blocked_missing_source_photos",
+    "reference-plan.json": "blocked_missing_source_photos",
+    "suno-prompt.md": "blocked_missing_source_photos"
+  },
+  "notes": [
+    "recipe-analysis.json is mandatory for recipe_ingest and was written in this run.",
+    "Downstream planning artifacts are blocked until the photo contents are available."
+  ]
+}

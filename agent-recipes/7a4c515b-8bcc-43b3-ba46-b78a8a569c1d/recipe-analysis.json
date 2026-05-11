@@ -1,0 +1,158 @@
+{
+  "recipe": {
+    "title": "Arancini mozzarella, riz et petits pois",
+    "sourceType": "photos",
+    "sourceUrl": null,
+    "ingredients": [
+      { "name": "parmesan en morceaux", "quantity": "100 g", "note": "râpé" },
+      { "name": "échalotes", "quantity": "100 g", "note": "coupées en deux puis hachées" },
+      { "name": "beurre", "quantity": "60 g", "note": null },
+      { "name": "riz à risotto", "quantity": "320 g", "note": null },
+      { "name": "vin blanc sec", "quantity": "100 g", "note": null },
+      { "name": "bouillon de légumes", "quantity": "680 g", "note": null },
+      { "name": "persil", "quantity": "3 brins", "note": "ciselé" },
+      { "name": "petits pois", "quantity": "150 g", "note": null },
+      { "name": "mozzarella", "quantity": "125 g", "note": "en cubes pour garniture" },
+      { "name": "farine", "quantity": "75 g", "note": "panure" },
+      { "name": "œufs", "quantity": "2", "note": "battus pour panure" },
+      { "name": "chapelure", "quantity": "250 g", "note": "panure" },
+      { "name": "huile de friture", "quantity": "1 l", "note": "180–190 °C" },
+      { "name": "sel", "quantity": null, "note": null },
+      { "name": "poivre", "quantity": null, "note": null }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Râper le parmesan (machine type Thermomix 10 s/vitesse 10 ou râpe fine), réserver.",
+        "timing": null,
+        "visualCue": "neige de parmesan fin, mouvement circulaire du bol",
+        "block": "mise en base",
+        "textureCue": "parmesan sec et cristallin",
+        "runwayRisk": "confondre avec autre fromage râpé"
+      },
+      {
+        "position": 2,
+        "text": "Hacher les échalotes puis les faire suer dans le beurre jusqu’à translucidité (équivalent robot: hacher 5 s/v5 puis 3 min/120 °C/v1).",
+        "timing": "3 min",
+        "visualCue": "beurre moussant, échalotes qui ramollissent",
+        "block": "risotto",
+        "textureCue": "beurre doré mousseux, oignons fondants",
+        "runwayRisk": "brunissement excessif type caramel"
+      },
+      {
+        "position": 3,
+        "text": "Toaster le riz dans la matière grasse chaude en remuant (3 min/120 °C/v1 équivalent).",
+        "timing": "3 min",
+        "visualCue": "grains de riz qui nagent puis deviennent nacrés sur les bords",
+        "block": "risotto",
+        "textureCue": "grains secs qui craquent légèrement au contact de la spatule",
+        "runwayRisk": "riz déjà cuit ou bouillie au lieu du toast"
+      },
+      {
+        "position": 4,
+        "text": "Déglacer au vin blanc et laisser s’évaporer partiellement (1 min/100 °C/v1 équivalent).",
+        "timing": "1 min",
+        "visualCue": "vapeur blanche vive, liquide qui clapote puis se retracte",
+        "block": "risotto",
+        "textureCue": "acidité qui lift la poêlée",
+        "runwayRisk": "flambage ou flaque trop longue sans évaporation"
+      },
+      {
+        "position": 5,
+        "text": "Verser le bouillon, saler, poivrer; cuire risotto style absorption avec brassage (20 min/100 °C/v1 équivalent).",
+        "timing": "20 min",
+        "visualCue": "liquide diminue, crème du riz apparaît",
+        "block": "risotto",
+        "textureCue": "liaison crémeuse, grains encore légèrement résistants",
+        "runwayRisk": "soupe ou riz sec en boule"
+      },
+      {
+        "position": 6,
+        "text": "Hors feu ou après repos 1 min au bol: incorporer parmesan râpé, persil et petits pois; laisser refroidir 30 min sur plat.",
+        "timing": "30 min repos",
+        "visualCue": "pois verts qui se répartissent, masse qui se tasse en refroidissant",
+        "block": "risotto",
+        "textureCue": "riz poêlé devient malléable et collant pour façonnage",
+        "runwayRisk": "refroidissement trop lent, surface qui croûte"
+      },
+      {
+        "position": 7,
+        "text": "Former des boules 6 cm, creuser au doigt, insérer un cube de mozzarella, refermer hermétiquement.",
+        "timing": null,
+        "visualCue": "mains qui presse la sphère, cube blanc disparaît à l’intérieur",
+        "block": "formage",
+        "textureCue": "extérieur lisse et scellé, centre fromager caché; boules fermes qui tiennent la forme",
+        "runwayRisk": "fuite de fromage au frit si mauvais soudage"
+      },
+      {
+        "position": 8,
+        "text": "Paner: farine, œuf battu, chapelure; répéter œuf + chapelure (double panure).",
+        "timing": null,
+        "visualCue": "trois récipients, mains qui enchaînent farine-œuf-chapelure",
+        "block": "panure",
+        "textureCue": "croûte sablée qui s’épaissit à la seconde couche",
+        "runwayRisk": "panure humide qui tombe ou craquelures"
+      },
+      {
+        "position": 9,
+        "text": "Chauffer l’huile 180–190 °C; frire par fournées 3–4 min jusqu’à dorure; égoutter sur papier; servir chaud avec salade de jeunes pousses.",
+        "timing": "3–4 min par fournée",
+        "visualCue": "bulles fines autour des sphères, coloration or",
+        "block": "friture",
+        "textureCue": "coque craquante, centre fondant à la rupture",
+        "runwayRisk": "huile pas assez chaude, mozzarella qui fuit"
+      }
+    ],
+    "subRecipes": ["risotto", "refroidissement", "formage farci", "double panure", "friture", "service"],
+    "assumptions": [
+      "Rendement annoncé sur la source photo: 24 arancini.",
+      "La version vidéo Licorn remplace le robot cuisson par une casserole sur plaque et des gestes lisibles (sauté, brassage, déglacage).",
+      "Les quantités proviennent de la page photo; le poids par cube de mozzarella (~125 g / 24) est une répartition indicative pour le montage.",
+      "Le repos de 30 min après mélange est critique pour le façonnage; il est traité comme contrainte texture, pas comme ligne de temps `total` séparée.",
+      "Style de production demandé: asmr_food; modèle vidéo seedance2; références images via gpt_image_2 quand un état alimentaire est fragile."
+    ],
+    "timing": {
+      "prep": "25 min",
+      "cook": "40 min",
+      "total": "1 h 35"
+    },
+    "criticalTransformations": [
+      "Toast du riz sec dans la matière grasse avant tout liquide",
+      "Absorption du bouillon jusqu’à crémeux sans soupe",
+      "Refroidissement suffisant pour riz collant façonnable sans brûler les mains",
+      "Scellement de la sphère autour du cube de mozzarella avant panure",
+      "Double couche œuf-chapelure pour barrière anti-fuite",
+      "Friture 180–190 °C pour coque croustillante et fonte contrôlée du cœur"
+    ],
+    "visualTextureOpportunities": [
+      "Beurre moussant et échalotes translucides en macro",
+      "Déglacage vin: vapeur et clapotis ASMR",
+      "Chapelure qui adhère en deux passes, son sablé",
+      "Huile frémissante et bulles nettes autour de la sphère",
+      "Coque dorée qui cède sous la cassure, fil mozzarella",
+      "Pois verts lumineux dans le riz à l’intérieur",
+      "Contraste salade jeunes pousses fraîche contre frit chaud"
+    ],
+    "possibleHooks": [
+      "Ouverture macro: déglacage vin sur riz encore sec, jet de vapeur immédiat",
+      "Premier plan: chapelure qui tombe comme neige sur une boule humide",
+      "Coup dur: rupture d’un arancini chaud, étirement mozzarella",
+      "Son dominant: friture qui chante puis bref silence au égouttage"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core.mdc",
+      "seedance-references.mdc",
+      "asmr_food preset",
+      "seedance-workflow skill",
+      "food-physics-reference skill",
+      "tiktok-food-direction skill"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "equipment-framing",
+      "question": "Souhaitez-vous montrer explicitement un robot type Thermomix sur un plan, ou uniquement la casserole Licorn / vitro pour tout le risotto ?",
+      "reason": "La source photo est Thermomix; le choix change accessoires, cadrages et références ustensiles."
+    }
+  ]
+}

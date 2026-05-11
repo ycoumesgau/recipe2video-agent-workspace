@@ -15,3 +15,7 @@
 - Trimmed redundant `@` handles per segment accordingly; QA reference counts stay beneath the nine-image cap with more slack.
 - Noted ingest policy tweak in `recipe-analysis.json` `promptPolicySources` and softened clarifyingQuestions copy where it mentioned custom reference imagery.
 - `logical-scenes.json` scene-27 editorial note reframed (“prompt text, no dish PNG”) to match execution strategy.
+
+## Checkpoint hygiene
+
+- `checkpoint-manifest.json` `commitSha` aligned to pushed branch tip (`6905901…` lineage) whenever metadata-only checkpoint commits land after content commits.

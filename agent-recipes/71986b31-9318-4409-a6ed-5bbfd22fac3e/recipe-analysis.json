@@ -1,0 +1,176 @@
+{
+  "recipe": {
+    "title": "Arancini mozza, riz et petits pois",
+    "sourceType": "photos",
+    "sourceUrl": null,
+    "ingredients": [
+      { "name": "parmesan", "quantity": "100 g", "note": "en morceaux, râpé fin" },
+      { "name": "échalotes", "quantity": "100 g", "note": "coupées en deux" },
+      { "name": "beurre", "quantity": "60 g", "note": null },
+      { "name": "riz à risotto", "quantity": "320 g", "note": null },
+      { "name": "vin blanc sec", "quantity": "100 g", "note": null },
+      { "name": "bouillon de légumes", "quantity": "680 g", "note": null },
+      { "name": "persil", "quantity": "3 branches", "note": "ciselé" },
+      { "name": "petits pois", "quantity": "150 g", "note": null },
+      { "name": "mozzarella", "quantity": "125 g", "note": "en cubes pour cœur filant" },
+      { "name": "farine", "quantity": "75 g", "note": "panure 1" },
+      { "name": "œufs", "quantity": "2", "note": "battus, double passage" },
+      { "name": "chapelure", "quantity": "250 g", "note": "double enrobage" },
+      { "name": "huile de friture", "quantity": "1 L", "note": "180–190 °C" },
+      { "name": "sel et poivre", "quantity": null, "note": null }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Réduire le parmesan en poudre fine (robot: 10 s vitesse 10), réserver.",
+        "timing": null,
+        "visualCue": "avalanche de copeaux puis poudre jaune grain fine",
+        "block": "base",
+        "textureCue": "grignotis sec puis chute légère de poudre",
+        "runwayRisk": "mains hors champ si aucune appliance visible"
+      },
+      {
+        "position": 2,
+        "text": "Hacher les échalotes puis faire suer dans le beurre à feu doux jusqu’à translucide.",
+        "timing": "3 min",
+        "visualCue": "bulles de beurre, échalotes qui clarifient",
+        "block": "risotto",
+        "textureCue": "nacré, souple sans coloration forte",
+        "runwayRisk": "Thermomix vs casserole change la silhouette du récipient"
+      },
+      {
+        "position": 3,
+        "text": "Ajouter le riz sec, toaster en remuant jusqu’aux grains brillants et légèrement vitreux.",
+        "timing": "3 min",
+        "visualCue": "grains qui accrochent au fond puis relâchent leur farine",
+        "block": "risotto",
+        "textureCue": "sec en surface, chaud au centre",
+        "runwayRisk": "geste de spatule ambigu si hors plan serré"
+      },
+      {
+        "position": 4,
+        "text": "Déglacer au vin blanc, laisser réduire jusqu’à absorption presque complète.",
+        "timing": "1 min",
+        "visualCue": "vapeur acide qui monte puis calme",
+        "block": "risotto",
+        "textureCue": "liquide clair puis onctuosité qui revient aux parois",
+        "runwayRisk": "vapeur qui masque les grains au macro"
+      },
+      {
+        "position": 5,
+        "text": "Mouiller avec le bouillon salé poivré, mijoter jusqu’à cuisson crémeuse.",
+        "timing": "20 min",
+        "visualCue": "ondulation crémeuse, grains encore légèrement résistants",
+        "block": "risotto",
+        "textureCue": "flux épais type nappe lente sans bouillie",
+        "runwayRisk": "consistance trop liquide ou trop dense si timing non lisible"
+      },
+      {
+        "position": 6,
+        "text": "Hors feu ou après repos machine: transférer, incorporer parmesan, persil et petits pois.",
+        "timing": null,
+        "visualCue": " verts vifs sur fond blanc crème, filaments de fromage",
+        "block": "risotto",
+        "textureCue": "riz collant packable pour boules",
+        "runwayRisk": "peu visuel si mélange hors plan"
+      },
+      {
+        "position": 7,
+        "text": "Laisser refroidir le mélange pour pouvoir former sans brûler.",
+        "timing": "30 min repos",
+        "visualCue": "surface qui se tasse, vapeur qui s’éteint",
+        "block": "refroidissement",
+        "textureCue": "masse plus dense, moins collante aux doigts humides",
+        "runwayRisk": "ellipse temporelle — favoriser time-lapse ou coupe transversale"
+      },
+      {
+        "position": 8,
+        "text": "Former des boules ~6 cm, creuser, insérer un cube de mozzarella, refermer sans bulle d’air.",
+        "timing": null,
+        "visualCue": "pression des paumes, jointure invisible",
+        "block": "farcissage",
+        "textureCue": "riz compact luisant léger aux mains",
+        "runwayRisk": "géométrie boule asymétrique sous plusieurs angles"
+      },
+      {
+        "position": 9,
+        "text": "Panure double: farine → œuf → chapelure puis répéter œuf + chapelure.",
+        "timing": null,
+        "visualCue": "couches successives, croûte hirsute",
+        "block": "panure",
+        "textureCue": "chapelure agrippée, surface rugueuse",
+        "runwayRisk": "mains multiples ou passage confus entre bacs"
+      },
+      {
+        "position": 10,
+        "text": "Chauffer l’huile 180–190 °C, frire par fournées 3–4 min jusqu’à doré homogène.",
+        "timing": "3–4 min par fournée",
+        "visualCue": "couronne de bulles, coloration or brun",
+        "block": "friture",
+        "textureCue": "coque sèche auditive, bruit de friture dense",
+        "runwayRisk": "flamme visible sur induction — à éviter"
+      },
+      {
+        "position": 11,
+        "text": "Égoutter sur papier absorbant, servir chaud; conseil livre: salade de jeunes pousses.",
+        "timing": null,
+        "visualCue": "gouttelettes d’huile, vapeur modérée",
+        "block": "service",
+        "textureCue": "croquant extérieur, cœur filant à la cassure",
+        "runwayRisk": "fromage froid qui ne filera pas"
+      }
+    ],
+    "subRecipes": ["risotto", "refroidissement", "farcissage", "panure", "friture", "service"],
+    "assumptions": [
+      "Photos source téléversées : photo_2026-05-11_07-09-12.jpg et photo_2026-05-11_07-09-10.jpg (liste fournie par l’utilisateur); rendement livre 24 boules ~6 cm.",
+      "La source mentionne des réglages type Thermomix (vitesses, températures); la version filmée peut être une casserole sur plaque pour la lisibilité ASMR, sauf contrainte contraire.",
+      "Les photographies montrent une assiette céramique brune et une salade verte en accompagnement; on conserve ce mood rustique.",
+      "La mozza cœur doit être chaude au service pour un filage visible; on privilégie la cassure à table."
+    ],
+    "timing": {
+      "prep": "25 min",
+      "cook": "40 min",
+      "total": "1 h 35"
+    },
+    "criticalTransformations": [
+      "Réduction du vin et absorption progressive du bouillon jusqu’à un risotto nappant et packable",
+      "Refroidissement suffisant pour manipuler sans déstructurer le grain",
+      "Scellement de la boule autour du cube de mozzarella pour éviter l’éclatement en friture",
+      "Double enrobage chapelure → croûte irrégulière croustillante après friture",
+      "Coloration 180–190 °C : extérieur doré, intérieur réchauffé et mozza fondue"
+    ],
+    "visualTextureOpportunities": [
+      "Chute de parmesan râpé et brillance du beurre sur échalotes translucides",
+      "Grains de riz qui glissent dans le bouillon crémeux avec inclusions vertes vives",
+      "Pression des mains modelant la masse et insertion nette du cube de mozzarella",
+      "Surface hirsute de chapelure avant cuisson vs sphère lisse dorée après friture",
+      "Ébullition serrée autour de la sphère et écume légère",
+      "Cassure ou traction : filage mozzarella et contraste crème / croûte"
+    ],
+    "possibleHooks": [
+      "Macro sur la croûte dorée granuleuse avant révélation du cœur",
+      "Cassure immédiate avec vapeur et étirement du fromage (cheese pull)",
+      "Plongeon dans l’huile chaude et gerbe de bulles synchronisée ASMR",
+      "Premier croquant au bord du cadre (micro maintenu)"
+    ],
+    "promptPolicySources": [
+      "Workspace rule recipe-agent-core.mdc (30–48 scènes logiques, 5–10 segments Seedance, ouverture texture d’abord)",
+      "Workspace rule seedance-references.mdc (seedance2, mode References, 1080:1920, max 9 références par segment, @KitchenIslandDefault obligatoire par segment)",
+      "Workspace rule suno-music.mdc (Suno manual workflow, pas de musique dans les prompts Seedance)",
+      "Production preset asm_food déclaré par l’utilisateur (priorité textures et sons de cuisine)",
+      "Skill seedance-workflow (hard cuts, timings obligatoires, audio ASMR intégré sans parole ni musique)"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "appliance-choice",
+      "question": "Souhaitez-vous que la cuisson du risotto reste lisible comme Thermomix (bol / couvercle vapeur) ou basculée en casserole artisanale pour l’esthétique ASMR?",
+      "reason": "Change références d’ustensiles, angles caméra et bruit dominant."
+    },
+    {
+      "id": "mozzarella-type",
+      "question": "Mozzarella standard filante ou fior di latte / autre référence fromagère précise pour la couleur du cœur?",
+      "reason": "Ajuste la cohérence visuelle coupe / filage."
+    }
+  ]
+}

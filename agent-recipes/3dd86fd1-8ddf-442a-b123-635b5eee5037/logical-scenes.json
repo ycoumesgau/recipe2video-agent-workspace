@@ -439,7 +439,7 @@
       "position": 19,
       "sceneType": "detail",
       "arc": "farine_tap_tap",
-      "description": "La boule roule dans farine légère, petit nuage poudreux contrôlé.",
+      "description": "La petite boule (~5–6 cm ø) roule dans farine légère, petit nuage poudreux contrôlé.",
       "bg": "island_overhead",
       "zoom": "macro",
       "durationTarget": 1.1,

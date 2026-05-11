@@ -4,7 +4,7 @@
 
 - **`seedance-segments.json` segment-03** : bloc **HARD SCALE** (5–6 cm ø, comparaison mains/assiette, interdits melon–ballon-de-foot), timings et négatifs alignés ; `risk`/`negatives` enrichis.
 - **Segments 04–06** : même cote **~5–6 cm** et négatifs taille où pertinent (panure, friture, money shot).
-- **`logical-scenes.json`** scènes **15–18** : énoncé diamètre et notes anti-gonflement.
+- **`logical-scenes.json`** scènes **15–18** : énoncé diamètre et notes anti-gonflement ; **scène 19** (entrée panure) précise aussi la petite boule ~5–6 cm.
 - **`recipe-analysis.json`** : hypothèse explicite pour la génération Seedance sur l'échelle boule.
 
 ## 2026-05-11 — Allègement références (sans `recipe_state`)

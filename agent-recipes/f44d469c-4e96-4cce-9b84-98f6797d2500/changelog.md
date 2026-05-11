@@ -8,4 +8,4 @@
 - Created `reference-plan.json` with global kitchen/character/utensil references, uploaded source-photo references, and generated reference plans for fragile arancini states.
 - Created `suno-prompt.md` with copy-ready manual Suno fields.
 - Created `decisions.md` documenting source interpretation, editorial structure, reference strategy, and remaining gaps.
-- Created `checkpoint-manifest.json` for this ingest checkpoint; commit SHA will be updated after the first pushed checkpoint commit.
+- Updated `checkpoint-manifest.json` with the first pushed checkpoint commit SHA for the complete ready artifact set.

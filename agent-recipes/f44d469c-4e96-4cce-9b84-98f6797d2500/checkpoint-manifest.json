@@ -2,7 +2,7 @@
   "videoId": "f44d469c-4e96-4cce-9b84-98f6797d2500",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-arancini-e939",
-  "commitSha": null,
+  "commitSha": "b0aaadf24cc98b53a95dbd4f9c57b2ef74a6e7d2",
   "manifestPath": "agent-recipes/f44d469c-4e96-4cce-9b84-98f6797d2500/checkpoint-manifest.json",
   "updatedAt": "2026-05-11T08:32:00Z",
   "source": {
@@ -59,7 +59,8 @@
     "notes": [
       "Validated with Python json.load for all JSON artifacts.",
       "Recipe timing uses prep, cook, and total keys.",
-      "recipe-analysis texture, hook, transformation, and policy fields are arrays of strings."
+      "recipe-analysis texture, hook, transformation, and policy fields are arrays of strings.",
+      "commitSha records the first pushed checkpoint commit containing the complete ready artifact set."
     ]
   }
 }

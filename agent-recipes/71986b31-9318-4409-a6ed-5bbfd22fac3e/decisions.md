@@ -16,6 +16,4 @@
 
 - Voir `recipe-analysis.json` → `clarifyingQuestions` (choix Thermomix vs casserole; type de mozzarella pour le cœur).
 
-## Hypothèses acceptées
-
-- Le fil mozzarella au hook suppose un produit récemment frit / tiède; un service froid est exclu pour ce payoff.
+- Le fichier `checkpoint-manifest.json` pointe `commitSha` vers le commit **ingest** `ab65f7d` (tous les artefacts JSON et Markdown sauf le manifeste), afin d’obtenir un arbre de contenu stable; le sommet de branche après ajout du manifeste est un commit ultérieur — utiliser `git pull` sur la branche pour la révision complète.

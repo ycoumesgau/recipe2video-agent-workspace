@@ -1,0 +1,166 @@
+{
+  "recipe": {
+    "title": "Arancini mozzarella, riz et petits pois",
+    "sourceType": "photos",
+    "sourceUrl": null,
+    "ingredients": [
+      { "name": "Parmesan", "quantity": "100 g", "note": "en morceaux, râpé" },
+      { "name": "Échalotes", "quantity": "100 g", "note": "coupées en deux" },
+      { "name": "Beurre", "quantity": "60 g", "note": null },
+      { "name": "Riz à risotto", "quantity": "320 g", "note": "type arborio/carnaroli" },
+      { "name": "Vin blanc sec", "quantity": "100 g", "note": null },
+      { "name": "Bouillon de légumes", "quantity": "680 g", "note": "chaud" },
+      { "name": "Persil", "quantity": "3 branches", "note": "ciselé" },
+      { "name": "Petits pois", "quantity": "150 g", "note": null },
+      { "name": "Mozzarella", "quantity": "125 g", "note": "en cubes pour fourrage" },
+      { "name": "Farine", "quantity": "75 g", "note": "panure 1" },
+      { "name": "Œufs", "quantity": "2", "note": "battus, panure 2" },
+      { "name": "Chapelure", "quantity": "250 g", "note": "panure 3, double couche" },
+      { "name": "Huile de friture", "quantity": "1 L", "note": "180–190 °C" },
+      { "name": "Sel et poivre", "quantity": null, "note": "assaisonnement risotto" }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Râper le parmesan finement et réserver.",
+        "timing": null,
+        "visualCue": "nuage de copeaux pâle et parfum sec",
+        "block": "mise_base",
+        "textureCue": "fromage dur qui se fragmente en flocons fins",
+        "runwayRisk": "faux mouvement de robot culinaire si non cadré en plan serré"
+      },
+      {
+        "position": 2,
+        "text": "Faire revenir les échalotes dans le beurre jusqu'à transparence.",
+        "timing": "3 minutes",
+        "visualCue": "beurre mousseux, échalotes translucides et brillantes",
+        "block": "risotto",
+        "textureCue": "pur ASMR : grésillement doux et surface huileuse",
+        "runwayRisk": "flamme visible sur plaque induction"
+      },
+      {
+        "position": 3,
+        "text": "Sauter le riz sec dans la matière grasse jusqu'à grain nacré.",
+        "timing": "3 minutes",
+        "visualCue": "riz qui étincelle et se recouvre d'un film gras uniforme",
+        "block": "risotto",
+        "textureCue": "grains qui cliquettent légèrement contre le fond",
+        "runwayRisk": "confusion spatule fouet; maintenir un seul geste principal"
+      },
+      {
+        "position": 4,
+        "text": "Mouiller au vin blanc et laisser s'absorber.",
+        "timing": "1 minute",
+        "visualCue": "liquide clair qui réduit et vapeur vineuse",
+        "block": "risotto",
+        "textureCue": "brillance fugace puis matité du grain",
+        "runwayRisk": "versement trop large hors casserole"
+      },
+      {
+        "position": 5,
+        "text": "Cuire le risotto au bouillon jusqu'à onctuosité, assaisonner.",
+        "timing": "20 minutes",
+        "visualCue": "vapeur continue, crémeux qui s'étire sans soupe",
+        "block": "risotto",
+        "textureCue": "amidon qui lie le liquide en sauce soyeuse",
+        "runwayRisk": "liquide trop fluide type soupe de riz"
+      },
+      {
+        "position": 6,
+        "text": "Hors feu: incorporer parmesan, persil et petits pois; mélanger et laisser refroidir 30 minutes.",
+        "timing": "repos 30 minutes",
+        "visualCue": "points verts vifs dans le riz blanc crémeux",
+        "block": "refroidissement",
+        "textureCue": "refroidissement qui raidit légèrement le mélange pour faconner",
+        "runwayRisk": "mozzarella ajoutée trop tôt si hors recette"
+      },
+      {
+        "position": 7,
+        "text": "Façonner des boules d'environ 6 cm, inciser, insérer un cube de mozzarella, refermer.",
+        "timing": null,
+        "visualCue": "sphère régulière et joint étanche autour du fromage",
+        "block": "façonnage",
+        "textureCue": "pâte de riz légèrement collante mais tenante",
+        "runwayRisk": "fromage qui fuit avant friture"
+      },
+      {
+        "position": 8,
+        "text": "Paner: farine, œuf battu, chapelure; répéter œuf et chapelure.",
+        "timing": null,
+        "visualCue": "croûte sèche puis couche humide puis miette dense",
+        "block": "panure",
+        "textureCue": "double couche qui forme une carapace irrégulière",
+        "runwayRisk": "mains coupées hors champ; garder mains visibles"
+      },
+      {
+        "position": 9,
+        "text": "Frire à 180–190 °C 3–4 minutes par fournée jusqu'à doré profond; éponger et servir chaud.",
+        "timing": "3–4 minutes par fournée",
+        "visualCue": "bulles fines, coloration or brun et surface granuleuse croustillante",
+        "block": "friture",
+        "textureCue": "caramélisation de la chapelure et cœur mozzarella fondu",
+        "runwayRisk": "flambée d'huile; gouttes projetées vers la caméra"
+      }
+    ],
+    "subRecipes": ["risotto_peas", "cooling", "stuffing", "double_breading", "deep_fry"],
+    "assumptions": [
+      "Les photos de livre décrivent une cuisson type robot (Vitesses/Varoma); la vidéo Licorn utilise casserole sur plaque et spatule pour lisibilité ASMR.",
+      "Le temps total affiché sur la page (1 h 35) inclut 30 minutes de refroidissement; la manipulation est sécurisée une fois le risotto tiède.",
+      "La recette vise 24 boules; le tournage peut montrer un lot réduit si cela clarifie les gestes.",
+      "Accompagnement possible de jeunes pousses en salade comme sur la photo finale."
+    ],
+    "timing": {
+      "prep": "25 minutes",
+      "cook": "40 minutes",
+      "total": "1 hour 35 minutes"
+    },
+    "criticalTransformations": [
+      "Toasting dry risotto rice in hot fat until grains turn pearly before any broth is added",
+      "Wine reduction absorbed into rice changing surface gloss and tightening grain edges",
+      "Slow broth hydration building a starchy creamy binder without soup excess",
+      "Cooling the finished risotto with peas and herbs until it firms for molding",
+      "Sealing a mozzarella cube inside rice so melted cheese stays trapped until frying",
+      "Double egg-and-breadcrumb pass creating a thick crumb shell ready for hot oil",
+      "Deep frying at 180–190°C blistering crumbs to deep gold while core cheese goes stretchy"
+    ],
+    "visualTextureOpportunities": [
+      "Foaming butter and soft shallots with audible sizzle at macro range",
+      "Pearlized risotto grains catching light on induction",
+      "White wine flash steam and quick gloss-to-matte fade on rice",
+      "Broth pour with rolling bubbles and satin stir ribbons",
+      "Bright green peas and parsley flecks folding into pale creamy rice",
+      "Hands compressing cool rice around a square of mozzarella",
+      "Dredge stations: dusty flour, wet egg drag, shower of fine breadcrumbs, repeated pass",
+      "Fry oil orchestra: micro bubbles climbing a pale ball then browning the crust",
+      "Breaking a hot arancini: vapor wisp, audible crunch, cheese filament pull",
+      "Side salad leaves for crisp contrast next to golden spheres in serving bowl"
+    ],
+    "possibleHooks": [
+      "Macro sizzle opener: butter foams before the first shallot even reads",
+      "Wine hits hot rice with a hiss-and-steam micro beat",
+      "Single arancini lowered into oil as bubbles erupt symmetrically",
+      "Two thumbs crack the shell: audible crunch then cheese silk",
+      "Cross-section hero matching cookbook cheese-center expectation"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "cursor_rule_seedance-references",
+      "cursor_rule_suno-music",
+      "production_preset_asmr_food",
+      "source_upload_photo_2026-05-11_07-09-12",
+      "source_upload_photo_2026-05-11_07-09-10"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "robot-vs-casserole",
+      "question": "Souhaitez-vous un clin d'œil visuel au robot type Thermomix (bol, couvercle) ou uniquement la casserole Licorn classique du début à la fin ?",
+      "reason": "Change les assets ustensiles, le cadrage des plans risotto et le niveau de fidélité au livre."
+    },
+    {
+      "id": "salad-hero-weight",
+      "question": "La salade de jeunes pousses doit-elle apparaître en plan final contextuel (comme la photo) ou rester hors champ pour concentrer sur les arancini ?",
+      "reason": "Impacte la durée du segment de clôture et le nombre de références food styling."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "videoId": "2d019b96-13ae-4dc1-ae9a-07c25f5db515",
+  "branch": "cursor/arancini-mozza-riz-pois-f863",
+  "commitSha": "fac95582142fc317a01fc82d11212e54f7b2ec55",
+  "artifactSet": "recipe_ingest",
+  "updatedAt": "2026-05-11T12:00:00Z",
+  "notes": "commitSha indique le commit parent (bundle créatif principal) ; le manifest est rattaché au commit suivant sur la branche — utiliser le SHA du sommet git pour l’ingest Recipe2Video."
+}

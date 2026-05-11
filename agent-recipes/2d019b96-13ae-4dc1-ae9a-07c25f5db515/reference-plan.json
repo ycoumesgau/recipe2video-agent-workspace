@@ -1,0 +1,255 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "global Licorn kitchen identity across every segment",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Preserve Licorn island surfaces, materials, and lighting continuity; widen only when storyboard demands context.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead island countertops for breading, molding, and crack reveal",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Lock board perspective and shadow direction for hand tasks.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "macro cooktop framing for sizzle and fry pot",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Keep ceramic induction read; ban gas flame artifacts.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "large saucepan / fry pot silhouette",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Match rim height for risotto stir and later fry depth.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spatula",
+      "role": "primary folding tool for risotto phase",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Silicone or Licorn-standard spatula head; single-tool clarity.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "optional stir and serving spoon",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Use for satin stir beat or service scrape per segment.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity for hands and coverage shots",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Maintain on-model hands and skin rules for everygesture.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down gesture framing for risotto and breading",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Align palm direction with overhead camera.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "context cook angle during fry beat",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Brief medium insert only; avoid blocking fry clarity.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "finale plating satisfaction angle",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Character visible beside bowl without hiding food hero.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterExpressions",
+      "role": "micro-expression control reference for satisfied finale",
+      "priority": 5,
+      "source": "existing_asset",
+      "prompt": "Subtle smile; no dialogue lip sync needed.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CooledRisottoPeasParmesanMix",
+      "role": "cooled risotto with peas parsley parmesan: sticky distinct grains",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "gpt_image_2 plate of cooled creamy risotto rice with bright green peas and parsley flecks; grains separable; matte tacky shine; no loose broth pool; Licorn neutral crockery; top-down macro; no text",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "StuffedSealedAranciniBall",
+      "role": "raw 6cm rice sphere sealed around hidden mozzarella",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "gpt_image_2 single hand-sized arancini sphere made of risotto rice; smooth sealed skin; no cheese visible; pale; subtle pea dots under surface; neutral board; no fry color; no text",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "DoubleBreadedAranciniRaw",
+      "role": "pale twice-breaded sphere before frying",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "gpt_image_2 arancini coated in fine dry breadcrumbs; eggshell pale gold hint only; rough micro crumb; no mozzarella leak; no oil bubbles; neutral background; no text",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FriedGoldenAranciniHero",
+      "role": "deep-fried target surface for pile shots",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "gpt_image_2 golden brown fine breadcrumb crust; uniform fry blister micro texture; subtle oil sheen; spherical; hint of green inside only at a tiny crack if any; no black burn; no text",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "AranciniCrossSectionCheesePull",
+      "role": "broken arancini with rice peas and molten mozzarella pull",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "gpt_image_2 cross-section fried arancini split in two; rice and peas interior; center mozzarella stretchy silk pull; steam wisp; crust jagged; macro; no text",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    }
+  ]
+}

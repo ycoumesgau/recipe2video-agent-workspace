@@ -22,4 +22,4 @@
 
 ## Sync Git
 
-- Le fichier `checkpoint-manifest.json` référence en `commitSha` le commit **ingest principal** (tous les artefacts JSON et Markdown hors manifeste), pour un arbre stable; le sommet de branche inclut souvent un commit manifeste ultérieur — se placer sur la tête de branche pour la révision complète.
+- `checkpoint-manifest.commitSha` reflète le dernier commit où le contenu combiné (manifeste + artefacts) a été figé via `git commit --amend` après enrichissement analyse/changelog. La tête de branche après `git push` peut être un commit manifest-only au-dessus ; pour l’ingestion Recipe2Video, résoudre la ref distante de la branche du projet en priorité si le tout dernier SHA poussé est requis.

@@ -8,5 +8,5 @@
 - Created `reference-plan.json` with global kitchen/character/utensil references, uploaded source-photo references, and generated reference plans for fragile arancini states.
 - Created `suno-prompt.md` with copy-ready manual Suno fields.
 - Created `decisions.md` documenting source interpretation, editorial structure, reference strategy, and remaining gaps.
-- Updated `checkpoint-manifest.json` with the first pushed checkpoint commit SHA for the complete ready artifact set.
+- Updated `checkpoint-manifest.json` with the pushed checkpoint commit SHA for the reviewed ready artifact set.
 - After verifier review, tightened Seedance prompts for visible cutting hands, no floating knife, frying lift tool continuity, and hot creamy risotto state reference.

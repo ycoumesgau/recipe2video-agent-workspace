@@ -11,6 +11,13 @@
 - Created `decisions.md` documenting source assumptions, production defaults, creative structure and generation risks.
 - No paid generation services were launched; all generated image, video, audio and music work remains planned for Recipe2Video execution later.
 
+## 2026-05-11 09:04 UTC — recipe_ingest refresh
+
+- Re-read the existing recipe ingest artifacts for the same video ID and confirmed the source information is complete.
+- Updated `recipe-analysis.json` for this ingest run while preserving the strict plain-string arrays and `prep`/`cook`/`total` timing keys.
+- Prepared `checkpoint-manifest.json` for the current pushed checkpoint refresh.
+- No paid generation services were launched.
+
 ## Remaining gaps
 
 - No blocking recipe information gaps remain.

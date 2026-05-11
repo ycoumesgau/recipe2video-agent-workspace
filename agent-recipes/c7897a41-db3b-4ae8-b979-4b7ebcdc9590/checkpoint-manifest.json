@@ -2,9 +2,9 @@
   "videoId": "c7897a41-db3b-4ae8-b979-4b7ebcdc9590",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-c7897a41-b8e1",
-  "commitSha": "0d00ae18db4f02500ee40b5b7330e346168df0b1",
+  "commitSha": "36057ec82f1ed5eb4ffe5ba282aebde8809d2254",
   "manifestPath": "agent-recipes/c7897a41-db3b-4ae8-b979-4b7ebcdc9590/checkpoint-manifest.json",
-  "updatedAt": "2026-05-11T08:35:00Z",
+  "updatedAt": "2026-05-11T09:04:00Z",
   "status": "pushed_checkpoint",
   "artifacts": [
     "recipe-analysis.json",
@@ -17,7 +17,7 @@
     "checkpoint-manifest.json"
   ],
   "notes": [
-    "commitSha points to the pushed recipe_ingest artifact commit.",
+    "commitSha points to the latest pushed checkpoint commit available before this refresh commit.",
     "No paid generation services were launched."
   ]
 }

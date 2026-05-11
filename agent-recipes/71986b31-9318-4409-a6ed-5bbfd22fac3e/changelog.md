@@ -7,3 +7,8 @@
 - Ajout de `seedance-segments.json` : 7 segments `seedance2` mode References, ratio 1080:1920, timings serrés, audio ASMR sans parole ni musique; alignement du segment 1 sur 5 prises pour couvrir les cinq scènes du hook.
 - Ajout de `reference-plan.json` : references `assets/` Licorn + trois plans `gpt_image_2` pour états fragiles.
 - Rédaction de `suno-prompt.md`, `decisions.md`, et de cette entrée de journal.
+
+## 2026-05-11 — Revue source (vision) & manifeste
+
+- Enrichissement des `assumptions` dans `recipe-analysis.json` : ustensiles listés (spatule, casserole), mood surface et arrière-plan vu sur la photo plat, indice éditorial grand public (sans reproduire de marque à l’écran), macronutriments imprimés en option hors prompt vidéo.
+- Correction du `commitSha` dans `checkpoint-manifest.json` pour refléter la tête de branche au moment du dernier push (voir commit associé).

@@ -123,9 +123,12 @@
     "subRecipes": ["risotto", "refroidissement", "farcissage", "panure", "friture", "service"],
     "assumptions": [
       "Photos source téléversées : photo_2026-05-11_07-09-12.jpg et photo_2026-05-11_07-09-10.jpg (liste fournie par l’utilisateur); rendement livre 24 boules ~6 cm.",
+      "Ustensiles indiqués sur la page recette : spatule, une casserole (cohérent avec références @Spatula et @SaucepanLarge dans les segments).",
       "La source mentionne des réglages type Thermomix (vitesses, températures); la version filmée peut être une casserole sur plaque pour la lisibilité ASMR, sauf contrainte contraire.",
-      "Les photographies montrent une assiette céramique brune et une salade verte en accompagnement; on conserve ce mood rustique.",
-      "La mozza cœur doit être chaude au service pour un filage visible; on privilégie la cassure à table."
+      "Les photographies montrent une assiette céramique brune, salade verte en accompagnement, et un fond clair texturé type pierre/plâtre; on conserve ce mood rustique et lumineux.",
+      "Fragments de mise en page suggèrent une publication grand public français (mentions visibles du type Reader’s Digest / Sélection sur la page plat) pour traçabilité éditoriale seulement, sans rejouer logo ou couverture.",
+      "La mozzarella en cœur doit être chaude au service pour un filage visible; on privilégie la cassure à table.",
+      "Valeurs nutritionnelles imprimées (par arancino) — 165 kcal, 6 g prot., 21 g glucides, 6 g lipides — utiles hors voix/off si besoin légal ou infographie plus tard; pas requises pour les prompts Seedance."
     ],
     "timing": {
       "prep": "25 min",

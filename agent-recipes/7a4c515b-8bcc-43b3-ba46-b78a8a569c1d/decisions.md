@@ -15,6 +15,11 @@
 
 - Preset style : `asmr_food` ; vidéo `seedance2` (1080:1920) ; références image fragiles via `gpt_image_2` ; TTS `eleven_multilingual_v2` ; SFX `eleven_text_to_sound_v2`. Aucun appel API dans ce dépôt.
 
+## Point Git / `checkpoint-manifest.json`
+
+- Le champ `commitSha` dans `checkpoint-manifest.json` référence le **commit qui contient les artefacts JSON/Markdown principaux** (ingest sans fichier manifeste), pour figer le bundle analysé par Recipe2Video.
+- Le commit **suivant** qui ajoute uniquement le manifeste constitue la **tête de branche** : les pipelines peuvent résoudre `HEAD` sur `cursor/arancini-mozza-peas-d0c1` pour lire aussi le manifeste à jour.
+
 ## Ouvert / questions
 
 - Voir `recipe-analysis.json` → `clarifyingQuestions.equipment-framing` : validation si un plan robot doit apparaître ou si tout reste sur casserole Licorn.

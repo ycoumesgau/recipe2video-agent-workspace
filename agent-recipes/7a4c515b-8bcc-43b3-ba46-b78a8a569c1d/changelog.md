@@ -8,4 +8,4 @@
 - Ajout de `reference-plan.json` : actifs globaux existants + **5** états recette planifiés en génération `gpt_image_2` pour verrouiller liaison risotto, scellage, double panure, dorure et coupe filante.
 - Rédaction de `suno-prompt.md` (champs Suno en anglais, par `.cursor/rules/suno-music.mdc`).
 - Documentation des choix et hypothèses dans `decisions.md`.
-- Mise à jour de `checkpoint-manifest.json` avec le SHA du commit poussé sur la branche `cursor/arancini-mozza-peas-d0c1`.
+- Mise à jour de `checkpoint-manifest.json` : `commitSha` = commit Git du bundle `recipe-analysis.json` + scènes + segments + plan + Markdown (`de07546…` dans cette livraison) ; la **tête de branche** après le commit du manifeste est le SHA complet à utiliser côté outillage pour récupérer aussi le manifeste (voir message JSON agent).

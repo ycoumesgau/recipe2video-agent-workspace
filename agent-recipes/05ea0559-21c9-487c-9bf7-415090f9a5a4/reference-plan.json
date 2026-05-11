@@ -188,54 +188,6 @@
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-07"],
       "status": "planned"
-    },
-    {
-      "type": "recipe_state",
-      "canonicalName": "SimmeringRedEnchiladaSurface",
-      "role": "fragile sauce skin: chili-red shimmer, controlled bubbles, minimal chunk read",
-      "priority": 1,
-      "source": "generated_reference_needed",
-      "prompt": "Generate gpt_image_2 reference: overhead or slight angle macro of Tex-Mex red enchilada sauce actively simmering in a stainless saucepan, glossy oil film, sparse spice specks, no tomato pulp cubes, warm tungsten Licorn-like kitchen reflections, no text.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01"],
-      "status": "planned"
-    },
-    {
-      "type": "recipe_state",
-      "canonicalName": "FilledUnbakedEnchiladaCasserole",
-      "role": "unbaked parallel roll geometry packed in rectangular ceramic before oven",
-      "priority": 1,
-      "source": "generated_reference_needed",
-      "prompt": "Generate gpt_image_2 reference: 9x13 greased casserole with parallel large flour tortillas rolled seam-down, valleys filled with pooled red sauce, snowy shredded cheese unevenly topping, tortilla faces still pale—not blistered.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03"],
-      "status": "planned"
-    },
-    {
-      "type": "recipe_state",
-      "canonicalName": "BakedEnchiladasMoltenTop",
-      "role": "post-bake blister cheese and reduced sauce channels",
-      "priority": 1,
-      "source": "generated_reference_needed",
-      "prompt": "Generate gpt_image_2 reference: baked Tex-Mex chicken enchiladas same layout as pre-bake, blistered browned cheese highs, mahogany sauce edges between rolls, parallel rolls still recognizable, restrained steam wisps.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-04"],
-      "status": "planned"
-    },
-    {
-      "type": "recipe_state",
-      "canonicalName": "EnchiladaCrossSectionPull",
-      "role": "cut bite with modest REALISTIC cheese threads and visible strata",
-      "priority": 2,
-      "source": "generated_reference_needed",
-      "prompt": "Generate gpt_image_2 reference: fork lifting a cut section of baked enchilada showing chicken, beans, melted cheese strata, restrained short cheese pull arcs—avoid rubber band stretch, no text.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
-      "status": "planned"
     }
   ]
 }

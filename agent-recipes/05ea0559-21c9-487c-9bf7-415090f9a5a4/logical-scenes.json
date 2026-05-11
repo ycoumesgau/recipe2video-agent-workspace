@@ -639,7 +639,7 @@
       "bg": "oven_closeup",
       "zoom": "macro",
       "durationTarget": 1.25,
-      "note": "State reference alignment.",
+      "note": "Hard cut payoff; blister look locked by prompt text, not dish PNG.",
       "textureCue": "blister skin vs molten pockets",
       "sfxCue": "cheese crackle",
       "satisfactionBeat": true,

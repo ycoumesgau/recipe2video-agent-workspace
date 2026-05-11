@@ -13,13 +13,13 @@
 
 ## Fragile states
 
-- Generated references (`gpt_image_2` per production defaults) planned for: simmering sauce skin, unbaked casserole geometry, blistered bake surface, modest cross-section cheese pull. No paid generation executed in this workspace run.
+- **Revision — library-only image inputs:** no standalone `recipe_state` PNGs (`gpt_image_2` or otherwise) for this video. Licorn library assets remain the only Seedance image references; sauce color, casserole grid, bake blistering, and modest cheese pull are spelled out in each segment’s English prompt (explicit negatives, duration blocks, food adjectives). Exec may still use `gpt_image_2` workspace defaults for other tooling, but planning does not allocate custom dish stills analogous to overlapping arancini reference stacks.
 
 ## Production defaults (record)
 
-- Style preset: `asmr_food`; video: `seedance2`; reference images: `gpt_image_2`; TTS: `eleven_multilingual_v2`; SFX: `eleven_text_to_sound_v2`; ingest agent: Composer 2 fast mode enabled (metadata only here).
+- Style preset: `asmr_food`; video: `seedance2`; workspace default reference image tool remains `gpt_image_2` (not used here for dish-specific uploads); TTS: `eleven_multilingual_v2`; SFX: `eleven_text_to_sound_v2`; ingest agent: Composer fast mode metadata only.
 
 ## Risks accepted
 
 - Oven UI / appliance text may appear in wide shots; prompts bias toward macro and negative “no readable UI” but occasional retake risk remains.
-- Cheese pull segments intentionally cap elasticity via `EnchiladaCrossSectionPull` reference to avoid CGI rubber.
+- Cheese pull credibility now depends on wording (“few centimeters”, “snap quickly”) versus a capped reference still—retake risk rises slightly if Seedance ignores stretch negatives.

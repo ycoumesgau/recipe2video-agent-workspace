@@ -177,19 +177,20 @@
       "Linked sauce reference: https://www.gimmesomeoven.com/red-enchilada-sauce/",
       "Workspace rules: seedance-references.mdc (References mode, @KitchenIslandDefault baseline, 9 image cap, ASMR audio only, no speech/music/text)",
       "Workspace rules: recipe-agent-core.mdc (30–48 logical scenes, 5–10 Seedance segments, texture-first opening, end on satisfied character in Licorn kitchen)",
-      "Production defaults: style_preset=asmr_food, video_model=seedance2, reference_image_model=gpt_image_2, tts_model=eleven_multilingual_v2, sfx_model=eleven_text_to_sound_v2"
+      "Production defaults: style_preset=asmr_food, video_model=seedance2, reference_image_model=gpt_image_2 (optional workspace default; this recipe plan uses Licorn library references only plus in-prompt food description for Seedance)",
+      "Seedance ingest policy for this video: no separate recipe_state PNG generation; dish-specific look (sauce color, casserole grid, bake blister, modest cheese pull) is specified in segment prompt text"
     ]
   },
   "clarifyingQuestions": [
     {
       "id": "tortilla-style",
       "question": "Should the hero assembly and bake reference flour tortillas (softer, larger rolls) or corn tortillas (smaller, more rustic edges, often pre-softened in oil or sauce)?",
-      "reason": "Changes roll geometry, surface color, and reference images for fragile rolled states."
+      "reason": "Changes roll geometry, surface color, and how assembly or bake beats should be described in Seedance prompts."
     },
     {
       "id": "sauce-depth",
       "question": "Do you want the video to include on-camera roux-based sauce building (oil, flour, spice bloom, stock reduction) or only the finished simmering sauce tied to the enchilada steps?",
-      "reason": "Determines whether an extra segment and additional state references are needed for flour bloom and whisk tracks."
+      "reason": "Determines whether an extra segment and additional prompt beats are allocated for roux bloom and whisk tracks versus staying on simmering-sauce visuals."
     }
   ]
 }

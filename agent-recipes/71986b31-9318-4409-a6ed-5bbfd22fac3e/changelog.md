@@ -11,4 +11,5 @@
 ## 2026-05-11 — Revue source (vision) & manifeste
 
 - Enrichissement des `assumptions` dans `recipe-analysis.json` : ustensiles listés (spatule, casserole), mood surface et arrière-plan vu sur la photo plat, indice éditorial grand public (sans reproduire de marque à l’écran), macronutriments imprimés en option hors prompt vidéo.
-- Mise à jour de `checkpoint-manifest.json` : alignement du `commitSha` sur le snapshot **amendé** contenant recette + changelog + manifeste (`fd14298`); la pushed tip distante inclut le commit manifest-only `35373b5` (`git rev-parse origin/cursor/recipe-ingest-arancini-71986b31-9d5a`).
+- Mise à jour de `checkpoint-manifest.json` après push : `commitSha` pointe vers la révision précédant le dernier amend de manifeste (limitation d’auto-référence Git) ; la tête de branche distante à consulter est `git rev-parse origin/cursor/recipe-ingest-arancini-71986b31-9d5a`.
+- `decisions.md` : commentaire sur la lecture du manifeste vs la tête de branche.

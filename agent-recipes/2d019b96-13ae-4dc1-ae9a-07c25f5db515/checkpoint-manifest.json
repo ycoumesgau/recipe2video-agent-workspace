@@ -1,8 +1,8 @@
 {
   "videoId": "2d019b96-13ae-4dc1-ae9a-07c25f5db515",
   "branch": "cursor/arancini-mozza-riz-pois-f863",
-  "commitSha": "2fdb66b84b552d98db3a05ebbc5f4b54095cb0a5",
+  "commitSha": "5956a774af018ce674e780e3e26ad9871e3a355c",
   "artifactSet": "recipe_ingest",
   "updatedAt": "2026-05-11T12:00:00Z",
-  "notes": "commitSha = commit d’ingest unique contenant tous les artefacts ; ce fichier vit dans le commit suivant qui ne fait qu’aligner le pointeur."
+  "notes": "commitSha = parent immédiat : bundle complet des artefacts markdown/json de la recette au moment du push."
 }

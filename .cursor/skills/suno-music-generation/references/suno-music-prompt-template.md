@@ -1,6 +1,6 @@
 # Suno Prompt — [Recipe Name]
 
-> **Recipe2Video:** les champs Suno Custom Mode pour l’app sont les sections `## Style of Music`, `## Exclude Styles`, `## Title`, `## Auto Lyrics Prompt` et `## Short Version To Extract Later` (titres de niveau 2 obligatoires pour le parsing). Les sections précédentes (`Status`, `Intent`, notes de session) restent du contexte opérationnel ; elles peuvent aussi être reprises dans `suno-prompt.json` sous `status` / `instructions`.
+> **Recipe2Video:** les champs Suno Custom Mode pour l’app sont les sections `## Title`, `## Style of Music`, `## Exclude Styles`, `## Auto Lyrics Prompt` et `## Short Version To Extract Later` (titres de niveau 2 obligatoires pour le parsing). L’ordre recommandé — aligné avec l’UI Suno — est **titre d’abord**, puis style, exclusions, prompt lyrics, plan d’extrait. Les sections précédentes (`Status`, `Intent`, notes de session) restent du contexte opérationnel ; elles peuvent aussi être reprises dans `suno-prompt.json` sous `status` / `instructions`.
 
 ## Status
 
@@ -30,6 +30,14 @@ Use these as operator notes before generating. They are not pasted into a single
 - Make the chorus reusable for a 45 to 90 second video edit.
 - Keep lines short, singable, repeated, and image-driven.
 
+## Title
+
+English track name — set this **first** in Suno so the project is named before pasting style and lyrics.
+
+```text
+[English song title]
+```
+
 ## Style of Music
 
 Style prompt to use as a separate Suno field (genre, rhythm, production, instruments, vocal treatment, mix only — no lyric instructions here):
@@ -42,12 +50,6 @@ Style prompt to use as a separate Suno field (genre, rhythm, production, instrum
 
 ```text
 No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no French lyrics except recipe names that must stay French, no recipe tutorial lyrics, no ingredient counting.
-```
-
-## Title
-
-```text
-[English song title]
 ```
 
 ## Auto Lyrics Prompt

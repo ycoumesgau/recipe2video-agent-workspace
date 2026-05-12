@@ -17,7 +17,7 @@ description: Prépare les prompts Suno (JSON + markdown) pour Recipe2Video — c
 L’application valide `suno-prompt.json` (Zod) et affiche l’assembly à partir de `sunoPromptV2` **ou** du markdown parsé. Toujours livrer **les deux** :
 
 1. **`suno-prompt.json`** — JSON strict, pas de fences Markdown. `schemaVersion: 1` obligatoire.
-2. **`suno-prompt.md`** — miroir lisible ; respecter le gabarit `references/suno-music-prompt-template.md` (sections `##` de niveau 2 pour les cinq champs Suno).
+2. **`suno-prompt.md`** — miroir lisible ; respecter le gabarit `references/suno-music-prompt-template.md` (sections `##` de niveau 2 pour les cinq champs Suno, **dans l’ordre : Title → Style → Excludes → Auto lyrics → Short version**).
 
 ### Forme JSON (`suno-prompt.json`)
 
@@ -33,9 +33,9 @@ Les chaînes dans `fields` doivent être **identiques** au contenu prêt à coll
     "targetDuration": "2–3 minutes (full); excerpt for short video"
   },
   "fields": {
+    "title": "…",
     "styleOfMusic": "…",
     "excludeStyles": "…",
-    "title": "…",
     "autoLyricsPrompt": "…",
     "shortVersionPlan": "…"
   },
@@ -48,9 +48,9 @@ Les chaînes dans `fields` doivent être **identiques** au contenu prêt à coll
 }
 ```
 
+- `fields.title` ↔ **Title** (nom du morceau dans Suno — en premier, comme dans l’UI).
 - `fields.styleOfMusic` ↔ corps du bloc **Style of Music** (contenu du fence ```text uniquement, sans consignes lyriques).
 - `fields.excludeStyles` ↔ **Exclude Styles**.
-- `fields.title` ↔ **Title**.
 - `fields.autoLyricsPrompt` ↔ contenu **Auto Lyrics Prompt** (le texte à coller dans le champ lyrics auto, moins de 3000 caractères).
 - `fields.shortVersionPlan` ↔ **Short Version To Extract Later** (plan de montage / extrait).
 
@@ -66,7 +66,7 @@ Les chaînes dans `fields` doivent être **identiques** au contenu prêt à coll
 
 1. Identifier les arcs culinaires, le hook visuel, les money shots et le hero final (depuis scènes / segments).
 2. Extraire des mots-images chantables : ingrédients signatures, textures, couleurs, gestes sensoriels.
-3. Rédiger avec le template `references/suno-music-prompt-template.md` : **Status**, **Intent**, **Session notes**, puis les cinq champs Suno.
+3. Rédiger avec le template `references/suno-music-prompt-template.md` : **Status**, **Intent**, **Session notes**, puis les cinq champs Suno dans l’ordre **Title → Style → Excludes → Auto lyrics → Short version**.
 4. Remplir `suno-prompt.json` avec les mêmes contenus finaux dans `fields` + métadonnées cohérentes dans `status` / `instructions` / `qualityChecks`.
 5. Ne pas écrire les paroles finales dans le livrable sauf demande explicite de l’utilisateur — seulement le **prompt** qui demande à Suno de générer des paroles.
 
@@ -95,6 +95,7 @@ K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, and
 
 ## Validation avant livraison
 
+- **Title** est défini en premier parmi les champs Suno (dans le `.md` et l’ordre logique des `fields` JSON).
 - `Style of Music` est séparé de `Auto Lyrics Prompt` (dans le `.md` **et** dans `fields`).
 - `Auto Lyrics Prompt` : anglais, pas de consignes musicales, moins de 3000 caractères.
 - `Exclude Styles` : interdits clairs (genres parasites, artistes réels, marques, lyrics non souhaités, tutoriel recette).

@@ -1,6 +1,6 @@
 # Suno Prompt — [Recipe Name]
 
-> **Recipe2Video:** les champs Suno Custom Mode pour l’app sont les sections `## Title`, `## Style of Music`, `## Exclude Styles`, `## Auto Lyrics Prompt` et `## Short Version To Extract Later` (titres de niveau 2 obligatoires pour le parsing). L’ordre recommandé — aligné avec l’UI Suno — est **titre d’abord**, puis style, exclusions, prompt lyrics, plan d’extrait. Les sections précédentes (`Status`, `Intent`, notes de session) restent du contexte opérationnel ; elles peuvent aussi être reprises dans `suno-prompt.json` sous `status` / `instructions`.
+> **Recipe2Video:** The app parses Suno Custom Mode content from these level-2 sections: `## Title`, `## Style of Music`, `## Exclude Styles`, `## Auto Lyrics Prompt`, and `## Short Version To Extract Later`. Recommended order (matches typical Suno workflow) is **title first**, then style, excludes, auto lyrics, short-edit plan. Earlier sections (`Status`, `Intent`, session notes) are operator context only; you can also mirror them in `suno-prompt.json` under `status` / `instructions`.
 
 ## Status
 

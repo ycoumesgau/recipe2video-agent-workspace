@@ -77,6 +77,12 @@ All JSON files must be strict JSON. No comments. No Markdown fences.
 
 The app requires 30-48 logical scenes.
 
+Scale guidance for `logical-scenes.json`:
+
+- use `description` and `note` to lock risky proportions when needed;
+- prefer explicit ranges (`3-4 cm balls`) over vague labels (`small`);
+- if scale is uncertain, push a clarifying question in `recipe-analysis.json`.
+
 ## `seedance-segments.json`
 
 ```json
@@ -129,6 +135,12 @@ The app requires 30-48 logical scenes.
 ```
 
 The app requires 5-10 Seedance segments.
+
+Scale guidance for `seedance-segments.json`:
+
+- put size/proportion continuity in `continuity`;
+- put potential size drift in `risk`;
+- include scale lock lines in `prompt` and `promptInitial` for ambiguous objects.
 
 ## `reference-plan.json`
 

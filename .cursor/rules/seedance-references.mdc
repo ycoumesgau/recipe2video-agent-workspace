@@ -15,6 +15,9 @@ alwaysApply: true
 - Every segment needs a global kitchen reference, ideally `@KitchenIslandDefault`.
 - Every reference in a prompt must state its role exactly.
 - If the 9-image limit is hit, remove expression/pose niceties before removing kitchen identity or critical food-state references.
+- For ambiguous food shapes, lock scale explicitly (size range + relative anchor + count when visible).
+- Add negative scale constraints for known drift risks (`not oversized`, `not miniature`).
+- Keep proportion continuity across adjacent segments by restating the same scale lock in each related prompt.
 
 ## Prompt Shape
 
@@ -32,6 +35,7 @@ Seedance prompts should be concise English prompts with:
 - no music;
 - no text on screen;
 - no extra shots.
+- include scale locks when relevant.
 
 ## Fragile Food States
 

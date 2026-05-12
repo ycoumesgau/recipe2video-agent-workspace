@@ -19,6 +19,8 @@ Use when converting logical scenes into generated video segments.
 - Keep prompts under about 3,500 characters.
 - Use 5-10 Seedance segments for a 30-48 logical-scene storyboard.
 - Store logical scene IDs on every segment.
+- Lock object scale for ambiguous shapes (diameter/thickness/count + relative kitchen anchor).
+- Preserve scale continuity across adjacent segments when the same food state continues.
 
 ## Segment Fields
 
@@ -44,6 +46,11 @@ Each `seedance-segments.json` segment should include:
 - `durationTarget`
 - `status`
 
+Use `continuity` and `risk` to track proportion locks, for example:
+
+- continuity: `Arancini diameter remains 3-4 cm as in segment-02.`
+- risk: `Scale drift risk if ball size is not restated.`
+
 ## Prompt Skeleton
 
 ```text
@@ -55,6 +62,11 @@ Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR 
 
 Mandatory timing:
 - 0.0-...s: ...
+
+Scale lock:
+- object size: ...
+- relative anchor: ...
+- negative size constraint: ...
 
 Global negatives: ...
 
@@ -99,4 +111,6 @@ Before marking a segment ready:
 - ASMR audio only;
 - no speech, no voiceover, no music;
 - fragile geometry handled with state references or strong negatives;
-- visible hands for human actions.
+- visible hands for human actions;
+- scale lock present for risky objects;
+- continuity mentions preserved proportions when reusing the same object across segments.

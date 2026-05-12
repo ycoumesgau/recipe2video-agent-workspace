@@ -18,6 +18,9 @@ Check:
 - reference count <= 9;
 - global kitchen reference present;
 - reference roles explicit;
+- size/proportion anchors for ambiguous objects (diameter, thickness, count, relative anchor);
+- no unrealistic scale (for example soccer-ball-sized arancini unless explicitly intended);
+- continuity locks for object proportions across adjacent segments;
 - fragile food geometry handled with state references;
 - no speech, voiceover, music, text on screen;
 - visible hands for human actions;

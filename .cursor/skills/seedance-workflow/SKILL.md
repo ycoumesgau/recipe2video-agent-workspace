@@ -19,6 +19,9 @@ Use when converting logical scenes into generated video segments.
 - Keep prompts under about 3,500 characters.
 - Use 5-10 Seedance segments for a 30-48 logical-scene storyboard.
 - Store logical scene IDs on every segment.
+- Lock object scale for ambiguous shapes (diameter/thickness/count + relative kitchen anchor).
+- Preserve scale continuity across adjacent segments when the same food state continues.
+- Preserve kitchen identity continuity across adjacent segments (countertop material, induction geometry, cabinet layout).
 
 ## Segment Fields
 
@@ -44,10 +47,22 @@ Each `seedance-segments.json` segment should include:
 - `durationTarget`
 - `status`
 
+Use `continuity` and `risk` to track proportion locks, for example:
+
+- continuity: `Arancini diameter remains 3-4 cm as in segment-02.`
+- risk: `Scale drift risk if ball size is not restated.`
+- continuity: `Countertop remains the same light terrazzo surface; induction remains the same flush black plate from prior segment.`
+- risk: `Model may invent wood countertop if kitchen anchors are incomplete.`
+
 ## Prompt Skeleton
 
 ```text
 Use @... for [role]. Use @... only as [role]. [Reference priority if needed].
+
+Kitchen continuity lock:
+- Use `@KitchenLayoutContextWide` as structural kitchen context (not as camera framing requirement).
+- Add one shot-specific kitchen view (`@KitchenIslandDefault` or another relevant kitchen angle).
+- Keep induction design consistent with kitchen references (no invented stovetop geometry).
 
 Generate exactly N short shots with hard cuts, total duration X seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, no text on screen.
 
@@ -55,6 +70,21 @@ Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR 
 
 Mandatory timing:
 - 0.0-...s: ...
+
+Scale lock:
+- object size: ...
+- relative anchor: ...
+- negative size constraint: ...
+
+Utensil lock:
+- required utensil: ...
+- avoid near-miss substitutions: ...
+- hot handling policy: tool-first, no cloth fused with hand.
+
+Plating quantity lock:
+- side amount: ...
+- visual target: ...
+- continuity note if side bowl appears earlier: ...
 
 Global negatives: ...
 
@@ -93,10 +123,16 @@ Before marking a segment ready:
 
 - references <= 9;
 - global kitchen reference present;
+- kitchen continuity pair present (`@KitchenLayoutContextWide` + one shot-specific kitchen view);
 - roles explicit;
 - timing explicit;
 - hard cuts present;
 - ASMR audio only;
 - no speech, no voiceover, no music;
 - fragile geometry handled with state references or strong negatives;
-- visible hands for human actions.
+- visible hands for human actions;
+- scale lock present for risky objects;
+- utensil choice matches action physics (e.g. deep-fry lift uses spider skimmer);
+- no cloth-in-hand hot transfer shots;
+- plating side quantities are explicit when present;
+- continuity mentions preserved proportions when reusing the same object across segments.

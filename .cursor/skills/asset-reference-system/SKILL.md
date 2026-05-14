@@ -16,11 +16,22 @@ Use whenever a scene, segment, or reference plan mentions kitchen, character, po
 - Recipe-specific references cover food states Seedance may misread.
 - Do not re-describe the Licorn character from scratch. Refer to character references and specify only pose, expression, action, and visible hands.
 - For every reference in a Seedance prompt, state exactly what role it plays.
+- For every segment, include a kitchen continuity pair:
+  - one structural context reference (`@KitchenLayoutContextWide`);
+  - one shot-specific kitchen view (`@KitchenIslandDefault` OR overhead/induction/oven view).
+- `@KitchenLayoutContextWide` is a structural context anchor, not a framing instruction. Do NOT force a wide shot unless the storyboard asks for it.
+- Do not force `@KitchenIslandDefault` when another kitchen angle is the active shot. Use it when it is the shot view or when explicit terrazzo lock is needed.
+- Keep kitchen invariants stable across segments: light terrazzo countertop, black flush induction plate, same cabinet style/layout.
+- If the required utensil exists in assets, attach it. Do not use a near-miss utensil (`@Spatula` instead of `@SpiderSkimmer`, etc.).
+- For hot transfers, avoid cloth-in-hand interactions (high fusion risk with fingers). Prefer utensil handling; if not possible, stage the action after implied cooling.
+- For plating sides (salad, garnish, sauces), quantify amounts (`small bed`, `2-3 leaves`, `one spoonful`) to avoid tiny-token results.
+- Keep prop continuity: if a bowl/side component is introduced and still relevant, either show it again later or explicitly state it has been set aside.
 
 ## Common Global References
 
 Kitchen:
 
+- `@KitchenLayoutContextWide` from `assets/kitchen/kitchen_wide.png` (always-on structural kitchen context, not a mandatory wide camera framing)
 - `@KitchenIslandDefault` from `assets/kitchen/island_default.png`
 - `@KitchenIslandOverhead` from `assets/kitchen/island_overhead.png`
 - `@KitchenIslandWide` from `assets/kitchen/island_overview_wide.png`
@@ -48,7 +59,14 @@ Utensils:
 - `@Whisk`
 - `@ImmersionBlender`
 - `@Spatula`
+- `@SpiderSkimmer`
+- `@Tongs`
 - `@Spoon`
 - `@Sieve`
 
 If an object does not exist as an asset, describe it in the prompt but do not list it as a reference.
+
+## References
+
+- `reference-detail/kitchen-continuity-guardrails.md`
+- `reference-detail/utensil-task-mapping.md`

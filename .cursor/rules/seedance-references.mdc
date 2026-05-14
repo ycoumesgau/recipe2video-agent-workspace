@@ -12,12 +12,18 @@ alwaysApply: true
 - Do not use first/last keyframes as the production pattern.
 - If an image must act as start or target state, pass it as a named reference and state its role explicitly in the prompt.
 - Each segment must stay within 9 image inputs total.
-- Every segment needs a global kitchen reference, ideally `@KitchenIslandDefault`.
+- Every segment needs a kitchen continuity pair:
+  - `@KitchenLayoutContextWide` as structural kitchen context;
+  - one shot-specific kitchen view (`@KitchenIslandDefault`, `@KitchenIslandOverhead`, `@InductionWide`, `@OvenWide`, etc.).
+- Do not force `@KitchenIslandDefault` when another kitchen angle is the shot view; use it when it is the active framing or when explicit terrazzo lock is needed.
 - Every reference in a prompt must state its role exactly.
 - If the 9-image limit is hit, remove expression/pose niceties before removing kitchen identity or critical food-state references.
 - For ambiguous food shapes, lock scale explicitly (size range + relative anchor + count when visible).
 - Add negative scale constraints for known drift risks (`not oversized`, `not miniature`).
 - Keep proportion continuity across adjacent segments by restating the same scale lock in each related prompt.
+- Keep kitchen material continuity across adjacent segments (no countertop/stovetop redesign drift).
+- Use task-correct utensils when available in assets (no near-miss substitutions).
+- Avoid cloth-in-hand hot-transfer prompts due hand/cloth fusion risk.
 
 ## Prompt Shape
 
@@ -36,6 +42,7 @@ Seedance prompts should be concise English prompts with:
 - no text on screen;
 - no extra shots.
 - include scale locks when relevant.
+- include kitchen continuity locks when relevant.
 
 ## Fragile Food States
 

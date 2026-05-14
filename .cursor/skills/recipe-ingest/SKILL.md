@@ -23,11 +23,13 @@ Use when a recipe URL, text, photo description, or dish name starts a new projec
 
 - Ask clarifying questions only when the answer changes storyboard, references, duration, geometry, or generation risk.
 - Ask a clarifying question when object scale is ambiguous and can cause model drift (example: ball size, ring diameter, item count).
+- Ask a clarifying question when plating-side quantity is ambiguous (example: "some salad", "a little garnish") and likely to be misinterpreted.
 - Identify sub-recipes before selecting the opening.
 - A moved opening block must remain culinarily coherent and must be re-anchored quickly.
 - Never open on final-dish slicing or neutral ingredient lineup.
 - Prefer desirable, generatable gestures: pouring, glazing, piping, spreading, dusting, sizzling, steaming, cracking, revealing, filling.
 - For non-standard or high-risk geometry, include both positive size constraints and negative constraints (`not oversized`, `not miniature`).
+- When a side component appears in one scene (bowl, garnish prep), decide explicitly whether it stays visible in later plating scenes.
 
 ## Output
 

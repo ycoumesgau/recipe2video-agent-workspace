@@ -38,6 +38,14 @@ When a shape can be misread, always lock scale explicitly:
 
 If exact size is unknown, ask a clarifying question before locking prompts.
 
+## Plating Quantity Guardrails
+
+For side components (salad, herbs, sauces, crumbs), avoid vague quantity words.
+
+- Use concrete amounts (`2-3 leaves`, `small salad bed covering one third of plate`, `one spoonful spread under arancini`).
+- State the visual target (`visible side component`, `not a single tiny leaf`, `not full-plate coverage`).
+- Keep quantity consistent across adjacent plating scenes unless a change is explicit.
+
 ## Transformation Families
 
 Look for:

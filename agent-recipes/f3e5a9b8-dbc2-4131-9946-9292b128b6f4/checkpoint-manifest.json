@@ -2,19 +2,19 @@
   "videoId": "f3e5a9b8-dbc2-4131-9946-9292b128b6f4",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-f3e5a9b8-3dde",
-  "commitSha": null,
-  "updatedAt": "2026-05-18T06:36:00Z",
-  "artifacts": [
-    "recipe-analysis.json",
-    "logical-scenes.json",
-    "seedance-segments.json",
-    "reference-plan.json",
-    "suno-prompt.json",
-    "suno-prompt.md",
-    "decisions.md",
-    "changelog.md"
+  "commitSha": "4503383f96ddc6c9bb621f2095d7cd0ae2ead68a",
+  "updatedAt": "2026-05-18T06:57:53Z",
+  "artifactPaths": [
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/recipe-analysis.json",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/logical-scenes.json",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/seedance-segments.json",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/reference-plan.json",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/suno-prompt.json",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/suno-prompt.md",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/decisions.md",
+    "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/changelog.md"
   ],
   "notes": [
-    "Initial manifest written before first push; commitSha is updated after the pushed checkpoint is available."
+    "commitSha records the pushed artifact checkpoint commit used by Recipe2Video for this ingest handoff."
   ]
 }

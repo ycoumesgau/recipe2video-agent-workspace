@@ -35,6 +35,8 @@
 - Existing asset references are limited to real files or documented aliases from the asset reference skill.
 - After pulling `origin/main`, the spatula-family guidance was refreshed: tofu coating now uses `@SiliconeSpatula` explicitly instead of the legacy `@Spatula` alias.
 - Recipe-specific state references are planned for sauce, tofu, rice, fresh toppings, pickled radishes, nori strips, assembly, and final hero.
+- After the Seedance duration and reference-conditioning update, every Seedance segment has an integer `durationTarget` from 5 to 15 seconds inclusive, and all prompt timing bullets match the stated total duration.
+- Every `generated_reference_needed` recipe-state reference now declares `conditioningReferences` using non-character library anchors. Where no dedicated bowl or jar asset exists, the plan uses the active kitchen view plus the closest visible surface or utensil anchors available in the asset library.
 - These recipe-specific references are marked `generated_reference_needed` in `reference-plan.json`; no image generation was run in this workspace.
 
 ## Open clarifications

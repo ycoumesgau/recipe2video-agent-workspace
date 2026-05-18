@@ -14,3 +14,4 @@
 - Refreshed `checkpoint-manifest.json` during status review so it records the latest pushed artifact commit available at review time.
 - Pulled `origin/main`, re-read the updated Recipe2Video skills, and replaced the legacy `@Spatula` utensil reference with `@SiliconeSpatula` in the tofu coating segment and reference plan.
 - Tightened `recipe-analysis.json` to the contract keys only by moving video ID, serving yield, style preset, and production defaults into `decisions.md` for Zod-safe retrieval.
+- Pulled the latest `origin/main` with Seedance 2 validation updates, raised all Seedance segment `durationTarget` values to integer 5-15 second windows, aligned prompt timings to those totals, and added `conditioningReferences` visual anchors to every generated recipe-state reference.

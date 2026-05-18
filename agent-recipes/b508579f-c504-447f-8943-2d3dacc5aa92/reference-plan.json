@@ -202,7 +202,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-01", "segment-07"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "Whisk", "Spoon"]
     },
     {
       "type": "recipe_state",
@@ -214,7 +215,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-02", "segment-06"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "OvenCloseup", "BakingMat", "SiliconeSpatula"]
     },
     {
       "type": "recipe_state",
@@ -226,7 +228,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-03"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "Spoon"]
     },
     {
       "type": "recipe_state",
@@ -238,7 +241,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-04"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "cutting_board", "chef_knife"]
     },
     {
       "type": "recipe_state",
@@ -250,7 +254,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-05"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "SaucepanLarge", "Spoon"]
     },
     {
       "type": "recipe_state",
@@ -262,7 +267,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-05", "segment-07"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "cutting_board"]
     },
     {
       "type": "recipe_state",
@@ -274,7 +280,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-06"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "Tongs", "Spoon"]
     },
     {
       "type": "recipe_state",
@@ -286,7 +293,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-07", "segment-08"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandDefault", "Spoon", "Tongs"]
     }
   ]
 }

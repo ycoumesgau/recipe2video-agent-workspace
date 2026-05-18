@@ -20,3 +20,10 @@
 - Trimmed `reference-plan.json` to the contracted top-level `references` field to reduce strict Zod unknown-field risk.
 - Confirmed the recipe does not use the renamed spatula-family references from the updated asset skill.
 
+## 2026-05-18 - Seedance integer duration correction
+
+- Pulled latest `main` into the recipe branch, including the updated Seedance duration contract.
+- Updated every `seedance-segments.json` `durationTarget` to an integer in the 5-15 second Seedance 2 window.
+- Updated segment timing arrays plus `prompt` and `promptInitial` text so each total duration matches the JSON `durationTarget`.
+- Updated related `logical-scenes.json` duration targets so segment scene totals remain coherent after the timing correction.
+

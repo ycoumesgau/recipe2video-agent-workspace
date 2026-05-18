@@ -44,3 +44,10 @@ Stage: recipe_ingest
 - Reduced `reference-plan.json` to the contracted top-level `references` object; the decision to avoid generated food-state references remains documented here instead of as extra JSON fields.
 - Removed non-contract `qaChecklist.kitchenContinuityPairPresent` from Seedance segments; kitchen continuity pairs are still present and validated through segment references.
 
+## 2026-05-18 Seedance duration correction
+
+- Pulled latest `main`, which now makes the Seedance 2 API duration window explicit: each segment `durationTarget` must be an integer from 5 to 15 seconds inclusive.
+- Corrected all Seedance segments to integer durations: segment-01 5s, segment-02 5s, segment-03 5s, segment-04 7s, segment-05 6s, segment-06 5s, segment-07 7s, segment-08 5s.
+- Aligned each segment's `timing`, `prompt`, and `promptInitial` total-duration language to the corrected integer duration.
+- Adjusted the linked logical-scene duration targets only where needed to keep scene timing sums coherent with the Seedance segment totals.
+

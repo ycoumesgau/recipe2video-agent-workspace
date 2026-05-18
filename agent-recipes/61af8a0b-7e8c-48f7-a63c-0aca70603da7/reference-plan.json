@@ -1,0 +1,148 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural Licorn kitchen context for every Seedance segment",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use as structural kitchen continuity only: preserve cabinet layout, overall material language, lighting and Licorn kitchen identity. Do not force wide framing unless the segment asks for it.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "primary plated-bowl island view and light terrazzo surface lock",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use to preserve the island surface, shallow bowl staging, countertop material and close plated-food context.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "active overhead prep and spooning view",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for top-down strawberry prep, salsa folding and overhead spooning while preserving the same island material.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-02", "segment-05"],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandWide",
+      "role": "final context view with Luma visible behind the finished dish",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for the final Licorn kitchen context and presentation shot. Food remains foreground hero.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "mixing, spreading, topping and scoop-shape continuity",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use only as spoon form reference for folding salsa, lifting whipped feta and shaping the feta spiral.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Blender",
+      "role": "food processor or blending appliance shape for whipped feta transformation",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use only to anchor the compact blending appliance silhouette; the food action is whipping feta, cream cheese and honey.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-03"],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Luma character identity and visible hand continuity",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use to preserve Luma identity and hand design. Character supports food action and should never replace the food as the hero.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-06", "segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down hand pose for overhead salsa prep",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use to keep visible hands readable during overhead chopping, sprinkling and folding actions.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-02"],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "three-quarter visible hand and bread-scoop pose support",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use to support visible hand staging during the bread scoop and appliance/spoon handling moments.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-03", "segment-06"],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseFront",
+      "role": "final presentation pose for Luma behind the island",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use for final presentation only; food stays in the foreground and remains the focal point.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "expression",
+      "canonicalName": "CharacterExpressions",
+      "role": "satisfied final expression reference",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use only for a pleased, satisfied expression in the final kitchen context. Avoid exaggerated performance.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-07"],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "DesiredFinalDishVisual",
+      "role": "creator-provided desired final visual for dish styling and plating",
+      "priority": 1,
+      "source": "creator_provided_external_image_url",
+      "prompt": "Use the image at https://cdn.sanity.io/images/fl949yr7/production/ff687323573ae76187cc7d4e48e699d980e490e1-1024x1365.png?q=85&fit=clip&auto=format only as the desired final plating target: shallow bowl, white whipped feta base, central red strawberry salsa with herbs, toasted bread/chips nearby, glossy appetizing food-porn surface. Do not use it as a start/end keyframe pipeline.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-01", "segment-04", "segment-05", "segment-06", "segment-07"],
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Spicy Strawberry Salsa with Whipped Feta",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); excerpt for short video"
+  },
+  "fields": {
+    "title": "Strawberry Heat",
+    "styleOfMusic": "Glossy late-summer electro-pop with a slow-burn dance pulse, tight four-on-the-floor kick, rubbery sub bass, crisp hand percussion, tiny glassy synth droplets, intimate close-mic lead vocal, stacked breathy harmonies in the chorus, and bright candy-colored hooks. Keep the mix clean, sticky, sensual, playful, and high-contrast, like red fruit over white cream., pop, electronic, dance-pop",
+    "excludeStyles": "No real artist references, no protected voices, no brand names, no metal, no heavy rock, no children's music, no country twang, no aggressive rap, no spoken tutorial, no recipe quantities, no numbered steps, no food-blog narration, no ad jingle, no voiceover, no explicit sexual lyrics.",
+    "autoLyricsPrompt": "Write original English song lyrics inspired by a spicy strawberry salsa with whipped feta. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instruments, mix notes, brand names, software names, quantities, numbered steps, or recipe tutorial wording.\n\nMood: glossy, flirtatious, summery, hungry, playful, food-video ASMR energy. Keep the sensuality in food imagery: red fruit, white cream, honey, lime, spice, crunch, salt, coolness, heat. No explicit sexual lyrics.\n\nLyric style: short singable lines, sticky repeated hooks, clean pop phrasing, call-and-response moments, vivid food images that can carry a 45-90 second vertical edit.\n\nStory and imagery to weave in naturally:\n- ruby strawberries cut open and shining\n- lime drops, green herbs, jalapeno heat and chili dust\n- salty whipped feta turning smooth and white\n- honey ribbon, creamy spiral, red salsa falling into the swirl\n- toasted bread scraping, crunching, lifting a messy bite\n- summer night appetite, cool cream and bright heat\n\nMust include naturally: strawberry heat, whipped feta, honey, lime, chili, basil, crunchy bread, ruby, creamy, one more bite.\n\nStructure:\n[Verse 1]\nRed fruit, lime drops, herbs, chili heat.\n\n[Pre-Chorus]\nWhite cream, honey ribbon, anticipation before the scoop.\n\n[Chorus]\nBig reusable hook around strawberry heat, whipped feta, creamy ruby bite, and wanting one more bite.\n\n[Verse 2]\nBread crunch, salty-sweet contrast, summer table.\n\n[Bridge]\nSofter close-up moment: cool cream, red juice, quiet hunger.\n\n[Final Chorus]\nRepeat the hook with extra energy and a final image of the ruby salsa sinking into white cream.",
+    "shortVersionPlan": "Extract a 45-60 second edit starting on the pre-chorus honey/white-cream build, then hit the chorus over the salsa landing on feta and the crunchy bread scoop. End on the final chorus line about one more bite while the hero red-white surface fills the frame."
+  },
+  "instructions": {
+    "voice": "Use an intimate pop lead vocal with bright stacked chorus harmonies if available; no real artist imitation.",
+    "structure": "Make the chorus arrive quickly and repeat the phrase 'strawberry heat' enough to work as a short-form hook.",
+    "workflowNotes": "Manual Suno workflow only. Video generation prompts must keep no music/no speech; this file is for later soundtrack creation."
+  },
+  "qualityChecks": [
+    "Title is first and matches the markdown mirror.",
+    "Style of Music does not contain lyric instructions.",
+    "Auto Lyrics Prompt is English, under 3000 characters, and avoids recipe tutorial wording.",
+    "No real artists, protected voices, brands, or explicit sexual lyrics are requested.",
+    "Short version plan aligns with the Seedance texture payoffs: honey, feta swirl, salsa drop, bread scoop."
+  ]
+}

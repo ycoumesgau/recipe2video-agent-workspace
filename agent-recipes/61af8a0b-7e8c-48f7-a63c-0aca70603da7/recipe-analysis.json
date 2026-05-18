@@ -1,0 +1,198 @@
+{
+  "recipe": {
+    "title": "Spicy Strawberry Salsa with Whipped Feta",
+    "sourceType": "url",
+    "sourceUrl": "https://www.foulmouthgourmet.com/spicy-strawberry-salsa-with-whipped-feta/",
+    "desiredFinalVisualUrl": "https://cdn.sanity.io/images/fl949yr7/production/ff687323573ae76187cc7d4e48e699d980e490e1-1024x1365.png?q=85&fit=clip&auto=format",
+    "stylePreset": "asmr_food",
+    "productionDefaults": {
+      "videoModel": "seedance2",
+      "imageModelForReferenceGeneration": "gpt_image_2",
+      "ttsModel": "eleven_multilingual_v2",
+      "sfxModel": "eleven_text_to_sound_v2",
+      "cursorAgentModel": "gpt-5.5",
+      "cursorAgentReasoning": "high",
+      "cursorAgentFastMode": false
+    },
+    "servings": "6",
+    "ingredients": [
+      {
+        "name": "strawberries",
+        "quantity": "2 cups",
+        "note": "diced into small glossy ruby pieces for salsa"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": "1/4 cup",
+        "note": "chopped; can be replaced by all basil if cilantro is disliked"
+      },
+      {
+        "name": "fresh basil",
+        "quantity": "1/4 cup",
+        "note": "chopped"
+      },
+      {
+        "name": "lime juice",
+        "quantity": "2 tbsp",
+        "note": "plus more to taste"
+      },
+      {
+        "name": "chili powder",
+        "quantity": "1 tsp",
+        "note": "dusts the fruit with red spice"
+      },
+      {
+        "name": "jalapeno",
+        "quantity": "1",
+        "note": "deseeded and diced"
+      },
+      {
+        "name": "feta cheese",
+        "quantity": "8 oz",
+        "note": "base of whipped feta"
+      },
+      {
+        "name": "cream cheese",
+        "quantity": "4 oz",
+        "note": "softened; gives creamy body"
+      },
+      {
+        "name": "honey",
+        "quantity": "2 tbsp",
+        "note": "or to taste; glossy ribbon for the whipped feta"
+      },
+      {
+        "name": "salt",
+        "quantity": "pinch",
+        "note": "to taste in the salsa"
+      },
+      {
+        "name": "grilled bread or tortilla chips",
+        "quantity": null,
+        "note": "to serve; toasted baguette is the sexiest dipper for the hero action"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Dice strawberries into small jewel-like pieces.",
+        "timing": "prep",
+        "visualCue": "knife cuts scarlet strawberries into wet ruby cubes with seeds catching light",
+        "block": "salsa",
+        "textureCue": "juicy cut faces, glossy berry moisture, seed-speckled skins",
+        "runwayRisk": "strawberry pieces may become too large or mushy unless locked as small diced fruit"
+      },
+      {
+        "position": 2,
+        "text": "Chop cilantro, basil, and deseeded jalapeno.",
+        "timing": "prep",
+        "visualCue": "green herbs and jalapeno flecks scatter across the cutting board",
+        "block": "salsa",
+        "textureCue": "fine leafy confetti, fresh wet herb edges, tiny chile cubes",
+        "runwayRisk": "herbs can drift into garnish dust instead of visible chopped leaves"
+      },
+      {
+        "position": 3,
+        "text": "Mix strawberries, herbs, lime juice, chili powder, jalapeno, and salt.",
+        "timing": "prep",
+        "visualCue": "lime gloss and red chili powder cling to strawberries as the salsa turns shiny",
+        "block": "salsa",
+        "textureCue": "loose spoonable salsa, wet ruby fruit, green flecks, citrus sheen",
+        "runwayRisk": "salsa can become a blended sauce; keep it diced and chunky"
+      },
+      {
+        "position": 4,
+        "text": "Whip feta, cream cheese, and honey in a food processor until very smooth, about 2-3 minutes.",
+        "timing": "prep",
+        "visualCue": "crumbly feta turns into thick white satin cream with a honey gloss",
+        "block": "whipped feta",
+        "textureCue": "smooth fluffy white spread, soft peaks, dense swirlable body",
+        "runwayRisk": "cream may look liquid or grainy; prompt must lock whipped, smooth, fluffy feta"
+      },
+      {
+        "position": 5,
+        "text": "Swirl whipped feta in a shallow dish.",
+        "timing": "assembly",
+        "visualCue": "spoon carves a slow spiral trough through thick white feta",
+        "block": "assembly",
+        "textureCue": "satiny ridges, thick spoon trails, glossy white valleys",
+        "runwayRisk": "swirl can flatten into soup unless viscosity and shallow dish are explicit"
+      },
+      {
+        "position": 6,
+        "text": "Top the whipped feta with strawberry salsa.",
+        "timing": "assembly",
+        "visualCue": "ruby salsa tumbles into the white spiral and stains the ridges with lime-chile juices",
+        "block": "assembly",
+        "textureCue": "red fruit jewels over white feta, green herbs, chile specks, glossy pooling juice",
+        "runwayRisk": "salsa quantity can drift too tiny or cover the entire bowl; lock a generous central mound"
+      },
+      {
+        "position": 7,
+        "text": "Serve with toasted or grilled baguette and chips for dipping.",
+        "timing": "serve",
+        "visualCue": "crisp bread scoops through whipped feta and salsa, lifting a messy creamy ruby bite",
+        "block": "serve",
+        "textureCue": "crunchy toast edge, thick feta smear, juicy strawberry chunks clinging to the bite",
+        "runwayRisk": "dipper can look dry or disconnected; show visible contact, smear, and cling"
+      }
+    ],
+    "subRecipes": [
+      "strawberry salsa",
+      "whipped feta",
+      "final assembly",
+      "dippers and hero bite"
+    ],
+    "assumptions": [
+      "The creator-provided image is the final plating target: shallow bowl, white whipped feta base, red strawberry salsa mound, herbs, and toasted bread/chips nearby.",
+      "No intermediate recipe-specific generated images are planned because the recipe has simple, readable states and the creator asked to avoid unnecessary intermediate references.",
+      "The hero dipper should be toasted baguette for the most sensual pull-through shot, with chips optional in the wider final plate.",
+      "The video should make the food feel sexy through macro texture, gloss, cream swirls, juice, crunch, and ASMR, without sexualizing the character."
+    ],
+    "timing": {
+      "prep": "10 minutes",
+      "cook": null,
+      "total": "10 minutes"
+    },
+    "criticalTransformations": [
+      "Whole strawberries become small glossy diced ruby pieces, not puree.",
+      "Loose herbs, lime, chili powder, jalapeno, and salt coat the berries into a chunky spoonable salsa.",
+      "Crumbly feta and softened cream cheese whip with honey into a smooth, fluffy, thick white cream.",
+      "A spoon swirl creates visible ridges and valleys in the whipped feta before topping.",
+      "A generous strawberry salsa mound sits over the white feta without fully burying the swirl.",
+      "A toasted baguette scoop pulls through both layers and lifts a creamy, juicy, crunchy bite."
+    ],
+    "visualTextureOpportunities": [
+      "Macro strawberry cut: wet seed-speckled red faces and knife shine.",
+      "Lime squeeze over berries: bright droplets and sticky citrus sheen.",
+      "Chili powder fall: red dust blooming against ruby fruit.",
+      "Herb toss: green flecks sticking to strawberry juice.",
+      "Food processor vortex: crumbly feta becoming satin white cream.",
+      "Honey ribbon disappearing into the cream.",
+      "Spoon swirl through thick feta, leaving glossy ridges.",
+      "Ruby salsa landing on white feta for a red-white contrast.",
+      "Toasted bread scraping through the swirl with audible crunch.",
+      "Final messy bite with feta peaks, strawberry chunks, herbs, and chile gloss."
+    ],
+    "possibleHooks": [
+      "A toasted baguette tears through a white feta swirl and lifts a ruby strawberry salsa bite in the first second.",
+      "Chili powder and lime rain onto wet diced strawberries in an extreme macro opening.",
+      "A spoon carves a slow satin spiral through whipped feta before the red salsa crashes into it.",
+      "Honey ribbons into feta, then hard cut to a glossy red salsa mound on white cream."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest skill",
+      "asset-reference-system skill",
+      "food-physics-reference skill",
+      "seedance-workflow skill",
+      "tiktok-food-direction skill",
+      "suno-music-generation skill",
+      "Seedance 2 References workspace rule",
+      "Recipe2Video Agent Core workspace rule",
+      "creator instruction: make the recipe really sexy and food porn",
+      "creator instruction: use the provided final dish image as desired visual",
+      "creator instruction: avoid creating intermediate reference images unless indispensable"
+    ]
+  },
+  "clarifyingQuestions": []
+}

@@ -1,0 +1,916 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "position": 1,
+      "title": "Crack, dip, and reveal hook",
+      "arc": "hook",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04"
+      ],
+      "description": "Sexy macro hook: crisp blistered roll cracks into peanut-lime sauce, then cut-face reveal clarifies the inside-out structure.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific island hero view and terrazzo surface",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for hands and final context",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter right hand/body pose for plate placement",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for sauce lift only",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "crackly dip",
+        "cut-face geometry",
+        "slow sauce ribbon",
+        "hands place warm rolls"
+      ],
+      "timing": [
+        "0.0-1.1s crackly roll dips",
+        "1.1-2.1s diagonal half reveal",
+        "2.1-3.3s sauce ribbon",
+        "3.3-4.7s Licorn hands plate rolls"
+      ],
+      "durationTarget": 4.7,
+      "continuity": "Opening establishes roll scale: each cooked roll is 10-12 cm long and 3-4 cm diameter, rice freckles outside, rainbow filling inside. Kitchen remains light terrazzo island with Licorn identity.",
+      "risk": "Starting with final food could feel disconnected unless scene 02 immediately explains the inside-out geometry. Avoid mouth close-up and avoid final-dish slicing as the first action.",
+      "audioPrompt": "sharp rice-paper crackle, thick peanut sauce dip, single glossy drip, soft plate set-down",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no burrito-sized roll",
+        "no miniature cigar rolls",
+        "no mouth close-up",
+        "no muddy filling colors"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandDefault for shot-specific island hero view and terrazzo surface. Use @CharacterSheet for Licorn character identity for hands and final context. Use @PoseThreeQuarterRight for three-quarter right hand/body pose for plate placement. Use @Spoon for spoon shape for sauce lift only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.1s crackly roll dips; 1.1-2.1s diagonal half reveal; 2.1-3.3s sauce ribbon; 3.3-4.7s Licorn hands plate rolls. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no burrito-sized roll, no miniature cigar rolls, no mouth close-up, no muddy filling colors.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandDefault for shot-specific island hero view and terrazzo surface. Use @CharacterSheet for Licorn character identity for hands and final context. Use @PoseThreeQuarterRight for three-quarter right hand/body pose for plate placement. Use @Spoon for spoon shape for sauce lift only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.7 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.1s crackly roll dips; 1.1-2.1s diagonal half reveal; 2.1-3.3s sauce ribbon; 3.3-4.7s Licorn hands plate rolls. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no burrito-sized roll, no miniature cigar rolls, no mouth close-up, no muddy filling colors.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "position": 2,
+      "title": "Satin wrapper and chilled rice trick",
+      "arc": "wrapper setup",
+      "logicalSceneIds": [
+        "scene-05",
+        "scene-06",
+        "scene-07",
+        "scene-08"
+      ],
+      "description": "Brief warm-water dip transforms rice paper, then chilled jasmine rice spreads thinly for the inside-out crisp exterior.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific overhead island view for wrapper assembly",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for overhead wrapper work",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for spreading rice only",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "quick setup",
+        "brief rice-paper dip",
+        "satin wrapper",
+        "thin chilled rice layer"
+      ],
+      "timing": [
+        "0.0-1.0s overhead setup",
+        "1.0-2.2s wrapper dips and emerges",
+        "2.2-3.2s satin sheet lies flat",
+        "3.2-4.8s rice spreads thinly"
+      ],
+      "durationTarget": 4.8,
+      "continuity": "Rice layer is about 2 tablespoons on the lower half only; roll scale continues toward 10-12 cm by 3-4 cm. Countertop remains light terrazzo with the same cabinet layout from @KitchenLayoutContextWide.",
+      "risk": "Over-soaked wrapper may look melted or torn. Rice can become a thick slab unless the thin-layer constraint is repeated.",
+      "audioPrompt": "warm water swish, wet rice-paper whisper, soft sticky rice scrape",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no floppy puddled wrapper",
+        "no torn sheet",
+        "no thick rice blanket",
+        "no dry cracked wrapper after dipping"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for wrapper assembly. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for overhead wrapper work. Use @Spoon for spoon shape for spreading rice only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s overhead setup; 1.0-2.2s wrapper dips and emerges; 2.2-3.2s satin sheet lies flat; 3.2-4.8s rice spreads thinly. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no floppy puddled wrapper, no torn sheet, no thick rice blanket, no dry cracked wrapper after dipping.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for wrapper assembly. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for overhead wrapper work. Use @Spoon for spoon shape for spreading rice only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.8 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s overhead setup; 1.0-2.2s wrapper dips and emerges; 2.2-3.2s satin sheet lies flat; 3.2-4.8s rice spreads thinly. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no floppy puddled wrapper, no torn sheet, no thick rice blanket, no dry cracked wrapper after dipping.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "position": 3,
+      "title": "Glossy tofu and rainbow crunch",
+      "arc": "filling",
+      "logicalSceneIds": [
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12"
+      ],
+      "description": "Tofu becomes savory and glossy; vegetables and herbs stay dry, crisp, and intensely colorful.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific overhead island view for bowls",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for bowl mixing",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for stirring tofu only",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "tamari gloss",
+        "ginger garlic fold",
+        "rainbow ribbons tumble",
+        "dry crisp lift"
+      ],
+      "timing": [
+        "0.0-1.0s tamari and sesame gloss tofu",
+        "1.0-2.0s aromatics fold in",
+        "2.0-3.2s vegetables tumble",
+        "3.2-4.2s small colorful pinch lifts"
+      ],
+      "durationTarget": 4.2,
+      "continuity": "Vegetable strips stay thin and dry; each roll gets a modest strip, not an overflowing pile. Kitchen island and overhead view match the previous assembly segment.",
+      "risk": "Vegetables can become wet salad mush; tofu can become paste. Lock crumbly tofu and separate dry ribbons.",
+      "audioPrompt": "wet spoon stir, sticky tofu fold, crisp vegetable rustle, mint leaf flutter",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no watery salad",
+        "no tofu puree",
+        "no oversized vegetable chunks",
+        "no floating ingredients"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for bowls. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for bowl mixing. Use @Spoon for spoon shape for stirring tofu only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.2 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s tamari and sesame gloss tofu; 1.0-2.0s aromatics fold in; 2.0-3.2s vegetables tumble; 3.2-4.2s small colorful pinch lifts. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no watery salad, no tofu puree, no oversized vegetable chunks, no floating ingredients.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for bowls. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for bowl mixing. Use @Spoon for spoon shape for stirring tofu only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.2 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s tamari and sesame gloss tofu; 1.0-2.0s aromatics fold in; 2.0-3.2s vegetables tumble; 3.2-4.2s small colorful pinch lifts. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no watery salad, no tofu puree, no oversized vegetable chunks, no floating ingredients.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "position": 4,
+      "title": "Tight inside-out roll assembly",
+      "arc": "assembly",
+      "logicalSceneIds": [
+        "scene-13",
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18"
+      ],
+      "description": "Compact filling line, side folds, taut bottom-up roll, sealed seam, and a small batch ready for the pan.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific overhead island view for rolling",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for precise folding",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for placing tofu filling only",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "tofu strip",
+        "vegetable strip",
+        "side folds",
+        "tight roll",
+        "seam seal",
+        "raw batch lineup"
+      ],
+      "timing": [
+        "0.0-1.0s tofu strip lands",
+        "1.0-2.0s vegetables stack",
+        "2.0-3.1s side folds tuck in",
+        "3.1-4.4s bottom-up tight roll",
+        "4.4-5.3s seam seals",
+        "5.3-6.3s four raw rolls line up"
+      ],
+      "durationTarget": 6.3,
+      "continuity": "Scale lock: each raw roll is 10-12 cm long and 3-4 cm diameter; total recipe makes 12 but only four are shown in this batch. Rice remains visible near the exterior. Same overhead island materials.",
+      "risk": "Overfilling can tear the wrapper or make burritos. Side-fold geometry can drift if hands disappear.",
+      "audioPrompt": "soft spoon tap, vegetable crunch, tacky rice-paper folds, sticky seam press, board scrape",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no overstuffed burrito",
+        "no miniature rolls",
+        "no torn wrapper",
+        "no floating hands",
+        "no loose unsealed roll"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for rolling. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for precise folding. Use @Spoon for spoon shape for placing tofu filling only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 6 short shots with hard cuts, total duration 6.3 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s tofu strip lands; 1.0-2.0s vegetables stack; 2.0-3.1s side folds tuck in; 3.1-4.4s bottom-up tight roll; 4.4-5.3s seam seals; 5.3-6.3s four raw rolls line up. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no overstuffed burrito, no miniature rolls, no torn wrapper, no floating hands, no loose unsealed roll.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for rolling. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for precise folding. Use @Spoon for spoon shape for placing tofu filling only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 6 short shots with hard cuts, total duration 6.3 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s tofu strip lands; 1.0-2.0s vegetables stack; 2.0-3.1s side folds tuck in; 3.1-4.4s bottom-up tight roll; 4.4-5.3s seam seals; 5.3-6.3s four raw rolls line up. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no overstuffed burrito, no miniature rolls, no torn wrapper, no floating hands, no loose unsealed roll.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "position": 5,
+      "title": "Skillet blister and golden crackle",
+      "arc": "skillet crisp",
+      "logicalSceneIds": [
+        "scene-19",
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23"
+      ],
+      "description": "Light oil, seam-down sizzle, blister bloom, gentle tong turn, and golden single-layer crisp finish.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific induction close-up for sizzle and blistering",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wider induction identity for black flush cooktop continuity",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter left pose for stovetop handling",
+          "name": "PoseThreeQuarterLeft",
+          "label": "PoseThreeQuarterLeft",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "tongs shape for safe roll turning",
+          "name": "Tongs",
+          "label": "Tongs",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "oil shimmer",
+        "seam-down sizzle",
+        "blister bloom",
+        "tong turn",
+        "golden single layer"
+      ],
+      "timing": [
+        "0.0-1.0s thin oil brushes skillet",
+        "1.0-2.0s roll lands seam-side down",
+        "2.0-3.4s blisters and golden freckles bloom",
+        "3.4-4.6s tongs rotate roll",
+        "4.6-6.0s three crisp rolls finish in loose layer"
+      ],
+      "durationTarget": 6.0,
+      "continuity": "Maintain the same 10-12 cm by 3-4 cm roll size from assembly. Shallow pan-fry only on black flush induction, no flame, no deep fryer. Use tongs for hot handling, no cloth-in-hand transfer.",
+      "risk": "Seedance may invent flames or deep frying; model may overcrowd pan and lose crispness. Tongs must not be replaced by hands.",
+      "audioPrompt": "thin oil brush, sharp seam-down sizzle, tiny blister crackles, tongs click, low skillet hiss",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no gas flame",
+        "no deep fryer basket",
+        "no crowded pan",
+        "no bare fingers on hot rolls",
+        "no cloth fused with hand"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @InductionCloseup for shot-specific induction close-up for sizzle and blistering. Use @InductionWide for wider induction identity for black flush cooktop continuity. Use @CharacterSheet for Licorn character identity for hands. Use @PoseThreeQuarterLeft for three-quarter left pose for stovetop handling. Use @Tongs for tongs shape for safe roll turning. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 5 short shots with hard cuts, total duration 6.0 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s thin oil brushes skillet; 1.0-2.0s roll lands seam-side down; 2.0-3.4s blisters and golden freckles bloom; 3.4-4.6s tongs rotate roll; 4.6-6.0s three crisp rolls finish in loose layer. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no gas flame, no deep fryer basket, no crowded pan, no bare fingers on hot rolls, no cloth fused with hand.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @InductionCloseup for shot-specific induction close-up for sizzle and blistering. Use @InductionWide for wider induction identity for black flush cooktop continuity. Use @CharacterSheet for Licorn character identity for hands. Use @PoseThreeQuarterLeft for three-quarter left pose for stovetop handling. Use @Tongs for tongs shape for safe roll turning. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 5 short shots with hard cuts, total duration 6.0 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s thin oil brushes skillet; 1.0-2.0s roll lands seam-side down; 2.0-3.4s blisters and golden freckles bloom; 3.4-4.6s tongs rotate roll; 4.6-6.0s three crisp rolls finish in loose layer. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no gas flame, no deep fryer basket, no crowded pan, no bare fingers on hot rolls, no cloth fused with hand.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "position": 6,
+      "title": "Silky peanut-lime ribbon",
+      "arc": "peanut lime sauce",
+      "logicalSceneIds": [
+        "scene-24",
+        "scene-25",
+        "scene-26"
+      ],
+      "description": "Peanut sauce ingredients become a smooth glossy tan emulsion and ribbon slowly from the whisk.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific overhead island view for sauce bowl",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for whisking",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "whisk shape for emulsifying sauce",
+          "name": "Whisk",
+          "label": "Whisk",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for sauce scrape only",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "paste setup",
+        "glossy whisk swirl",
+        "slow ribbon"
+      ],
+      "timing": [
+        "0.0-0.9s peanut-lime ingredients collect",
+        "0.9-2.4s whisk creates smooth emulsion",
+        "2.4-4.0s sauce ribbons slowly from whisk"
+      ],
+      "durationTarget": 4.0,
+      "continuity": "Sauce stays smooth tan with optional sparse red flakes. It must be thick enough to coat a roll in segment-07. Same light terrazzo overhead identity.",
+      "risk": "Sauce can look grainy, watery, or bright red if chili dominates. Keep viscosity spoon-coating and glossy.",
+      "audioPrompt": "spoon scrape, thick whisk swirl, sticky sauce ribbon drip",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no grainy sauce",
+        "no watery splash",
+        "no red chili sauce",
+        "no broken emulsion"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for sauce bowl. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for whisking. Use @Whisk for whisk shape for emulsifying sauce. Use @Spoon for spoon shape for sauce scrape only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 3 short shots with hard cuts, total duration 4.0 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-0.9s peanut-lime ingredients collect; 0.9-2.4s whisk creates smooth emulsion; 2.4-4.0s sauce ribbons slowly from whisk. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no grainy sauce, no watery splash, no red chili sauce, no broken emulsion.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandOverhead for shot-specific overhead island view for sauce bowl. Use @CharacterSheet for Licorn character identity for visible hands. Use @PoseTopDown for top-down hand pose for whisking. Use @Whisk for whisk shape for emulsifying sauce. Use @Spoon for spoon shape for sauce scrape only. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 3 short shots with hard cuts, total duration 4.0 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-0.9s peanut-lime ingredients collect; 0.9-2.4s whisk creates smooth emulsion; 2.4-4.0s sauce ribbons slowly from whisk. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no grainy sauce, no watery splash, no red chili sauce, no broken emulsion.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-07",
+      "position": 7,
+      "title": "Cut-face dip and shattering bite texture",
+      "arc": "serve reveal",
+      "logicalSceneIds": [
+        "scene-27",
+        "scene-28",
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32"
+      ],
+      "description": "Rested crispy rolls and an already-cut half are revealed, dipped, lifted, and cracked apart with glossy sauce and bright filling.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific island hero view and terrazzo surface",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity for hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter right pose for serving action",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for sauce lift support",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "single-layer rest",
+        "already-cut reveal",
+        "rainbow cut face",
+        "thick sauce drag",
+        "single drip",
+        "crackly pull-apart"
+      ],
+      "timing": [
+        "0.0-1.0s rolls rest in one layer",
+        "1.0-2.1s already-cut half opens gently, no knife action",
+        "2.1-3.3s cut face macro",
+        "3.3-4.5s half-roll drags through sauce",
+        "4.5-5.5s one heavy drip",
+        "5.5-6.5s crackly pull-apart"
+      ],
+      "durationTarget": 6.5,
+      "continuity": "Same roll size and filling colors as segment-01. Use 5-6 visible pieces at most, with a small sauce bowl. Preserve crisp exterior; do not let rolls look soggy.",
+      "risk": "Cut reveal can muddy colors or make roll look raw. Avoid active knife action unless a knife reference is added; sauce drag can become messy puddle if not limited to one glossy coat and one drip.",
+      "audioPrompt": "gentle crackly separation, tiny shell crackle, thick dip drag, single heavy sauce drip, crisp pull-apart snap",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no soggy wrapper",
+        "no muddy filling",
+        "no oversized burrito",
+        "no messy sauce flood",
+        "no mouth close-up"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandDefault for shot-specific island hero view and terrazzo surface. Use @CharacterSheet for Licorn character identity for hands. Use @PoseThreeQuarterRight for three-quarter right pose for serving action. Use @Spoon for spoon shape for sauce lift support. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 6 short shots with hard cuts, total duration 6.5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s rolls rest in one layer; 1.0-2.1s already-cut half opens gently, no knife action; 2.1-3.3s cut face macro; 3.3-4.5s half-roll drags through sauce; 4.5-5.5s one heavy drip; 5.5-6.5s crackly pull-apart. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no soggy wrapper, no muddy filling, no oversized burrito, no messy sauce flood, no mouth close-up.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandDefault for shot-specific island hero view and terrazzo surface. Use @CharacterSheet for Licorn character identity for hands. Use @PoseThreeQuarterRight for three-quarter right pose for serving action. Use @Spoon for spoon shape for sauce lift support. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 6 short shots with hard cuts, total duration 6.5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.0s rolls rest in one layer; 1.0-2.1s already-cut half opens gently, no knife action; 2.1-3.3s cut face macro; 3.3-4.5s half-roll drags through sauce; 4.5-5.5s one heavy drip; 5.5-6.5s crackly pull-apart. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no soggy wrapper, no muddy filling, no oversized burrito, no messy sauce flood, no mouth close-up.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "id": "segment-08",
+      "position": 8,
+      "title": "Final sexy platter with satisfied Licorn",
+      "arc": "final plate",
+      "logicalSceneIds": [
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
+      "description": "Final white platter hero: whole and halved golden rolls around sauce, tiny fresh garnish, Licorn satisfied, final sauced macro.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific wider island hero view",
+          "name": "KitchenIslandWide",
+          "label": "KitchenIslandWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot-specific macro island surface for final sauced bite",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "happy expression reference for satisfied finish",
+          "name": "CharacterExpressions",
+          "label": "CharacterExpressions",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "front pose for final hero presence",
+          "name": "PoseFront",
+          "label": "PoseFront",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "platter hero",
+        "tiny garnish",
+        "satisfied Licorn",
+        "final sauced macro"
+      ],
+      "timing": [
+        "0.0-1.1s platter with rolls and sauce bowl",
+        "1.1-1.9s two mint leaves and a few green onion slices fall",
+        "1.9-3.2s satisfied Licorn behind island",
+        "3.2-4.5s final sauced cut-half macro"
+      ],
+      "durationTarget": 4.5,
+      "continuity": "Final plate shows 5-6 visible roll pieces from a 12-roll batch; garnish is exactly two mint leaves plus a few green onion slices. Kitchen surfaces, island, and Licorn identity match all prior segments.",
+      "risk": "Garnish can become a salad blanket; final character can overpower food. Keep food dominant and character supportive.",
+      "audioPrompt": "soft plate set-down, light herb drop, final sauce drip, crisp shell tick",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no invented countertop",
+        "no flames",
+        "no deep-fry oil bath",
+        "no full-plate salad garnish",
+        "no text overlay",
+        "no character blocking food",
+        "no extra props",
+        "no music"
+      ],
+      "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
+      "mode": "References",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandWide for shot-specific wider island hero view. Use @KitchenIslandDefault for shot-specific macro island surface for final sauced bite. Use @CharacterSheet for Licorn character identity. Use @CharacterExpressions for happy expression reference for satisfied finish. Use @PoseFront for front pose for final hero presence. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.1s platter with rolls and sauce bowl; 1.1-1.9s two mint leaves and a few green onion slices fall; 1.9-3.2s satisfied Licorn behind island; 3.2-4.5s final sauced cut-half macro. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no full-plate salad garnish, no text overlay, no character blocking food, no extra props, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only, not as a camera framing requirement. Use @KitchenIslandWide for shot-specific wider island hero view. Use @KitchenIslandDefault for shot-specific macro island surface for final sauced bite. Use @CharacterSheet for Licorn character identity. Use @CharacterExpressions for happy expression reference for satisfied finish. Use @PoseFront for front pose for final hero presence. Kitchen continuity lock: keep the light terrazzo countertop, black flush induction design when visible, cabinet layout, and Licorn kitchen materials consistent; do not redesign the countertop or stovetop. Generate exactly 4 short shots with hard cuts, total duration 4.5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels asmr_food style, sensual food-porn macro lighting, appetite-first texture, no text on screen. Integrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with the cuts and food actions. Mandatory timing: 0.0-1.1s platter with rolls and sauce bowl; 1.1-1.9s two mint leaves and a few green onion slices fall; 1.9-3.2s satisfied Licorn behind island; 3.2-4.5s final sauced cut-half macro. Scale lock: cooked rolls remain small hand rolls about 10-12 cm long and 3-4 cm diameter, made from a 12-roll batch; not oversized, not burrito-sized, not miniature. Food physics lock: rice paper should be glossy, taut, then blistered and crackly after shallow skillet frying; vegetables stay cool, colorful and crisp; peanut-lime sauce stays smooth glossy tan and spoon-coating. Utensil/hands lock: show plausible Licorn hands for human actions; use listed utensils only for their stated roles; hot handling is tool-first, no cloth fused with hands. Global negatives: no text, no speech, no voiceover, no music, no extra shots, no invented countertop, no flames, no deep-fry oil bath, no full-plate salad garnish, no text overlay, no character blocking food, no extra props, no music.",
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "creator-instructions"
+        ]
+      },
+      "status": "ready"
+    }
+  ]
+}

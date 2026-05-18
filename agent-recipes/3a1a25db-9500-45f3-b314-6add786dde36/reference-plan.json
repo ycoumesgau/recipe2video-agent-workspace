@@ -1,0 +1,244 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural Licorn kitchen context for every Seedance segment; not a camera framing requirement",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use to preserve kitchen layout, cabinet relationships, island placement, and overall Licorn kitchen continuity across all prompts.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "shot-specific island hero and macro serving surface",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for the light terrazzo island surface, final plate macro, sauce dip, and hero serving continuity.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "shot-specific overhead island view for wrapper, filling, assembly, and sauce work",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for top-down manual prep, warm-water rice paper dip, chilled rice spreading, tofu/vegetable bowls, tight rolling, and sauce whisking.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "shot-specific close induction view for seam-down sizzle and blistering",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for shallow skillet frying details on a black flush induction plate; no flame and no deep-fryer context.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "wider induction identity and black flush stovetop continuity",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use only to keep the induction geometry and surrounding kitchen materials consistent if the pan shot widens.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandWide",
+      "role": "final vertical hero context with island and character",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for final platter hero context while keeping food dominant and character supportive.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity and hand continuity",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for character identity only; prompts specify action, hands, pose, and expression rather than redescribing the character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterExpressions",
+      "role": "happy satisfied expression for final hero",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use only in the final segment to support a satisfied finish without overpowering the food.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down visible hands for overhead prep",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for wrapper dipping, rice spreading, tofu/vegetable prep, rolling, and sauce whisking from overhead.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "serving and plate placement pose",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for the opening plate placement and serving reveal hand actions.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "stovetop handling pose",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for safe stovetop handling with tongs in the induction segment.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseFront",
+      "role": "final hero presence behind island",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for the final satisfied character behind the island; food remains the subject.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Tongs",
+      "role": "safe hot roll turning in the skillet",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for turning hot rolls; avoid bare fingers, cloth handling, or near-miss utensil substitutions.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Whisk",
+      "role": "peanut-lime sauce emulsification",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use only for whisking the sauce to a smooth glossy ribbon.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "rice spreading, tofu placement, and sauce support where specified",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use for gentle rice spreading, tofu placement, sauce scrape, or sauce lift only when stated in segment prompts.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    }
+  ],
+  "recipeSpecificReferences": [],
+  "recipeSpecificReferencePolicy": "No generated intermediate food-state references are planned at ingest, honoring the creator request to rely on existing assets unless indispensable. If validation later shows roll geometry drift, create only one final cooked-and-cut roll state reference, not a full intermediate set."
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Inside-Out Crispy Rice Paper Rolls",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); excerpt for short video"
+  },
+  "fields": {
+    "title": "Crack Dip Glow",
+    "styleOfMusic": "K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, playful staccato percussion, bright glossy chorus, sensual late-night neon sheen, tiny glitch fills before each drop, sparkling bell swells, close-mic lead vocals, punchy clean mix, food-video ASMR energy., k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no recipe tutorial lyrics, no ingredient counting, no explicit sexual lyrics, no instructional cooking steps.",
+    "autoLyricsPrompt": "Write original English song lyrics inspired by a joyful unicorn kitchen mascot making inside-out crispy rice paper rolls. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references. Keep the sensuality food-centered: glossy sauce, crackle, color, heat, freshness, desire for the bite; no explicit body or sexual content.\n\nMood: playful, glossy, sexy food-video energy, fresh, crunchy, bright, late-night snack magic.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hook phrases, strong chorus that survives a 45-90 second edit.\n\nStory and imagery to weave in naturally:\n- rice paper turning satin soft\n- cold jasmine rice like pearls on the outside\n- purple cabbage, carrot, cucumber, mint, cilantro\n- savory tofu, sesame, ginger, garlic\n- skillet sizzle, golden blisters, crisp crack\n- peanut lime sauce, glossy tan ribbon, one slow drip\n- cut-open rainbow layers and a satisfied unicorn in the kitchen\n\nMust include naturally: crack, dip, glow, rice paper, peanut lime, golden, mint, sizzle, unicorn.\n\nStructure:\n[Verse 1]\nSatin wrapper, pearl rice, rainbow crunch, quiet anticipation.\n\n[Pre-Chorus]\nHeat rises, pan sings, the roll starts to glow.\n\n[Chorus]\nBig chantable hook around crack / dip / glow, peanut lime, golden crisp, and the unicorn wanting one more bite.\n\n[Verse 2]\nTofu, herbs, mint, cucumber snap, skillet blisters, sauce ribbon.\n\n[Bridge]\nSofter glossy moment: one slow drip, rainbow center, fresh cool crunch.\n\n[Final Chorus]\nRepeat the hook with extra energy and a final satisfied kitchen image.",
+    "shortVersionPlan": "Extract a 55-70 second edit: 2-bar intro under the opening crack-and-dip, Verse 1 images over wrapper/rice/filling prep, pre-chorus over skillet blistering, full chorus over sauce ribbon, cut-face reveal, dip drag, and final satisfied Licorn hero. The hook should land exactly on the crack / dip / glow moments."
+  },
+  "instructions": {
+    "voice": "Close, playful, glossy pop lead; youthful energy without real-artist imitation.",
+    "structure": "Full song should run 2-3 minutes with a reusable chorus; keep lines short and visual for vertical edits.",
+    "workflowNotes": "Manual Suno workflow only. Do not generate music from this workspace. Keep lyric prompt separate from musical style."
+  },
+  "qualityChecks": [
+    "Title is first in markdown and fields.title matches it.",
+    "Style of Music contains only musical style and production references, not lyric instructions.",
+    "Auto Lyrics Prompt is in English, under 3000 characters, and avoids recipe tutorial wording.",
+    "No real artists, protected voices, brands, or explicit sexual lyrics are requested.",
+    "Short version plan aligns with Seedance hook, skillet, sauce, reveal, and final hero segments."
+  ]
+}

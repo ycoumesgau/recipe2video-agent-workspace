@@ -1,0 +1,233 @@
+{
+  "recipe": {
+    "title": "Inside-Out Crispy Rice Paper Rolls",
+    "sourceType": "url",
+    "sourceUrl": "https://toprecipesfood.com/inside-out-crispy-rice-paper-rolls/",
+    "ingredients": [
+      {
+        "name": "rice paper wrappers",
+        "quantity": "12",
+        "note": "standard round wrappers assumed; softened briefly, not soaked floppy"
+      },
+      {
+        "name": "cooked jasmine rice, chilled",
+        "quantity": "2 cups",
+        "note": "spread thinly on lower half of wrapper for inside-out crisp texture"
+      },
+      {
+        "name": "extra-firm tofu",
+        "quantity": "14 ounces",
+        "note": "pressed and crumbled"
+      },
+      {
+        "name": "tamari",
+        "quantity": "3 tablespoons, divided",
+        "note": "2 tablespoons for tofu, 1 tablespoon for sauce"
+      },
+      {
+        "name": "sesame oil",
+        "quantity": "1 tablespoon",
+        "note": "nutty tofu seasoning"
+      },
+      {
+        "name": "fresh ginger",
+        "quantity": "1 teaspoon grated",
+        "note": "bright aromatic"
+      },
+      {
+        "name": "garlic",
+        "quantity": "1 clove minced",
+        "note": "savory backbone"
+      },
+      {
+        "name": "maple syrup",
+        "quantity": "2 teaspoons, divided",
+        "note": "1 teaspoon in tofu, 1 teaspoon in sauce"
+      },
+      {
+        "name": "red cabbage",
+        "quantity": "1 cup shredded",
+        "note": "purple crunch and color reveal"
+      },
+      {
+        "name": "carrot",
+        "quantity": "1 cup julienned",
+        "note": "orange crisp sweetness"
+      },
+      {
+        "name": "cucumber",
+        "quantity": "1 cup julienned",
+        "note": "cool crunch; pat dry"
+      },
+      {
+        "name": "green onions",
+        "quantity": "3 thinly sliced",
+        "note": "fresh savory pop"
+      },
+      {
+        "name": "fresh cilantro",
+        "quantity": "1/4 cup chopped",
+        "note": "green herb lift"
+      },
+      {
+        "name": "fresh mint",
+        "quantity": "1/4 cup chopped",
+        "note": "cool aromatic finish"
+      },
+      {
+        "name": "neutral oil",
+        "quantity": "2 tablespoons",
+        "note": "light pan-frying only"
+      },
+      {
+        "name": "creamy peanut butter",
+        "quantity": "1/4 cup",
+        "note": "base of thick dipping sauce"
+      },
+      {
+        "name": "lime juice",
+        "quantity": "1 tablespoon",
+        "note": "cuts richness"
+      },
+      {
+        "name": "warm water",
+        "quantity": "2 to 4 tablespoons",
+        "note": "loosens sauce gradually"
+      },
+      {
+        "name": "red pepper flakes",
+        "quantity": "1/4 teaspoon optional",
+        "note": "gentle heat; optional"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Heat a large nonstick skillet over medium heat and fill a shallow bowl with warm water.",
+        "timing": "setup",
+        "visualCue": "clean island setup, warm water bowl, black induction surface ready",
+        "block": "setup",
+        "textureCue": "quiet anticipation before glossy rice paper and skillet sizzle",
+        "runwayRisk": "Too much setup can feel like neutral mise en place; compress into context only."
+      },
+      {
+        "position": 2,
+        "text": "Season crumbled tofu with tamari, sesame oil, ginger, garlic, and maple syrup; combine cabbage, carrot, cucumber, green onion, cilantro, and mint separately.",
+        "timing": "prep",
+        "visualCue": "tan tofu crumbles becoming glossy, purple cabbage and orange carrot ribbons falling together",
+        "block": "filling",
+        "textureCue": "savory moist tofu against dry crisp vegetable ribbons",
+        "runwayRisk": "Watery vegetables could read soggy; prompts must show dry, springy ribbons."
+      },
+      {
+        "position": 3,
+        "text": "Dip one rice paper wrapper briefly until pliable and lay it on the work surface.",
+        "timing": "few seconds per wrapper",
+        "visualCue": "translucent wrapper softening from brittle disc into satin sheet",
+        "block": "wrapper",
+        "textureCue": "just-flexible rice paper, glossy but not floppy",
+        "runwayRisk": "Over-soaked wrapper may tear or puddle; lock short dip and intact round sheet."
+      },
+      {
+        "position": 4,
+        "text": "Spread about 2 tablespoons chilled rice over the lower half, add tofu and vegetable-herb filling, fold sides, and roll tightly.",
+        "timing": "assembly",
+        "visualCue": "thin rice layer clinging near the outside, tight strip of tofu and rainbow vegetables inside",
+        "block": "assembly",
+        "textureCue": "sticky chilled grains, crisp fresh filling, taut translucent wrapper",
+        "runwayRisk": "Inside-out geometry may drift; repeat rice-on-lower-half and tight 10-12 cm roll scale."
+      },
+      {
+        "position": 5,
+        "text": "Pan-fry rolls seam-side down in light oil for 2 to 3 minutes per side until golden, crisp, and lightly blistered.",
+        "timing": "2-3 minutes per side",
+        "visualCue": "seam kisses hot pan, tiny bubbles, golden freckles, tongs turning each roll",
+        "block": "pan-fry",
+        "textureCue": "crackly blistered rice paper, chewy toasted rice spots, light oil sheen",
+        "runwayRisk": "Model may invent deep-frying or flames; lock shallow skillet, no flame, no oil bath."
+      },
+      {
+        "position": 6,
+        "text": "Whisk peanut butter, tamari, lime juice, maple syrup, warm water, and optional red pepper flakes until smooth and creamy.",
+        "timing": "finishing",
+        "visualCue": "peanut paste loosens into glossy tan sauce ribbon with lime shine",
+        "block": "sauce",
+        "textureCue": "silky spoon-coating sauce, thick but dip-ready",
+        "runwayRisk": "Sauce can look grainy or watery; lock smooth creamy viscosity."
+      },
+      {
+        "position": 7,
+        "text": "Rest rolls briefly, serve warm with peanut lime sauce, and optionally slice diagonally to reveal colorful layers.",
+        "timing": "1 minute rest",
+        "visualCue": "diagonal cut face shows purple cabbage, carrot, cucumber, tofu, herbs, rice-speckled crisp exterior",
+        "block": "serve",
+        "textureCue": "crisp shell crack, cool juicy crunch, glossy peanut sauce coat",
+        "runwayRisk": "Final roll scale and filling colors can drift; lock 12 small hand-rolls, 10-12 cm long, not burrito-sized."
+      }
+    ],
+    "subRecipes": [
+      "tofu seasoning",
+      "vegetable-herb filling",
+      "rice paper assembly",
+      "skillet crisping",
+      "peanut lime sauce",
+      "plating"
+    ],
+    "assumptions": [
+      "Use standard round rice paper wrappers; final cooked rolls are treated as small hand rolls about 10-12 cm long and 3-4 cm diameter, not burrito-sized and not miniature spring-roll sticks.",
+      "The creator's 'really sexy and food porn' direction is interpreted as sensual macro lighting, glossy sauce, crackly texture, rich ASMR, and appetite-driven pacing without explicit or body-focused imagery.",
+      "No recipe-specific generated intermediate reference images are planned at ingest because the dish geometry is manageable with explicit prompt scale locks and existing kitchen, character, pose, and utensil assets.",
+      "Optional red pepper flakes stay visually subtle; they should not turn the peanut-lime sauce into a red chili sauce."
+    ],
+    "timing": {
+      "prep": "25 minutes",
+      "cook": "15 minutes",
+      "total": "40 minutes"
+    },
+    "criticalTransformations": [
+      "Rice paper changes from dry brittle round sheet to just-pliable glossy wrapper after a very brief warm-water dip.",
+      "Chilled jasmine rice is spread thinly over the lower half of each wrapper so grains sit near the exterior and toast into tiny crisp-chewy spots.",
+      "Seasoned tofu crumbles become glossy and savory while staying crumbly, not mashed into paste.",
+      "Dry vegetable and herb ribbons remain crisp and colorful inside the roll instead of steaming wet or collapsing.",
+      "Tight rolling creates a small sealed cylinder about 10-12 cm long and 3-4 cm diameter, not oversized and not miniature.",
+      "Light pan-frying in a nonstick skillet turns rice paper golden, blistered, and crackly without deep-frying or flame.",
+      "Peanut butter, lime, tamari, maple, and warm water emulsify into a smooth spoon-coating sauce that ribbons slowly."
+    ],
+    "visualTextureOpportunities": [
+      "Opening crack: a golden blistered roll snaps as it breaks the surface of glossy peanut-lime sauce.",
+      "Translucent rice paper goes satin-soft over the light terrazzo island in an overhead macro.",
+      "Cold rice grains press into the wrapper like tiny pearls before becoming toasted freckles in the pan.",
+      "Purple cabbage, orange carrot, pale cucumber, green herbs, and tan tofu create a high-color cut-face reveal.",
+      "First seam-down skillet contact gives a sharp sizzle and immediate steam sparkle.",
+      "Tongs turn a roll to expose blistered golden patches and taut crackly skin.",
+      "Peanut-lime sauce loosens from thick paste to a glossy tan ribbon around the whisk.",
+      "Final diagonal half drags through sauce, leaving a thick shiny coat on the crisp shell."
+    ],
+    "possibleHooks": [
+      "Macro crack-and-dip of a blistered roll entering peanut-lime sauce, then hard cut to the inside-out rice layer that explains the trick.",
+      "Tongs flip a roll to reveal sudden golden blisters and rice freckles forming on the outside.",
+      "Diagonal cut-face reveal shows rainbow vegetables inside a crisp rice-paper shell with sauce dripping slowly.",
+      "Satin rice paper sheet receives a thin layer of chilled rice, creating the inside-out setup before the sexy skillet payoff."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest: reconstruct sub-recipes, visible actions, scale assumptions, and clarifying questions from the URL source.",
+      "seedance-workflow: use Seedance 2 References mode, 9:16 1080p, 5-10 segments, hard cuts, timing, ASMR audio only, and explicit reference roles.",
+      "asset-reference-system: use existing kitchen, character, pose, expression, and utensil assets; each segment includes KitchenLayoutContextWide plus a shot-specific kitchen view.",
+      "food-physics-reference: specify crispness, gloss, moisture, sauce viscosity, blistering, and roll scale locks with negative constraints.",
+      "tiktok-food-direction: texture-first hook, 75-80 percent detail shots, context shots only when they prepare detail payoffs, and texture payoff every 3-5 scenes.",
+      "suno-music-generation: produce manual copy-ready Suno JSON and Markdown prompts only, no API calls."
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "wrapper-diameter-final-scale",
+      "question": "Should the final rolls follow standard 22 cm rice-paper wrapper scale, yielding cooked rolls about 10-12 cm long and 3-4 cm diameter, or do you want a smaller party-bite format?",
+      "reason": "Exact roll scale affects Seedance scale locks, cutting reveal composition, and plating count."
+    },
+    {
+      "id": "spice-visibility",
+      "question": "Should the optional red pepper flakes be visible in the peanut-lime sauce, or should the sauce stay smooth tan and mild-looking?",
+      "reason": "Visible chili changes color palette and the final sauce prompt."
+    }
+  ]
+}

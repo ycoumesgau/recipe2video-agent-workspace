@@ -1,9 +1,9 @@
 {
   "videoId": "61af8a0b-7e8c-48f7-a63c-0aca70603da7",
   "branch": "cursor/recipe-ingest-61af8a0b-de0c",
-  "latestPushedCommitSha": "ad2d843a2f1fd9632100110f8472e2ae7048e4dd",
+  "latestPushedCommitSha": "d583f1c634f4f887a7a2e2d9fad8255f4cd9efac",
   "stage": "general",
-  "updatedAt": "2026-05-18T07:26:00Z",
+  "updatedAt": "2026-05-18T11:00:00Z",
   "artifacts": [
     "recipe-analysis.json",
     "logical-scenes.json",
@@ -39,6 +39,7 @@
     "Recipe source was complete; no clarifying questions remain.",
     "Creator-provided final image is planned as DesiredFinalDishVisual.",
     "No intermediate recipe-specific generated references are planned.",
-    "General follow-up request confirmed artifacts already existed and revalidated them."
+    "General follow-up request confirmed artifacts already existed and revalidated them.",
+    "Pulled origin/main and hardened recipe-analysis.json and seedance-segments.json for strict contract key validation."
   ]
 }

@@ -16,3 +16,10 @@
 
 - Added a review map in `decisions.md` explaining where to study recipe analysis, editorial scene planning, Seedance generation prompts, references, Suno prompts, changelog, and checkpoint metadata.
 - Corrected `checkpoint-manifest.json` to point at the latest pushed checkpoint commit available before this update.
+
+## 2026-05-18 — sync with updated main skills
+
+- Pulled `main` into the recipe branch and re-read the updated recipe/Seedance/asset/Suno skills.
+- Updated `seedance-segments.json` and `reference-plan.json` to replace the legacy `@Spatula` reference with `@SiliconeSpatula`, matching the renamed asset `assets/ustensils/silicone_spatula.png` and the updated utensil-task mapping.
+- Added a decision note explaining the spatula-family update and retained `@Tongs` for hot food movement.
+- Applied the updated scene-verifier guidance: added visible hand references for segments 03 and 05, moved the rice steam reference to segment 02, added `@TurningSpatula` for fried egg transfer in segment 06, strengthened terrazzo/no-wood locks, and reclassified three scenes as context re-anchors.

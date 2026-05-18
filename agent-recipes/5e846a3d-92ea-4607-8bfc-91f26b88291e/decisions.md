@@ -35,6 +35,9 @@
 - Every Seedance segment uses `@KitchenLayoutContextWide` plus one shot-specific kitchen view.
 - Recipe-specific state references are planned for final bowl topology, fried egg/yolk break, marinated beef strips, seared beef strips, separated vegetables, and steamed rice.
 - Existing assets are used for kitchen, character, poses, and utensils; no paid generation is launched from this workspace.
+- After pulling `main`, the updated asset skill distinguishes the spatula family. Segment 04 now uses `@SiliconeSpatula` only for flexible pan tossing/scraping and keeps `@Tongs` for hot food movement; rigid portion lifting remains out of scope.
+- The updated scene verification pass added visible hand references to vegetable and egg/sauce action segments, moved `@RiceSteamFrame` to the rice-steam segment, and added `@TurningSpatula` for supported fried egg transfer into the bowl.
+- Scene 06, scene 25, and scene 29 are now context/re-anchor scenes to bring the storyboard closer to the 20-25% context target without changing the established culinary sequence.
 
 ## Où étudier l'analyse et la génération des artefacts
 

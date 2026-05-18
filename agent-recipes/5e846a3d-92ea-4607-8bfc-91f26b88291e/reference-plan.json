@@ -62,7 +62,7 @@
       "prompt": "Use for character identity only; do not redesign the character.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-04", "segment-08"],
+      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-08"],
       "status": "planned"
     },
     {
@@ -88,7 +88,7 @@
       "prompt": "Use only for hand and arm pose continuity in overhead actions.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-04", "segment-06", "segment-07"],
+      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07"],
       "status": "planned"
     },
     {
@@ -171,12 +171,25 @@
     },
     {
       "type": "utensil",
-      "canonicalName": "Spatula",
-      "role": "pan tossing utensil for sauté and sear shots",
+      "canonicalName": "TurningSpatula",
+      "role": "rigid supported transfer utensil for placing the fried egg",
+      "priority": 2,
+      "source": "existing_asset",
+      "assetPath": "assets/ustensils/turning_spatula.png",
+      "prompt": "Use for supported fried egg transfer into the bowl. Do not use the flexible silicone spatula for rigid transfer.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": ["segment-06"],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SiliconeSpatula",
+      "role": "flexible pan tossing and scraping utensil for sauté and sear shots",
       "priority": 3,
       "source": "existing_asset",
-      "assetPath": "assets/ustensils/spatula.png",
-      "prompt": "Use for pan tossing only; do not use for deep-fry retrieval.",
+      "assetPath": "assets/ustensils/silicone_spatula.png",
+      "prompt": "Use for pan tossing or scraping only; do not use for deep-fry retrieval or rigid portion lifting.",
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-04"],
@@ -250,14 +263,14 @@
     {
       "type": "recipe_state",
       "canonicalName": "RiceSteamFrame",
-      "role": "steamed rice grain texture for base and steam reveal",
+      "role": "steamed rice grain texture for rice steam reveal",
       "priority": 2,
       "source": "generated_reference_needed",
       "imageModel": "gpt_image_2",
       "prompt": "Generate a close food reference of freshly steamed basmati rice for bibimbap: moist white grains visible and separate, gentle steam, not sticky porridge, not dry grains, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
+      "usedInSegmentIds": ["segment-02"],
       "status": "planned"
     }
   ]

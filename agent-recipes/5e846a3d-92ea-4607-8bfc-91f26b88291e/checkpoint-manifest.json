@@ -2,7 +2,7 @@
   "videoId": "5e846a3d-92ea-4607-8bfc-91f26b88291e",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-bibimbap-a4c0",
-  "latestPushedCommitSha": "a2ec8d448d36ef917fc845eb6d4a1825c004aab5",
+  "latestPushedCommitSha": "77c2a10da7557372a0967ce79bd2b8517f9bb708",
   "manifestPath": "agent-recipes/5e846a3d-92ea-4607-8bfc-91f26b88291e/checkpoint-manifest.json",
   "artifacts": [
     "recipe-analysis.json",
@@ -19,7 +19,7 @@
     "jsonStrict": true,
     "seedanceReferencesWithinLimit": true,
     "kitchenContinuityPairsPresent": true,
-    "checkedAt": "2026-05-18T11:08:03Z"
+    "checkedAt": "2026-05-18T16:06:50Z"
   },
   "notes": [
     "latestPushedCommitSha records the latest pushed checkpoint commit available before this manifest update."

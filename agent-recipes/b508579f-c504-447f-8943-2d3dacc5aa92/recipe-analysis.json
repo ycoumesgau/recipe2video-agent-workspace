@@ -3,18 +3,6 @@
     "title": "Sushi Bowl",
     "sourceType": "url",
     "sourceUrl": "https://www.loveandlemons.com/sushi-bowl/",
-    "videoId": "b508579f-c504-447f-8943-2d3dacc5aa92",
-    "servings": "4 bowls",
-    "stylePreset": "asmr_food",
-    "productionDefaults": {
-      "videoModel": "seedance2",
-      "imageModelForReferenceGeneration": "gpt_image_2",
-      "ttsModel": "eleven_multilingual_v2",
-      "sfxModel": "eleven_text_to_sound_v2",
-      "cursorAgentModel": "gpt-5.5",
-      "cursorAgentReasoning": "high",
-      "cursorAgentFastMode": false
-    },
     "ingredients": [
       {
         "name": "cooked brown or white rice",

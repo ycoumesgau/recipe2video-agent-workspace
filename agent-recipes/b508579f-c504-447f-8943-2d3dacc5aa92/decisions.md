@@ -2,8 +2,11 @@
 
 ## Source and scope
 
+- Video ID: `b508579f-c504-447f-8943-2d3dacc5aa92`.
 - Recipe source: Love and Lemons sushi bowl URL, plus linked Love and Lemons pages for baked tofu, spicy mayo, and quick pickled radishes because the main recipe references those components by name.
+- Source yield: 4 bowls; the edit focuses on one hero serving bowl.
 - Production style: `asmr_food`.
+- Production defaults kept outside `recipe-analysis.json` to preserve the strict artifact contract: video model `seedance2`, reference image model `gpt_image_2`, TTS model `eleven_multilingual_v2`, SFX model `eleven_text_to_sound_v2`, Cursor model `gpt-5.5`, high reasoning, fast mode disabled.
 - Video generation path: Seedance 2 References mode only. No Runway, Suno, Supabase, Mux, Remotion, or paid generation was launched.
 
 ## Creative structure

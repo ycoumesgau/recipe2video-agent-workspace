@@ -38,6 +38,8 @@
 - After pulling `main`, the updated asset skill distinguishes the spatula family. Segment 04 now uses `@SiliconeSpatula` only for flexible pan tossing/scraping and keeps `@Tongs` for hot food movement; rigid portion lifting remains out of scope.
 - The updated scene verification pass added visible hand references to vegetable and egg/sauce action segments, moved `@RiceSteamFrame` to the rice-steam segment, and added `@TurningSpatula` for supported fried egg transfer into the bowl.
 - Scene 06, scene 25, and scene 29 are now context/re-anchor scenes to bring the storyboard closer to the 20-25% context target without changing the established culinary sequence.
+- For stricter downstream Zod compatibility, `recipe-analysis.json` and `reference-plan.json` now avoid non-contract metadata fields. Source access notes, serving context, asset paths, and image-model notes are kept in markdown decisions/changelog or implied by canonical reference names instead of JSON extras.
+- Seedance segment reference objects now include the full contract shape with `role`, `name`, `label`, `runwayUri`, `mediaAssetId`, and `required`.
 
 ## Où étudier l'analyse et la génération des artefacts
 

@@ -3,12 +3,6 @@
     "title": "Bibimbap coréen",
     "sourceType": "url",
     "sourceUrl": "https://www.atelierdeschefs.fr/recettes/13601/bibimbap-coreen/",
-    "servings": "6 personnes",
-    "sourceNotes": [
-      "La page source avec slash final a renvoyé un timeout puis un checkpoint 429 pendant la récupération directe.",
-      "Le contenu recette a été extrait via une récupération spécialisée de l'URL sans slash final.",
-      "La quantité affichée pour le rumsteck est 2 g, valeur culinairement impossible pour 6 personnes; elle est traitée comme une anomalie d'affichage à confirmer."
-    ],
     "ingredients": [
       {
         "name": "Rumsteck",

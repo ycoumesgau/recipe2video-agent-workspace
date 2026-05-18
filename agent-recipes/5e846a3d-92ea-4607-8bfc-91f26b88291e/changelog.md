@@ -23,3 +23,11 @@
 - Updated `seedance-segments.json` and `reference-plan.json` to replace the legacy `@Spatula` reference with `@SiliconeSpatula`, matching the renamed asset `assets/ustensils/silicone_spatula.png` and the updated utensil-task mapping.
 - Added a decision note explaining the spatula-family update and retained `@Tongs` for hot food movement.
 - Applied the updated scene-verifier guidance: added visible hand references for segments 03 and 05, moved the rice steam reference to segment 02, added `@TurningSpatula` for fried egg transfer in segment 06, strengthened terrazzo/no-wood locks, and reclassified three scenes as context re-anchors.
+
+## 2026-05-18 — strict artifact format pass
+
+- Pulled `main` again; branch was already up to date.
+- Re-read the current skills and `contracts/artifact-schemas.md`.
+- Removed non-contract JSON metadata from `recipe-analysis.json` and `reference-plan.json` to reduce strict Zod risk.
+- Normalized every `seedance-segments.json` reference object to include `role`, `name`, `label`, `runwayUri`, `mediaAssetId`, and `required`.
+- Kept source access and serving-context notes in markdown artifacts instead of JSON extras.

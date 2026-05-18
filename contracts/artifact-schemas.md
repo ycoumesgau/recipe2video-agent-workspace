@@ -198,6 +198,28 @@ Do NOT list the recipe-specific entry itself in its own `conditioningReferences`
 
 For entries whose `canonicalName` IS already a library global (e.g. `KitchenIslandDefault`), `conditioningReferences` is irrelevant and should be omitted: those entries are not generated through GPT-Image 2, the app reuses the stored library image directly.
 
+## Outro Segment Contract
+
+The last segment of `seedance-segments.json` (highest `position`) is the
+standardized Licorn celebration outro. It MUST satisfy:
+
+- `arc: "licorn_celebration_outro"`;
+- `durationTarget: 5` (Seedance 2 minimum, hard requirement);
+- `mode: "References"`;
+- `prompt: "<APP_OVERRIDE>"` and `promptInitial: "<APP_OVERRIDE>"` — Recipe2Video rewrites both at sync time with the canonical outro template; any other value is rejected;
+- references in this exact order:
+  1. `KitchenLayoutContextWide` (kind: image)
+  2. `KitchenIslandDefault` (kind: image)
+  3. `LicornOutroVideo` (kind: video, library asset)
+  4. `CharacterSheet` (kind: image)
+  5. `FinalDishVisual` (kind: image, recipe-specific entry in `reference-plan.json`).
+
+The segment immediately before the outro (position N-1) MUST end with
+the dish in its final visible state, intact and motionless. Destructive
+food-porn beats belong in segments 1..N-2.
+
+Full rules: `.cursor/rules/seedance-outro.mdc`.
+
 ## Markdown Artifacts
 
 - `decisions.md`: user decisions, assumptions, and accepted trade-offs.

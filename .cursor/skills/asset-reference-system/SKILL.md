@@ -48,6 +48,7 @@ Character:
 - `@PoseTopDown`
 - `@PoseThreeQuarterLeft`
 - `@PoseThreeQuarterRight`
+- `@LicornOutroVideo` (kind: video) from `assets/character/outro/LicornOutroVideo.mp4`. Canonical 3s motion reference for the standardized celebration outro segment. Pass it as a Seedance video reference (`referenceVideos[]`), not an image. Use it ONLY on the last segment (`arc: licorn_celebration_outro`) alongside `@CharacterSheet` for identity lock.
 
 Utensils:
 

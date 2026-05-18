@@ -58,3 +58,15 @@ Use state references for transformations Seedance is likely to misread:
 - filled/cut/final geometry.
 
 For complex transformations, prefer short hard cuts between state references instead of asking Seedance to invent the full transformation.
+
+## Recipe-Specific Reference Conditioning
+
+Recipe-specific reference images (every entry in `reference-plan.json` with `source: "generated_reference_needed"`) are produced by GPT-Image 2 inside the Recipe2Video app. They are NOT free-form text-to-image: the app forwards a list of library globals as `referenceImages[]` so the model grounds the dish on the same kitchen, pan, and utensil it will reuse across Seedance segments.
+
+- Every such entry MUST declare a `conditioningReferences: ["@Tag", ...]` array. Use the same `@Tag` form as Seedance prompts.
+- Minimum coverage: one kitchen view (`KitchenIslandDefault` or the appropriate overhead/induction/oven variant) + the cookware (`baking_dish`, `SaucepanLarge`, etc.) + the dominant utensil when visible.
+- NEVER include character-class anchors (`@CharacterSheet`, character poses, `@CharacterExpressions`). The app drops them at generation time because the mascot pollutes dish frames; the kitchen alone carries the Licorn visual identity for recipe-state images.
+- Do not list the entry's own `canonicalName` in its `conditioningReferences`. Library canonical names only.
+- Library globals (entries whose `canonicalName` already matches an `asset_library` row) do NOT need `conditioningReferences` — they are not GPT-Image 2 generated.
+
+See `contracts/reference-image-generation.md` for the full policy and a worked example.

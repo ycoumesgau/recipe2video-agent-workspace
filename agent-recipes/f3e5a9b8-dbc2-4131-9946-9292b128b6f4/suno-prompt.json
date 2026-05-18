@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Lasagne dumpling",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); excerpt for short video"
+  },
+  "fields": {
+    "title": "Dumpling Lasagna Drip",
+    "styleOfMusic": "Glossy K-pop electronic pop with a sultry late-night food-video feel: crisp four-on-the-floor kick, rubbery synth bass, tight staccato percussion, glassy plucks, tiny glitch fills, steam-like risers, bright chantable chorus, playful call-and-response, clean punchy mix, close-mic lead vocals, wide neon sheen., k-pop, pop, electronic",
+    "excludeStyles": "No real artist references, no protected voices, no brand names, no tutorial narration, no spoken recipe instructions, no ingredient counting, no children's choir, no heavy rock, no metal, no aggressive rap, no country, no folk ballad, no voice-over, no advertising jingle.",
+    "autoLyricsPrompt": "Write original English song lyrics inspired by a joyful unicorn kitchen mascot making a sexy dumpling lasagna. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: glossy, playful, steamy, savory, late-night craving, food-video ASMR energy, flirtatious but clean.\n\nLyric style: short singable lines, repeatable hooks, clipped phrasing, call-and-response energy, sensory verbs, simple images that can land over a vertical edit. Keep the chorus reusable for a 45-90 second short.\n\nStory and imagery to weave in naturally:\n- soy sauce dripping like dark gloss\n- tender dumpling sheets layered in a square pan\n- sticky savory filling with ginger, garlic, sesame heat\n- steam rising when the lid lifts\n- scallion ribbons and sesame rain\n- a soft layered lift, juicy bite, satisfied unicorn smile\n\nMust include naturally: dumpling lasagna, soy drip, steam, sesame, scallion, unicorn, layers, one more bite.\n\nStructure:\n[Verse 1]\nDark gloss, soft sheets, sticky savory heat.\n\n[Pre-Chorus]\nSteam rises and the craving builds.\n\n[Chorus]\nBig chantable hook around dumpling lasagna, soy drip, layers and one more bite. Repeat \"dumpling lasagna\" as the anchor phrase.\n\n[Verse 2]\nSesame rain, scallion green, tender lift, juicy middle.\n\n[Bridge]\nSofter moment: warm steam, shiny sauce, the unicorn smiling beside the pan.\n\n[Final Chorus]\nRepeat the chorus with extra energy and a final satisfying bite image.",
+    "shortVersionPlan": "Use a very short intro, then Verse 1 soy-drip imagery over the opening macro hook. Let the pre-chorus build during layering and steam. Drop the full chorus on lid lift, garnish rain and spatula cutaway. Use the final chorus tag over the hero shot with the satisfied unicorn and one more bite."
+  },
+  "instructions": {
+    "voice": "Use a bright close-mic pop vocal persona if available; avoid childish delivery despite the unicorn imagery.",
+    "structure": "Full track should support a 2-3 minute streaming version while keeping the chorus instantly reusable for a 45-90 second vertical cut.",
+    "workflowNotes": "Manual Suno workflow only. Keep the music separate from Seedance prompts; video prompts must request ASMR audio only and no music."
+  },
+  "qualityChecks": [
+    "Title is a copy-ready Suno title.",
+    "Style of Music contains only genre, production and vocal direction.",
+    "Auto Lyrics Prompt requests original English lyrics and contains no music-direction leakage.",
+    "Prompt avoids real artists, protected voices, brands and tutorial wording.",
+    "Short version plan aligns with the hook, steam reveal, garnish and cutaway lift."
+  ]
+}

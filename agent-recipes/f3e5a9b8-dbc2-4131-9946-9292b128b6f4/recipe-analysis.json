@@ -1,0 +1,195 @@
+{
+  "recipe": {
+    "title": "Lasagne dumpling",
+    "sourceType": "url",
+    "sourceUrl": "https://bonpourtoi.ca/recettes/lasagne-dumpling/",
+    "servings": "4 portions",
+    "difficulty": "Facile",
+    "stylePreset": "asmr_food",
+    "productionDefaults": {
+      "videoModel": "seedance2",
+      "imageModelForReferenceGeneration": "gpt_image_2",
+      "ttsModel": "eleven_multilingual_v2",
+      "sfxModel": "eleven_text_to_sound_v2",
+      "cursorAgentModel": "gpt-5.5",
+      "cursorAgentReasoning": "high",
+      "cursorAgentFastMode": false
+    },
+    "ingredients": [
+      {
+        "name": "Porc hache maigre cru",
+        "quantity": "1 lb / 454 g",
+        "note": "Main juicy filling; must cook fully to 71 C / 160 F."
+      },
+      {
+        "name": "Champignons shiitake",
+        "quantity": "2/3 tasse / 160 ml / 50 g",
+        "note": "Finely chopped for dark savory flecks in the filling."
+      },
+      {
+        "name": "Oignons verts",
+        "quantity": "2",
+        "note": "Chopped into filling; extra sliced scallion used as garnish."
+      },
+      {
+        "name": "Gingembre frais",
+        "quantity": "2 c. a soupe / 30 ml",
+        "note": "Finely grated aromatic."
+      },
+      {
+        "name": "Ail frais",
+        "quantity": "1 c. a soupe / 15 ml / 10 g",
+        "note": "Finely chopped aromatic."
+      },
+      {
+        "name": "Sauce soya",
+        "quantity": "2 c. a soupe / 30 ml in filling, plus garnish to taste",
+        "note": "Dark glossy seasoning and final drizzle."
+      },
+      {
+        "name": "Sauce hoisin",
+        "quantity": "2 c. a soupe / 30 ml",
+        "note": "Sweet-savory stickiness in filling."
+      },
+      {
+        "name": "Vinaigre de riz",
+        "quantity": "1 c. a soupe / 15 ml",
+        "note": "Acid balance."
+      },
+      {
+        "name": "Sambal oelek",
+        "quantity": "1 c. a soupe / 15 ml",
+        "note": "Red chili flecks and heat."
+      },
+      {
+        "name": "Huile de sesame grillee",
+        "quantity": "1 c. a the / 5 ml",
+        "note": "Gloss and toasted aroma."
+      },
+      {
+        "name": "Pates a dumplings",
+        "quantity": "Environ 20 pates",
+        "note": "Treated as flat palm-size wrappers layered like sheets, not folded dumplings."
+      },
+      {
+        "name": "Eau",
+        "quantity": "3 c. a soupe / 45 ml",
+        "note": "Poured delicately over the top wrapper layer before steaming."
+      },
+      {
+        "name": "Graines de sesame blanches",
+        "quantity": "Au gout",
+        "note": "Final dry sprinkle, visible but not excessive."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Meler porc hache, shiitakes, oignons verts, gingembre, ail, sauce soya, hoisin, vinaigre de riz, sambal oelek et huile de sesame jusqu'a obtenir une farce uniforme.",
+        "timing": null,
+        "visualCue": "sticky pink pork mixture with dark shiitake flecks, green scallion, red sambal dots and glossy sauce streaks",
+        "block": "filling",
+        "textureCue": "tacky, glossy, spoon-spreadable filling that clings to the bowl",
+        "runwayRisk": "filling can become dry gray meat paste if gloss and raw sticky texture are not specified"
+      },
+      {
+        "position": 2,
+        "text": "Huiler legerement l'interieur d'un moule carre de 8 po / 20 cm.",
+        "timing": null,
+        "visualCue": "thin oil sheen catching light inside a square pan",
+        "block": "pan prep",
+        "textureCue": "slick reflective film on pan walls and base",
+        "runwayRisk": "pan scale can drift into a family-size casserole unless 20 cm square is locked"
+      },
+      {
+        "position": 3,
+        "text": "Etendre une fine couche de farce au fond du moule, couvrir de pates a dumplings cote a cote avec minimal overlap, puis repeter en alternant farce et pates. Finir avec une couche de pates.",
+        "timing": null,
+        "visualCue": "thin 3-5 mm filling layers alternating with pale dumpling wrappers in a compact square pan",
+        "block": "assembly",
+        "textureCue": "wet sticky filling spread thin, soft wrappers slumping flat without being folded",
+        "runwayRisk": "model may invent tomato sauce, cheese, long lasagna noodles or folded individual dumplings"
+      },
+      {
+        "position": 4,
+        "text": "Verser delicatement 3 c. a soupe / 45 ml d'eau sur la lasagne pour humidifier la derniere couche.",
+        "timing": null,
+        "visualCue": "small clear droplets beading on pale wrappers, no flooding",
+        "block": "hydration",
+        "textureCue": "thin water shine on top wrapper layer",
+        "runwayRisk": "too much water can look like soup; keep pour small and controlled"
+      },
+      {
+        "position": 5,
+        "text": "Deposer le moule dans une grande casserole, ajouter de l'eau chaude jusqu'a mi-hauteur du moule, couvrir et cuire a faible ebullition 25 minutes jusqu'a ce que le porc soit cuit et les pates tendres.",
+        "timing": "25 min",
+        "visualCue": "covered steamer pot, lifting lid releases steam, wrappers turn tender and slightly translucent",
+        "block": "steam cooking",
+        "textureCue": "humid steam, tender satin wrappers, juicy opaque filling",
+        "runwayRisk": "avoid browning, oven baking, frying, flames or direct boiling inside the lasagna"
+      },
+      {
+        "position": 6,
+        "text": "Finir avec un filet de sauce soya, de l'oignon vert cisele et des graines de sesame, puis servir chaud au moule ou en portions.",
+        "timing": null,
+        "visualCue": "dark soy gloss trails, green scallion ribbons, white sesame dots, lifted square exposes stacked dumpling layers",
+        "block": "finish and serve",
+        "textureCue": "steamy glossy top, soft cut edge, juicy layered cross-section",
+        "runwayRisk": "final can drift into cheesy Italian lasagna; explicitly ban tomato, cheese pull and pasta sheets"
+      }
+    ],
+    "subRecipes": [
+      "pork shiitake dumpling filling",
+      "square pan preparation",
+      "dumpling wrapper layering",
+      "steam cooking",
+      "soy scallion sesame finish"
+    ],
+    "assumptions": [
+      "Dumpling wrappers are treated as flat palm-size wrappers, approximately 8-10 cm wide, arranged side by side and trimmed where needed.",
+      "The square pan remains 8 in / 20 cm, yielding a compact slab about 3-5 cm tall for four portions.",
+      "Final serving favors a clean spatula lift showing layers because the creator asked for a sexy food-porn result.",
+      "No intermediate recipe-state images are planned except one final cutaway reference to protect the non-standard geometry and prevent tomato/cheese lasagna drift."
+    ],
+    "timing": {
+      "prep": "20 min",
+      "cook": "25 min",
+      "total": "45 min"
+    },
+    "criticalTransformations": [
+      "Raw sticky pork-shiitake filling becomes fully cooked, opaque, juicy filling without drying out.",
+      "Flat dumpling wrappers soften into tender translucent sheets while staying layered, not folded into individual dumplings.",
+      "A low square layered build becomes a compact 20 cm steamed slab with visible dumpling-lasagna strata.",
+      "Small water addition hydrates the top wrapper layer without turning the dish into soup.",
+      "Final soy drizzle, scallion and sesame create a glossy food-porn surface without covering the layer geometry."
+    ],
+    "visualTextureOpportunities": [
+      "Dark soy sauce ribbon sliding over a steamy satin wrapper top.",
+      "Sticky pork filling being pressed into a thin glossy layer with shiitake and chili flecks.",
+      "Soft dumpling wrappers flopping down edge-to-edge into the square pan.",
+      "Clear water droplets beading on the pale top wrapper layer.",
+      "Lid lift releasing dense steam from the steamer setup.",
+      "White sesame rain and green scallion ribbons landing on the glossy brown top.",
+      "Spatula lift revealing tender stacked wrappers and juicy filling layers.",
+      "Sauce pooling lightly around a hot lifted square without flooding it."
+    ],
+    "possibleHooks": [
+      "Macro opener on soy sauce gloss crawling across the steamed dumpling-lasagna top, then hard cut to a layered spatula lift.",
+      "Immediate cross-section pull from the square pan: soft dumpling sheets, juicy pork layers and sesame shimmer.",
+      "Steam burst from the lid followed by a dark soy drizzle and sesame rain.",
+      "Sticky filling smear in the pan before wrappers slap down in fast ASMR cuts."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest",
+      "asset-reference-system",
+      "food-physics-reference",
+      "seedance-workflow",
+      "tiktok-food-direction",
+      "suno-music-generation",
+      "seedance-references workspace rule",
+      "recipe-agent-core workspace rule",
+      "suno-music workspace rule"
+    ]
+  },
+  "clarifyingQuestions": []
+}

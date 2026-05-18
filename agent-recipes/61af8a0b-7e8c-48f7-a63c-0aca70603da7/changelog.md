@@ -9,4 +9,5 @@
 - Created `reference-plan.json` using existing assets plus one creator-provided external final visual reference, with no generated intermediate references planned.
 - Created `suno-prompt.json` and `suno-prompt.md` for the manual Suno workflow, keeping music separate from video-generation prompts.
 - Documented creative, scale, continuity, and reference decisions in `decisions.md`.
-- `checkpoint-manifest.json` remains to be written after commit/push so it can record the checkpoint SHA.
+- Validated JSON strictness and recipe-specific structural checks with Python.
+- Added `checkpoint-manifest.json` with the pushed artifact checkpoint SHA `727e5363223b5a2674dad8b4104e7aa8dc4e377c`.

@@ -1,0 +1,14 @@
+{
+  "videoId": "lasagne-dumpling",
+  "branch": "cursor/recipe-ingest-f3e5a9b8-3dde",
+  "latestPushedCommitSha": "7f6fb30fbe9bfce3f87bf1abe3d28ac63083dd8c",
+  "manifestPath": "agent-recipes/lasagne-dumpling/checkpoint-manifest.json",
+  "updatedAt": "2026-05-18T06:38:00Z",
+  "artifacts": [
+    "recipe-analysis.json",
+    "decisions.md",
+    "changelog.md"
+  ],
+  "status": "research_checkpoint",
+  "notes": "Culinary and visual research only; no final Seedance prompts generated."
+}

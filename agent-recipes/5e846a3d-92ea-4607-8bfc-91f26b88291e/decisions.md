@@ -40,6 +40,8 @@
 - Scene 06, scene 25, and scene 29 are now context/re-anchor scenes to bring the storyboard closer to the 20-25% context target without changing the established culinary sequence.
 - For stricter downstream Zod compatibility, `recipe-analysis.json` and `reference-plan.json` now avoid non-contract metadata fields. Source access notes, serving context, asset paths, and image-model notes are kept in markdown decisions/changelog or implied by canonical reference names instead of JSON extras.
 - Seedance segment reference objects now include the full contract shape with `role`, `name`, `label`, `runwayUri`, `mediaAssetId`, and `required`.
+- After pulling the latest `main`, every Seedance `durationTarget` is locked to the valid Runway Seedance 2 range of 5-15 seconds. The former 4-second hook, final gloss, and hero segments were expanded to 5 seconds with matching prompt timing and logical-scene timing updates.
+- Every recipe-specific generated reference now declares `conditioningReferences` for GPT-Image 2 visual anchoring. These anchors use kitchen/utensil references only; character-class anchors are intentionally excluded per the updated reference-image policy. Where no dedicated bowl/pan asset exists for bibimbap, the holder is described in the image prompt and grounded with the active kitchen view plus relevant utensils.
 
 ## Où étudier l'analyse et la génération des artefacts
 

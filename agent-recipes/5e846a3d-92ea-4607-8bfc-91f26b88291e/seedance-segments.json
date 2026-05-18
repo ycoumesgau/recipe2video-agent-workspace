@@ -14,8 +14,8 @@
         "scene-04"
       ],
       "description": "Open on the final bibimbap texture: yolk break, radial bowl re-anchor, chili-sesame sauce gloss, then hard cut back to process.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the active overhead island view and terrazzo surface lock. Use @FinalBibimbapOverheadFrame only as the final bowl topology reference: 16-18 cm bowl, rice base, 5-6 distinct topping wedges, beef wedge, one normal fried egg centered. Use @FriedEggYolkFrame only as the intact-yolk and controlled-yolk-break reference. Use @Spoon only as the utensil shape. Use @CharacterSheet and @PoseTopDown only to preserve visible hands when the spoon enters. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, no wood countertop, no redesigned stovetop. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music; only spoon touch, soft yolk pop, sticky sauce pour, wet rice gloss. Mandatory timing: 0.0-1.1s spoon tip breaks the intact yolk and yellow gloss begins to flow; 1.1-2.1s overhead re-anchor of finished radial bowl; 2.1-3.0s one tablespoon dark chili-sesame sauce lands beside yolk; 3.0-4.0s macro of yolk, sauce and rice touching before hard cut. Scale lock: bowl 16-18 cm, one normal egg, sauce one tablespoon, not oversized, not miniature, not flooded. Global negatives: no text, no captions, no music, no speech, no extra bowls, no full mixing yet, no broken yolk before first shot, no sauce flood.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the active overhead island view and terrazzo surface lock. Use @FinalBibimbapOverheadFrame only as the final bowl topology reference: 16-18 cm bowl, rice base, 5-6 distinct topping wedges, beef wedge, one normal fried egg centered. Use @FriedEggYolkFrame only as the intact-yolk and controlled-yolk-break reference. Use @Spoon only as the utensil shape. Use @CharacterSheet and @PoseTopDown only to preserve visible hands when the spoon enters. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, no wood countertop, no redesigned stovetop. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music; only spoon touch, soft yolk pop, sticky sauce pour, wet rice gloss. Mandatory timing: 0.0-1.1s spoon tip breaks the intact yolk and yellow gloss begins to flow; 1.1-2.1s overhead re-anchor of finished radial bowl; 2.1-3.0s one tablespoon dark chili-sesame sauce lands beside yolk; 3.0-4.0s macro of yolk, sauce and rice touching before hard cut. Scale lock: bowl 16-18 cm, one normal egg, sauce one tablespoon, not oversized, not miniature, not flooded. Global negatives: no text, no captions, no music, no speech, no extra bowls, no full mixing yet, no broken yolk before first shot, no sauce flood.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the active overhead island view and terrazzo surface lock. Use @FinalBibimbapOverheadFrame only as the final bowl topology reference: 16-18 cm bowl, rice base, 5-6 distinct topping wedges, beef wedge, one normal fried egg centered. Use @FriedEggYolkFrame only as the intact-yolk and controlled-yolk-break reference. Use @Spoon only as the utensil shape. Use @CharacterSheet and @PoseTopDown only to preserve visible hands when the spoon enters. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, no wood countertop, no redesigned stovetop. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music; only spoon touch, soft yolk pop, sticky sauce pour, wet rice gloss. Mandatory timing: 0.0-1.2s spoon tip breaks the intact yolk and yellow gloss begins to flow; 1.2-2.4s overhead re-anchor of finished radial bowl; 2.4-3.6s one tablespoon dark chili-sesame sauce lands beside yolk; 3.6-5.0s macro of yolk, sauce and rice touching before hard cut. Scale lock: bowl 16-18 cm, one normal egg, sauce one tablespoon, not oversized, not miniature, not flooded. Global negatives: no text, no captions, no music, no speech, no extra bowls, no full mixing yet, no broken yolk before first shot, no sauce flood.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the active overhead island view and terrazzo surface lock. Use @FinalBibimbapOverheadFrame only as the final bowl topology reference: 16-18 cm bowl, rice base, 5-6 distinct topping wedges, beef wedge, one normal fried egg centered. Use @FriedEggYolkFrame only as the intact-yolk and controlled-yolk-break reference. Use @Spoon only as the utensil shape. Use @CharacterSheet and @PoseTopDown only to preserve visible hands when the spoon enters. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, no wood countertop, no redesigned stovetop. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music; only spoon touch, soft yolk pop, sticky sauce pour, wet rice gloss. Mandatory timing: 0.0-1.2s spoon tip breaks the intact yolk and yellow gloss begins to flow; 1.2-2.4s overhead re-anchor of finished radial bowl; 2.4-3.6s one tablespoon dark chili-sesame sauce lands beside yolk; 3.6-5.0s macro of yolk, sauce and rice touching before hard cut. Scale lock: bowl 16-18 cm, one normal egg, sauce one tablespoon, not oversized, not miniature, not flooded. Global negatives: no text, no captions, no music, no speech, no extra bowls, no full mixing yet, no broken yolk before first shot, no sauce flood.",
       "references": [
         {
           "role": "structural kitchen context",
@@ -81,10 +81,10 @@
         "wet rice gloss"
       ],
       "timing": [
-        "0.0-1.1s yolk breaks",
-        "1.1-2.1s overhead bowl",
-        "2.1-3.0s sauce pour",
-        "3.0-4.0s macro gloss"
+        "0.0-1.2s yolk breaks",
+        "1.2-2.4s overhead bowl",
+        "2.4-3.6s sauce pour",
+        "3.6-5.0s macro gloss"
       ],
       "continuity": "Opening hook uses the same final bowl scale that returns in segments 06-08: 16-18 cm bowl, one normal egg centered, 5-6 topping zones.",
       "risk": "High risk of premature full mixing or oversized egg; state references and scale lock are mandatory.",
@@ -116,7 +116,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     },
     {
@@ -807,8 +807,8 @@
         "scene-33"
       ],
       "description": "Sesame finish, controlled sauce, yolk break payoff and one mixed spoonful while the bowl remains readable.",
-      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead as active overhead final-bowl view and light terrazzo lock; do not switch to wood countertop. Use @FinalBibimbapOverheadFrame only as radial layout continuity reference. Use @FriedEggYolkFrame only as intact-yolk-to-breaking-yolk state reference. Use @Spoon only as sauce and mixing utensil. Use @PoseTopDown only for visible top-down hand continuity. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no soft transitions, no extra shots, no text. Integrated audio: no speech, no voiceover, no music; dry sesame sprinkle, sticky spoon pour, soft yolk pop, wet rice fold. Mandatory timing: 0.0-0.9s white sesame seeds fall over egg and colored wedges; 0.9-1.9s one tablespoon chili-sesame sauce pours as a small crescent beside yolk; 1.9-2.9s spoon tip presses and yolk streams into sauce; 2.9-4.0s one spoon-sized area folds yolk, rice, sauce and one beef strip while most radial layout remains visible. Scale lock: one tablespoon sauce, one normal egg, spoon-sized first mix, bowl 16-18 cm, not flooded, not fully stirred into mush. Global negatives: no text, no music, no speech, no whole-bowl mash, no sauce flood, no extra utensils, no floating spoon, no wood countertop.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead as active overhead final-bowl view and light terrazzo lock; do not switch to wood countertop. Use @FinalBibimbapOverheadFrame only as radial layout continuity reference. Use @FriedEggYolkFrame only as intact-yolk-to-breaking-yolk state reference. Use @Spoon only as sauce and mixing utensil. Use @PoseTopDown only for visible top-down hand continuity. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no soft transitions, no extra shots, no text. Integrated audio: no speech, no voiceover, no music; dry sesame sprinkle, sticky spoon pour, soft yolk pop, wet rice fold. Mandatory timing: 0.0-0.9s white sesame seeds fall over egg and colored wedges; 0.9-1.9s one tablespoon chili-sesame sauce pours as a small crescent beside yolk; 1.9-2.9s spoon tip presses and yolk streams into sauce; 2.9-4.0s one spoon-sized area folds yolk, rice, sauce and one beef strip while most radial layout remains visible. Scale lock: one tablespoon sauce, one normal egg, spoon-sized first mix, bowl 16-18 cm, not flooded, not fully stirred into mush. Global negatives: no text, no music, no speech, no whole-bowl mash, no sauce flood, no extra utensils, no floating spoon, no wood countertop.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead as active overhead final-bowl view and light terrazzo lock; do not switch to wood countertop. Use @FinalBibimbapOverheadFrame only as radial layout continuity reference. Use @FriedEggYolkFrame only as intact-yolk-to-breaking-yolk state reference. Use @Spoon only as sauce and mixing utensil. Use @PoseTopDown only for visible top-down hand continuity. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no soft transitions, no extra shots, no text. Integrated audio: no speech, no voiceover, no music; dry sesame sprinkle, sticky spoon pour, soft yolk pop, wet rice fold. Mandatory timing: 0.0-1.0s white sesame seeds fall over egg and colored wedges; 1.0-2.2s one tablespoon chili-sesame sauce pours as a small crescent beside yolk; 2.2-3.6s spoon tip presses and yolk streams into sauce; 3.6-5.0s one spoon-sized area folds yolk, rice, sauce and one beef strip while most radial layout remains visible. Scale lock: one tablespoon sauce, one normal egg, spoon-sized first mix, bowl 16-18 cm, not flooded, not fully stirred into mush. Global negatives: no text, no music, no speech, no whole-bowl mash, no sauce flood, no extra utensils, no floating spoon, no wood countertop.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead as active overhead final-bowl view and light terrazzo lock; do not switch to wood countertop. Use @FinalBibimbapOverheadFrame only as radial layout continuity reference. Use @FriedEggYolkFrame only as intact-yolk-to-breaking-yolk state reference. Use @Spoon only as sauce and mixing utensil. Use @PoseTopDown only for visible top-down hand continuity. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no soft transitions, no extra shots, no text. Integrated audio: no speech, no voiceover, no music; dry sesame sprinkle, sticky spoon pour, soft yolk pop, wet rice fold. Mandatory timing: 0.0-1.0s white sesame seeds fall over egg and colored wedges; 1.0-2.2s one tablespoon chili-sesame sauce pours as a small crescent beside yolk; 2.2-3.6s spoon tip presses and yolk streams into sauce; 3.6-5.0s one spoon-sized area folds yolk, rice, sauce and one beef strip while most radial layout remains visible. Scale lock: one tablespoon sauce, one normal egg, spoon-sized first mix, bowl 16-18 cm, not flooded, not fully stirred into mush. Global negatives: no text, no music, no speech, no whole-bowl mash, no sauce flood, no extra utensils, no floating spoon, no wood countertop.",
       "references": [
         {
           "role": "structural kitchen context",
@@ -866,10 +866,10 @@
         "first glossy spoonful"
       ],
       "timing": [
-        "0.0-0.9s sesame",
-        "0.9-1.9s sauce",
-        "1.9-2.9s yolk break",
-        "2.9-4.0s first mix"
+        "0.0-1.0s sesame",
+        "1.0-2.2s sauce",
+        "2.2-3.6s yolk break",
+        "3.6-5.0s first mix"
       ],
       "continuity": "Pays off segment-01 hook and keeps bowl geometry readable before hero ending.",
       "risk": "Bibimbap mixing may destroy all visual zones; lock to one spoon-sized area.",
@@ -899,7 +899,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     },
     {
@@ -915,8 +915,8 @@
         "scene-36"
       ],
       "description": "Final hero presentation in the Licorn kitchen: character visible, bowl remains hero, spoon lift and satisfied ending.",
-      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as active final hero island view and terrazzo countertop lock. Use @CharacterSheet only for Licorn character identity. Use @CharacterExpressions only for satisfied expression reference. Use @PoseThreeQuarterRight only for the final presentation pose. Use @FinalBibimbapOverheadFrame only as the finished bowl identity and topping geometry reference. Use @Spoon only as bite-lift utensil. Generate exactly 3 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots, no text on screen. Integrated audio: no speech, no voiceover, no music; bowl set-down, spoon scrape, tiny satisfied spoon tap only. Mandatory timing: 0.0-1.4s three-quarter hero shot, Licorn presents finished bibimbap on light terrazzo island; 1.4-2.6s spoon lifts one bite with rice grains, beef strip, carrot, spinach, yolk and sauce gloss; 2.6-4.0s Licorn smiles satisfied behind bowl, bowl remains foreground hero. Scale lock: spoon bite is spoon-sized, bowl 16-18 cm, one normal egg remnants visible, not oversized, not miniature. Kitchen continuity: same cabinet layout, same light terrazzo, no redesigned kitchen. Global negatives: no text, no captions, no speech, no voiceover, no music, no full-body dance, no extra dishes, no floating spoon.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as active final hero island view and terrazzo countertop lock. Use @CharacterSheet only for Licorn character identity. Use @CharacterExpressions only for satisfied expression reference. Use @PoseThreeQuarterRight only for the final presentation pose. Use @FinalBibimbapOverheadFrame only as the finished bowl identity and topping geometry reference. Use @Spoon only as bite-lift utensil. Generate exactly 3 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots, no text on screen. Integrated audio: no speech, no voiceover, no music; bowl set-down, spoon scrape, tiny satisfied spoon tap only. Mandatory timing: 0.0-1.4s three-quarter hero shot, Licorn presents finished bibimbap on light terrazzo island; 1.4-2.6s spoon lifts one bite with rice grains, beef strip, carrot, spinach, yolk and sauce gloss; 2.6-4.0s Licorn smiles satisfied behind bowl, bowl remains foreground hero. Scale lock: spoon bite is spoon-sized, bowl 16-18 cm, one normal egg remnants visible, not oversized, not miniature. Kitchen continuity: same cabinet layout, same light terrazzo, no redesigned kitchen. Global negatives: no text, no captions, no speech, no voiceover, no music, no full-body dance, no extra dishes, no floating spoon.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as active final hero island view and terrazzo countertop lock. Use @CharacterSheet only for Licorn character identity. Use @CharacterExpressions only for satisfied expression reference. Use @PoseThreeQuarterRight only for the final presentation pose. Use @FinalBibimbapOverheadFrame only as the finished bowl identity and topping geometry reference. Use @Spoon only as bite-lift utensil. Generate exactly 3 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots, no text on screen. Integrated audio: no speech, no voiceover, no music; bowl set-down, spoon scrape, tiny satisfied spoon tap only. Mandatory timing: 0.0-1.7s three-quarter hero shot, Licorn presents finished bibimbap on light terrazzo island; 1.7-3.3s spoon lifts one bite with rice grains, beef strip, carrot, spinach, yolk and sauce gloss; 3.3-5.0s Licorn smiles satisfied behind bowl, bowl remains foreground hero. Scale lock: spoon bite is spoon-sized, bowl 16-18 cm, one normal egg remnants visible, not oversized, not miniature. Kitchen continuity: same cabinet layout, same light terrazzo, no redesigned kitchen. Global negatives: no text, no captions, no speech, no voiceover, no music, no full-body dance, no extra dishes, no floating spoon.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as active final hero island view and terrazzo countertop lock. Use @CharacterSheet only for Licorn character identity. Use @CharacterExpressions only for satisfied expression reference. Use @PoseThreeQuarterRight only for the final presentation pose. Use @FinalBibimbapOverheadFrame only as the finished bowl identity and topping geometry reference. Use @Spoon only as bite-lift utensil. Generate exactly 3 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots, no text on screen. Integrated audio: no speech, no voiceover, no music; bowl set-down, spoon scrape, tiny satisfied spoon tap only. Mandatory timing: 0.0-1.7s three-quarter hero shot, Licorn presents finished bibimbap on light terrazzo island; 1.7-3.3s spoon lifts one bite with rice grains, beef strip, carrot, spinach, yolk and sauce gloss; 3.3-5.0s Licorn smiles satisfied behind bowl, bowl remains foreground hero. Scale lock: spoon bite is spoon-sized, bowl 16-18 cm, one normal egg remnants visible, not oversized, not miniature. Kitchen continuity: same cabinet layout, same light terrazzo, no redesigned kitchen. Global negatives: no text, no captions, no speech, no voiceover, no music, no full-body dance, no extra dishes, no floating spoon.",
       "references": [
         {
           "role": "structural kitchen context",
@@ -981,9 +981,9 @@
         "satisfied character ending"
       ],
       "timing": [
-        "0.0-1.4s hero presentation",
-        "1.4-2.6s bite lift",
-        "2.6-4.0s satisfied ending"
+        "0.0-1.7s hero presentation",
+        "1.7-3.3s bite lift",
+        "3.3-5.0s satisfied ending"
       ],
       "continuity": "Final shot satisfies Recipe2Video ending rule: finished dish in Licorn kitchen with character visible and satisfied.",
       "risk": "Character can overtake the food; keep bowl foreground hero and character as support.",
@@ -1014,7 +1014,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     }
   ]

@@ -10,7 +10,7 @@
       "description": "A spoon tip breaks the intact yolk on a finished bibimbap bowl; the yolk starts flowing over rice and vegetables.",
       "bg": "island_overhead",
       "zoom": "extreme macro",
-      "durationTarget": 1.1,
+      "durationTarget": 1.2,
       "note": "Texture-first opening; final bowl appears only as a hook, not as a slicing reveal.",
       "textureCue": "glossy golden yolk spreading slowly",
       "sfxCue": "soft yolk pop and wet gloss",
@@ -21,7 +21,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Use an egg-yolk state reference so the yolk does not break too early."]
+        "notes": [
+          "Use an egg-yolk state reference so the yolk does not break too early."
+        ]
       }
     },
     {
@@ -34,7 +36,7 @@
       "description": "Overhead view re-anchors the finished bowl: rice base, 5-6 colored topping zones, beef, and one egg centered in a 16-18 cm bowl.",
       "bg": "island_overhead",
       "zoom": "tight overhead",
-      "durationTarget": 1.0,
+      "durationTarget": 1.2,
       "note": "Pays off the opening by clarifying the bowl geometry immediately.",
       "textureCue": "radial color contrast and sesame specks",
       "sfxCue": "small bowl set-down tap",
@@ -45,7 +47,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Scale lock: bowl 16-18 cm, one normal egg, not oversized."]
+        "notes": [
+          "Scale lock: bowl 16-18 cm, one normal egg, not oversized."
+        ]
       }
     },
     {
@@ -58,7 +62,7 @@
       "description": "A short pour of dark chili-sesame sauce lands beside the yolk without flooding the bowl.",
       "bg": "island_overhead",
       "zoom": "macro",
-      "durationTarget": 0.9,
+      "durationTarget": 1.2,
       "note": "Sauce amount is about one tablespoon for the hero bowl.",
       "textureCue": "thin red-brown glossy ribbon",
       "sfxCue": "small sticky pour",
@@ -69,7 +73,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Do not make the sauce opaque or excessive."]
+        "notes": [
+          "Do not make the sauce opaque or excessive."
+        ]
       }
     },
     {
@@ -82,7 +88,7 @@
       "description": "A hard cut freezes on the glossy yolk and sauce touching grains of rice before jumping back to preparation.",
       "bg": "island_overhead",
       "zoom": "macro",
-      "durationTarget": 0.8,
+      "durationTarget": 1.4,
       "note": "Bridge from final texture to making process.",
       "textureCue": "yellow yolk, white rice, red-brown sauce",
       "sfxCue": "quick wet stir",
@@ -117,7 +123,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["Avoid rice becoming porridge."]
+        "notes": [
+          "Avoid rice becoming porridge."
+        ]
       }
     },
     {
@@ -141,7 +149,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No open flame; induction remains flush black plate."]
+        "notes": [
+          "No open flame; induction remains flush black plate."
+        ]
       }
     },
     {
@@ -165,7 +175,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Bœuf strips must stay thin; not minced, not steak chunks."]
+        "notes": [
+          "Bœuf strips must stay thin; not minced, not steak chunks."
+        ]
       }
     },
     {
@@ -189,7 +201,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Marinade must be fluid, not paste."]
+        "notes": [
+          "Marinade must be fluid, not paste."
+        ]
       }
     },
     {
@@ -213,7 +227,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Keep strips visible and separate."]
+        "notes": [
+          "Keep strips visible and separate."
+        ]
       }
     },
     {
@@ -237,7 +253,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Do not mix vegetables before plating."]
+        "notes": [
+          "Do not mix vegetables before plating."
+        ]
       }
     },
     {
@@ -261,7 +279,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["No cloth-in-hand transfer."]
+        "notes": [
+          "No cloth-in-hand transfer."
+        ]
       }
     },
     {
@@ -285,7 +305,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["Avoid noodle-like transformation."]
+        "notes": [
+          "Avoid noodle-like transformation."
+        ]
       }
     },
     {
@@ -333,7 +355,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Seeds should be visible, not dust."]
+        "notes": [
+          "Seeds should be visible, not dust."
+        ]
       }
     },
     {
@@ -357,7 +381,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Carrot shape must not become coins."]
+        "notes": [
+          "Carrot shape must not become coins."
+        ]
       }
     },
     {
@@ -405,7 +431,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Do not brown into mush."]
+        "notes": [
+          "Do not brown into mush."
+        ]
       }
     },
     {
@@ -429,7 +457,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No flames; no steak chunk."]
+        "notes": [
+          "No flames; no steak chunk."
+        ]
       }
     },
     {
@@ -453,7 +483,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Keep beef as strips, not a dark mass."]
+        "notes": [
+          "Keep beef as strips, not a dark mass."
+        ]
       }
     },
     {
@@ -477,7 +509,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Yolk must not break in this scene."]
+        "notes": [
+          "Yolk must not break in this scene."
+        ]
       }
     },
     {
@@ -501,7 +535,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Not scrambled, not hard-boiled."]
+        "notes": [
+          "Not scrambled, not hard-boiled."
+        ]
       }
     },
     {
@@ -525,7 +561,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Sauce is not thick paste."]
+        "notes": [
+          "Sauce is not thick paste."
+        ]
       }
     },
     {
@@ -549,7 +587,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["One spoonful, not a ladleful."]
+        "notes": [
+          "One spoonful, not a ladleful."
+        ]
       }
     },
     {
@@ -573,7 +613,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Show prepared states, not raw mise en place."]
+        "notes": [
+          "Show prepared states, not raw mise en place."
+        ]
       }
     },
     {
@@ -597,7 +639,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["Rice base covers bottom, not a mountain."]
+        "notes": [
+          "Rice base covers bottom, not a mountain."
+        ]
       }
     },
     {
@@ -621,7 +665,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Two wedges visible, not scattered garnish."]
+        "notes": [
+          "Two wedges visible, not scattered garnish."
+        ]
       }
     },
     {
@@ -645,7 +691,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Maintain radial layout."]
+        "notes": [
+          "Maintain radial layout."
+        ]
       }
     },
     {
@@ -669,7 +717,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Beef strips remain 0.5-1 cm wide, 4-6 cm long."]
+        "notes": [
+          "Beef strips remain 0.5-1 cm wide, 4-6 cm long."
+        ]
       }
     },
     {
@@ -693,7 +743,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Avoid cloth-in-hand transfer; use utensil if handling is shown."]
+        "notes": [
+          "Avoid cloth-in-hand transfer; use utensil if handling is shown."
+        ]
       }
     },
     {
@@ -706,7 +758,7 @@
       "description": "White sesame seeds fall over the centered egg and colored wedges.",
       "bg": "island_overhead",
       "zoom": "macro overhead",
-      "durationTarget": 0.9,
+      "durationTarget": 1.0,
       "note": "Tiny texture payoff; visible seeds only.",
       "textureCue": "white seeds on yellow, green, orange, and brown",
       "sfxCue": "dry sesame sprinkle",
@@ -717,7 +769,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No text-like seed patterns."]
+        "notes": [
+          "No text-like seed patterns."
+        ]
       }
     },
     {
@@ -730,7 +784,7 @@
       "description": "One tablespoon of chili-sesame sauce is poured in a small crescent beside the yolk.",
       "bg": "island_overhead",
       "zoom": "macro overhead",
-      "durationTarget": 1.0,
+      "durationTarget": 1.2,
       "note": "Sauce is a controlled accent, not full coverage.",
       "textureCue": "red-brown crescent with reflective surface",
       "sfxCue": "sticky spoon pour",
@@ -741,7 +795,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["One spoonful only."]
+        "notes": [
+          "One spoonful only."
+        ]
       }
     },
     {
@@ -754,7 +810,7 @@
       "description": "The spoon tip presses into the yolk; yellow begins to stream into the sauce.",
       "bg": "island_overhead",
       "zoom": "extreme macro",
-      "durationTarget": 1.0,
+      "durationTarget": 1.4,
       "note": "Return to the opening hook as a controlled payoff.",
       "textureCue": "yellow yolk ribbon meeting red-brown sauce",
       "sfxCue": "soft yolk break",
@@ -765,7 +821,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Yolk breaks only now."]
+        "notes": [
+          "Yolk breaks only now."
+        ]
       }
     },
     {
@@ -778,7 +836,7 @@
       "description": "A small scoop folds yolk, rice, sauce, and one strip of beef without destroying the whole radial layout.",
       "bg": "island_overhead",
       "zoom": "macro",
-      "durationTarget": 1.2,
+      "durationTarget": 1.4,
       "note": "Bibimbap means mixed rice, but the full visual should remain readable.",
       "textureCue": "sticky glossy grains with yolk and beef",
       "sfxCue": "wet rice fold",
@@ -789,7 +847,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Mix only a small bite area; do not turn bowl into mush."]
+        "notes": [
+          "Mix only a small bite area; do not turn bowl into mush."
+        ]
       }
     },
     {
@@ -802,7 +862,7 @@
       "description": "Three-quarter kitchen hero shot: the Licorn character presents the finished bibimbap bowl on the light terrazzo island.",
       "bg": "island_default",
       "zoom": "medium close-up",
-      "durationTarget": 1.4,
+      "durationTarget": 1.7,
       "note": "Character supports the food, not a full-body performance.",
       "textureCue": "colorful bowl in stable Licorn kitchen",
       "sfxCue": "bowl set-down and soft room tone",
@@ -813,7 +873,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Keep kitchen identity and countertop material stable."]
+        "notes": [
+          "Keep kitchen identity and countertop material stable."
+        ]
       }
     },
     {
@@ -826,7 +888,7 @@
       "description": "A spoon lifts a single bite showing rice grains, beef strip, carrot, spinach, sauce, and yolk gloss.",
       "bg": "island_default",
       "zoom": "macro close-up",
-      "durationTarget": 1.2,
+      "durationTarget": 1.6,
       "note": "Bite scale: spoon-sized, not oversized.",
       "textureCue": "layered bite with sticky shine and sesame specks",
       "sfxCue": "spoon scrape and lift",
@@ -837,7 +899,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No floating spoon; visible hand or clear utensil support."]
+        "notes": [
+          "No floating spoon; visible hand or clear utensil support."
+        ]
       }
     },
     {
@@ -850,7 +914,7 @@
       "description": "The Licorn character smiles satisfied behind the finished bowl, which remains the visual hero in the same kitchen.",
       "bg": "island_default",
       "zoom": "medium close-up",
-      "durationTarget": 1.4,
+      "durationTarget": 1.7,
       "note": "Ending requirement: finished dish in Licorn kitchen with character visible and satisfied.",
       "textureCue": "bright bowl colors and glossy center",
       "sfxCue": "tiny satisfied spoon tap, no speech",
@@ -861,7 +925,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No speech, no text, no music in video generation prompt."]
+        "notes": [
+          "No speech, no text, no music in video generation prompt."
+        ]
       }
     }
   ]

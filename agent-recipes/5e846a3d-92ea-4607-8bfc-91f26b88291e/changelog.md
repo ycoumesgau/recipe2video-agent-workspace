@@ -31,3 +31,10 @@
 - Removed non-contract JSON metadata from `recipe-analysis.json` and `reference-plan.json` to reduce strict Zod risk.
 - Normalized every `seedance-segments.json` reference object to include `role`, `name`, `label`, `runwayUri`, `mediaAssetId`, and `required`.
 - Kept source access and serving-context notes in markdown artifacts instead of JSON extras.
+
+## 2026-05-18 — Seedance duration and reference anchor fix
+
+- Pulled the latest `main` and re-read updated Seedance, asset-reference, artifact-schema, and reference-image-generation policies.
+- Expanded all Seedance segments shorter than 5 seconds to the valid 5-second minimum and aligned their prompt timing bullets plus related logical-scene durations.
+- Added `conditioningReferences` visual anchors to every recipe-specific generated reference so GPT-Image 2 receives kitchen/utensil anchors when creating bibimbap state images.
+- Documented the no-character-anchor policy and the lack of a dedicated bowl/pan library asset for the bibimbap bowl in `decisions.md`.

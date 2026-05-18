@@ -9,7 +9,16 @@
       "prompt": "Use only to preserve the global Licorn kitchen layout, cabinet relationships, lighting, and material identity. It is not a mandatory camera framing.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -21,7 +30,15 @@
       "prompt": "Use to preserve the light terrazzo island surface and overhead shot geometry for precise food placement.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -33,7 +50,9 @@
       "prompt": "Use for final hero framing and countertop material continuity. Keep the bowl foreground hero.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -45,7 +64,12 @@
       "prompt": "Use to keep the same flush black induction plate. Never show flame, gas rings, or a redesigned stovetop.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-03", "segment-04", "segment-05"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -57,7 +81,14 @@
       "prompt": "Use for character identity only; do not redesign the character.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -69,7 +100,9 @@
       "prompt": "Use only to preserve a pleased, satisfied expression in the ending.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -81,7 +114,15 @@
       "prompt": "Use only for hand and arm pose continuity in overhead actions.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -93,7 +134,9 @@
       "prompt": "Use only for final presentation posture behind the bowl.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -105,7 +148,14 @@
       "prompt": "Use for spoon shape only. Avoid floating spoon by showing visible hand or clear support.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-03", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -117,7 +167,9 @@
       "prompt": "Use for saucepan shape during rice absorption and steam reveal.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02"],
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
       "status": "planned"
     },
     {
@@ -129,7 +181,10 @@
       "prompt": "Use for mixing liquid marinade or sauce only.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-05"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -141,7 +196,9 @@
       "prompt": "Use for draining blanched vegetables; do not use as a cooking pan.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03"],
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
       "status": "planned"
     },
     {
@@ -153,7 +210,10 @@
       "prompt": "Use for hot food handling; avoid cloth-in-hand transfer.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03", "segment-04"],
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04"
+      ],
       "status": "planned"
     },
     {
@@ -165,7 +225,9 @@
       "prompt": "Use for supported fried egg transfer into the bowl. Do not use the flexible silicone spatula for rigid transfer.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -177,7 +239,9 @@
       "prompt": "Use for pan tossing or scraping only; do not use for deep-fry retrieval or rigid portion lifting.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-04"],
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
       "status": "planned"
     },
     {
@@ -189,8 +253,17 @@
       "prompt": "Generate a vertical food reference image of one Korean bibimbap hero bowl viewed overhead on a light terrazzo Licorn kitchen island. Bowl is 16-18 cm diameter, rice covers the bottom, 5-6 distinct topping wedges remain separated: spinach, soybean sprouts, green beans, carrot julienne, glossy beef strips with onion arcs, one normal fried egg centered. Add a few white sesame seeds and a small red-brown chili-sesame sauce accent. Not oversized, not miniature, not fully mixed, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-06", "segment-07", "segment-08"],
-      "status": "planned"
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "Spoon"
+      ]
     },
     {
       "type": "recipe_state",
@@ -201,8 +274,18 @@
       "prompt": "Generate a close food reference of one normal fried egg for bibimbap: white set, edge lightly opaque, yolk centered, domed, glossy and intact, with a second small inset or visual cue of the yolk just beginning to flow when touched by a spoon. No scrambled egg, no hard-boiled egg, no oversized yolk, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-05", "segment-06", "segment-07"],
-      "status": "planned"
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "TurningSpatula",
+        "Spoon"
+      ]
     },
     {
       "type": "recipe_state",
@@ -213,8 +296,16 @@
       "prompt": "Generate a close food reference of rumsteck beef cut into thin strips, each 0.5-1 cm wide and 4-6 cm long, coated in dark glossy soy-sesame marinade with tiny garlic and ginger flecks. Strips remain separate, not minced, not a whole steak, not oversized, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-04"],
-      "status": "planned"
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "Whisk",
+        "Spoon"
+      ]
     },
     {
       "type": "recipe_state",
@@ -225,8 +316,16 @@
       "prompt": "Generate a close food reference of Korean-style seared beef strips with browned edges, glossy soy-sesame coating, and pale translucent onion arcs. Beef strips remain 0.5-1 cm wide and 4-6 cm long, separate and tender, not minced, not steak cubes, not burnt black, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-04", "segment-06"],
-      "status": "planned"
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "Tongs",
+        "SiliconeSpatula"
+      ]
     },
     {
       "type": "recipe_state",
@@ -237,8 +336,17 @@
       "prompt": "Generate an overhead food reference of prepared bibimbap vegetables in separate neat piles on the Licorn kitchen island: glossy spinach, pale soybean sprouts, short green beans, bright orange carrot julienne. Each family stays separate, no mixed salad, no noodles, no mush, no tiny garnish drift, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03", "segment-06"],
-      "status": "planned"
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "Sieve",
+        "Tongs",
+        "Spoon"
+      ]
     },
     {
       "type": "recipe_state",
@@ -249,8 +357,15 @@
       "prompt": "Generate a close food reference of freshly steamed basmati rice for bibimbap: moist white grains visible and separate, gentle steam, not sticky porridge, not dry grains, no text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02"],
-      "status": "planned"
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "SaucepanLarge",
+        "Spoon"
+      ]
     }
   ]
 }

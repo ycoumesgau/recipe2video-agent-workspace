@@ -1,5 +1,11 @@
 # Changelog — `f311970f-95cb-4d58-8088-365984eb2d31`
 
+## 2026-05-18 — Skills sync (`main` + maryse doc)
+
+- Vérifié `fetch`/`merge` de `origin/main` sur la branche recipe (inchangée car déjà à jour).
+- Recalibration des usages `@SiliconeSpatula` : rôles + prompts Seedance (`segment-01`, `segment-02`) alignés avec `reference-detail/utensil-task-mapping.md` après la clarification *maryse* sur `main`.
+- `reference-plan.json` → entrée ustensile et `recipe-analysis.json` → hypothèses / `promptPolicySources` mis à jour pour tracer explicitement la séparation maryse vs `@TurningSpatula`.
+
 ## 2026-05-18 — Pass conformité `artifact-schemas`
 
 - Harmonisation des lignes `timing` + blocs correspondants dans `prompt`/`promptInitial` de `seedance-segments.json` sur le gabarit `start-endXs: beat` défini dans `contracts/artifact-schemas.md`.

@@ -83,7 +83,8 @@
       "Skillet toast is interpreted as induction-friendly dry or minimal-oil sauté with a rigid turner flip; avoid cloth-assisted hot lifts.",
       "Serves-six batch is editorial context only; plating shows one wedge plus optional second in background.",
       "Quadrant chirality differences between tutorial diagrams and cooks are acceptable if four distinct fillings remain visibly separated before folding.",
-      "Image model gpt_image_2 remains available offline for quadrant-filled and sliced-hero reference plates when Seedance geometry drifts."
+      "Image model gpt_image_2 remains available offline for quadrant-filled and sliced-hero reference plates when Seedance geometry drifts.",
+      "Skillet beef choreography uses @SiliconeSpatula strictly as flexible maryse scrape/fold kinematics per utensil-task-mapping; wedge flip payoff stays on @TurningSpatula in later segments."
     ],
     "timing": {
       "prep": "15 minutes",
@@ -120,7 +121,7 @@
       "https://iamafoodblog.com/tiktok-wrap-hack/",
       "Recipe2Video production defaults: style preset asmr_food; video model seedance2; reference image model gpt_image_2; vertical 1080:1920",
       "Workspace rules: seedance-references.mdc (kitchen continuity pair, nine-reference cap, English Seedance prompts, ASMR-only audio, no speech or music in video prompts)",
-      "Workspace skills: recipe-ingest, seedance-workflow, asset-reference-system, food-physics-reference, tiktok-food-direction, suno-music-generation"
+      "Workspace skills: recipe-ingest, seedance-workflow, asset-reference-system (reference-detail utensil-task-mapping.md maryse vs turner doctrine), food-physics-reference, tiktok-food-direction, suno-music-generation"
     ]
   },
   "clarifyingQuestions": [

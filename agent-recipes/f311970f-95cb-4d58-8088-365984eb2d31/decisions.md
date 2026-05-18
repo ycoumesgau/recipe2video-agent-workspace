@@ -1,5 +1,10 @@
 # Decisions — `f311970f-95cb-4d58-8088-365984eb2d31`
 
+## Sync `main` + skills (2026-05-18)
+
+- `origin/main` (incluant le merge **#6** précisant `@SiliconeSpatula` comme *maryse*) est déjà dans l’historique de cette branche feature ; un `fetch`/`merge` régulier garantit que les règles `asset-reference-system` / `utensil-task-mapping.md` restent la source de vérité devant les prompts.
+- Les segments `segment-01` / `segment-02`, le `reference-plan.json` et les hypothèses de `recipe-analysis.json` précisent désormais un **verrou ustensiles** : `@SiliconeSpatula` = lame maryse flexible pour raclage / brisée de crumble en sauté ; `@TurningSpatula` reste réservé au retournement rigide du wedge plus tard.
+
 ## Production defaults locked for Recipe2Video
 
 - **Creative style preset:** `asmr_food`.

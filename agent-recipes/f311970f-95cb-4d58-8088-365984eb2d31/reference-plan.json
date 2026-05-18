@@ -123,10 +123,10 @@
     {
       "type": "utensil",
       "canonicalName": "SiliconeSpatula",
-      "role": "Flexible crumble breakdown + spice folding for taco meat",
+      "role": "French maryse / flexible silicone blade for sauté crumble break-up + pan scraping plus spice folds",
       "priority": 2,
       "source": "existing_asset",
-      "prompt": "Prefer over rigid tools for scrambling ground beef lumps in skillet choreography.",
+      "prompt": "Mirrors utensil-task-mapping.md: folding/scraping in bowls, saucepans, or analogous sauté pans; never substitute TurningSpatula for rigid wedge lifts beneath portions or deep-fry retrieval.",
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-01", "segment-02"],

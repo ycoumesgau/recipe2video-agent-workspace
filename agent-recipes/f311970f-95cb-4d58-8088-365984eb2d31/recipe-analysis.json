@@ -1,0 +1,138 @@
+{
+  "recipe": {
+    "title": "TikTok Tortilla Wrap Hack (Crunchwrap Supreme Edition)",
+    "sourceType": "url",
+    "sourceUrl": "https://iamafoodblog.com/tiktok-wrap-hack/",
+    "ingredients": [
+      {"name": "ground beef", "quantity": "1 lb", "note": "browned then seasoned"},
+      {"name": "chili powder", "quantity": "2 tsp", "note": null},
+      {"name": "ground cumin", "quantity": "2 tsp", "note": null},
+      {"name": "onion powder", "quantity": "2 tsp", "note": null},
+      {"name": "garlic powder", "quantity": "2 tsp", "note": null},
+      {"name": "smoked paprika", "quantity": "1 tsp", "note": null},
+      {"name": "ground cayenne pepper", "quantity": "1/8 tsp", "note": null},
+      {"name": "salt", "quantity": null, "note": "to taste after seasoning"},
+      {"name": "black pepper", "quantity": null, "note": "to taste after seasoning"},
+      {"name": "large flour tortillas", "quantity": "6", "note": "~10 inch diameter; recipe prefers flour over corn"},
+      {"name": "shredded lettuce", "quantity": "1.5 cups", "note": null},
+      {"name": "cherry tomatoes", "quantity": "1 cup quartered", "note": "or diced regular tomatoes"},
+      {"name": "sour cream", "quantity": "1/2 cup", "note": null},
+      {"name": "Mexican cheese blend", "quantity": "2 cups shredded", "note": "split between beef quadrant and cheese-only quadrant"},
+      {"name": "tortilla chips", "quantity": "18 or as desired", "note": "crunch layer on sour-cream quadrant"}
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Brown ground beef in a frying pan over medium-high heat until cooked through; drain excess fat if needed.",
+        "timing": null,
+        "visualCue": "maillard crumbles, steam, pan contact sizzle",
+        "block": "taco_beef",
+        "textureCue": "loose grains turning juicy then drier as fat renders",
+        "runwayRisk": "ambiguous raw-to-cooked color if time is compressed"
+      },
+      {
+        "position": 2,
+        "text": "Add chili powder, cumin, onion powder, garlic powder, smoked paprika, and cayenne; stir to coat. Season with salt and pepper. Set aside.",
+        "timing": null,
+        "visualCue": "spice dust on hot beef, glossy seasoned coat",
+        "block": "taco_beef",
+        "textureCue": "spices blooming, meat surface tacky with oil",
+        "runwayRisk": "spice color drift toward generic brown mud"
+      },
+      {
+        "position": 3,
+        "text": "Lay a tortilla on a cutting board. Cut a straight line from the center of the tortilla to one edge (hinge cut for quadrants).",
+        "timing": null,
+        "visualCue": "single radial slit, flat round tortilla",
+        "block": "wrap_assembly",
+        "textureCue": "clean knife glide, flexible pliable tortilla",
+        "runwayRisk": "multiple slashes or taco fold instead of one radial cut"
+      },
+      {
+        "position": 4,
+        "text": "Fill quadrants Crunchwrap style: shredded lettuce + tomatoes one quarter; sour cream + tortilla chips another; Mexican cheese blend + taco beef another; extra cheese alone on the last quarter.",
+        "timing": null,
+        "visualCue": "four distinct topping zones separated by imaginary quarter lines radiating from center",
+        "block": "wrap_assembly",
+        "textureCue": "wet sour cream versus dry chips versus loose beef",
+        "runwayRisk": "topping cross-contamination blurring quadrant boundaries"
+      },
+      {
+        "position": 5,
+        "text": "Fold starting from bottom-left quadrant up over top-left; fold that stack over toward top-right; fold down toward bottom-right to form a neat compact layered triangle puck.",
+        "timing": null,
+        "visualCue": "accordion quarter-fold stacking into triangular package",
+        "block": "wrap_assembly",
+        "textureCue": "flexing tortilla laminating layers without burrito roll",
+        "runwayRisk": "rolled cigar wrap morph instead of TikTok quadrant fold"
+      },
+      {
+        "position": 6,
+        "text": "Dry pan or lightly oiled skillet on medium heat until tortilla is crispy and cheese melts throughout, flipping once, about 3-4 minutes per side.",
+        "timing": "~3-4 minutes per side",
+        "visualCue": "golden blistered tortilla, cheese ooze at seam, flip",
+        "block": "grill",
+        "textureCue": "crisp outer shell, molten cheese bridge, steam when cut",
+        "runwayRisk": "burnt tortilla or unscored flip tearing layers"
+      }
+    ],
+    "subRecipes": ["taco_beef", "hinge_cut_wrap", "quadrant_fill_crunchwrap", "skillet_crisp_finish"],
+    "assumptions": [
+      "Hero visualization follows the site's Crunchwrap Supreme edition quadrant map (lettuce/tomato BL; sour cream + chips TL; beef + cheese TR; cheese-only BR relative to slit orientation as staged on Licorn boards).",
+      "Tortillas are modeled at ~25 cm (10 in) diameter, not miniature street-taco size. Negative constraints: not oversized wrap blanket, not miniature taco disc.",
+      "Skillet toast is interpreted as induction-friendly dry or minimal-oil sauté with a rigid turner flip; avoid cloth-assisted hot lifts.",
+      "Serves-six batch is editorial context only; plating shows one wedge plus optional second in background.",
+      "Quadrant chirality differences between tutorial diagrams and cooks are acceptable if four distinct fillings remain visibly separated before folding.",
+      "Image model gpt_image_2 remains available offline for quadrant-filled and sliced-hero reference plates when Seedance geometry drifts."
+    ],
+    "timing": {
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "total": "30 minutes"
+    },
+    "criticalTransformations": [
+      "Single radial cut from geometric center of flour tortilla to one rim creates fold hinge; must not become multiple pie slices or a full diameter cut.",
+      "Four-quadrant ingredient zoning must remain recognizable through fold sequence or TikTok mechanic reads wrong.",
+      "Three-step folds (BL over TL, then toward TR, then down to BR) compress fillings into laminated triangle puck, distinct from cylindrical burrito rolling.",
+      "Dual-sided skillet crisping melts internal cheese network while blistering tortilla skin; flipping once preserves structural integrity.",
+      "Cut cross-section exposes horizontal strata: tortilla shell, lettuce/tomato freshness, crunchy chip layer embedded in dairy, spiced beef."
+    ],
+    "visualTextureOpportunities": [
+      "Brittle tortilla chip snap and cascading crumb shards as ASMR bait before savory heat.",
+      "Ground beef crumble sizzle hitting hot metal with audible sear progression.",
+      "Spice snowfall on steaming beef with glossy oil sheen rebound.",
+      "Sour cream smear resisting chip embed with micro crunches stacking.",
+      "Shredded lettuce loft and glossy tomato wedges squeezing trapped juice on fold pressure.",
+      "Cheese avalanche separating lean beef mound from slick chips.",
+      "Tortilla flex fold with subtle whitening stress lines yet no ripping.",
+      "Hot pan landing hiss and cheese ooze creeping at puck seam.",
+      "Flip moment showing blister micro-bubbles transitioning to mahogany freckling.",
+      "Cross-section steam plume revealing molten stretch and brittle chip strata."
+    ],
+    "possibleHooks": [
+      "Open on extreme macro chip fracture ASMR, then immediate payoff with sour cream + chip pairing teased.",
+      "Radial center cut POV that looks wrong until quadrants fill (pattern interrupt).",
+      "Four-color quadrant fill top-down satisfying symmetry before folding origami.",
+      "First sizzle of sealed triangle hitting iron with cheese leak tease.",
+      "Cheese-pull cross-section micro-climax with layered crunch audible."
+    ],
+    "promptPolicySources": [
+      "https://iamafoodblog.com/tiktok-wrap-hack/",
+      "Recipe2Video production defaults: style preset asmr_food; video model seedance2; reference image model gpt_image_2; vertical 1080:1920",
+      "Workspace rules: seedance-references.mdc (kitchen continuity pair, nine-reference cap, English Seedance prompts, ASMR-only audio, no speech or music in video prompts)",
+      "Workspace skills: recipe-ingest, seedance-workflow, asset-reference-system, food-physics-reference, tiktok-food-direction, suno-music-generation"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "tortilla-type-hero",
+      "question": "Should the on-camera hero use flour tortillas only, or do you want a corn-tortilla variant that changes color, pliability, and blister pattern?",
+      "reason": "Corn vs flour alters reference generation, fold physics, and crisping behavior for Seedance."
+    },
+    {
+      "id": "quadrant-orientation",
+      "question": "Confirm the on-set board orientation for the radial cut (which compass edge is slit) so quadrant-to-filling mapping matches the blog's Crunchwrap diagram for hand continuity.",
+      "reason": "Chirality mistakes make the fold read incorrect even if ingredients are accurate."
+    }
+  ]
+}

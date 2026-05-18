@@ -10,3 +10,13 @@
 - Created `decisions.md` documenting creator-instruction interpretation, reference-minimization decision, scale assumptions, and remaining questions.
 - Revised `segment-07` to use an already-cut reveal instead of active knife cutting, avoiding a missing utensil reference risk.
 - Revised `segment-08` audio to remove breath-like wording and keep final audio strictly food/kitchen ASMR.
+
+## 2026-05-18 - main sync and strict format refresh
+
+- Pulled latest `main` updates into the recipe branch.
+- Re-read current Recipe2Video skills and artifact contract.
+- Updated `seedance-segments.json` prompt wording to state every reference role as `only as ...`.
+- Removed non-contract `qaChecklist.kitchenContinuityPairPresent` from `seedance-segments.json`; continuity pairs remain present in references and are validated structurally.
+- Trimmed `reference-plan.json` to the contracted top-level `references` field to reduce strict Zod unknown-field risk.
+- Confirmed the recipe does not use the renamed spatula-family references from the updated asset skill.
+

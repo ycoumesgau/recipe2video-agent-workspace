@@ -238,7 +238,5 @@
       ],
       "status": "planned"
     }
-  ],
-  "recipeSpecificReferences": [],
-  "recipeSpecificReferencePolicy": "No generated intermediate food-state references are planned at ingest, honoring the creator request to rely on existing assets unless indispensable. If validation later shows roll geometry drift, create only one final cooked-and-cut roll state reference, not a full intermediate set."
+  ]
 }

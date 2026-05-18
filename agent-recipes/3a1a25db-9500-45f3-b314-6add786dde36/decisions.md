@@ -35,3 +35,12 @@ Stage: recipe_ingest
 - `seedance-segments.json`: ready with 8 Seedance 2 References segments.
 - `reference-plan.json`: ready; uses existing assets and no generated food-state references at this stage.
 - `suno-prompt.json` and `suno-prompt.md`: ready for manual Suno workflow.
+
+## 2026-05-18 format refresh after main sync
+
+- Pulled the latest `main` updates, including the updated utensil naming guidance (`@SiliconeSpatula`, `@TurningSpatula`, `@OffsetSpatula`).
+- This recipe does not use the renamed spatula family references, so no utensil canonical names needed replacement.
+- Tightened Seedance prompt wording so every listed reference is constrained with an explicit `only as` role.
+- Reduced `reference-plan.json` to the contracted top-level `references` object; the decision to avoid generated food-state references remains documented here instead of as extra JSON fields.
+- Removed non-contract `qaChecklist.kitchenContinuityPairPresent` from Seedance segments; kitchen continuity pairs are still present and validated through segment references.
+

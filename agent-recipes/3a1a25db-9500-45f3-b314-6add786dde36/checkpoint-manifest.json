@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
-  "stage": "recipe_ingest",
+  "stage": "general",
   "branch": "cursor/recipe-ingest-3a1a25db-f49a",
-  "commitSha": "57b2ab5996515f74e74c4ca992c6fca6db3fedb5",
+  "commitSha": "50cd4a2a0496403becd48b108823e9f680bd14e8",
   "manifestPath": "agent-recipes/3a1a25db-9500-45f3-b314-6add786dde36/checkpoint-manifest.json",
   "sourceType": "url",
   "sourceUrl": "https://toprecipesfood.com/inside-out-crispy-rice-paper-rolls/",
@@ -17,6 +17,6 @@
     "decisions.md",
     "changelog.md"
   ],
-  "updatedAt": "2026-05-18T07:27:15Z",
-  "notes": "commitSha points to the latest pushed checkpoint commit available when this manifest was refreshed for artifact retrieval."
+  "updatedAt": "2026-05-18T11:07:29Z",
+  "notes": "Main was pulled and recipe artifacts were refreshed against the current skills and strict artifact contract. This SHA is superseded by the immediately following artifact-refresh commit."
 }

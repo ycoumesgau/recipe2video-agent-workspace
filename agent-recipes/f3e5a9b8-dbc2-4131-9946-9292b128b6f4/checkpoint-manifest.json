@@ -2,8 +2,8 @@
   "videoId": "f3e5a9b8-dbc2-4131-9946-9292b128b6f4",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-f3e5a9b8-3dde",
-  "commitSha": "9e174f462d0690efb7d678d9e658765723247c06",
-  "updatedAt": "2026-05-18T11:37:16Z",
+  "commitSha": "841597ebbed6546551d3ded4f51bd99ad6a4ab07",
+  "updatedAt": "2026-05-18T14:42:05Z",
   "artifactPaths": [
     "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/recipe-analysis.json",
     "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/logical-scenes.json",
@@ -15,6 +15,6 @@
     "agent-recipes/f3e5a9b8-dbc2-4131-9946-9292b128b6f4/changelog.md"
   ],
   "notes": [
-    "commitSha records the pushed recipe artifact checkpoint after merging origin/main and applying refreshed reference conditioning skills."
+    "commitSha records the pushed recipe artifact checkpoint after merging origin/main and fixing Seedance segment durations to the 5-15 second API window."
   ]
 }

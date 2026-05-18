@@ -18,6 +18,7 @@ Use when converting logical scenes into generated video segments.
 - Prompt language: English.
 - Keep prompts under about 3,500 characters.
 - Use 5-10 Seedance segments for a 30-48 logical-scene storyboard.
+- **`durationTarget` (required):** integer seconds from **5** to **15** inclusive — this is the Runway Seedance 2 API window. Shorter totals (for example 4s) are rejected by the app before generation; align every segment's prompt timing bullets to the same total.
 - Store logical scene IDs on every segment.
 - Lock object scale for ambiguous shapes (diameter/thickness/count + relative kitchen anchor).
 - Preserve scale continuity across adjacent segments when the same food state continues.
@@ -44,7 +45,7 @@ Each `seedance-segments.json` segment should include:
 - `audioPrompt`
 - `negatives`
 - `qaChecklist`
-- `durationTarget`
+- `durationTarget` (integer seconds, 5-15 inclusive for Runway `seedance2`)
 - `status`
 
 Use `continuity` and `risk` to track proportion locks, for example:
@@ -117,10 +118,23 @@ Use it when the model is likely to misread:
 
 Do not use generated images as the old production path for every micro-scene.
 
+Generation is performed by GPT-Image 2 inside the Recipe2Video app. Every recipe-specific entry in `reference-plan.json` (`source: "generated_reference_needed"`) MUST declare a `conditioningReferences` array — the library `@Tag` names the app forwards to GPT-Image 2 as `referenceImages[]`. Without anchors the model invents the kitchen and pan from scratch and breaks continuity with the Seedance segments that consume the anchor.
+
+Minimum coverage:
+
+- one kitchen view (`KitchenIslandDefault` or the appropriate overhead/induction/oven variant);
+- the cookware that holds the dish (`baking_dish`, `SaucepanLarge`, …);
+- the dominant utensil when it appears in the anchor.
+
+NEVER include character-class anchors (`@CharacterSheet`, character poses, `@CharacterExpressions`) in `conditioningReferences`. The app filters them out; they only waste a planning slot. The kitchen anchor alone carries the Licorn visual identity for recipe-state images.
+
+See `contracts/reference-image-generation.md` for the full policy and `.cursor/skills/asset-reference-system/SKILL.md` for a worked example.
+
 ## Validation
 
 Before marking a segment ready:
 
+- `durationTarget` is an integer from 5 to 15 seconds and matches the prompt's total duration line and timing bullets;
 - references <= 9;
 - global kitchen reference present;
 - kitchen continuity pair present (`@KitchenLayoutContextWide` + one shot-specific kitchen view);
@@ -136,3 +150,4 @@ Before marking a segment ready:
 - no cloth-in-hand hot transfer shots;
 - plating side quantities are explicit when present;
 - continuity mentions preserved proportions when reusing the same object across segments.
+- every recipe-specific reference plan entry declares `conditioningReferences` covering kitchen + cookware (+ utensil when visible), with no character-class anchors.

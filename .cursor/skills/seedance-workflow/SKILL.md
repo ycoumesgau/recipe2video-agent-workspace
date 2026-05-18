@@ -117,6 +117,18 @@ Use it when the model is likely to misread:
 
 Do not use generated images as the old production path for every micro-scene.
 
+Generation is performed by GPT-Image 2 inside the Recipe2Video app. Every recipe-specific entry in `reference-plan.json` (`source: "generated_reference_needed"`) MUST declare a `conditioningReferences` array — the library `@Tag` names the app forwards to GPT-Image 2 as `referenceImages[]`. Without anchors the model invents the kitchen and pan from scratch and breaks continuity with the Seedance segments that consume the anchor.
+
+Minimum coverage:
+
+- one kitchen view (`KitchenIslandDefault` or the appropriate overhead/induction/oven variant);
+- the cookware that holds the dish (`baking_dish`, `SaucepanLarge`, …);
+- the dominant utensil when it appears in the anchor.
+
+NEVER include character-class anchors (`@CharacterSheet`, character poses, `@CharacterExpressions`) in `conditioningReferences`. The app filters them out; they only waste a planning slot. The kitchen anchor alone carries the Licorn visual identity for recipe-state images.
+
+See `contracts/reference-image-generation.md` for the full policy and `.cursor/skills/asset-reference-system/SKILL.md` for a worked example.
+
 ## Validation
 
 Before marking a segment ready:
@@ -136,3 +148,4 @@ Before marking a segment ready:
 - no cloth-in-hand hot transfer shots;
 - plating side quantities are explicit when present;
 - continuity mentions preserved proportions when reusing the same object across segments.
+- every recipe-specific reference plan entry declares `conditioningReferences` covering kitchen + cookware (+ utensil when visible), with no character-class anchors.

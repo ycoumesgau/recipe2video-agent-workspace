@@ -33,6 +33,7 @@ JSON files must be strict JSON, with no Markdown fences and no comments.
 - Treat Recipe2Video as an internal Licorn production cockpit, not a generic creator tool.
 - Use 30-48 logical scenes for editorial reasoning.
 - Use about 5-10 Seedance segments for actual video generation.
+- Every Seedance segment `durationTarget` must be an integer number of seconds from 5 to 15 inclusive (Runway Seedance 2 API); align `prompt` / `promptInitial` timing to the same total.
 - Preserve the mapping from each Seedance segment to its logical scene IDs.
 - Keep the opening texture-first. Scene 2 must pay off or clarify scene 1.
 - Avoid openings on mise en place, ingredients lined up, or finished-dish slicing.

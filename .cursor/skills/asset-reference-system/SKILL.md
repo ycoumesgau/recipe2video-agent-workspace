@@ -68,6 +68,46 @@ Utensils:
 
 If an object does not exist as an asset, describe it in the prompt but do not list it as a reference.
 
+## Conditioning Recipe-Specific Reference Images
+
+Recipe-specific reference entries (`source: "generated_reference_needed"` in `reference-plan.json`) are produced by GPT-Image 2 inside the Recipe2Video app. Without anchors the model invents the kitchen and pan from scratch and breaks continuity with the Seedance segments that consume the anchor.
+
+For every recipe-specific entry, declare a `conditioningReferences` array of library canonical names (the same `@Tag` form used in Seedance prompts). The app forwards each name to GPT-Image 2 as a `referenceImages[]` entry so the model grounds the dish on real Licorn-kitchen pixels.
+
+Minimum coverage:
+
+- one kitchen view (`KitchenIslandDefault` or the relevant `KitchenIslandOverhead`/`InductionWide`/`OvenWide`/`OvenCloseup` variant);
+- the cookware that holds the dish (`baking_dish`, `SaucepanLarge`, …);
+- the dominant utensil when it appears in the anchor (`TurningSpatula`, `Spoon`, …).
+
+**Do NOT include character anchors** in `conditioningReferences`:
+
+- `@CharacterSheet`
+- `@CharacterExpressions`
+- `@PoseFront`, `@PoseTopDown`, `@PoseThreeQuarterLeft`, `@PoseThreeQuarterRight`
+
+The app drops them at generation time. The mascot adds noise to dish frames and the kitchen anchor already carries the Licorn visual identity for recipe-state images. Including them only wastes a planning slot.
+
+Do NOT include the recipe-specific entry's own `canonicalName` in its `conditioningReferences`. Library names only.
+
+Example:
+
+```json
+{
+  "type": "recipe_state",
+  "canonicalName": "FinishedDumplingLasagnaCutaway",
+  "role": "finished compact dumpling-lasagna top and cutaway geometry",
+  "priority": 1,
+  "source": "generated_reference_needed",
+  "prompt": "Generate one vertical-reference still of a compact 8 in / 20 cm square steamed dumpling lasagna...",
+  "runwayUri": null,
+  "mediaAssetId": null,
+  "usedInSegmentIds": ["segment-01", "segment-07", "segment-08"],
+  "status": "planned",
+  "conditioningReferences": ["KitchenIslandDefault", "baking_dish", "TurningSpatula"]
+}
+```
+
 ## References
 
 - `reference-detail/kitchen-continuity-guardrails.md`

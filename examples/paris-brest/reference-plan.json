@@ -22,7 +22,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-05"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandOverhead", "BakingMat"]
     },
     {
       "type": "recipe_state",
@@ -34,7 +35,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-05"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["OvenCloseup", "BakingMat"]
     },
     {
       "type": "recipe_state",
@@ -46,7 +48,8 @@
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-07"],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": ["KitchenIslandDefault", "OffsetSpatula"]
     }
   ]
 }

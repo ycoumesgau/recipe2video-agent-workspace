@@ -36,6 +36,17 @@
 - Recipe-specific state references are planned for final bowl topology, fried egg/yolk break, marinated beef strips, seared beef strips, separated vegetables, and steamed rice.
 - Existing assets are used for kitchen, character, poses, and utensils; no paid generation is launched from this workspace.
 
+## Où étudier l'analyse et la génération des artefacts
+
+- `recipe-analysis.json` est le point d'entrée pour l'analyse culinaire: source, ingrédients, étapes, timings, transformations critiques, opportunités texture, hooks, hypothèses et questions clarifiantes.
+- `decisions.md` explique les choix faits à partir de cette analyse: corrections prudentes, hypothèses, échelle, géométrie, rythme, stratégie de références et limites non résolues.
+- `logical-scenes.json` montre comment l'analyse est traduite en 36 scènes éditoriales: progression, cadrages, cues texture/SFX et risques de génération.
+- `seedance-segments.json` montre la génération vidéo prévue: 8 segments Seedance 2 References, prompts anglais, timings obligatoires, références, continuités, risques, négatifs et checklist QA.
+- `reference-plan.json` liste les références utilisées ou à générer: assets existants de cuisine/personnage/ustensiles et références d'états recette nécessaires.
+- `suno-prompt.json` et `suno-prompt.md` couvrent uniquement le brief musical manuel Suno; les prompts vidéo Seedance restent sans musique.
+- `changelog.md` retrace ce qui a été produit et pourquoi, utile pour auditer l'évolution du checkpoint.
+- `checkpoint-manifest.json` est le résumé machine du checkpoint: branche, SHA poussé, artefacts attendus et état de validation.
+
 ## Open clarifications
 
 - Confirm the real rumsteck quantity behind the source's `2 g` display.

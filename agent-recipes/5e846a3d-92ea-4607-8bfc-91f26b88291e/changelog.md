@@ -11,3 +11,8 @@
 - Created `suno-prompt.json` and `suno-prompt.md` for a manual Suno workflow; no Suno API or paid generation was called.
 - Created `decisions.md` documenting production assumptions and unresolved source questions.
 - Updated `checkpoint-manifest.json` with the pushed artifact checkpoint SHA after the first checkpoint push.
+
+## 2026-05-18 — general review map
+
+- Added a review map in `decisions.md` explaining where to study recipe analysis, editorial scene planning, Seedance generation prompts, references, Suno prompts, changelog, and checkpoint metadata.
+- Corrected `checkpoint-manifest.json` to point at the latest pushed checkpoint commit available before this update.

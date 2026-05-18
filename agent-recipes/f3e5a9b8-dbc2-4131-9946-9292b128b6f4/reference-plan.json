@@ -9,7 +9,16 @@
       "prompt": "Use as the always-on kitchen layout and material continuity anchor. This is not a camera framing requirement.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -21,7 +30,13 @@
       "prompt": "Use to preserve the serving island, light terrazzo counter, cabinet layout and final hero-shot kitchen identity.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-04", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-04",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -33,7 +48,11 @@
       "prompt": "Use for overhead mixing and assembly on the same light terrazzo island.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-03", "segment-04"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04"
+      ],
       "status": "planned"
     },
     {
@@ -45,7 +64,9 @@
       "prompt": "Use for the large saucepan steamer setup; preserve black flush induction geometry and avoid flames.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-05"],
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -57,7 +78,9 @@
       "prompt": "Use for low simmer around the square pan, lid lift and steam detail without changing stovetop design.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-05"],
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -69,7 +92,16 @@
       "prompt": "Use only to preserve character identity and hand style; do not re-describe the character from scratch.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -81,7 +113,11 @@
       "prompt": "Use for visible hands in overhead scenes, especially mixing and wrapper placement.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-03", "segment-04"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04"
+      ],
       "status": "planned"
     },
     {
@@ -90,10 +126,15 @@
       "role": "three-quarter serving hands pose",
       "priority": 2,
       "source": "existing_asset",
-      "prompt": "Use for serving, drizzle and spatula lift shots where hands are visible near the square pan.",
+      "prompt": "Use for serving, drizzle and turning-spatula lift shots where hands are visible near the square pan.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-05", "segment-06", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -105,7 +146,9 @@
       "prompt": "Use only for the final satisfied character beat; keep food dominant.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -117,7 +160,9 @@
       "prompt": "Use to support a satisfied final expression without adding speech or text.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -129,7 +174,12 @@
       "prompt": "Use only as the compact square pan reference. Scale must remain 8 in / 20 cm, not a large casserole.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03", "segment-04", "segment-05", "segment-06"],
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -141,19 +191,41 @@
       "prompt": "Use for mixing the filling, controlled soy drizzle or breaking a bite; avoid floating utensil without visible hand.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-06", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-06",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
       "type": "utensil",
-      "canonicalName": "Spatula",
-      "role": "spreading filling and lifting the final square portion",
+      "canonicalName": "SiliconeSpatula",
+      "role": "flexible spreading and scraping utensil for thin filling layers",
       "priority": 1,
       "source": "existing_asset",
-      "prompt": "Use for spreading thin filling layers and for the final wet lift. It is not a deep-fry retrieval tool.",
+      "prompt": "Use for flexible spreading and scraping of sticky filling layers. Do not use for lifting the finished square portion.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-03", "segment-04", "segment-07"],
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "TurningSpatula",
+      "role": "rigid turner for sliding under and lifting the final square portion",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use for the final supported portion lift from the square pan. It is rigid and supports the slice from below; do not substitute SiliconeSpatula.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -165,7 +237,9 @@
       "prompt": "Use only if visible hot handling is needed; do not introduce cloth-in-hand transfer.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-05"],
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -177,7 +251,9 @@
       "prompt": "Use as the large pot holding hot water around the square pan for steaming.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-05"],
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
       "status": "planned"
     },
     {
@@ -186,10 +262,14 @@
       "role": "finished compact dumpling-lasagna top and cutaway geometry",
       "priority": 1,
       "source": "generated_reference_needed",
-      "prompt": "Generate one vertical-reference still of a compact 8 in / 20 cm square steamed dumpling lasagna in a small square pan on a light terrazzo kitchen island. The top is tender slightly translucent dumpling wrapper, glossy dark soy drizzle, green scallion ribbons and white sesame. One quarter portion is lifted on a spatula to show thin flat dumpling-wrapper layers and juicy pork-shiitake filling. It is Asian dumpling lasagna, not Italian lasagna: no tomato sauce, no cheese, no cheese pull, no long noodle sheets, no folded dumplings. Slab height 3-5 cm, appetizing steam, sexy food-porn macro lighting.",
+      "prompt": "Generate one vertical-reference still of a compact 8 in / 20 cm square steamed dumpling lasagna in a small square pan on a light terrazzo kitchen island. The top is tender slightly translucent dumpling wrapper, glossy dark soy drizzle, green scallion ribbons and white sesame. One quarter portion is lifted on a rigid turning spatula to show thin flat dumpling-wrapper layers and juicy pork-shiitake filling. It is Asian dumpling lasagna, not Italian lasagna: no tomato sauce, no cheese, no cheese pull, no long noodle sheets, no folded dumplings. Slab height 3-5 cm, appetizing steam, sexy food-porn macro lighting.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     }
   ]

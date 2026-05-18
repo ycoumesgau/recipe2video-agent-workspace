@@ -17,3 +17,10 @@
 - Rechecked the recipe artifact set for the general artifact-generation request.
 - Confirmed all required planning artifacts are present for the recipe workspace.
 - Refreshed `checkpoint-manifest.json` so Recipe2Video has an up-to-date pushed checkpoint pointer for the current artifact set.
+
+## 2026-05-18 - Main sync and updated skills
+
+- Merged the latest `origin/main` into the recipe branch.
+- Updated utensil references according to the refreshed asset-reference skills: `@SiliconeSpatula` for spreading filling layers and `@TurningSpatula` for supported portion lifts.
+- Updated `recipe-analysis.json`, `logical-scenes.json`, `seedance-segments.json`, `reference-plan.json`, Suno notes, `decisions.md`, and this changelog to remove legacy generic spatula usage.
+- Kept the reference-generation plan minimal with only `FinishedDumplingLasagnaCutaway` as a generated recipe-state reference.

@@ -9,7 +9,7 @@
 
 ## Intent
 
-Create a glossy, steamy, savory pop track that mirrors the video's food-porn arc: soy drip hook, sticky layers, lid-lift steam, sesame/scallion rain, layered spatula lift, satisfied Licorn finish.
+Create a glossy, steamy, savory pop track that mirrors the video's food-porn arc: soy drip hook, sticky layers, lid-lift steam, sesame/scallion rain, layered turning-spatula lift, satisfied Licorn finish.
 
 ## Session Notes
 
@@ -75,5 +75,5 @@ Repeat the chorus with extra energy and a final satisfying bite image.
 ## Short Version To Extract Later
 
 ```text
-Use a very short intro, then Verse 1 soy-drip imagery over the opening macro hook. Let the pre-chorus build during layering and steam. Drop the full chorus on lid lift, garnish rain and spatula cutaway. Use the final chorus tag over the hero shot with the satisfied unicorn and one more bite.
+Use a very short intro, then Verse 1 soy-drip imagery over the opening macro hook. Let the pre-chorus build during layering and steam. Drop the full chorus on lid lift, garnish rain and turning-spatula cutaway. Use the final chorus tag over the hero shot with the satisfied unicorn and one more bite.
 ```

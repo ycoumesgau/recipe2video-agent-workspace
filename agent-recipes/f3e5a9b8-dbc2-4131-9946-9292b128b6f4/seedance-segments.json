@@ -7,24 +7,91 @@
       "title": "Soy-gloss cutaway hook",
       "arc": "food-porn hook",
       "mode": "References",
-      "logicalSceneIds": ["scene-01", "scene-02", "scene-03", "scene-04"],
-      "description": "Finished dumpling-lasagna surface, sesame rain, cutaway lift and quick kitchen re-anchor.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @Spatula only as the serving lift tool. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet spatula lift and soft counter set-down. Mandatory timing: 0.0-1.0s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.0-1.8s white sesame and scallion fall onto the glossy surface; 1.8-3.2s spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 3.2-4.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @Spatula only as the serving lift tool. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet spatula lift and soft counter set-down. Mandatory timing: 0.0-1.0s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.0-1.8s white sesame and scallion fall onto the glossy surface; 1.8-3.2s spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 3.2-4.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
-      "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active island serving view and terrazzo lock", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "final dumpling-lasagna cutaway geometry", "name": "FinishedDumplingLasagnaCutaway", "label": "FinishedDumplingLasagnaCutaway", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "three-quarter serving hands pose", "name": "PoseThreeQuarterRight", "label": "PoseThreeQuarterRight", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "serving lift tool", "name": "Spatula", "label": "Spatula", "runwayUri": null, "mediaAssetId": null, "required": true }
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04"
       ],
-      "beats": ["soy gloss macro", "sesame scallion rain", "spatula cutaway lift", "finished pan re-anchor"],
-      "timing": ["0.0-1.0s soy gloss", "1.0-1.8s garnish rain", "1.8-3.2s cutaway lift", "3.2-4.0s island re-anchor"],
+      "description": "Finished dumpling-lasagna surface, sesame rain, cutaway lift and quick kitchen re-anchor.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @TurningSpatula only as the rigid serving lift tool; do not use @SiliconeSpatula for lifting the portion. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet turning-spatula lift and soft counter set-down. Mandatory timing: 0.0-1.0s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.0-1.8s white sesame and scallion fall onto the glossy surface; 1.8-3.2s turning spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 3.2-4.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @TurningSpatula only as the rigid serving lift tool; do not use @SiliconeSpatula for lifting the portion. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet turning-spatula lift and soft counter set-down. Mandatory timing: 0.0-1.0s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.0-1.8s white sesame and scallion fall onto the glossy surface; 1.8-3.2s turning spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 3.2-4.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active island serving view and terrazzo lock",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "final dumpling-lasagna cutaway geometry",
+          "name": "FinishedDumplingLasagnaCutaway",
+          "label": "FinishedDumplingLasagnaCutaway",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter serving hands pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rigid serving lift tool",
+          "name": "TurningSpatula",
+          "label": "TurningSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "soy gloss macro",
+        "sesame scallion rain",
+        "turning-spatula cutaway lift",
+        "finished pan re-anchor"
+      ],
+      "timing": [
+        "0.0-1.0s soy gloss",
+        "1.0-1.8s garnish rain",
+        "1.8-3.2s cutaway lift",
+        "3.2-4.0s island re-anchor"
+      ],
       "continuity": "Establishes final compact 20 cm square dumpling-lasagna geometry, 3-5 cm height, no tomato or cheese. Kitchen surface is light terrazzo.",
       "risk": "High drift risk toward Italian lasagna, cheese pull or folded dumplings; final cutaway reference is required for this hook.",
-      "audioPrompt": "thick soy drizzle; dry sesame patter; wet spatula lift; soft counter set-down; no speech, no music",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no tomato sauce", "no cheese pull", "no long lasagna noodles", "no folded dumplings", "no wood countertop"],
+      "audioPrompt": "thick soy drizzle; dry sesame patter; wet turning-spatula lift; soft counter set-down; no speech, no music",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no tomato sauce",
+        "no cheese pull",
+        "no long lasagna noodles",
+        "no folded dumplings",
+        "no wood countertop"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -36,7 +103,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 4,
       "status": "ready"
@@ -48,23 +120,84 @@
       "title": "Sticky pork-shiitake filling",
       "arc": "filling",
       "mode": "References",
-      "logicalSceneIds": ["scene-05", "scene-06", "scene-07", "scene-08", "scene-09"],
+      "logicalSceneIds": [
+        "scene-05",
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09"
+      ],
       "description": "Raw filling ingredients become a glossy sticky dumpling filling.",
       "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead preparation view. Use @CharacterSheet and @PoseTopDown only for visible hands mixing from above. Use @Spoon only as the mixing utensil. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, close overhead detail shots, no text on screen. Integrated audio: no speech, no voiceover, no music; only soft meat drop, sticky sauce pour, wet splashes and bowl scrape. Mandatory timing: 0.0-0.9s raw pork, finely chopped shiitake, scallion, ginger and garlic are already in a bowl; 0.9-1.7s soy and hoisin pour in dark glossy ribbons; 1.7-2.5s sambal, rice vinegar and sesame oil hit in quick cuts; 2.5-4.0s spoon folds into a tacky cohesive filling; 4.0-5.0s spoon lifts and drops one glossy lump. Food physics lock: filling remains raw, pink-brown, sticky and glossy with shiitake/scallion/chili flecks; not cooked gray, not dry, not smooth pate. Kitchen continuity: keep light terrazzo overhead surface. Global negatives: no text, no gloves floating alone, no cooked meat, no tomato, no cheese, no music.",
       "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead preparation view. Use @CharacterSheet and @PoseTopDown only for visible hands mixing from above. Use @Spoon only as the mixing utensil. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, close overhead detail shots, no text on screen. Integrated audio: no speech, no voiceover, no music; only soft meat drop, sticky sauce pour, wet splashes and bowl scrape. Mandatory timing: 0.0-0.9s raw pork, finely chopped shiitake, scallion, ginger and garlic are already in a bowl; 0.9-1.7s soy and hoisin pour in dark glossy ribbons; 1.7-2.5s sambal, rice vinegar and sesame oil hit in quick cuts; 2.5-4.0s spoon folds into a tacky cohesive filling; 4.0-5.0s spoon lifts and drops one glossy lump. Food physics lock: filling remains raw, pink-brown, sticky and glossy with shiitake/scallion/chili flecks; not cooked gray, not dry, not smooth pate. Kitchen continuity: keep light terrazzo overhead surface. Global negatives: no text, no gloves floating alone, no cooked meat, no tomato, no cheese, no music.",
       "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active overhead island preparation view", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down hand pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "mixing utensil", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active overhead island preparation view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "mixing utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
       ],
-      "beats": ["raw filling bowl", "soy hoisin ribbons", "sambal oil splash", "sticky mixing", "glossy lift"],
-      "timing": ["0.0-0.9s filling base", "0.9-1.7s sauces", "1.7-2.5s aromatics", "2.5-4.0s mix", "4.0-5.0s sticky lift"],
+      "beats": [
+        "raw filling bowl",
+        "soy hoisin ribbons",
+        "sambal oil splash",
+        "sticky mixing",
+        "glossy lift"
+      ],
+      "timing": [
+        "0.0-0.9s filling base",
+        "0.9-1.7s sauces",
+        "1.7-2.5s aromatics",
+        "2.5-4.0s mix",
+        "4.0-5.0s sticky lift"
+      ],
       "continuity": "Filling made here becomes the 3-5 mm layers in segments 03 and 04.",
       "risk": "May appear already cooked or dry; raw glossy pork texture must be explicit.",
       "audioPrompt": "soft meat drop; sticky sauce pour; wet splashes; spoon scrape; sticky plop",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no cooked gray meat", "no tomato", "no cheese"],
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no cooked gray meat",
+        "no tomato",
+        "no cheese"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -76,7 +209,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 5,
       "status": "ready"
@@ -88,24 +226,93 @@
       "title": "Oil, first smear and wrappers",
       "arc": "first layers",
       "mode": "References",
-      "logicalSceneIds": ["scene-10", "scene-11", "scene-12", "scene-13", "scene-14"],
-      "description": "The compact square pan is oiled, filled with the first thin layer, and covered with flat dumpling wrappers.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead assembly view. Use @baking_dish only as the square pan reference. Use @CharacterSheet and @PoseTopDown for visible hands. Use @Spatula only for spreading the filling. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR macro assembly, no text on screen. Integrated audio: no speech, no voiceover, no music; only pan set-down, oil smear, spatula scrape and soft wrapper slaps. Mandatory timing: 0.0-0.8s overhead scale anchor of an 8 in / 20 cm square pan on terrazzo; 0.8-1.7s thin oil sheen spreads inside the pan; 1.7-2.8s first 3-5 mm glossy filling layer is spread across the base; 2.8-3.6s one flat palm-size dumpling wrapper flops onto the filling; 3.6-5.0s more wrappers are placed edge-to-edge with minimal overlap, trimming or tucking corners. Scale lock: square pan 20 cm, wrappers 8-10 cm and flat, about 20 wrappers total across recipe, not oversized, not miniature. Geometry lock: this is a flat layered lasagna-style build, not folded dumplings, not long noodles. Kitchen continuity: same light terrazzo overhead. Global negatives: no tomato, no cheese, no noodle sheets, no folded dumplings, no text, no music.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead assembly view. Use @baking_dish only as the square pan reference. Use @CharacterSheet and @PoseTopDown for visible hands. Use @Spatula only for spreading the filling. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR macro assembly, no text on screen. Integrated audio: no speech, no voiceover, no music; only pan set-down, oil smear, spatula scrape and soft wrapper slaps. Mandatory timing: 0.0-0.8s overhead scale anchor of an 8 in / 20 cm square pan on terrazzo; 0.8-1.7s thin oil sheen spreads inside the pan; 1.7-2.8s first 3-5 mm glossy filling layer is spread across the base; 2.8-3.6s one flat palm-size dumpling wrapper flops onto the filling; 3.6-5.0s more wrappers are placed edge-to-edge with minimal overlap, trimming or tucking corners. Scale lock: square pan 20 cm, wrappers 8-10 cm and flat, about 20 wrappers total across recipe, not oversized, not miniature. Geometry lock: this is a flat layered lasagna-style build, not folded dumplings, not long noodles. Kitchen continuity: same light terrazzo overhead. Global negatives: no tomato, no cheese, no noodle sheets, no folded dumplings, no text, no music.",
-      "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active overhead assembly view", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "square pan shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down hand pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "spreading utensil", "name": "Spatula", "label": "Spatula", "runwayUri": null, "mediaAssetId": null, "required": true }
+      "logicalSceneIds": [
+        "scene-10",
+        "scene-11",
+        "scene-12",
+        "scene-13",
+        "scene-14"
       ],
-      "beats": ["pan scale anchor", "oil sheen", "first filling smear", "wrapper flop", "edge-to-edge wrapper layer"],
-      "timing": ["0.0-0.8s pan anchor", "0.8-1.7s oil", "1.7-2.8s smear", "2.8-3.6s wrapper flop", "3.6-5.0s wrapper coverage"],
+      "description": "The compact square pan is oiled, filled with the first thin layer, and covered with flat dumpling wrappers.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead assembly view. Use @baking_dish only as the square pan reference. Use @CharacterSheet and @PoseTopDown for visible hands. Use @SiliconeSpatula only for flexible spreading and scraping of the filling; do not use it to lift a finished slice. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR macro assembly, no text on screen. Integrated audio: no speech, no voiceover, no music; only pan set-down, oil smear, silicone spatula scrape and soft wrapper slaps. Mandatory timing: 0.0-0.8s overhead scale anchor of an 8 in / 20 cm square pan on terrazzo; 0.8-1.7s thin oil sheen spreads inside the pan; 1.7-2.8s first 3-5 mm glossy filling layer is spread across the base; 2.8-3.6s one flat palm-size dumpling wrapper flops onto the filling; 3.6-5.0s more wrappers are placed edge-to-edge with minimal overlap, trimming or tucking corners. Scale lock: square pan 20 cm, wrappers 8-10 cm and flat, about 20 wrappers total across recipe, not oversized, not miniature. Geometry lock: this is a flat layered lasagna-style build, not folded dumplings, not long noodles. Kitchen continuity: same light terrazzo overhead. Global negatives: no tomato, no cheese, no noodle sheets, no folded dumplings, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead assembly view. Use @baking_dish only as the square pan reference. Use @CharacterSheet and @PoseTopDown for visible hands. Use @SiliconeSpatula only for flexible spreading and scraping of the filling; do not use it to lift a finished slice. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR macro assembly, no text on screen. Integrated audio: no speech, no voiceover, no music; only pan set-down, oil smear, silicone spatula scrape and soft wrapper slaps. Mandatory timing: 0.0-0.8s overhead scale anchor of an 8 in / 20 cm square pan on terrazzo; 0.8-1.7s thin oil sheen spreads inside the pan; 1.7-2.8s first 3-5 mm glossy filling layer is spread across the base; 2.8-3.6s one flat palm-size dumpling wrapper flops onto the filling; 3.6-5.0s more wrappers are placed edge-to-edge with minimal overlap, trimming or tucking corners. Scale lock: square pan 20 cm, wrappers 8-10 cm and flat, about 20 wrappers total across recipe, not oversized, not miniature. Geometry lock: this is a flat layered lasagna-style build, not folded dumplings, not long noodles. Kitchen continuity: same light terrazzo overhead. Global negatives: no tomato, no cheese, no noodle sheets, no folded dumplings, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active overhead assembly view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "square pan shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flexible filling spreading utensil",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "pan scale anchor",
+        "oil sheen",
+        "first filling smear",
+        "wrapper flop",
+        "edge-to-edge wrapper layer"
+      ],
+      "timing": [
+        "0.0-0.8s pan anchor",
+        "0.8-1.7s oil",
+        "1.7-2.8s smear",
+        "2.8-3.6s wrapper flop",
+        "3.6-5.0s wrapper coverage"
+      ],
       "continuity": "Carries filling from segment-02; establishes 20 cm square pan and flat 8-10 cm wrapper scale for all later layers.",
       "risk": "Model may create folded dumplings or Italian noodle sheets; wrapper geometry and flat layering must be restated.",
-      "audioPrompt": "pan set-down; oil smear; spatula scrape; soft wrapper slap; no speech, no music",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no tomato", "no cheese", "no long noodles", "no folded dumplings"],
+      "audioPrompt": "pan set-down; oil smear; silicone spatula scrape; soft wrapper slap; no speech, no music",
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no tomato",
+        "no cheese",
+        "no long noodles",
+        "no folded dumplings"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -117,7 +324,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 5,
       "status": "ready"
@@ -129,25 +341,102 @@
       "title": "Layer stack and water beads",
       "arc": "layer build",
       "mode": "References",
-      "logicalSceneIds": ["scene-15", "scene-16", "scene-17", "scene-18", "scene-19"],
-      "description": "More filling and wrapper layers build a compact slab, finished with top wrappers and a tiny water drizzle.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead build view and @KitchenIslandDefault only for the quick side height angle. Use @baking_dish as the same square 20 cm pan. Use @CharacterSheet and @PoseTopDown for visible assembly hands. Use @Spatula only for spreading. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR, mostly macro. Integrated audio: no speech, no voiceover, no music; only sticky smear, wrapper slap, pan nudge and delicate water drops. Mandatory timing: 0.0-1.0s another spoonful of filling spreads thin over wrappers; 1.0-1.8s second flat wrapper layer lands with seams offset; 1.8-2.6s quick side macro shows stack height only 3-5 cm; 2.6-3.5s final pale wrapper layer is smoothed on top; 3.5-5.0s exactly 3 tbsp / 45 ml water drizzle beads on the top wrapper, no flooding. Scale lock: 20 cm square pan, compact 3-5 cm height, filling layers 3-5 mm, wrappers flat 8-10 cm; not oversized, not miniature. Geometry lock: finish with wrappers on top. Kitchen continuity: same light terrazzo and Licorn kitchen. Global negatives: no soup, no tomato, no cheese, no noodles, no folded dumplings, no text.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead build view and @KitchenIslandDefault only for the quick side height angle. Use @baking_dish as the same square 20 cm pan. Use @CharacterSheet and @PoseTopDown for visible assembly hands. Use @Spatula only for spreading. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR, mostly macro. Integrated audio: no speech, no voiceover, no music; only sticky smear, wrapper slap, pan nudge and delicate water drops. Mandatory timing: 0.0-1.0s another spoonful of filling spreads thin over wrappers; 1.0-1.8s second flat wrapper layer lands with seams offset; 1.8-2.6s quick side macro shows stack height only 3-5 cm; 2.6-3.5s final pale wrapper layer is smoothed on top; 3.5-5.0s exactly 3 tbsp / 45 ml water drizzle beads on the top wrapper, no flooding. Scale lock: 20 cm square pan, compact 3-5 cm height, filling layers 3-5 mm, wrappers flat 8-10 cm; not oversized, not miniature. Geometry lock: finish with wrappers on top. Kitchen continuity: same light terrazzo and Licorn kitchen. Global negatives: no soup, no tomato, no cheese, no noodles, no folded dumplings, no text.",
-      "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active overhead build view", "name": "KitchenIslandOverhead", "label": "KitchenIslandOverhead", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "side island height angle", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "same square pan shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "top-down hand pose", "name": "PoseTopDown", "label": "PoseTopDown", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "spreading utensil", "name": "Spatula", "label": "Spatula", "runwayUri": null, "mediaAssetId": null, "required": true }
+      "logicalSceneIds": [
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19"
       ],
-      "beats": ["second filling smear", "offset wrapper layer", "height lock", "top wrapper", "water beads"],
-      "timing": ["0.0-1.0s smear", "1.0-1.8s wrapper", "1.8-2.6s side height", "2.6-3.5s final top", "3.5-5.0s water beads"],
+      "description": "More filling and wrapper layers build a compact slab, finished with top wrappers and a tiny water drizzle.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead build view and @KitchenIslandDefault only for the quick side height angle. Use @baking_dish as the same square 20 cm pan. Use @CharacterSheet and @PoseTopDown for visible assembly hands. Use @SiliconeSpatula only for flexible spreading and scraping; do not use it to lift a finished slice. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR, mostly macro. Integrated audio: no speech, no voiceover, no music; only sticky smear, wrapper slap, pan nudge and delicate water drops. Mandatory timing: 0.0-1.0s another spoonful of filling spreads thin over wrappers; 1.0-1.8s second flat wrapper layer lands with seams offset; 1.8-2.6s quick side macro shows stack height only 3-5 cm; 2.6-3.5s final pale wrapper layer is smoothed on top; 3.5-5.0s exactly 3 tbsp / 45 ml water drizzle beads on the top wrapper, no flooding. Scale lock: 20 cm square pan, compact 3-5 cm height, filling layers 3-5 mm, wrappers flat 8-10 cm; not oversized, not miniature. Geometry lock: finish with wrappers on top. Kitchen continuity: same light terrazzo and Licorn kitchen. Global negatives: no soup, no tomato, no cheese, no noodles, no folded dumplings, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandOverhead as active overhead build view and @KitchenIslandDefault only for the quick side height angle. Use @baking_dish as the same square 20 cm pan. Use @CharacterSheet and @PoseTopDown for visible assembly hands. Use @SiliconeSpatula only for flexible spreading and scraping; do not use it to lift a finished slice. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels ASMR, mostly macro. Integrated audio: no speech, no voiceover, no music; only sticky smear, wrapper slap, pan nudge and delicate water drops. Mandatory timing: 0.0-1.0s another spoonful of filling spreads thin over wrappers; 1.0-1.8s second flat wrapper layer lands with seams offset; 1.8-2.6s quick side macro shows stack height only 3-5 cm; 2.6-3.5s final pale wrapper layer is smoothed on top; 3.5-5.0s exactly 3 tbsp / 45 ml water drizzle beads on the top wrapper, no flooding. Scale lock: 20 cm square pan, compact 3-5 cm height, filling layers 3-5 mm, wrappers flat 8-10 cm; not oversized, not miniature. Geometry lock: finish with wrappers on top. Kitchen continuity: same light terrazzo and Licorn kitchen. Global negatives: no soup, no tomato, no cheese, no noodles, no folded dumplings, no text.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active overhead build view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "side island height angle",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "same square pan shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flexible filling spreading utensil",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "second filling smear",
+        "offset wrapper layer",
+        "height lock",
+        "top wrapper",
+        "water beads"
+      ],
+      "timing": [
+        "0.0-1.0s smear",
+        "1.0-1.8s wrapper",
+        "1.8-2.6s side height",
+        "2.6-3.5s final top",
+        "3.5-5.0s water beads"
+      ],
       "continuity": "Preserves 20 cm pan and 3-5 cm final slab height from segment-03. Water addition is exactly 45 ml and stays on top.",
       "risk": "Water can become soup and slab can become a tall casserole; small-bead hydration and compact height are locked.",
       "audioPrompt": "sticky smear; wrapper slap; pan nudge; delicate water drops; no speech, no music",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no soup", "no tomato", "no cheese", "no noodles", "no folded dumplings"],
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no soup",
+        "no tomato",
+        "no cheese",
+        "no noodles",
+        "no folded dumplings"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -159,7 +448,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 5,
       "status": "ready"
@@ -171,26 +465,111 @@
       "title": "Steam cook reveal",
       "arc": "steam cooking",
       "mode": "References",
-      "logicalSceneIds": ["scene-20", "scene-21", "scene-22", "scene-23", "scene-24"],
+      "logicalSceneIds": [
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24"
+      ],
       "description": "The square pan steams inside a large saucepan; hard cut to lid lift and tender translucent top.",
       "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @InductionWide as active steaming setup view and @InductionCloseup for simmer and lid-lift details. Use @SaucepanLarge only as the large steamer pot. Use @baking_dish only as the 20 cm square pan nested inside; the pot is visibly wider than the pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible hands during hot handling. Use @Tongs only as the safe tool-first hot handling utensil; no cloth-in-hand transfer. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels steam ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only metal set-down, low simmer, lid clink, steam hiss. Mandatory timing: 0.0-1.0s square pan lowers into large saucepan on black flush induction; 1.0-1.8s hot water trembles around outside of pan halfway up the pan wall; 1.8-2.5s lid closes; 2.5-3.5s hard cut after 25 minutes, lid lifts and dense steam blooms; 3.5-5.0s macro of tender satiny slightly translucent top wrapper with steam beads. Scale lock: pan is 8 in / 20 cm square, slab height remains 3-5 cm, pot visibly wider than pan, not oversized, not miniature. Cooking lock: this is steaming, not baking, frying or boiling the lasagna; pork is cooked through by implied 25 minutes. Kitchen continuity: induction remains black flush plate, no flames. Global negatives: no oven, no browning, no flame, no water flooding inside lasagna, no towel fused with hand, no text, no music.",
       "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @InductionWide as active steaming setup view and @InductionCloseup for simmer and lid-lift details. Use @SaucepanLarge only as the large steamer pot. Use @baking_dish only as the 20 cm square pan nested inside; the pot is visibly wider than the pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible hands during hot handling. Use @Tongs only as the safe tool-first hot handling utensil; no cloth-in-hand transfer. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels steam ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only metal set-down, low simmer, lid clink, steam hiss. Mandatory timing: 0.0-1.0s square pan lowers into large saucepan on black flush induction; 1.0-1.8s hot water trembles around outside of pan halfway up the pan wall; 1.8-2.5s lid closes; 2.5-3.5s hard cut after 25 minutes, lid lifts and dense steam blooms; 3.5-5.0s macro of tender satiny slightly translucent top wrapper with steam beads. Scale lock: pan is 8 in / 20 cm square, slab height remains 3-5 cm, pot visibly wider than pan, not oversized, not miniature. Cooking lock: this is steaming, not baking, frying or boiling the lasagna; pork is cooked through by implied 25 minutes. Kitchen continuity: induction remains black flush plate, no flames. Global negatives: no oven, no browning, no flame, no water flooding inside lasagna, no towel fused with hand, no text, no music.",
       "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active induction steaming setup", "name": "InductionWide", "label": "InductionWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "simmer and steam close-up angle", "name": "InductionCloseup", "label": "InductionCloseup", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "large steamer pot shape", "name": "SaucepanLarge", "label": "SaucepanLarge", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "square pan nested inside pot", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity for visible hot-handling hands", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "three-quarter hot-handling hands pose", "name": "PoseThreeQuarterRight", "label": "PoseThreeQuarterRight", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "safe hot handling tool", "name": "Tongs", "label": "Tongs", "runwayUri": null, "mediaAssetId": null, "required": true }
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active induction steaming setup",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "simmer and steam close-up angle",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "large steamer pot shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "square pan nested inside pot",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity for visible hot-handling hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter hot-handling hands pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "safe hot handling tool",
+          "name": "Tongs",
+          "label": "Tongs",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
       ],
-      "beats": ["pan into steamer", "low simmer around pan", "lid close", "steam-burst hard cut", "translucent tender top"],
-      "timing": ["0.0-1.0s pan lowers", "1.0-1.8s simmer", "1.8-2.5s lid", "2.5-3.5s steam reveal", "3.5-5.0s tender top"],
+      "beats": [
+        "pan into steamer",
+        "low simmer around pan",
+        "lid close",
+        "steam-burst hard cut",
+        "translucent tender top"
+      ],
+      "timing": [
+        "0.0-1.0s pan lowers",
+        "1.0-1.8s simmer",
+        "1.8-2.5s lid",
+        "2.5-3.5s steam reveal",
+        "3.5-5.0s tender top"
+      ],
       "continuity": "Steam cooks the same 20 cm square pan from segments 03-04; slab height remains 3-5 cm and pot is visibly wider than the pan. Induction and kitchen layout remain stable.",
       "risk": "Model may invent oven baking, flame, frying, or unsafe cloth handling; steaming mechanics, scale, tool-first hot handling, and induction negative constraints are explicit.",
       "audioPrompt": "metal set-down; low simmer; lid clink; steam hiss; no speech, no music",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no oven", "no browning", "no flame", "no frying", "no water flooding inside lasagna", "no cloth-in-hand transfer"],
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no oven",
+        "no browning",
+        "no flame",
+        "no frying",
+        "no water flooding inside lasagna",
+        "no cloth-in-hand transfer"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -202,7 +581,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 5,
       "status": "ready"
@@ -214,24 +598,89 @@
       "title": "Soy, scallion, sesame finish",
       "arc": "finish",
       "mode": "References",
-      "logicalSceneIds": ["scene-25", "scene-26", "scene-27", "scene-28"],
+      "logicalSceneIds": [
+        "scene-25",
+        "scene-26",
+        "scene-27",
+        "scene-28"
+      ],
       "description": "Cooked pan returns to island and gets the glossy garnish treatment.",
       "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active serving island view. Use @baking_dish as the same 20 cm square pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible serving hands. Use @Spoon only as soy drizzle utensil if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels glossy food-porn ASMR style, mostly macro. Integrated audio: no speech, no voiceover, no music; only pan set-down, thick soy drizzle, scallion scatter, sesame taps. Mandatory timing: 0.0-0.7s cooked square pan rests on island with steam rising; 0.7-1.8s dark soy drizzles in thin lines over tender translucent wrappers; 1.8-2.7s scallion ribbons cover roughly one third of the surface, visible but not full coverage; 2.7-4.0s white sesame rains onto wet soy trails. Plating quantity lock: garnish remains visible and appetizing, not a single tiny leaf, not full-plate coverage. Geometry lock: compact 20 cm pan, 3-5 cm slab, no tomato, no cheese, no noodles. Kitchen continuity: light terrazzo island and same cabinet layout. Global negatives: no text, no speech, no music, no tomato sauce, no cheese pull, no Italian herbs.",
       "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active serving island view. Use @baking_dish as the same 20 cm square pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible serving hands. Use @Spoon only as soy drizzle utensil if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels glossy food-porn ASMR style, mostly macro. Integrated audio: no speech, no voiceover, no music; only pan set-down, thick soy drizzle, scallion scatter, sesame taps. Mandatory timing: 0.0-0.7s cooked square pan rests on island with steam rising; 0.7-1.8s dark soy drizzles in thin lines over tender translucent wrappers; 1.8-2.7s scallion ribbons cover roughly one third of the surface, visible but not full coverage; 2.7-4.0s white sesame rains onto wet soy trails. Plating quantity lock: garnish remains visible and appetizing, not a single tiny leaf, not full-plate coverage. Geometry lock: compact 20 cm pan, 3-5 cm slab, no tomato, no cheese, no noodles. Kitchen continuity: light terrazzo island and same cabinet layout. Global negatives: no text, no speech, no music, no tomato sauce, no cheese pull, no Italian herbs.",
       "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active serving island view", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "same square pan shape", "name": "baking_dish", "label": "baking_dish", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "three-quarter serving hands pose", "name": "PoseThreeQuarterRight", "label": "PoseThreeQuarterRight", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "soy drizzle utensil", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": false }
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active serving island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "same square pan shape",
+          "name": "baking_dish",
+          "label": "baking_dish",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter serving hands pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "soy drizzle utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
       ],
-      "beats": ["steaming pan", "soy drizzle", "scallion scatter", "sesame rain"],
-      "timing": ["0.0-0.7s pan rests", "0.7-1.8s soy", "1.8-2.7s scallion", "2.7-4.0s sesame"],
+      "beats": [
+        "steaming pan",
+        "soy drizzle",
+        "scallion scatter",
+        "sesame rain"
+      ],
+      "timing": [
+        "0.0-0.7s pan rests",
+        "0.7-1.8s soy",
+        "1.8-2.7s scallion",
+        "2.7-4.0s sesame"
+      ],
       "continuity": "Returns cooked pan from segment-05 to island. Garnish amount stays consistent into segments 07-08.",
       "risk": "Garnish can shrink to tiny specks or flood the surface; quantity lock keeps one-third coverage.",
       "audioPrompt": "pan set-down; thick soy drizzle; scallion scatter; dry sesame taps; no speech, no music",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no tomato sauce", "no cheese pull", "no Italian herbs"],
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no tomato sauce",
+        "no cheese pull",
+        "no Italian herbs"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -243,7 +692,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 4,
       "status": "ready"
@@ -255,24 +709,91 @@
       "title": "Layered portion lift",
       "arc": "cutaway",
       "mode": "References",
-      "logicalSceneIds": ["scene-29", "scene-30", "scene-31", "scene-32"],
-      "description": "Spatula cut, lift, sauce pool and tender jiggle reveal the dumpling layers.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @Spatula only as the lift tool. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-0.8s spatula presses into one quarter of the compact square pan; 0.8-2.0s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.0-2.8s small soy-sesame puddle glistens under the lifted portion; 2.8-4.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating spatula, no extra hands.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @Spatula only as the lift tool. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-0.8s spatula presses into one quarter of the compact square pan; 0.8-2.0s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.0-2.8s small soy-sesame puddle glistens under the lifted portion; 2.8-4.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating spatula, no extra hands.",
-      "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active island serving view", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "final cutaway geometry and layer target", "name": "FinishedDumplingLasagnaCutaway", "label": "FinishedDumplingLasagnaCutaway", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "three-quarter serving hands pose", "name": "PoseThreeQuarterRight", "label": "PoseThreeQuarterRight", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "portion lift tool", "name": "Spatula", "label": "Spatula", "runwayUri": null, "mediaAssetId": null, "required": true }
+      "logicalSceneIds": [
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32"
       ],
-      "beats": ["spatula press", "layered lift", "soy-sesame puddle", "soft jiggle"],
-      "timing": ["0.0-0.8s press", "0.8-2.0s lift", "2.0-2.8s sauce pool", "2.8-4.0s jiggle"],
+      "description": "Turning-spatula cut and lift, sauce pool and tender jiggle reveal the dumpling layers.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @TurningSpatula only as the rigid lift tool that slides under and supports the portion; do not use @SiliconeSpatula for this lift. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-0.8s turning spatula presses into one quarter of the compact square pan; 0.8-2.0s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.0-2.8s small soy-sesame puddle glistens under the lifted portion; 2.8-4.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating turning spatula, no extra hands.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @TurningSpatula only as the rigid lift tool that slides under and supports the portion; do not use @SiliconeSpatula for this lift. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-0.8s turning spatula presses into one quarter of the compact square pan; 0.8-2.0s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.0-2.8s small soy-sesame puddle glistens under the lifted portion; 2.8-4.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating turning spatula, no extra hands.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active island serving view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "final cutaway geometry and layer target",
+          "name": "FinishedDumplingLasagnaCutaway",
+          "label": "FinishedDumplingLasagnaCutaway",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter serving hands pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rigid portion lift tool",
+          "name": "TurningSpatula",
+          "label": "TurningSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "turning-spatula press",
+        "layered lift",
+        "soy-sesame puddle",
+        "soft jiggle"
+      ],
+      "timing": [
+        "0.0-0.8s press",
+        "0.8-2.0s lift",
+        "2.0-2.8s sauce pool",
+        "2.8-4.0s jiggle"
+      ],
       "continuity": "Uses the same final geometry as segment-01. Garnish and soy gloss carry from segment-06.",
       "risk": "Cutaway is the highest geometry risk; final state reference is required to avoid Italian lasagna or cheese pull.",
       "audioPrompt": "soft press; wet lift; tiny drip; tender jiggle; no speech, no music",
-      "negatives": ["no text", "no speech", "no voiceover", "no music", "no cheese pull", "no tomato", "no noodle sheets", "no folded dumplings", "no floating spatula"],
+      "negatives": [
+        "no text",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no cheese pull",
+        "no tomato",
+        "no noodle sheets",
+        "no folded dumplings",
+        "no floating turning spatula"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -284,7 +805,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 4,
       "status": "ready"
@@ -296,25 +822,98 @@
       "title": "Final hero and satisfied Licorn",
       "arc": "hero",
       "mode": "References",
-      "logicalSceneIds": ["scene-33", "scene-34", "scene-35", "scene-36"],
+      "logicalSceneIds": [
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
       "description": "Hero framing, bite reveal, final gloss close-up and satisfied character in the Licorn kitchen.",
       "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active final hero view. Use @FinishedDumplingLasagnaCutaway only as finished dish and bite geometry. Use @CharacterSheet, @CharacterExpressions and @PoseFront only to keep the Licorn character visible and satisfied beside the food. Use @Spoon only for breaking one bite if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels final food-porn ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only quiet steam, soft tender tear and subtle utensil touch. Mandatory timing: 0.0-1.0s finished pan and lifted portion framed with the Licorn character visible but food dominant; 1.0-2.0s spoon edge breaks a hot bite and exposes juicy layered interior; 2.0-3.0s extreme macro of soy shine, sesame, scallion and steam pulsing upward; 3.0-4.0s end on satisfied Licorn beside the steaming pan in the same kitchen. Scale lock: compact 20 cm pan, one lifted quarter, 3-5 cm height, flat dumpling-wrapper layers. Kitchen continuity: same light terrazzo counter, same cabinet layout, no kitchen redesign. Global negatives: no text, no logo, no speech, no voiceover, no music, no tomato, no cheese pull, no extra shots.",
       "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active final hero view. Use @FinishedDumplingLasagnaCutaway only as finished dish and bite geometry. Use @CharacterSheet, @CharacterExpressions and @PoseFront only to keep the Licorn character visible and satisfied beside the food. Use @Spoon only for breaking one bite if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels final food-porn ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only quiet steam, soft tender tear and subtle utensil touch. Mandatory timing: 0.0-1.0s finished pan and lifted portion framed with the Licorn character visible but food dominant; 1.0-2.0s spoon edge breaks a hot bite and exposes juicy layered interior; 2.0-3.0s extreme macro of soy shine, sesame, scallion and steam pulsing upward; 3.0-4.0s end on satisfied Licorn beside the steaming pan in the same kitchen. Scale lock: compact 20 cm pan, one lifted quarter, 3-5 cm height, flat dumpling-wrapper layers. Kitchen continuity: same light terrazzo counter, same cabinet layout, no kitchen redesign. Global negatives: no text, no logo, no speech, no voiceover, no music, no tomato, no cheese pull, no extra shots.",
       "references": [
-        { "role": "structural Licorn kitchen context", "name": "KitchenLayoutContextWide", "label": "KitchenLayoutContextWide", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "active final hero island view", "name": "KitchenIslandDefault", "label": "KitchenIslandDefault", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "finished dish and bite geometry", "name": "FinishedDumplingLasagnaCutaway", "label": "FinishedDumplingLasagnaCutaway", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "character identity", "name": "CharacterSheet", "label": "CharacterSheet", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "satisfied expression reference", "name": "CharacterExpressions", "label": "CharacterExpressions", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "front hero pose", "name": "PoseFront", "label": "PoseFront", "runwayUri": null, "mediaAssetId": null, "required": true },
-        { "role": "bite break utensil", "name": "Spoon", "label": "Spoon", "runwayUri": null, "mediaAssetId": null, "required": false }
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active final hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish and bite geometry",
+          "name": "FinishedDumplingLasagnaCutaway",
+          "label": "FinishedDumplingLasagnaCutaway",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "satisfied expression reference",
+          "name": "CharacterExpressions",
+          "label": "CharacterExpressions",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "front hero pose",
+          "name": "PoseFront",
+          "label": "PoseFront",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "bite break utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": false
+        }
       ],
-      "beats": ["hero with character", "bite break", "final gloss macro", "satisfied finish"],
-      "timing": ["0.0-1.0s hero frame", "1.0-2.0s bite reveal", "2.0-3.0s gloss macro", "3.0-4.0s satisfied Licorn"],
+      "beats": [
+        "hero with character",
+        "bite break",
+        "final gloss macro",
+        "satisfied finish"
+      ],
+      "timing": [
+        "0.0-1.0s hero frame",
+        "1.0-2.0s bite reveal",
+        "2.0-3.0s gloss macro",
+        "3.0-4.0s satisfied Licorn"
+      ],
       "continuity": "Ends with the same finished pan, cutaway, garnish quantity and Licorn kitchen identity established earlier.",
       "risk": "Character can overtake food; prompt keeps food dominant and character supportive.",
       "audioPrompt": "quiet steam; soft tender tear; subtle utensil touch; no speech, no music",
-      "negatives": ["no text", "no logo", "no speech", "no voiceover", "no music", "no tomato", "no cheese pull", "no extra shots"],
+      "negatives": [
+        "no text",
+        "no logo",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no tomato",
+        "no cheese pull",
+        "no extra shots"
+      ],
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
@@ -326,7 +925,12 @@
         "noSpeechVoiceoverOrMusic": true,
         "fragileFoodPhysicsHandled": true,
         "nonStandardGeometryHandled": true,
-        "sourcePoliciesApplied": ["seedance-workflow", "asset-reference-system", "food-physics-reference", "tiktok-food-direction"]
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
       },
       "durationTarget": 4,
       "status": "ready"

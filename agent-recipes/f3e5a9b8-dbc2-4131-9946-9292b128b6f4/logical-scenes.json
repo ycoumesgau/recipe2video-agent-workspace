@@ -21,7 +21,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Ban tomato and cheese; this is dumpling lasagna."]
+        "notes": [
+          "Ban tomato and cheese; this is dumpling lasagna."
+        ]
       }
     },
     {
@@ -55,13 +57,13 @@
       "position": 3,
       "sceneType": "detail",
       "arc": "food-porn hook",
-      "description": "A spatula lifts one hot square from the compact 20 cm pan, showing tender wrapper layers and juicy pork filling.",
+      "description": "A rigid turning spatula lifts one hot square from the compact 20 cm pan, showing tender wrapper layers and juicy pork filling.",
       "bg": "island_default",
       "zoom": "macro",
       "durationTarget": 1.4,
       "note": "Scale lock: one lifted portion is one quarter of an 8 in / 20 cm square pan, not a giant casserole slice.",
       "textureCue": "soft stacked wrappers, glossy meat layers, steam at cut edge",
-      "sfxCue": "soft scrape and wet lift",
+      "sfxCue": "soft scrape and wet turning-spatula lift",
       "satisfactionBeat": true,
       "runwaySafeScore": {
         "stillImageReadable": true,
@@ -69,7 +71,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Use final cutaway reference if generated."]
+        "notes": [
+          "Use final cutaway reference if generated."
+        ]
       }
     },
     {
@@ -93,7 +97,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["Context shot; keep under 1 second."]
+        "notes": [
+          "Context shot; keep under 1 second."
+        ]
       }
     },
     {
@@ -189,7 +195,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Do not make it cooked yet."]
+        "notes": [
+          "Do not make it cooked yet."
+        ]
       }
     },
     {
@@ -237,7 +245,9 @@
         "dominantSound": false,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["Not a full-size lasagna casserole."]
+        "notes": [
+          "Not a full-size lasagna casserole."
+        ]
       }
     },
     {
@@ -277,7 +287,7 @@
       "durationTarget": 1.1,
       "note": "This should look lush but thin, not a thick meatloaf.",
       "textureCue": "wet pink-brown paste flattened into glossy streaks",
-      "sfxCue": "spatula scrape",
+      "sfxCue": "silicone spatula scrape",
       "satisfactionBeat": true,
       "runwaySafeScore": {
         "stillImageReadable": true,
@@ -285,7 +295,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Layer thickness lock: 3-5 mm."]
+        "notes": [
+          "Layer thickness lock: 3-5 mm."
+        ]
       }
     },
     {
@@ -309,7 +321,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Positive scale: 8-10 cm wrapper; negative: not long lasagna noodle."]
+        "notes": [
+          "Positive scale: 8-10 cm wrapper; negative: not long lasagna noodle."
+        ]
       }
     },
     {
@@ -333,7 +347,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["Do not create rolled dumplings."]
+        "notes": [
+          "Do not create rolled dumplings."
+        ]
       }
     },
     {
@@ -405,7 +421,9 @@
         "dominantSound": false,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Scale lock: compact 3-5 cm height."]
+        "notes": [
+          "Scale lock: compact 3-5 cm height."
+        ]
       }
     },
     {
@@ -453,7 +471,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Water amount lock: 45 ml."]
+        "notes": [
+          "Water amount lock: 45 ml."
+        ]
       }
     },
     {
@@ -477,7 +497,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": false,
-        "notes": ["No flames; induction remains black flush plate."]
+        "notes": [
+          "No flames; induction remains black flush plate."
+        ]
       }
     },
     {
@@ -501,7 +523,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No direct boiling inside the lasagna."]
+        "notes": [
+          "No direct boiling inside the lasagna."
+        ]
       }
     },
     {
@@ -549,7 +573,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Hard cut implies elapsed 25 minutes."]
+        "notes": [
+          "Hard cut implies elapsed 25 minutes."
+        ]
       }
     },
     {
@@ -573,7 +599,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No browning."]
+        "notes": [
+          "No browning."
+        ]
       }
     },
     {
@@ -645,7 +673,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Avoid tiny garnish drift."]
+        "notes": [
+          "Avoid tiny garnish drift."
+        ]
       }
     },
     {
@@ -679,12 +709,12 @@
       "position": 29,
       "sceneType": "detail",
       "arc": "cutaway",
-      "description": "A spatula presses into one quarter of the compact square lasagne, defining a clean serving edge.",
+      "description": "A rigid turning spatula presses into one quarter of the compact square lasagne, defining a clean serving edge.",
       "bg": "island_default",
       "zoom": "macro",
       "durationTarget": 0.8,
       "note": "Clean portion setup; no knife sawing spectacle.",
-      "textureCue": "soft wrapper compresses and rebounds around spatula edge",
+      "textureCue": "soft wrapper compresses and rebounds around turning spatula edge",
       "sfxCue": "soft press",
       "satisfactionBeat": false,
       "runwaySafeScore": {
@@ -693,7 +723,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Use spatula; avoid floating tools."]
+        "notes": [
+          "Use @TurningSpatula; avoid floating tools."
+        ]
       }
     },
     {
@@ -703,7 +735,7 @@
       "position": 30,
       "sceneType": "detail",
       "arc": "cutaway",
-      "description": "The portion slides up on the spatula, steam revealing alternating dumpling wrapper and pork layers.",
+      "description": "The portion slides up on the rigid turning spatula, steam revealing alternating dumpling wrapper and pork layers.",
       "bg": "island_default",
       "zoom": "macro side",
       "durationTarget": 1.2,
@@ -717,7 +749,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Generated final cutaway reference recommended."]
+        "notes": [
+          "Generated final cutaway reference recommended."
+        ]
       }
     },
     {
@@ -813,7 +847,9 @@
         "dominantSound": true,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["No cheese pull."]
+        "notes": [
+          "No cheese pull."
+        ]
       }
     },
     {
@@ -861,7 +897,9 @@
         "dominantSound": false,
         "visuallyDesirable": true,
         "textureContrast": true,
-        "notes": ["Keep character secondary to food."]
+        "notes": [
+          "Keep character secondary to food."
+        ]
       }
     }
   ]

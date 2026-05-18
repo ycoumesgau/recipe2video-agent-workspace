@@ -10,7 +10,7 @@
 
 ## Creative direction honored
 
-- The creator asked to make the lasagne dumpling "really sexy and food porn"; the storyboard opens on the finished soy-gloss surface and immediately pays it off with a layered spatula lift.
+- The creator asked to make the lasagne dumpling "really sexy and food porn"; the storyboard opens on the finished soy-gloss surface and immediately pays it off with a layered turning-spatula lift.
 - The edit avoids neutral mise en place. Utility steps are compressed into tactile ASMR beats: sticky filling, wrapper slap, water beads, steam burst, soy drizzle, sesame rain and layered cutaway.
 - The final shot keeps the Licorn character visible and satisfied, but food stays dominant.
 
@@ -45,3 +45,9 @@
 
 - No blocking clarifying questions remain for ingest.
 - The exact commercial wrapper shape may vary; the plan assumes flat palm-size wrappers and relies on scale locks instead of asking because the recipe itself notes about 20 wrappers for a 20 cm square pan.
+
+## Main sync update - 2026-05-18
+
+- Pulled `origin/main` into the recipe branch and applied the updated asset-reference skills.
+- Replaced legacy generic spatula references with `@SiliconeSpatula` for flexible filling spreading and `@TurningSpatula` for rigid supported portion lifts.
+- No new generated recipe-state references were added; the plan still relies on one final cutaway reference only.

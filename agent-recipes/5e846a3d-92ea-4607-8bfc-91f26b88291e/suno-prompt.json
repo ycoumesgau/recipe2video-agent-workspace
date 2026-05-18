@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Bibimbap coréen",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); excerpt for short vertical video"
+  },
+  "fields": {
+    "title": "Rainbow Bibimbap",
+    "styleOfMusic": "K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, playful staccato percussion, bright glossy chorus, tiny bell sparkles, short vocal-chop answers, clean punchy mix, wide neon sheen, close-mic lead vocals, quick pre-chorus lift, candy-bright hook that can loop cleanly for short video edits., k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no Korean-language imitation, no recipe tutorial lyrics, no ingredient counting, no software names, no social media callouts.",
+    "autoLyricsPrompt": "Write original English song lyrics about a joyful unicorn kitchen mascot making Korean bibimbap. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: bright, glossy, playful, savory-sweet, colorful, food-video ASMR energy, but not childish.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(bibimbap)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- golden yolk breaking and running into white rice\n- sesame shine, chili gloss, tiny white seeds\n- soft steam rising from rice grains\n- beef strips sizzling in a dark soy-sesame glaze\n- green, orange, white, brown, and yellow colors arranged like a rainbow bowl\n- a spoon folding one glossy bite without turning it into a tutorial\n- final hero bowl in a warm kitchen with a proud unicorn smile\n\nMust include naturally: bibimbap, unicorn, sesame, chili shine, golden yolk, rice cloud, rainbow bowl, sizzle, one bright bite.\n\nStructure:\n[Verse 1]\nYolk, rice cloud, sesame sparkle, chili shine, the first glossy hook.\n\n[Pre-Chorus]\nColors gather in the bowl; build anticipation around the sizzle and steam.\n\n[Chorus]\nBig chantable hook around unicorn + bibimbap + rainbow bowl + one bright bite. Repeat \"bibimbap\" as a hook.\n\n[Verse 2]\nBeef glaze, carrot glow, greens, steam, seeds, and the bowl coming together.\n\n[Bridge]\nSofter moment: spoon dips in, yolk and sauce turn the rice gold.\n\n[Final Chorus]\nRepeat the chorus with extra energy and end on the proud unicorn and the shining bowl.",
+    "shortVersionPlan": "For a 45-90 second vertical edit, use a very short intro or immediate Verse 1 line over the yolk-break hook, keep the pre-chorus for the beef sizzle and vegetable color build, land the full chorus on radial assembly, sauce pour, yolk break payoff, and final hero bowl. If the bridge has a softer spoon-dip image, use 2-4 seconds of it before the final chorus over the satisfied Licorn ending."
+  },
+  "instructions": {
+    "voice": "Use a bright, close-mic pop vocal persona if available. Do not request imitation of any real singer or protected voice.",
+    "structure": "Generate the long version first, aiming for 2-3 minutes, with a chorus that can be lifted cleanly for a 45-90 second vertical cut.",
+    "workflowNotes": "Suno is manual. Do not generate music from this workspace. Keep lyrics image-driven, not procedural."
+  },
+  "qualityChecks": [
+    "Title is set before style and lyrics in Suno.",
+    "Style of Music contains only musical direction, no lyric instructions.",
+    "Auto Lyrics Prompt is English, under 3000 characters, and contains no recipe tutorial wording.",
+    "No real artists, brands, protected voices, software names, or social media calls.",
+    "Short version plan aligns with yolk hook, beef sizzle, radial assembly, and final hero bowl."
+  ]
+}

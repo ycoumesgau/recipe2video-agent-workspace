@@ -1,0 +1,293 @@
+{
+  "recipe": {
+    "title": "Bibimbap coréen",
+    "sourceType": "url",
+    "sourceUrl": "https://www.atelierdeschefs.fr/recettes/13601/bibimbap-coreen/",
+    "servings": "6 personnes",
+    "sourceNotes": [
+      "La page source avec slash final a renvoyé un timeout puis un checkpoint 429 pendant la récupération directe.",
+      "Le contenu recette a été extrait via une récupération spécialisée de l'URL sans slash final.",
+      "La quantité affichée pour le rumsteck est 2 g, valeur culinairement impossible pour 6 personnes; elle est traitée comme une anomalie d'affichage à confirmer."
+    ],
+    "ingredients": [
+      {
+        "name": "Rumsteck",
+        "quantity": "2 g affichés",
+        "note": "Anomalie probable; hypothèse de production: environ 300 g ou 2 pièces de rumsteck pour 6 personnes."
+      },
+      {
+        "name": "Sauce soja",
+        "quantity": "12 cl",
+        "note": "Pour la marinade du bœuf."
+      },
+      {
+        "name": "Sucre",
+        "quantity": "10 g",
+        "note": "Pour équilibrer la marinade soja-sésame."
+      },
+      {
+        "name": "Sel fin",
+        "quantity": "9 pincées",
+        "note": "3 pincées pour la marinade, 6 pincées pour la cuisson du riz; salage complémentaire des légumes selon assaisonnement."
+      },
+      {
+        "name": "Ail",
+        "quantity": "4 gousses",
+        "note": "Haché pour la marinade."
+      },
+      {
+        "name": "Gingembre frais",
+        "quantity": "30 g",
+        "note": "Haché pour la marinade."
+      },
+      {
+        "name": "Huile de sésame",
+        "quantity": "32 cl",
+        "note": "12 cl marinade, 10 cl assaisonnement légumes, 10 cl sauce pimentée."
+      },
+      {
+        "name": "Riz basmati",
+        "quantity": "300 g",
+        "note": "Rincé puis cuit par absorption."
+      },
+      {
+        "name": "Eau",
+        "quantity": "45 cl",
+        "note": "Pour la cuisson du riz."
+      },
+      {
+        "name": "Carottes",
+        "quantity": "4",
+        "note": "Taillées en julienne puis sautées."
+      },
+      {
+        "name": "Pousses de soja",
+        "quantity": "200 g",
+        "note": "Blanchies 3 minutes."
+      },
+      {
+        "name": "Pousses d'épinard",
+        "quantity": "200 g",
+        "note": "Blanchies 1 minute."
+      },
+      {
+        "name": "Haricots verts",
+        "quantity": "150 g",
+        "note": "Cuisson à l'eau salée 8 minutes."
+      },
+      {
+        "name": "Oignons",
+        "quantity": "2",
+        "note": "Émincés, ajoutés au bœuf saisi."
+      },
+      {
+        "name": "Huile d'olive",
+        "quantity": "5 cl",
+        "note": "Pour sauter les carottes."
+      },
+      {
+        "name": "Graines de sésame blanches",
+        "quantity": "10 g",
+        "note": "Assaisonnement et finition."
+      },
+      {
+        "name": "Œufs",
+        "quantity": "6",
+        "note": "La recette indique un œuf au centre sans détailler la cuisson; production proposée: œufs au plat, blancs pris, jaunes intacts."
+      },
+      {
+        "name": "Sauce piment chili",
+        "quantity": "4 cl",
+        "note": "Mélangée à l'huile de sésame pour la sauce finale; ne pas remplacer explicitement par gochujang sans confirmation."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Rincer le riz basmati, le cuire avec 45 cl d'eau et du sel, couvrir jusqu'à évaporation, puis laisser étuver 10 minutes hors du feu sans retirer le couvercle.",
+        "timing": "Cuisson par absorption puis 10 min d'étuvage",
+        "visualCue": "riz blanc humide en grains séparés, vapeur douce au soulèvement du couvercle",
+        "block": "riz",
+        "textureCue": "grains distincts, brillants, non collés en bouillie",
+        "runwayRisk": "le riz peut devenir pâteux ou flou si la vapeur masque les grains"
+      },
+      {
+        "position": 2,
+        "text": "Émincer le rumsteck en fines lamelles puis en bâtonnets réguliers.",
+        "timing": null,
+        "visualCue": "bâtonnets de bœuf fins alignés sur planche",
+        "block": "bœuf mariné",
+        "textureCue": "chair rouge nette, coupe fine, fibres visibles",
+        "runwayRisk": "risque de gros steak entier ou viande hachée au lieu de lamelles"
+      },
+      {
+        "position": 3,
+        "text": "Hacher l'ail et le gingembre, puis mélanger sauce soja, sucre, sel, ail, gingembre et huile de sésame.",
+        "timing": null,
+        "visualCue": "marinade sombre et brillante avec éclats d'ail et gingembre",
+        "block": "bœuf mariné",
+        "textureCue": "liquide fluide, noir ambré, huile légèrement satinée",
+        "runwayRisk": "la marinade peut être rendue comme une pâte opaque"
+      },
+      {
+        "position": 4,
+        "text": "Mélanger le bœuf avec la marinade et le réserver 30 minutes au frais.",
+        "timing": "30 min de marinade",
+        "visualCue": "lamelles de bœuf lustrées dans un bol, marinade soja-sésame accrochée aux fibres",
+        "block": "bœuf mariné",
+        "textureCue": "surface brillante, humide, morceaux séparés",
+        "runwayRisk": "les lamelles peuvent fusionner en masse indistincte"
+      },
+      {
+        "position": 5,
+        "text": "Cuire séparément les pousses d'épinard 1 minute, les pousses de soja 3 minutes et les haricots verts 8 minutes dans l'eau salée, puis égoutter.",
+        "timing": "1 min épinards, 3 min soja, 8 min haricots verts",
+        "visualCue": "trois légumes verts ou pâles égouttés séparément",
+        "block": "légumes blanchis",
+        "textureCue": "légumes souples mais encore colorés, surface humide",
+        "runwayRisk": "risque de mélanger tous les légumes trop tôt"
+      },
+      {
+        "position": 6,
+        "text": "Assaisonner séparément les épinards, pousses de soja et haricots avec huile de sésame, sel et graines de sésame.",
+        "timing": null,
+        "visualCue": "sésame blanc collé sur légumes lustrés",
+        "block": "légumes assaisonnés",
+        "textureCue": "huile fine, graines sèches contrastantes, légumes distincts",
+        "runwayRisk": "les graines peuvent dériver en poussière ou disparaître"
+      },
+      {
+        "position": 7,
+        "text": "Tailler les carottes en julienne et émincer les oignons.",
+        "timing": null,
+        "visualCue": "bâtonnets orange fins et oignons blancs en lamelles",
+        "block": "légumes sautés",
+        "textureCue": "julienne nette, coupe fine, couleurs séparées",
+        "runwayRisk": "les carottes peuvent devenir des rondelles ou gros bâtons"
+      },
+      {
+        "position": 8,
+        "text": "Sauter rapidement les carottes à l'huile d'olive, saler, puis les débarrasser.",
+        "timing": "sauté rapide",
+        "visualCue": "julienne orange brillante qui bouge dans la poêle",
+        "block": "légumes sautés",
+        "textureCue": "surface huilée, carottes encore structurées",
+        "runwayRisk": "les carottes peuvent brunir excessivement ou se transformer en purée"
+      },
+      {
+        "position": 9,
+        "text": "Saisir le bœuf avec sa marinade; lorsqu'il dore, ajouter l'oignon et cuire 2 minutes.",
+        "timing": "2 min après ajout des oignons",
+        "visualCue": "lamelles de bœuf dorées et oignons translucides dans une poêle brillante",
+        "block": "bœuf saisi",
+        "textureCue": "caramélisation soja-sésame, vapeur courte, jus brillant",
+        "runwayRisk": "risque de gros morceaux, sauce brûlée noire ou wok flambé"
+      },
+      {
+        "position": 10,
+        "text": "Mélanger huile de sésame et sauce piment chili pour préparer la sauce finale.",
+        "timing": null,
+        "visualCue": "sauce rouge sombre brillante en mince filet",
+        "block": "sauce",
+        "textureCue": "fluide, satinée, pas pâteuse",
+        "runwayRisk": "risque de pâte épaisse opaque ou sauce trop abondante"
+      },
+      {
+        "position": 11,
+        "text": "Cuire ou préparer les œufs pour le dressage au centre du bol.",
+        "timing": null,
+        "visualCue": "œuf au plat, blanc pris, jaune bombé intact",
+        "block": "œuf",
+        "textureCue": "jaune coulant retenu par une membrane brillante",
+        "runwayRisk": "la source ne détaille pas la cuisson; le jaune peut éclater trop tôt"
+      },
+      {
+        "position": 12,
+        "text": "Dresser le riz dans un bol, disposer légumes et bœuf en zones colorées, placer l'œuf au centre, parsemer de sésame et ajouter une cuillère à soupe de sauce.",
+        "timing": null,
+        "visualCue": "bol de 16-18 cm avec riz au fond, 5-6 zones colorées, bœuf brillant, œuf central et sauce rouge sombre",
+        "block": "dressage",
+        "textureCue": "contraste riz moelleux, légumes lustrés, viande dorée, jaune coulant",
+        "runwayRisk": "les garnitures peuvent se mélanger ou perdre leur disposition radiale"
+      }
+    ],
+    "subRecipes": [
+      "riz par absorption",
+      "bœuf mariné soja-sésame",
+      "légumes blanchis et assaisonnés",
+      "carottes sautées",
+      "sauce sésame-piment",
+      "œuf central",
+      "dressage du bol"
+    ],
+    "assumptions": [
+      "La production montrera un bol héro individuel plutôt que six bols, avec les portions restantes implicites.",
+      "Le bol héro est verrouillé à 16-18 cm de diamètre, riz couvrant le fond, garnitures en 5-6 zones distinctes.",
+      "La quantité de rumsteck affichée à 2 g est considérée comme une erreur; les prompts décrivent des lamelles fines sans afficher de quantité textuelle.",
+      "L'œuf est traité comme un œuf au plat à jaune intact et coulant, car la source ne détaille pas sa cuisson.",
+      "La sauce finale est nommée sauce piment chili/sésame; le gochujang n'est pas imposé comme ingrédient source.",
+      "Les légumes restent séparés jusqu'au dressage final pour préserver le motif bibimbap."
+    ],
+    "timing": {
+      "prep": "30 min",
+      "cook": "15 min",
+      "total": null
+    },
+    "criticalTransformations": [
+      "Le riz doit passer de grains rincés à grains cuits humides et séparés, jamais en bouillie.",
+      "Le bœuf doit rester en lamelles fines de 0,5-1 cm par 4-6 cm, mariné puis doré, jamais steak entier ni haché.",
+      "Les légumes doivent rester en familles colorées séparées après cuisson et assaisonnement.",
+      "L'œuf central doit garder un jaune bombé intact jusqu'au hook de rupture contrôlée.",
+      "La sauce sésame-piment doit rester fluide et brillante, dosée à environ une cuillère à soupe par bol.",
+      "Le dressage final doit conserver une géométrie radiale lisible autour de l'œuf central."
+    ],
+    "visualTextureOpportunities": [
+      "Jaune d'œuf percé qui coule lentement sur le riz et les légumes.",
+      "Bœuf saisi qui grésille dans une marinade soja-sésame brillante.",
+      "Vapeur du riz à l'ouverture du couvercle, avec grains blancs distincts.",
+      "Julienne de carottes orange qui saute rapidement et reste brillante.",
+      "Graines de sésame blanches qui tombent sur légumes huilés et œuf.",
+      "Sauce pimentée sombre versée en filet court sur un bol multicolore.",
+      "Motif final en quartiers colorés: vert, orange, blanc, brun et jaune."
+    ],
+    "possibleHooks": [
+      "Percer le jaune d'œuf du bol final et le laisser napper les garnitures en 1 seconde.",
+      "Montrer les lamelles de bœuf qui grésillent dans la marinade soja-sésame.",
+      "Faire tomber les graines de sésame sur un bol radial parfaitement rangé.",
+      "Soulever le couvercle du riz pour révéler une vapeur dense et des grains distincts.",
+      "Verser une cuillère de sauce piment-sésame brillante autour de l'œuf central."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "seedance-workflow",
+      "asset-reference-system",
+      "suno-music-generation",
+      "seedance-references workspace rule",
+      "recipe-agent-core workspace rule"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "rumsteck-quantity",
+      "question": "La quantité réelle de rumsteck est-elle environ 300 g ou bien 2 pièces/pavés, puisque la page affiche 2 g ?",
+      "reason": "La quantité source semble erronée et peut changer la proportion visible de bœuf dans le bol final."
+    },
+    {
+      "id": "egg-cooking",
+      "question": "Souhaitez-vous confirmer l'œuf au plat à jaune coulant au centre, ou une autre présentation de l'œuf ?",
+      "reason": "La source indique l'œuf au centre mais ne détaille pas la cuisson; l'œuf coulant est un hook visuel fort."
+    },
+    {
+      "id": "chili-sauce",
+      "question": "La sauce piment chili doit-elle être représentée comme une sauce coréenne gochujang ou rester une sauce pimentée générique comme dans la source extraite ?",
+      "reason": "Nommer gochujang sans preuve source peut modifier l'identité culinaire et les prompts."
+    },
+    {
+      "id": "serving-geometry",
+      "question": "Le montage final doit-il montrer un seul bol héro individuel ou les six portions préparées ?",
+      "reason": "Le nombre de bols change les références, l'échelle et la lisibilité du dressage final."
+    }
+  ]
+}

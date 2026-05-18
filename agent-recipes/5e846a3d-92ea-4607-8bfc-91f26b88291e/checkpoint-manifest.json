@@ -1,0 +1,27 @@
+{
+  "videoId": "5e846a3d-92ea-4607-8bfc-91f26b88291e",
+  "stage": "recipe_ingest",
+  "branch": "cursor/recipe-ingest-bibimbap-a4c0",
+  "latestPushedCommitSha": null,
+  "manifestPath": "agent-recipes/5e846a3d-92ea-4607-8bfc-91f26b88291e/checkpoint-manifest.json",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md",
+    "checkpoint-manifest.json"
+  ],
+  "validation": {
+    "jsonStrict": true,
+    "seedanceReferencesWithinLimit": true,
+    "kitchenContinuityPairsPresent": true,
+    "checkedAt": "2026-05-18T07:32:01Z"
+  },
+  "notes": [
+    "Initial manifest created before validation and push. latestPushedCommitSha is filled after a pushed checkpoint exists."
+  ]
+}

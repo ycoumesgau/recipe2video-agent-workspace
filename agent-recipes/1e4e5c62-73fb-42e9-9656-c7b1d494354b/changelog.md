@@ -21,4 +21,4 @@
 - Confirmed the updated spatula-family naming does not require prompt changes for this recipe because it uses `@Spoon`, `@Tongs`, and `@SaucepanLarge`, not `@Spatula`.
 - Updated `decisions.md` to remove the stale note about assets not being visible locally.
 - Revalidated strict JSON structure and Seedance/Suno artifact constraints before checkpoint refresh.
-
+- Updated `checkpoint-manifest.json` with pushed post-main-refresh commit `714362242f6bd2752e671f479918de1af74085d1`.

@@ -1,7 +1,7 @@
 {
   "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
   "branch": "cursor/recipe-ingest-egg-boil-9ab5",
-  "commitSha": "cd85114af12543bfd2077a5ad606562b10352738",
+  "commitSha": "714362242f6bd2752e671f479918de1af74085d1",
   "manifestPath": "agent-recipes/1e4e5c62-73fb-42e9-9656-c7b1d494354b/checkpoint-manifest.json",
   "artifacts": [
     "recipe-analysis.json",
@@ -14,5 +14,5 @@
     "changelog.md"
   ],
   "updatedAt": "2026-05-18T11:01:00Z",
-  "note": "Main was pulled and artifacts were checked against updated skills; commitSha will be refreshed after pushing the validation commit."
+  "note": "Points to the pushed commit that merged main and refreshed artifacts against the updated skills."
 }

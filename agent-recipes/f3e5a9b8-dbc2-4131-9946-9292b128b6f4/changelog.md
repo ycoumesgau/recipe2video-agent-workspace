@@ -11,3 +11,9 @@
 - Created `decisions.md` documenting creative choices, scale assumptions, reference minimization and remaining non-blocking ambiguity.
 - Added `checkpoint-manifest.json`; final commit SHA will be updated after the artifact commit is pushed.
 - Tightened review findings before commit: segment 05 now includes visible hands, pose and mandatory tong handling for hot steamer actions; segment 05 repeats the 20 cm pan and 3-5 cm height scale lock; final bite reveal consistently uses `@Spoon`.
+
+## 2026-05-18 - Artifact readiness refresh
+
+- Rechecked the recipe artifact set for the general artifact-generation request.
+- Confirmed all required planning artifacts are present for the recipe workspace.
+- Refreshed `checkpoint-manifest.json` so Recipe2Video has an up-to-date pushed checkpoint pointer for the current artifact set.

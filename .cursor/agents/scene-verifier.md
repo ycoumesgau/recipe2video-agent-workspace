@@ -24,7 +24,7 @@ Check:
 - size/proportion anchors for ambiguous objects (diameter, thickness, count, relative anchor);
 - no unrealistic scale (for example soccer-ball-sized arancini unless explicitly intended);
 - continuity locks for object proportions across adjacent segments;
-- utensil-task match (for example deep-fry retrieval -> `@SpiderSkimmer`, not `@Spatula`);
+- utensil-task match (for example deep-fry retrieval -> `@SpiderSkimmer`, not `@SiliconeSpatula`; lasagna/gratin portion -> `@TurningSpatula`, not `@SiliconeSpatula`);
 - no cloth-fused hand handling in hot-transfer actions;
 - plating side quantities explicit (no tiny accidental garnish when a side component is intended);
 - side/prop continuity across segments (if introduced and relevant, still visible later or explicitly removed);

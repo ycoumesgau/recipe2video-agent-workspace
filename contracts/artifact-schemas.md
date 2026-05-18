@@ -136,6 +136,8 @@ Scale guidance for `logical-scenes.json`:
 
 The app requires 5-10 Seedance segments.
 
+**Runway Seedance 2 duration:** each segment's `durationTarget` must be an **integer** from **5** to **15** seconds inclusive. Values outside that range fail Recipe2Video validation (artifact sync) or pre-flight checks before Runway is called.
+
 Scale guidance for `seedance-segments.json`:
 
 - put size/proportion continuity in `continuity`;

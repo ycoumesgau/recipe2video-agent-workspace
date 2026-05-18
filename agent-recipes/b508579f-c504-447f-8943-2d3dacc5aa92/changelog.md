@@ -12,3 +12,4 @@
 - Noted unresolved choices: optional pickled radishes and regular versus vegan spicy mayo.
 - No paid generation or external production service was launched.
 - Refreshed `checkpoint-manifest.json` during status review so it records the latest pushed artifact commit available at review time.
+- Pulled `origin/main`, re-read the updated Recipe2Video skills, and replaced the legacy `@Spatula` utensil reference with `@SiliconeSpatula` in the tofu coating segment and reference plan.

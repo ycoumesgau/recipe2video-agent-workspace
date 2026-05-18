@@ -30,6 +30,7 @@
 
 - Global kitchen continuity pair is present in every Seedance segment: `@KitchenLayoutContextWide` plus a shot-specific kitchen view.
 - Existing asset references are limited to real files or documented aliases from the asset reference skill.
+- After pulling `origin/main`, the spatula-family guidance was refreshed: tofu coating now uses `@SiliconeSpatula` explicitly instead of the legacy `@Spatula` alias.
 - Recipe-specific state references are planned for sauce, tofu, rice, fresh toppings, pickled radishes, nori strips, assembly, and final hero.
 - These recipe-specific references are marked `generated_reference_needed` in `reference-plan.json`; no image generation was run in this workspace.
 

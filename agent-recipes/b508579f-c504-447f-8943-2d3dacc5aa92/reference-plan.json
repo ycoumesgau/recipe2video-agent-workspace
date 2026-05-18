@@ -134,11 +134,11 @@
     },
     {
       "type": "utensil",
-      "canonicalName": "Spatula",
+      "canonicalName": "SiliconeSpatula",
       "role": "tofu coating and gentle toss utensil",
       "priority": 2,
       "source": "existing_asset",
-      "prompt": "Use to toss tofu cubes with glaze; avoid substituting a spoon if the spatula is visible.",
+      "prompt": "Use the flexible silicone spatula only to scrape the bowl and gently coat tofu cubes with glaze; do not use it to lift hot tofu from the oven or support a rigid slice.",
       "runwayUri": null,
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-02"],

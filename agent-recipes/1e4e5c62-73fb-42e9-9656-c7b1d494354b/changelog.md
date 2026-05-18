@@ -8,4 +8,4 @@
 - Created `reference-plan.json` using existing canonical kitchen, character, pose, expression, and utensil assets only.
 - Created `suno-prompt.json` and `suno-prompt.md` for a manual Suno workflow, keeping music separate from Seedance video prompts.
 - Created `decisions.md` documenting the jammy-yolk assumption, no-side-dish choice, sparse parsley lock, and reference-image restraint.
-- `checkpoint-manifest.json` will be updated after the pushed commit SHA is available.
+- Updated `checkpoint-manifest.json` with pushed artifact commit `5a108fb3e47bf8a3a8b907c434a9f0e624056a15`.

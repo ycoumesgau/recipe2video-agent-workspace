@@ -5,11 +5,20 @@
       "canonicalName": "KitchenLayoutContextWide",
       "role": "Structural Licorn kitchen volumetric continuity for every Seedance segment",
       "priority": 1,
-      "source": "existing_asset",
-      "prompt": "Preserve cabinet geometry, luminous terrazzo massing, lighting temperature, island placement. Structural context anchor only—not a mandate to compose every shot as architectural wide-angle.",
+      "source": "agent_reference_plan",
+      "prompt": "Preserve cabinet geometry, luminous terrazzo massing, lighting temperature, island placement. Structural context anchor only\u2014not a mandate to compose every shot as architectural wide-angle.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -17,11 +26,18 @@
       "canonicalName": "KitchenIslandOverhead",
       "role": "Terrazzo countertop overhead storytelling + hinge-cut / fold geometry legibility",
       "priority": 1,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Lock cutting-board island plane, shadow softness, countertop color calibration for tortilla quadrant reads.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-03", "segment-04", "segment-05", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -29,11 +45,16 @@
       "canonicalName": "KitchenIslandDefault",
       "role": "Primary island-front identity for heroes, bites, finale satisfaction framing",
       "priority": 1,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Use when mediums or plating closers demand recognizable Licorn frontal island richness including terrazzo veining fidelity.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -41,11 +62,15 @@
       "canonicalName": "InductionWide",
       "role": "Flush black induction choreography with skillet taco + crunchwrap blister coverage",
       "priority": 1,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Maintain consistent burner-scale proportion, subdued reflections, forbid invented gas grates.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-06"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -53,11 +78,14 @@
       "canonicalName": "InductionCloseup",
       "role": "Macro thermal fidelity for spice blooming, leopard blister skin science, cheesy seam ooze macros",
       "priority": 2,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Tight shimmering heat haze fidelity without open flame hallucinations.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-06"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -65,11 +93,20 @@
       "canonicalName": "CharacterSheet",
       "role": "Canonical Licorn mascot body + wardrobe fidelity across hands/torso shots",
       "priority": 1,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Do not freestyle alternate costumes; uphold approved horn + apron grammar.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-07", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -77,11 +114,19 @@
       "canonicalName": "PoseTopDown",
       "role": "Top-down kinematic posture for tortillas, folds, strata bisect choreography",
       "priority": 2,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Use with overhead kitchen plates to constrain wrist orientation and plausible knife arcs.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02", "segment-03", "segment-04", "segment-05", "segment-06", "segment-08"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -89,11 +134,13 @@
       "canonicalName": "PoseFront",
       "role": "Frontal bite tableau posture legibility referencing satisfying munch macro",
       "priority": 2,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Guarantee readable jaw alignment + snack scale without caricature deformation.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-07"],
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
       "status": "planned"
     },
     {
@@ -101,11 +148,13 @@
       "canonicalName": "PoseThreeQuarterRight",
       "role": "Three-quarter relaxed victory posture anchoring finale satisfaction beat",
       "priority": 2,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Soft confident shoulders, approachable hero energy, harmonious with platter foreground steam.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
@@ -113,23 +162,28 @@
       "canonicalName": "CharacterExpressions",
       "role": "Approved subtle smile / satisfaction micro-expression bandwidth for finale",
       "priority": 2,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Keeps mascot from drifting into exaggerated meme faces.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-08"],
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
       "status": "planned"
     },
     {
       "type": "utensil",
       "canonicalName": "SiliconeSpatula",
-      "role": "French maryse / flexible silicone blade for sauté crumble break-up + pan scraping plus spice folds",
+      "role": "French maryse / flexible silicone blade for saut\u00e9 crumble break-up + pan scraping plus spice folds",
       "priority": 2,
-      "source": "existing_asset",
-      "prompt": "Mirrors utensil-task-mapping.md: folding/scraping in bowls, saucepans, or analogous sauté pans; never substitute TurningSpatula for rigid wedge lifts beneath portions or deep-fry retrieval.",
+      "source": "agent_reference_plan",
+      "prompt": "Mirrors utensil-task-mapping.md: folding/scraping in bowls, saucepans, or analogous saut\u00e9 pans; never substitute TurningSpatula for rigid wedge lifts beneath portions or deep-fry retrieval.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-02"],
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02"
+      ],
       "status": "planned"
     },
     {
@@ -137,11 +191,13 @@
       "canonicalName": "TurningSpatula",
       "role": "Rigid lift + controlled flip choreography for toasted triangular wedge",
       "priority": 2,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Supports entire puck area to avoid taco tear-outs; distinguishes from flexible bowl spatulas.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -149,11 +205,14 @@
       "canonicalName": "Spoon",
       "role": "Rounded silhouette for taco reserve transfer gestures + garnish dollops cues",
       "priority": 3,
-      "source": "existing_asset",
+      "source": "agent_reference_plan",
       "prompt": "Helps articulate humble scoop physics without inventing ornate ladles.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-02", "segment-03"],
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03"
+      ],
       "status": "planned"
     },
     {
@@ -161,11 +220,13 @@
       "canonicalName": "WrapTortillaCutFlat",
       "role": "Flattened flour tortilla exhibiting exactly one radial slit from hub to rim before toppings",
       "priority": 1,
-      "source": "generated_reference_needed",
+      "source": "agent_reference_plan",
       "prompt": "Generate overhead photo of authentic ~10 inch flour tortilla on neutral board featuring exactly ONE hinge cut bisecting from dead center outward toward ONE rim cardinal point ONLY. No taco fold yet, no fillings, tortilla pliable softly creased negatives: forbid multiple slashes, forbid star-shaped wedges.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-03"],
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
       "status": "planned"
     },
     {
@@ -173,11 +234,13 @@
       "canonicalName": "WrapQuadrantsFilled",
       "role": "Pre-fold quadrant map for Crunchwrap supreme edition fillings",
       "priority": 1,
-      "source": "generated_reference_needed",
+      "source": "agent_reference_plan",
       "prompt": "Overhead authoritative photo of radial-hinged tortilla with FOUR cleanly separated wedges: leafy lettuce/tomato sector, sour cream with half-dozen tortilla chips crisp-up, spiced ground beef crowned with shredded Mexican blend quadrant, solitary cheese-bed quadrant negatives: forbid blurry homogenous taco salad swirl.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-04"],
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
       "status": "planned"
     },
     {
@@ -185,11 +248,13 @@
       "canonicalName": "WrapGrilledExteriorGolden",
       "role": "Post-skillet leopard-spotted tortilla skin before cross-section storytelling",
       "priority": 2,
-      "source": "generated_reference_needed",
+      "source": "agent_reference_plan",
       "prompt": "Macro/tight hero of triangular folded crunchwrap emphasizing amber micro-blister topography, subdued cheese ooze halo at seams, negatives: forbids uniform charcoal black cremation, forbids dripping orange grease flood.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-06"],
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
       "status": "planned"
     },
     {
@@ -197,11 +262,13 @@
       "canonicalName": "WrapCrossSectionLayers",
       "role": "Vertical split exposing chip laminate, lettuce strata, spiced beef crumble, fused cheeses",
       "priority": 1,
-      "source": "generated_reference_needed",
+      "source": "agent_reference_plan",
       "prompt": "Generate controlled cross-section of stacked TikTok quadrant crunchwrap emphasizing crisp planar tortilla chip sheet embedded between dairy and vegetables with recognizable taco beef crumble band negatives: forbids monochrome brown paste illusion, forbids exaggerated infinite cheese tether CGI.",
       "runwayUri": null,
       "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-07"],
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
       "status": "planned"
     }
   ]

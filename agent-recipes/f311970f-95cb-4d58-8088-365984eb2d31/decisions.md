@@ -1,5 +1,11 @@
 # Decisions — `f311970f-95cb-4d58-8088-365984eb2d31`
 
+## Zod / contrat Recipe2Video (alignement strict)
+
+- **`reference-plan.json`** : chaque entrée utilise désormais `source: "agent_reference_plan"` comme dans `contracts/artifact-schemas.md` (les variantes `existing_asset` / `generated_reference_needed` retiraient un risque d’échec si le schéma côté app enumère strictement cette valeur).
+- **`suno-prompt.json`** : `status.model` aligné sur la chaîne canonique du skill Suno (`Suno 5.5 Advanced / Custom Mode`) pour correspondre au gabarit `sunoPromptV2` attendu en Zod.
+- **Validation structurelle** : script Python de contrôle des clés `recipe-analysis`, `logical-scenes`, `seedance-segments`, `reference-plan`, `suno-prompt` + fichiers Markdown non vides.
+
 ## Sync `main` + skills (2026-05-18)
 
 - `origin/main` (incluant le merge **#6** précisant `@SiliconeSpatula` comme *maryse*) est déjà dans l’historique de cette branche feature ; un `fetch`/`merge` régulier garantit que les règles `asset-reference-system` / `utensil-task-mapping.md` restent la source de vérité devant les prompts.

@@ -1,5 +1,11 @@
 # Changelog — `f311970f-95cb-4d58-8088-365984eb2d31`
 
+## 2026-05-18 — Pass Zod / contrat strict (enum `source` + Suno `model`)
+
+- Normalisation `reference-plan.json`: toutes les entrées `source` → **`agent_reference_plan`** (alignement `contracts/artifact-schemas.md`).
+- `suno-prompt.json`: `status.model` → **`Suno 5.5 Advanced / Custom Mode`** (skill Suno / schéma attendu).
+- Revue manuelle : ordre des sections dans `suno-prompt.md`, champs obligatoires sur l’ensemble des JSON listés.
+
 ## 2026-05-18 — Skills sync (`main` + maryse doc)
 
 - Vérifié `fetch`/`merge` de `origin/main` sur la branche recipe (inchangée car déjà à jour).

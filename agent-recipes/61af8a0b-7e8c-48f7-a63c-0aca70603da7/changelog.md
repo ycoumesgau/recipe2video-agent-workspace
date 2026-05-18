@@ -25,3 +25,10 @@
 - Removed extra non-contract metadata from `recipe-analysis.json`; the same production/default context is retained in `decisions.md`.
 - Removed the non-contract `kitchenContinuityPairPresent` property from Seedance `qaChecklist` objects while preserving the actual required kitchen reference pairs in segment references and prompts.
 - Revalidated the artifact set against strict key checks intended to reduce Zod retrieval failures.
+
+## 2026-05-18 - Seedance duration correction
+
+- Pulled `origin/main` and reviewed the updated Seedance duration requirements.
+- Fixed `segment-04` in `seedance-segments.json`: `durationTarget` is now 5 seconds instead of 4 seconds.
+- Updated `segment-04` `prompt`, `promptInitial`, and `timing` entries so the declared total duration and mandatory timing bullets align to 5.0 seconds.
+- Added validation coverage for integer Seedance segment durations in the 5-15 second accepted window.

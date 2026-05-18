@@ -36,3 +36,9 @@
 - Pulled `origin/main` into the working branch and reapplied the current asset/Seedance/Suno skills.
 - Removed non-contract metadata from `recipe-analysis.json` to avoid strict Zod rejection. The removed metadata remains preserved here as decisions: desired final visual URL `https://cdn.sanity.io/images/fl949yr7/production/ff687323573ae76187cc7d4e48e699d980e490e1-1024x1365.png?q=85&fit=clip&auto=format`, style preset `asmr_food`, and production defaults `seedance2`, `gpt_image_2`, `eleven_multilingual_v2`, `eleven_text_to_sound_v2`.
 - Removed the non-contract `kitchenContinuityPairPresent` key from each segment `qaChecklist`; the actual kitchen continuity pair remains present in every segment reference list and is validated separately.
+
+## 2026-05-18 Seedance duration correction
+
+- Pulled `origin/main` again and reapplied the updated Seedance rule: every Seedance 2 segment must use an integer `durationTarget` from 5 to 15 seconds inclusive.
+- Corrected `segment-04` from 4 seconds to 5 seconds, including `durationTarget`, `prompt`, `promptInitial`, and timing bullets.
+- No other segment required duration changes; all seven segments now meet the 5-15 second Seedance window.

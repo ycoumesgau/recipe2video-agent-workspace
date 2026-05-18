@@ -14,8 +14,8 @@
         "scene-04"
       ],
       "description": "Finished dumpling-lasagna surface, sesame rain, cutaway lift and quick kitchen re-anchor.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @TurningSpatula only as the rigid serving lift tool; do not use @SiliconeSpatula for lifting the portion. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet turning-spatula lift and soft counter set-down. Mandatory timing: 0.0-1.0s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.0-1.8s white sesame and scallion fall onto the glossy surface; 1.8-3.2s turning spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 3.2-4.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @TurningSpatula only as the rigid serving lift tool; do not use @SiliconeSpatula for lifting the portion. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet turning-spatula lift and soft counter set-down. Mandatory timing: 0.0-1.0s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.0-1.8s white sesame and scallion fall onto the glossy surface; 1.8-3.2s turning spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 3.2-4.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @TurningSpatula only as the rigid serving lift tool; do not use @SiliconeSpatula for lifting the portion. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet turning-spatula lift and soft counter set-down. Mandatory timing: 0.0-1.2s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.2-2.2s white sesame and scallion fall onto the glossy surface; 2.2-4.0s turning spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 4.0-5.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not camera framing. Use @KitchenIslandDefault as the active island serving view and terrazzo material lock. Use @FinishedDumplingLasagnaCutaway only as final dish geometry: compact 20 cm square steamed dumpling lasagna, translucent wrapper top, soy gloss, sesame, scallion, visible layered cutaway, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight only for consistent visible hands near the pan. Use @TurningSpatula only as the rigid serving lift tool; do not use @SiliconeSpatula for lifting the portion. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels sexy food-porn ASMR style, macro first. Integrated audio: no speech, no voiceover, no music; only soy drizzle, sesame patter, wet turning-spatula lift and soft counter set-down. Mandatory timing: 0.0-1.2s extreme macro dark soy ribbon crawls over the steamy satin wrapper top; 1.2-2.2s white sesame and scallion fall onto the glossy surface; 2.2-4.0s turning spatula lifts one hot square, exposing tender dumpling-wrapper and juicy pork layers; 4.0-5.0s tight context of the finished square pan on the Licorn island. Scale lock: pan is 8 in / 20 cm square, serving lift is one quarter of the pan, height 3-5 cm, wrappers are flat 8-10 cm pieces, not oversized, not miniature. Kitchen continuity: countertop remains light terrazzo; do not redesign kitchen layout. Global negatives: no text on screen, no subtitles, no tomato sauce, no cheese pull, no long lasagna noodles, no folded dumplings, no wood countertop, no new stovetop design.",
       "references": [
         {
           "role": "structural Licorn kitchen context",
@@ -73,10 +73,10 @@
         "finished pan re-anchor"
       ],
       "timing": [
-        "0.0-1.0s soy gloss",
-        "1.0-1.8s garnish rain",
-        "1.8-3.2s cutaway lift",
-        "3.2-4.0s island re-anchor"
+        "0.0-1.2s soy gloss",
+        "1.2-2.2s garnish rain",
+        "2.2-4.0s cutaway lift",
+        "4.0-5.0s island re-anchor"
       ],
       "continuity": "Establishes final compact 20 cm square dumpling-lasagna geometry, 3-5 cm height, no tomato or cheese. Kitchen surface is light terrazzo.",
       "risk": "High drift risk toward Italian lasagna, cheese pull or folded dumplings; final cutaway reference is required for this hook.",
@@ -110,7 +110,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     },
     {
@@ -605,8 +605,8 @@
         "scene-28"
       ],
       "description": "Cooked pan returns to island and gets the glossy garnish treatment.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active serving island view. Use @baking_dish as the same 20 cm square pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible serving hands. Use @Spoon only as soy drizzle utensil if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels glossy food-porn ASMR style, mostly macro. Integrated audio: no speech, no voiceover, no music; only pan set-down, thick soy drizzle, scallion scatter, sesame taps. Mandatory timing: 0.0-0.7s cooked square pan rests on island with steam rising; 0.7-1.8s dark soy drizzles in thin lines over tender translucent wrappers; 1.8-2.7s scallion ribbons cover roughly one third of the surface, visible but not full coverage; 2.7-4.0s white sesame rains onto wet soy trails. Plating quantity lock: garnish remains visible and appetizing, not a single tiny leaf, not full-plate coverage. Geometry lock: compact 20 cm pan, 3-5 cm slab, no tomato, no cheese, no noodles. Kitchen continuity: light terrazzo island and same cabinet layout. Global negatives: no text, no speech, no music, no tomato sauce, no cheese pull, no Italian herbs.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active serving island view. Use @baking_dish as the same 20 cm square pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible serving hands. Use @Spoon only as soy drizzle utensil if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels glossy food-porn ASMR style, mostly macro. Integrated audio: no speech, no voiceover, no music; only pan set-down, thick soy drizzle, scallion scatter, sesame taps. Mandatory timing: 0.0-0.7s cooked square pan rests on island with steam rising; 0.7-1.8s dark soy drizzles in thin lines over tender translucent wrappers; 1.8-2.7s scallion ribbons cover roughly one third of the surface, visible but not full coverage; 2.7-4.0s white sesame rains onto wet soy trails. Plating quantity lock: garnish remains visible and appetizing, not a single tiny leaf, not full-plate coverage. Geometry lock: compact 20 cm pan, 3-5 cm slab, no tomato, no cheese, no noodles. Kitchen continuity: light terrazzo island and same cabinet layout. Global negatives: no text, no speech, no music, no tomato sauce, no cheese pull, no Italian herbs.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active serving island view. Use @baking_dish as the same 20 cm square pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible serving hands. Use @Spoon only as soy drizzle utensil if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels glossy food-porn ASMR style, mostly macro. Integrated audio: no speech, no voiceover, no music; only pan set-down, thick soy drizzle, scallion scatter, sesame taps. Mandatory timing: 0.0-1.0s cooked square pan rests on island with steam rising; 1.0-2.3s dark soy drizzles in thin lines over tender translucent wrappers; 2.3-3.5s scallion ribbons cover roughly one third of the surface, visible but not full coverage; 3.5-5.0s white sesame rains onto wet soy trails. Plating quantity lock: garnish remains visible and appetizing, not a single tiny leaf, not full-plate coverage. Geometry lock: compact 20 cm pan, 3-5 cm slab, no tomato, no cheese, no noodles. Kitchen continuity: light terrazzo island and same cabinet layout. Global negatives: no text, no speech, no music, no tomato sauce, no cheese pull, no Italian herbs.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active serving island view. Use @baking_dish as the same 20 cm square pan. Use @CharacterSheet and @PoseThreeQuarterRight only for visible serving hands. Use @Spoon only as soy drizzle utensil if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels glossy food-porn ASMR style, mostly macro. Integrated audio: no speech, no voiceover, no music; only pan set-down, thick soy drizzle, scallion scatter, sesame taps. Mandatory timing: 0.0-1.0s cooked square pan rests on island with steam rising; 1.0-2.3s dark soy drizzles in thin lines over tender translucent wrappers; 2.3-3.5s scallion ribbons cover roughly one third of the surface, visible but not full coverage; 3.5-5.0s white sesame rains onto wet soy trails. Plating quantity lock: garnish remains visible and appetizing, not a single tiny leaf, not full-plate coverage. Geometry lock: compact 20 cm pan, 3-5 cm slab, no tomato, no cheese, no noodles. Kitchen continuity: light terrazzo island and same cabinet layout. Global negatives: no text, no speech, no music, no tomato sauce, no cheese pull, no Italian herbs.",
       "references": [
         {
           "role": "structural Licorn kitchen context",
@@ -664,10 +664,10 @@
         "sesame rain"
       ],
       "timing": [
-        "0.0-0.7s pan rests",
-        "0.7-1.8s soy",
-        "1.8-2.7s scallion",
-        "2.7-4.0s sesame"
+        "0.0-1.0s pan rests",
+        "1.0-2.3s soy",
+        "2.3-3.5s scallion",
+        "3.5-5.0s sesame"
       ],
       "continuity": "Returns cooked pan from segment-05 to island. Garnish amount stays consistent into segments 07-08.",
       "risk": "Garnish can shrink to tiny specks or flood the surface; quantity lock keeps one-third coverage.",
@@ -699,7 +699,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     },
     {
@@ -716,8 +716,8 @@
         "scene-32"
       ],
       "description": "Turning-spatula cut and lift, sauce pool and tender jiggle reveal the dumpling layers.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @TurningSpatula only as the rigid lift tool that slides under and supports the portion; do not use @SiliconeSpatula for this lift. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-0.8s turning spatula presses into one quarter of the compact square pan; 0.8-2.0s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.0-2.8s small soy-sesame puddle glistens under the lifted portion; 2.8-4.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating turning spatula, no extra hands.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @TurningSpatula only as the rigid lift tool that slides under and supports the portion; do not use @SiliconeSpatula for this lift. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-0.8s turning spatula presses into one quarter of the compact square pan; 0.8-2.0s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.0-2.8s small soy-sesame puddle glistens under the lifted portion; 2.8-4.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating turning spatula, no extra hands.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @TurningSpatula only as the rigid lift tool that slides under and supports the portion; do not use @SiliconeSpatula for this lift. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-1.0s turning spatula presses into one quarter of the compact square pan; 1.0-2.6s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.6-3.6s small soy-sesame puddle glistens under the lifted portion; 3.6-5.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating turning spatula, no extra hands.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active island serving view. Use @FinishedDumplingLasagnaCutaway only as the target cross-section geometry: tender flat dumpling-wrapper layers, juicy pork-shiitake filling, soy-sesame gloss, compact square portion, no tomato or cheese. Use @CharacterSheet and @PoseThreeQuarterRight for consistent visible hands. Use @TurningSpatula only as the rigid lift tool that slides under and supports the portion; do not use @SiliconeSpatula for this lift. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food-porn ASMR style. Integrated audio: no speech, no voiceover, no music; only soft press, wet lift, tiny drip, tender jiggle. Mandatory timing: 0.0-1.0s turning spatula presses into one quarter of the compact square pan; 1.0-2.6s portion slides up and exposes alternating dumpling wrapper and pork layers; 2.6-3.6s small soy-sesame puddle glistens under the lifted portion; 3.6-5.0s lifted edge jiggles softly with steam. Scale lock: lifted portion is one quarter of a 20 cm square pan, slab height 3-5 cm, wrappers flat and thin, not oversized, not miniature. Geometry lock: no cheese pull, no tomato, no noodle sheets, no folded dumplings. Kitchen continuity: same light terrazzo island. Global negatives: no text, no speech, no music, no floating turning spatula, no extra hands.",
       "references": [
         {
           "role": "structural Licorn kitchen context",
@@ -775,10 +775,10 @@
         "soft jiggle"
       ],
       "timing": [
-        "0.0-0.8s press",
-        "0.8-2.0s lift",
-        "2.0-2.8s sauce pool",
-        "2.8-4.0s jiggle"
+        "0.0-1.0s press",
+        "1.0-2.6s lift",
+        "2.6-3.6s sauce pool",
+        "3.6-5.0s jiggle"
       ],
       "continuity": "Uses the same final geometry as segment-01. Garnish and soy gloss carry from segment-06.",
       "risk": "Cutaway is the highest geometry risk; final state reference is required to avoid Italian lasagna or cheese pull.",
@@ -812,7 +812,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     },
     {
@@ -829,8 +829,8 @@
         "scene-36"
       ],
       "description": "Hero framing, bite reveal, final gloss close-up and satisfied character in the Licorn kitchen.",
-      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active final hero view. Use @FinishedDumplingLasagnaCutaway only as finished dish and bite geometry. Use @CharacterSheet, @CharacterExpressions and @PoseFront only to keep the Licorn character visible and satisfied beside the food. Use @Spoon only for breaking one bite if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels final food-porn ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only quiet steam, soft tender tear and subtle utensil touch. Mandatory timing: 0.0-1.0s finished pan and lifted portion framed with the Licorn character visible but food dominant; 1.0-2.0s spoon edge breaks a hot bite and exposes juicy layered interior; 2.0-3.0s extreme macro of soy shine, sesame, scallion and steam pulsing upward; 3.0-4.0s end on satisfied Licorn beside the steaming pan in the same kitchen. Scale lock: compact 20 cm pan, one lifted quarter, 3-5 cm height, flat dumpling-wrapper layers. Kitchen continuity: same light terrazzo counter, same cabinet layout, no kitchen redesign. Global negatives: no text, no logo, no speech, no voiceover, no music, no tomato, no cheese pull, no extra shots.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active final hero view. Use @FinishedDumplingLasagnaCutaway only as finished dish and bite geometry. Use @CharacterSheet, @CharacterExpressions and @PoseFront only to keep the Licorn character visible and satisfied beside the food. Use @Spoon only for breaking one bite if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels final food-porn ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only quiet steam, soft tender tear and subtle utensil touch. Mandatory timing: 0.0-1.0s finished pan and lifted portion framed with the Licorn character visible but food dominant; 1.0-2.0s spoon edge breaks a hot bite and exposes juicy layered interior; 2.0-3.0s extreme macro of soy shine, sesame, scallion and steam pulsing upward; 3.0-4.0s end on satisfied Licorn beside the steaming pan in the same kitchen. Scale lock: compact 20 cm pan, one lifted quarter, 3-5 cm height, flat dumpling-wrapper layers. Kitchen continuity: same light terrazzo counter, same cabinet layout, no kitchen redesign. Global negatives: no text, no logo, no speech, no voiceover, no music, no tomato, no cheese pull, no extra shots.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active final hero view. Use @FinishedDumplingLasagnaCutaway only as finished dish and bite geometry. Use @CharacterSheet, @CharacterExpressions and @PoseFront only to keep the Licorn character visible and satisfied beside the food. Use @Spoon only for breaking one bite if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels final food-porn ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only quiet steam, soft tender tear and subtle utensil touch. Mandatory timing: 0.0-1.2s finished pan and lifted portion framed with the Licorn character visible but food dominant; 1.2-2.4s spoon edge breaks a hot bite and exposes juicy layered interior; 2.4-3.7s extreme macro of soy shine, sesame, scallion and steam pulsing upward; 3.7-5.0s end on satisfied Licorn beside the steaming pan in the same kitchen. Scale lock: compact 20 cm pan, one lifted quarter, 3-5 cm height, flat dumpling-wrapper layers. Kitchen continuity: same light terrazzo counter, same cabinet layout, no kitchen redesign. Global negatives: no text, no logo, no speech, no voiceover, no music, no tomato, no cheese pull, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context. Use @KitchenIslandDefault as active final hero view. Use @FinishedDumplingLasagnaCutaway only as finished dish and bite geometry. Use @CharacterSheet, @CharacterExpressions and @PoseFront only to keep the Licorn character visible and satisfied beside the food. Use @Spoon only for breaking one bite if a utensil appears. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels final food-porn ASMR style, no text on screen. Integrated audio: no speech, no voiceover, no music; only quiet steam, soft tender tear and subtle utensil touch. Mandatory timing: 0.0-1.2s finished pan and lifted portion framed with the Licorn character visible but food dominant; 1.2-2.4s spoon edge breaks a hot bite and exposes juicy layered interior; 2.4-3.7s extreme macro of soy shine, sesame, scallion and steam pulsing upward; 3.7-5.0s end on satisfied Licorn beside the steaming pan in the same kitchen. Scale lock: compact 20 cm pan, one lifted quarter, 3-5 cm height, flat dumpling-wrapper layers. Kitchen continuity: same light terrazzo counter, same cabinet layout, no kitchen redesign. Global negatives: no text, no logo, no speech, no voiceover, no music, no tomato, no cheese pull, no extra shots.",
       "references": [
         {
           "role": "structural Licorn kitchen context",
@@ -896,10 +896,10 @@
         "satisfied finish"
       ],
       "timing": [
-        "0.0-1.0s hero frame",
-        "1.0-2.0s bite reveal",
-        "2.0-3.0s gloss macro",
-        "3.0-4.0s satisfied Licorn"
+        "0.0-1.2s hero frame",
+        "1.2-2.4s bite reveal",
+        "2.4-3.7s gloss macro",
+        "3.7-5.0s satisfied Licorn"
       ],
       "continuity": "Ends with the same finished pan, cutaway, garnish quantity and Licorn kitchen identity established earlier.",
       "risk": "Character can overtake food; prompt keeps food dominant and character supportive.",
@@ -932,7 +932,7 @@
           "tiktok-food-direction"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     }
   ]

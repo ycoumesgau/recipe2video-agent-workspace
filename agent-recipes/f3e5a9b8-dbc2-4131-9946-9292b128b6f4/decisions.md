@@ -57,3 +57,9 @@
 - Pulled the latest `origin/main` again and applied the refreshed reference-image generation contract.
 - Added `conditioningReferences` to `FinishedDumplingLasagnaCutaway`: `KitchenIslandDefault`, `baking_dish`, and `TurningSpatula`.
 - Kept character references out of conditioning anchors, per the updated contract.
+
+## Main sync update - 2026-05-18 14:38 UTC
+
+- Pulled the latest `origin/main` and applied the refreshed Seedance duration contract.
+- Corrected all Seedance segments so `durationTarget` is an integer from 5 to 15 seconds; no segment remains below 5 seconds.
+- Re-timed the 5-second prompt timing bullets for segments 01, 06, 07, and 08 while preserving the same creative beats.

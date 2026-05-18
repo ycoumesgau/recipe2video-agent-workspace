@@ -30,3 +30,9 @@
 - Merged the latest `origin/main` again after the reference-image generation contract changed.
 - Added `conditioningReferences` to the generated `FinishedDumplingLasagnaCutaway` entry so GPT-Image 2 receives the kitchen, cookware, and dominant utensil anchors.
 - Confirmed no character-class anchors are used for recipe-state conditioning.
+
+## 2026-05-18 - Main sync and Seedance duration fix
+
+- Merged the latest `origin/main`, including the explicit Seedance 2 duration validation rule.
+- Updated all sub-5-second Seedance segments to 5 seconds and aligned their `prompt`, `promptInitial`, `timing`, and logical scene duration targets.
+- This fixes the prior invalid 4-second Seedance segments before Recipe2Video validation/generation.

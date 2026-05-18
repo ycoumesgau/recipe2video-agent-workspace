@@ -130,6 +130,29 @@ NEVER include character-class anchors (`@CharacterSheet`, character poses, `@Cha
 
 See `contracts/reference-image-generation.md` for the full policy and `.cursor/skills/asset-reference-system/SKILL.md` for a worked example.
 
+## Outro segment
+
+The last segment in `seedance-segments.json` is reserved for the
+standardized Licorn celebration outro. Do NOT write a custom prompt for
+it. Emit it with:
+
+- `arc: "licorn_celebration_outro"`;
+- `id: "segment-outro"` (or any stable id ending in `-outro`);
+- `durationTarget: 5`;
+- `prompt: "<APP_OVERRIDE>"` and `promptInitial: "<APP_OVERRIDE>"`;
+- exactly 5 references in this order: `KitchenLayoutContextWide`,
+  `KitchenIslandDefault`, `LicornOutroVideo`, `CharacterSheet`,
+  `FinalDishVisual` (recipe-specific, listed in `reference-plan.json`).
+
+The full contract lives in `.cursor/rules/seedance-outro.mdc`.
+
+The segment immediately before the outro (position N-1) must end with
+the dish intact and motionless. Any destructive food-porn beat (spoon
+dive, slice, drip) must happen in segments 1..N-2.
+
+The 5-10 segment count cap includes this fixed outro segment; plan
+4-9 creative segments + 1 outro.
+
 ## Validation
 
 Before marking a segment ready:

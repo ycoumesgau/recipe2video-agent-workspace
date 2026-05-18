@@ -1,0 +1,291 @@
+{
+  "recipe": {
+    "title": "Sushi Bowl",
+    "sourceType": "url",
+    "sourceUrl": "https://www.loveandlemons.com/sushi-bowl/",
+    "videoId": "b508579f-c504-447f-8943-2d3dacc5aa92",
+    "servings": "4 bowls",
+    "stylePreset": "asmr_food",
+    "productionDefaults": {
+      "videoModel": "seedance2",
+      "imageModelForReferenceGeneration": "gpt_image_2",
+      "ttsModel": "eleven_multilingual_v2",
+      "sfxModel": "eleven_text_to_sound_v2",
+      "cursorAgentModel": "gpt-5.5",
+      "cursorAgentReasoning": "high",
+      "cursorAgentFastMode": false
+    },
+    "ingredients": [
+      {
+        "name": "cooked brown or white rice",
+        "quantity": "3 cups",
+        "note": "Season while still warm for shortcut sushi rice."
+      },
+      {
+        "name": "rice vinegar",
+        "quantity": "2 tablespoons",
+        "note": "Tossed into warm rice."
+      },
+      {
+        "name": "cane sugar",
+        "quantity": "1 tablespoon",
+        "note": "Dissolves into warm rice."
+      },
+      {
+        "name": "sea salt",
+        "quantity": "1 teaspoon",
+        "note": "For seasoned rice."
+      },
+      {
+        "name": "baked tofu",
+        "quantity": "1 recipe",
+        "note": "Linked source uses 14 ounces extra-firm tofu, olive oil, tamari, sriracha, optional cornstarch, baked at 425 F for 20 to 25 minutes until browned around the edges."
+      },
+      {
+        "name": "avocados",
+        "quantity": "2",
+        "note": "Sliced; about half an avocado per serving bowl."
+      },
+      {
+        "name": "ripe mangoes",
+        "quantity": "2",
+        "note": "Diced; juicy orange cube contrast."
+      },
+      {
+        "name": "Persian cucumbers",
+        "quantity": "2",
+        "note": "Thinly sliced into crisp coins."
+      },
+      {
+        "name": "scallions",
+        "quantity": "2",
+        "note": "Thinly sliced."
+      },
+      {
+        "name": "pickled ginger",
+        "quantity": null,
+        "note": "Small visible curls for peppery freshness."
+      },
+      {
+        "name": "pickled radishes",
+        "quantity": "optional",
+        "note": "Included in this plan for pink color contrast unless the operator removes the optional component."
+      },
+      {
+        "name": "thinly sliced nori or seaweed snacks",
+        "quantity": null,
+        "note": "Thin strips or crumbled seaweed snack garnish; crackly texture."
+      },
+      {
+        "name": "sesame seeds",
+        "quantity": null,
+        "note": "Small rain garnish."
+      },
+      {
+        "name": "microgreens",
+        "quantity": null,
+        "note": "Small fresh tuft; keep quantity controlled."
+      },
+      {
+        "name": "spicy mayo",
+        "quantity": "for serving",
+        "note": "Linked source uses mayonnaise, sriracha, lime juice, and toasted sesame oil; planned as orange glossy drizzle."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Make or stage the spicy mayo by stirring mayonnaise, sriracha, lime juice, and toasted sesame oil until glossy.",
+        "timing": "5 minutes if made from linked recipe",
+        "visualCue": "orange cream folds into a shiny, pipeable sauce",
+        "block": "spicy mayo",
+        "textureCue": "thick glossy ribbon with tiny red sriracha streaks before fully mixed",
+        "runwayRisk": "Sauce can look like ketchup unless mayo opacity and sesame oil sheen are described."
+      },
+      {
+        "position": 2,
+        "text": "Press extra-firm tofu if needed, then pat dry.",
+        "timing": "20 to 30 minutes pressing if tofu is not pre-pressed",
+        "visualCue": "water beads on towel, dense pale tofu block",
+        "block": "baked tofu",
+        "textureCue": "matte compressed tofu surface",
+        "runwayRisk": "Pressing action can become vague; compress it to a quick setup beat."
+      },
+      {
+        "position": 3,
+        "text": "Cut tofu into 1-inch cubes.",
+        "timing": null,
+        "visualCue": "even pale cubes on parchment",
+        "block": "baked tofu",
+        "textureCue": "clean cut edges, 2.5 cm cubes",
+        "runwayRisk": "Scale drift can turn tofu into giant blocks or tiny dice."
+      },
+      {
+        "position": 4,
+        "text": "Toss tofu with olive oil, tamari, sriracha, and optional cornstarch.",
+        "timing": null,
+        "visualCue": "brown-red glaze coats pale cubes",
+        "block": "baked tofu",
+        "textureCue": "thin glossy coating, optional powder disappearing",
+        "runwayRisk": "Cornstarch can look like raw flour if not shown becoming absorbed."
+      },
+      {
+        "position": 5,
+        "text": "Bake tofu at 425 F for 20 to 25 minutes until browned around the edges.",
+        "timing": "20 to 25 minutes",
+        "visualCue": "golden edges and light crisp corners on cubes",
+        "block": "baked tofu",
+        "textureCue": "firm chewy centers, crisp browned corners, light oil sheen",
+        "runwayRisk": "Oven transformation should be a hard cut from raw coated cubes to browned cubes."
+      },
+      {
+        "position": 6,
+        "text": "Cook rice separately, then season while still warm with rice vinegar, cane sugar, and salt.",
+        "timing": "included in 30 minutes cook time",
+        "visualCue": "steam, vinegar pour, sugar crystals dissolving",
+        "block": "seasoned rice",
+        "textureCue": "sticky glossy grains clumping softly",
+        "runwayRisk": "Rice can look dry unless steam and vinegar sheen are emphasized."
+      },
+      {
+        "position": 7,
+        "text": "Slice avocado shortly before assembly.",
+        "timing": null,
+        "visualCue": "green fan slices with pale center and darker rim",
+        "block": "fresh toppings",
+        "textureCue": "creamy smooth avocado, clean knife cuts",
+        "runwayRisk": "Avocado can brown or become mush if the slices are not locked."
+      },
+      {
+        "position": 8,
+        "text": "Dice ripe mango.",
+        "timing": null,
+        "visualCue": "bright orange cubes falling from knife",
+        "block": "fresh toppings",
+        "textureCue": "juicy glossy mango cubes",
+        "runwayRisk": "Mango may be confused with tofu unless color and juiciness are clear."
+      },
+      {
+        "position": 9,
+        "text": "Thinly slice Persian cucumbers and scallions.",
+        "timing": null,
+        "visualCue": "pale green cucumber coins and fine green onion rings",
+        "block": "fresh toppings",
+        "textureCue": "crisp watery cucumber snap, delicate scallion rings",
+        "runwayRisk": "Tiny garnish drift if counts and placement are vague."
+      },
+      {
+        "position": 10,
+        "text": "Use pickled radishes if desired; linked quick pickle uses thin slices, hot brine, and cooling until bright pink.",
+        "timing": "15 minutes prep plus at least 1 hour chill for slices",
+        "visualCue": "white-red radish slices turn vivid pink in clear jar",
+        "block": "pickled radishes",
+        "textureCue": "thin crisp wet slices in transparent brine",
+        "runwayRisk": "Optional component can be omitted by the model unless treated as a deliberate visual accent."
+      },
+      {
+        "position": 11,
+        "text": "Divide seasoned rice among four bowls.",
+        "timing": null,
+        "visualCue": "warm rice base mounded into serving bowl",
+        "block": "assembly",
+        "textureCue": "sticky rice base filling the bottom third of a 16 to 18 cm bowl",
+        "runwayRisk": "Bowl proportions can drift without explicit serving-bowl scale."
+      },
+      {
+        "position": 12,
+        "text": "Top each bowl with baked tofu, avocado, mango, cucumber, scallions, pickled ginger, and pickled radishes if using.",
+        "timing": null,
+        "visualCue": "radial color blocks around rice",
+        "block": "assembly",
+        "textureCue": "crisp, creamy, juicy, chewy contrasts in one bowl",
+        "runwayRisk": "Too many tiny toppings can become confetti unless each amount is controlled."
+      },
+      {
+        "position": 13,
+        "text": "Garnish with nori, sesame seeds, microgreens, and spicy mayo.",
+        "timing": null,
+        "visualCue": "black nori strips, sesame rain, orange mayo zigzag",
+        "block": "final garnish",
+        "textureCue": "crackly seaweed, glossy sauce, small fresh greens",
+        "runwayRisk": "Nori can appear as full sheets; lock thin strips and no wrappers."
+      },
+      {
+        "position": 14,
+        "text": "Serve immediately while rice and tofu are warm and fresh toppings remain crisp.",
+        "timing": null,
+        "visualCue": "hero bowl on Licorn kitchen island, character satisfied",
+        "block": "final hero",
+        "textureCue": "warm-cool contrast, glossy sauce, crisp garnish",
+        "runwayRisk": "Final dish should remain a bowl, not sushi rolls."
+      }
+    ],
+    "subRecipes": [
+      "spicy mayo",
+      "baked tofu",
+      "seasoned rice",
+      "pickled radishes",
+      "fresh topping prep",
+      "bowl assembly",
+      "final garnish"
+    ],
+    "assumptions": [
+      "The plan includes optional pickled radishes because their bright pink color strengthens the visual contrast.",
+      "The spicy mayo is treated as regular mayonnaise unless the operator later requests the vegan version.",
+      "The finished serving vessel is a single 16 to 18 cm bowl per portion, not sushi rolls or a platter.",
+      "The tofu is locked as 1-inch or 2.5 cm cubes, about 8 to 10 visible cubes per bowl, not large steaks or tiny crumbles.",
+      "Fresh toppings are staged as controlled blocks: about half an avocado, half a mango, and half a Persian cucumber per bowl."
+    ],
+    "timing": {
+      "prep": "20 minutes",
+      "cook": "30 minutes",
+      "total": "50 minutes"
+    },
+    "criticalTransformations": [
+      "Warm rice absorbs rice vinegar, sugar, and salt and becomes glossy sticky seasoned rice.",
+      "Extra-firm tofu changes from matte pale 1-inch cubes to tamari-sriracha coated cubes with browned crisp edges.",
+      "Spicy mayo changes from separate mayonnaise, sriracha, lime juice, and sesame oil into a thick orange glossy drizzle.",
+      "Pickled radish slices shift from white-red raw rounds to bright pink crisp slices in clear brine.",
+      "Fresh avocado, mango, cucumber, scallions, ginger, nori, sesame, and microgreens assemble into a controlled radial bowl rather than loose salad confetti."
+    ],
+    "visualTextureOpportunities": [
+      "Orange spicy mayo ribbon lifting from a spoon or squeeze bottle before the story resets to components.",
+      "Vinegar splashing over steaming rice and turning grains glossy.",
+      "Tamari-sriracha glaze clinging to tofu cubes before a hard cut to browned crisp edges.",
+      "Avocado fan slices sliding beside juicy mango cubes and crisp cucumber coins.",
+      "Pink radish slices floating against clear brine in a glass jar.",
+      "Black nori strips crumpling and crackling over the bowl.",
+      "Sesame seed rain catching on glossy mayo and sticky rice.",
+      "Final spoon lift showing sticky rice, browned tofu, avocado, mango, cucumber, nori, and sauce in one bite."
+    ],
+    "possibleHooks": [
+      "Glossy spicy mayo ribbon falls in slow zigzag over black nori strips, then a hard cut reveals the warm rice base.",
+      "Crisp tofu cubes tumble onto sticky seasoned rice with an audible tap.",
+      "A bright pink pickled radish slice slides through clear brine before the colorful bowl assembles.",
+      "A spoon lifts a perfect bite with rice strings, tofu edge, avocado, mango, and orange sauce."
+    ],
+    "promptPolicySources": [
+      "recipe-ingest",
+      "food-physics-reference",
+      "seedance-workflow",
+      "tiktok-food-direction",
+      "asset-reference-system",
+      "suno-music-generation",
+      "workspace recipe-agent-core",
+      "workspace seedance-references",
+      "workspace suno-music"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "optional-pickled-radishes",
+      "question": "Should the optional pickled radishes stay in the production version?",
+      "reason": "They materially affect color blocking, reference planning, and the pink brine texture beat."
+    },
+    {
+      "id": "spicy-mayo-vegan",
+      "question": "Should the spicy mayo be presented as vegan mayo or regular mayo?",
+      "reason": "The source allows a vegan version; the visual sauce is similar, but labeling and ingredient assumptions differ."
+    }
+  ]
+}

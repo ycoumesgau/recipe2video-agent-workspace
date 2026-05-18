@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Sushi Bowl",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); excerpt for short video"
+  },
+  "fields": {
+    "title": "Seaweed Spark Bowl",
+    "styleOfMusic": "K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, playful staccato percussion, bright glossy chorus, candy-sweet hook, sparkle FX, reversed bell swells, tiny glitch fill before each drop, clean punchy mix, wide neon sheen, close-mic lead vocals. Add tiny liquid-pop percussion and dry seaweed-crackle ear candy between sections, but keep it melodic and upbeat., k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no recipe tutorial lyrics, no ingredient counting, no software names, no social media commands.",
+    "autoLyricsPrompt": "Write original English song lyrics about a joyful unicorn kitchen mascot making a colorful sushi bowl. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: glossy, playful, fresh, bright, satisfying food-video energy, magical but not childish.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(sushi bowl)\". Keep the chorus reusable for a 45-90 second vertical video edit.\n\nStory and imagery to weave in naturally:\n- orange spicy mayo ribbon, shiny swirl, soft peak\n- warm sticky rice, vinegar sparkle, gentle steam\n- tofu cubes turning golden at the edges\n- avocado green fan, mango sunshine cubes, cucumber snap\n- pink pickles in clear brine, ginger curl, sesame rain\n- black seaweed crackle, tiny greens, perfect spoon lift\n- final colorful bowl in the kitchen, proud happy unicorn\n\nMust include naturally: sushi bowl, unicorn, spicy mayo, sticky rice, tofu, avocado, mango, seaweed, sesame rain, perfect bite.\n\nStructure:\n[Verse 1]\nSauce ribbon, sticky rice, bright kitchen spark.\n\n[Pre-Chorus]\nColor gathers in the bowl; build anticipation.\n\n[Chorus]\nBig chantable hook around unicorn + sushi bowl + spicy mayo + perfect bite. Repeat \"sushi bowl\" as a hook.\n\n[Verse 2]\nGolden tofu, avocado fan, mango glow, cucumber snap.\n\n[Bridge]\nSofter moment: pink pickles, seaweed crackle, sesame rain, spoon lift feels magical.\n\n[Final Chorus]\nRepeat the chorus with extra energy and a proud final bowl image.",
+    "shortVersionPlan": "Use a short intro on the spicy mayo ribbon, jump to Verse 1 rice and sauce images, pre-chorus as tofu and toppings build, full chorus over bowl assembly and garnish, then final chorus tag on spoon lift and the satisfied Licorn hero shot. Keep the chorus hook clean enough to land in a 45-90 second TikTok/Reels cut."
+  },
+  "instructions": {
+    "voice": "Bright close-mic pop lead with playful stacked responses; no real artist imitation.",
+    "structure": "Design for a complete 2-3 minute custom-mode song with a chorus that can be lifted cleanly for the short vertical edit.",
+    "workflowNotes": "Suno is manual. Paste fields into Suno Custom Mode; do not call any Suno API from this workspace."
+  },
+  "qualityChecks": [
+    "Title is copy-ready and does not use a protected brand or artist reference.",
+    "Style of Music contains musical direction only, not lyric instructions.",
+    "Auto Lyrics Prompt is in English and avoids tutorial wording, quantities, and numbered steps.",
+    "Short version plan aligns with the Seedance segments and final spoon-lift payoff.",
+    "No music is requested inside Seedance video prompts."
+  ]
+}

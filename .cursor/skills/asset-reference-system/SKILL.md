@@ -22,7 +22,7 @@ Use whenever a scene, segment, or reference plan mentions kitchen, character, po
 - `@KitchenLayoutContextWide` is a structural context anchor, not a framing instruction. Do NOT force a wide shot unless the storyboard asks for it.
 - Do not force `@KitchenIslandDefault` when another kitchen angle is the active shot. Use it when it is the shot view or when explicit terrazzo lock is needed.
 - Keep kitchen invariants stable across segments: light terrazzo countertop, black flush induction plate, same cabinet style/layout.
-- If the required utensil exists in assets, attach it. Do not use a near-miss utensil (`@Spatula` instead of `@SpiderSkimmer`, etc.).
+- If the required utensil exists in assets, attach it. Do not use a near-miss utensil (`@SiliconeSpatula` instead of `@SpiderSkimmer`, etc.).
 - For hot transfers, avoid cloth-in-hand interactions (high fusion risk with fingers). Prefer utensil handling; if not possible, stage the action after implied cooling.
 - For plating sides (salad, garnish, sauces), quantify amounts (`small bed`, `2-3 leaves`, `one spoonful`) to avoid tiny-token results.
 - Keep prop continuity: if a bowl/side component is introduced and still relevant, either show it again later or explicitly state it has been set aside.
@@ -58,7 +58,9 @@ Utensils:
 - `@SaucepanLarge`
 - `@Whisk`
 - `@ImmersionBlender`
-- `@Spatula`
+- `@SiliconeSpatula` (flexible bowl / maryse — folding, scraping bowls and mixer bowls; not for serving lasagna-style portions)
+- `@TurningSpatula` (rigid turner — slide under gratin, lasagna, sheet cake, fish; lift a supported portion)
+- `@OffsetSpatula` (pastry offset — under tarts, cookies, entremets; fragile layers, sometimes two spatulas)
 - `@SpiderSkimmer`
 - `@Tongs`
 - `@Spoon`

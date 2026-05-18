@@ -20,9 +20,9 @@
   "validation": {
     "jsonValidated": true,
     "validatedAt": "2026-05-18T11:04:25.921553+00:00",
-    "notes": "Validated after merging origin/main and applying refreshed Recipe2Video skills: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, no legacy Spatula references, no vocalization-risk audio wording."
+    "notes": "Validated after merging origin/main and applying refreshed Recipe2Video skills: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, no legacy Spatula references, no vocalization-risk audio wording. commitSha/latestPushedCommitSha point to the pushed artifact update commit before this manifest refresh commit."
   },
-  "latestPushedCommitSha": "577fb8f47f776461f89bd690139ad2026ae1dc85",
-  "updatedAt": "2026-05-18T11:04:25.921569+00:00",
-  "commitSha": "577fb8f47f776461f89bd690139ad2026ae1dc85"
+  "latestPushedCommitSha": "4f9fcf648c6cadb075e293dd27ccd530115fc981",
+  "updatedAt": "2026-05-18T11:04:48.901825+00:00",
+  "commitSha": "4f9fcf648c6cadb075e293dd27ccd530115fc981"
 }

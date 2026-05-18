@@ -6,6 +6,7 @@ alwaysApply: true
 # Seedance 2 References
 
 - Default video model is `seedance2`.
+- Runway Seedance 2 accepts only **integer** clip lengths from **5** to **15** seconds inclusive. Never write a smaller `durationTarget` or a fractional value for segments synced to Recipe2Video.
 - Default output ratio is `1080:1920` for 9:16 vertical 1080p.
 - Product-side cost estimate is 40 credits per second.
 - Use Seedance References mode as the primary workflow.

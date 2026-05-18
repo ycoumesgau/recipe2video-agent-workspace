@@ -39,3 +39,10 @@ None blocking. The source recipe and creator instructions provide enough informa
 - Updated the logical scene mix to 28 detail scenes and 8 context scenes (about 78/22), matching the refreshed TikTok food-direction target while keeping the same 36-scene storyboard.
 - Kept the no-generated-recipe-state-reference decision: the updated audit noted a final hero reference could reduce risk, but the creator explicitly asked to avoid generated intermediate references unless indispensable, and current prompt locks remain adequate for orecchiette, burrata, and pistachio geometry.
 - Removed final vocalization-risk wording from Seedance audio cues; final satisfaction now uses silent posture plus kitchen room tone, not breath or speech.
+
+## 2026-05-18 Seedance duration correction
+
+- Pulled and merged the latest `origin/main` updates, which make the Seedance 2 minimum duration explicit: every segment `durationTarget` must be an integer from 5 to 15 seconds.
+- Corrected `segment-02` from 4 seconds to 5 seconds and retimed its prompt / `promptInitial` / timing bullets to end at 5.0s.
+- Adjusted logical scenes `scene-07` to `scene-09` so the orecchiette cooking beat supports the 5-second segment without changing the storyboard mapping.
+- No recipe-specific generated reference was added; the no-generated-reference decision remains intentional because the creator asked to avoid intermediate references unless indispensable.

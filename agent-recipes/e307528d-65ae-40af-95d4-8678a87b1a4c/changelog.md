@@ -17,3 +17,10 @@
 - Re-audited Seedance references: no legacy `@Spatula` usage, no generated recipe-state references added, all segments keep kitchen continuity pairs and <=9 references.
 - Reclassified five utility/detail scenes as context beats to restore the target 75-80% detail / 20-25% context balance without changing the editorial arc.
 - Replaced final vocalization-risk audio wording with non-vocal kitchen room tone cues.
+
+## 2026-05-18 - Seedance duration correction
+
+- Merged the latest `origin/main` rules and skills, including the explicit Runway Seedance 2 5-15 second integer duration requirement.
+- Updated `segment-02` from 4 seconds to 5 seconds across `durationTarget`, `prompt`, `promptInitial`, and `timing`.
+- Updated logical scene durations for `scene-07`, `scene-08`, and `scene-09` to keep the orecchiette cooking segment coherent at 5 seconds.
+- Revalidated the existing no-generated-reference approach; no recipe-state reference entries were added, so the new `conditioningReferences` policy is not triggered.

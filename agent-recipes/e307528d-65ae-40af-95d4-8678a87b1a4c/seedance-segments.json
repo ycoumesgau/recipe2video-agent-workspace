@@ -144,8 +144,8 @@
         "scene-09"
       ],
       "description": "Cook the creator-requested orecchiette and show the reserved starchy water.",
-      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionWide as the shot-specific kitchen view for the boiling pot, and @InductionCloseup for macro steam and shell details. Use @SaucepanLarge only as the pasta pot reference. Use @SpiderSkimmer only for lifting orecchiette. Use @CharacterSheet only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no extra shots. TikTok/Reels food ASMR style, macro steam and glossy pasta, no text on screen. Integrated audio: no speech, no voiceover, no music; boiling water, pasta splash, skimmer drip only. Mandatory timing: 0.0-0.8s orecchiette shells pour into salted boiling water; 0.8-1.7s shells tumble in steam; 1.7-2.8s spider skimmer lifts a few al dente shells; 2.8-4.0s cloudy reserved pasta water pours into a glass. Scale lock: orecchiette are small ear-shaped cups about 2-3 cm wide relative to the skimmer holes, not spaghetti, not giant shells, not miniature grains. Kitchen lock: black flush induction and same cabinetry from references. Global negatives: no spaghetti strands, no flames, no overcooked mush, no text, no music.",
-      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionWide as the shot-specific kitchen view for the boiling pot, and @InductionCloseup for macro steam and shell details. Use @SaucepanLarge only as the pasta pot reference. Use @SpiderSkimmer only for lifting orecchiette. Use @CharacterSheet only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no extra shots. TikTok/Reels food ASMR style, macro steam and glossy pasta, no text on screen. Integrated audio: no speech, no voiceover, no music; boiling water, pasta splash, skimmer drip only. Mandatory timing: 0.0-0.8s orecchiette shells pour into salted boiling water; 0.8-1.7s shells tumble in steam; 1.7-2.8s spider skimmer lifts a few al dente shells; 2.8-4.0s cloudy reserved pasta water pours into a glass. Scale lock: orecchiette are small ear-shaped cups about 2-3 cm wide relative to the skimmer holes, not spaghetti, not giant shells, not miniature grains. Kitchen lock: black flush induction and same cabinetry from references. Global negatives: no spaghetti strands, no flames, no overcooked mush, no text, no music.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionWide as the shot-specific kitchen view for the boiling pot, and @InductionCloseup for macro steam and shell details. Use @SaucepanLarge only as the pasta pot reference. Use @SpiderSkimmer only for lifting orecchiette. Use @CharacterSheet only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no extra shots. TikTok/Reels food ASMR style, macro steam and glossy pasta, no text on screen. Integrated audio: no speech, no voiceover, no music; boiling water, pasta splash, skimmer drip only. Mandatory timing: 0.0-1.0s orecchiette shells pour into salted boiling water; 1.0-2.2s shells tumble in steam; 2.2-3.6s spider skimmer lifts a few al dente shells; 3.6-5.0s cloudy reserved pasta water pours into a glass. Scale lock: orecchiette are small ear-shaped cups about 2-3 cm wide relative to the skimmer holes, not spaghetti, not giant shells, not miniature grains. Kitchen lock: black flush induction and same cabinetry from references. Global negatives: no spaghetti strands, no flames, no overcooked mush, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionWide as the shot-specific kitchen view for the boiling pot, and @InductionCloseup for macro steam and shell details. Use @SaucepanLarge only as the pasta pot reference. Use @SpiderSkimmer only for lifting orecchiette. Use @CharacterSheet only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no extra shots. TikTok/Reels food ASMR style, macro steam and glossy pasta, no text on screen. Integrated audio: no speech, no voiceover, no music; boiling water, pasta splash, skimmer drip only. Mandatory timing: 0.0-1.0s orecchiette shells pour into salted boiling water; 1.0-2.2s shells tumble in steam; 2.2-3.6s spider skimmer lifts a few al dente shells; 3.6-5.0s cloudy reserved pasta water pours into a glass. Scale lock: orecchiette are small ear-shaped cups about 2-3 cm wide relative to the skimmer holes, not spaghetti, not giant shells, not miniature grains. Kitchen lock: black flush induction and same cabinetry from references. Global negatives: no spaghetti strands, no flames, no overcooked mush, no text, no music.",
       "references": [
         {
           "role": "structural Licorn kitchen context, not camera framing",
@@ -203,12 +203,12 @@
         "reserved starch water"
       ],
       "timing": [
-        "0.0-0.8s orecchiette pours into boiling water",
-        "0.8-1.7s shells tumble",
-        "1.7-2.8s spider skimmer lift",
-        "2.8-4.0s cloudy pasta water reserved"
+        "0.0-1.0s orecchiette pours into boiling water",
+        "1.0-2.2s shells tumble",
+        "2.2-3.6s spider skimmer lift",
+        "3.6-5.0s cloudy pasta water reserved"
       ],
-      "continuity": "Pasta shape is locked as orecchiette cups for all later segments; reserved water returns in segment-05.",
+      "continuity": "Pasta shape is locked as orecchiette cups for all later segments; reserved water returns in segment-05. Segment duration is locked to 5 seconds to satisfy Seedance 2 API limits.",
       "risk": "The source mentions spaghetti; prompt must override with orecchiette and visible cup geometry.",
       "audioPrompt": "rolling boil, pasta splash, skimmer drip, cloudy water pour",
       "negatives": [
@@ -238,7 +238,7 @@
           "asset-reference-system"
         ]
       },
-      "durationTarget": 4,
+      "durationTarget": 5,
       "status": "ready"
     },
     {

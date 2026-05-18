@@ -19,10 +19,10 @@
   ],
   "validation": {
     "jsonValidated": true,
-    "validatedAt": "2026-05-18T11:04:25.921553+00:00",
-    "notes": "Validated after merging origin/main and applying refreshed Recipe2Video skills: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, no legacy Spatula references, no vocalization-risk audio wording. commitSha/latestPushedCommitSha point to the pushed artifact update commit before this manifest refresh commit."
+    "validatedAt": "2026-05-18T15:34:10.809132+00:00",
+    "notes": "Validated after merging latest origin/main and correcting Seedance duration minimum: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, all durationTarget values are integer 5-15 seconds, segment-02 retimed to 5.0s, max 8 references per segment, kitchen continuity pairs present, no generated recipe-state references requiring conditioningReferences."
   },
   "latestPushedCommitSha": "4f9fcf648c6cadb075e293dd27ccd530115fc981",
-  "updatedAt": "2026-05-18T11:04:48.901825+00:00",
+  "updatedAt": "2026-05-18T15:34:10.809147+00:00",
   "commitSha": "4f9fcf648c6cadb075e293dd27ccd530115fc981"
 }

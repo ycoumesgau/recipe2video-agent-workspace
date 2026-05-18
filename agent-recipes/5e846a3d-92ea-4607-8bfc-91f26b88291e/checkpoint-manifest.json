@@ -2,7 +2,7 @@
   "videoId": "5e846a3d-92ea-4607-8bfc-91f26b88291e",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-bibimbap-a4c0",
-  "latestPushedCommitSha": null,
+  "latestPushedCommitSha": "8e90853d38d70010088c6bdb7762252d5d42e776",
   "manifestPath": "agent-recipes/5e846a3d-92ea-4607-8bfc-91f26b88291e/checkpoint-manifest.json",
   "artifacts": [
     "recipe-analysis.json",
@@ -22,6 +22,6 @@
     "checkedAt": "2026-05-18T07:32:01Z"
   },
   "notes": [
-    "Initial manifest created before validation and push. latestPushedCommitSha is filled after a pushed checkpoint exists."
+    "latestPushedCommitSha records the pushed artifact checkpoint commit that introduced the recipe ingest files."
   ]
 }

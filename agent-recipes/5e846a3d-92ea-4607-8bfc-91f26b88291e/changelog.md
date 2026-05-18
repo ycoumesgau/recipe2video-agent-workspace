@@ -10,4 +10,4 @@
 - Created `reference-plan.json` with existing kitchen/character/utensil references plus planned recipe-specific state references for fragile food states.
 - Created `suno-prompt.json` and `suno-prompt.md` for a manual Suno workflow; no Suno API or paid generation was called.
 - Created `decisions.md` documenting production assumptions and unresolved source questions.
-- Planned `checkpoint-manifest.json`; final commit SHA will be written after the first pushed checkpoint is available.
+- Updated `checkpoint-manifest.json` with the pushed artifact checkpoint SHA after the first checkpoint push.

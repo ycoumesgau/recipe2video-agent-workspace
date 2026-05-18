@@ -1,10 +1,10 @@
 {
   "videoId": "b508579f-c504-447f-8943-2d3dacc5aa92",
   "branch": "cursor/recipe-ingest-sushi-bowl-dece",
-  "commitSha": null,
+  "commitSha": "3dfe35284bed0cdabc5aea1549adc8c513550b25",
   "manifestPath": "agent-recipes/b508579f-c504-447f-8943-2d3dacc5aa92/checkpoint-manifest.json",
   "stage": "recipe_ingest",
-  "status": "pending_final_commit",
+  "status": "validated",
   "updatedAt": "2026-05-18T07:18:00Z",
   "artifacts": [
     "recipe-analysis.json",
@@ -17,10 +17,12 @@
     "changelog.md"
   ],
   "validation": {
-    "jsonReadBack": false,
-    "strictJsonValidated": false,
+    "jsonReadBack": true,
+    "strictJsonValidated": true,
     "notes": [
-      "Manifest will be updated with the latest pushed commit SHA after the final push."
+      "JSON artifacts were read back with the ReadFile tool.",
+      "Python json module strict parsing passed for all JSON artifacts.",
+      "Contract checks passed: 36 logical scenes, 8 Seedance segments, references within the 9-image segment limit, kitchen continuity pair present in every segment."
     ]
   }
 }

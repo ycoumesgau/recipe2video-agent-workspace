@@ -1,9 +1,5 @@
 # Changelog — `f311970f-95cb-4d58-8088-365984eb2d31`
 
-## 2026-05-18 — Manifest pointer refresh
-
-- Rewrote `checkpoint-manifest.json` so `checkpointCommitSha` tracks the published branch tip while still noting the parent ingest commit that carried the first JSON drop.
-
 ## 2026-05-18 — Initial `recipe_ingest` checkpoint
 
 - Created `recipe-analysis.json` from the TikTok wrap hack URL (Crunchwrap supreme card) with explicit timing keys (`prep`, `cook`, `total`), string-only policy arrays, and clarifying questions for tortilla type + quadrant orientation.

@@ -29,3 +29,7 @@
 ## Policy compliance
 
 - No Runway, Suno, Supabase, Mux, Remotion, or other paid generation executed inside this planning repository; operators run those services downstream in Recipe2Video.
+
+## Checkpoint manifest semantics
+
+- `checkpoint-manifest.json` records `checkpointCommitSha` as **`4330e2ba7596412e582a4cdfe4e1029df89bba86`**, the revision that contains the full Recipe2Video JSON/Markdown artifact bundle. Later housekeeping commits only adjust tracking metadata; Recipe2Video ingestion should treat that SHA as the canonical recipe snapshot while still merging the latest branch head for incidental doc tweaks.

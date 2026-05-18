@@ -18,6 +18,7 @@ Use when converting logical scenes into generated video segments.
 - Prompt language: English.
 - Keep prompts under about 3,500 characters.
 - Use 5-10 Seedance segments for a 30-48 logical-scene storyboard.
+- **`durationTarget` (required):** integer seconds from **5** to **15** inclusive — this is the Runway Seedance 2 API window. Shorter totals (for example 4s) are rejected by the app before generation; align every segment's prompt timing bullets to the same total.
 - Store logical scene IDs on every segment.
 - Lock object scale for ambiguous shapes (diameter/thickness/count + relative kitchen anchor).
 - Preserve scale continuity across adjacent segments when the same food state continues.
@@ -44,7 +45,7 @@ Each `seedance-segments.json` segment should include:
 - `audioPrompt`
 - `negatives`
 - `qaChecklist`
-- `durationTarget`
+- `durationTarget` (integer seconds, 5-15 inclusive for Runway `seedance2`)
 - `status`
 
 Use `continuity` and `risk` to track proportion locks, for example:
@@ -133,6 +134,7 @@ See `contracts/reference-image-generation.md` for the full policy and `.cursor/s
 
 Before marking a segment ready:
 
+- `durationTarget` is an integer from 5 to 15 seconds and matches the prompt's total duration line and timing bullets;
 - references <= 9;
 - global kitchen reference present;
 - kitchen continuity pair present (`@KitchenLayoutContextWide` + one shot-specific kitchen view);

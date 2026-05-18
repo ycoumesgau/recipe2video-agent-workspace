@@ -1,0 +1,303 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "always-on structural kitchen context for all Seedance segments",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenLayoutContextWide only for always-on structural kitchen context for all Seedance segments; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead island view for chopping, plating, and topping showers",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenIslandOverhead only for overhead island view for chopping, plating, and topping showers; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "macro stovetop view for roasting, boiling, browning, and emulsion",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @InductionCloseup only for macro stovetop view for roasting, boiling, browning, and emulsion; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "default island identity and final hero plate context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenIslandDefault only for default island identity and final hero plate context; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "wider induction continuity for boiling and skillet work",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @InductionWide only for wider induction continuity for boiling and skillet work; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandWide",
+      "role": "final character satisfaction context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenIslandWide only for final character satisfaction context; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity and visible hands",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @CharacterSheet only for Licorn character identity and visible hands; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down hand pose for chopping, plating, and garnish actions",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @PoseTopDown only for top-down hand pose for chopping, plating, and garnish actions; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "stovetop tossing and sauce hand angle",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @PoseThreeQuarterRight only for stovetop tossing and sauce hand angle; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterLeft",
+      "role": "final satisfaction posture",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @PoseThreeQuarterLeft only for final satisfaction posture; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-08"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "chef_knife",
+      "role": "pistachio chopping tool",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @chef_knife only for pistachio chopping tool; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "cutting_board",
+      "role": "pistachio chopping surface",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @cutting_board only for pistachio chopping surface; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "burrata tear, topping spoon, and plating support",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @Spoon only for burrata tear, topping spoon, and plating support; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "pasta water pot",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @SaucepanLarge only for pasta water pot; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SpiderSkimmer",
+      "role": "lifting orecchiette from boiling water",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @SpiderSkimmer only for lifting orecchiette from boiling water; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "zester",
+      "role": "lemon zest finish",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @zester only for lemon zest finish; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "lemon_squeezer",
+      "role": "lemon juice action",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @lemon_squeezer only for lemon juice action; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Tongs",
+      "role": "orecchiette toss in emulsion",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @Tongs only for orecchiette toss in emulsion; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "pepper_mill",
+      "role": "black pepper finishing speckles",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @pepper_mill only for black pepper finishing speckles; do not copy exact framing when the prompt asks for macro detail.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    }
+  ]
+}

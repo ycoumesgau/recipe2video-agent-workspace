@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Lemon Butter Orecchiette with Burrata and Roasted Pistachios",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); 45-90 second excerpt for short video"
+  },
+  "fields": {
+    "title": "Lemon Butter After Dark",
+    "styleOfMusic": "K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, playful staccato percussion, bright glossy chorus, candy-sweet hook, sparkle FX, reversed bell swells, tiny glitch fill before each drop, clean punchy mix, wide neon sheen, close-mic lead vocals, sensual late-night food-video energy., k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no recipe tutorial lyrics, no ingredient counting, no explicit sexual lyrics, no cooking instructions.",
+    "autoLyricsPrompt": "Write original English song lyrics about a playful unicorn chef making lemon butter orecchiette with burrata and roasted pistachios. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: glossy, sensual, joyful, late-night kitchen glow, creamy and crunchy food-video ASMR energy, seductive but clean.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(lemon butter)\" or \"(orecchiette)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- lemon zest falling like yellow sparks\n- brown butter turning amber and glossy\n- orecchiette cups catching silky sauce\n- burrata opening into white cream\n- roasted pistachios and caper crumbs adding crunch\n- basil, parmesan, black pepper, and a glowing final bowl\n- a unicorn chef smiling over the finished dish\n\nMust include naturally: orecchiette, burrata, lemon butter, pistachio, basil, golden crumbs, unicorn, creamy, crunchy.\n\nStructure:\n[Verse 1]\nLemon zest, amber butter, warm kitchen glow.\n\n[Pre-Chorus]\nThe sauce turns glossy; build anticipation around cream and crunch.\n\n[Chorus]\nBig chantable hook around lemon butter, orecchiette, burrata cream, pistachio crunch, and the unicorn's glowing bowl. Repeat \"lemon butter\" and \"orecchiette\" as hooks.\n\n[Verse 2]\nPasta cups, basil, golden crumbs, black pepper sparkle.\n\n[Bridge]\nSofter creamy moment: burrata opens, everything gets lush and bright.\n\n[Final Chorus]\nRepeat the chorus with extra energy and a final creamy-crunchy image.",
+    "shortVersionPlan": "Use a tight intro from Verse 1 lemon zest and amber butter, jump into the pre-chorus as the sauce turns glossy, then take the full chorus over burrata rupture, pistachio crunch shower, fork lift, and final Licorn satisfaction. End on the repeated lemon butter / orecchiette hook."
+  },
+  "instructions": {
+    "voice": "Bright close-mic lead with playful stacked harmonies; seductive food-pop energy without explicit lyrics.",
+    "structure": "Make the chorus arrive early and repeat cleanly so a 45-90 second vertical excerpt can carry the final assembly sequence.",
+    "workflowNotes": "Suno remains a manual workflow. Do not add music to Seedance prompts; Recipe2Video aligns the selected excerpt later."
+  },
+  "qualityChecks": [
+    "Title is first and matches the markdown field.",
+    "Style of Music is separate from Auto Lyrics Prompt.",
+    "Auto Lyrics Prompt is in English, under 3000 characters, and contains no tutorial quantities or numbered steps.",
+    "No real artists, protected voices, brands, or voice imitation requested.",
+    "Short version plan supports the burrata rupture, pistachio crunch, and final fork lift."
+  ]
+}

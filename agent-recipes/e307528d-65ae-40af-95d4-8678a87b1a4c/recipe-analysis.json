@@ -1,0 +1,190 @@
+{
+  "recipe": {
+    "title": "Lemon Butter Orecchiette with Burrata and Roasted Pistachios",
+    "sourceType": "url",
+    "sourceUrl": "https://www.delscookingtwist.com/lemon-butter-pasta-with-burrata-cheese/",
+    "ingredients": [
+      {
+        "name": "orecchiette pasta",
+        "quantity": "1 lb / 454 g",
+        "note": "Creator-requested pasta shape replacing spaghetti; shell cups must stay visible."
+      },
+      {
+        "name": "salted or unsalted butter",
+        "quantity": "6 Tablespoons / 85 g",
+        "note": "Diced; 4 Tbsp browned for sauce, 2 Tbsp finished into pasta."
+      },
+      {
+        "name": "lemons",
+        "quantity": "2 lemons zest plus juice of 1 lemon",
+        "note": "Use zest as the dominant visible citrus cue."
+      },
+      {
+        "name": "garlic",
+        "quantity": "3-4 cloves",
+        "note": "Minced; blooms in brown butter."
+      },
+      {
+        "name": "salt and black pepper",
+        "quantity": "to taste",
+        "note": "Black pepper added as visible final speckle."
+      },
+      {
+        "name": "extra virgin olive oil",
+        "quantity": "1 Tablespoon",
+        "note": "For crisp topping skillet."
+      },
+      {
+        "name": "unsalted butter",
+        "quantity": "1 Tablespoon / 15 g",
+        "note": "For crisp topping skillet."
+      },
+      {
+        "name": "breadcrumbs",
+        "quantity": "1 cup / 110 g",
+        "note": "Toasted golden with capers, thyme, parmesan, and chili."
+      },
+      {
+        "name": "capers",
+        "quantity": "2 Tablespoons, drained",
+        "note": "Fried until wrinkled and glossy; salty pop."
+      },
+      {
+        "name": "crushed red pepper flakes",
+        "quantity": "1/2 teaspoon optional",
+        "note": "Tiny red heat flecks for contrast."
+      },
+      {
+        "name": "grated parmesan cheese",
+        "quantity": "2 Tablespoons plus more to serve",
+        "note": "Melts into crisp topping and final snow."
+      },
+      {
+        "name": "dry thyme or herbes de Provence",
+        "quantity": "2 Tablespoons",
+        "note": "Herb flecks in the crisp crumb."
+      },
+      {
+        "name": "fresh basil",
+        "quantity": "1 cup / 120 ml chopped",
+        "note": "Torn green finish; quantify on plating to avoid garnish drift."
+      },
+      {
+        "name": "burrata cheese",
+        "quantity": "1-2 balls",
+        "note": "Use two small balls or one large ball; torn open for creamy center."
+      },
+      {
+        "name": "shelled pistachios",
+        "quantity": "1/3 cup / about 45 g",
+        "note": "Creator-requested supplemental topping; roast and roughly chop for crunch."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Roast shelled pistachios in a dry skillet until fragrant, blistered, and lightly golden; cool briefly and roughly chop.",
+        "timing": "3-5 minutes",
+        "visualCue": "green pistachios darken at the edges, tiny oil sheen, rough chopped shards",
+        "block": "pistachio topping",
+        "textureCue": "dry crackle, crunchy shards, roasted nut dust",
+        "runwayRisk": "Pistachios can drift into generic green crumbs; lock as rough 3-6 mm nut shards, not powder."
+      },
+      {
+        "position": 2,
+        "text": "Bring salted water to a boil and cook orecchiette until al dente; reserve 1/2 cup pasta water and drain.",
+        "timing": "package timing, usually 9-12 minutes",
+        "visualCue": "orecchiette shells tumble through boiling water and catch steam in their cups",
+        "block": "pasta",
+        "textureCue": "matte-to-glossy pasta shells, starchy water, steam",
+        "runwayRisk": "Pasta shape may become spaghetti; restate orecchiette cup shape in every pasta segment."
+      },
+      {
+        "position": 3,
+        "text": "Toast breadcrumbs with olive oil, butter, capers, thyme, parmesan, and chili flakes until golden and capers are fried.",
+        "timing": "4-5 minutes",
+        "visualCue": "golden crumbs, wrinkled capers, red pepper flecks, parmesan speckles",
+        "block": "crispy topping",
+        "textureCue": "sandy crisp crumb, popping caper skins, oily shimmer",
+        "runwayRisk": "Topping can look like wet paste; keep it dry, separate, and sandy."
+      },
+      {
+        "position": 4,
+        "text": "Brown butter in the skillet, swirl until foamy and nutty amber; add garlic for one minute, then lemon juice and zest.",
+        "timing": "3-4 minutes",
+        "visualCue": "butter foam collapses into amber speckles, garlic sizzles, lemon zest rains in",
+        "block": "lemon brown butter",
+        "textureCue": "glossy fat, amber milk solids, sharp lemon steam",
+        "runwayRisk": "Butter can look burnt or greasy; lock honey-amber brown butter with suspended speckles."
+      },
+      {
+        "position": 5,
+        "text": "Add pasta water, orecchiette, and remaining butter; toss until every cup is glossy and lightly emulsified.",
+        "timing": "1-2 minutes",
+        "visualCue": "orecchiette cups flip through a satin lemon-butter glaze",
+        "block": "emulsion",
+        "textureCue": "silky sauce clinging inside shell cups, steam, elastic toss",
+        "runwayRisk": "Emulsion can become soup; show a thin glossy coating, not a puddle."
+      },
+      {
+        "position": 6,
+        "text": "Plate hot orecchiette, tear burrata open on top, shower with crispy capers, basil, parmesan, lemon zest, black pepper, and roasted pistachios.",
+        "timing": "serve immediately",
+        "visualCue": "burrata cream spills over lemony orecchiette, pistachio shards catch in the sauce",
+        "block": "assembly",
+        "textureCue": "warm pasta gloss, cold creamy burrata center, crunchy crumb and pistachio contrast",
+        "runwayRisk": "Garnish quantity can drift; lock pistachios as a visible one-to-two tablespoon sprinkle per plate."
+      }
+    ],
+    "subRecipes": [
+      "roasted pistachio topping",
+      "crispy caper breadcrumb topping",
+      "lemon brown butter",
+      "orecchiette emulsion",
+      "burrata assembly"
+    ],
+    "assumptions": [
+      "Use orecchiette as the pasta throughout, replacing the source recipe's spaghetti option.",
+      "Add 1/3 cup shelled pistachios as a supplemental roasted topping; roast before other skillet work so the crunch appears as an early hook and final payoff.",
+      "Use 1 large or 2 small burrata balls for 4 servings; the video should show a generous creamy tear rather than a small dollop.",
+      "No recipe-specific intermediate image references are required at ingest because orecchiette, burrata, crumbs, pistachios, lemon zest, and skillet actions are describable with existing kitchen/utensil references and strong prompt locks."
+    ],
+    "timing": {
+      "prep": "45 minutes",
+      "cook": "15 minutes",
+      "total": "1 hour"
+    },
+    "criticalTransformations": [
+      "Dry-roasting pistachios from matte green nuts to fragrant lightly blistered crunchy shards.",
+      "Toasting breadcrumbs and capers into a dry golden sandy topping without turning it into a paste.",
+      "Browning butter to honey amber with visible milk-solid speckles before adding garlic and lemon.",
+      "Emulsifying pasta water, butter, lemon, and starch into a thin glossy coating that clings inside orecchiette cups.",
+      "Tearing burrata so cold cream spills over hot pasta while keeping the cheese recognizable and voluptuous."
+    ],
+    "visualTextureOpportunities": [
+      "Extreme macro of burrata tearing open and cream sliding over glossy orecchiette cups.",
+      "Pistachios cracking under the knife into rough green-gold shards and dust.",
+      "Brown butter foam collapsing into amber speckles around garlic.",
+      "Lemon zest falling like yellow sparks into hot butter steam.",
+      "Orecchiette cups flipping in the skillet, each shell lacquered with lemon butter.",
+      "Crispy caper breadcrumbs raining over white burrata cream and green pistachio shards.",
+      "Final fork lift with cream, sauce, crumb, basil, and pistachio all clinging together."
+    ],
+    "possibleHooks": [
+      "Burrata rupture: a spoon tears the white ball and cream floods lemon-glossed orecchiette.",
+      "Pistachio crunch: roasted nuts are chopped into rough shards with an ASMR crackle before the pasta payoff.",
+      "Brown butter sizzle: lemon zest hits amber butter and releases a sharp steam burst.",
+      "Orecchiette cup toss: pasta shells flip in slow-looking but hard-cut ASMR rhythm, glossy and sexy.",
+      "Crunch shower: golden caper crumbs and pistachios fall over creamy burrata in a high-contrast money shot."
+    ],
+    "promptPolicySources": [
+      "Recipe source structured data from Del's Cooking Twist URL.",
+      "Creator instruction: use orecchiette instead of spaghetti or generic pasta.",
+      "Creator instruction: add roasted pistachios as an extra crunchy topping and supplemental step.",
+      "Creator instruction: avoid generating intermediate reference images unless indispensable; rely on existing asset library.",
+      "Workspace Seedance References rules: seedance2, 1080:1920, kitchen continuity pair, explicit reference roles, no first/last keyframe workflow.",
+      "ASMR food direction: texture-first opening, 75-80 percent detail shots, hard cuts, no speech, no voiceover, no music in video prompts."
+    ]
+  },
+  "clarifyingQuestions": []
+}

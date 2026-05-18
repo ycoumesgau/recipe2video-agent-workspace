@@ -1,0 +1,27 @@
+{
+  "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+  "branch": "cursor/recipe-ingest-e307528d-1038",
+  "stage": "recipe_ingest",
+  "workspace": "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c",
+  "source": {
+    "type": "url",
+    "url": "https://www.delscookingtwist.com/lemon-butter-pasta-with-burrata-cheese/"
+  },
+  "artifactPaths": [
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/recipe-analysis.json",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/logical-scenes.json",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/seedance-segments.json",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/reference-plan.json",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/suno-prompt.json",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/suno-prompt.md",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/decisions.md",
+    "agent-recipes/e307528d-65ae-40af-95d4-8678a87b1a4c/changelog.md"
+  ],
+  "validation": {
+    "jsonValidated": true,
+    "validatedAt": "2026-05-18T07:01:31.598752+00:00",
+    "notes": "Validated with python json.load and structural checks: 36 logical scenes, 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, recipe-analysis plain-string arrays verified."
+  },
+  "latestPushedCommitSha": null,
+  "updatedAt": "2026-05-18T07:01:31.598776+00:00"
+}

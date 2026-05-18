@@ -1,0 +1,936 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 1,
+      "title": "Cream hook and pistachio crunch",
+      "arc": "hook and pistachio topping",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05",
+        "scene-06"
+      ],
+      "description": "Open with burrata rupture, then jump back to roasted pistachio crunch preparation.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the shot-specific overhead view for the plate and chopping board. Use @InductionCloseup only for the dry skillet roasting view. Use @CharacterSheet and @PoseTopDown only to preserve visible Licorn hands. Use @chef_knife and @cutting_board only for pistachio chopping. Use @Spoon only for the burrata tear. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sensual food-porn macro, no text on screen. Integrated audio: no speech, no voiceover, no music; only burrata tear, nut crackle, dry skillet ticks, knife crunch. Mandatory timing: 0.0-1.0s spoon tears burrata over glossy orecchiette; 1.0-1.8s roasted pistachio shards and golden crumbs rain over cream; 1.8-2.5s hard cut back to pistachios beside dry skillet; 2.5-3.6s nuts fall into skillet; 3.6-4.7s nuts roast with lightly blistered edges; 4.7-6.0s chef knife chops cooled nuts into rough shards. Scale lock: pistachio pieces 3-6 mm, one-to-two tablespoon final sprinkle per plate, not green powder, not giant chunks. Kitchen lock: same light terrazzo counter and black flush induction, no wood counter. Global negatives: no spaghetti, no generic green dust, no burnt nuts, no text, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the shot-specific overhead view for the plate and chopping board. Use @InductionCloseup only for the dry skillet roasting view. Use @CharacterSheet and @PoseTopDown only to preserve visible Licorn hands. Use @chef_knife and @cutting_board only for pistachio chopping. Use @Spoon only for the burrata tear. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sensual food-porn macro, no text on screen. Integrated audio: no speech, no voiceover, no music; only burrata tear, nut crackle, dry skillet ticks, knife crunch. Mandatory timing: 0.0-1.0s spoon tears burrata over glossy orecchiette; 1.0-1.8s roasted pistachio shards and golden crumbs rain over cream; 1.8-2.5s hard cut back to pistachios beside dry skillet; 2.5-3.6s nuts fall into skillet; 3.6-4.7s nuts roast with lightly blistered edges; 4.7-6.0s chef knife chops cooled nuts into rough shards. Scale lock: pistachio pieces 3-6 mm, one-to-two tablespoon final sprinkle per plate, not green powder, not giant chunks. Kitchen lock: same light terrazzo counter and black flush induction, no wood counter. Global negatives: no spaghetti, no generic green dust, no burnt nuts, no text, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island view for plate and chopping actions",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction closeup for dry skillet roasting",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for chopping and sprinkling",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "chef knife shape for pistachio chopping",
+          "name": "chef_knife",
+          "label": "chef_knife",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "cutting board surface for nut chopping",
+          "name": "cutting_board",
+          "label": "cutting_board",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for burrata tear",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "burrata rupture hook",
+        "crunch shower payoff",
+        "pistachios dry-roast",
+        "rough chop"
+      ],
+      "timing": [
+        "0.0-1.0s burrata tears over orecchiette",
+        "1.0-1.8s pistachio and crumb shower",
+        "1.8-2.5s pistachios set by skillet",
+        "2.5-3.6s pistachios hit dry skillet",
+        "3.6-4.7s blistered roast shake",
+        "4.7-6.0s rough chop into 3-6 mm shards"
+      ],
+      "continuity": "Opening teases final orecchiette-burrata state, then prepares roasted pistachios for later segments. Orecchiette cups remain 2-3 cm, not spaghetti.",
+      "risk": "Food-porn hook can confuse chronology; hard cut back to pistachio prep and explicit roasted topping role keeps it coherent. Pistachios may become powder unless shard scale is restated.",
+      "audioPrompt": "wet burrata tear, crunchy pistachio shower, dry skillet nut crackle, chef knife chop",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 2,
+      "title": "Orecchiette in boiling water",
+      "arc": "pasta cooking",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-07",
+        "scene-08",
+        "scene-09"
+      ],
+      "description": "Cook the creator-requested orecchiette and show the reserved starchy water.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionWide as the shot-specific kitchen view for the boiling pot, and @InductionCloseup for macro steam and shell details. Use @SaucepanLarge only as the pasta pot reference. Use @SpiderSkimmer only for lifting orecchiette. Use @CharacterSheet only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no extra shots. TikTok/Reels food ASMR style, macro steam and glossy pasta, no text on screen. Integrated audio: no speech, no voiceover, no music; boiling water, pasta splash, skimmer drip only. Mandatory timing: 0.0-0.8s orecchiette shells pour into salted boiling water; 0.8-1.7s shells tumble in steam; 1.7-2.8s spider skimmer lifts a few al dente shells; 2.8-4.0s cloudy reserved pasta water pours into a glass. Scale lock: orecchiette are small ear-shaped cups about 2-3 cm wide relative to the skimmer holes, not spaghetti, not giant shells, not miniature grains. Kitchen lock: black flush induction and same cabinetry from references. Global negatives: no spaghetti strands, no flames, no overcooked mush, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionWide as the shot-specific kitchen view for the boiling pot, and @InductionCloseup for macro steam and shell details. Use @SaucepanLarge only as the pasta pot reference. Use @SpiderSkimmer only for lifting orecchiette. Use @CharacterSheet only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 4 seconds, no extra shots. TikTok/Reels food ASMR style, macro steam and glossy pasta, no text on screen. Integrated audio: no speech, no voiceover, no music; boiling water, pasta splash, skimmer drip only. Mandatory timing: 0.0-0.8s orecchiette shells pour into salted boiling water; 0.8-1.7s shells tumble in steam; 1.7-2.8s spider skimmer lifts a few al dente shells; 2.8-4.0s cloudy reserved pasta water pours into a glass. Scale lock: orecchiette are small ear-shaped cups about 2-3 cm wide relative to the skimmer holes, not spaghetti, not giant shells, not miniature grains. Kitchen lock: black flush induction and same cabinetry from references. Global negatives: no spaghetti strands, no flames, no overcooked mush, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wide induction shot for boiling pot orientation",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction closeup for steam and pasta details",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "large saucepan shape for pasta water",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spider skimmer shape for lifting pasta",
+          "name": "SpiderSkimmer",
+          "label": "SpiderSkimmer",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "orecchiette pour",
+        "boiling tumble",
+        "skimmer lift",
+        "reserved starch water"
+      ],
+      "timing": [
+        "0.0-0.8s orecchiette pours into boiling water",
+        "0.8-1.7s shells tumble",
+        "1.7-2.8s spider skimmer lift",
+        "2.8-4.0s cloudy pasta water reserved"
+      ],
+      "continuity": "Pasta shape is locked as orecchiette cups for all later segments; reserved water returns in segment-05.",
+      "risk": "The source mentions spaghetti; prompt must override with orecchiette and visible cup geometry.",
+      "audioPrompt": "rolling boil, pasta splash, skimmer drip, cloudy water pour",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 4,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 3,
+      "title": "Crispy caper breadcrumb topping",
+      "arc": "crisp topping",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-10",
+        "scene-11",
+        "scene-12",
+        "scene-13",
+        "scene-14"
+      ],
+      "description": "Make the dry golden caper breadcrumb topping that later mixes with pistachio crunch.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionCloseup as the shot-specific skillet view; use @InductionWide only if a wider induction identity is needed. Use @Spoon only for stirring and transferring. Use @CharacterSheet and @PoseTopDown only for visible hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no extra shots. ASMR food macro, sensual crunchy texture, no text on screen. Integrated audio: no speech, no voiceover, no music; butter hiss, crumb sizzle, caper pops, ceramic scrape. Mandatory timing: 0.0-0.8s butter and olive oil melt glossy; 0.8-1.8s breadcrumbs scatter and begin to turn sandy gold; 1.8-3.0s capers wrinkle and pop with thyme and red chili flecks; 3.0-4.0s parmesan falls as pale speckles; 4.0-5.0s topping slides into a shallow bowl dry and loose. Texture lock: crumbs stay separate, sandy, golden, and crisp, not wet paste, not sauce. Kitchen lock: same black induction plate, no flame. Global negatives: no gummy breadcrumbs, no burnt black crumbs, no text, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionCloseup as the shot-specific skillet view; use @InductionWide only if a wider induction identity is needed. Use @Spoon only for stirring and transferring. Use @CharacterSheet and @PoseTopDown only for visible hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no extra shots. ASMR food macro, sensual crunchy texture, no text on screen. Integrated audio: no speech, no voiceover, no music; butter hiss, crumb sizzle, caper pops, ceramic scrape. Mandatory timing: 0.0-0.8s butter and olive oil melt glossy; 0.8-1.8s breadcrumbs scatter and begin to turn sandy gold; 1.8-3.0s capers wrinkle and pop with thyme and red chili flecks; 3.0-4.0s parmesan falls as pale speckles; 4.0-5.0s topping slides into a shallow bowl dry and loose. Texture lock: crumbs stay separate, sandy, golden, and crisp, not wet paste, not sauce. Kitchen lock: same black induction plate, no flame. Global negatives: no gummy breadcrumbs, no burnt black crumbs, no text, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction closeup for skillet crumb frying",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wide induction continuity if camera breathes wider",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for stirring and transferring topping",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for stirring",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "fat melts",
+        "breadcrumbs scatter",
+        "capers pop",
+        "parmesan speckles",
+        "topping bowl"
+      ],
+      "timing": [
+        "0.0-0.8s butter and oil melt",
+        "0.8-1.8s breadcrumbs scatter",
+        "1.8-3.0s capers, thyme, chili pop",
+        "3.0-4.0s parmesan speckles",
+        "4.0-5.0s dry topping slides to bowl"
+      ],
+      "continuity": "The shallow bowl of crispy caper breadcrumbs returns at plating in segment-07.",
+      "risk": "Breadcrumb mixture may become paste; repeat dry loose texture and short cooking evidence.",
+      "audioPrompt": "butter hiss, breadcrumb sizzle, caper pop, spoon scrape",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 4,
+      "title": "Lemon brown butter sizzle",
+      "arc": "sauce",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19"
+      ],
+      "description": "Brown butter, garlic, lemon zest, and lemon juice create the glossy sauce base.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionCloseup as the shot-specific sauce view; use @InductionWide only for stovetop continuity. Use @zester only for lemon zest, @lemon_squeezer only for lemon juice. Use @CharacterSheet and @PoseThreeQuarterRight only for visible Licorn hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no soft transitions, no extra shots. Sensual ASMR macro, hot glossy sauce, no text on screen. Integrated audio: no speech, no voiceover, no music; butter foam, garlic sizzle, zester rasp, citrus hiss. Mandatory timing: 0.0-1.0s diced butter melts and foams; 1.0-2.0s foam collapses into honey-amber brown butter speckles; 2.0-2.8s minced garlic falls and blooms; 2.8-4.0s lemon zest rains in yellow curls; 4.0-5.0s lemon juice streams and bubbles bright. Physics lock: brown butter is honey amber with suspended milk solids, not black burnt butter and not pale melted butter. Kitchen lock: black flush induction, no flame, same kitchen materials. Global negatives: no burnt sauce, no watery soup, no text, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionCloseup as the shot-specific sauce view; use @InductionWide only for stovetop continuity. Use @zester only for lemon zest, @lemon_squeezer only for lemon juice. Use @CharacterSheet and @PoseThreeQuarterRight only for visible Licorn hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no soft transitions, no extra shots. Sensual ASMR macro, hot glossy sauce, no text on screen. Integrated audio: no speech, no voiceover, no music; butter foam, garlic sizzle, zester rasp, citrus hiss. Mandatory timing: 0.0-1.0s diced butter melts and foams; 1.0-2.0s foam collapses into honey-amber brown butter speckles; 2.0-2.8s minced garlic falls and blooms; 2.8-4.0s lemon zest rains in yellow curls; 4.0-5.0s lemon juice streams and bubbles bright. Physics lock: brown butter is honey amber with suspended milk solids, not black burnt butter and not pale melted butter. Kitchen lock: black flush induction, no flame, same kitchen materials. Global negatives: no burnt sauce, no watery soup, no text, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction closeup for brown butter sauce",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "shot continuity for stovetop layout",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "zester tool shape for lemon zest",
+          "name": "zester",
+          "label": "zester",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "lemon squeezer tool shape for lemon juice",
+          "name": "lemon_squeezer",
+          "label": "lemon_squeezer",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter pose for stovetop hand angle",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "butter cubes foam",
+        "amber speckles",
+        "garlic bloom",
+        "zest sparks",
+        "lemon juice sizzle"
+      ],
+      "timing": [
+        "0.0-1.0s butter cubes melt",
+        "1.0-2.0s foam turns honey amber",
+        "2.0-2.8s garlic blooms",
+        "2.8-4.0s zest rains",
+        "4.0-5.0s lemon juice bubbles"
+      ],
+      "continuity": "Sauce carries the amber lemon-butter sheen into the pasta emulsion segment.",
+      "risk": "Brown butter can render burnt or greasy; visual color and foam-collapse cues are mandatory.",
+      "audioPrompt": "foaming butter, garlic sizzle, lemon zest rasp, citrus hiss",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 5,
+      "title": "Glossy orecchiette emulsion",
+      "arc": "pasta and sauce",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23"
+      ],
+      "description": "Starchy water and butter turn the lemon sauce into a satin coating on orecchiette cups.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionCloseup as the shot-specific skillet view; use @InductionWide only to preserve stovetop identity. Use @Tongs only for pasta tossing. Use @CharacterSheet and @PoseThreeQuarterRight only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no extra shots. TikTok/Reels ASMR macro, glossy sexy pasta movement, no text on screen. Integrated audio: no speech, no voiceover, no music; liquid hiss, pasta tumble, tong clicks, butter melt. Mandatory timing: 0.0-0.9s cloudy reserved pasta water pours into lemon brown butter; 0.9-2.0s orecchiette cups tumble into the skillet; 2.0-3.7s tongs toss shells through a satin coating; 3.7-5.0s remaining butter melts and lacquers every cup. Scale lock: orecchiette are 2-3 cm ear-shaped cups, not spaghetti, not penne, not giant shells. Sauce lock: thin glossy coating clinging inside cups, not soup and not dry pasta. Kitchen lock: same black induction plate and light terrazzo surfaces. Global negatives: no spaghetti strands, no cream sauce puddle, no flames, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @InductionCloseup as the shot-specific skillet view; use @InductionWide only to preserve stovetop identity. Use @Tongs only for pasta tossing. Use @CharacterSheet and @PoseThreeQuarterRight only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no extra shots. TikTok/Reels ASMR macro, glossy sexy pasta movement, no text on screen. Integrated audio: no speech, no voiceover, no music; liquid hiss, pasta tumble, tong clicks, butter melt. Mandatory timing: 0.0-0.9s cloudy reserved pasta water pours into lemon brown butter; 0.9-2.0s orecchiette cups tumble into the skillet; 2.0-3.7s tongs toss shells through a satin coating; 3.7-5.0s remaining butter melts and lacquers every cup. Scale lock: orecchiette are 2-3 cm ear-shaped cups, not spaghetti, not penne, not giant shells. Sauce lock: thin glossy coating clinging inside cups, not soup and not dry pasta. Kitchen lock: same black induction plate and light terrazzo surfaces. Global negatives: no spaghetti strands, no cream sauce puddle, no flames, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction closeup for pasta emulsion",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wide induction continuity",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "tongs shape for tossing pasta",
+          "name": "Tongs",
+          "label": "Tongs",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter pose for tossing",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "pasta water swirl",
+        "orecchiette tumble",
+        "tongs toss",
+        "butter finish"
+      ],
+      "timing": [
+        "0.0-0.9s pasta water pours into butter",
+        "0.9-2.0s orecchiette tumble",
+        "2.0-3.7s tongs toss glossy cups",
+        "3.7-5.0s remaining butter melts and coats"
+      ],
+      "continuity": "Orecchiette geometry and lemon-butter gloss continue into plating; sauce remains coating-thin.",
+      "risk": "Model may convert pasta to spaghetti or make sauce soupy; shape and coating locks must repeat.",
+      "audioPrompt": "starchy pour, skillet hiss, tong toss, glossy pasta slide",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 6,
+      "title": "Plate and rupture burrata",
+      "arc": "assembly",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-24",
+        "scene-25",
+        "scene-26",
+        "scene-27"
+      ],
+      "description": "Plate the pasta and make the central burrata rupture money shot.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @KitchenIslandDefault as the shot-specific plating identity and @KitchenIslandOverhead for bowl composition. Use @Spoon only for plating and tearing burrata. Use @CharacterSheet and @PoseTopDown only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no extra shots. Sensual food-porn ASMR macro, no text on screen. Integrated audio: no speech, no voiceover, no music; plate set-down, glossy pasta slide, soft cheese thud, wet burrata rupture. Mandatory timing: 0.0-0.8s warm low bowl lands on the terrazzo island; 0.8-2.1s glossy orecchiette spoons into one generous mound; 2.1-3.0s smooth burrata ball lands on top; 3.0-5.0s spoon splits burrata and thick cream slowly floods into the orecchiette cups. Scale lock: one generous serving bowl, orecchiette 2-3 cm cups, burrata about palm-sized, not miniature and not enormous. Kitchen lock: same light terrazzo counter, same Licorn kitchen, no redesigned table. Global negatives: no spaghetti, no tiny burrata dot, no full cheese explosion covering everything, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @KitchenIslandDefault as the shot-specific plating identity and @KitchenIslandOverhead for bowl composition. Use @Spoon only for plating and tearing burrata. Use @CharacterSheet and @PoseTopDown only for visible Licorn hands. Generate exactly 4 short shots with hard cuts, total duration 5 seconds, no extra shots. Sensual food-porn ASMR macro, no text on screen. Integrated audio: no speech, no voiceover, no music; plate set-down, glossy pasta slide, soft cheese thud, wet burrata rupture. Mandatory timing: 0.0-0.8s warm low bowl lands on the terrazzo island; 0.8-2.1s glossy orecchiette spoons into one generous mound; 2.1-3.0s smooth burrata ball lands on top; 3.0-5.0s spoon splits burrata and thick cream slowly floods into the orecchiette cups. Scale lock: one generous serving bowl, orecchiette 2-3 cm cups, burrata about palm-sized, not miniature and not enormous. Kitchen lock: same light terrazzo counter, same Licorn kitchen, no redesigned table. Global negatives: no spaghetti, no tiny burrata dot, no full cheese explosion covering everything, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "default island shot for plating",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island shot for bowl composition",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for plating and burrata tear",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for plating",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "plate lands",
+        "pasta mound",
+        "burrata lands",
+        "burrata rupture"
+      ],
+      "timing": [
+        "0.0-0.8s warm bowl lands",
+        "0.8-2.1s glossy orecchiette mounds",
+        "2.1-3.0s burrata ball lands",
+        "3.0-5.0s spoon splits burrata and cream flows"
+      ],
+      "continuity": "This segment is the main creamy payoff teased in segment-01; toppings from segments 01 and 03 arrive next.",
+      "risk": "Burrata may turn into melted mozzarella or disappear; keep ball visible before rupture and thick cold cream after split.",
+      "audioPrompt": "ceramic plate set, pasta slide, soft burrata thud, wet cream tear",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-07",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 7,
+      "title": "Crunch and citrus shower",
+      "arc": "final toppings",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-28",
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32"
+      ],
+      "description": "Layer caper crumbs, roasted pistachios, basil, lemon zest, parmesan, and pepper with explicit quantities.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @KitchenIslandOverhead as the shot-specific topping view and @KitchenIslandDefault to preserve the final plate environment. Use @Spoon only for crispy crumb topping. Use @zester only for lemon zest. Use @pepper_mill only for pepper. Use @CharacterSheet and @PoseTopDown only for visible Licorn hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no extra shots. High-contrast ASMR food-porn macro, no text on screen. Integrated audio: no speech, no voiceover, no music; crumb rain, nut sprinkle, basil tear, zester rasp, pepper grind. Mandatory timing: 0.0-1.0s two spoonfuls of dry golden caper breadcrumbs fall over burrata cream; 1.0-2.0s one-to-two tablespoons roasted pistachio shards fall visibly; 2.0-2.8s 6-8 small torn basil pieces land, not a salad pile; 2.8-4.0s lemon zest and parmesan fall as fine bright threads and flakes; 4.0-5.0s black pepper speckles finish. Quantity lock: pistachios are 3-6 mm rough shards, visible but not covering the whole plate; crumbs stay dry and sandy. Kitchen lock: same terrazzo island and bowl placement. Global negatives: no green powder, no oversized pistachios, no tiny invisible garnish, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @KitchenIslandOverhead as the shot-specific topping view and @KitchenIslandDefault to preserve the final plate environment. Use @Spoon only for crispy crumb topping. Use @zester only for lemon zest. Use @pepper_mill only for pepper. Use @CharacterSheet and @PoseTopDown only for visible Licorn hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no extra shots. High-contrast ASMR food-porn macro, no text on screen. Integrated audio: no speech, no voiceover, no music; crumb rain, nut sprinkle, basil tear, zester rasp, pepper grind. Mandatory timing: 0.0-1.0s two spoonfuls of dry golden caper breadcrumbs fall over burrata cream; 1.0-2.0s one-to-two tablespoons roasted pistachio shards fall visibly; 2.0-2.8s 6-8 small torn basil pieces land, not a salad pile; 2.8-4.0s lemon zest and parmesan fall as fine bright threads and flakes; 4.0-5.0s black pepper speckles finish. Quantity lock: pistachios are 3-6 mm rough shards, visible but not covering the whole plate; crumbs stay dry and sandy. Kitchen lock: same terrazzo island and bowl placement. Global negatives: no green powder, no oversized pistachios, no tiny invisible garnish, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island shot for toppings",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "default island identity for final plate",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape for crumb topping",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "zester tool shape for lemon zest",
+          "name": "zester",
+          "label": "zester",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pepper mill shape for black pepper finish",
+          "name": "pepper_mill",
+          "label": "pepper_mill",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity and visible hands",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hand pose for garnish",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "caper crumb shower",
+        "pistachio shower",
+        "basil tear",
+        "zest parmesan snow",
+        "pepper speckles"
+      ],
+      "timing": [
+        "0.0-1.0s two spoonfuls caper crumbs fall",
+        "1.0-2.0s pistachio shards fall",
+        "2.0-2.8s basil tears",
+        "2.8-4.0s lemon zest and parmesan snow",
+        "4.0-5.0s black pepper speckles"
+      ],
+      "continuity": "Pistachio and caper crumbs prepared earlier are now visibly paid off; garnish quantities stay controlled.",
+      "risk": "Tiny garnish drift or overcoverage can obscure burrata; quantities and negative constraints are mandatory.",
+      "audioPrompt": "crisp crumb rain, pistachio sprinkle, basil tear, zester rasp, pepper grind",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-08",
+      "videoId": "e307528d-65ae-40af-95d4-8678a87b1a4c",
+      "position": 8,
+      "title": "Creamy crunchy fork lift",
+      "arc": "final hero",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
+      "description": "End with fork lift and character satisfaction in the Licorn kitchen.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @KitchenIslandDefault as the shot-specific hero bowl view. Use @KitchenIslandWide only for the brief final character satisfaction context. Use @CharacterSheet and @PoseThreeQuarterLeft only for Licorn identity and final satisfied posture. Generate exactly 4 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. Sensual TikTok/Reels ASMR food-porn finish, no text on screen. Integrated audio: no speech, no voiceover, no music; fork scrape, creamy lift, soft satisfied exhale, quiet crunch. Mandatory timing: 0.0-1.4s fork twists through orecchiette cups, burrata cream, crumbs, basil, and pistachios; 1.4-3.0s fork lifts a creamy crunchy bite with pistachio shards clinging; 3.0-4.5s Licorn leans in satisfied behind the bowl, food remains central; 4.5-6.0s final macro of glossy lemon-butter orecchiette, white burrata cream, golden caper crumbs, basil, and roasted pistachios. Scale lock: orecchiette cups remain 2-3 cm and visible on the fork, not spaghetti twirls. Kitchen lock: finished dish stays in the same Licorn kitchen; no table redesign. Global negatives: no spaghetti, no talking, no lyrics, no text, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context, not framing. Use @KitchenIslandDefault as the shot-specific hero bowl view. Use @KitchenIslandWide only for the brief final character satisfaction context. Use @CharacterSheet and @PoseThreeQuarterLeft only for Licorn identity and final satisfied posture. Generate exactly 4 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. Sensual TikTok/Reels ASMR food-porn finish, no text on screen. Integrated audio: no speech, no voiceover, no music; fork scrape, creamy lift, soft satisfied exhale, quiet crunch. Mandatory timing: 0.0-1.4s fork twists through orecchiette cups, burrata cream, crumbs, basil, and pistachios; 1.4-3.0s fork lifts a creamy crunchy bite with pistachio shards clinging; 3.0-4.5s Licorn leans in satisfied behind the bowl, food remains central; 4.5-6.0s final macro of glossy lemon-butter orecchiette, white burrata cream, golden caper crumbs, basil, and roasted pistachios. Scale lock: orecchiette cups remain 2-3 cm and visible on the fork, not spaghetti twirls. Kitchen lock: finished dish stays in the same Licorn kitchen; no table redesign. Global negatives: no spaghetti, no talking, no lyrics, no text, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "default island shot for hero bowl",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wide island shot for character satisfaction",
+          "name": "KitchenIslandWide",
+          "label": "KitchenIslandWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter pose for final satisfaction",
+          "name": "PoseThreeQuarterLeft",
+          "label": "PoseThreeQuarterLeft",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "fork twist",
+        "fork lift",
+        "Licorn satisfaction",
+        "final macro bowl"
+      ],
+      "timing": [
+        "0.0-1.4s fork twists through all textures",
+        "1.4-3.0s creamy crunchy fork lift",
+        "3.0-4.5s Licorn satisfied with bowl",
+        "4.5-6.0s final macro finished dish"
+      ],
+      "continuity": "Final segment preserves all prior material payoffs: lemon gloss, burrata cream, caper crumb, basil, and roasted pistachio crunch.",
+      "risk": "Fork lift can become spaghetti twirl; restate orecchiette cup geometry and avoid long strand motion.",
+      "audioPrompt": "fork scrape, creamy lift, delicate crunch, satisfied breath without speech",
+      "negatives": [
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no text on screen",
+        "no extra shots",
+        "no spaghetti",
+        "no invented kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "kitchenContinuityPairPresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    }
+  ]
+}

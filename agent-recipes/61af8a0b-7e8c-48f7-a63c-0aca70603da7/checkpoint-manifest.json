@@ -1,9 +1,9 @@
 {
   "videoId": "61af8a0b-7e8c-48f7-a63c-0aca70603da7",
   "branch": "cursor/recipe-ingest-61af8a0b-de0c",
-  "latestPushedCommitSha": "727e5363223b5a2674dad8b4104e7aa8dc4e377c",
-  "stage": "recipe_ingest",
-  "updatedAt": "2026-05-18T07:09:00Z",
+  "latestPushedCommitSha": "ad2d843a2f1fd9632100110f8472e2ae7048e4dd",
+  "stage": "general",
+  "updatedAt": "2026-05-18T07:26:00Z",
   "artifacts": [
     "recipe-analysis.json",
     "logical-scenes.json",
@@ -38,6 +38,7 @@
   "notes": [
     "Recipe source was complete; no clarifying questions remain.",
     "Creator-provided final image is planned as DesiredFinalDishVisual.",
-    "No intermediate recipe-specific generated references are planned."
+    "No intermediate recipe-specific generated references are planned.",
+    "General follow-up request confirmed artifacts already existed and revalidated them."
   ]
 }

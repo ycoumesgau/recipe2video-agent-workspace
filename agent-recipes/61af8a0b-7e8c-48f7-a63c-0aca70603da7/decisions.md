@@ -28,4 +28,5 @@
 ## Artifact readiness
 
 - `recipe-analysis.json`, `logical-scenes.json`, `seedance-segments.json`, `reference-plan.json`, `suno-prompt.json`, `suno-prompt.md`, `decisions.md`, and `changelog.md` are ready for Recipe2Video validation.
-- `checkpoint-manifest.json` records the pushed artifact checkpoint SHA `727e5363223b5a2674dad8b4104e7aa8dc4e377c`.
+- Follow-up request on 2026-05-18 confirmed the artifacts already exist and are still ready; no creative artifact rewrite was needed.
+- `checkpoint-manifest.json` was realigned to the latest already-pushed checkpoint SHA available at the start of the follow-up: `ad2d843a2f1fd9632100110f8472e2ae7048e4dd`.

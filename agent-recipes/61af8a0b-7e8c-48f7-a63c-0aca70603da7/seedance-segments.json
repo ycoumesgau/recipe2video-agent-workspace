@@ -28,7 +28,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,
@@ -68,7 +67,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,
@@ -109,7 +107,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,
@@ -148,7 +145,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,
@@ -188,7 +184,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,
@@ -228,7 +223,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,
@@ -270,7 +264,6 @@
       "qaChecklist": {
         "referencesWithinLimit": true,
         "globalKitchenReferencePresent": true,
-        "kitchenContinuityPairPresent": true,
         "referenceRolesExplicit": true,
         "promptWithinPracticalLimit": true,
         "hardCutsSpecified": true,

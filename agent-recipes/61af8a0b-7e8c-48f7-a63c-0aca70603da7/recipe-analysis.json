@@ -3,18 +3,6 @@
     "title": "Spicy Strawberry Salsa with Whipped Feta",
     "sourceType": "url",
     "sourceUrl": "https://www.foulmouthgourmet.com/spicy-strawberry-salsa-with-whipped-feta/",
-    "desiredFinalVisualUrl": "https://cdn.sanity.io/images/fl949yr7/production/ff687323573ae76187cc7d4e48e699d980e490e1-1024x1365.png?q=85&fit=clip&auto=format",
-    "stylePreset": "asmr_food",
-    "productionDefaults": {
-      "videoModel": "seedance2",
-      "imageModelForReferenceGeneration": "gpt_image_2",
-      "ttsModel": "eleven_multilingual_v2",
-      "sfxModel": "eleven_text_to_sound_v2",
-      "cursorAgentModel": "gpt-5.5",
-      "cursorAgentReasoning": "high",
-      "cursorAgentFastMode": false
-    },
-    "servings": "6",
     "ingredients": [
       {
         "name": "strawberries",

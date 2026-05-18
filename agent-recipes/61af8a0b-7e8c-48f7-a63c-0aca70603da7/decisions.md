@@ -30,3 +30,9 @@
 - `recipe-analysis.json`, `logical-scenes.json`, `seedance-segments.json`, `reference-plan.json`, `suno-prompt.json`, `suno-prompt.md`, `decisions.md`, and `changelog.md` are ready for Recipe2Video validation.
 - Follow-up request on 2026-05-18 confirmed the artifacts already exist and are still ready; no creative artifact rewrite was needed.
 - `checkpoint-manifest.json` was realigned to the latest already-pushed checkpoint SHA available at the start of the follow-up: `ad2d843a2f1fd9632100110f8472e2ae7048e4dd`.
+
+## 2026-05-18 strict format refresh
+
+- Pulled `origin/main` into the working branch and reapplied the current asset/Seedance/Suno skills.
+- Removed non-contract metadata from `recipe-analysis.json` to avoid strict Zod rejection. The removed metadata remains preserved here as decisions: desired final visual URL `https://cdn.sanity.io/images/fl949yr7/production/ff687323573ae76187cc7d4e48e699d980e490e1-1024x1365.png?q=85&fit=clip&auto=format`, style preset `asmr_food`, and production defaults `seedance2`, `gpt_image_2`, `eleven_multilingual_v2`, `eleven_text_to_sound_v2`.
+- Removed the non-contract `kitchenContinuityPairPresent` key from each segment `qaChecklist`; the actual kitchen continuity pair remains present in every segment reference list and is validated separately.

@@ -18,3 +18,10 @@
 - Revalidated JSON strictness and key Recipe2Video structural requirements.
 - Updated `checkpoint-manifest.json` to point at the latest already-pushed checkpoint SHA available at the start of this follow-up: `ad2d843a2f1fd9632100110f8472e2ae7048e4dd`.
 - No creative planning content was regenerated because all required artifacts were already ready.
+
+## 2026-05-18 - Main pull and strict Zod hardening
+
+- Pulled `origin/main` into the recipe branch and reviewed the updated skills/contracts.
+- Removed extra non-contract metadata from `recipe-analysis.json`; the same production/default context is retained in `decisions.md`.
+- Removed the non-contract `kitchenContinuityPairPresent` property from Seedance `qaChecklist` objects while preserving the actual required kitchen reference pairs in segment references and prompts.
+- Revalidated the artifact set against strict key checks intended to reduce Zod retrieval failures.

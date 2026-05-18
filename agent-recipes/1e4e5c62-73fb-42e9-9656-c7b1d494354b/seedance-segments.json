@@ -1,0 +1,758 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 1,
+      "title": "Glossy jammy egg hook",
+      "arc": "sauce-yolk hook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05"
+      ],
+      "description": "Food-porn cold open: red garlic boil sauce, jammy yolk smear, six-egg hero bowl, and a quick satisfied Licorn context beat.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandDefault as the active shot-specific kitchen view. Use @Spoon only as sauce-basting and yolk-press utensil. Use @CharacterSheet only as character identity. Use @PoseThreeQuarterRight only as three-quarter bowl-hold posture. Use @CharacterExpressions only as satisfied expression guidance. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-1.0s spoon presses jammy egg and red sauce floods yolk; 1.0-2.0s bowl clarifies six eggs; 2.0-2.9s sauce lacquers one egg; 2.9-3.8s garlic and chili cling; 3.8-5.0s Licorn holds bowl, satisfied. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: six standard chicken eggs, palm-sized, not quail eggs, not oversized, not miniature. Food-state lock: thick orange jammy yolk, not raw watery yolk, not dry gray yolk. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandDefault as the active shot-specific kitchen view. Use @Spoon only as sauce-basting and yolk-press utensil. Use @CharacterSheet only as character identity. Use @PoseThreeQuarterRight only as three-quarter bowl-hold posture. Use @CharacterExpressions only as satisfied expression guidance. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-1.0s spoon presses jammy egg and red sauce floods yolk; 1.0-2.0s bowl clarifies six eggs; 2.0-2.9s sauce lacquers one egg; 2.9-3.8s garlic and chili cling; 3.8-5.0s Licorn holds bowl, satisfied. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: six standard chicken eggs, palm-sized, not quail eggs, not oversized, not miniature. Food-state lock: thick orange jammy yolk, not raw watery yolk, not dry gray yolk. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "sauce-basting and yolk-press utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter bowl-hold posture",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "satisfied expression guidance",
+          "name": "CharacterExpressions",
+          "label": "CharacterExpressions",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-1.0s spoon presses jammy egg and red sauce floods yolk",
+        "1.0-2.0s bowl clarifies six eggs",
+        "2.0-2.9s sauce lacquers one egg",
+        "2.9-3.8s garlic and chili cling",
+        "3.8-5.0s Licorn holds bowl, satisfied"
+      ],
+      "timing": [
+        "0.0-1.0s spoon presses jammy egg and red sauce floods yolk",
+        "1.0-2.0s bowl clarifies six eggs",
+        "2.0-2.9s sauce lacquers one egg",
+        "2.9-3.8s garlic and chili cling",
+        "3.8-5.0s Licorn holds bowl, satisfied"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Egg scale and sauce identity can drift; restate six standard eggs and garlic-chili butter sauce.",
+      "audioPrompt": "wet spoon press; thick chili butter pour; garlic slide; soft bowl hold",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 2,
+      "title": "Boil and ice shock",
+      "arc": "egg cooking",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10"
+      ],
+      "description": "Rolling boil, six eggs lowered with tongs, hot bubbles, then ice bath shock.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @InductionWide as the active shot-specific kitchen view. Use @InductionCloseup only as boiling-water macro view. Use @SaucepanLarge only as saucepan shape. Use @Tongs only as hot egg handling utensil. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-1.0s rolling boil; 1.0-2.0s six eggs lowered with tongs; 2.0-2.8s bubble macro; 2.8-4.0s eggs plunge into ice bath; 4.0-5.0s cold droplets shimmer. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: exactly six standard chicken eggs, palm-sized. Utensil lock: tongs for hot egg handling, no bare-hand hot transfer. Induction lock: no gas flame. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @InductionWide as the active shot-specific kitchen view. Use @InductionCloseup only as boiling-water macro view. Use @SaucepanLarge only as saucepan shape. Use @Tongs only as hot egg handling utensil. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-1.0s rolling boil; 1.0-2.0s six eggs lowered with tongs; 2.0-2.8s bubble macro; 2.8-4.0s eggs plunge into ice bath; 4.0-5.0s cold droplets shimmer. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: exactly six standard chicken eggs, palm-sized. Utensil lock: tongs for hot egg handling, no bare-hand hot transfer. Induction lock: no gas flame. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "boiling-water macro view",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "saucepan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hot egg handling utensil",
+          "name": "Tongs",
+          "label": "Tongs",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-1.0s rolling boil",
+        "1.0-2.0s six eggs lowered with tongs",
+        "2.0-2.8s bubble macro",
+        "2.8-4.0s eggs plunge into ice bath",
+        "4.0-5.0s cold droplets shimmer"
+      ],
+      "timing": [
+        "0.0-1.0s rolling boil",
+        "1.0-2.0s six eggs lowered with tongs",
+        "2.0-2.8s bubble macro",
+        "2.8-4.0s eggs plunge into ice bath",
+        "4.0-5.0s cold droplets shimmer"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Model may invent flame or bare-hand hot transfer; keep induction black and utensil-first.",
+      "audioPrompt": "rolling boil; tongs click; egg splash; ice clink",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 3,
+      "title": "Silky peel and jammy reveal",
+      "arc": "egg peel",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-11",
+        "scene-12",
+        "scene-13",
+        "scene-14",
+        "scene-15"
+      ],
+      "description": "Shell crack, wet peel, six glossy peeled eggs, and one clean jammy yolk reveal.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the active shot-specific kitchen view. Use @CharacterSheet only as character hand identity. Use @PoseTopDown only as top-down visible hands pose. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.8s shell tap cracks; 0.8-2.0s shell ribbon peels under water; 2.0-2.9s six peeled eggs roll onto towel; 2.9-4.1s one egg sliced open; 4.1-5.0s eggs set aside visible. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: six standard chicken eggs, one halved egg only. Food-state lock: smooth wet whites and thick orange jammy yolk. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandOverhead as the active shot-specific kitchen view. Use @CharacterSheet only as character hand identity. Use @PoseTopDown only as top-down visible hands pose. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.8s shell tap cracks; 0.8-2.0s shell ribbon peels under water; 2.0-2.9s six peeled eggs roll onto towel; 2.9-4.1s one egg sliced open; 4.1-5.0s eggs set aside visible. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: six standard chicken eggs, one halved egg only. Food-state lock: smooth wet whites and thick orange jammy yolk. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character hand identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down visible hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-0.8s shell tap cracks",
+        "0.8-2.0s shell ribbon peels under water",
+        "2.0-2.9s six peeled eggs roll onto towel",
+        "2.9-4.1s one egg sliced open",
+        "4.1-5.0s eggs set aside visible"
+      ],
+      "timing": [
+        "0.0-0.8s shell tap cracks",
+        "0.8-2.0s shell ribbon peels under water",
+        "2.0-2.9s six peeled eggs roll onto towel",
+        "2.9-4.1s one egg sliced open",
+        "4.1-5.0s eggs set aside visible"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Peeling can become chaotic; keep one main shell ribbon and visible simple hands.",
+      "audioPrompt": "shell crack; water trickle; shell rasp; soft egg slice",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 4,
+      "title": "Garlic butter spice bloom",
+      "arc": "sauce bloom",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19",
+        "scene-20"
+      ],
+      "description": "Butter, garlic, and spice bloom into a brick-red paste with controlled low heat.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @InductionCloseup as the active shot-specific kitchen view. Use @InductionWide only as wider induction context. Use @SaucepanLarge only as pan/saucepan shape. Use @Spoon only as spice paste stirring utensil. Use @CharacterSheet only as visible hand identity. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.8s butter melts pale; 0.8-1.7s minced garlic slides in; 1.7-2.6s red-orange spices rain; 2.6-4.0s spoon folds cohesive brick-red paste; 4.0-5.0s controlled low bubble. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Food physics lock: garlic stays pale, butter does not brown, dry spices become wet red paste quickly. No flame. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @InductionCloseup as the active shot-specific kitchen view. Use @InductionWide only as wider induction context. Use @SaucepanLarge only as pan/saucepan shape. Use @Spoon only as spice paste stirring utensil. Use @CharacterSheet only as visible hand identity. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.8s butter melts pale; 0.8-1.7s minced garlic slides in; 1.7-2.6s red-orange spices rain; 2.6-4.0s spoon folds cohesive brick-red paste; 4.0-5.0s controlled low bubble. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Food physics lock: garlic stays pale, butter does not brown, dry spices become wet red paste quickly. No flame. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "wider induction context",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pan/saucepan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spice paste stirring utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "visible hand identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-0.8s butter melts pale",
+        "0.8-1.7s minced garlic slides in",
+        "1.7-2.6s red-orange spices rain",
+        "2.6-4.0s spoon folds cohesive brick-red paste",
+        "4.0-5.0s controlled low bubble"
+      ],
+      "timing": [
+        "0.0-0.8s butter melts pale",
+        "0.8-1.7s minced garlic slides in",
+        "1.7-2.6s red-orange spices rain",
+        "2.6-4.0s spoon folds cohesive brick-red paste",
+        "4.0-5.0s controlled low bubble"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Sauce can look burned, dusty, or tomato-like; preserve garlic-butter-spice paste identity.",
+      "audioPrompt": "butter sizzle; garlic scrape; spice patter; wet stirring",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 5,
+      "title": "Red-gold sauce reduction",
+      "arc": "sauce reduction",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24",
+        "scene-25"
+      ],
+      "description": "Broth deglaze, glossy reduction, spoon ribbon, lemon flash, and final sauce money shot.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @InductionCloseup as the active shot-specific kitchen view. Use @SaucepanLarge only as pan/saucepan shape. Use @Spoon only as sauce ribbon lifting utensil. Use @CharacterSheet only as visible hand identity. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.8s broth hits paste; 0.8-1.7s red bubbles break; 1.7-2.7s spoon lifts loose glossy ribbon; 2.7-3.4s lemon droplets flash; 3.4-5.0s final red-gold speckled sauce ripples. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Viscosity lock: slightly thickened spoon-coating sauce, not watery soup, not stiff paste. Flavor lock: garlic-chili-butter broth sauce, not tomato marinara. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @InductionCloseup as the active shot-specific kitchen view. Use @SaucepanLarge only as pan/saucepan shape. Use @Spoon only as sauce ribbon lifting utensil. Use @CharacterSheet only as visible hand identity. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.8s broth hits paste; 0.8-1.7s red bubbles break; 1.7-2.7s spoon lifts loose glossy ribbon; 2.7-3.4s lemon droplets flash; 3.4-5.0s final red-gold speckled sauce ripples. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Viscosity lock: slightly thickened spoon-coating sauce, not watery soup, not stiff paste. Flavor lock: garlic-chili-butter broth sauce, not tomato marinara. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pan/saucepan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "sauce ribbon lifting utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "visible hand identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-0.8s broth hits paste",
+        "0.8-1.7s red bubbles break",
+        "1.7-2.7s spoon lifts loose glossy ribbon",
+        "2.7-3.4s lemon droplets flash",
+        "3.4-5.0s final red-gold speckled sauce ripples"
+      ],
+      "timing": [
+        "0.0-0.8s broth hits paste",
+        "0.8-1.7s red bubbles break",
+        "1.7-2.7s spoon lifts loose glossy ribbon",
+        "2.7-3.4s lemon droplets flash",
+        "3.4-5.0s final red-gold speckled sauce ripples"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Sauce may thicken too far or become watery; repeat loose glossy ribbon.",
+      "audioPrompt": "broth splash; simmer; spoon drip; lemon squeeze",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 6,
+      "title": "Egg bowl sauce pour",
+      "arc": "assembly",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-26",
+        "scene-27",
+        "scene-28",
+        "scene-29",
+        "scene-30",
+        "scene-31"
+      ],
+      "description": "Six peeled eggs, glossy sauce pour, garlic-chili slide, jammy yolk kiss, sparse parsley, and basting spoon.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandDefault as the active shot-specific kitchen view. Use @Spoon only as basting and egg-nudging utensil. Use @CharacterSheet only as character hand identity. Use @PoseThreeQuarterRight only as simple bowl-side posture. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.9s six peeled eggs in shallow bowl; 0.9-1.9s first red-gold sauce wave pours; 1.9-2.7s garlic and chili slide down eggs; 2.7-3.6s halved egg yolk kisses sauce; 3.6-4.3s sparse parsley falls; 4.3-6.0s spoon bastes top egg. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: exactly six standard chicken eggs remain readable, not buried. Garnish lock: light parsley sprinkle only, not salad. No side dish. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandDefault as the active shot-specific kitchen view. Use @Spoon only as basting and egg-nudging utensil. Use @CharacterSheet only as character hand identity. Use @PoseThreeQuarterRight only as simple bowl-side posture. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-0.9s six peeled eggs in shallow bowl; 0.9-1.9s first red-gold sauce wave pours; 1.9-2.7s garlic and chili slide down eggs; 2.7-3.6s halved egg yolk kisses sauce; 3.6-4.3s sparse parsley falls; 4.3-6.0s spoon bastes top egg. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: exactly six standard chicken eggs remain readable, not buried. Garnish lock: light parsley sprinkle only, not salad. No side dish. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "basting and egg-nudging utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character hand identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "simple bowl-side posture",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-0.9s six peeled eggs in shallow bowl",
+        "0.9-1.9s first red-gold sauce wave pours",
+        "1.9-2.7s garlic and chili slide down eggs",
+        "2.7-3.6s halved egg yolk kisses sauce",
+        "3.6-4.3s sparse parsley falls",
+        "4.3-6.0s spoon bastes top egg"
+      ],
+      "timing": [
+        "0.0-0.9s six peeled eggs in shallow bowl",
+        "0.9-1.9s first red-gold sauce wave pours",
+        "1.9-2.7s garlic and chili slide down eggs",
+        "2.7-3.6s halved egg yolk kisses sauce",
+        "3.6-4.3s sparse parsley falls",
+        "4.3-6.0s spoon bastes top egg"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Eggs can disappear under sauce or garnish can overgrow; keep six eggs readable and parsley sparse.",
+      "audioPrompt": "bowl scrape; heavy sauce pour; sticky garlic slide; parsley patter; basting scoop",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-07",
+      "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+      "position": 7,
+      "title": "Jammy bite and Licorn satisfaction",
+      "arc": "hero payoff",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-32",
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
+      "description": "Final yolk break, glossy spoon lift, sauce drip, satisfied Licorn, and clean hero beauty pass.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandDefault as the active shot-specific kitchen view. Use @Spoon only as bite lift and drip utensil. Use @CharacterSheet only as character identity. Use @PoseFront only as satisfied final presence pose. Use @CharacterExpressions only as pleased expression guidance. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-1.0s spoon cuts jammy half; 1.0-2.0s neat glossy bite lifts; 2.0-2.8s one sauce drop ripples pool; 2.8-4.0s Licorn satisfied holding bowl; 4.0-5.0s final macro beauty pass. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: six standard chicken eggs in final bowl; bite is spoon-sized and readable. Food-state lock: thick jammy orange yolk and glossy red-gold garlic chili butter. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context, not as camera framing. Use @KitchenIslandDefault as the active shot-specific kitchen view. Use @Spoon only as bite lift and drip utensil. Use @CharacterSheet only as character identity. Use @PoseFront only as satisfied final presence pose. Use @CharacterExpressions only as pleased expression guidance. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, sexy glossy food-porn energy where appropriate, no text on screen. Integrated audio: no speech, no voiceover, no music; only close synchronized kitchen ASMR sounds. Mandatory timing: 0.0-1.0s spoon cuts jammy half; 1.0-2.0s neat glossy bite lifts; 2.0-2.8s one sauce drop ripples pool; 2.8-4.0s Licorn satisfied holding bowl; 4.0-5.0s final macro beauty pass. Kitchen continuity lock: same Licorn kitchen layout and materials, light terrazzo countertop, consistent cabinets, no redesigned stovetop. Scale lock: six standard chicken eggs in final bowl; bite is spoon-sized and readable. Food-state lock: thick jammy orange yolk and glossy red-gold garlic chili butter. Global negatives: no text, no captions, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active shot-specific kitchen view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "bite lift and drip utensil",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "satisfied final presence pose",
+          "name": "PoseFront",
+          "label": "PoseFront",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pleased expression guidance",
+          "name": "CharacterExpressions",
+          "label": "CharacterExpressions",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "0.0-1.0s spoon cuts jammy half",
+        "1.0-2.0s neat glossy bite lifts",
+        "2.0-2.8s one sauce drop ripples pool",
+        "2.8-4.0s Licorn satisfied holding bowl",
+        "4.0-5.0s final macro beauty pass"
+      ],
+      "timing": [
+        "0.0-1.0s spoon cuts jammy half",
+        "1.0-2.0s neat glossy bite lifts",
+        "2.0-2.8s one sauce drop ripples pool",
+        "2.8-4.0s Licorn satisfied holding bowl",
+        "4.0-5.0s final macro beauty pass"
+      ],
+      "continuity": "Kitchen identity remains stable with @KitchenLayoutContextWide plus the active shot view. Egg count remains six standard chicken eggs where visible.",
+      "risk": "Bite can become messy or character can dominate; keep food central and character as final satisfaction support.",
+      "audioPrompt": "soft yolk break; sticky spoon lift; single drip; bowl resonance",
+      "negatives": [
+        "no text",
+        "no captions",
+        "no speech",
+        "no voiceover",
+        "no music",
+        "no extra shots",
+        "no kitchen redesign"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "asset-reference-system",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "recipe": {
+    "title": "TikTok Egg Boil",
+    "sourceType": "url",
+    "sourceUrl": "https://whisperofyum.com/post/tiktok-egg-boil/",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "quantity": "6",
+        "note": "Use jammy eggs for the hero yolk reveal; hard-boiled is a source-supported fallback."
+      },
+      {
+        "name": "unsalted butter",
+        "quantity": "1 1/2 tablespoons",
+        "note": "Melt gently on low heat; do not clarify or brown."
+      },
+      {
+        "name": "garlic, minced",
+        "quantity": "1/4 cup",
+        "note": "Cook in butter until aromatic and pale."
+      },
+      {
+        "name": "Old Bay seasoning",
+        "quantity": "2 1/4 teaspoons",
+        "note": "Primary seafood-boil seasoning cue."
+      },
+      {
+        "name": "light brown sugar",
+        "quantity": "3 teaspoons",
+        "note": "Balances heat and helps the sauce finish glossy."
+      },
+      {
+        "name": "onion powder",
+        "quantity": "1/2 heaping teaspoon",
+        "note": null
+      },
+      {
+        "name": "lemon pepper seasoning",
+        "quantity": "1 1/2 teaspoons",
+        "note": "Already salty depending on brand."
+      },
+      {
+        "name": "paprika",
+        "quantity": "1 teaspoon",
+        "note": "Red color anchor for the boil sauce."
+      },
+      {
+        "name": "red chili flakes",
+        "quantity": "1/2 to 1 teaspoon",
+        "note": "Visible heat flecks; adjust to taste."
+      },
+      {
+        "name": "chicken bone broth or vegetable broth, low sodium",
+        "quantity": "3/4 cup",
+        "note": "Liquid body for the sauce."
+      },
+      {
+        "name": "lemon juice",
+        "quantity": "1/4 lemon",
+        "note": "Added after reduction for brightness."
+      },
+      {
+        "name": "kosher salt",
+        "quantity": "to taste",
+        "note": "Optional; season only if needed."
+      },
+      {
+        "name": "flat leaf parsley, chopped",
+        "quantity": "for garnish",
+        "note": "Sparse final green contrast only."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Prepare an ice bath.",
+        "timing": null,
+        "visualCue": "clear bowl packed with ice cubes and cold water",
+        "block": "egg cooking",
+        "textureCue": "hard ice facets, condensation, cold shock",
+        "runwayRisk": "ice can read as garnish if not paired with eggs"
+      },
+      {
+        "position": 2,
+        "text": "Bring enough water to cover eggs to a rolling boil and carefully add eggs.",
+        "timing": null,
+        "visualCue": "six white eggs lowered into bubbling water",
+        "block": "egg cooking",
+        "textureCue": "rolling bubbles, steam, smooth shells",
+        "runwayRisk": "induction must not become a gas flame"
+      },
+      {
+        "position": 3,
+        "text": "Boil 7 minutes for runny yolks or 7 1/2 minutes for jammy yolks.",
+        "timing": "7 to 7 1/2 minutes",
+        "visualCue": "eggs bobbing in boiling water",
+        "block": "egg cooking",
+        "textureCue": "steam beads and shell shine",
+        "runwayRisk": "avoid gray chalky yolks later"
+      },
+      {
+        "position": 4,
+        "text": "Move eggs to ice bath for 2 minutes.",
+        "timing": "2 minutes",
+        "visualCue": "eggs plunging into ice water",
+        "block": "egg cooking",
+        "textureCue": "cold splash, ice clink, wet shell shine",
+        "runwayRisk": "do not crack all eggs apart in the bath"
+      },
+      {
+        "position": 5,
+        "text": "Peel under slow running water and dry.",
+        "timing": null,
+        "visualCue": "shell ribbons slipping off glossy peeled eggs",
+        "block": "egg prep",
+        "textureCue": "silky whites, shell flakes, water droplets",
+        "runwayRisk": "hand-shell fusion if too many fragments are shown"
+      },
+      {
+        "position": 6,
+        "text": "Melt butter on low, add garlic, cook 1 minute.",
+        "timing": "1 minute",
+        "visualCue": "butter foams around minced garlic",
+        "block": "boil sauce",
+        "textureCue": "small butter bubbles, pale garlic, glossy fat",
+        "runwayRisk": "garlic should not brown or burn"
+      },
+      {
+        "position": 7,
+        "text": "Add seasonings and stir for 1 minute.",
+        "timing": "1 minute",
+        "visualCue": "red-orange spice rain blooming into garlic butter",
+        "block": "boil sauce",
+        "textureCue": "dry spices darken into wet brick-red paste",
+        "runwayRisk": "powders should become cohesive quickly"
+      },
+      {
+        "position": 8,
+        "text": "Add broth and simmer 6 minutes until slightly thickened.",
+        "timing": "6 minutes",
+        "visualCue": "broth deglazes spice paste into simmering red sauce",
+        "block": "boil sauce",
+        "textureCue": "thin liquid turning glossy with chili oil beads",
+        "runwayRisk": "sauce must not become tomato marinara"
+      },
+      {
+        "position": 9,
+        "text": "Add lemon juice, splash of water, and salt only if needed.",
+        "timing": null,
+        "visualCue": "lemon droplets hit glossy red sauce",
+        "block": "boil sauce",
+        "textureCue": "bright citrus beads, loose glossy nappage",
+        "runwayRisk": "avoid lemon seeds and watery sauce"
+      },
+      {
+        "position": 10,
+        "text": "Place eggs in bowl, pour sauce over, garnish parsley, serve.",
+        "timing": null,
+        "visualCue": "six peeled eggs swimming in red-gold garlic chili butter sauce",
+        "block": "assembly",
+        "textureCue": "lacquered whites, jammy yolk, sticky spoon drag, herb confetti",
+        "runwayRisk": "lock six standard eggs, not quail eggs or giant eggs"
+      }
+    ],
+    "subRecipes": [
+      "jammy eggs",
+      "garlic spice boil sauce",
+      "bowl assembly"
+    ],
+    "assumptions": [
+      "Use the 7 1/2 minute jammy egg option because the glossy yolk reveal is the strongest food-porn payoff.",
+      "Final serving focuses on the egg boil alone; rice, potatoes, and ciabatta are omitted to keep the hero bowl clean.",
+      "Show six standard chicken eggs; some final eggs may be halved after cooking to expose orange jammy yolks while preserving the source dish.",
+      "No recipe-specific generated intermediate references are planned because eggs in sauce are simple enough for text scale locks."
+    ],
+    "timing": {
+      "prep": "5 minutes",
+      "cook": "25 minutes",
+      "total": "30 minutes"
+    },
+    "criticalTransformations": [
+      "Eggs move from boil to ice bath so yolks stay jammy instead of gray and chalky.",
+      "Peeled eggs must look smooth, wet, and intact before saucing.",
+      "Garlic softens in butter without browning or burning.",
+      "Red-orange spices bloom in butter into a cohesive paste before broth is added.",
+      "Broth reduces into a glossy, slightly thick boil sauce with visible garlic and chili flakes.",
+      "Lemon juice loosens and brightens the reduced sauce without making it watery.",
+      "Boil sauce coats six peeled eggs and pools as a shiny red-gold bath.",
+      "Final yolk reveal shows molten orange jammy custard, not raw liquid or dry hard yolk."
+    ],
+    "visualTextureOpportunities": [
+      "Brick-red sauce pours in a thick ribbon over white eggs and orange yolk.",
+      "A spoon drags through chili butter, exposing minced garlic and red flakes suspended in gloss.",
+      "Ice bath splash and shell crack create cold-hot contrast before sauce.",
+      "Paprika and Old Bay fall into butter as a saturated red-orange spice bloom.",
+      "Broth deglazes the spice paste into bubbling lacquer.",
+      "Lemon droplets flash on the sauce surface and release steam.",
+      "Parsley falls sparsely over red sauce for green contrast.",
+      "A halved egg is nudged so jammy yolk smears into spicy butter."
+    ],
+    "possibleHooks": [
+      "Open on a macro spoon split through a jammy egg as glossy red boil sauce floods the yolk.",
+      "Open on the red garlic-butter sauce pouring over six peeled eggs like spicy lacquer.",
+      "Open on a chili-butter spoon drag with garlic bits and flakes before revealing the egg bowl.",
+      "Open on a quick shell peel snap that cuts directly to sauce-coated jammy yolk.",
+      "Open on parsley raining over a red-gold egg bowl, then cut back to boiling eggs."
+    ],
+    "promptPolicySources": [
+      "Recipe2Video Agent Core workspace rule",
+      "Seedance 2 References workspace rule",
+      "Suno Music workspace rule",
+      "recipe-ingest skill",
+      "asset-reference-system skill",
+      "food-physics-reference skill",
+      "seedance-workflow skill",
+      "tiktok-food-direction skill",
+      "creator instruction: make the recipe really sexy and food porn",
+      "creator instruction: avoid creating intermediate reference images unless indispensable"
+    ]
+  },
+  "clarifyingQuestions": []
+}

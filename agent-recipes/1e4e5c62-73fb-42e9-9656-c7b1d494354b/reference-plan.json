@@ -1,0 +1,210 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural Licorn kitchen context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenLayoutContextWide only for structural Licorn kitchen context. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "active shot-specific kitchen view",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenIslandDefault only for active shot-specific kitchen view. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "active shot-specific kitchen view",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @KitchenIslandOverhead only for active shot-specific kitchen view. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "active shot-specific kitchen view; wider induction context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @InductionWide only for active shot-specific kitchen view; wider induction context. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "active shot-specific kitchen view; boiling-water macro view",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Use @InductionCloseup only for active shot-specific kitchen view; boiling-water macro view. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "character hand identity; character identity; visible hand identity",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Use @CharacterSheet only for character hand identity; character identity; visible hand identity. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down visible hands pose",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use @PoseTopDown only for top-down visible hands pose. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "simple bowl-side posture; three-quarter bowl-hold posture",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use @PoseThreeQuarterRight only for simple bowl-side posture; three-quarter bowl-hold posture. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "pose",
+      "canonicalName": "PoseFront",
+      "role": "satisfied final presence pose",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use @PoseFront only for satisfied final presence pose. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "expression",
+      "canonicalName": "CharacterExpressions",
+      "role": "pleased expression guidance; satisfied expression guidance",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Use @CharacterExpressions only for pleased expression guidance; satisfied expression guidance. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "pan/saucepan shape; saucepan shape",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Use @SaucepanLarge only for pan/saucepan shape; saucepan shape. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Tongs",
+      "role": "hot egg handling utensil",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Use @Tongs only for hot egg handling utensil. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "basting and egg-nudging utensil; bite lift and drip utensil; sauce ribbon lifting utensil; sauce-basting and yolk-press utensil; spice paste stirring utensil",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Use @Spoon only for basting and egg-nudging utensil; bite lift and drip utensil; sauce ribbon lifting utensil; sauce-basting and yolk-press utensil; spice paste stirring utensil. Do not convert this reference into a generated food-state image.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    }
+  ]
+}

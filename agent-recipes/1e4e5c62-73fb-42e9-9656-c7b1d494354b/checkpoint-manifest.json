@@ -1,0 +1,18 @@
+{
+  "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
+  "branch": "cursor/recipe-ingest-egg-boil-9ab5",
+  "commitSha": null,
+  "manifestPath": "agent-recipes/1e4e5c62-73fb-42e9-9656-c7b1d494354b/checkpoint-manifest.json",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md"
+  ],
+  "updatedAt": "2026-05-18T07:12:00Z",
+  "note": "commitSha is filled after the recipe artifacts are committed and pushed."
+}

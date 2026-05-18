@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "TikTok Egg Boil",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full); excerpt for short video"
+  },
+  "fields": {
+    "title": "Red Gold Egg Boil",
+    "styleOfMusic": "K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, playful staccato percussion, glossy club-pop chorus, tiny glitch fills, bright synth droplets, close-mic lead vocals, stacked harmonies, sticky hook energy, clean punchy mix, wide neon sheen., k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no French lyrics except recipe names if needed, no recipe tutorial lyrics, no ingredient counting, no cooking instructions.",
+    "autoLyricsPrompt": "Write original English song lyrics about a joyful unicorn food mascot making a spicy TikTok egg boil. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: glossy, spicy, playful, seductive, satisfied, food-video ASMR energy, but not childish.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(egg boil)\". Keep the chorus very reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- red-gold sauce flooding a jammy egg yolk\n- shells cracking, ice clinking, smooth peeled eggs\n- garlic butter, spice bloom, chili flakes, lemon spark\n- glossy simmer, spoon ribbon, sticky sauce drip\n- six eggs swimming in heat and shine\n- parsley rain and a proud unicorn smile\n- final bite: orange yolk melting into spicy butter\n\nMust include naturally: TikTok egg boil, unicorn, garlic butter, chili glow, jammy yolk, red gold, spicy shine, lick the spoon.\n\nStructure:\n[Verse 1]\nOpen with jammy yolk, red-gold sauce, spicy shine, and the spoon.\n\n[Pre-Chorus]\nBuild anticipation with crack, ice, peel, and heat waking up.\n\n[Chorus]\nBig chantable hook around TikTok egg boil + unicorn + red-gold spicy shine. Repeat \"egg boil\" as the hook.\n\n[Verse 2]\nGarlic butter, spice bloom, chili flakes, lemon spark, glossy simmer.\n\n[Pre-Chorus]\nThe bowl fills up; sauce gets thicker and hotter.\n\n[Chorus]\nRepeat the same hook or a close variation.\n\n[Bridge]\nSofter sensual moment: yolk melts, sauce drips, parsley falls, the spoon comes close.\n\n[Final Chorus]\nRepeat with extra energy and a proud final image of the unicorn holding the red-gold bowl.",
+    "shortVersionPlan": "For a 45 to 90 second vertical edit, use a very short intro over the opening jammy-yolk sauce flood, Verse 1 over egg peel and sauce bloom, Pre-Chorus over broth reduction and spoon ribbon, full Chorus over the sauce pour and parsley rain, then Bridge or Final Chorus over the spoon lift, sauce drip, and satisfied Licorn hero shot. The hook should land on the words egg boil, red gold, spicy shine, and lick the spoon."
+  },
+  "instructions": {
+    "voice": "Use a bright playful vocal persona if available; do not imitate any real artist or protected voice.",
+    "structure": "Generate the long form first, then extract the catchiest 45-90 second chorus-led version for vertical assembly.",
+    "workflowNotes": "Suno remains manual. Video prompts must not request music; this prompt is for later assembly only."
+  },
+  "qualityChecks": [
+    "Title is first in markdown and JSON fields.",
+    "Style of Music contains only musical production direction.",
+    "Auto Lyrics Prompt is English, image-driven, under 3000 characters, and avoids recipe tutorial wording.",
+    "No real artist, protected voice, brand, or social media instruction is requested.",
+    "Short version aligns with Seedance visual payoffs."
+  ]
+}

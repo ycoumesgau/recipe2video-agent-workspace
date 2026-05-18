@@ -3,7 +3,7 @@
   "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
   "stage": "recipe_ingest",
   "branch": "cursor/recipe-ingest-3a1a25db-f49a",
-  "commitSha": null,
+  "commitSha": "17d03522b5d3c06739077ef660ecd3a4f9de8121",
   "manifestPath": "agent-recipes/3a1a25db-9500-45f3-b314-6add786dde36/checkpoint-manifest.json",
   "sourceType": "url",
   "sourceUrl": "https://toprecipesfood.com/inside-out-crispy-rice-paper-rolls/",
@@ -17,6 +17,6 @@
     "decisions.md",
     "changelog.md"
   ],
-  "updatedAt": "2026-05-18T06:50:13Z",
-  "notes": "commitSha is populated after the first pushed artifact commit, then this manifest is committed in a follow-up checkpoint commit."
+  "updatedAt": "2026-05-18T06:55:18Z",
+  "notes": "commitSha points to the pushed recipe artifact commit created during recipe_ingest; this manifest is committed immediately afterward as the checkpoint record."
 }

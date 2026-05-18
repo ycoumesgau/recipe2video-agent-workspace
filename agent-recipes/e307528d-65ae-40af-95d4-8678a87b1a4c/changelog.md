@@ -10,3 +10,10 @@
 - Created reference-plan.json using existing kitchen, character, pose, and utensil assets; no generated recipe-state images planned at ingest per creator constraint.
 - Created suno-prompt.json and suno-prompt.md as manual Suno Custom Mode prompts for later music generation.
 - Created decisions.md documenting adaptation choices, scale locks, and the no-generated-intermediate-reference decision.
+
+## 2026-05-18 - Main sync and skill refresh
+
+- Merged `origin/main` into the recipe branch to pick up updated asset-reference skill guidance, including the spatula-family distinction.
+- Re-audited Seedance references: no legacy `@Spatula` usage, no generated recipe-state references added, all segments keep kitchen continuity pairs and <=9 references.
+- Reclassified five utility/detail scenes as context beats to restore the target 75-80% detail / 20-25% context balance without changing the editorial arc.
+- Replaced final vocalization-risk audio wording with non-vocal kitchen room tone cues.

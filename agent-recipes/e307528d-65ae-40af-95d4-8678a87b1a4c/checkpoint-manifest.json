@@ -19,10 +19,10 @@
   ],
   "validation": {
     "jsonValidated": true,
-    "validatedAt": "2026-05-18T07:27:32.114613+00:00",
-    "notes": "Existing artifacts revalidated with python json.load and structural checks: all required artifacts present, 36 logical scenes, 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, recipe-analysis plain-string arrays verified."
+    "validatedAt": "2026-05-18T11:04:25.921553+00:00",
+    "notes": "Validated after merging origin/main and applying refreshed Recipe2Video skills: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, no legacy Spatula references, no vocalization-risk audio wording."
   },
   "latestPushedCommitSha": "577fb8f47f776461f89bd690139ad2026ae1dc85",
-  "updatedAt": "2026-05-18T07:27:32.114638+00:00",
+  "updatedAt": "2026-05-18T11:04:25.921569+00:00",
   "commitSha": "577fb8f47f776461f89bd690139ad2026ae1dc85"
 }

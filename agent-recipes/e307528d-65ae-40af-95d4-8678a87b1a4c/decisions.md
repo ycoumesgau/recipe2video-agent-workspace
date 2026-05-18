@@ -32,3 +32,10 @@
 ## Open questions
 
 None blocking. The source recipe and creator instructions provide enough information for all required planning artifacts.
+
+## 2026-05-18 main sync review
+
+- Pulled and merged `origin/main` to use the updated Recipe2Video skills and asset-reference guidance.
+- Updated the logical scene mix to 28 detail scenes and 8 context scenes (about 78/22), matching the refreshed TikTok food-direction target while keeping the same 36-scene storyboard.
+- Kept the no-generated-recipe-state-reference decision: the updated audit noted a final hero reference could reduce risk, but the creator explicitly asked to avoid generated intermediate references unless indispensable, and current prompt locks remain adequate for orecchiette, burrata, and pistachio geometry.
+- Removed final vocalization-risk wording from Seedance audio cues; final satisfaction now uses silent posture plus kitchen room tone, not breath or speech.

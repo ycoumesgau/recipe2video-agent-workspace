@@ -15,6 +15,7 @@ Check:
 - texture cadence every 3-5 scenes;
 - one readable action per logical scene;
 - Seedance segment compression and scene mapping;
+- each segment `durationTarget` is an integer from 5 to 15 seconds (Runway Seedance 2) and matches the prompt's stated total duration and timing bullets;
 - reference count <= 9;
 - global kitchen reference present;
 - reference roles explicit;

@@ -20,8 +20,9 @@
   "validation": {
     "jsonValidated": true,
     "validatedAt": "2026-05-18T07:01:31.598752+00:00",
-    "notes": "Validated with python json.load and structural checks: 36 logical scenes, 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, recipe-analysis plain-string arrays verified. Manifest latestPushedCommitSha points to the pushed artifact checkpoint commit."
+    "notes": "Validated with python json.load and structural checks: 36 logical scenes, 8 Seedance segments, max 8 references per segment, kitchen continuity pairs present, recipe-analysis plain-string arrays verified. commitSha/latestPushedCommitSha point to the pushed checkpoint commit before this manifest refresh."
   },
-  "latestPushedCommitSha": "df6cdfef1495e2eb0ecccd40a902ed4ad4dfa293",
-  "updatedAt": "2026-05-18T07:02:04.605131+00:00"
+  "latestPushedCommitSha": "f627e5c88d6e093834cb691efa63f27d8209256d",
+  "updatedAt": "2026-05-18T07:05:42.454570+00:00",
+  "commitSha": "f627e5c88d6e093834cb691efa63f27d8209256d"
 }

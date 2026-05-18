@@ -3,7 +3,7 @@
   "videoId": "3a1a25db-9500-45f3-b314-6add786dde36",
   "stage": "general",
   "branch": "cursor/recipe-ingest-3a1a25db-f49a",
-  "commitSha": "d48b8bf93977edac2475d40ff0088f024c84de65",
+  "commitSha": "a7b899c0d61c3789f238aa3fc3d9a104e0b711f4",
   "manifestPath": "agent-recipes/3a1a25db-9500-45f3-b314-6add786dde36/checkpoint-manifest.json",
   "sourceType": "url",
   "sourceUrl": "https://toprecipesfood.com/inside-out-crispy-rice-paper-rolls/",
@@ -17,6 +17,6 @@
     "decisions.md",
     "changelog.md"
   ],
-  "updatedAt": "2026-05-18T15:32:50Z",
-  "notes": "Main was pulled and Seedance segment durations were corrected to integer values in the 5-15 second Seedance 2 API window. This SHA is superseded by the immediately following duration-correction commit."
+  "updatedAt": "2026-05-18T15:32:57Z",
+  "notes": "commitSha points to the pushed duration-correction commit after pulling main and updating all Seedance segment durations to integer values in the 5-15 second Seedance 2 API window."
 }

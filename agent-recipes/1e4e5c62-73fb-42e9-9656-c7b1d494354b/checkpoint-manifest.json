@@ -1,7 +1,7 @@
 {
   "videoId": "1e4e5c62-73fb-42e9-9656-c7b1d494354b",
   "branch": "cursor/recipe-ingest-egg-boil-9ab5",
-  "commitSha": "5a108fb3e47bf8a3a8b907c434a9f0e624056a15",
+  "commitSha": "cd85114af12543bfd2077a5ad606562b10352738",
   "manifestPath": "agent-recipes/1e4e5c62-73fb-42e9-9656-c7b1d494354b/checkpoint-manifest.json",
   "artifacts": [
     "recipe-analysis.json",
@@ -13,6 +13,6 @@
     "decisions.md",
     "changelog.md"
   ],
-  "updatedAt": "2026-05-18T07:12:00Z",
-  "note": "Points to the pushed recipe artifact commit for Recipe2Video checkpoint resolution."
+  "updatedAt": "2026-05-18T07:26:00Z",
+  "note": "Artifacts already existed; refreshed for the general artifact resend request."
 }

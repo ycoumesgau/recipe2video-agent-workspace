@@ -25,7 +25,7 @@
 - No recipe-specific intermediate reference images are planned in this ingest because the dish geometry is simple: standard eggs in glossy sauce. This honors the creator request to rely on the existing asset library unless an image is indispensable.
 - Use only global kitchen, character, pose, expression, and utensil references named by the asset-reference-system skill.
 - Every Seedance segment includes `@KitchenLayoutContextWide` plus one shot-specific kitchen view.
-- The local checkout did not expose an `assets/` directory during this run, so reference names were taken from the workspace skill's canonical mapping rather than direct file inspection.
+- After pulling `main`, the local asset library is present and the updated asset skill confirms the current canonical utensil names. This recipe uses `@Spoon`, `@Tongs`, and `@SaucepanLarge`; it does not rely on the legacy `@Spatula` alias or any spatula-family reference.
 
 ## Open questions
 

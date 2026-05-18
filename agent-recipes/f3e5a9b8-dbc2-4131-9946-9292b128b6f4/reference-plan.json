@@ -270,7 +270,12 @@
         "segment-07",
         "segment-08"
       ],
-      "status": "planned"
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "baking_dish",
+        "TurningSpatula"
+      ]
     }
   ]
 }

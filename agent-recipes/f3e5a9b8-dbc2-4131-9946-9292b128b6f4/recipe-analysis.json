@@ -187,6 +187,7 @@
       "tiktok-food-direction",
       "suno-music-generation",
       "seedance-references workspace rule",
+      "reference-image-generation contract",
       "recipe-agent-core workspace rule",
       "suno-music workspace rule"
     ]

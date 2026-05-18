@@ -51,3 +51,9 @@
 - Pulled `origin/main` into the recipe branch and applied the updated asset-reference skills.
 - Replaced legacy generic spatula references with `@SiliconeSpatula` for flexible filling spreading and `@TurningSpatula` for rigid supported portion lifts.
 - No new generated recipe-state references were added; the plan still relies on one final cutaway reference only.
+
+## Main sync update - 2026-05-18 11:35 UTC
+
+- Pulled the latest `origin/main` again and applied the refreshed reference-image generation contract.
+- Added `conditioningReferences` to `FinishedDumplingLasagnaCutaway`: `KitchenIslandDefault`, `baking_dish`, and `TurningSpatula`.
+- Kept character references out of conditioning anchors, per the updated contract.

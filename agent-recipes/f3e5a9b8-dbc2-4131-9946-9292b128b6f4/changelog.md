@@ -24,3 +24,9 @@
 - Updated utensil references according to the refreshed asset-reference skills: `@SiliconeSpatula` for spreading filling layers and `@TurningSpatula` for supported portion lifts.
 - Updated `recipe-analysis.json`, `logical-scenes.json`, `seedance-segments.json`, `reference-plan.json`, Suno notes, `decisions.md`, and this changelog to remove legacy generic spatula usage.
 - Kept the reference-generation plan minimal with only `FinishedDumplingLasagnaCutaway` as a generated recipe-state reference.
+
+## 2026-05-18 - Main sync and reference conditioning
+
+- Merged the latest `origin/main` again after the reference-image generation contract changed.
+- Added `conditioningReferences` to the generated `FinishedDumplingLasagnaCutaway` entry so GPT-Image 2 receives the kitchen, cookware, and dominant utensil anchors.
+- Confirmed no character-class anchors are used for recipe-state conditioning.

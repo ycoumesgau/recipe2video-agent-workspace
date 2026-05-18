@@ -11,3 +11,4 @@
 - Created `decisions.md` documenting assumptions, unresolved clarifications, and production boundaries.
 - Noted unresolved choices: optional pickled radishes and regular versus vegan spicy mayo.
 - No paid generation or external production service was launched.
+- Refreshed `checkpoint-manifest.json` during status review so it records the latest pushed artifact commit available at review time.

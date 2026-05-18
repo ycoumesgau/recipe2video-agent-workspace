@@ -32,4 +32,4 @@
 
 ## Checkpoint manifest semantics
 
-- `checkpoint-manifest.json` records `checkpointCommitSha` as **`4330e2ba7596412e582a4cdfe4e1029df89bba86`**, the revision that contains the full Recipe2Video JSON/Markdown artifact bundle. Later housekeeping commits only adjust tracking metadata; Recipe2Video ingestion should treat that SHA as the canonical recipe snapshot while still merging the latest branch head for incidental doc tweaks.
+- `checkpointCommitSha` désigne intentionnellement le **dernier commit contenant tous les artefacts JSON/Markdown de recette hors correction de métadonnées** (celui obtenu juste après `git commit …` lors de la passe conformité puis **avant** le commit facultatif suivant réservé à ce fichier). Une fois ces deux commits publiés, le **sommet réellement poussé** est `HEAD` après `git pull`, ce qui représente généralement le commit immédiatement **après** `checkpoint-manifest.json` même si cette chaîne de caractères ne peut pas littéralement coder son propre SHA Git sans décalage d’un coup.

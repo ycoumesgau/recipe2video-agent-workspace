@@ -1,5 +1,11 @@
 # Changelog — `f311970f-95cb-4d58-8088-365984eb2d31`
 
+## 2026-05-18 — Pass conformité `artifact-schemas`
+
+- Harmonisation des lignes `timing` + blocs correspondants dans `prompt`/`promptInitial` de `seedance-segments.json` sur le gabarit `start-endXs: beat` défini dans `contracts/artifact-schemas.md`.
+- Nettoyage des champs Style / Exclude de `suno-prompt.json`/`.md` pour éviter le nomming explicite d’une plateforme dans Suno alors que les garde-fous lyric interdisent les références aux réseaux.
+- Réécriture de la section décisionnelle sur la sémantique du fichier `checkpoint-manifest.json` après revue crypto-SHA impraticable dans le même objet commit.
+
 ## 2026-05-18 — Initial `recipe_ingest` checkpoint
 
 - Created `recipe-analysis.json` from the TikTok wrap hack URL (Crunchwrap supreme card) with explicit timing keys (`prep`, `cook`, `total`), string-only policy arrays, and clarifying questions for tortilla type + quadrant orientation.

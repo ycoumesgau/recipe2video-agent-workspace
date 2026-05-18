@@ -9,13 +9,13 @@ Quarterfold Heat
 ## Style of Music
 
 ```text
-Neon diner funk-pop with chewy slap bass, crispy claps layered like chip snaps, dry shaker percussion echoing cumin dust, shimmering synth ribbons for melted cheese motifs, restrained four-on-the-floor kick for TikTok glide energy, pastel vocoder harmonies only as airy pads (no lyrical vocoder leads), sparkly hi-hats, warm analog pad swells bridging sections, buttery mix with tactile transient emphasis on snaps and hats to mirror kitchen ASMR, minimal reverb tails for intimacy., funk pop, diner groove, sparkly electronic
+Neon diner funk-pop with chewy slap bass, crispy claps layered like chip snaps, dry shaker percussion echoing cumin dust, shimmering synth ribbons for melted cheese motifs, restrained four-on-the-floor kick tailored to short-form vertical edits, pastel vocoder harmonies only as airy pads (no lyrical vocoder leads), sparkly hi-hats, warm analog pad swells bridging sections, buttery mix with tactile transient emphasis on snaps and hats to mirror kitchen ASMR, minimal reverb tails for intimacy., funk pop, diner groove, sparkly electronic
 ```
 
 ## Exclude Styles
 
 ```text
-No aggressive trap 808 distortions at club excess, no death metal screaming, no lo-fi hiss wall hiding detail, no children’s choir gimmick, no church organ funeral drama, no real artist imitation, no brand shoutouts or fast-food trademark names, no recipe-quantity tutorial lyrics, no spoken ASMR narration, no obvious TikTok text-to-speech voicing gimmick, no somber ballad lethargy that kills kinetic fold energy.
+No aggressive trap 808 distortions at club excess, no death metal screaming, no lo-fi hiss wall hiding detail, no children’s choir gimmick, no church organ funeral drama, no real artist imitation, no brand shoutouts or fast-food trademark names, no recipe-quantity tutorial lyrics, no spoken ASMR narration, no obvious platform text-to-speech voicing gimmick, no somber ballad lethargy that kills kinetic fold energy.
 ```
 
 ## Auto Lyrics Prompt

@@ -1,6 +1,6 @@
 {
   "videoId": "f311970f-95cb-4d58-8088-365984eb2d31",
   "branch": "cursor/tiktok-wrap-hack-recipe-24ae",
-  "checkpointCommitSha": "4330e2ba7596412e582a4cdfe4e1029df89bba86",
-  "checkpointNote": "bundle snapshot commit for JSON recipe artifacts preceding manifest housekeeping commit"
+  "checkpointCommitSha": "8c6e29745665496fa28bedf870e669504c024d8c",
+  "checkpointNote": "Points to pushed branch tip containing manifest snapshot; substantive recipe JSON blobs landed in parent commit 4330e2ba7596412e582a4cdfe4e1029df89bba86"
 }

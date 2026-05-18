@@ -20,9 +20,9 @@
   "validation": {
     "jsonValidated": true,
     "validatedAt": "2026-05-18T15:34:10.809132+00:00",
-    "notes": "Validated after merging latest origin/main and correcting Seedance duration minimum: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, all durationTarget values are integer 5-15 seconds, segment-02 retimed to 5.0s, max 8 references per segment, kitchen continuity pairs present, no generated recipe-state references requiring conditioningReferences."
+    "notes": "Validated after merging latest origin/main and correcting Seedance duration minimum: all JSON parses, 36 logical scenes, detail/context mix 28/8 (77.8%/22.2%), 8 Seedance segments, all durationTarget values are integer 5-15 seconds, segment-02 retimed to 5.0s, max 8 references per segment, kitchen continuity pairs present, no generated recipe-state references requiring conditioningReferences. commitSha/latestPushedCommitSha point to the pushed artifact correction commit before this manifest refresh commit."
   },
-  "latestPushedCommitSha": "4f9fcf648c6cadb075e293dd27ccd530115fc981",
-  "updatedAt": "2026-05-18T15:34:10.809147+00:00",
-  "commitSha": "4f9fcf648c6cadb075e293dd27ccd530115fc981"
+  "latestPushedCommitSha": "5820536bfb51b800a01728ef33bd9f76be35abca",
+  "updatedAt": "2026-05-18T15:34:29.692488+00:00",
+  "commitSha": "5820536bfb51b800a01728ef33bd9f76be35abca"
 }

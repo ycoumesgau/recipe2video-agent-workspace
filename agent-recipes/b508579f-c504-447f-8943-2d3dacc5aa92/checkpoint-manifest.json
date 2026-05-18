@@ -1,7 +1,7 @@
 {
   "videoId": "b508579f-c504-447f-8943-2d3dacc5aa92",
   "branch": "cursor/recipe-ingest-sushi-bowl-dece",
-  "commitSha": "3dfe35284bed0cdabc5aea1549adc8c513550b25",
+  "commitSha": "c64a16c871668a724d3a42e2a3bb27f6ff1b9d1d",
   "manifestPath": "agent-recipes/b508579f-c504-447f-8943-2d3dacc5aa92/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",

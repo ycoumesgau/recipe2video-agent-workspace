@@ -1,7 +1,7 @@
 {
   "videoId": "b508579f-c504-447f-8943-2d3dacc5aa92",
   "branch": "cursor/recipe-ingest-sushi-bowl-dece",
-  "commitSha": "a714a820b3f2c019c1347f10f589a226009f3936",
+  "commitSha": "2edb7477acb132889195eab9101277546bf6433d",
   "manifestPath": "agent-recipes/b508579f-c504-447f-8943-2d3dacc5aa92/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",
@@ -23,7 +23,8 @@
       "JSON artifacts were read back with the ReadFile tool.",
       "Python json module strict parsing passed for all JSON artifacts.",
       "Contract checks passed: 36 logical scenes, 8 Seedance segments, references within the 9-image segment limit, kitchen continuity pair present in every segment.",
-      "Checkpoint refreshed after status review to point at the latest pushed artifact commit available at review time."
+      "Checkpoint refreshed after status review to point at the latest pushed artifact commit available at review time.",
+      "After pulling origin/main, artifacts were revalidated against the updated asset-reference skill and now use SiliconeSpatula instead of the legacy Spatula alias."
     ]
   }
 }

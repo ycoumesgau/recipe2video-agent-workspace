@@ -1,0 +1,386 @@
+{
+  "recipe": {
+    "title": "Lasagne dumpling",
+    "sourceType": "url_plus_user_notes",
+    "sourceUrl": "https://bonpourtoi.ca/recettes/lasagne-dumpling/",
+    "servings": 4,
+    "timing": {
+      "prepMinutes": 20,
+      "cookMinutes": 25,
+      "totalMinutes": 45
+    },
+    "ingredients": [
+      {
+        "name": "lean ground pork",
+        "quantity": "1 lb",
+        "note": "main raw protein for the farce"
+      },
+      {
+        "name": "shiitakes",
+        "quantity": "2/3 cup",
+        "note": "finely chopped; visible dark flecks in the farce"
+      },
+      {
+        "name": "green onions",
+        "quantity": "2",
+        "note": "chopped in farce, plus sliced garnish"
+      },
+      {
+        "name": "fresh ginger",
+        "quantity": "2 tbsp",
+        "note": "grated"
+      },
+      {
+        "name": "garlic",
+        "quantity": "1 tbsp",
+        "note": "chopped"
+      },
+      {
+        "name": "soy sauce",
+        "quantity": "2 tbsp plus garnish",
+        "note": "salty gloss in farce and final finish"
+      },
+      {
+        "name": "hoisin sauce",
+        "quantity": "2 tbsp",
+        "note": "sticky dark sweetness in farce"
+      },
+      {
+        "name": "rice vinegar",
+        "quantity": "1 tbsp",
+        "note": "bright liquid seasoning"
+      },
+      {
+        "name": "sambal oelek",
+        "quantity": "1 tbsp",
+        "note": "red chili paste flecks"
+      },
+      {
+        "name": "toasted sesame oil",
+        "quantity": "1 tsp",
+        "note": "aromatic sheen"
+      },
+      {
+        "name": "dumpling wrappers",
+        "quantity": "about 20",
+        "note": "thin wrappers layered like lasagna sheets"
+      },
+      {
+        "name": "white sesame seeds",
+        "quantity": null,
+        "note": "final garnish"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Mix ground pork, finely chopped shiitakes, green onions, ginger, garlic, soy sauce, hoisin, rice vinegar, sambal oelek, and toasted sesame oil into a sticky aromatic farce.",
+        "timing": null,
+        "visualCue": "glossy beige-pink pork paste with dark mushroom flecks, green onion bits, and red sambal streaks",
+        "block": "pork_shiitake_filling",
+        "textureCue": "raw mince changes from loose crumbles to cohesive sticky paste",
+        "runwayRisk": "Farce can look dry or like cooked taco meat if the wet glossy bind is not emphasized."
+      },
+      {
+        "position": 2,
+        "text": "Oil an 8 inch / 20 cm square mold.",
+        "timing": null,
+        "visualCue": "thin clear oil film catching highlights in a compact square baking dish",
+        "block": "mold_setup",
+        "textureCue": "slick glass or ceramic base",
+        "runwayRisk": "Mold scale can drift into a full-size lasagna tray unless locked to 20 cm square."
+      },
+      {
+        "position": 3,
+        "text": "Alternate thin layers of farce and dumpling wrappers, finishing with dumpling wrappers on top.",
+        "timing": null,
+        "visualCue": "thin farce spread edge-to-edge, pale wrappers tiled or overlapped across the square mold",
+        "block": "layering",
+        "textureCue": "sticky spread under soft floppy wrapper sheets",
+        "runwayRisk": "Seedance may invent individual folded dumplings, tomato lasagna noodles, cheese, or thick meat patties."
+      },
+      {
+        "position": 4,
+        "text": "Add 3 tbsp water to help steam and hydrate the wrapper stack.",
+        "timing": null,
+        "visualCue": "small clear splash around the wrapper edges, not a flooded mold",
+        "block": "hydration",
+        "textureCue": "water beads slipping into the wrapper seams",
+        "runwayRisk": "Too much water can read as soup; too little water makes wrappers look dry and uncooked."
+      },
+      {
+        "position": 5,
+        "text": "Steam the mold in a large pot with hot water halfway up the mold, covered, for 25 minutes.",
+        "timing": "25 min",
+        "visualCue": "covered pot, steam pressure, condensation, then a tender opaque/translucent top layer",
+        "block": "steam_cook",
+        "textureCue": "raw pork sets firm and wrappers turn supple, glossy, and slightly translucent",
+        "runwayRisk": "The pot setup can be misread as boiling the lasagna directly; water must stay outside the mold except the measured 3 tbsp."
+      },
+      {
+        "position": 6,
+        "text": "Finish with soy sauce, sliced green onion, and white sesame seeds.",
+        "timing": null,
+        "visualCue": "dark soy gloss streaking over pale steamed wrapper top, green scallion confetti, white sesame specks",
+        "block": "finishing",
+        "textureCue": "wet shine, steam, tender stacked cross-section",
+        "runwayRisk": "Garnish can become sparse dust or oversized confetti without amount and scale locks."
+      }
+    ],
+    "subRecipes": [
+      "pork_shiitake_aromatic_filling",
+      "oiled_square_mold_setup",
+      "dumpling_wrapper_lasagna_layering",
+      "covered_steam_bath_cooking",
+      "soy_scallion_sesame_finish"
+    ],
+    "subRecipeDependencies": [
+      {
+        "subRecipe": "pork_shiitake_aromatic_filling",
+        "dependsOn": [],
+        "orderConstraint": "Must be fully mixed before layering so the seasoning and bind are evenly distributed."
+      },
+      {
+        "subRecipe": "oiled_square_mold_setup",
+        "dependsOn": [],
+        "orderConstraint": "Must happen before the first farce layer; the oil film helps release the steamed slab."
+      },
+      {
+        "subRecipe": "dumpling_wrapper_lasagna_layering",
+        "dependsOn": [
+          "pork_shiitake_aromatic_filling",
+          "oiled_square_mold_setup"
+        ],
+        "orderConstraint": "Thin farce layers must alternate with wrappers and finish with wrappers on top; farce should not be mounded thickly."
+      },
+      {
+        "subRecipe": "covered_steam_bath_cooking",
+        "dependsOn": [
+          "dumpling_wrapper_lasagna_layering"
+        ],
+        "orderConstraint": "The stack must be hydrated with 3 tbsp water, then cooked covered for 25 minutes so raw pork sets safely and wrappers soften."
+      },
+      {
+        "subRecipe": "soy_scallion_sesame_finish",
+        "dependsOn": [
+          "covered_steam_bath_cooking"
+        ],
+        "orderConstraint": "Garnish comes only after steaming, when the top is tender, glossy, and ready to catch soy sauce."
+      }
+    ],
+    "assumptions": [
+      "Use a compact 8 inch / 20 cm square mold, not a family-size rectangular lasagna pan.",
+      "Treat the approximately 20 dumpling wrappers as palm-size thin wrappers that tile or overlap to cover the square mold.",
+      "For visual continuity, cut or lift the final dish as 4 generous square portions unless the creator specifies a different serving style.",
+      "Use existing kitchen, character, and utensil assets wherever possible; do not create raw or mid-cooking recipe-state references unless later storyboard testing proves the geometry fails."
+    ],
+    "criticalTransformations": [
+      {
+        "id": "farce-bind",
+        "transformation": "Loose pork mince plus wet seasonings becomes a sticky, glossy, spreadable farce.",
+        "whyFragile": "If it looks dry, the later layers read as crumbly meat rather than juicy dumpling filling.",
+        "visualEvidence": "Cohesive paste clings to spoon or spatula, with mushroom flecks and chili streaks.",
+        "referenceNeed": "No generated state reference needed."
+      },
+      {
+        "id": "wrapper-hydration",
+        "transformation": "Pale raw dumpling wrappers become tender, slightly translucent, glossy sheets.",
+        "whyFragile": "Wrappers may be mistaken for lasagna noodles, tortillas, ravioli, or folded dumplings.",
+        "visualEvidence": "Soft sheet surface, visible overlap seams, pale sheen, no browned or crisp edges.",
+        "referenceNeed": "Use text scale locks first; consider a single final top/cut reference only if Seedance misreads the dish."
+      },
+      {
+        "id": "raw-pork-set",
+        "transformation": "Raw pink pork farce sets into juicy, cohesive cooked layers.",
+        "whyFragile": "The dish is steamed, so there is no browning; cooked pork must look safe and moist, not raw pink or grey-dry.",
+        "visualEvidence": "Opaque pale beige pork layer, small juices, shiitake flecks, compact slice edge.",
+        "referenceNeed": "A final cutaway reference can help if the storyboard includes a lifted portion."
+      },
+      {
+        "id": "steam-reveal",
+        "transformation": "Covered pot opens to condensation, steam, and a glossy dumpling-lasagna top.",
+        "whyFragile": "Steam can obscure geometry or make the mold look submerged.",
+        "visualEvidence": "Visible square mold rim, water outside the mold, top layer intact and glossy.",
+        "referenceNeed": "No generated state reference needed if the shot stays simple."
+      },
+      {
+        "id": "soy-garnish-finish",
+        "transformation": "Plain pale steamed top becomes high-contrast glossy hero surface.",
+        "whyFragile": "Garnish scale and sauce amount can drift; too much soy makes the dish muddy, too little loses the food-porn payoff.",
+        "visualEvidence": "Thin dark soy ribbons, 2-3 scallion pinches, light sesame scatter, visible steam.",
+        "referenceNeed": "No generated state reference needed."
+      }
+    ],
+    "visualTextureOpportunities": [
+      "Macro soy sauce ribbon sliding across the steamed wrapper top, catching sesame oil shine.",
+      "Sticky pork-shiitake farce slapped and spread thin in the square mold.",
+      "Dumpling wrappers laid down as floppy overlapping tiles, with soft edge ripples.",
+      "Measured 3 tbsp water bead slipping into wrapper seams before steaming.",
+      "Lid lift with condensation drip and steam bloom around the compact square mold.",
+      "Clean spoon or spatula lift showing soft stacked layers and juicy pork filling.",
+      "Scallion and white sesame rain over a glossy pale-and-dark surface."
+    ],
+    "possibleHooks": [
+      {
+        "id": "soy-gloss-top",
+        "description": "Start on a tight macro of dark soy sauce glossing a steamy pale dumpling-wrapper top, then immediately clarify the square layered dish.",
+        "reason": "Texture-first, sexy, and not a neutral ingredient lineup."
+      },
+      {
+        "id": "spatula-lift-payoff",
+        "description": "Start on a close lift of one tender layered corner pulling away with steam and juices, then cut back to the fast layering setup.",
+        "reason": "Strong food-porn payoff, but should be used carefully because final cutting/lifting as the very first image can feel like a final-dish reveal."
+      },
+      {
+        "id": "farce-smear",
+        "description": "Open on glossy pork-shiitake farce being spread razor-thin, followed by wrappers landing like silk sheets.",
+        "reason": "Keeps the opening process-driven while still tactile and appetizing."
+      }
+    ],
+    "scaleGeometryRisks": [
+      {
+        "risk": "Dish becomes a normal Western lasagna.",
+        "guardrail": "No tomato sauce, no cheese pull, no long lasagna noodles; use pale dumpling wrappers and pork-shiitake filling only."
+      },
+      {
+        "risk": "Dish becomes individual folded dumplings.",
+        "guardrail": "Keep wrappers flat, tiled, and layered in one 20 cm square mold; no pleating, sealing, or individual parcels."
+      },
+      {
+        "risk": "Mold scale drifts too large.",
+        "guardrail": "8 inch / 20 cm square mold, roughly 4 portions; not a deep catering tray, not miniature ramekins."
+      },
+      {
+        "risk": "Farce layers become too thick.",
+        "guardrail": "Each farce layer should be thin, about 3-5 mm, spread edge-to-edge; not burger-patty slabs."
+      },
+      {
+        "risk": "Wrapper count/topology becomes chaotic.",
+        "guardrail": "Approximately 20 palm-size wrappers total, overlapping/tiled; visible seams are acceptable and desirable."
+      },
+      {
+        "risk": "Steam bath reads as boiling soup.",
+        "guardrail": "Water halfway up outside the mold, covered pot; only 3 tbsp water inside the mold."
+      },
+      {
+        "risk": "Final portion loses layer readability.",
+        "guardrail": "Lift one square portion around 9-10 cm wide from the 20 cm mold, showing 3-5 cm total height and horizontal layers."
+      },
+      {
+        "risk": "Garnish scale drift.",
+        "guardrail": "Use a light sesame scatter and 2-3 visible pinches of thin scallion, not giant onion pieces or invisible dust."
+      }
+    ],
+    "minimalReferenceRecommendations": {
+      "existingAssetReferences": [
+        {
+          "name": "KitchenLayoutContextWide",
+          "role": "structural Licorn kitchen continuity"
+        },
+        {
+          "name": "KitchenIslandOverhead",
+          "role": "active overhead view for mixing, oiling, and layered assembly"
+        },
+        {
+          "name": "KitchenIslandDefault",
+          "role": "island/material identity for final hero and wider context"
+        },
+        {
+          "name": "InductionWide",
+          "role": "covered pot steaming context on the induction side"
+        },
+        {
+          "name": "InductionCloseup",
+          "role": "steam and pot close-up context if needed"
+        },
+        {
+          "name": "CharacterSheet",
+          "role": "Licorn character identity"
+        },
+        {
+          "name": "PoseTopDown",
+          "role": "top-down hands for assembly gestures"
+        },
+        {
+          "name": "PoseThreeQuarterRight",
+          "role": "supporting final satisfaction or serving pose"
+        },
+        {
+          "name": "BakingDish",
+          "role": "square mold / baking dish shape reference"
+        },
+        {
+          "name": "Spoon",
+          "role": "mixing, sauce drizzle, and glossy farce handling"
+        },
+        {
+          "name": "Spatula",
+          "role": "spreading thin farce layers"
+        },
+        {
+          "name": "Tongs",
+          "role": "placing flat wrappers without hand-wrapper fusion if close-up hands are risky"
+        },
+        {
+          "name": "SaucepanLarge",
+          "role": "large pot / steaming vessel fallback when a lidded pot is needed"
+        }
+      ],
+      "recipeSpecificReferences": [
+        {
+          "name": "FinishedDumplingLasagnaCutaway",
+          "priority": "conditional_minimal",
+          "role": "only generated reference recommended if layer geometry must be locked for a lifted/cut final portion",
+          "why": "The non-standard identity is the finished square steamed dumpling-lasagna slab with visible wrapper/farce layers; text alone may drift toward folded dumplings or Western lasagna.",
+          "avoidIf": "Avoid creating this if the storyboard can communicate the dish with simple top, layering, steam, and garnish shots."
+        }
+      ],
+      "notRecommended": [
+        "No separate raw filling reference.",
+        "No separate wrapper-laying reference.",
+        "No intermediate steaming reference unless generation repeatedly loses the square mold and water-bath relationship."
+      ]
+    },
+    "missingQuestions": [
+      {
+        "id": "wrapper-shape",
+        "question": "Are the dumpling wrappers round or square?",
+        "reason": "Top surface geometry and overlap pattern change; this affects the final reference if one is created."
+      },
+      {
+        "id": "serving-style",
+        "question": "Should the final dish be cut into four clean squares or scooped more casually?",
+        "reason": "Clean square portions need stronger cutaway scale locks; casual scooping can lean more into juicy texture."
+      },
+      {
+        "id": "mold-material",
+        "question": "Is the 20 cm mold glass, ceramic, or metal?",
+        "reason": "Material affects steam-bath readability and reflection; not critical if the existing baking dish asset is accepted."
+      }
+    ],
+    "promptPolicySources": [
+      "recipe-ingest",
+      "food-physics-reference",
+      "asset-reference-system",
+      "tiktok-food-direction",
+      "seedance-references"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "wrapper-shape",
+      "question": "Are the dumpling wrappers round or square?",
+      "reason": "This materially affects top-surface geometry and any generated final cutaway reference."
+    },
+    {
+      "id": "serving-style",
+      "question": "Should the final dish be cut into four clean squares or scooped more casually?",
+      "reason": "This changes the hero payoff, layer visibility, and scale locks."
+    },
+    {
+      "id": "mold-material",
+      "question": "Is the 20 cm mold glass, ceramic, or metal?",
+      "reason": "This is useful for continuity but not blocking if the existing baking dish asset is used."
+    }
+  ]
+}

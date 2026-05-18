@@ -1,9 +1,9 @@
 {
   "videoId": "61af8a0b-7e8c-48f7-a63c-0aca70603da7",
   "branch": "cursor/recipe-ingest-61af8a0b-de0c",
-  "latestPushedCommitSha": "d583f1c634f4f887a7a2e2d9fad8255f4cd9efac",
+  "latestPushedCommitSha": "96acb6c4ac2c34a7b6cf2696a876c2fc47558836",
   "stage": "general",
-  "updatedAt": "2026-05-18T11:00:00Z",
+  "updatedAt": "2026-05-18T15:27:00Z",
   "artifacts": [
     "recipe-analysis.json",
     "logical-scenes.json",
@@ -25,6 +25,7 @@
     "jsonValid": true,
     "logicalSceneCount": 36,
     "seedanceSegmentCount": 7,
+    "seedanceDurationTargetsValid": true,
     "referencesWithinLimit": true,
     "kitchenContinuityPairPresentEverySegment": true,
     "recipeAnalysisTimingKeys": ["prep", "cook", "total"],
@@ -40,6 +41,7 @@
     "Creator-provided final image is planned as DesiredFinalDishVisual.",
     "No intermediate recipe-specific generated references are planned.",
     "General follow-up request confirmed artifacts already existed and revalidated them.",
-    "Pulled origin/main and hardened recipe-analysis.json and seedance-segments.json for strict contract key validation."
+    "Pulled origin/main and hardened recipe-analysis.json and seedance-segments.json for strict contract key validation.",
+    "Pulled origin/main again and corrected segment-04 so every Seedance segment durationTarget is an integer from 5 to 15 seconds."
   ]
 }

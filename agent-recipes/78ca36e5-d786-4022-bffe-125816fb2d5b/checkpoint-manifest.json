@@ -1,0 +1,17 @@
+{
+  "videoId": "78ca36e5-d786-4022-bffe-125816fb2d5b",
+  "branch": "cursor/ube-mochi-donuts-ingest-de6e",
+  "commitSha": "bdeb7af",
+  "stage": "recipe_ingest",
+  "updatedAt": "2026-05-19T00:00:00Z",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md"
+  ]
+}

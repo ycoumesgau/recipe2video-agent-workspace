@@ -1,7 +1,7 @@
 {
   "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
   "branch": "cursor/souffle-pancake-ingest-dc99",
-  "commitSha": "9ea10c093b48a24d39aca29139e0349879312838",
+  "commitSha": "12ce1f3526755ec09d5ff072bfe8b0bcfed10571",
   "updatedAt": "2026-05-19T00:00:00Z",
   "stage": "recipe_ingest",
   "artifacts": [

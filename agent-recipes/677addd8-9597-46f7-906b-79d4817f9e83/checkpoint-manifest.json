@@ -1,7 +1,7 @@
 {
   "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
   "branch": "cursor/recipe-ingest-crookie-homemade-9374",
-  "commitSha": "edb8630eca3f476b2de72978e309fd3ac3209533",
+  "commitSha": "e80458ae60d0b94f98bdfa51a87a5748f55ccbe3",
   "manifestPath": "agent-recipes/677addd8-9597-46f7-906b-79d4817f9e83/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",

@@ -27,6 +27,21 @@ The last segment in `seedance-segments.json` (highest `position`) MUST:
   4. `CharacterSheet` (image, role: "Licorn character identity lock")
   5. `FinalDishVisual` (image, role: "finished dish identity") — this MUST be a recipe-specific entry in `reference-plan.json`.
 
+## `FinalDishVisual.prompt` (dual use)
+
+The same `prompt` field on the `FinalDishVisual` entry in `reference-plan.json` serves **two** consumers in Recipe2Video:
+
+1. **GPT-Image 2** when generating the recipe-specific reference still (`source: "generated_reference_needed"`). A detailed generation prompt is fine here (kitchen context, negatives, conditioning via `conditioningReferences`).
+2. **Canonical outro template** at artifact sync. The app embeds a **short dish-only clause** (ideally one sentence, **under 280 characters**) inside the fixed Seedance outro prompt. It must describe the finished dish on the counter — no character, no action, no "Generate one vertical-reference still…" boilerplate.
+
+**Preferred pattern:** lead with a compact dish identity sentence the outro can quote verbatim, then optional image-gen detail if needed. Example:
+
+```text
+Lemon butter orecchiette with torn burrata, pistachio-caper crunch, basil and lemon zest on the hero bowl, intact and motionless on the terrazzo island.
+```
+
+Recipe2Video can extract a short clause from a long GPT-Image-style prompt, but a explicit short lead sentence avoids sync surprises and keeps the outro prompt stable.
+
 ## Forbidden in the outro segment
 
 - Any food-porn destructive action (spoon dive, slice, drip onto the dish, garnish drop on the dish).

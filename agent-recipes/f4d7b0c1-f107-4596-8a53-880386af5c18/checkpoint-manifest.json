@@ -1,0 +1,17 @@
+{
+  "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+  "branch": "cursor/souffle-pancake-ingest-dc99",
+  "commitSha": "752e6c3d1f17f9cd8bd190ea68f88ffa1ef285a4",
+  "updatedAt": "2026-05-19T00:00:00Z",
+  "stage": "recipe_ingest",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md"
+  ]
+}

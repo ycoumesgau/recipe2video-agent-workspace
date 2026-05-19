@@ -41,7 +41,12 @@
 
 Five recipe-specific GPT-Image 2 anchors: `TortillaRadialCut`, `WrapQuadrantsFilled`, `WrapFoldedTriangleRaw`, `WrapGrilledGolden`, `FinalDishVisual`. No character tags in `conditioningReferences`.
 
+## Contract compliance (2026-05-19)
+
+- Seedance outro: five references with `kind`, exact role strings, `<APP_OVERRIDE>` prompts only; no agent timing/beats/negatives on outro.
+- Suno: agent baseline in `fields`; operator 2-3 min edits only in `instructions.fullSongOperatorEdits` and markdown **Operator full song (manual)**.
+
 ## Deferred / operator
 
-- Suno full song: operator applies `fullSongOperatorEdits` in Suno UI before 2–3 min generation.
+- Suno full song: operator applies `fullSongOperatorEdits` in Suno UI before 2-3 min generation.
 - Paid generation (Runway, Suno API, etc.) remains in Recipe2Video app only.

@@ -1,5 +1,10 @@
 # Changelog — b53e79e0-c082-4938-bb35-639f9c435cf6
 
+## 2026-05-19 — contract fix (seedance + suno)
+
+- **`seedance-segments.json`:** outro references now include `kind` (image/video) in contract order; cleared agent-written `beats`, `timing`, and `negatives` on outro; added `Kitchen continuity lock` and `Mandatory audio` blocks on creative segments.
+- **`suno-prompt.json` / `.md`:** baseline lyrics expanded to template boilerplate; `fullSongOperatorEdits` uses contract `change` strings; ASCII `2-3` / `45-90` hyphenation; `excludeStyles` prefixed with `No`.
+
 ## 2026-05-19 — recipe_ingest (initial)
 
 - Created full planning set from https://iamafoodblog.com/tiktok-wrap-hack/ (Crunchwrap supreme edition).

@@ -1,0 +1,284 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural kitchen context",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Preserve cabinet layout, terrazzo, and lighting.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "active island and terrazzo lock",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Light terrazzo countertop hero surface.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead cutting board and fold actions",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Top-down island for tortilla work.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "induction skillet context",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Flush black induction plate.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "grill and beef close actions",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Macro pan surface on induction.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "beef sauté pan shape",
+      "priority": 2,
+      "source": "agent_reference_plan",
+      "prompt": "Large pan for browning crumb.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SiliconeSpatula",
+      "role": "folding and stirring flexible spatula",
+      "priority": 2,
+      "source": "agent_reference_plan",
+      "prompt": "Bowl scraping and beef stir.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "TurningSpatula",
+      "role": "rigid press and flip for triangle",
+      "priority": 2,
+      "source": "agent_reference_plan",
+      "prompt": "Press and flip grilled wrap.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "beef lift and sour cream portioning",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Serving spoon silhouette.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Character lock for outro and scene 37-38.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "satisfied approach pose",
+      "priority": 3,
+      "source": "agent_reference_plan",
+      "prompt": "Three-quarter satisfied stance without touching food.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "LicornOutroVideo",
+      "role": "Licorn celebration motion reference",
+      "priority": 1,
+      "source": "agent_reference_plan",
+      "prompt": "Canonical outro motion only on last segment.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "TortillaRadialCut",
+      "role": "flat tortilla with single center-to-edge radial slit and four implied sectors",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Vertical 9:16 still on light terrazzo Licorn island: one large ~25 cm flour tortilla flat on board with exactly one radial cut from center to bottom edge, no fillings yet, soft matte surface, macro food lighting, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "KitchenIslandDefault"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "WrapQuadrantsFilled",
+      "role": "four-quadrant fill state before folding",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Overhead 9:16 still: flour tortilla with radial slit, bottom-left shredded lettuce and quartered cherry tomatoes, top-left sour cream smear with 3-5 tortilla chips, top-right Mexican shredded cheese with seasoned beef crumb, bottom-right extra cheese only, vivid color separation, Licorn terrazzo island, no hands, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "KitchenIslandDefault",
+        "Spoon"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "WrapFoldedTriangleRaw",
+      "role": "pre-grill folded triangle stack geometry",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Vertical 9:16 still: thick triangle wrap folded from tortilla hack, pale ungrilled surface, visible layered edge at one side, ~12 cm per side scale on terrazzo island cutting board, no grill marks, intact, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "TurningSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "WrapGrilledGolden",
+      "role": "post-grill crispy golden triangle with cheese peek",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Vertical 9:16 hero still: grilled tortilla triangle with amber lattice crisp skin, slight cheese ooze at seam, steam hint, intact not sliced, on Licorn light terrazzo island, macro food-porn lighting, no text, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "InductionCloseup",
+        "TurningSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FinalDishVisual",
+      "role": "finished dish identity for hero and standardized outro",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Vertical 9:16 hero still: intact golden grilled crunchwrap triangle centered on Licorn terrazzo island, cheese slightly visible at seam, no cut, no hands, no character, steam wisps, consistent with WrapGrilledGolden, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "InductionCloseup",
+        "TurningSpatula"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "TikTok Wrap Hack — Crunchwrap Supreme Edition",
+    "goal": "Full song 2–3 min for streaming; 45–90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2–3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Fold the Crunch",
+    "styleOfMusic": "Funky nu-disco pop with tight slap bass, crisp handclaps on two and four, and bright brass stabs; verses stay playful and talk-sung with dry close vocals, pre-chorus adds filtered guitar chops and a rising talkbox swell, chorus bursts wide with stacked harmonies and a sticky four-word hook. Sprinkle vinyl crackle, triangle bells, and a short breakbeat fill before each chorus drop. Punchy modern mix with warm saturation and glossy top-end sheen., funk, pop, disco",
+    "excludeStyles": "mumble rap, death metal, lo-fi bedroom, EDM big-room drop, sad piano ballad, country twang, reggaeton dembow, bossa nova, tutorial jingle, artist imitation",
+    "autoLyricsPrompt": "Write original English song lyrics about a viral tortilla wrap hack turned crunchwrap supreme: a radial cut, four colorful quadrants, a folding cascade, sizzling taco beef, sour cream silk against crunchy chips, melted cheese, and a golden grilled triangle that steams on the counter.\n\nLyric style: short singable lines; vivid food textures and colors; playful confidence; no quantities or numbered steps; no recipe instructions; sensory verbs (sizzle, fold, crackle, ooze); keep the hook physical and visual. Keep the chorus reusable for a 45-90 second video edit.\n\nStructure:\n[Verse 1] — discovery: flat circle, one brave slit, four corners waiting\n[Pre-Chorus] — spice dust on heat, colors landing like a tiny flag\n[Chorus] — chantable hook about folding the crunch; mention golden triangle and cheese peek\n[Verse 2] — fold travel: lift, cross, tuck; layers hiding then hugging\n[Pre-Chorus 2] — pan hiss, press, flip once, steam rising\n[Chorus] — repeat hook with one new image (crackle / steam / shine)\n[Bridge] — half-time swagger: crunch vs cream contrast, hands off the plate\n[Final Chorus] — biggest gang vocals; end on satisfied held note over implied kitchen glow",
+    "shortVersionPlan": "Target 52–68s vertical excerpt after full master exists. Open on instrumental pre-chorus swell (4 bars) under radial-cut B-roll, hard-cut to Chorus 1 from first hook line through end of chorus (bars 1–16). Verse 2 bars 1–8 over quadrant-fill montage, jump to Chorus 2 full, then 4-bar instrumental tag on final hook syllable with grilled-triangle hero held silent for last 2 bars. Fade under kitchen ASMR tail; no new lyrics after final chorus."
+  },
+  "instructions": {
+    "voice": "Playful lead with light talk-sung verses; stack gang vocals on chorus; keep consonants crisp for ASMR-friendly transients.",
+    "structure": "Chorus must survive a 45–90s cut; bridge optional trim in excerpt.",
+    "workflowNotes": "Manual Suno paste only; align downbeats to fold cascade and grill flip in edit.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: Write original English song lyrics → Write original 2-3 minutes English song lyrics",
+        "Lyric style: …45-90 second video edit. → …45-90 second video edit, but make a 2-3 minutes song.",
+        "Structure: → Extend this structure to fit a 2-3 minutes song:"
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Title is first field in markdown mirror",
+    "Style of Music has no 2-3 minutes suffix in JSON",
+    "Auto Lyrics Prompt has no 2-3 minutes in opening line",
+    "Operator edits documented in instructions.fullSongOperatorEdits",
+    "No artist imitation or tutorial quantities in lyrics prompt",
+    "Chorus hook reusable for 45-90s excerpt per shortVersionPlan"
+  ]
+}

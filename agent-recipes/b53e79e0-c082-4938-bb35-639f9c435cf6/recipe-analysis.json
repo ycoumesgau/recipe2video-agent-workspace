@@ -1,0 +1,191 @@
+{
+  "recipe": {
+    "title": "TikTok Wrap Hack — Crunchwrap Supreme Edition",
+    "sourceType": "url",
+    "sourceUrl": "https://iamafoodblog.com/tiktok-wrap-hack/",
+    "ingredients": [
+      {
+        "name": "ground beef",
+        "quantity": "1 lb",
+        "note": "browned with taco spices"
+      },
+      {
+        "name": "chili powder",
+        "quantity": "2 tsp",
+        "note": null
+      },
+      {
+        "name": "ground cumin",
+        "quantity": "2 tsp",
+        "note": null
+      },
+      {
+        "name": "onion powder",
+        "quantity": "2 tsp",
+        "note": null
+      },
+      {
+        "name": "garlic powder",
+        "quantity": "2 tsp",
+        "note": null
+      },
+      {
+        "name": "smoked paprika",
+        "quantity": "1 tsp",
+        "note": null
+      },
+      {
+        "name": "ground cayenne pepper",
+        "quantity": "1/8 tsp",
+        "note": null
+      },
+      {
+        "name": "large flour tortillas",
+        "quantity": "6",
+        "note": "~10 inch; source prefers flour over corn for fold integrity"
+      },
+      {
+        "name": "shredded lettuce",
+        "quantity": "1.5 cups",
+        "note": null
+      },
+      {
+        "name": "cherry tomatoes",
+        "quantity": "1 cup",
+        "note": "quartered, or diced regular tomatoes"
+      },
+      {
+        "name": "sour cream",
+        "quantity": "1/2 cup",
+        "note": null
+      },
+      {
+        "name": "Mexican cheese blend",
+        "quantity": "2 cups",
+        "note": "shredded; split across quadrants"
+      },
+      {
+        "name": "tortilla chips",
+        "quantity": "18",
+        "note": "or as desired for crunch layer"
+      },
+      {
+        "name": "salt and black pepper",
+        "quantity": null,
+        "note": "to taste after spice mix"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Brown ground beef over medium-high heat until cooked through; drain excess fat if needed.",
+        "timing": null,
+        "visualCue": "pink-to-brown crumb transition, light steam",
+        "block": "taco_beef",
+        "textureCue": "sizzling fat sheen and breaking crumb edges",
+        "runwayRisk": "grease splatter; keep macro tight on pan center"
+      },
+      {
+        "position": 2,
+        "text": "Stir in chili powder, cumin, onion powder, garlic powder, smoked paprika, and cayenne; season with salt and pepper.",
+        "timing": null,
+        "visualCue": "rust-red spice dust blooming into beef",
+        "block": "taco_beef",
+        "textureCue": "dry spice puff then glossy coat",
+        "runwayRisk": "spice color can read as burnt; lock warm red-brown"
+      },
+      {
+        "position": 3,
+        "text": "Lay tortilla flat; cut from center to one edge to create a radial slit opening four quadrants.",
+        "timing": null,
+        "visualCue": "knife tip at center, clean radial slit on pale tortilla",
+        "block": "wrap_geometry",
+        "textureCue": "soft flour flex at cut edge",
+        "runwayRisk": "cut must stay single radius to center, not full diameter"
+      },
+      {
+        "position": 4,
+        "text": "Fill quadrants: bottom-left lettuce and tomato; top-left sour cream and tortilla chips; top-right cheese and beef; bottom-right extra cheese.",
+        "timing": null,
+        "visualCue": "four-color quadrant mosaic before fold",
+        "block": "wrap_fill",
+        "textureCue": "crisp chip edges vs creamy sour cream vs shredded cheese",
+        "runwayRisk": "chip count drift; lock 3-5 visible chips per quadrant"
+      },
+      {
+        "position": 5,
+        "text": "Fold sequentially: bottom-left over top-left, then to top-right, then down to bottom-right into a compact triangle.",
+        "timing": null,
+        "visualCue": "layer stack compressing into thick triangle",
+        "block": "wrap_fold",
+        "textureCue": "visible internal layers at fold seams",
+        "runwayRisk": "fold order confusion; use hard cuts between fold states"
+      },
+      {
+        "position": 6,
+        "text": "Grill on induction skillet over medium heat until tortilla crisps and cheese melts, flipping once (~3-4 minutes per side).",
+        "timing": "3-4 minutes per side",
+        "visualCue": "golden lattice toast marks, cheese ooze at seam",
+        "block": "grill_finish",
+        "textureCue": "crackle press and molten cheese pull",
+        "runwayRisk": "cloth-in-hand flip; use spatula turn only"
+      },
+      {
+        "position": 7,
+        "text": "Rest triangle intact on island; serve hot.",
+        "timing": null,
+        "visualCue": "intact golden triangle, steam wisps, no cut",
+        "block": "hero",
+        "textureCue": "crisp shell matte vs glossy cheese peek",
+        "runwayRisk": "model may add slice; lock intact geometry for outro handoff"
+      }
+    ],
+    "subRecipes": [
+      "taco_beef",
+      "wrap_geometry",
+      "wrap_fill",
+      "wrap_fold",
+      "grill_finish"
+    ],
+    "assumptions": [
+      "Large flour tortillas ~25 cm (10 in) diameter for scale locks across segments.",
+      "Single-serve hero wrap on Licorn island (not batch of six) for vertical video.",
+      "Induction skillet on @InductionWide instead of panini press (same crisp/cheese outcome).",
+      "Flour tortilla preferred per source for fold integrity."
+    ],
+    "timing": {
+      "prep": "15",
+      "cook": "15",
+      "total": "30"
+    },
+    "criticalTransformations": [
+      "Radial center-to-edge tortilla cut opening four quadrants",
+      "Sequential quarter-fold collapsing fillings into a thick triangle",
+      "Raw-soft tortilla to golden crisp grilled shell with melted cheese",
+      "Loose taco beef crumb to spice-coated glossy crumb"
+    ],
+    "visualTextureOpportunities": [
+      "Knife initiating radial slit through soft flour tortilla",
+      "Spice dust blooming on sizzling beef crumb",
+      "Sour cream spread vs crunchy tortilla chip stack contrast",
+      "Fold cascade revealing layered cross-section seams",
+      "Press-and-sizzle grill with cheese melt at triangle edge",
+      "Steam lift off golden grilled triangle shell"
+    ],
+    "possibleHooks": [
+      "Macro radial cut from tortilla center — instant geometry payoff in scene 2",
+      "Spice cloud hitting hot beef — color and ASMR sizzle",
+      "Four-quadrant color block before the fold",
+      "Satisfying sequential fold compressing into a thick triangle",
+      "Cheese pull and crisp shell crackle on the induction pan"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "tiktok-food-direction",
+      "food-physics-reference"
+    ]
+  },
+  "clarifyingQuestions": []
+}

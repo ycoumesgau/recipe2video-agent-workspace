@@ -1,0 +1,683 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 1,
+      "title": "Hook radial tortilla cut",
+      "arc": "wrap_geometry_hook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05"
+      ],
+      "description": "Texture-first radial slit through flat tortilla; quadrant geometry revealed.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead as overhead cutting board framing. Use @KitchenIslandDefault to preserve terrazzo and island identity if the shot widens. Use @TortillaRadialCut only as the radial slit geometry lock (single cut center to one edge, four implied sectors, ~25 cm tortilla, not oversized, not miniature). Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s knife tip pierces tortilla center; 1.0-2.2s radial slit completes and sectors read clearly; 2.2-3.2s overhead flat tortilla matte; 3.2-4.2s board context on terrazzo; 4.2-5.0s close on empty sector lines. Scale lock: tortilla diameter ~25 cm (10 in), one radial slit only, not a full diameter cut, not two slits. Global negatives: no text, no music, no pre-filled quadrants in hook, no character, no rolling burrito shape.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead as overhead cutting board framing. Use @KitchenIslandDefault to preserve terrazzo and island identity if the shot widens. Use @TortillaRadialCut only as the radial slit geometry lock (single cut center to one edge, four implied sectors, ~25 cm tortilla, not oversized, not miniature). Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s knife tip pierces tortilla center; 1.0-2.2s radial slit completes and sectors read clearly; 2.2-3.2s overhead flat tortilla matte; 3.2-4.2s board context on terrazzo; 4.2-5.0s close on empty sector lines. Scale lock: tortilla diameter ~25 cm (10 in), one radial slit only, not a full diameter cut, not two slits. Global negatives: no text, no music, no pre-filled quadrants in hook, no character, no rolling burrito shape.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead island cutting surface",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "terrazzo island identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "radial slit geometry lock",
+          "name": "TortillaRadialCut",
+          "label": "TortillaRadialCut",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "center pierce",
+        "slit complete",
+        "sector reveal"
+      ],
+      "timing": [
+        "0.0-1.0s pierce",
+        "1.0-2.2s slit complete",
+        "4.2-5.0s sector lines"
+      ],
+      "continuity": "Opening texture-first; scene 2 pays off scene 1. Tortilla ~25 cm.",
+      "risk": "Model may add second slit or pre-fill quadrants early.",
+      "audioPrompt": "soft tortilla tear; knife scrape finish",
+      "negatives": [
+        "no text",
+        "no music",
+        "no pre-filled quadrants"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "tiktok-food-direction",
+          "food-physics-reference"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 2,
+      "title": "Taco beef sizzle and spice",
+      "arc": "taco_beef",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11"
+      ],
+      "description": "Brown beef, spice bloom, stir coat, spoon lift.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for macro pan actions. Use @InductionWide if framing widens. Use @SaucepanLarge only as pan shape. Use @SiliconeSpatula and @Spoon only as utensil shapes. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s beef hits hot pan sizzle; 1.0-2.1s crumb browns with steam; 2.1-3.1s rust spice dust blooms; 3.1-4.2s spatula folds even coat; 4.2-5.2s wide pan context; 5.2-6.0s spoon lifts glossy crumb. Scale lock: beef crumb clumps 4-8 mm, pan occupies lower two-thirds of frame. Kitchen continuity: same black flush induction plate, light terrazzo visible at frame edge. Global negatives: no pink raw center, no burnt black crumb, no cloth in hand, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for macro pan actions. Use @InductionWide if framing widens. Use @SaucepanLarge only as pan shape. Use @SiliconeSpatula and @Spoon only as utensil shapes. Generate exactly 6 short shots with hard cuts, total duration 6 seconds, no slow motion, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s beef hits hot pan sizzle; 1.0-2.1s crumb browns with steam; 2.1-3.1s rust spice dust blooms; 3.1-4.2s spatula folds even coat; 4.2-5.2s wide pan context; 5.2-6.0s spoon lifts glossy crumb. Scale lock: beef crumb clumps 4-8 mm, pan occupies lower two-thirds of frame. Kitchen continuity: same black flush induction plate, light terrazzo visible at frame edge. Global negatives: no pink raw center, no burnt black crumb, no cloth in hand, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "macro induction pan surface",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "induction context",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "sauté pan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flexible spatula shape",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "sizzle",
+        "spice bloom",
+        "glossy crumb"
+      ],
+      "timing": [
+        "0.0-1.0s beef hit",
+        "2.1-3.1s spice dust",
+        "5.2-6.0s spoon lift"
+      ],
+      "continuity": "Beef crumb scale 4-8 mm; induction plate consistent.",
+      "risk": "Undercooked pink or burnt black crumb.",
+      "audioPrompt": "sizzle burst; spice hiss; spoon lift squish",
+      "negatives": [
+        "no cloth in hand",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 3,
+      "title": "Four-quadrant fill mosaic",
+      "arc": "wrap_fill",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-12",
+        "scene-13",
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18"
+      ],
+      "description": "Place lettuce-tomato, cream-chips, cheese-beef, cheese; full color mosaic.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for top-down fill shots. Use @KitchenIslandDefault for terrazzo lock. Use @WrapQuadrantsFilled only as the four-quadrant color and placement lock (lettuce-tomato / sour cream-chips / cheese-beef / cheese-only). Use @Spoon only as spoon shape for cream portions. Generate exactly 7 short shots with hard cuts, total duration 7 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s lettuce-tomato quadrant; 1.0-2.1s sour cream and 3-5 chips; 2.1-3.1s cheese-beef quadrant; 3.1-4.0s extra cheese quarter; 4.0-5.2s full four-color mosaic; 5.2-6.2s island context; 6.2-7.0s macro chip under cream weight. Plating quantity lock: modest lettuce handful, 4-6 tomato pieces, 3-5 chips 4-6 cm each, thin beef layer not a mound. Global negatives: no fold yet, no grill marks, no oversized chips, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for top-down fill shots. Use @KitchenIslandDefault for terrazzo lock. Use @WrapQuadrantsFilled only as the four-quadrant color and placement lock (lettuce-tomato / sour cream-chips / cheese-beef / cheese-only). Use @Spoon only as spoon shape for cream portions. Generate exactly 7 short shots with hard cuts, total duration 7 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s lettuce-tomato quadrant; 1.0-2.1s sour cream and 3-5 chips; 2.1-3.1s cheese-beef quadrant; 3.1-4.0s extra cheese quarter; 4.0-5.2s full four-color mosaic; 5.2-6.2s island context; 6.2-7.0s macro chip under cream weight. Plating quantity lock: modest lettuce handful, 4-6 tomato pieces, 3-5 chips 4-6 cm each, thin beef layer not a mound. Global negatives: no fold yet, no grill marks, no oversized chips, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead fill framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "terrazzo lock",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "four-quadrant placement lock",
+          "name": "WrapQuadrantsFilled",
+          "label": "WrapQuadrantsFilled",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "quadrant colors",
+        "chip crunch contrast",
+        "mosaic payoff"
+      ],
+      "timing": [
+        "4.0-5.2s full mosaic",
+        "6.2-7.0s chip macro"
+      ],
+      "continuity": "Chip count 3-5; tortilla still flat with radial slit.",
+      "risk": "Chip scale drift oversized; beef mound too tall.",
+      "audioPrompt": "lettuce rustle; cream swipe; chip micro crunch",
+      "negatives": [
+        "no fold",
+        "no grill marks"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 4,
+      "title": "Sequential fold to triangle",
+      "arc": "wrap_fold",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-19",
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24",
+        "scene-25",
+        "scene-26"
+      ],
+      "description": "Three-step fold cascade, seam press, handoff to pan.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for fold actions. Use @KitchenIslandDefault for identity. Use @WrapQuadrantsFilled as start state reference. Use @WrapFoldedTriangleRaw only as folded triangle geometry lock (~12 cm sides, ~3-4 cm thick, intact). Use @TurningSpatula only as rigid press tool shape. Generate exactly 8 short shots with hard cuts, total duration 8 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s first quadrant lift; 1.0-2.2s fold across to top-right; 2.2-3.4s final fold to triangle; 3.4-4.4s side profile layer seam; 4.4-5.4s spatula seam press; 5.4-6.4s ungrilled triangle context; 6.4-7.2s top-down pale triangle; 7.2-8.0s triangle slides to pan with contact sizzle. Prefer hard cut from filled reference to folded reference if live fold drifts. Global negatives: no burrito roll, no sliced cross-section, no grill marks yet, no cloth, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for fold actions. Use @KitchenIslandDefault for identity. Use @WrapQuadrantsFilled as start state reference. Use @WrapFoldedTriangleRaw only as folded triangle geometry lock (~12 cm sides, ~3-4 cm thick, intact). Use @TurningSpatula only as rigid press tool shape. Generate exactly 8 short shots with hard cuts, total duration 8 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.0s first quadrant lift; 1.0-2.2s fold across to top-right; 2.2-3.4s final fold to triangle; 3.4-4.4s side profile layer seam; 4.4-5.4s spatula seam press; 5.4-6.4s ungrilled triangle context; 6.4-7.2s top-down pale triangle; 7.2-8.0s triangle slides to pan with contact sizzle. Prefer hard cut from filled reference to folded reference if live fold drifts. Global negatives: no burrito roll, no sliced cross-section, no grill marks yet, no cloth, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead fold framing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "island identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "filled quadrant start state",
+          "name": "WrapQuadrantsFilled",
+          "label": "WrapQuadrantsFilled",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "folded triangle geometry",
+          "name": "WrapFoldedTriangleRaw",
+          "label": "WrapFoldedTriangleRaw",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rigid press spatula",
+          "name": "TurningSpatula",
+          "label": "TurningSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "fold 1",
+        "fold 2",
+        "fold 3",
+        "pan handoff"
+      ],
+      "timing": [
+        "0.0-3.4s three folds",
+        "7.2-8.0s pan contact"
+      ],
+      "continuity": "Triangle ~12 cm per side; prefer hard cuts between fold states.",
+      "risk": "Model may roll burrito instead of quarter-fold triangle.",
+      "audioPrompt": "soft fold thud; press creak; contact sizzle",
+      "negatives": [
+        "no burrito roll",
+        "no cross-section slice"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference"
+        ]
+      },
+      "durationTarget": 8,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 5,
+      "title": "Grill crisp and cheese melt",
+      "arc": "grill_finish",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-27",
+        "scene-28",
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32"
+      ],
+      "description": "Press, cheese ooze, crisp lattice, single flip, steam on intact triangle.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for grill macro. Use @InductionWide for context shot. Use @WrapFoldedTriangleRaw as pre-grill state. Use @WrapGrilledGolden only as post-grill color and crisp skin lock (amber-gold lattice, cheese peek, intact triangle). Use @TurningSpatula only as press and flip tool. Generate exactly 6 short shots with hard cuts, total duration 7 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.2s press and sizzle; 1.2-2.4s cheese ooze macro; 2.4-3.6s shell crisp lattice; 3.6-4.8s single spatula flip; 4.8-5.8s wide pan context; 5.8-7.0s steam off intact triangle. Destructive food-porn allowed here only: no bite, no slice—only press, flip, and cheese pull at seam. Global negatives: no black char shell, no collapsed flat disc, no second flip, no cloth fused to hand, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for grill macro. Use @InductionWide for context shot. Use @WrapFoldedTriangleRaw as pre-grill state. Use @WrapGrilledGolden only as post-grill color and crisp skin lock (amber-gold lattice, cheese peek, intact triangle). Use @TurningSpatula only as press and flip tool. Generate exactly 6 short shots with hard cuts, total duration 7 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.2s press and sizzle; 1.2-2.4s cheese ooze macro; 2.4-3.6s shell crisp lattice; 3.6-4.8s single spatula flip; 4.8-5.8s wide pan context; 5.8-7.0s steam off intact triangle. Destructive food-porn allowed here only: no bite, no slice—only press, flip, and cheese pull at seam. Global negatives: no black char shell, no collapsed flat disc, no second flip, no cloth fused to hand, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "grill macro surface",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pan context",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pre-grill triangle",
+          "name": "WrapFoldedTriangleRaw",
+          "label": "WrapFoldedTriangleRaw",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "grilled golden shell lock",
+          "name": "WrapGrilledGolden",
+          "label": "WrapGrilledGolden",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "press and flip spatula",
+          "name": "TurningSpatula",
+          "label": "TurningSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "press sizzle",
+        "cheese ooze",
+        "crisp lattice",
+        "flip",
+        "steam"
+      ],
+      "timing": [
+        "1.2-2.4s cheese ooze",
+        "3.6-4.8s single flip"
+      ],
+      "continuity": "Triangle stays intact; amber-gold not black char.",
+      "risk": "Collapsed disc or double flip.",
+      "audioPrompt": "press sizzle; bubble pop; crackle; flip thud",
+      "negatives": [
+        "no bite",
+        "no slice",
+        "no cloth"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference"
+        ]
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 6,
+      "title": "Hero intact triangle",
+      "arc": "hero_handoff",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36",
+        "scene-37",
+        "scene-38"
+      ],
+      "description": "Intact grilled triangle on island; character satisfied; no dish contact.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero surface. Use @WrapGrilledGolden and @FinalDishVisual only as the same intact golden triangle identity (not sliced, not spooned). Use @CharacterSheet and @PoseThreeQuarterRight for character identity and satisfied approach—character does not touch the dish. Generate exactly 6 short shots with hard cuts, total duration 5 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.3s hero triangle intact on island with steam; 1.3-2.3s cheese seam macro; 2.3-3.5s wider kitchen context; 3.5-4.5s side profile scale lock; 4.5-5.0s character satisfied hold with untouched dish. Continuity: dish remains motionless and intact through last frame for standardized outro handoff. Global negatives: no slice, no fork bite, no spoon dive, no garnish drop on dish, no speech, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero surface. Use @WrapGrilledGolden and @FinalDishVisual only as the same intact golden triangle identity (not sliced, not spooned). Use @CharacterSheet and @PoseThreeQuarterRight for character identity and satisfied approach—character does not touch the dish. Generate exactly 6 short shots with hard cuts, total duration 5 seconds, no extra shots, no text. Integrated audio: no speech, no voiceover, no music. Mandatory timing: 0.0-1.3s hero triangle intact on island with steam; 1.3-2.3s cheese seam macro; 2.3-3.5s wider kitchen context; 3.5-4.5s side profile scale lock; 4.5-5.0s character satisfied hold with untouched dish. Continuity: dish remains motionless and intact through last frame for standardized outro handoff. Global negatives: no slice, no fork bite, no spoon dive, no garnish drop on dish, no speech, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hero island surface",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "grilled triangle state",
+          "name": "WrapGrilledGolden",
+          "label": "WrapGrilledGolden",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "satisfied pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "hero rest",
+        "cheese seam",
+        "character hold"
+      ],
+      "timing": [
+        "0.0-1.3s hero rest",
+        "4.5-5.0s character hold"
+      ],
+      "continuity": "Dish motionless and intact for segment-outro; matches FinalDishVisual.",
+      "risk": "Late slice or spoon dive would break outro contract.",
+      "audioPrompt": "residual sizzle tail; kitchen breathe",
+      "negatives": [
+        "no slice",
+        "no spoon dive",
+        "no character touching dish"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-outro",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-outro",
+      "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
+      "position": 7,
+      "title": "Licorn celebration outro",
+      "arc": "licorn_celebration_outro",
+      "mode": "References",
+      "logicalSceneIds": [],
+      "description": "Standardized Licorn outro; app injects canonical prompt at sync.",
+      "prompt": "<APP_OVERRIDE>",
+      "promptInitial": "<APP_OVERRIDE>",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn celebration motion reference",
+          "name": "LicornOutroVideo",
+          "label": "LicornOutroVideo",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity lock",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "app-controlled celebration"
+      ],
+      "timing": [],
+      "continuity": "FinalDishVisual must match segment-06 intact triangle.",
+      "risk": "None for agent prompt; app overrides.",
+      "audioPrompt": "app-controlled",
+      "negatives": [
+        "no custom agent prompt"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-outro"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

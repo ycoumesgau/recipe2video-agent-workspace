@@ -1,0 +1,30 @@
+{
+  "videoId": "dba056b9-a187-4c30-a5b8-fb0c8406d4f1",
+  "branch": "cursor/recipe-ingest-lemon-burrata-pasta-e63f",
+  "commitSha": "1ce5dd36c65e07844ad427e2d9049ed27d7b3ebd",
+  "manifestPath": "agent-recipes/dba056b9-a187-4c30-a5b8-fb0c8406d4f1/checkpoint-manifest.json",
+  "stage": "recipe_ingest",
+  "status": "validated",
+  "updatedAt": "2026-05-19T12:00:00Z",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md"
+  ],
+  "validation": {
+    "jsonReadBack": true,
+    "strictJsonValidated": true,
+    "notes": [
+      "JSON artifacts read back and parsed with Python json module.",
+      "37 logical scenes (30-48 range), 8 Seedance segments including licorn_celebration_outro.",
+      "All segment durationTarget integers 5-15; references at or below 9 per segment.",
+      "Kitchen continuity pair present on creative segments; FinalDishVisual with conditioningReferences.",
+      "Creator overrides: orecchiette pasta, roasted pistachio sub-recipe, food-porn ASMR tone."
+    ]
+  }
+}

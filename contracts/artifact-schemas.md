@@ -220,8 +220,18 @@ food-porn beats belong in segments 1..N-2.
 
 Full rules: `.cursor/rules/seedance-outro.mdc`.
 
+## `suno-prompt.json`
+
+Strict JSON. Required: `schemaVersion` (must be `1`), `status`, `fields`, `instructions`, `qualityChecks`.
+
+- **`fields.autoLyricsPrompt`**: agent **baseline** only — opening `Write original English song lyrics`, no `2-3 minutes` duration in the opener, lyric style ends with `Keep the chorus reusable for a 45-90 second video edit.` (no `but make a 2-3 minutes song`), scaffold header `Structure:`.
+- **`fields.styleOfMusic`**: genre / production / mix only — **no** `2-3 minutes song.` suffix in committed artifacts.
+- **`instructions.fullSongOperatorEdits`**: required object documenting what the operator adds in Suno before full generation (three lyrics replacements + `styleOfMusicSuffix: "2-3 minutes song."`).
+
+Full Suno policy, worked example, and operator table: **`contracts/suno-music.md`**.
+
 ## Markdown Artifacts
 
 - `decisions.md`: user decisions, assumptions, and accepted trade-offs.
-- `suno-prompt.md`: copy-ready Suno fields.
+- `suno-prompt.md`: copy-ready Suno fields (five parsed sections) plus operator context (`Status`, `Intent`, **Operator full song (manual)**).
 - `changelog.md`: concise record of artifact changes and why.

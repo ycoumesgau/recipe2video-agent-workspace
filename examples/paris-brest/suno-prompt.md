@@ -1,5 +1,7 @@
 # Suno Prompt — Paris-Brest
 
+> Operator: apply **Operator full song** edits in Suno before generating the 2–3 minute master. Contract: `contracts/suno-music.md`.
+
 ## Style of Music
 
 ```text
@@ -19,6 +21,8 @@ Praline Crown
 ```
 
 ## Auto Lyrics Prompt
+
+Agent baseline — paste into Suno **after** applying the three operator edits in **Operator full song (manual)** for a 2–3 minute generation.
 
 ```text
 Write original English song lyrics about a joyful unicorn pastry mascot making a Paris-Brest. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.
@@ -57,6 +61,22 @@ Softer moment: praline cream, rosettes, sugar snow, one bite feels magical.
 [Final Chorus]
 Repeat the chorus with extra energy and a proud final image.
 ```
+
+## Operator full song (manual)
+
+**Style of Music** — append:
+
+```text
+2-3 minutes song.
+```
+
+**Auto Lyrics Prompt** — three replacements:
+
+| # | Find | Replace with |
+| --- | --- | --- |
+| 1 | `Write original English song lyrics about` | `Write original 2-3 minutes English song lyrics about` |
+| 2 | `Keep the chorus reusable for a 45-90 second video edit.` | `Keep the chorus reusable for a 45-90 second video edit, but make a 2-3 minutes song.` |
+| 3 | `Structure:` | `Extend this structure to fit a 2-3 minutes song:` |
 
 ## Short Version To Extract Later
 

@@ -1,11 +1,11 @@
 # Suno Prompt — [Recipe Name]
 
-> **Recipe2Video:** The app parses Suno Custom Mode content from these level-2 sections: `## Title`, `## Style of Music`, `## Exclude Styles`, `## Auto Lyrics Prompt`, and `## Short Version To Extract Later`. Recommended order (matches typical Suno workflow) is **title first**, then style, excludes, auto lyrics, short-edit plan. Earlier sections (`Status`, `Intent`, session notes) are operator context only; you can also mirror them in `suno-prompt.json` under `status` / `instructions`.
+> **Recipe2Video:** The app parses Suno Custom Mode content from these level-2 sections: `## Title`, `## Style of Music`, `## Exclude Styles`, `## Auto Lyrics Prompt`, and `## Short Version To Extract Later`. Recommended order (matches typical Suno workflow) is **title first**, then style, excludes, auto lyrics, short-edit plan. Earlier sections (`Status`, `Intent`, session notes, operator full song) are operator context only; you can also mirror them in `suno-prompt.json` under `status` / `instructions`. Full contract: `contracts/suno-music.md`.
 
 ## Status
 
 - Recipe: [Recipe Name]
-- Goal: generate a long song that can be used as a full version, then edited into a shorter version for the vertical video.
+- Goal: operator generates a **2–3 minute** full song in Suno, then cuts a **45–90 s** excerpt for the vertical video.
 - Target model: Suno 5.5 in Advanced / Custom Mode.
 - Video use: TikTok, YouTube Shorts, Instagram Reels.
 
@@ -26,9 +26,9 @@ Use these as operator notes before generating. They are not pasted into a single
 
 **Structure**
 
-- Generate the long version first, aiming for 2 to 3 minutes.
-- Make the chorus reusable for a 45 to 90 second video edit.
-- Keep lines short, singable, repeated, and image-driven.
+- The agent ships a **baseline** Auto Lyrics Prompt (hook-friendly, excerpt-ready). The operator applies **three fixed edits** (see **Operator full song**) before generating the **2–3 minute** master.
+- Append **`2-3 minutes song.`** to **Style of Music** for full generation only (see operator section).
+- After the long master exists, use **Short Version To Extract Later** to cut **45–90 s** for the video.
 
 ## Title
 
@@ -40,7 +40,7 @@ English track name — set this **first** in Suno so the project is named before
 
 ## Style of Music
 
-Style prompt to use as a separate Suno field (genre, rhythm, production, instruments, vocal treatment, mix only — no lyric instructions here):
+Style prompt to use as a separate Suno field (genre, rhythm, production, instruments, vocal treatment, mix only — no lyric instructions here). **Agent baseline:** do **not** include `2-3 minutes song.` — the operator appends it before full generation (see **Operator full song**).
 
 ```text
 [Style prompt only: genre, rhythm, production, instruments, vocal treatment, mix feel.]
@@ -54,14 +54,14 @@ No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-
 
 ## Auto Lyrics Prompt
 
-Paste this into Suno’s automatic lyrics prompt field. It must stay under 3000 characters and keep musical style out of the lyrics prompt.
+Paste this into Suno’s automatic lyrics prompt field **after** applying **Operator full song** edits for a 2–3 minute generation. The block below is the **agent baseline** (before operator edits). It must stay under 3000 characters and keep musical style out of the lyrics prompt.
 
 ```text
 Write original English song lyrics about [short character + recipe premise]. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.
 
 Mood: [3 to 6 emotional words], food-video ASMR energy, but not childish.
 
-Lyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like "([recipe name])". Keep the chorus very reusable for a 45-90 second video edit.
+Lyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like "([recipe name])". Keep the chorus reusable for a 45-90 second video edit.
 
 Story and imagery to weave in naturally:
 - [opening texture hook]
@@ -87,18 +87,30 @@ Big chantable hook around [recipe name] + [character] + [core payoff]. Repeat th
 [Verse 2]
 [Middle recipe arc and visual transformations.]
 
-[Pre-Chorus]
-[Final assembly gets closer.]
-
-[Chorus]
-Repeat the same chorus or a very close variation.
-
 [Bridge]
 Softer moment: [filling / cream / sauce / final sensory detail].
 
 [Final Chorus]
 Repeat the chorus with extra energy and a proud final image.
 ```
+
+## Operator full song (manual)
+
+Apply **in Suno** before generating the long track. Do not change the agent artifacts on disk unless you are intentionally revising the recipe checkpoint.
+
+**Style of Music** — append to the end of the agent style prompt:
+
+```text
+2-3 minutes song.
+```
+
+**Auto Lyrics Prompt** — three replacements on the agent baseline:
+
+| # | Find (agent baseline) | Replace with (operator paste) |
+| --- | --- | --- |
+| 1 | `Write original English song lyrics about` | `Write original 2-3 minutes English song lyrics about` |
+| 2 | `Keep the chorus reusable for a 45-90 second video edit.` | `Keep the chorus reusable for a 45-90 second video edit, but make a 2-3 minutes song.` |
+| 3 | `Structure:` | `Extend this structure to fit a 2-3 minutes song:` |
 
 ## Short Version To Extract Later
 

@@ -56,7 +56,7 @@ through the Cursor SDK, validates them, and syncs valid content into Supabase.
 3. Compress scenes into 5-10 Seedance 2 segments.
 4. Plan global and recipe-specific references for Seedance.
 5. Generate copy-ready Seedance prompts with explicit reference roles.
-6. Generate a copy-ready Suno prompt.
+6. Generate a copy-ready Suno prompt (agent baseline + operator 2–3 min edits documented in `contracts/suno-music.md`).
 7. Let Recipe2Video validate, persist, approve, and execute.
 
 Image generation remains useful only for creating **reference images** needed by

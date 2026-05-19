@@ -5,7 +5,7 @@ This example captures the modern Recipe2Video workflow:
 - logical scenes for editorial quality;
 - Seedance 2 References segments for generation;
 - recipe-specific state references for fragile pastry geometry;
-- Suno prompt separated from video generation.
+- Suno prompt separated from video generation; agent ships baseline lyrics/style, operator applies 2–3 min Suno edits per `contracts/suno-music.md`.
 
 The historical text-to-image then image-to-video workflow is intentionally not included as a production path.
 

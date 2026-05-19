@@ -31,3 +31,8 @@
 ## Clarifying questions
 
 None required for ingest; source plus creator notes are sufficient to lock geometry and storyboard.
+
+## Contract alignment (2026-05-19)
+
+- **`seedance-segments.json`:** `timing` entries use `start-endXs: beat` colons; `promptInitial` immediately follows `prompt`; outro has empty `beats` / `timing` / `negatives` (app-injected) and canonical reference roles.
+- **`suno-prompt.json`:** agent baseline lyrics opener, lyric-style 45–90 s clause with period, `Structure:` header, no operator duration baked into `fields`; `instructions.fullSongOperatorEdits` matches `contracts/suno-music.md`.

@@ -1,5 +1,7 @@
 # Suno Prompt — Lemon Butter Orecchiette with Burrata
 
+> Operator: apply **Operator full song (manual)** edits in Suno before generating the 2–3 minute master. Contract: `contracts/suno-music.md`.
+
 ## Status
 
 - Recipe: Lemon Butter Orecchiette with Burrata
@@ -8,7 +10,7 @@
 
 ## Intent
 
-Sensual R&B-pop bed for glossy lemon butter cups, burrata cream spill, caper crisp, and pistachio crunch — aligned with Seedance food-porn beats, no tutorial lyrics.
+Sensual R&B-pop bed for glossy lemon butter cups, burrata cream spill, caper crisp, and pistachio crunch — aligned with Seedance beats, no tutorial lyrics.
 
 ## Title
 
@@ -24,11 +26,14 @@ No aggressive rap, no metal, no heavy rock, no children's choir, no advertising 
 
 ## Auto Lyrics Prompt
 
-Write original English song lyrics about a seductive Licorn kitchen moment making glossy lemon butter orecchiette with burrata, crispy capers, and roasted pistachio crunch. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, or social media references.
+Agent baseline — paste into Suno **after** applying the three operator edits in **Operator full song (manual)** for a 2–3 minute generation.
 
-Mood: intimate, luxurious, citrus-bright, creamy, crunchy, food-porn glamorous but classy.
+```text
+Write original English song lyrics about a playful unicorn chef making lemon butter orecchiette with burrata and roasted pistachio crunch. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, or social media references.
 
-Lyric style: short singable lines, sensual imagery, catchy repetitions, whisper-to-belt dynamics, simple hooks. Keep the chorus reusable for a 45-90 second video edit.
+Mood: intimate, luxurious, citrus-bright, creamy, crunchy, food-video ASMR energy, seductive but clean.
+
+Lyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like "(lemon butter)" or "(orecchiette)". Keep the chorus reusable for a 45-90 second video edit.
 
 Story and imagery to weave in naturally:
 - lemon zest curl, amber brown butter foam, garlic gold whisper
@@ -38,7 +43,7 @@ Story and imagery to weave in naturally:
 - basil green fall, steam halo, fork twirl lift
 - final still bowl in the Licorn kitchen, satisfied glow
 
-Must include naturally: orecchiette, burrata, lemon butter, brown butter, pistachio crunch, caper crisp, golden cup, cream spill, Licorn kitchen.
+Must include naturally: orecchiette, burrata, lemon butter, brown butter, pistachio crunch, caper crisp, golden cup, cream spill, unicorn, Licorn kitchen.
 
 Structure:
 [Verse 1]
@@ -58,6 +63,7 @@ Softer breath: burrata tear, sauce thread, still hero bowl.
 
 [Final Chorus]
 Repeat chorus with richer harmony and final still bowl image.
+```
 
 ## Short Version To Extract Later
 
@@ -69,6 +75,9 @@ Before generating the **full 2–3 minute** master in Suno:
 
 1. **Style of Music:** append `2-3 minutes song.` at the end.
 2. **Auto Lyrics Prompt — three edits:**
-   - Opening: `Write original English song lyrics` → `Write original 2-3 minutes English song lyrics`
-   - Lyric style: after `Keep the chorus reusable for a 45-90 second video edit` add `, but make a 2-3 minutes song`
-   - Structure header: `Structure:` → `Extend this structure to fit a 2-3 minutes song:`
+
+| # | Find (agent baseline) | Replace with (operator paste) |
+| --- | --- | --- |
+| 1 | `Write original English song lyrics about` | `Write original 2-3 minutes English song lyrics about` |
+| 2 | `Keep the chorus reusable for a 45-90 second video edit.` | `Keep the chorus reusable for a 45-90 second video edit, but make a 2-3 minutes song.` |
+| 3 | `Structure:` | `Extend this structure to fit a 2-3 minutes song:` |

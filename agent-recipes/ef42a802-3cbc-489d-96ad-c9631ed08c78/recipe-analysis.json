@@ -1,0 +1,199 @@
+{
+  "recipe": {
+    "title": "Dubai Chewy Cookie (Du-Jjon-Ku)",
+    "sourceType": "url",
+    "sourceUrl": "https://iamafoodblog.com/dubai-chewy-cookie/",
+    "ingredients": [
+      {
+        "name": "butter",
+        "quantity": "1/4 cup divided",
+        "note": "Split: toast kataifi, then marshmallow shell."
+      },
+      {
+        "name": "kadayif (kataifi) chopped",
+        "quantity": "1 1/4 cups (~100 g)",
+        "note": "Crispy shredded pastry; toast until deep golden."
+      },
+      {
+        "name": "pistachio cream",
+        "quantity": "1/2 cup (~100 g)",
+        "note": "Sweet spreadable pistachio paste; vivid green."
+      },
+      {
+        "name": "tahini",
+        "quantity": "1 tbsp",
+        "note": "Sesame depth in filling; optional in some viral variants."
+      },
+      {
+        "name": "salt",
+        "quantity": "pinch",
+        "note": "Balances sweet filling."
+      },
+      {
+        "name": "marshmallows",
+        "quantity": "4 cups (~200 g / 7 oz)",
+        "note": "Jumbo preferred; slow melt for chewy shell."
+      },
+      {
+        "name": "cocoa powder",
+        "quantity": "2 tbsp plus extra for finish",
+        "note": "Chocolate marshmallow shell and matte dusting."
+      },
+      {
+        "name": "milk powder",
+        "quantity": "1 tbsp",
+        "note": "Optional but adds toasty milky note to shell."
+      },
+      {
+        "name": "neutral oil",
+        "quantity": "light film",
+        "note": "For gloves/board so warm marshmallow does not stick."
+      },
+      {
+        "name": "cupcake liners",
+        "quantity": "6",
+        "note": "Keeps cocoa-dusted cookies from sticking together."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Toast kataifi in butter",
+        "timing": "3-4 min",
+        "visualCue": "shredded strands turn deep amber in butter with audible crunch",
+        "block": "kataifi_crunch",
+        "textureCue": "soft threads to glassy brittle gold",
+        "runwayRisk": "under-toasted soggy strands or burned bitter edges"
+      },
+      {
+        "position": 2,
+        "text": "Cool and mix filling",
+        "timing": "2 min",
+        "visualCue": "golden kataifi folded into bright pistachio cream with tahini",
+        "block": "filling",
+        "textureCue": "emerald-flecked crunchy paste",
+        "runwayRisk": "filling reads as smooth ganache without kataifi shards"
+      },
+      {
+        "position": 3,
+        "text": "Scoop and freeze filling balls",
+        "timing": "15-30 min chill",
+        "visualCue": "domed green filling balls on parchment, firm and matte cold",
+        "block": "filling",
+        "textureCue": "3.5-4 cm domed scoops holding shape",
+        "runwayRisk": "balls collapse or scale drift oversized"
+      },
+      {
+        "position": 4,
+        "text": "Melt marshmallows with butter",
+        "timing": "2-3 min",
+        "visualCue": "marshmallows soften at low heat, glossy stretch begins",
+        "block": "marshmallow_shell",
+        "textureCue": "pale puff to molten ribbon",
+        "runwayRisk": "grainy seized marshmallow if overheated"
+      },
+      {
+        "position": 5,
+        "text": "Stir in cocoa and milk powder",
+        "timing": "1 min",
+        "visualCue": "cocoa cloud whisked into smooth chocolate marshmallow gloss",
+        "block": "marshmallow_shell",
+        "textureCue": "deep brown stretchy dough",
+        "runwayRisk": "dry cocoa lumps or split greasy mix"
+      },
+      {
+        "position": 6,
+        "text": "Pour and portion shell",
+        "timing": "1 min",
+        "visualCue": "glossy sheet on oiled board, knife marks six portions",
+        "block": "marshmallow_shell",
+        "textureCue": "warm tacky chocolate sheet with clean cuts",
+        "runwayRisk": "sheet sets too fast before shaping"
+      },
+      {
+        "position": 7,
+        "text": "Wrap filling in marshmallow",
+        "timing": "3-5 min",
+        "visualCue": "oiled gloved hands flatten disc, enclose green ball, roll smooth sphere",
+        "block": "assembly",
+        "textureCue": "chewy chocolate shell sealing pistachio core",
+        "runwayRisk": "hand-cloth fusion; filling leak if shell too thin"
+      },
+      {
+        "position": 8,
+        "text": "Dust with cocoa and rest",
+        "timing": "5-10 min set",
+        "visualCue": "matte cocoa skin on domed balls in cupcake liners",
+        "block": "finish",
+        "textureCue": "powdery cocoa contrast on glossy chew",
+        "runwayRisk": "clumpy wet cocoa if shell still hot"
+      },
+      {
+        "position": 9,
+        "text": "Serve or slice reveal",
+        "timing": null,
+        "visualCue": "halved cookie shows green pistachio-kataifi center against brown shell",
+        "block": "serve",
+        "textureCue": "soft chew shell vs crisp emerald interior",
+        "runwayRisk": "cross-section geometry wrong if scale not locked"
+      }
+    ],
+    "subRecipes": [
+      "kataifi_crunch",
+      "pistachio_filling",
+      "chocolate_marshmallow_shell",
+      "assembly",
+      "finish"
+    ],
+    "assumptions": [
+      "Primary yield: 6 cookies per iamafoodblog.com (secondary reference yields 10; production locks 6 for consistent scale).",
+      "Finished cookie diameter 3.5-4 cm domed sphere, height ~3.5 cm, one per cupcake liner on Licorn terrazzo.",
+      "Filling ball ~2.5-3 cm before wrap; visible green pistachio-kataifi core on cross-section.",
+      "No baking step; marshmallow shell set at room temperature after shaping.",
+      "Stovetop toasting and melting on Licorn induction with SaucepanLarge; shaping on terrazzo island."
+    ],
+    "timing": {
+      "prep": "10 minutes",
+      "cook": "10 minutes",
+      "total": "20 minutes"
+    },
+    "criticalTransformations": [
+      "Kataifi strands toast from pale hay to deep amber brittle in butter.",
+      "Pistachio cream binds toasted kataifi into a moldable crunchy filling.",
+      "Frozen domed filling balls hold geometry for wrapping.",
+      "Marshmallows melt into stretchy chocolate gloss with cocoa and milk powder.",
+      "Warm marshmallow disc wraps and seals around cold filling without leaking.",
+      "Cocoa dust sets a matte chocolate skin on chewy spheres.",
+      "Cross-section reveals crisp green pistachio-kataifi core inside brown shell."
+    ],
+    "visualTextureOpportunities": [
+      "Butter sizzle as kataifi strands hit the pan.",
+      "Audible crunch toss of golden kataifi pile.",
+      "Bright pistachio cream swirl through crunchy strands.",
+      "Cookie scoop doming vivid green filling.",
+      "Cocoa powder cloud dissolving into glossy marshmallow.",
+      "Stretch pull of warm chocolate marshmallow ribbon.",
+      "Oiled glove pinch sealing shell around filling.",
+      "Cocoa dust cloud settling on domed spheres.",
+      "Warm knife halving to expose emerald crunchy center.",
+      "Chewy shell peel slightly from crisp filling."
+    ],
+    "possibleHooks": [
+      "Extreme macro: kataifi strands turning glassy gold in foaming butter (texture-first).",
+      "Instant payoff: crunch toss immediately after golden toast.",
+      "Pistachio cream flood turning kataifi pile vivid green.",
+      "Glossy chocolate marshmallow stretch with cocoa swirl.",
+      "Cross-section reveal: brown chew vs green pistachio crunch."
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "asset-reference-system",
+      "contracts/artifact-schemas.md"
+    ]
+  },
+  "clarifyingQuestions": []
+}

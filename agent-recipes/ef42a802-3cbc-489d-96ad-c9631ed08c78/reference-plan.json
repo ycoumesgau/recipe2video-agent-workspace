@@ -1,0 +1,259 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural kitchen context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Library global kitchen wide layout.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "hero island terrazzo identity",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Library island default view.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead shaping and dusting surface",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Library island overhead.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "stovetop context for toast and melt",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Library induction wide.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "macro stovetop toast and melt",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Library induction closeup.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "pan for kataifi toast and marshmallow melt",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Library large saucepan.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SiliconeSpatula",
+      "role": "stir kataifi and marshmallow mix",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Library silicone spatula.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "fold filling",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Library spoon.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn identity",
+      "priority": 5,
+      "source": "existing_asset",
+      "prompt": "Library character sheet.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "shaping and satisfaction pose",
+      "priority": 5,
+      "source": "existing_asset",
+      "prompt": "Library pose reference.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "ToastedKataifiGoldenFrame",
+      "role": "deep golden crispy kataifi target after butter toast",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical 9:16 still of deep golden toasted kataifi strands in a heap on light terrazzo, glassy brittle 2-4 cm threads, palm-sized mound, food-porn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "SaucepanLarge",
+        "KitchenIslandOverhead"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "PistachioFillingBallFrame",
+      "role": "chilled green pistachio-kataifi filling dome geometry",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of a firm 2.5-3 cm domed pistachio-kataifi filling ball, vivid green with visible golden kataifi shards, matte cold surface on parchment over terrazzo, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "Spoon",
+        "KitchenIslandDefault"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "ChocolateMarshmallowGlossFrame",
+      "role": "stretchy chocolate marshmallow shell gloss target",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of glossy deep-brown chocolate marshmallow mixture stretching in ribbons from a pan on black induction, satin chew texture not grainy, Licorn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "SaucepanLarge",
+        "SiliconeSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CrossSectionDubaiCookieFrame",
+      "role": "halved cookie cross-section with green pistachio core",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of a halved Dubai chewy cookie: matte cocoa-brown marshmallow shell 4-5 mm thick around vivid green pistachio-kataifi center with golden crispy shards, clean cut face, terrazzo below, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "KitchenIslandDefault"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FinalDishVisual",
+      "role": "finished dish identity for hero and outro",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Six cocoa-dusted Dubai chewy cookies (3.5-4 cm domed spheres) in white cupcake liners on the Licorn terrazzo island, matte chocolate-brown shells intact and motionless, no hands, no bite marks.\n\nGenerate one vertical 9:16 hero still with food-porn macro lighting, shallow depth, accurate scale (each cookie about palm-knuckle sized), negatives: not oversized, not miniature, no character, no text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault"
+      ]
+    }
+  ]
+}

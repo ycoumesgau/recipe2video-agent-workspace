@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Dubai Chewy Cookie (Du-Jjon-Ku)",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Cocoa Dome Midnight",
+    "styleOfMusic": "Velvety K-pop-inspired R&B pop with muted trap hats, warm sub-bass, glassy synth pads, and intimate close-mic vocals; verses stay breathy and tactile, pre-chorus lifts with stacked harmonies, chorus blooms glossy and addictive with finger snaps. Subtle ASMR ear candy: butter sizzle, dry kataifi crunch, sticky marshmallow pull, cocoa powder puff. Clean sensual mix, midnight kitchen sheen, no aggressive drops., r&b, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising voice-over, no real artist imitation, no brand names, no recipe-tutorial lyrics, no ingredient counting, no software names, no Dubai city tourism clichés.",
+    "autoLyricsPrompt": "Write original English song lyrics about a playful unicorn chef making viral Dubai chewy cookies: toasted kataifi crunch, pistachio cream filling, and a chocolate marshmallow shell dusted in cocoa. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, or social media references.\n\nMood: intimate, luxurious, chewy, crunchy, pistachio-bright, cocoa-matte, food-video ASMR energy, seductive but clean.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(cocoa dome)\" or \"(green inside)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- kataifi threads turning gold in butter foam, brittle crunch toss\n- pistachio cream flood, emerald filling scoops, cold firm domes\n- marshmallow melt stretch, cocoa cloud whisk, glossy chocolate sheet\n- oiled glove wrap, pinch and roll, matte cocoa dust\n- warm knife reveal, green pistachio heart, chewy brown shell\n- six domed cookies on the Licorn island, satisfied glow\n\nMust include naturally: Dubai chewy cookie, kataifi crunch, pistachio cream, cocoa dome, marshmallow chew, green inside, unicorn, Licorn kitchen.\n\nStructure:\n[Verse 1]\nGold threads, butter dreams, midnight pan glow.\n\n[Pre-Chorus]\nGreen scoops wait; chocolate stretch begins.\n\n[Chorus]\nChantable hook around cocoa dome, pistachio heart, chewy love, crunch and pull.\n\n[Verse 2]\nCocoa dust, sealed sphere, crisp secret center.\n\n[Bridge]\nSofter breath: halved reveal, green gold inside, still hero tray.\n\n[Final Chorus]\nRepeat chorus with richer harmony and six cookies still on the counter.",
+    "shortVersionPlan": "Open on Verse 1 kataifi sizzle and crunch synced to segment-01, pre-chorus into pistachio scoop (segment-02) and marshmallow stretch (segment-03), chorus over wrap and cocoa dust (segments 04-05), tag the motionless six-cookie hero from segment-06 before the Licorn outro. Keep chorus hook under 15 seconds for TikTok/Reels."
+  },
+  "instructions": {
+    "voice": "Breathy intimate lead with warm doubles on chorus; playful not explicit.",
+    "structure": "Chorus must survive a 45-90s vertical cut over cross-section reveal and hero lock.",
+    "workflowNotes": "Suno is manual. Paste fields into Suno Custom Mode.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit.\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Title avoids protected brands and artists.",
+    "Style of Music has no 2-3 minutes suffix in agent baseline.",
+    "Auto Lyrics Prompt is English, uses baseline opener, and ends lyric style with the 45-90 second video edit clause.",
+    "instructions.fullSongOperatorEdits documents operator Suno edits.",
+    "Short version aligns with Seedance food-porn and hero beats.",
+    "No music requested in Seedance prompts."
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 1,
+      "title": "Kataifi butter toast hook",
+      "arc": "kataifi hook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05",
+        "scene-06"
+      ],
+      "description": "Texture-first kataifi toast in butter, crunch payoff, cool crisp pile.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for macro toast actions. Use @InductionWide if the shot widens to stovetop context. Use @SaucepanLarge and @SiliconeSpatula only as object shape references. Use @ToastedKataifiGoldenFrame only as the target deep-golden crispy kataifi topology after toast.\n\nKitchen continuity lock: light terrazzo countertop when visible; black flush induction plate; no invented wood surfaces.\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen.\n\nIntegrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts.\n\nMandatory timing:\n- 0.0-0.8s: kataifi strands hit foaming butter, sharp sizzle;\n- 0.8-1.7s: toss turns pile deep amber, audible brittle crunch;\n- 1.7-2.4s: single glassy golden thread backlit;\n- 2.4-3.2s: butter subsides on crisp golden mound;\n- 3.2-4.2s: induction context, one spatula stir;\n- 4.2-5.0s: cool crisp pile on parchment, steam stops.\n\nScale lock: kataifi threads 2-4 cm; toasted mound palm-sized in pan. Negative size: not oversized nest, not miniature dust.\n\nGlobal negatives: no ingredient lineup, no marshmallows yet, no character face, no text, no music, no voiceover.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for macro toast actions. Use @InductionWide if the shot widens to stovetop context. Use @SaucepanLarge and @SiliconeSpatula only as object shape references. Use @ToastedKataifiGoldenFrame only as the target deep-golden crispy kataifi topology after toast.\n\nKitchen continuity lock: light terrazzo countertop when visible; black flush induction plate; no invented wood surfaces.\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen.\n\nIntegrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts.\n\nMandatory timing:\n- 0.0-0.8s: kataifi strands hit foaming butter, sharp sizzle;\n- 0.8-1.7s: toss turns pile deep amber, audible brittle crunch;\n- 1.7-2.4s: single glassy golden thread backlit;\n- 2.4-3.2s: butter subsides on crisp golden mound;\n- 3.2-4.2s: induction context, one spatula stir;\n- 4.2-5.0s: cool crisp pile on parchment, steam stops.\n\nScale lock: kataifi threads 2-4 cm; toasted mound palm-sized in pan. Negative size: not oversized nest, not miniature dust.\n\nGlobal negatives: no ingredient lineup, no marshmallows yet, no character face, no text, no music, no voiceover.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "macro induction toast view",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "stovetop context",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "saucepan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spatula stir shape",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "toasted kataifi target state",
+          "name": "ToastedKataifiGoldenFrame",
+          "label": "ToastedKataifiGoldenFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "butter sizzle",
+        "crunch toss",
+        "golden thread",
+        "cool crisp pile"
+      ],
+      "timing": [
+        "0.0-0.8s: kataifi sizzle",
+        "0.8-1.7s: crunch toss",
+        "4.2-5.0s: cool pile"
+      ],
+      "continuity": "Opening texture-first; scene 2 pays off scene 1 sizzle with crunch.",
+      "risk": "Under-toasted soggy kataifi or burned bitter edges if toast color drifts.",
+      "audioPrompt": "butter sizzle; dry crunch rattle; spatula scrape",
+      "negatives": [
+        "no ingredient lineup",
+        "no text",
+        "no music",
+        "no voiceover"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 2,
+      "title": "Pistachio filling mix and scoop",
+      "arc": "filling",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12"
+      ],
+      "description": "Pistachio cream binds kataifi, scoop domes, chill firms balls.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for mixing and scooping. Use @KitchenIslandDefault for kitchen identity if framing widens. Use @Spoon only as spoon shape. Use @PistachioFillingBallFrame only as the target firm green filling dome geometry (2.5-3 cm).\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.9s: pistachio cream swirls through kataifi, vivid green;\n- 0.9-1.6s: tahini ribbon gloss;\n- 1.6-2.2s: salt sparkle;\n- 2.2-3.1s: spoon folds until strands coated;\n- 3.1-4.1s: scoop domes 2.5-3 cm balls;\n- 4.1-5.0s: chilled tray, firm matte domes.\n\nScale lock: filling balls 2.5-3 cm domed; not oversized golf balls, not miniature peas.\n\nGlobal negatives: no smooth ganache filling, no character, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for mixing and scooping. Use @KitchenIslandDefault for kitchen identity if framing widens. Use @Spoon only as spoon shape. Use @PistachioFillingBallFrame only as the target firm green filling dome geometry (2.5-3 cm).\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.9s: pistachio cream swirls through kataifi, vivid green;\n- 0.9-1.6s: tahini ribbon gloss;\n- 1.6-2.2s: salt sparkle;\n- 2.2-3.1s: spoon folds until strands coated;\n- 3.1-4.1s: scoop domes 2.5-3 cm balls;\n- 4.1-5.0s: chilled tray, firm matte domes.\n\nScale lock: filling balls 2.5-3 cm domed; not oversized golf balls, not miniature peas.\n\nGlobal negatives: no smooth ganache filling, no character, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead mix surface",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "filling ball geometry lock",
+          "name": "PistachioFillingBallFrame",
+          "label": "PistachioFillingBallFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "green swirl",
+        "tahini gloss",
+        "scoop dome",
+        "chill firm"
+      ],
+      "timing": [
+        "0.0-0.9s: green swirl",
+        "3.1-4.1s: scoop dome",
+        "4.1-5.0s: chill firm"
+      ],
+      "continuity": "Filling must read crunchy with kataifi shards, not smooth paste.",
+      "risk": "Scale drift on filling balls; model may omit visible kataifi shards.",
+      "audioPrompt": "thick paste squish; scoop thump; tray slide",
+      "negatives": [
+        "no smooth ganache",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 3,
+      "title": "Chocolate marshmallow shell",
+      "arc": "marshmallow shell",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-13",
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18"
+      ],
+      "description": "Marshmallow melt, cocoa whisk, pour sheet, score six portions.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for melt and whisk macros. Use @InductionWide for wider melt context. Use @KitchenIslandOverhead for pour and score on board. Use @SaucepanLarge, @SiliconeSpatula only as object shapes. Use @ChocolateMarshmallowGlossFrame only as the glossy deep-brown stretchy marshmallow target.\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.9s: marshmallows soften in butter;\n- 0.9-1.7s: stretch ribbon forms;\n- 1.7-2.6s: cocoa cloud whisked to brown gloss;\n- 2.6-3.4s: milk powder satin gloss;\n- 3.4-4.2s: pour glossy sheet on oiled board;\n- 4.2-5.0s: knife scores six portions with elastic pull.\n\nScale lock: sheet ~20 cm wide, six portions equal. Negatives: not grainy seized marshmallow, not pale unmixed cocoa.\n\nGlobal negatives: no cookies yet, no wrapping, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionCloseup for melt and whisk macros. Use @InductionWide for wider melt context. Use @KitchenIslandOverhead for pour and score on board. Use @SaucepanLarge, @SiliconeSpatula only as object shapes. Use @ChocolateMarshmallowGlossFrame only as the glossy deep-brown stretchy marshmallow target.\n\nGenerate exactly 6 short shots with hard cuts, total duration 5 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.9s: marshmallows soften in butter;\n- 0.9-1.7s: stretch ribbon forms;\n- 1.7-2.6s: cocoa cloud whisked to brown gloss;\n- 2.6-3.4s: milk powder satin gloss;\n- 3.4-4.2s: pour glossy sheet on oiled board;\n- 4.2-5.0s: knife scores six portions with elastic pull.\n\nScale lock: sheet ~20 cm wide, six portions equal. Negatives: not grainy seized marshmallow, not pale unmixed cocoa.\n\nGlobal negatives: no cookies yet, no wrapping, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "macro melt view",
+          "name": "InductionCloseup",
+          "label": "InductionCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "stovetop context",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead board pour",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "saucepan shape",
+          "name": "SaucepanLarge",
+          "label": "SaucepanLarge",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spatula shape",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "chocolate marshmallow gloss target",
+          "name": "ChocolateMarshmallowGlossFrame",
+          "label": "ChocolateMarshmallowGlossFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "marshmallow melt",
+        "cocoa whisk",
+        "sheet pour",
+        "six score"
+      ],
+      "timing": [
+        "0.0-0.9s: marshmallow melt",
+        "1.7-2.6s: cocoa whisk",
+        "4.2-5.0s: six score"
+      ],
+      "continuity": "Chewy shell must stay glossy brown stretch, not baked cookie dough.",
+      "risk": "Grainy seized marshmallow if heat reads too high.",
+      "audioPrompt": "soft marshmallow sigh; whisk swish; sticky knife drag",
+      "negatives": [
+        "no grainy seize",
+        "no baked cookie",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 4,
+      "title": "Wrap and roll spheres",
+      "arc": "assembly",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-19",
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24"
+      ],
+      "description": "Oiled glove flatten, center filling, pinch wrap, roll six spheres.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as active island shaping view. Use @CharacterSheet and @PoseThreeQuarterRight for gloved hand identity only. Use @PistachioFillingBallFrame for filling size. Use @ChocolateMarshmallowGlossFrame for warm shell tack.\n\nHot handling: oiled gloves only, no cloth fused with fingers.\n\nGenerate exactly 6 short shots with hard cuts, total duration 7 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: flatten portion to ~8 cm disc;\n- 1.2-2.3s: center chilled green filling ball;\n- 2.3-3.5s: pinch marshmallow up around filling;\n- 3.5-4.8s: roll smooth sealed sphere;\n- 4.8-5.9s: six spheres lined on board;\n- 5.9-7.0s: first cocoa dust cloud on one dome.\n\nScale lock: finished sphere 3.5-4 cm; filling 2.5-3 cm; six count. Negatives: not oversized tennis balls, not miniature marbles, no filling leak.\n\nGlobal negatives: no cloth in hand, no character face close-up, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as active island shaping view. Use @CharacterSheet and @PoseThreeQuarterRight for gloved hand identity only. Use @PistachioFillingBallFrame for filling size. Use @ChocolateMarshmallowGlossFrame for warm shell tack.\n\nHot handling: oiled gloves only, no cloth fused with fingers.\n\nGenerate exactly 6 short shots with hard cuts, total duration 7 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: flatten portion to ~8 cm disc;\n- 1.2-2.3s: center chilled green filling ball;\n- 2.3-3.5s: pinch marshmallow up around filling;\n- 3.5-4.8s: roll smooth sealed sphere;\n- 4.8-5.9s: six spheres lined on board;\n- 5.9-7.0s: first cocoa dust cloud on one dome.\n\nScale lock: finished sphere 3.5-4 cm; filling 2.5-3 cm; six count. Negatives: not oversized tennis balls, not miniature marbles, no filling leak.\n\nGlobal negatives: no cloth in hand, no character face close-up, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active island shaping view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "gloved shaping pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "filling geometry",
+          "name": "PistachioFillingBallFrame",
+          "label": "PistachioFillingBallFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "warm shell gloss",
+          "name": "ChocolateMarshmallowGlossFrame",
+          "label": "ChocolateMarshmallowGlossFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "flatten disc",
+        "center filling",
+        "pinch wrap",
+        "roll sphere",
+        "line six",
+        "cocoa dust"
+      ],
+      "timing": [
+        "0.0-1.2s: flatten disc",
+        "2.3-3.5s: pinch wrap",
+        "3.5-4.8s: roll sphere",
+        "5.9-7.0s: cocoa dust"
+      ],
+      "continuity": "Six wrapped spheres; scale carries to finish segments.",
+      "risk": "Hand-cloth fusion risk; filling leak if shell too thin.",
+      "audioPrompt": "sticky pinch; soft roll; powder puff",
+      "negatives": [
+        "no cloth in hand",
+        "no filling leak",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 5,
+      "title": "Cocoa dust and cross-section reveal",
+      "arc": "food porn reveal",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-25",
+        "scene-26",
+        "scene-27",
+        "scene-28"
+      ],
+      "description": "Matte cocoa finish, warm knife halve, stretch peel, macro cut face.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for dust and slice macros. Use @CrossSectionDubaiCookieFrame only as the halved cookie topology: matte cocoa shell around vivid green pistachio-kataifi core with golden shards.\n\nDestructive slice allowed here; do not damage cookies in segment-06.\n\nGenerate exactly 4 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.4s: heavy cocoa dust, matte skin;\n- 1.4-2.8s: warm knife halves cookie, clean cut;\n- 2.8-4.2s: half lifted, shell stretches from green core;\n- 4.2-6.0s: macro cut face, kataifi shards visible.\n\nScale lock: halved cookie diameter 3.5-4 cm; shell 4-5 mm. Negatives: not hollow, not solid green ball without shards.\n\nGlobal negatives: no bite from whole hero cookies, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for dust and slice macros. Use @CrossSectionDubaiCookieFrame only as the halved cookie topology: matte cocoa shell around vivid green pistachio-kataifi core with golden shards.\n\nDestructive slice allowed here; do not damage cookies in segment-06.\n\nGenerate exactly 4 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.4s: heavy cocoa dust, matte skin;\n- 1.4-2.8s: warm knife halves cookie, clean cut;\n- 2.8-4.2s: half lifted, shell stretches from green core;\n- 4.2-6.0s: macro cut face, kataifi shards visible.\n\nScale lock: halved cookie diameter 3.5-4 cm; shell 4-5 mm. Negatives: not hollow, not solid green ball without shards.\n\nGlobal negatives: no bite from whole hero cookies, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead dust and slice",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "cross-section topology",
+          "name": "CrossSectionDubaiCookieFrame",
+          "label": "CrossSectionDubaiCookieFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "cocoa matte",
+        "knife halve",
+        "stretch peel",
+        "crisp core macro"
+      ],
+      "timing": [
+        "0.0-1.4s: cocoa matte",
+        "1.4-2.8s: knife halve",
+        "4.2-6.0s: core macro"
+      ],
+      "continuity": "Food-porn destructive beat; remaining hero cookies stay intact in next segment.",
+      "risk": "Cross-section may lose kataifi shard detail without reference frame.",
+      "audioPrompt": "powder whisper; clean slice; crisp shard crackle",
+      "negatives": [
+        "no hero plate bite",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 6,
+      "title": "Hero lock intact cookies",
+      "arc": "hero lock",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
+      "description": "Liners, hero platter, motionless cookies, character satisfaction, FinalDishVisual lock.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero island view. Use @CharacterSheet and @PoseThreeQuarterRight for satisfied character at frame edge. Use @FinalDishVisual only as the finished dish identity: six intact cocoa-dusted domed cookies in white cupcake liners on terrazzo, motionless.\n\nNo slice, bite, spoon dive, or garnish drop on intact cookies.\n\nGenerate exactly 8 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.8s: cookies placed in cupcake liners;\n- 0.8-1.6s: close intact cocoa dome;\n- 1.6-2.6s: hero platter six cookies on terrazzo;\n- 2.6-3.4s: single hero cookie 3.5-4 cm motionless macro;\n- 3.4-4.2s: wide island context, no hands;\n- 4.2-5.0s: side light on set chewy skin;\n- 5.0-5.6s: character pleased at edge, cookies untouched;\n- 5.6-6.0s: hold matches FinalDishVisual exactly.\n\nScale lock: 3.5-4 cm domed spheres, six count in liners. Negatives: not oversized, not miniature, no broken shells.\n\nGlobal negatives: no slice on hero cookies, no character touching cookies, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero island view. Use @CharacterSheet and @PoseThreeQuarterRight for satisfied character at frame edge. Use @FinalDishVisual only as the finished dish identity: six intact cocoa-dusted domed cookies in white cupcake liners on terrazzo, motionless.\n\nNo slice, bite, spoon dive, or garnish drop on intact cookies.\n\nGenerate exactly 8 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.8s: cookies placed in cupcake liners;\n- 0.8-1.6s: close intact cocoa dome;\n- 1.6-2.6s: hero platter six cookies on terrazzo;\n- 2.6-3.4s: single hero cookie 3.5-4 cm motionless macro;\n- 3.4-4.2s: wide island context, no hands;\n- 4.2-5.0s: side light on set chewy skin;\n- 5.0-5.6s: character pleased at edge, cookies untouched;\n- 5.6-6.0s: hold matches FinalDishVisual exactly.\n\nScale lock: 3.5-4 cm domed spheres, six count in liners. Negatives: not oversized, not miniature, no broken shells.\n\nGlobal negatives: no slice on hero cookies, no character touching cookies, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "satisfaction pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "liners",
+        "hero platter",
+        "motionless lock",
+        "character satisfied"
+      ],
+      "timing": [
+        "1.6-2.6s: hero platter",
+        "2.6-3.4s: single macro",
+        "5.6-6.0s: FinalDishVisual hold"
+      ],
+      "continuity": "N-1 segment: dish intact and motionless for outro handoff.",
+      "risk": "Model may add bite or slice if negatives omitted.",
+      "audioPrompt": "paper crinkle; room tone; soft sigh",
+      "negatives": [
+        "no slice on hero",
+        "no touch",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-outro",
+      "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+      "position": 7,
+      "title": "Licorn celebration outro",
+      "arc": "licorn_celebration_outro",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-outro"
+      ],
+      "description": "Standardized Licorn celebration outro; Recipe2Video injects prompt, timing, beats, and negatives at sync.",
+      "prompt": "<APP_OVERRIDE>",
+      "promptInitial": "<APP_OVERRIDE>",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn celebration motion reference",
+          "name": "LicornOutroVideo",
+          "label": "LicornOutroVideo",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity lock",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [],
+      "timing": [],
+      "continuity": "FinalDishVisual matches segment-06 motionless hero lock.",
+      "risk": "",
+      "audioPrompt": "",
+      "negatives": [],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

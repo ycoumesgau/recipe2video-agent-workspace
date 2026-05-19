@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Lemon Butter Orecchiette with Burrata",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Golden Cup Sundown",
+    "styleOfMusic": "Slow-burn R&B pop with velvety electric piano, muted disco bass, brushed trap hats, and intimate close-mic vocals; verses stay breathy and tactile, pre-chorus adds stacked harmonies and a glassy synth lift, chorus blooms warm and glossy with finger snaps and a honey-sweet hook. Subtle ASMR ear candy: butter sizzle, soft crunch, cream sigh, lemon zest sparkle. Clean sensual mix, wide midnight sheen, no aggressive drops., r&b, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising voice-over, no real artist imitation, no brand names, no recipe-tutorial lyrics, no ingredient counting, no software names.",
+    "autoLyricsPrompt": "Write original English song lyrics about a seductive Licorn kitchen moment making glossy lemon butter orecchiette with burrata, crispy capers, and roasted pistachio crunch. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, or social media references.\n\nMood: intimate, luxurious, citrus-bright, creamy, crunchy, food-porn glamorous but classy.\n\nLyric style: short singable lines, sensual imagery, catchy repetitions, whisper-to-belt dynamics, simple hooks. Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- lemon zest curl, amber brown butter foam, garlic gold whisper\n- orecchiette cups catching shiny sauce pools\n- burrata tear, cream river, white meets gold\n- caper crumb rain, pistachio emerald crunch\n- basil green fall, steam halo, fork twirl lift\n- final still bowl in the Licorn kitchen, satisfied glow\n\nMust include naturally: orecchiette, burrata, lemon butter, brown butter, pistachio crunch, caper crisp, golden cup, cream spill, Licorn kitchen.\n\nStructure:\n[Verse 1]\nZest falls, butter dreams, midnight pan glow.\n\n[Pre-Chorus]\nCups fill with shine; anticipation builds.\n\n[Chorus]\nChantable hook around golden cups, burrata cream, pistachio rain, lemon butter love.\n\n[Verse 2]\nCaper crisp, pistachio snap, basil drift.\n\n[Bridge]\nSofter breath: burrata tear, sauce thread, still hero bowl.\n\n[Final Chorus]\nRepeat chorus with richer harmony and final still bowl image.",
+    "shortVersionPlan": "Open on Verse 1 zest and butter images synced to segment-01, pre-chorus into pistachio and caper textures (segments 02-03), chorus over toss and burrata tear (segments 05-06), tag the motionless hero frame from segment-07 for the vertical outro handoff. Keep chorus hook under 15 seconds for TikTok/Reels."
+  },
+  "instructions": {
+    "voice": "Breathy intimate lead with warm doubles on chorus; sensual not explicit.",
+    "structure": "Chorus must survive a 45-90s vertical cut over burrata tear and fork twirl.",
+    "workflowNotes": "Suno is manual. Paste fields into Suno Custom Mode.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Title avoids protected brands and artists.",
+    "Style of Music has no 2-3 minutes suffix in agent baseline.",
+    "Auto Lyrics Prompt is English and non-tutorial.",
+    "Short version aligns with Seedance food-porn beats.",
+    "No music requested in Seedance prompts."
+  ]
+}

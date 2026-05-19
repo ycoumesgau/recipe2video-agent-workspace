@@ -1,0 +1,211 @@
+{
+  "recipe": {
+    "title": "Lemon Butter Orecchiette with Burrata",
+    "sourceType": "url",
+    "sourceUrl": "https://www.delscookingtwist.com/lemon-butter-pasta-with-burrata-cheese/",
+    "ingredients": [
+      {
+        "name": "orecchiette pasta",
+        "quantity": "1 lb (454 g)",
+        "note": "Creator override: cup-shaped orecchiette instead of spaghetti for glossy sauce pockets."
+      },
+      {
+        "name": "salted or unsalted butter",
+        "quantity": "6 tbsp (85 g) diced",
+        "note": "Split across brown butter sauce and caper crumb topping."
+      },
+      {
+        "name": "lemon zest",
+        "quantity": "zest of 2 lemons",
+        "note": "Primary aroma driver; micro-planed curls for ASMR hook."
+      },
+      {
+        "name": "lemon juice",
+        "quantity": "1 lemon",
+        "note": "Added off heat after garlic; sharp steam hiss on contact."
+      },
+      {
+        "name": "garlic",
+        "quantity": "3-4 cloves minced",
+        "note": "Brief fragrant sizzle; avoid burn."
+      },
+      {
+        "name": "salt and black pepper",
+        "quantity": "to taste",
+        "note": "Final crack and seasoning."
+      },
+      {
+        "name": "extra virgin olive oil",
+        "quantity": "1 tbsp",
+        "note": "For caper crumb skillet."
+      },
+      {
+        "name": "unsalted butter (topping)",
+        "quantity": "1 tbsp (15 g)",
+        "note": "Combined with oil for crispy caper crumb."
+      },
+      {
+        "name": "breadcrumbs (panko)",
+        "quantity": "1 cup (110 g)",
+        "note": "Toasts to golden crisp in caper crumb."
+      },
+      {
+        "name": "capers",
+        "quantity": "2 tbsp drained",
+        "note": "Fry until crisp in crumb mixture."
+      },
+      {
+        "name": "crushed red pepper flakes",
+        "quantity": "1/2 tsp optional",
+        "note": "Warm red specks in golden crumb."
+      },
+      {
+        "name": "grated parmesan",
+        "quantity": "2 tbsp plus more to serve",
+        "note": "Melts into caper crumb; extra for finish."
+      },
+      {
+        "name": "dry thyme or herbes de Provence",
+        "quantity": "2 tbsp",
+        "note": "Fragrant herb flecks in crumb."
+      },
+      {
+        "name": "fresh basil",
+        "quantity": "1 cup (120 ml) chopped",
+        "note": "Bright green chiffonade at serve."
+      },
+      {
+        "name": "burrata cheese",
+        "quantity": "1-2 balls",
+        "note": "Each ball about 8-10 cm; tear to reveal creamy stracciatella interior."
+      },
+      {
+        "name": "raw pistachios",
+        "quantity": "1/3 cup (45 g)",
+        "note": "Creator add-on: dry-toasted then roughly chopped for crunch topping."
+      },
+      {
+        "name": "pasta cooking water",
+        "quantity": "1/2 cup (120 ml) reserved",
+        "note": "Starchy water to emulsify lemon butter with orecchiette."
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Toast pistachios",
+        "timing": "4-5 min",
+        "visualCue": "pistachios turn deeper green-gold with oily sheen in dry skillet",
+        "block": "pistachio_topping",
+        "textureCue": "dry nut crackle shifting to warm roasted snap",
+        "runwayRisk": "burned bitter nuts if heat too high"
+      },
+      {
+        "position": 2,
+        "text": "Chop roasted pistachios",
+        "timing": "1 min",
+        "visualCue": "rough emerald crumb pile on board",
+        "block": "pistachio_topping",
+        "textureCue": "coarse crunchy fragments",
+        "runwayRisk": "dust cloud instead of visible pieces"
+      },
+      {
+        "position": 3,
+        "text": "Boil orecchiette",
+        "timing": "per package",
+        "visualCue": "rolling boil, pasta cups opening, al dente drain with steam",
+        "block": "pasta",
+        "textureCue": "matte to satin firm cups",
+        "runwayRisk": "wrong pasta shape or mushy collapse"
+      },
+      {
+        "position": 4,
+        "text": "Crisp caper breadcrumb topping",
+        "timing": "4-5 min",
+        "visualCue": "golden panko, fried capers, parmesan melt",
+        "block": "caper_crumb",
+        "textureCue": "audible crunch when scooped",
+        "runwayRisk": "soggy crumb or giant caper blobs"
+      },
+      {
+        "position": 5,
+        "text": "Brown butter lemon sauce",
+        "timing": "3-4 min",
+        "visualCue": "foaming amber butter, garlic fragrance, lemon juice hiss",
+        "block": "sauce",
+        "textureCue": "glossy emulsion with zest flecks",
+        "runwayRisk": "split greasy sauce or burned garlic"
+      },
+      {
+        "position": 6,
+        "text": "Toss pasta in sauce",
+        "timing": "2 min",
+        "visualCue": "orecchiette cups catch glossy lemon butter",
+        "block": "assembly",
+        "textureCue": "each cup holds shiny sauce pool",
+        "runwayRisk": "clumpy pasta pile without cup definition"
+      },
+      {
+        "position": 7,
+        "text": "Plate and garnish",
+        "timing": "2 min",
+        "visualCue": "burrata tear, caper crumb shower, pistachio scatter, basil fall",
+        "block": "assembly",
+        "textureCue": "cream meets crunch meets citrus gloss",
+        "runwayRisk": "burrata scale drift or flooded plate"
+      }
+    ],
+    "subRecipes": [
+      "pistachio_topping",
+      "caper_crumb",
+      "pasta",
+      "sauce",
+      "assembly"
+    ],
+    "assumptions": [
+      "Pasta is served in one wide shallow ceramic bowl about 24-26 cm diameter on the Licorn terrazzo island, not a deep restaurant pasta plate.",
+      "One burrata ball (8-10 cm) per hero serving; video focuses on a single seductive portion with optional second ball off-frame.",
+      "Orecchiette quantity fills the bowl about two-thirds deep after toss for visible cup geometry.",
+      "Food-porn tone: glossy sauce, creamy burrata spill, audible crunch layers; no tutorial ingredient lineup opening."
+    ],
+    "timing": {
+      "prep": "45 mins",
+      "cook": "15 mins",
+      "total": "1 hour"
+    },
+    "criticalTransformations": [
+      "Butter browning from pale yellow foam to nutty amber with milk solids specks",
+      "Garlic fragrance bloom without char blackening",
+      "Lemon juice emulsifying into hot brown butter with sharp steam release",
+      "Panko and capers frying to golden crisp crumb with parmesan melt",
+      "Dry pistachios roasting to deeper green-gold with oily nut sheen",
+      "Orecchiette al dente cups opening then coating in glossy lemon butter emulsion",
+      "Burrata skin tear releasing creamy stracciatella over hot pasta"
+    ],
+    "visualTextureOpportunities": [
+      "Micro-planed lemon zest curling off bright yellow peel",
+      "Brown butter foam bubbles popping with amber specks",
+      "Roasted pistachio rough chop with emerald and gold fragments",
+      "Caper crumb scoop raining golden crunch",
+      "Orecchiette cups pooling glossy lemon butter",
+      "Burrata tear with slow creamy spill over steamy pasta",
+      "Basil chiffonade landing on white burrata and yellow pasta",
+      "Fork twirl lifting sauced orecchiette with sauce thread"
+    ],
+    "possibleHooks": [
+      "Lemon zest ribbon curling into foaming brown butter (texture-first, paid off by sauce segment)",
+      "Burrata tear with creamy interior spilling onto glossy orecchiette",
+      "Golden caper crumb shower with audible crunch ASMR",
+      "Roasted pistachio scatter contrasting soft burrata cream"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "tiktok-food-direction",
+      "food-physics-reference",
+      "suno-music"
+    ]
+  },
+  "clarifyingQuestions": []
+}

@@ -1,0 +1,260 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural Licorn kitchen context for all segments",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Preserve cabinet layout, terrazzo material, and lighting only; not a mandatory wide camera.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "hero plating and final dish context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Light terrazzo island for bowl hero and outro.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-06",
+        "segment-07",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead chop, drain, and garnish views",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Overhead terrazzo for pistachio chop and crumb showers.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionWide",
+      "role": "induction cooking context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Flush black induction plate continuity.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "InductionCloseup",
+      "role": "macro butter and sauce shots",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Close induction surface for brown butter macro.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SaucepanLarge",
+      "role": "pot and skillet silhouette",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Pan geometry for boil and sauce.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SiliconeSpatula",
+      "role": "pasta fold and crumb stir",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Flexible spatula for toss and crumb.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "RoastedPistachioCrumbFrame",
+      "role": "roasted green-gold pistachio coarse crumb scale",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical 9:16 still of coarse roasted pistachio fragments 3-6 mm on light terrazzo, green-gold oily sheen, palm-sized mound, food-porn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "SaucepanLarge"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CrispyCaperCrumbFrame",
+      "role": "golden panko caper parmesan crumb texture",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of golden crispy breadcrumb clumps with small frizzled capers and thyme flecks in a shallow dish on terrazzo, crunchy sandy texture, Licorn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "SiliconeSpatula",
+        "KitchenIslandDefault"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "OrecchietteAlDenteFrame",
+      "role": "orecchiette cup topology al dente",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of al dente orecchiette pasta cups 2-2.5 cm wide, satin firm, concave shape catching light, steam wisps, on terrazzo near pot, not spaghetti, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionWide",
+        "SaucepanLarge",
+        "KitchenIslandOverhead"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "LemonButterSauceFrame",
+      "role": "glossy lemon brown butter emulsion in pan",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of glossy yellow lemon brown butter sauce with zest flecks in a pan on black induction, milky-glossy emulsion not split grease, Licorn lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionCloseup",
+        "SaucepanLarge",
+        "Whisk"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "GlossyOrecchietteTossFrame",
+      "role": "sauced orecchiette cups in pan",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of orecchiette cups coated in glossy lemon butter sauce in skillet, each cup holds shiny pool, steam, seductive food-porn macro, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "InductionWide",
+        "SiliconeSpatula",
+        "SaucepanLarge"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "BurrataTearFrame",
+      "role": "burrata tear with creamy stracciatella spill",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of 8-10 cm burrata ball torn open with creamy white stracciatella spilling over glossy lemon pasta in a 24-26 cm shallow bowl on terrazzo, seductive food-porn lighting, no character hands.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "Spoon"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FinalDishVisual",
+      "role": "finished dish identity for hero and outro",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical hero still of finished lemon butter orecchiette in a 24-26 cm shallow white bowl on light terrazzo: glossy cup pasta, intact burrata dome 8-10 cm, caper crumb, pistachio pieces, basil chiffonade, motionless food-porn composition, Licorn kitchen lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07",
+        "segment-outro"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "Spoon"
+      ]
+    }
+  ]
+}

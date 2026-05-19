@@ -173,6 +173,7 @@ standardized Licorn celebration outro. It MUST satisfy:
 - `arc: "licorn_celebration_outro"`;
 - `durationTarget: 5` (Seedance 2 minimum, hard requirement);
 - `mode: "References"`;
+- `logicalSceneIds`: at least one placeholder id (e.g. `["scene-outro"]`). No matching row in `logical-scenes.json` is required, but an empty array fails sync validation;
 - `prompt: "<APP_OVERRIDE>"` and `promptInitial: "<APP_OVERRIDE>"` — Recipe2Video rewrites both at sync time with the canonical outro template; any other value is rejected;
 - references in this exact order:
   1. `KitchenLayoutContextWide` (kind: image)
@@ -196,18 +197,8 @@ food-porn beats belong in segments 1..N-2.
 
 Full rules: `.cursor/rules/seedance-outro.mdc`.
 
-## `suno-prompt.json`
-
-Strict JSON. Required: `schemaVersion` (must be `1`), `status`, `fields`, `instructions`, `qualityChecks`.
-
-- **`fields.autoLyricsPrompt`**: agent **baseline** only — opening `Write original English song lyrics`, no `2-3 minutes` duration in the opener, lyric style ends with `Keep the chorus reusable for a 45-90 second video edit.` (no `but make a 2-3 minutes song`), scaffold header `Structure:`.
-- **`fields.styleOfMusic`**: genre / production / mix only — **no** `2-3 minutes song.` suffix in committed artifacts.
-- **`instructions.fullSongOperatorEdits`**: required object documenting what the operator adds in Suno before full generation (three lyrics replacements + `styleOfMusicSuffix: "2-3 minutes song."`).
-
-Full Suno policy, worked example, and operator table: **`contracts/suno-music.md`**.
-
 ## Markdown Artifacts
 
 - `decisions.md`: user decisions, assumptions, and accepted trade-offs.
-- `suno-prompt.md`: copy-ready Suno fields (five parsed sections) plus operator context (`Status`, `Intent`, **Operator full song (manual)**).
+- `suno-prompt.md`: copy-ready Suno fields.
 - `changelog.md`: concise record of artifact changes and why.

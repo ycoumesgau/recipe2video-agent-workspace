@@ -14,7 +14,9 @@ Use whenever a scene, segment, or reference plan mentions kitchen, character, po
 - A canonical asset name is the file name without extension.
 - Global references cover kitchen, character, poses, expressions, and common utensils.
 - Recipe-specific references cover food states Seedance may misread.
+- The Licorn mascot is a **flat 2D illustrated character** (library PNG poses + sheet), not a 3D model. References are always 2D stills; Seedance must not reinterpret the mascot as CGI, clay, or realistic 3D.
 - Do not re-describe the Licorn character from scratch. Refer to character references and specify only pose, expression, action, and visible hands.
+- When the character is visible in a segment, add a character style lock and 2D negatives (see `reference-detail/character-2d-guardrails.md`).
 - For every reference in a Seedance prompt, state exactly what role it plays.
 - For every segment, include a kitchen continuity pair:
   - one structural context reference (`@KitchenLayoutContextWide`);
@@ -40,15 +42,12 @@ Kitchen:
 - `@OvenWide` from `assets/kitchen/oven_opened_wide.png`
 - `@OvenCloseup` from `assets/kitchen/oven_opened_closeup.png`
 
-Character:
+Character (all **2D** library stills / motion ref — never treat as a 3D rig):
 
-- `@CharacterSheet`
-- `@CharacterExpressions`
-- `@PoseFront`
-- `@PoseTopDown`
-- `@PoseThreeQuarterLeft`
-- `@PoseThreeQuarterRight`
-- `@LicornOutroVideo` (kind: video) from `assets/character/outro/LicornOutroVideo.mp4`. Canonical 3s motion reference for the standardized celebration outro segment. Pass it as a Seedance video reference (`referenceVideos[]`), not an image. Use it ONLY on the last segment (`arc: licorn_celebration_outro`) alongside `@CharacterSheet` for identity lock.
+- `@CharacterSheet` — 2D illustrated identity lock (`assets/character/Character-sheet.png`)
+- `@CharacterExpressions` — 2D expression sheet
+- `@PoseFront`, `@PoseTopDown`, `@PoseThreeQuarterLeft`, `@PoseThreeQuarterRight` — pre-drawn **2D views** (illustration angles, not 3D camera orbit)
+- `@LicornOutroVideo` (kind: video) from `assets/character/outro/LicornOutroVideo.mp4`. Canonical 3s **2D** celebration motion reference. Pass it as a Seedance video reference (`referenceVideos[]`), not an image. Use it ONLY on the last segment (`arc: licorn_celebration_outro`) alongside `@CharacterSheet` for 2D identity lock.
 
 Utensils:
 
@@ -111,5 +110,6 @@ Example:
 
 ## References
 
+- `reference-detail/character-2d-guardrails.md`
 - `reference-detail/kitchen-continuity-guardrails.md`
 - `reference-detail/utensil-task-mapping.md`

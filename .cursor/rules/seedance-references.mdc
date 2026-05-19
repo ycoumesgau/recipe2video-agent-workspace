@@ -26,6 +26,14 @@ alwaysApply: true
 - Use task-correct utensils when available in assets (no near-miss substitutions).
 - Avoid cloth-in-hand hot-transfer prompts due hand/cloth fusion risk.
 
+## Character (2D only)
+
+- The Licorn mascot is a **flat 2D illustrated character**. Library inputs are 2D PNG poses/sheet (and `LicornOutroVideo` for outro motion), not a 3D model.
+- `@PoseThreeQuarterLeft` / `@PoseThreeQuarterRight` are **2D illustration views**, not a 3D turn-table or camera orbit.
+- Whenever character references appear in a segment, state roles as 2D identity/pose/hands and include a **character style lock** plus negatives such as `no 3D character, no CGI mascot, no clay figurine, no realistic 3D render`.
+- Do not use prompt language that invites 3D mascot reinterpretation (Pixar-style, vinyl toy, Unreal render, 360° character, etc.).
+- Full guidance: `.cursor/skills/asset-reference-system/reference-detail/character-2d-guardrails.md`.
+
 ## Prompt Shape
 
 Seedance prompts should be concise English prompts with:

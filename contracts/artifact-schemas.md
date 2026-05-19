@@ -179,7 +179,7 @@ standardized Licorn celebration outro. It MUST satisfy:
   1. `KitchenLayoutContextWide` (kind: image)
   2. `KitchenIslandDefault` (kind: image)
   3. `LicornOutroVideo` (kind: video, library asset)
-  4. `CharacterSheet` (kind: image)
+  4. `CharacterSheet` (kind: image, 2D illustrated identity lock — not a 3D model)
   5. `FinalDishVisual` (kind: image, recipe-specific entry in `reference-plan.json`).
 
 ### `FinalDishVisual.prompt` (dual use)

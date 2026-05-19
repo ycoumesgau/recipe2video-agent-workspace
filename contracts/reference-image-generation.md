@@ -61,11 +61,11 @@ Recipe-specific reference images are produced by GPT-Image 2 inside the Recipe2V
 
 Never declare character-class anchors in `conditioningReferences`:
 
-- `character` (`@CharacterSheet`)
-- `character_pose` (`@PoseFront`, `@PoseTopDown`, `@PoseThreeQuarterLeft`, `@PoseThreeQuarterRight`)
+- `character` (`@CharacterSheet`) — 2D illustrated identity still, not a 3D model
+- `character_pose` (`@PoseFront`, `@PoseTopDown`, `@PoseThreeQuarterLeft`, `@PoseThreeQuarterRight`) — pre-drawn **2D views**, not a 3D rig
 - `character_expression` (`@CharacterExpressions`)
 
-Recipe2Video drops them at generation time anyway — the mascot adds noise to dish frames and the kitchen anchor alone carries the Licorn visual identity for recipe-state images. Listing them only wastes a planning slot.
+Recipe2Video drops them at generation time anyway — the mascot adds noise to dish frames and the kitchen anchor alone carries the Licorn visual identity for recipe-state images. Listing them only wastes a planning slot. Dish-state prompts must not describe a 3D mascot in frame.
 
 ### Minimum coverage
 

@@ -1,0 +1,188 @@
+{
+  "recipe": {
+    "title": "Small Batch Baked Ube Mochi Donuts",
+    "sourceType": "url",
+    "sourceUrl": "https://www.hummingbirdhigh.com/2021/01/small-batch-baked-ube-mochi-donuts.html",
+    "ingredients": [
+      { "name": "mochiko sweet rice flour", "quantity": "⅔ cup (100 g)", "note": "gluten-free base" },
+      { "name": "baking powder", "quantity": "½ tsp", "note": null },
+      { "name": "kosher salt", "quantity": "¼ tsp", "note": null },
+      { "name": "unsalted butter", "quantity": "2 tbsp (28 g)", "note": "melted, slightly cooled" },
+      { "name": "granulated sugar", "quantity": "6 tbsp (75 g)", "note": null },
+      { "name": "egg yolks", "quantity": "2 large", "note": "room temperature" },
+      { "name": "ube halaya jam", "quantity": "2 tbsp batter + 1½ tsp glaze", "note": "Filipino purple yam jam" },
+      { "name": "ube extract", "quantity": "¾ tsp batter + 1 tsp glaze", "note": "concentrated flavor and color boost" },
+      { "name": "purple food coloring", "quantity": "½ tsp", "note": "optional but used in source photos for deep violet" },
+      { "name": "whole milk", "quantity": "½ cup + 1 tbsp batter; 2 tsp glaze", "note": "room temperature in batter" },
+      { "name": "confectioners sugar", "quantity": "½ cup (57 g)", "note": "sifted, for glaze" },
+      { "name": "sprinkles", "quantity": "to garnish", "note": "applied immediately after dip" }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Preheat oven to 350°F; position rack center.",
+        "timing": null,
+        "visualCue": "oven already open in Licorn kitchen, steady amber glow",
+        "block": "bake",
+        "textureCue": "dry heat anticipation",
+        "runwayRisk": "avoid oven door manipulation in same shot as tray slide"
+      },
+      {
+        "position": 2,
+        "text": "Whisk mochiko, baking powder, and salt in a small bowl.",
+        "timing": null,
+        "visualCue": "fine white rice flour mound with purple streaks about to enter",
+        "block": "batter",
+        "textureCue": "powdery matte flour vs glossy wet base",
+        "runwayRisk": "flour cloud explosion if whisked too violently on camera"
+      },
+      {
+        "position": 3,
+        "text": "Whisk melted butter, sugar, and egg yolks until combined; mixture may look lumpy then smooth.",
+        "timing": null,
+        "visualCue": "pale yellow glossy base turning satin as yolks emulsify",
+        "block": "batter",
+        "textureCue": "sugar grain dissolve, yolk ribboning",
+        "runwayRisk": "lumpy-to-smooth transition may morph into scrambled texture"
+      },
+      {
+        "position": 4,
+        "text": "Add ube jam, ube extract, and purple coloring; whisk until violet.",
+        "timing": null,
+        "visualCue": "jam streaks marble then homogenize to deep lilac",
+        "block": "batter",
+        "textureCue": "color bloom from magenta jam pockets",
+        "runwayRisk": "color may drift pink or blue without extract lock"
+      },
+      {
+        "position": 5,
+        "text": "Gradually whisk in milk until thin pourable batter.",
+        "timing": null,
+        "visualCue": "liquid violet stream folding into batter",
+        "block": "batter",
+        "textureCue": "low-viscosity pour, surface tension ripples",
+        "runwayRisk": "batter may read as cake batter or pancake mix without mochi sheen"
+      },
+      {
+        "position": 6,
+        "text": "Fold dry ingredients into wet until just combined; transfer to liquid measuring cup with spout.",
+        "timing": null,
+        "visualCue": "thick violet batter lifted on whisk, last flour pockets vanish",
+        "block": "batter",
+        "textureCue": "elastic mochi pull on whisk",
+        "runwayRisk": "over-mixing looks like glue; under-mixed white streaks"
+      },
+      {
+        "position": 7,
+        "text": "Lightly spray metal donut pan cavities; pour batter to brim of each cavity.",
+        "timing": null,
+        "visualCue": "six rings filling flush, no overflow because minimal rise",
+        "block": "pan",
+        "textureCue": "batter meniscus at pan lip, fine spray mist",
+        "runwayRisk": "ring count drift, oversized rings, batter overflow fantasy rise"
+      },
+      {
+        "position": 8,
+        "text": "Bake 35 minutes until tops spring back and skewer shows moist crumbs.",
+        "timing": "35 minutes",
+        "visualCue": "matte violet rings with lightly cracked tops, flat bottoms",
+        "block": "bake",
+        "textureCue": "crispy shell set, faint steam on exit",
+        "runwayRisk": "donuts may puff into cake domes; must keep flat-bottom mochi profile"
+      },
+      {
+        "position": 9,
+        "text": "Cool in pan 5 minutes, turn out onto wire rack to cool completely.",
+        "timing": "5 minutes",
+        "visualCue": "six rings on rack, flat bases visible, springy tops",
+        "block": "cool",
+        "textureCue": "gentle bounce-back press, no collapse",
+        "runwayRisk": "rings sticking or tearing on unmold"
+      },
+      {
+        "position": 10,
+        "text": "Whisk ube jam and milk into glaze; add sifted sugar in batches; finish with extract and remaining milk.",
+        "timing": null,
+        "visualCue": "glossy lavender glaze ribbon dripping off whisk",
+        "block": "glaze",
+        "textureCue": "thick then loosened pour, satin sheen",
+        "runwayRisk": "glaze too thin (drip flood) or too thick (frosting)"
+      },
+      {
+        "position": 11,
+        "text": "Dip donut tops in glaze, flip upright on rack; garnish with sprinkles immediately.",
+        "timing": null,
+        "visualCue": "half-dipped crown gloss, sprinkle bounce on wet glaze",
+        "block": "finish",
+        "textureCue": "dip pull, glaze curtain, sprinkle tick sounds",
+        "runwayRisk": "donut geometry collapse during dip; sprinkles as confetti storm"
+      },
+      {
+        "position": 12,
+        "text": "Serve same day; glaze sets 1–2 hours optional.",
+        "timing": null,
+        "visualCue": "six glazed rings on terrazzo island, mascot satisfied nearby",
+        "block": "hero",
+        "textureCue": "set glaze shell vs chewy interior implied",
+        "runwayRisk": "character touching dish in outro-adjacent shots"
+      }
+    ],
+    "subRecipes": ["batter", "pan", "bake", "glaze", "finish"],
+    "assumptions": [
+      "Standard Wilton metal 6-cavity donut pan (~3 in / 7.5–8 cm outer ring diameter, ~1 in / 2.5 cm center hole) as referenced by the source author.",
+      "Exactly six donuts on rack for hero shots to match small-batch yield.",
+      "Festive mixed sprinkles unless operator specifies otherwise.",
+      "Licorn kitchen uses pre-open oven wide shot; no on-camera oven door hinge action.",
+      "Purple tone: deep violet-lilac (ube jam + extract + Americolor-style purple), not neon pink."
+    ],
+    "timing": {
+      "prep": "20 minutes",
+      "cook": "40 minutes (35 min bake + 5 min pan cool)",
+      "total": "about 1 hour plus glaze set"
+    },
+    "criticalTransformations": [
+      "Lumpy butter-sugar-egg base emulsifies smooth after yolks",
+      "Ube jam and extract bloom batter from pale yellow to homogenous deep violet",
+      "Thin pourable mochi batter gains slight elasticity when dry rice flour is folded in",
+      "Liquid batter filled to pan brim sets into flat-bottom baked rings with minimal vertical rise",
+      "Baked shell goes from steamy matte crackle to cool springy bounce",
+      "Thick ube glaze loosens to dip consistency then sets glossy on crown",
+      "Dry ring becomes glazed crown with immediate sprinkle adhesion"
+    ],
+    "visualTextureOpportunities": [
+      "Violet batter stream from spouted cup into metal ring cavity (opening hook)",
+      "Whisk blade cutting glossy lilac batter with elastic tail",
+      "Dry mochiko flour avalanche into wet violet (contrast)",
+      "Fine cooking spray mist on metal cavities before pour",
+      "Batter meniscus flush with pan lip across six rings",
+      "Skewer pull showing moist mochi crumbs (not dry cake)",
+      "Gentle finger press bounce on baked top",
+      "Glaze dip with upside-down flip and dripping curtain",
+      "Sprinkle rain hitting wet glaze (ASMR ticks)",
+      "Crispy exterior vs chewy interior implied on tear-free cross-section avoidance (keep rings intact for outro lock)"
+    ],
+    "possibleHooks": [
+      "Macro pour: viscous violet mochi batter fills one donut ring to the brim",
+      "Color bloom: ube jam streaks marble through yellow base then snap to solid lilac",
+      "Hard cut: pale raw-filled pan to matte cracked purple baked rings in oven",
+      "Glaze dip: crown submerged then lifted with glossy curtain and sprinkle burst"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "seedance-workflow",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "suno-music",
+      "reference-image-generation"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "sprinkle-palette",
+      "question": "Should the garnish sprinkles be rainbow confetti mix, single-color jimmies, or pearl/neutral sprinkles for the hero and reference stills?",
+      "reason": "Sprinkle color contrast changes the final dish identity clause and GPT-Image reference for FinalDishVisual."
+    }
+  ]
+}

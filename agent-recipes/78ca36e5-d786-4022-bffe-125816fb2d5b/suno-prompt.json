@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Small Batch Baked Ube Mochi Donuts",
+    "goal": "Full song 2–3 min for streaming; 45–90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2–3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Lilac Ring Glow",
+    "styleOfMusic": "Dreamy K-pop electronic pop with soft four-on-the-floor kick, bouncy rubber synth bass, glittery bell arpeggios, airy pad swells, playful handclaps on offbeats, glossy chorus lift, close intimate lead vocal, subtle vinyl warmth, wide shimmer reverb, tiny glitch fill before chorus drops, clean punchy mix, pastel neon sheen, k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising spoken voice, no voice-over narration, no real artist imitation, no brand names, no recipe-tutorial counting lyrics, no ingredient measurements in lyrics.",
+    "autoLyricsPrompt": "Write original English song lyrics about a joyful unicorn pastry mascot making small-batch baked ube mochi donuts in a bright kitchen. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: playful, glossy, cozy-magical, chewy-crisp ASMR energy, pastel purple joy, not childish.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response sparkle, simple hooks, occasional parenthetical echoes like \"(lilac ring)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- violet batter pour, meniscus shimmer, elastic whisk ribbon\n- ube jam marble, lilac color bloom, mochi sweetness\n- six rings filled to the brim, flat bake, crispy shell crackle\n- oven warmth, springy bounce, steam hush\n- lavender glaze dip, upside-down flip, sprinkle rain ticks\n- six glazed crowns on a rack, proud unicorn smile, hands stay kind\n\nMust include naturally: ube, mochi, lilac, glaze, sprinkle, unicorn, bake, chewy, crispy crown.\n\nStructure:\n[Verse 1]\nViolet stream, sugar gleam, whisk ribbon in a lilac dream.\n\n[Pre-Chorus]\nJam swirls in, color blooms, six little rings make room.\n\n[Chorus]\nBig chantable hook around unicorn + ube mochi donuts + lilac glaze + chewy crispy crown. Repeat \"lilac ring\" as a hook.\n\n[Verse 2]\nPan filled high, oven sigh, flat bottoms, tops that spring alive.\n\n[Bridge]\nSofter moment: glaze curtain falls, sprinkles dance, the rack recalls.\n\n[Final Chorus]\nRepeat chorus with extra energy and a proud still rack image.",
+    "shortVersionPlan": "Target 52–68 s vertical excerpt. Open on chorus hook (\"lilac ring\" / ube mochi chant). Map cuts: 0–4s chorus hook over batter pour segment; 4–10s pre-chorus color bloom over mix segment; 10–18s verse 2 oven/bake energy over hard-cut bake segment; 18–26s bridge glaze imagery over dip/sprinkle segment; 26–38s final chorus doubled over hero rack + mascot; 38–45s instrumental sparkle tail under Licorn outro sync. Avoid lyric lines about counting ingredients. Keep SFX-forward video dominant; music ducks under ASMR in edit, not in Suno prompt."
+  },
+  "instructions": {
+    "voice": "Intimate youthful female-presenting lead, warm and smiley, light breathiness on pre-chorus, confident belt on final chorus.",
+    "structure": "Chorus must stand alone for a 45–90s vertical cut; bridge is optional trim if excerpt runs long.",
+    "workflowNotes": "Generate baseline in Suno first for structure, then apply operator full-song edits before the 2–3 minute master. Upload long master to Recipe2Video; align excerpt per shortVersionPlan.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: Write original English song lyrics → Write original 2-3 minutes English song lyrics",
+        "Lyric style: …Keep the chorus reusable for a 45-90 second video edit. → …Keep the chorus reusable for a 45-90 second video edit, but make a 2-3 minutes song.",
+        "Structure: → Extend this structure to fit a 2-3 minutes song:"
+      ]
+    }
+  },
+  "qualityChecks": [
+    "No real artist or brand names in lyrics",
+    "Chorus repeatable within 45–90s",
+    "Imagery matches ube mochi donut video beats",
+    "Operator full-song edits documented, not baked into fields.styleOfMusic",
+    "autoLyricsPrompt under 3000 characters"
+  ]
+}

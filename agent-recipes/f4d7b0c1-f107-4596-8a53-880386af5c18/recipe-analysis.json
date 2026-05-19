@@ -1,0 +1,158 @@
+{
+  "recipe": {
+    "title": "Fluffy Japanese Soufflé Pancakes",
+    "sourceType": "url",
+    "sourceUrl": "https://www.justonecookbook.com/souffle-pancake/",
+    "ingredients": [
+      { "name": "large eggs", "quantity": "2", "note": "50 g each without shell; yolks and whites separated" },
+      { "name": "whole milk", "quantity": "1½ Tbsp", "note": "full-fat preferred per source" },
+      { "name": "pure vanilla extract", "quantity": "¼ tsp", "note": null },
+      { "name": "cake flour", "quantity": "¼ cup", "note": "weighed; sifted with baking powder" },
+      { "name": "baking powder", "quantity": "½ tsp", "note": "must be active" },
+      { "name": "sugar", "quantity": "2 Tbsp", "note": "for meringue" },
+      { "name": "neutral oil", "quantity": "1 Tbsp", "note": "thin film on nonstick pan" },
+      { "name": "water", "quantity": "2 Tbsp", "note": "for steaming in pan gaps" },
+      { "name": "heavy whipping cream", "quantity": "½ cup", "note": "optional topping; whipped with sugar" },
+      { "name": "sugar for cream", "quantity": "1½ Tbsp", "note": "optional" },
+      { "name": "confectioners sugar", "quantity": "1 Tbsp", "note": "dusting" },
+      { "name": "fresh berries", "quantity": null, "note": "strawberries and blueberries; optional" },
+      { "name": "maple syrup", "quantity": null, "note": "drizzle at serve" }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Optional: whip cream with sugar over ice bath to medium-firm peaks; chill until serve.",
+        "timing": null,
+        "visualCue": "cold cream mounds with curled tips in chilled bowl",
+        "block": "topping",
+        "textureCue": "silky stable whipped cream",
+        "runwayRisk": "cream separation if bowl too warm"
+      },
+      {
+        "position": 2,
+        "text": "Separate egg yolks and whites into two bowls; freeze whites 15 minutes.",
+        "timing": "15 min chill",
+        "visualCue": "bright yolks in one bowl, clear whites in another",
+        "block": "batter",
+        "textureCue": "viscous yolks vs liquid whites",
+        "runwayRisk": "yolk contamination in whites prevents whip"
+      },
+      {
+        "position": 3,
+        "text": "Whisk yolks with milk and vanilla until pale, thick, and frothy; sift flour and baking powder; mix just until combined.",
+        "timing": null,
+        "visualCue": "pale ribbon yolk batter with soft flour cloud on sift",
+        "block": "batter",
+        "textureCue": "smooth loose batter, no lumps",
+        "runwayRisk": "overmixing after flour adds gluten"
+      },
+      {
+        "position": 4,
+        "text": "While whites chill, preheat 11–12 inch nonstick pan to 300°F (150°C) on lowest heat.",
+        "timing": null,
+        "visualCue": "empty pan warming on low induction",
+        "block": "cook",
+        "textureCue": "steady low heat, no aggressive sizzle yet",
+        "runwayRisk": "high heat browns exterior before interior sets"
+      },
+      {
+        "position": 5,
+        "text": "Beat half-frozen whites to foam, soft peaks, then stiff glossy peaks while adding sugar in thirds.",
+        "timing": "~2 min whip",
+        "visualCue": "glossy meringue peak standing straight with tip folding slightly",
+        "block": "meringue",
+        "textureCue": "stiff glossy peaks, not grainy",
+        "runwayRisk": "underbeat collapses; overbeat cracks and folds poorly"
+      },
+      {
+        "position": 6,
+        "text": "Fold meringue into yolk batter in stages: one-third whisked in, half folded gently, then final homogenous airy batter.",
+        "timing": null,
+        "visualCue": "bottom-to-top whisk folds preserving bubbles",
+        "block": "fold",
+        "textureCue": "homogeneous pale batter with visible air suspension",
+        "runwayRisk": "deflation if overfolded or slow"
+      },
+      {
+        "position": 7,
+        "text": "Brush pan with thin oil film; scoop tall mounds, stack second scoop, form three pancakes; add third scoop when surface looks dry; steam covered 6–7 minutes with water splashes.",
+        "timing": "6–7 min steam",
+        "visualCue": "three tall jiggly mounds under glass lid with steam",
+        "block": "cook",
+        "textureCue": "matte-set skin, moist interior, height from stacking",
+        "runwayRisk": "batter spreading flat instead of piling; collapse if undercooked"
+      },
+      {
+        "position": 8,
+        "text": "Flip each pancake with rolling offset motion; steam second side 4–5 minutes until golden and set.",
+        "timing": "4–5 min",
+        "visualCue": "golden underside reveal after gentle roll flip",
+        "block": "cook",
+        "textureCue": "set springy crumb, golden edges",
+        "runwayRisk": "forced flip cracks structure"
+      },
+      {
+        "position": 9,
+        "text": "Plate immediately; top with berries and whipped cream; dust confectioners sugar; drizzle maple syrup.",
+        "timing": null,
+        "visualCue": "three-pancake stack with cream quenelle, berries, sugar snow, syrup ribbon",
+        "block": "serve",
+        "textureCue": "cottony tall stack intact before eating",
+        "runwayRisk": "stack compresses if moved too soon"
+      }
+    ],
+    "subRecipes": ["meringue", "yolk_batter", "folded_batter", "steam_cook", "toppings", "serve"],
+    "assumptions": [
+      "Licorn kitchen maps the source nonstick frying pan to induction stovetop cooking on @InductionWide with a generic dark nonstick skillet described in prompts (no dedicated pan asset).",
+      "Batch size: exactly 3 soufflé pancakes per cook, spaced in an 11–12 inch (28–30 cm) pan as in the source.",
+      "Each finished pancake: roughly 7–8 cm diameter at base, 4–6 cm tall jiggly stack (about two cookie-scoop heights plus final mound); not oversized diner flapjacks, not miniature silver-dollar size.",
+      "Cookie scoop portions: ~4 cm diameter scoops; at least three scoops per pancake across the cook.",
+      "Default hero toppings: halved strawberries, whole blueberries, one medium whipped-cream quenelle, light confectioners sugar dust, thin maple syrup drizzle.",
+      "Optional whipped-cream sub-recipe is shown compressed in one garnish beat, not a separate story arc.",
+      "Egg-white 15-minute partial freeze is represented as a quick timer insert, not real-time waiting."
+    ],
+    "timing": {
+      "prep": "15 min",
+      "cook": "15 min",
+      "total": "45 min"
+    },
+    "criticalTransformations": [
+      "liquid egg whites to stiff glossy meringue peaks",
+      "dense yolk batter lightened by staged meringue folds without deflation",
+      "loose airy batter to tall stacked mounds that set under steam",
+      "pale steamed domes to golden set pancakes after rolling flip",
+      "hot fragile stack to plated hero with stable intact geometry for outro"
+    ],
+    "visualTextureOpportunities": [
+      "glossy stiff peak pull-up with slightly folded tip",
+      "pale frothy yolk ribbon after whisking with milk and vanilla",
+      "flour and baking powder sift snowfall into batter",
+      "meringue cloud folding into yolk batter with disappearing white streaks",
+      "tall triple mound batter jiggle before lid",
+      "steam burst when water hits hot pan then lid seals",
+      "matte skin drying on mound tops before final scoop",
+      "rolling offset flip revealing golden underside",
+      "cottony interior spring when gently pressed (no fork tear in final hero segment)",
+      "confectioners sugar dust snowfall on golden stack",
+      "maple syrup slow ribbon on cream and berries"
+    ],
+    "possibleHooks": [
+      "open on stiff glossy meringue peak pull-up, scene 2 pays off with fold into airy batter",
+      "open on steam lid lift revealing three trembling tall domes",
+      "open on flour sift cascade into pale yolk batter then cut to meringue fold",
+      "rolling flip golden reveal as mid-video payoff (not opening)"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "seedance-workflow",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "suno-music",
+      "contracts/artifact-schemas.md",
+      "contracts/reference-image-generation.md"
+    ]
+  },
+  "clarifyingQuestions": []
+}

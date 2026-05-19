@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Fluffy Japanese Soufflé Pancakes",
+    "goal": "Full song 2–3 min for streaming; 45–90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2–3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Cloud Stack Morning",
+    "styleOfMusic": "Kawaii future bass pop with soft sidechain pump, bouncy marimba and glockenspiel hooks, fluffy synth pads, tight punchy kick, light claps, sparkling arpeggios, warm sub, airy female lead vocal, playful Japanese breakfast café energy, glossy mix, sweet but not childish., pop, electronic, kawaii",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no lo-fi mud, no children's choir, no advertising voice-over, no spoken recipe steps, no real artist imitation, no brand names, no tutorial counting lyrics.",
+    "autoLyricsPrompt": "Write original English song lyrics about a joyful unicorn mascot making fluffy Japanese soufflé pancakes in a bright kitchen. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: playful, cottony, morning-light, magical food-video ASMR energy, gentle triumph.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, simple hooks, occasional parenthetical echoes like \"(so fluffy)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- glossy meringue peak standing tall, sugar shine\n- pale batter fold, air bubbles like little clouds\n- tall stack rising in the pan, steam like morning mist\n- golden flip, springy jiggle, cotton bite\n- berries, cream curl, sugar snow, maple ribbon\n- final tower on the island, proud smile, cloud on a plate\n\nMust include naturally: soufflé, pancake, cloud, steam, golden, flip, meringue, berry, maple, unicorn.\n\nStructure:\n[Verse 1]\nMorning whisk, meringue peak, pale ribbon, sift like snow.\n\n[Pre-Chorus]\nFold it soft, don't break the air; something tall is growing there.\n\n[Chorus]\nBig chantable hook around unicorn + soufflé pancakes + cloud stack + golden flip. Repeat \"cloud stack\" as hook.\n\n[Verse 2]\nLow heat patience, lid steam, three towers tremble, golden turn.\n\n[Bridge]\nSofter moment: cream and berries, sugar dust, one bite feels like floating.\n\n[Final Chorus]\nReturn hook with highest joy; end on \"cloud stack\" repetition.",
+    "shortVersionPlan": "Target 52–68s vertical excerpt. Open on instrumental hook 0–4s. Verse 1 from first whisk image (~4s) through sift line. Pre-chorus into Chorus 1 at first meringue peak / fold montage (~18s). Keep chorus through mound-and-steam segment (~18–38s). Verse 2 or shortened pre-chorus under flip beat (~38–48s). Final chorus hook under plating hero and sugar snow (~48–62s). Fade or hard end on last \"cloud stack\" before outro SFX. Do not include spoken intro; align downbeats to hard cuts in seedance segments 01–06."
+  },
+  "instructions": {
+    "voice": "Airy female lead, close and warm, light smile in delivery; optional soft doubles on chorus only.",
+    "structure": "Chorus must survive a 45–90s cut; prioritize cloud stack / golden flip hook words.",
+    "workflowNotes": "Generate full song in Suno after operator edits; upload master to Recipe2Video; align excerpt to segment timings in seedance-segments.json.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Lyrics prompt is agent baseline only (no 2-3 minutes in opener)",
+    "Style field has no 2-3 minutes suffix",
+    "No genre or production inside autoLyricsPrompt",
+    "Chorus hook words match video hook (meringue peak, cloud stack)",
+    "shortVersionPlan references segment arcs not tutorial steps",
+    "fullSongOperatorEdits documents all three lyrics replacements plus style suffix"
+  ]
+}

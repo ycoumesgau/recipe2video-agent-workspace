@@ -1,0 +1,671 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 1,
+      "title": "Hook stiff peak",
+      "arc": "meringue hook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05"
+      ],
+      "description": "Stiff meringue peak pull-up, payoff settle, yolk ribbon, flour sift.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context (not as mandatory wide framing). Use @KitchenIslandOverhead for overhead prep actions. Use @KitchenIslandDefault to preserve terrazzo island identity if framing widens. Use @StandMixer only as mixer bowl and whisk topology. Use @StiffPeakMeringue only as stiff glossy meringue peak target (peak stands straight, tip folds slightly, smooth not grainy). Use @CharacterSheet and @PoseTopDown only for character hands.\n\nKitchen continuity lock: light terrazzo countertop, consistent Licorn lighting, no invented wood surfaces.\n\nGenerate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen.\n\nIntegrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts.\n\nMandatory timing:\n- 0.0-1.4s: beaters lift glossy stiff peak from @StiffPeakMeringue topology\n- 1.4-2.2s: peak trembles and settles, confirming not grainy\n- 2.2-3.4s: quick cut to pale frothy yolk ribbon whisked with milk\n- 3.4-5.0s: flour sift snowfall into batter (payoff to opening texture)\n\nScale lock: meringue peak 3-4 cm tall above bowl rim; not dry spikes, not soft curl.\nNegative size: not oversized meringue mountain, not flat foam.\n\nGlobal negatives: no speech, no voiceover, no music, no text, no ingredient lineup table, no pancake in opening shots, no grainy broken meringue.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context (not as mandatory wide framing). Use @KitchenIslandOverhead for overhead prep actions. Use @KitchenIslandDefault to preserve terrazzo island identity if framing widens. Use @StandMixer only as mixer bowl and whisk topology. Use @StiffPeakMeringue only as stiff glossy meringue peak target (peak stands straight, tip folds slightly, smooth not grainy). Use @CharacterSheet and @PoseTopDown only for character hands.\n\nKitchen continuity lock: light terrazzo countertop, consistent Licorn lighting, no invented wood surfaces.\n\nGenerate exactly 4 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen.\n\nIntegrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts.\n\nMandatory timing:\n- 0.0-1.4s: beaters lift glossy stiff peak from @StiffPeakMeringue topology\n- 1.4-2.2s: peak trembles and settles, confirming not grainy\n- 2.2-3.4s: quick cut to pale frothy yolk ribbon whisked with milk\n- 3.4-5.0s: flour sift snowfall into batter (payoff to opening texture)\n\nScale lock: meringue peak 3-4 cm tall above bowl rim; not dry spikes, not soft curl.\nNegative size: not oversized meringue mountain, not flat foam.\n\nGlobal negatives: no speech, no voiceover, no music, no text, no ingredient lineup table, no pancake in opening shots, no grainy broken meringue.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "required": true
+        },
+        {
+          "role": "overhead prep surface",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "terrazzo island identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "mixer bowl topology",
+          "name": "StandMixer",
+          "label": "StandMixer",
+          "required": true
+        },
+        {
+          "role": "stiff glossy meringue target",
+          "name": "StiffPeakMeringue",
+          "label": "StiffPeakMeringue",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down hands",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        }
+      ],
+      "beats": [
+        "stiff peak pull",
+        "peak settle",
+        "yolk ribbon",
+        "flour sift"
+      ],
+      "timing": [
+        "0.0-1.4s peak lift",
+        "1.4-2.2s settle",
+        "3.4-5.0s flour sift"
+      ],
+      "continuity": "Opening texture-first; scene 2 pays off peak quality.",
+      "risk": "Meringue may read dry or grainy; lock glossy smooth peak.",
+      "audioPrompt": "wet whisk pull; soft bowl tap; sift hiss",
+      "negatives": [
+        "no speech",
+        "no music",
+        "no text",
+        "no pancake in hook",
+        "no grainy meringue"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 2,
+      "title": "Yolk batter and whip",
+      "arc": "batter prep",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-05",
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09"
+      ],
+      "description": "Yolk mix, chill cue, meringue whip, sugar, peak check.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for overhead actions. Use @KitchenIslandDefault for island identity. Use @Whisk only as whisk shape. Use @Sieve only as sieve shape. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 5 short shots with hard cuts, total duration 6 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: yolk batter whisk just combined, smooth pale\n- 1.2-2.0s: quick chilled-whites timer insert on bowl edge\n- 2.0-3.2s: stand mixer foamy whites, sugar stream\n- 3.2-4.4s: stiff peak pull-up matching glossy topology\n- 4.4-6.0s: flour sift callback or foam-to-peak bridge\n\nScale lock: same mixer bowl scale as segment-01.\nGlobal negatives: no speech, no music, no text, no yolk in whites.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for overhead actions. Use @KitchenIslandDefault for island identity. Use @Whisk only as whisk shape. Use @Sieve only as sieve shape. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 5 short shots with hard cuts, total duration 6 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: yolk batter whisk just combined, smooth pale\n- 1.2-2.0s: quick chilled-whites timer insert on bowl edge\n- 2.0-3.2s: stand mixer foamy whites, sugar stream\n- 3.2-4.4s: stiff peak pull-up matching glossy topology\n- 4.4-6.0s: flour sift callback or foam-to-peak bridge\n\nScale lock: same mixer bowl scale as segment-01.\nGlobal negatives: no speech, no music, no text, no yolk in whites.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "required": true
+        },
+        {
+          "role": "overhead prep",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "island identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "whisk shape",
+          "name": "Whisk",
+          "label": "Whisk",
+          "required": true
+        },
+        {
+          "role": "sieve shape",
+          "name": "Sieve",
+          "label": "Sieve",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down hands",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        }
+      ],
+      "beats": [
+        "yolk mix",
+        "chill cue",
+        "meringue whip",
+        "peak check"
+      ],
+      "timing": [
+        "0.0-1.2s yolk mix",
+        "2.0-3.2s whip",
+        "3.2-4.4s peak"
+      ],
+      "continuity": "Continues from opening sift; same bowl scale as segment-01.",
+      "risk": "Yolk contamination in whites if bowls merge visually.",
+      "audioPrompt": "whisk; mixer hum; peak pull",
+      "negatives": [
+        "no speech",
+        "no music",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 3,
+      "title": "Fold airy batter",
+      "arc": "fold",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-10",
+        "scene-11",
+        "scene-12",
+        "scene-13"
+      ],
+      "description": "Staged meringue folds to homogenous airy batter.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for fold shots. Use @KitchenIslandDefault for island identity. Use @Whisk only as whisk shape. Use @StiffPeakMeringue as starting meringue density reference. Use @FoldedSouffleBatter only as final homogenous airy batter target. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 6 short shots with hard cuts, total duration 8 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.3s: one-third meringue whisked into yolk (lighten)\n- 1.3-3.0s: half remaining meringue folded, white streaks shrinking\n- 3.0-5.0s: final fold until @FoldedSouffleBatter topology, no white streaks\n- 5.0-6.5s: batter jiggle showing air suspension\n- 6.5-8.0s: hard cut hold on airy batter surface\n\nFragile physics: preserve bubbles; stop fold when streaks disappear; no overmix collapse.\n\nScale lock: batter in 20 cm glass bowl, fills one-third depth; not overflowing.\nGlobal negatives: no deflated runny batter, no speech, no music, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for fold shots. Use @KitchenIslandDefault for island identity. Use @Whisk only as whisk shape. Use @StiffPeakMeringue as starting meringue density reference. Use @FoldedSouffleBatter only as final homogenous airy batter target. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 6 short shots with hard cuts, total duration 8 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.3s: one-third meringue whisked into yolk (lighten)\n- 1.3-3.0s: half remaining meringue folded, white streaks shrinking\n- 3.0-5.0s: final fold until @FoldedSouffleBatter topology, no white streaks\n- 5.0-6.5s: batter jiggle showing air suspension\n- 6.5-8.0s: hard cut hold on airy batter surface\n\nFragile physics: preserve bubbles; stop fold when streaks disappear; no overmix collapse.\n\nScale lock: batter in 20 cm glass bowl, fills one-third depth; not overflowing.\nGlobal negatives: no deflated runny batter, no speech, no music, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "required": true
+        },
+        {
+          "role": "overhead fold",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "required": true
+        },
+        {
+          "role": "island identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "whisk for folds",
+          "name": "Whisk",
+          "label": "Whisk",
+          "required": true
+        },
+        {
+          "role": "meringue density reference",
+          "name": "StiffPeakMeringue",
+          "label": "StiffPeakMeringue",
+          "required": true
+        },
+        {
+          "role": "final folded batter target",
+          "name": "FoldedSouffleBatter",
+          "label": "FoldedSouffleBatter",
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        },
+        {
+          "role": "top-down hands",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "required": true
+        }
+      ],
+      "beats": [
+        "lighten",
+        "fold streaks",
+        "final homogenous batter"
+      ],
+      "timing": [
+        "0.0-1.3s lighten",
+        "3.0-5.0s final fold",
+        "6.5-8.0s hold"
+      ],
+      "continuity": "Air suspension must match FoldedSouffleBatter reference before cook segment.",
+      "risk": "Overfold collapse to runny batter.",
+      "audioPrompt": "fold swoosh; batter jiggle",
+      "negatives": [
+        "no deflated batter",
+        "no speech",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 8,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 4,
+      "title": "Mound and steam",
+      "arc": "steam cook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18",
+        "scene-19",
+        "scene-20",
+        "scene-21"
+      ],
+      "description": "Oil film, tall mounds, water steam, lid, pre-flip domes.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionWide as active stovetop and pan view. Use @KitchenIslandDefault only if framing includes island edge. Use @FoldedSouffleBatter as scooped batter source identity. Use @RawTallMoundsInPan only as three tall pale stacked mounds topology (7-8 cm base, 4-6 cm height each, exactly three). Use @SteamedPancakesPreFlip only as pre-flip steamed dome target (matte set tops, steam).\n\nKitchen continuity lock: black flush induction, dark nonstick skillet 28-30 cm, lowest heat, no wood stovetop.\n\nGenerate exactly 7 short shots with hard cuts, total duration 10 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: thin oil film brush and blot on pan\n- 1.2-2.8s: first and second scoop stack tall mounds per @RawTallMoundsInPan\n- 2.8-4.0s: three spaced mounds across pan\n- 4.0-5.2s: final third scoop piled on each mound\n- 5.2-6.5s: water splash steam in pan gaps\n- 6.5-8.2s: lid on, condensation and steam cloud\n- 8.2-10.0s: brief lid tilt showing @SteamedPancakesPreFlip domes\n\nScale lock: exactly 3 pancakes; base 7-8 cm; height 4-6 cm per mound; not flat discs, not oversized diner cakes.\nNegative size: not miniature silver-dollar pancakes, not single giant cake.\n\nGlobal negatives: no high heat char, no spreading batter puddle, no speech, no music, no text.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionWide as active stovetop and pan view. Use @KitchenIslandDefault only if framing includes island edge. Use @FoldedSouffleBatter as scooped batter source identity. Use @RawTallMoundsInPan only as three tall pale stacked mounds topology (7-8 cm base, 4-6 cm height each, exactly three). Use @SteamedPancakesPreFlip only as pre-flip steamed dome target (matte set tops, steam).\n\nKitchen continuity lock: black flush induction, dark nonstick skillet 28-30 cm, lowest heat, no wood stovetop.\n\nGenerate exactly 7 short shots with hard cuts, total duration 10 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.2s: thin oil film brush and blot on pan\n- 1.2-2.8s: first and second scoop stack tall mounds per @RawTallMoundsInPan\n- 2.8-4.0s: three spaced mounds across pan\n- 4.0-5.2s: final third scoop piled on each mound\n- 5.2-6.5s: water splash steam in pan gaps\n- 6.5-8.2s: lid on, condensation and steam cloud\n- 8.2-10.0s: brief lid tilt showing @SteamedPancakesPreFlip domes\n\nScale lock: exactly 3 pancakes; base 7-8 cm; height 4-6 cm per mound; not flat discs, not oversized diner cakes.\nNegative size: not miniature silver-dollar pancakes, not single giant cake.\n\nGlobal negatives: no high heat char, no spreading batter puddle, no speech, no music, no text.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "required": true
+        },
+        {
+          "role": "induction pan view",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "required": true
+        },
+        {
+          "role": "island edge if visible",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "scooped batter identity",
+          "name": "FoldedSouffleBatter",
+          "label": "FoldedSouffleBatter",
+          "required": true
+        },
+        {
+          "role": "raw tall three-mound topology",
+          "name": "RawTallMoundsInPan",
+          "label": "RawTallMoundsInPan",
+          "required": true
+        },
+        {
+          "role": "steamed pre-flip dome target",
+          "name": "SteamedPancakesPreFlip",
+          "label": "SteamedPancakesPreFlip",
+          "required": true
+        }
+      ],
+      "beats": [
+        "oil film",
+        "stack mounds",
+        "steam lid",
+        "pre-flip peek"
+      ],
+      "timing": [
+        "1.2-2.8s stack mounds",
+        "5.2-6.5s water steam",
+        "8.2-10.0s lid tilt"
+      ],
+      "continuity": "Three pancakes 7-8 cm base; induction low heat; terrazzo kitchen visible at edges only.",
+      "risk": "Batter spreads flat; height loss; wrong pancake count.",
+      "audioPrompt": "plop; hiss; lid clink; steam",
+      "negatives": [
+        "no flat flapjacks",
+        "no high char",
+        "no speech"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 10,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 5,
+      "title": "Roll flip golden",
+      "arc": "flip",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-22",
+        "scene-23",
+        "scene-24",
+        "scene-25"
+      ],
+      "description": "Offset flip, golden reveal, spring test, second steam.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionWide for pan and flip actions. Use @SteamedPancakesPreFlip as pre-flip dome state. Use @GoldenSoufflePancakesInPan only as post-flip golden set target. Use @OffsetSpatula only as offset spatula shape for slide and roll flip.\n\nGenerate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.5s: offset spatula slides under one dome\n- 1.5-3.5s: rolling flip reveals golden underside mid-turn\n- 3.5-5.5s: three pancakes match @GoldenSoufflePancakesInPan topology\n- 5.5-6.8s: gentle spring press test, set crumb\n- 6.8-8.0s: lid and second steam splash, hold\n\nScale lock: same three-pancake spacing and height as segment-04; golden color even, not burnt.\nRisk: forced flip cracks dome; wait until pancake moves easily.\n\nGlobal negatives: no collapsed flat pancakes, no speech, no music, no text, no fork pierce.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @InductionWide for pan and flip actions. Use @SteamedPancakesPreFlip as pre-flip dome state. Use @GoldenSoufflePancakesInPan only as post-flip golden set target. Use @OffsetSpatula only as offset spatula shape for slide and roll flip.\n\nGenerate exactly 5 short shots with hard cuts, total duration 8 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.5s: offset spatula slides under one dome\n- 1.5-3.5s: rolling flip reveals golden underside mid-turn\n- 3.5-5.5s: three pancakes match @GoldenSoufflePancakesInPan topology\n- 5.5-6.8s: gentle spring press test, set crumb\n- 6.8-8.0s: lid and second steam splash, hold\n\nScale lock: same three-pancake spacing and height as segment-04; golden color even, not burnt.\nRisk: forced flip cracks dome; wait until pancake moves easily.\n\nGlobal negatives: no collapsed flat pancakes, no speech, no music, no text, no fork pierce.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "required": true
+        },
+        {
+          "role": "pan and flip view",
+          "name": "InductionWide",
+          "label": "InductionWide",
+          "required": true
+        },
+        {
+          "role": "pre-flip steamed state",
+          "name": "SteamedPancakesPreFlip",
+          "label": "SteamedPancakesPreFlip",
+          "required": true
+        },
+        {
+          "role": "post-flip golden target",
+          "name": "GoldenSoufflePancakesInPan",
+          "label": "GoldenSoufflePancakesInPan",
+          "required": true
+        },
+        {
+          "role": "offset spatula shape",
+          "name": "OffsetSpatula",
+          "label": "OffsetSpatula",
+          "required": true
+        }
+      ],
+      "beats": [
+        "spatula slide",
+        "roll flip",
+        "golden set",
+        "second steam"
+      ],
+      "timing": [
+        "1.5-3.5s roll flip",
+        "3.5-5.5s golden match"
+      ],
+      "continuity": "Same pan and three-mound spacing as segment-04.",
+      "risk": "Forced flip cracks structure.",
+      "audioPrompt": "metal slide; flip thud; spring press",
+      "negatives": [
+        "no collapse",
+        "no fork",
+        "no speech"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 8,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 6,
+      "title": "Plate hero hold",
+      "arc": "serve",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-26",
+        "scene-27",
+        "scene-28",
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33"
+      ],
+      "description": "Plate stack, cream, berries, dust, syrup, static hero for outro.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero plating surface. Use @FinalDishVisual only as intact finished stack identity (three tall pancakes, cream quenelle, berries, sugar dust; motionless at end). Use @CharacterSheet for satisfied character in one context shot only; character does NOT touch the dish.\n\nGenerate exactly 6 short shots with hard cuts, total duration 10 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.8s: transfer three pancakes to white plate, intact stack\n- 1.8-3.2s: whipped cream quenelle placed (one quenelle)\n- 3.2-4.8s: halved strawberries and blueberries placed\n- 4.8-6.4s: confectioners sugar snowfall\n- 6.4-8.0s: maple syrup slow ribbon drizzle\n- 8.0-10.0s: static hero hold matching @FinalDishVisual exactly, no hands, no fork, no bite\n\nPlating quantity lock: 3 pancakes; 4-6 strawberry halves; 8-12 blueberries; one cream quenelle; light sugar dust; thin syrup ribbon.\n\nContinuity: dish intact and motionless from 8.0s to end for outro handoff.\nDestructive beats forbidden: no fork tear, no stack collapse, no spoon dive.\n\nScale lock: stack 12-15 cm total height on plate; bases 7-8 cm; not oversized, not miniature.\nGlobal negatives: no speech, no music, no text, no character touching food in final 2 seconds.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero plating surface. Use @FinalDishVisual only as intact finished stack identity (three tall pancakes, cream quenelle, berries, sugar dust; motionless at end). Use @CharacterSheet for satisfied character in one context shot only; character does NOT touch the dish.\n\nGenerate exactly 6 short shots with hard cuts, total duration 10 seconds, no slow motion, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.8s: transfer three pancakes to white plate, intact stack\n- 1.8-3.2s: whipped cream quenelle placed (one quenelle)\n- 3.2-4.8s: halved strawberries and blueberries placed\n- 4.8-6.4s: confectioners sugar snowfall\n- 6.4-8.0s: maple syrup slow ribbon drizzle\n- 8.0-10.0s: static hero hold matching @FinalDishVisual exactly, no hands, no fork, no bite\n\nPlating quantity lock: 3 pancakes; 4-6 strawberry halves; 8-12 blueberries; one cream quenelle; light sugar dust; thin syrup ribbon.\n\nContinuity: dish intact and motionless from 8.0s to end for outro handoff.\nDestructive beats forbidden: no fork tear, no stack collapse, no spoon dive.\n\nScale lock: stack 12-15 cm total height on plate; bases 7-8 cm; not oversized, not miniature.\nGlobal negatives: no speech, no music, no text, no character touching food in final 2 seconds.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "required": true
+        },
+        {
+          "role": "hero plating island",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "required": true
+        },
+        {
+          "role": "finished stack identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "required": true
+        },
+        {
+          "role": "character satisfaction context",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "required": true
+        }
+      ],
+      "beats": [
+        "plate stack",
+        "cream berries",
+        "sugar syrup",
+        "static hero"
+      ],
+      "timing": [
+        "8.0-10.0s motionless hero"
+      ],
+      "continuity": "Ends intact motionless per FinalDishVisual for segment-outro.",
+      "risk": "Stack compresses; character touches dish in final hold.",
+      "audioPrompt": "plop; powder puff; syrup drizzle; silence",
+      "negatives": [
+        "no fork tear",
+        "no spoon dive",
+        "no speech",
+        "no hand on dish final 2s"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 10,
+      "status": "ready"
+    },
+    {
+      "id": "segment-outro",
+      "videoId": "f4d7b0c1-f107-4596-8a53-880386af5c18",
+      "position": 7,
+      "title": "Licorn celebration outro",
+      "arc": "licorn_celebration_outro",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-outro"
+      ],
+      "description": "Standardized Licorn celebration outro; app injects canonical prompt at sync.",
+      "prompt": "<APP_OVERRIDE>",
+      "promptInitial": "<APP_OVERRIDE>",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn celebration motion reference",
+          "name": "LicornOutroVideo",
+          "label": "LicornOutroVideo",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity lock",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "celebration"
+      ],
+      "timing": [
+        "app-injected"
+      ],
+      "continuity": "Dish state locked to FinalDishVisual from segment-06.",
+      "risk": "none",
+      "audioPrompt": "app-injected",
+      "negatives": [
+        "app-injected"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "seedance-references",
+          "seedance-outro",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

@@ -25,7 +25,7 @@ The last segment in `seedance-segments.json` (highest `position`) MUST:
   1. `KitchenLayoutContextWide` (image, role: "structural kitchen context")
   2. `KitchenIslandDefault` (image, role: "active hero island view")
   3. `LicornOutroVideo` (video, role: "Licorn celebration motion reference")
-  4. `CharacterSheet` (image, role: "Licorn character identity lock")
+  4. `CharacterSheet` (image, role: "2D illustrated Licorn character identity lock")
   5. `FinalDishVisual` (image, role: "finished dish identity") — this MUST be a recipe-specific entry in `reference-plan.json`.
 
 ## `FinalDishVisual.prompt` (dual use)

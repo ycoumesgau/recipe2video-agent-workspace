@@ -32,6 +32,7 @@ Check:
 - fragile food geometry handled with state references;
 - no speech, voiceover, music, text on screen;
 - visible hands for human actions;
-- final hero shot with finished dish and satisfied character.
+- when character references are used: roles state **2D illustrated** identity/pose; prompt includes 2D style lock and anti-3D negatives (no CGI/clay/realistic 3D mascot);
+- final hero shot with finished dish and satisfied **2D illustrated** character.
 
 Return concise findings ordered by severity and suggest exact artifact edits.

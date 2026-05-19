@@ -86,7 +86,11 @@ Plating quantity lock:
 - visual target: ...
 - continuity note if side bowl appears earlier: ...
 
+Character style lock (when @CharacterSheet / pose / expression references are used):
+- flat 2D illustrated Licorn mascot matching references; not a 3D model or CGI render.
+
 Global negatives: ...
+- if character visible: no 3D character, no CGI mascot, no clay figurine, no realistic 3D render on the character.
 
 Mandatory audio: ...
 ```
@@ -162,3 +166,4 @@ Before marking a segment ready:
 - no cloth-in-hand hot transfer shots;
 - plating side quantities are explicit when present;
 - continuity mentions preserved proportions when reusing the same object across segments.
+- when character references are attached: 2D style lock and anti-3D negatives present (see `asset-reference-system/reference-detail/character-2d-guardrails.md`).

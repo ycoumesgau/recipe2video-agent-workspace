@@ -15,7 +15,7 @@ Use when building or revising logical scenes and Seedance segments.
 - A context shot must prepare the next detail payoff.
 - Every 3-5 logical scenes needs a texture payoff or strong material contrast.
 - Avoid two context shots in a row unless necessary.
-- Keep the character as a support for action and final satisfaction, not the main subject in every shot.
+- Keep the **2D illustrated** Licorn character as a support for action and final satisfaction, not the main subject in every shot. Never prompt a 3D/CGI mascot reinterpretation.
 - Compress utility steps aggressively; linger only on payoffs.
 
 ## Strong Food Gestures

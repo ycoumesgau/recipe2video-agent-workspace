@@ -1,0 +1,160 @@
+{
+  "recipe": {
+    "title": "Roasted Strawberries and Cream Popsicles",
+    "sourceType": "url",
+    "sourceUrl": "https://www.forkknifeswoon.com/roasted-strawberries-and-cream-popsicles/",
+    "ingredients": [
+      { "name": "strawberries", "quantity": "1 lb", "note": "hulled and halved; fresh ripe in-season preferred" },
+      { "name": "balsamic vinegar", "quantity": "2-3 tsp", "note": "optional; good-quality aged" },
+      { "name": "pure maple syrup", "quantity": "1/2 cup", "note": "divided; or honey" },
+      { "name": "full-fat canned coconut milk", "quantity": "1-1/2 cups", "note": "vegan default; Greek yogurt, cream, or buttermilk possible substitutes" },
+      { "name": "pure vanilla extract", "quantity": "1 tsp", "note": null },
+      { "name": "fine sea salt", "quantity": "small pinch", "note": null }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Preheat oven to 375F; gather popsicle sticks, mold, and freezer space.",
+        "timing": null,
+        "visualCue": "oven warming context only; not an opening beat",
+        "block": "setup",
+        "textureCue": null,
+        "runwayRisk": "do not open on neutral prep lineup"
+      },
+      {
+        "position": 2,
+        "text": "Arrange halved strawberries in an even layer on parchment-lined sheet pan; drizzle optional balsamic.",
+        "timing": null,
+        "visualCue": "cut faces up, red flesh and seeds visible, even spacing",
+        "block": "roast_strawberries",
+        "textureCue": "matte fresh flesh before heat",
+        "runwayRisk": "berry count and size drift if scale not locked"
+      },
+      {
+        "position": 3,
+        "text": "Roast until soft and fragrant, about 20 minutes.",
+        "timing": "20 min",
+        "visualCue": "jammy collapse, darkened edges, pooled ruby syrup on parchment",
+        "block": "roast_strawberries",
+        "textureCue": "bubbling juice, caramelized edges, steam wisps",
+        "runwayRisk": "iciness vs jammy gloss if roast state is weak"
+      },
+      {
+        "position": 4,
+        "text": "Cool 10 minutes on pan, then transfer berries and juices to a bowl; cool to room temperature.",
+        "timing": "10 min",
+        "visualCue": "glossy syrup pool, spatula scrape ASMR",
+        "block": "roast_strawberries",
+        "textureCue": "thick glossy red syrup dragging on parchment",
+        "runwayRisk": "hand fused with cloth if hot transfer staged wrong"
+      },
+      {
+        "position": 5,
+        "text": "Pulse roasted strawberries with 1/4 cup maple syrup until chunky puree with small fruit bits.",
+        "timing": null,
+        "visualCue": "pink chunky puree, visible seeds, not smooth sorbet",
+        "block": "strawberry_puree",
+        "textureCue": "chunky pulse texture, seed specks",
+        "runwayRisk": "blender over-smooth if pulse duration not locked"
+      },
+      {
+        "position": 6,
+        "text": "Whisk coconut milk with remaining 1/4 cup maple syrup, vanilla, and salt until silky.",
+        "timing": null,
+        "visualCue": "thick white cream ribbons on whisk lift",
+        "block": "coconut_cream_base",
+        "textureCue": "silky ribbon trails, contrast with pink puree",
+        "runwayRisk": "coconut curdle or gray separation if over-whisked on camera"
+      },
+      {
+        "position": 7,
+        "text": "Layer strawberry puree and coconut cream in popsicle molds (or blend combined for uniform pops).",
+        "timing": null,
+        "visualCue": "alternating pink and white spoons into cavities, visible streaks",
+        "block": "assembly_swirl",
+        "textureCue": "marbled streaks before freeze",
+        "runwayRisk": "mold geometry drift; layer order collapse"
+      },
+      {
+        "position": 8,
+        "text": "Freeze until set, about 4 hours; insert sticks after 30 minutes.",
+        "timing": "4 hr",
+        "visualCue": "sticks upright in semi-set surface; frosty mold exterior hard cut",
+        "block": "freeze_finish",
+        "textureCue": "matte frost on mold, intact streaked pop interior implied",
+        "runwayRisk": "melting drip on hero if freeze state not held through outro prep"
+      },
+      {
+        "position": 9,
+        "text": "Release pops by brief warm-water dip on mold; pull gently on sticks.",
+        "timing": "10-15 sec per mold",
+        "visualCue": "condensation rim, pop sliding free intact",
+        "block": "release",
+        "textureCue": "clean release slide, frost on pop surface",
+        "runwayRisk": "destructive bite or drip must not appear in final pre-outro segment"
+      }
+    ],
+    "subRecipes": ["roast_strawberries", "strawberry_puree", "coconut_cream_base", "assembly_swirl", "freeze_finish"],
+    "assumptions": [
+      "Hero format is layered/swirled pink-and-white bar pops, not fully blended uniform pink pops.",
+      "Standard silicone bar mold with 10 narrow cavities; each finished pop about 10-12 cm long and 2.5-3 cm wide at the stick end.",
+      "On-camera hero shows 3-4 intact pops plus mold context, not all 10 cavities filled in one wide shot.",
+      "Optional balsamic drizzle is included as a quick 0.5s accent, not a flavor headline.",
+      "Food processor action is represented with @Blender asset shape for continuity; no separate processor asset exists."
+    ],
+    "timing": {
+      "prep": "15 min",
+      "cook": "30 min active (20 min roast + 10 min pan cool) plus processing",
+      "total": "about 4-5 hours including freeze"
+    },
+    "criticalTransformations": [
+      "Fresh halved strawberries to jammy roasted berries with pooled ruby syrup",
+      "Roasted berries to chunky maple-sweetened puree with visible fruit bits",
+      "Separated coconut cream base whisked to silky white ribbons",
+      "Alternating pink puree and white cream layers marbling inside mold cavities",
+      "Liquid layered fill to fully frozen streaked pops with matte frost surface",
+      "Mold-bound pop to intact released pop via brief warm-water dip (no bite on hero)"
+    ],
+    "visualTextureOpportunities": [
+      "Hot roast juice beading on cut strawberry flesh",
+      "Balsamic thread drizzle catching light",
+      "Jammy collapse and dark caramelized berry edges",
+      "Steam wisps over glossy syrup pool",
+      "Spatula scrape transferring berries and juices",
+      "Chunky pulse texture with seeds in pink puree",
+      "Maple stream into red puree and into white cream",
+      "Whisk ribbon trails in thick coconut cream",
+      "Spoon dollops creating pink-white marbled streaks in mold",
+      "Stick pressed into semi-set creamy surface",
+      "Frosty mold exterior and streaked frozen pop surface macro",
+      "Clean release slide with condensation on mold rim"
+    ],
+    "possibleHooks": [
+      "Macro hot strawberry juice bubble forming on a halved cut face before wider pan reveal",
+      "Jammy roast collapse with bubbling ruby syrup on parchment",
+      "Maple stream cutting into chunky pink puree",
+      "Pink puree and white cream spooned in alternating layers for visible marbling",
+      "Frosty streaked pop surface macro with intact cross-section color bands"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "tiktok-food-direction",
+      "food-physics-reference",
+      "reference-image-generation"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "pops-format",
+      "question": "Should the on-camera hero emphasize fully blended uniform pink pops or the layered strawberry-cream swirl version from the recipe?",
+      "reason": "Layered assembly changes logical scenes, reference states, and segment layering prompts; we assumed layered/swirled unless you prefer blended."
+    },
+    {
+      "id": "mold-geometry",
+      "question": "Are you using standard narrow silicone bar molds (about 10-12 cm pops) or round ring-style molds?",
+      "reason": "Pop length and cross-section geometry affect scale locks and generated reference anchors."
+    }
+  ]
+}

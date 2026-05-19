@@ -1,0 +1,17 @@
+{
+  "videoId": "ffd1df51-dbd1-4599-b492-fbeb4558e782",
+  "branch": "cursor/roasted-strawberry-popsicles-ingest-b932",
+  "commitSha": "",
+  "stage": "recipe_ingest",
+  "updatedAt": "2026-05-19T00:00:00.000Z",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md"
+  ]
+}

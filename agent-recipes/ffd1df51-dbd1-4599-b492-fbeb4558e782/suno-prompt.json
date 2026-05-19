@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Roasted Strawberries and Cream Popsicles",
+    "goal": "Full song 2–3 min for streaming; 45–90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2–3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Ruby Swirl Freeze",
+    "styleOfMusic": "Dreamy K-pop electronic pop with soft four-on-the-floor kick, plush synth bass, and glittery bell arpeggios; verses stay intimate with close-mic breathy vocals and tactile percussive taps (wood stick tap, soft whisk tick), pre-chorus lifts with stacked harmonies and a rising filtered sweep, chorus blooms bright and creamy with gang vocals and a sticky-sweet hook about frost, pink streaks, and summer chill. Add reversed vocal chops, ice-glass sparkle FX, and a tiny glitch fill before each drop. Mix is wide, glossy, and airy with warm low end and crisp transients., k-pop, pop, electronic",
+    "excludeStyles": "Heavy metal, screamo, trap hi-hat rolls, country twang, lo-fi tape hiss, spoken-word tutorial, children choir novelty, dark industrial, reggae offbeat guitar, bossa lounge only",
+    "autoLyricsPrompt": "Write original English song lyrics for a playful summer dessert pop track inspired by roasted strawberry and coconut cream popsicles. Turn the recipe into singable images only: jammy ruby berries, maple gloss, silky white swirls, wooden stick press, frost crystals, and a satisfied kitchen glow. No quantities, no numbered steps, no cooking instructions.\n\nLyric style: short lines, vivid texture words, gentle rhyme, hopeful and cozy; keep the chorus reusable for a 45-90 second video edit.\n\nStructure:\n[Verse 1] — hot berry glow, juice bead, oven hush\n[Pre-Chorus] — steam and syrup shine, anticipation chill\n[Chorus] — ruby swirl freeze, pink-white streak dream, hold the stick, summer blink\n[Verse 2] — chunky pink pulse, cream ribbon fall, mold marble light\n[Pre-Chorus] — frost whisper, kitchen heartbeat\n[Chorus] — repeat hook with one new image word\n[Bridge] — contrast warm roast memory vs cold crisp pop (no tutorial wording)\n[Final Chorus] — biggest hook, gang vocals, handclap texture\n[Outro Tag] — one soft hum and sparkle fade",
+    "shortVersionPlan": "Target 55-75s vertical excerpt aligned to Seedance beats: open on [Verse 1] first two lines over roast hook (segment-01), cut to [Pre-Chorus] during jammy payoff (segment-02), drop [Chorus] on first layering spoon (segment-04), ride chorus through freeze/release macro (segment-05), final chorus hook under motionless hero trio (segment-06) before Licorn outro (no Suno under outro). Fade music 0.5s before outro sync. Prefer: 0-12s verse, 12-22s pre-chorus, 22-52s chorus loop, 52-68s final chorus tag."
+  },
+  "instructions": {
+    "voice": "Bright young adult female lead, airy and intimate; optional light male harmony in chorus only. Keep consonants soft on frost/stick/plop words.",
+    "structure": "Chorus must include the phrase ruby swirl freeze or close variant for edit reuse. Bridge should not mention oven temperature or minutes.",
+    "workflowNotes": "Generate full song in Suno after operator edits; upload master to Recipe2Video; align excerpt markers to segment boundaries in assembly.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Title is first field in markdown mirror",
+    "Style of Music has no 2-3 minutes suffix in agent baseline",
+    "Auto Lyrics Prompt has no genre or production instructions",
+    "No artist imitation or brand names",
+    "Chorus hook is short and repeatable for 45-90s cut",
+    "Short version plan maps to segment arcs not tutorial steps"
+  ]
+}

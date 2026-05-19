@@ -606,7 +606,9 @@
       "title": "Licorn celebration outro",
       "arc": "licorn_celebration_outro",
       "mode": "References",
-      "logicalSceneIds": [],
+      "logicalSceneIds": [
+        "scene-outro"
+      ],
       "description": "Standardized Licorn celebration outro; Recipe2Video injects canonical prompt and timing at sync.",
       "prompt": "<APP_OVERRIDE>",
       "promptInitial": "<APP_OVERRIDE>",

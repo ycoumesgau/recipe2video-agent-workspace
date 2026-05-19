@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Lemon Butter Orecchiette with Burrata, Crispy Capers and Roasted Pistachios",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Lemon Butter Afterglow",
+    "styleOfMusic": "Glossy K-pop electronic pop with crisp four-on-the-floor kicks, rubbery synth bass, clipped staccato percussion, bright citrusy synth plucks, silky pre-chorus lift, candy-bright chorus, tiny glitch fills before drops, sparkle FX like lemon zest, close-mic lead vocals, stacked harmony hook, clean punchy mix with warm low end and neon sheen., k-pop, pop, electronic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising-style spoken voice, no voice-over narration, no real artist reference, no brand names, no French lyrics except recipe names that must stay French, no recipe tutorial lyrics, no ingredient counting.",
+    "autoLyricsPrompt": "Write original English song lyrics about a joyful unicorn kitchen mascot making lemon butter orecchiette with burrata, crispy capers and roasted pistachios. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, software names, or social media references.\n\nMood: glossy, flirty, citrus-bright, creamy, crunchy, late-night food-video ASMR energy, but not childish.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(lemon butter)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- roasted pistachio sparks and salty caper crunch\n- brown butter turning amber, lemon hitting with a hiss\n- little orecchiette cups catching glossy sauce\n- burrata opening like a soft white moon\n- basil, pepper, parmesan and lemon zest falling over cream\n- final bowl glowing on the kitchen island with a satisfied unicorn smile\n\nMust include naturally: lemon butter, orecchiette, burrata, pistachio, caper, basil, golden crunch, creamy afterglow.\n\nStructure:\n[Verse 1]\nPistachio sparks, caper crackle, lemon bright on the counter.\n\n[Pre-Chorus]\nBrown butter glows and the little pasta cups start shining.\n\n[Chorus]\nBig chantable hook around lemon butter + orecchiette + burrata cream + golden crunch. Repeat \"lemon butter\" as the hook.\n\n[Verse 2]\nOrecchiette catches sauce; burrata opens; basil and zest fall like light.\n\n[Bridge]\nSofter moment: cream, crunch, citrus, one glowing bowl, unicorn smile.\n\n[Final Chorus]\nRepeat the chorus with extra energy and a proud final image.",
+    "shortVersionPlan": "For a 45-90 second vertical cut, start with a tight intro or Verse 1 line over the crunch-shower hook, use the pre-chorus under the brown-butter lemon hiss and glossy pasta toss, land the full chorus on burrata opening and pistachio-caper topping rain, then use the final chorus or chorus tag over the motionless hero bowl and Licorn outro."
+  },
+  "instructions": {
+    "voice": "Use a bright, close-mic pop vocal persona if Suno Voices is available. Do not imitate a real singer or protected voice.",
+    "structure": "The chorus should be reusable under the burrata break, crunchy topping shower and final hero shot.",
+    "workflowNotes": "Suno generation is manual. The agent baseline is optimized for a short vertical excerpt; the operator applies the full-song edits before generating the 2-3 minute master.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Auto Lyrics Prompt is English, baseline only, and keeps music-production language out of the lyrics field.",
+    "Style of Music has no 2-3 minutes suffix in the committed artifact.",
+    "Operator full-song edits are documented separately.",
+    "Short version plan aligns chorus impact with burrata break, crunchy topping shower and final hero."
+  ]
+}

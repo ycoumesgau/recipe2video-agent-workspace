@@ -1,8 +1,8 @@
 {
   "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
   "branch": "cursor/recipe-ingest-vanilla-rose-cake-a60c",
-  "commitSha": "ca587f5dee0986ddb05a8050af0b61e073556c4d",
+  "commitSha": "c725cb756fad76d8fd013f2335376d30ba79346a",
   "manifestPath": "agent-recipes/abf433ea-5abb-4586-b0f5-0d8e6020cfee/checkpoint-manifest.json",
   "stage": "recipe_ingest",
-  "updatedAt": "2026-05-19T12:38:33.000Z"
+  "updatedAt": "2026-05-19T12:38:40.000Z"
 }

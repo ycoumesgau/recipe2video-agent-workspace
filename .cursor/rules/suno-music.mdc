@@ -10,6 +10,16 @@ alwaysApply: true
 - Video generation prompts must not request music.
 - Suno music is uploaded later into Recipe2Video and aligned in assembly.
 
+## Agent vs operator (2–3 minutes)
+
+The agent ships a **baseline** in artifacts. The operator applies a **fixed patch in Suno** before generating the long master:
+
+- **Auto Lyrics Prompt (agent):** `Write original English song lyrics…`; lyric style ends with `Keep the chorus reusable for a 45-90 second video edit.`; scaffold header `Structure:`.
+- **Auto Lyrics Prompt (operator, three edits):** `Write original 2-3 minutes English song lyrics…`; add `, but make a 2-3 minutes song` after the 45–90 s clause; header `Extend this structure to fit a 2-3 minutes song:`.
+- **Style of Music (operator):** append `2-3 minutes song.` at the end of the agent style prompt for full generation only.
+
+Do not embed operator full-song edits in `fields.autoLyricsPrompt` or `fields.styleOfMusic` by default. Document them in `instructions.fullSongOperatorEdits` and `## Operator full song (manual)` in `suno-prompt.md`. See `contracts/suno-music.md`.
+
 ## Required Suno Fields
 
 Keep these fields separate:

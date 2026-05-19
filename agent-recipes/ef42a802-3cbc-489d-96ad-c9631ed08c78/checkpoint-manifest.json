@@ -1,7 +1,7 @@
 {
   "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
   "branch": "cursor/recipe-ingest-dubai-chewy-cookie-82d5",
-  "commitSha": "fe4bbc89312d23a3965cbcfbd4a5b7552b87a4d7",
+  "commitSha": "d28ba9adca0fd7bc6b8cda778a65188df3deab41",
   "manifestPath": "agent-recipes/ef42a802-3cbc-489d-96ad-c9631ed08c78/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",

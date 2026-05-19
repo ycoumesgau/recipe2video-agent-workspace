@@ -1,6 +1,9 @@
 {
   "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
   "branch": "cursor/tiktok-wrap-hack-recipe-f1a3",
-  "commitSha": "9322422c4192cfdbe07ed5a5d859cdc6071bfbac",
-  "updatedAt": "2026-05-19T12:30:00Z"
+  "commitSha": "e614468a60d5222bca997976dbeeaff12ab8e72c",
+  "updatedAt": "2026-05-19T10:42:16.664Z",
+  "artifactPaths": [
+    "agent-recipes/b53e79e0-c082-4938-bb35-639f9c435cf6/seedance-segments.json"
+  ]
 }

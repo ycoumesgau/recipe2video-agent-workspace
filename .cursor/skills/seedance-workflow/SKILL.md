@@ -126,6 +126,7 @@ it. Emit it with:
 - `arc: "licorn_celebration_outro"`;
 - `id: "segment-outro"` (or any stable id ending in `-outro`);
 - `durationTarget: 5`;
+- `logicalSceneIds`: at least one placeholder id such as `["scene-outro"]` (never `[]` — sync validation requires ≥1 id even though the outro is app-injected, not scene-compressed);
 - `prompt: "<APP_OVERRIDE>"` and `promptInitial: "<APP_OVERRIDE>"`;
 - exactly 5 references in this order: `KitchenLayoutContextWide`,
   `KitchenIslandDefault`, `LicornOutroVideo`, `CharacterSheet`,

@@ -1,10 +1,6 @@
 {
   "videoId": "b53e79e0-c082-4938-bb35-639f9c435cf6",
   "branch": "cursor/tiktok-wrap-hack-recipe-f1a3",
-<<<<<<< HEAD
-  "commitSha": "094c01f148ad3c08658c0ec8ab58f1718bac1290",
-=======
-  "commitSha": "47128dc5e63c9eeff86284f4c1981f6fb2a170ca",
->>>>>>> 4639209 (chore: update checkpoint-manifest after contract fix)
+  "commitSha": "01fe206939107b4df26b9a4b3d477c309c25bea0",
   "updatedAt": "2026-05-19T12:30:00Z"
 }

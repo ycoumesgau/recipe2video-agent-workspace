@@ -1,11 +1,11 @@
 {
   "videoId": "dba056b9-a187-4c30-a5b8-fb0c8406d4f1",
   "branch": "cursor/recipe-ingest-lemon-burrata-pasta-e63f",
-  "commitSha": "1ce5dd36c65e07844ad427e2d9049ed27d7b3ebd",
+  "commitSha": "cb3754352b70b9c3050af1fb23954a2976e9205d",
   "manifestPath": "agent-recipes/dba056b9-a187-4c30-a5b8-fb0c8406d4f1/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",
-  "updatedAt": "2026-05-19T12:00:00Z",
+  "updatedAt": "2026-05-19T12:05:00Z",
   "artifacts": [
     "recipe-analysis.json",
     "logical-scenes.json",
@@ -14,7 +14,8 @@
     "suno-prompt.json",
     "suno-prompt.md",
     "decisions.md",
-    "changelog.md"
+    "changelog.md",
+    "checkpoint-manifest.json"
   ],
   "validation": {
     "jsonReadBack": true,

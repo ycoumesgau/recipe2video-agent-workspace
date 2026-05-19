@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Vanilla Layer Cake with Rose Buttercream",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Blush Spiral Sky",
+    "styleOfMusic": "Dreamy electropop baking pop with soft sidechain pads, twinkling music-box bells, and a bouncy four-on-the-floor kick; verses stay airy and intimate with close-mic whisper-sung lines, pre-chorus adds stacked harmonies and a rose-glass synth swell, chorus blooms cotton-candy bright with finger snaps and a sing-along hook. Subtle ASMR ear candy: powder puff, whisk tick, wire scrape, frosting pip squeak. Clean pastel mix, wide daylight sheen, no aggressive drops., pop, electronic, indie pop",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising voice-over, no real artist imitation, no brand names, no recipe-tutorial lyrics, no ingredient counting, no software names.",
+    "autoLyricsPrompt": "Write original English song lyrics about a playful unicorn chef making a vanilla layer cake with rose buttercream in the Licorn kitchen. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, or social media references.\n\nMood: romantic, pastel, floral-soft, cozy baking glow, food-video ASMR energy, celebratory but gentle.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(blush spiral)\" or \"(rose cream)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- rose powder blush spiral in milk, vanilla fleck streak\n- butter cubes in flour cloud, glossy batter ribbon\n- golden dome bake, wire leveler crumb curl\n- pale butter whip to blush satin peaks\n- layer stack squeeze, mirror coat, rosette kiss\n- wedge slice four-layer reveal, then still intact cake on stand\n- final motionless hero cake in the Licorn kitchen, satisfied glow\n\nMust include naturally: vanilla cake, rose buttercream, blush spiral, golden layers, rosette border, cake stand, unicorn, Licorn kitchen.\n\nStructure:\n[Verse 1]\nBlush spiral dreams in a glass moon bowl.\n\n[Pre-Chorus]\nRibbons fall; the tower starts to grow.\n\n[Chorus]\nChantable hook around blush spiral, rose cream clouds, golden layers, birthday glow.\n\n[Verse 2]\nWire scrape curl, mirror coat shine, rosette crown.\n\n[Bridge]\nSofter breath: four layers whisper, still cake on the stand.\n\n[Final Chorus]\nRepeat chorus with richer harmony and intact hero cake image.",
+    "shortVersionPlan": "Open on Verse 1 rose milk images synced to segment-01, pre-chorus into batter and bake textures (segments 02-04), chorus over buttercream whip and stack coat (segments 05-06), tag the motionless intact hero from segment-07 for the vertical outro handoff. Keep chorus hook under 15 seconds for TikTok/Reels."
+  },
+  "instructions": {
+    "voice": "Airy intimate lead with soft doubles on chorus; sweet not childish.",
+    "structure": "Chorus must survive a 45-90s vertical cut over stack and rosette beats.",
+    "workflowNotes": "Suno is manual. Paste fields into Suno Custom Mode.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit.\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Title avoids protected brands and artists.",
+    "Style of Music has no 2-3 minutes suffix in agent baseline.",
+    "Auto Lyrics Prompt is English, uses baseline opener, and ends lyric style with the 45-90 second video edit clause.",
+    "instructions.fullSongOperatorEdits documents operator Suno edits.",
+    "Short version aligns with Seedance ASMR beats.",
+    "No music requested in Seedance prompts."
+  ]
+}

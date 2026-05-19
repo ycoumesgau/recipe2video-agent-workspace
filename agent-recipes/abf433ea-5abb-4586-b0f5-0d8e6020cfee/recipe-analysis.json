@@ -1,0 +1,244 @@
+{
+  "recipe": {
+    "title": "Vanilla Layer Cake with Rose Buttercream",
+    "sourceType": "url",
+    "sourceUrl": "https://aclassictwist.com/vanilla-layer-cake-with-rose-buttercream/",
+    "ingredients": [
+      {
+        "name": "cake flour",
+        "quantity": "1 cup",
+        "note": "sifted"
+      },
+      {
+        "name": "all-purpose flour",
+        "quantity": "3/4 cup",
+        "note": null
+      },
+      {
+        "name": "granulated sugar",
+        "quantity": "1 cup",
+        "note": null
+      },
+      {
+        "name": "baking powder",
+        "quantity": "1 1/2 tsp",
+        "note": null
+      },
+      {
+        "name": "kosher salt",
+        "quantity": "1/2 tsp",
+        "note": null
+      },
+      {
+        "name": "unsalted butter (cake)",
+        "quantity": "1/2 cup (1 stick)",
+        "note": "room temp, 1-inch cubes"
+      },
+      {
+        "name": "large eggs",
+        "quantity": "2",
+        "note": "room temperature"
+      },
+      {
+        "name": "whole milk",
+        "quantity": "1/2 cup",
+        "note": "room temperature"
+      },
+      {
+        "name": "vanilla bean paste",
+        "quantity": "1 tsp",
+        "note": "cake batter"
+      },
+      {
+        "name": "rose powder",
+        "quantity": "1/2 tsp",
+        "note": "optional in batter; 1/2 tsp+ in frosting"
+      },
+      {
+        "name": "unsalted butter (frosting)",
+        "quantity": "1 1/2 cups (3 sticks)",
+        "note": "softened, whipped 8 minutes"
+      },
+      {
+        "name": "confectioners sugar",
+        "quantity": "4 cups",
+        "note": "sifted"
+      },
+      {
+        "name": "milk (frosting)",
+        "quantity": "2-3 tbsp",
+        "note": "with vanilla and rose powder"
+      },
+      {
+        "name": "pure vanilla extract",
+        "quantity": "1 tsp",
+        "note": "frosting wet mix"
+      },
+      {
+        "name": "pinch of salt",
+        "quantity": "pinch",
+        "note": "frosting"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Preheat and prep pans",
+        "timing": "10 min",
+        "visualCue": "325F oven, four 6x2-inch pans greased and parchment-lined",
+        "block": "cake_layers",
+        "textureCue": "matte parchment circles on metal pans",
+        "runwayRisk": "wrong pan count or diameter drift"
+      },
+      {
+        "position": 2,
+        "text": "Blend dry ingredients",
+        "timing": "2 min",
+        "visualCue": "flour, sugar, leavening sandy mix in stand mixer bowl",
+        "block": "cake_batter",
+        "textureCue": "fine even powder, no butter yet",
+        "runwayRisk": "lumpy dry streaks"
+      },
+      {
+        "position": 3,
+        "text": "Cut in butter",
+        "timing": "3 min",
+        "visualCue": "butter cubes disappear into sandy crumbs",
+        "block": "cake_batter",
+        "textureCue": "coarse meal with pea-sized butter flecks",
+        "runwayRisk": "melted butter smear instead of crumbs"
+      },
+      {
+        "position": 4,
+        "text": "Add eggs one at a time",
+        "timing": "2 min",
+        "visualCue": "pale yellow batter thickens between eggs",
+        "block": "cake_batter",
+        "textureCue": "smooth ribbon off paddle",
+        "runwayRisk": "curdled split batter"
+      },
+      {
+        "position": 5,
+        "text": "Whisk wet mix with rose and vanilla",
+        "timing": "1 min",
+        "visualCue": "pink-tinged milk swirl with rose powder and vanilla specks",
+        "block": "cake_batter",
+        "textureCue": "blush milk vein, floral dust motes",
+        "runwayRisk": "hot magenta instead of pale blush"
+      },
+      {
+        "position": 6,
+        "text": "Add wet ingredients in three parts",
+        "timing": "2 min",
+        "visualCue": "batter turns glossy pale ivory, scrape-down between additions",
+        "block": "cake_batter",
+        "textureCue": "thick pourable ribbon, no overbeat",
+        "runwayRisk": "dense rubbery batter if overmixed"
+      },
+      {
+        "position": 7,
+        "text": "Portion and bake layers",
+        "timing": "20-25 min",
+        "visualCue": "pans two-thirds full, golden domed layers, clean toothpick",
+        "block": "cake_layers",
+        "textureCue": "springy golden top, fine velvety crumb edge",
+        "runwayRisk": "single thick loaf instead of four disks"
+      },
+      {
+        "position": 8,
+        "text": "Cool and level domes",
+        "timing": "30+ min cool",
+        "visualCue": "wire leveler shaves dome; flat stackable disks",
+        "block": "cake_layers",
+        "textureCue": "satisfying curl of golden crumb falling away",
+        "runwayRisk": "uneven stack or collapsed layers"
+      },
+      {
+        "position": 9,
+        "text": "Whip rose buttercream",
+        "timing": "14 min total",
+        "visualCue": "pale butter to airy blush peaks after sugar alternation",
+        "block": "rose_buttercream",
+        "textureCue": "satin glossy peaks, pipeable not greasy",
+        "runwayRisk": "split greasy frosting or neon pink"
+      },
+      {
+        "position": 10,
+        "text": "Stack, crumb coat, final coat, decorate",
+        "timing": "20 min",
+        "visualCue": "four layers on stand, thin filling squeeze, smooth final shell, rosette border",
+        "block": "assembly",
+        "textureCue": "crumb coat texture vs mirror-smooth final pink shell",
+        "runwayRisk": "layer count drift, leaning tower, slice before hero lock"
+      }
+    ],
+    "subRecipes": [
+      "cake_batter",
+      "cake_layers",
+      "rose_buttercream",
+      "assembly"
+    ],
+    "assumptions": [
+      "Video uses four 6-inch (15 cm) diameter by 2-inch (5 cm) cake layers for a tall vertical stack readable in 9:16, matching the source's four-pan option rather than two 8-inch layers.",
+      "Finished hero is a four-layer round cake on a white cake stand on Licorn terrazzo, about 15 cm diameter and 12-14 cm tall with frosting, pale blush buttercream, simple piped rosette border (source says decorate as desired).",
+      "Rose buttercream stays pale blush pink, not hot magenta; rose powder is subtle floral, not overpowering.",
+      "Food-porn ASMR pacing: texture-first opening on rose-tinted milk swirl; no ingredient lineup; final slice cross-section only in segment-06, never as hook.",
+      "Oven shots use already-open Licorn oven references; no door choreography."
+    ],
+    "timing": {
+      "prep": "45 minutes",
+      "cook": "35 minutes",
+      "total": "1 hour 20 minutes"
+    },
+    "criticalTransformations": [
+      "Rose powder dissolving into milk with blush vein and vanilla speckle",
+      "Dry sandy mix to butter-cut crumbs to glossy ribbon batter",
+      "Pale batter in pan to golden domed baked layer with fine velvety crumb",
+      "Domed layer shaved to flat stackable disk with crumb curl payoff",
+      "Pale butter whipping to airy blush satin peaks for rose buttercream",
+      "Thin frosting layer squeeze between stacked disks",
+      "Crumb coat speckled shell hard-cutting to mirror-smooth final pink coat",
+      "Optional wedge slice revealing four even sponge layers and blush filling"
+    ],
+    "visualTextureOpportunities": [
+      "Rose powder dust hitting milk with swirling blush vein",
+      "Vanilla bean paste dark flecks streaking through pink milk",
+      "Butter cubes dropping into flour cloud in mixer bowl",
+      "Glossy batter ribbon falling from paddle scrape",
+      "Toothpick emerging clean from golden cake center",
+      "Steaming layer releasing from pan onto cooling rack",
+      "Wire leveler shaving dome with golden crumb curl falling",
+      "Buttercream whisk lifting pale pink glossy peaks",
+      "Offset spatula first frosting smear and filling squeeze between layers",
+      "Piping bag rosette kiss on cake border",
+      "Cross-section of four sponge layers with blush buttercream bands"
+    ],
+    "possibleHooks": [
+      "Rose powder whisked into milk: blush spiral paid off by vanilla streak (texture-first opening)",
+      "Glossy batter ribbon cascade from stand mixer paddle",
+      "Wire leveler shaving golden dome with satisfying crumb curl",
+      "Pale butter whipping to airy blush buttercream peaks",
+      "First offset spatula swipe of pink frosting on naked cake layer"
+    ],
+    "promptPolicySources": [
+      "recipe-agent-core",
+      "seedance-references",
+      "seedance-outro",
+      "tiktok-food-direction",
+      "food-physics-reference",
+      "suno-music"
+    ]
+  },
+  "clarifyingQuestions": [
+    {
+      "id": "pan-geometry",
+      "question": "Should the hero cake use four 6x2-inch layers (taller four-tier stack) or two 8-inch layers (wider two-tier)?",
+      "reason": "Source allows either pan set; layer count and diameter change reference geometry, stack height, and cross-section scale locks for Seedance."
+    },
+    {
+      "id": "decoration-style",
+      "question": "For final decoration, do you want only smooth sides with a piped rosette border, or additional elements (fresh rose petals, macarons, naked-style partial sides)?",
+      "reason": "Source says decorate as desired; garnish choices affect FinalDishVisual and whether segment-07 can stay motionless without drift."
+    }
+  ]
+}

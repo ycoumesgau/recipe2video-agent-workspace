@@ -1,0 +1,316 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural Licorn kitchen context for all segments",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Preserve cabinet layout, terrazzo material, and lighting only; not a mandatory wide camera.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "island hero stacking and final cake context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Light terrazzo island for mixer, stack, and outro.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-07",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead prep, level, pipe, and dust views",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Overhead terrazzo for milk swirl and decoration.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-04",
+        "segment-06",
+        "segment-07"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenWide",
+      "role": "open oven bake context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Already-open oven; no door choreography.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenCloseup",
+      "role": "baked layer golden reveal",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Close baked layer macro in oven context.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "StandMixer",
+      "role": "mixer bowl silhouette",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Stand mixer for batter and buttercream.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SiliconeSpatula",
+      "role": "batter scrape and fold",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Flexible spatula for bowl scrape.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Whisk",
+      "role": "rose milk and buttercream whisk",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Whisk silhouette for prep and peaks.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "OffsetSpatula",
+      "role": "frosting spread and smooth coat",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Offset spatula for layer frosting.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "RoseMilkSwirlFrame",
+      "role": "blush rose milk swirl color and vein",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Four-layer vanilla rose cake with pale blush buttercream rosette border on a white cake stand, 15 cm diameter, intact and motionless on Licorn terrazzo. Generate one vertical 9:16 still of rose powder blooming in a 12 cm glass of milk: pale blush spiral vein, vanilla bean flecks, satin surface, macro food-porn lighting on terrazzo, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "Whisk"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CakeBatterRibbonFrame",
+      "role": "glossy ivory batter ribbon texture",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of thick glossy pale ivory cake batter ribbon falling from a stand mixer paddle into a 24 cm bowl on light terrazzo, satin ribbon 2-3 cm thick, not chocolate, not baked, Licorn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "StandMixer",
+        "SiliconeSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "RawCakeLayerFrame",
+      "role": "pale smooth batter in 15 cm pan",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of pale smooth cake batter filling a parchment-lined 15 cm round pan two-thirds full on terrazzo, matte surface, not baked, Licorn lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "baking_dish"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "BakedCakeLayerFrame",
+      "role": "golden domed 15 cm layer before leveling",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of a golden domed vanilla cake layer 15 cm diameter in a round pan, fine velvety edge, springy top, warm bake color, not a cupcake or loaf, Licorn oven-warm lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "OvenCloseup",
+        "baking_dish",
+        "KitchenIslandDefault"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "LeveledCakeLayerFrame",
+      "role": "flat 15 cm disk 2 cm thick stack-ready",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of a leveled golden vanilla cake disk 15 cm diameter and 2 cm thick on a cooling rack over terrazzo, even edge, no dome, not oversized, Licorn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "baking_dish"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "RoseButtercreamPeaksFrame",
+      "role": "pale blush satin buttercream peaks",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of pale blush rose buttercream glossy peaks on a whisk over terrazzo, pipeable satin texture, not hot magenta, not greasy split, Licorn macro lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05",
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "StandMixer",
+        "Whisk"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "StackedCakePartialFrame",
+      "role": "three-layer partial stack on stand",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of a partial three-layer vanilla cake stack on a white cake stand on terrazzo, 15 cm diameter, blush buttercream between layers, fourth layer not yet placed, Licorn food-porn lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "OffsetSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CakeCrossSectionFrame",
+      "role": "wedge slice showing four sponge layers",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical still of a wedge slice removed from a 15 cm four-layer vanilla cake revealing even sponge layers and pale blush buttercream bands, clean cross-section, on terrazzo, Licorn macro lighting, no character hands.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "OffsetSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FinalDishVisual",
+      "role": "finished dish identity for hero and outro",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Four-layer vanilla rose cake with pale blush buttercream and piped rosette border on a white cake stand, 15 cm diameter, intact with no missing wedge, motionless on the Licorn terrazzo island. Generate one vertical 9:16 hero still: four even golden sponge layers visible only at top edge, smooth blush shell, simple rosette border, food-porn composition, warm Licorn kitchen lighting, no character.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-07",
+        "segment-outro"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "OffsetSpatula"
+      ]
+    }
+  ]
+}

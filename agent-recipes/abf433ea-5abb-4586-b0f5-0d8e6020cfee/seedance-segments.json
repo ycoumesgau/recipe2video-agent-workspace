@@ -1,0 +1,831 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 1,
+      "title": "Rose milk swirl hook",
+      "arc": "rose milk hook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05"
+      ],
+      "description": "Rose powder blush spiral, vanilla streak, milk ribbon payoff.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandOverhead as the active overhead prep view. Use @KitchenIslandDefault to preserve terrazzo identity if the shot widens. Use @Whisk only as whisk silhouette. Use @RoseMilkSwirlFrame only as blush milk swirl color and vein topology. Use @CharacterSheet and @PoseTopDown for visible hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music; powder puff, liquid swirl, whisk tick, ribbon slap. Mandatory timing: 0.0-0.8s: rose powder falls into milk and blooms blush spiral; 0.8-1.7s: spiral tightens (payoff to powder); 1.7-2.5s: vanilla bean flecks streak through blush milk; 2.5-3.4s: prep bowl on terrazzo context; 3.4-5.0s: whisk lifts satin blush ribbon. Scale lock: prep bowl 12-14 cm diameter, milk fill 5-6 cm deep, not a giant mixing bowl. Color lock: pale blush pink only, not hot magenta. Kitchen continuity lock: light terrazzo countertop, same cabinet layout. Global negatives: no ingredient lineup, no baked cake, no slice, no text, no speech, no voiceover, no music, no extra shots.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandOverhead as the active overhead prep view. Use @KitchenIslandDefault to preserve terrazzo identity if the shot widens. Use @Whisk only as whisk silhouette. Use @RoseMilkSwirlFrame only as blush milk swirl color and vein topology. Use @CharacterSheet and @PoseTopDown for visible hands. Generate exactly 5 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, macro texture-first, no text on screen. Integrated audio: no speech, no voiceover, no music; powder puff, liquid swirl, whisk tick, ribbon slap. Mandatory timing: 0.0-0.8s: rose powder falls into milk and blooms blush spiral; 0.8-1.7s: spiral tightens (payoff to powder); 1.7-2.5s: vanilla bean flecks streak through blush milk; 2.5-3.4s: prep bowl on terrazzo context; 3.4-5.0s: whisk lifts satin blush ribbon. Scale lock: prep bowl 12-14 cm diameter, milk fill 5-6 cm deep, not a giant mixing bowl. Color lock: pale blush pink only, not hot magenta. Kitchen continuity lock: light terrazzo countertop, same cabinet layout. Global negatives: no ingredient lineup, no baked cake, no slice, no text, no speech, no voiceover, no music, no extra shots.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context, not camera framing",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active overhead prep view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "terrazzo kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "whisk silhouette",
+          "name": "Whisk",
+          "label": "Whisk",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "blush milk swirl state",
+          "name": "RoseMilkSwirlFrame",
+          "label": "RoseMilkSwirlFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "rose dust",
+        "blush spiral",
+        "vanilla streak",
+        "milk ribbon"
+      ],
+      "timing": [
+        "0.0-0.8s: rose dust",
+        "0.8-1.7s: spiral payoff",
+        "3.4-5.0s: ribbon"
+      ],
+      "continuity": "Opening hook; pale blush only.",
+      "risk": "Model may turn milk hot pink or enlarge bowl.",
+      "audioPrompt": "powder puff; liquid swirl; whisk tick; ribbon slap",
+      "negatives": [
+        "no magenta frosting color",
+        "no ingredient lineup",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 2,
+      "title": "Vanilla batter build",
+      "arc": "batter build",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-06",
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12"
+      ],
+      "description": "Sandy dry mix, butter cubes, eggs, glossy batter ribbon.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault as active island view. Use @StandMixer and @SiliconeSpatula only as equipment silhouettes. Use @CakeBatterRibbonFrame only as glossy ivory ribbon batter texture. Use @CharacterSheet and @PoseThreeQuarterRight for mixer-side hands. Generate exactly 7 short shots with hard cuts, total duration 7 seconds, no slow motion, no extra shots. Integrated audio: no speech, no voiceover, no music; dry pulse, butter thuds, shell crack, paddle fold, spatula scrape. Mandatory timing: 0.0-0.9s: sandy dry mix pulse; 0.9-1.8s: butter cubes drop with flour puff; 1.8-2.6s: coarse crumb cut-in; 2.6-3.4s: egg yolk dome on batter; 3.4-4.3s: mixer context on terrazzo; 4.3-5.3s: wet pour turns glossy ribbon; 5.3-7.0s: spatula scrape ribbon fall. Scale lock: mixer bowl 24-26 cm diameter, batter ribbon 2-3 cm thick when lifted, not a bucket pour. Kitchen continuity lock: light terrazzo, flush black induction edge visible when widened. Global negatives: no overbeat gluey batter, no chocolate color, no baked layers, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault as active island view. Use @StandMixer and @SiliconeSpatula only as equipment silhouettes. Use @CakeBatterRibbonFrame only as glossy ivory ribbon batter texture. Use @CharacterSheet and @PoseThreeQuarterRight for mixer-side hands. Generate exactly 7 short shots with hard cuts, total duration 7 seconds, no slow motion, no extra shots. Integrated audio: no speech, no voiceover, no music; dry pulse, butter thuds, shell crack, paddle fold, spatula scrape. Mandatory timing: 0.0-0.9s: sandy dry mix pulse; 0.9-1.8s: butter cubes drop with flour puff; 1.8-2.6s: coarse crumb cut-in; 2.6-3.4s: egg yolk dome on batter; 3.4-4.3s: mixer context on terrazzo; 4.3-5.3s: wet pour turns glossy ribbon; 5.3-7.0s: spatula scrape ribbon fall. Scale lock: mixer bowl 24-26 cm diameter, batter ribbon 2-3 cm thick when lifted, not a bucket pour. Kitchen continuity lock: light terrazzo, flush black induction edge visible when widened. Global negatives: no overbeat gluey batter, no chocolate color, no baked layers, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "stand mixer silhouette",
+          "name": "StandMixer",
+          "label": "StandMixer",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flexible spatula silhouette",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "glossy batter ribbon state",
+          "name": "CakeBatterRibbonFrame",
+          "label": "CakeBatterRibbonFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "three-quarter hands pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "dry sandy mix",
+        "butter cubes",
+        "egg yolk",
+        "batter ribbon"
+      ],
+      "timing": [
+        "0.0-0.9s: dry mix",
+        "4.3-5.3s: wet pour",
+        "5.3-7.0s: ribbon scrape"
+      ],
+      "continuity": "Batter stays pale ivory glossy, not dense tan.",
+      "risk": "Overmix may read as rubbery paste; ribbon reference mandatory.",
+      "audioPrompt": "dry pulse; butter thud; crack; paddle; spatula scrape",
+      "negatives": [
+        "no chocolate batter",
+        "no baked cake",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 3,
+      "title": "Bake layers hard cut",
+      "arc": "bake reveal",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-13",
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18"
+      ],
+      "description": "Pan fill, oven slide, raw-to-baked hard cut, clean toothpick.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @OvenWide for already-open oven context. Use @OvenCloseup for baked layer reveal. Use @KitchenIslandDefault for pan lineup on terrazzo. Use @RawCakeLayerFrame only as pale smooth batter in 15 cm round pan two-thirds full. Use @BakedCakeLayerFrame only as golden domed 15 cm layer with fine velvety edge, not a muffin or loaf. Generate exactly 6 short shots with hard cuts, total duration 8 seconds, no oven door action, no extra shots. Integrated audio: no speech, no voiceover, no music; batter pour, tray slide, oven hum, toothpick pull. Mandatory timing: 0.0-0.9s: batter pour into lined pan; 0.9-1.9s: pans on terrazzo; 1.9-2.9s: tray slides into open oven; 2.9-3.7s: raw batter surface; 3.7-4.0s: hard cut; 4.0-6.2s: golden domed baked layer; 6.2-8.0s: clean toothpick pull. Scale lock: each layer 15 cm diameter, 2 cm tall after level (post-bake dome up to 3 cm before trim), four layers total, not a single tall loaf. Negative scale: not cupcake, not sheet cake slab, not miniature. Global negatives: no oven door open/close, no free morph between raw and baked, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @OvenWide for already-open oven context. Use @OvenCloseup for baked layer reveal. Use @KitchenIslandDefault for pan lineup on terrazzo. Use @RawCakeLayerFrame only as pale smooth batter in 15 cm round pan two-thirds full. Use @BakedCakeLayerFrame only as golden domed 15 cm layer with fine velvety edge, not a muffin or loaf. Generate exactly 6 short shots with hard cuts, total duration 8 seconds, no oven door action, no extra shots. Integrated audio: no speech, no voiceover, no music; batter pour, tray slide, oven hum, toothpick pull. Mandatory timing: 0.0-0.9s: batter pour into lined pan; 0.9-1.9s: pans on terrazzo; 1.9-2.9s: tray slides into open oven; 2.9-3.7s: raw batter surface; 3.7-4.0s: hard cut; 4.0-6.2s: golden domed baked layer; 6.2-8.0s: clean toothpick pull. Scale lock: each layer 15 cm diameter, 2 cm tall after level (post-bake dome up to 3 cm before trim), four layers total, not a single tall loaf. Negative scale: not cupcake, not sheet cake slab, not miniature. Global negatives: no oven door open/close, no free morph between raw and baked, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "open oven context",
+          "name": "OvenWide",
+          "label": "OvenWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "baked layer reveal angle",
+          "name": "OvenCloseup",
+          "label": "OvenCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "island pan lineup",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "raw batter surface state",
+          "name": "RawCakeLayerFrame",
+          "label": "RawCakeLayerFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "golden baked layer state",
+          "name": "BakedCakeLayerFrame",
+          "label": "BakedCakeLayerFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "batter pour",
+        "oven slide",
+        "hard cut bake",
+        "toothpick clean"
+      ],
+      "timing": [
+        "3.7-4.0s: hard cut",
+        "4.0-6.2s: baked dome",
+        "6.2-8.0s: toothpick"
+      ],
+      "continuity": "Four 15 cm layers; hard cut bake mandatory.",
+      "risk": "Seedance may morph batter to cake; state references required.",
+      "audioPrompt": "pour; tray slide; oven hum; toothpick pop",
+      "negatives": [
+        "no oven door",
+        "no morph bake",
+        "no loaf shape",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 8,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 4,
+      "title": "Level disks and steam",
+      "arc": "level and cool",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-19",
+        "scene-20",
+        "scene-21",
+        "scene-22"
+      ],
+      "description": "Invert steam, dome shave curl, flat stack-ready disks.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault and @KitchenIslandOverhead for cool and level views. Use @LeveledCakeLayerFrame only as flat 15 cm disk 2 cm thick with even golden edge. Use @BakedCakeLayerFrame only for domed pre-level topology in shave beat. Generate exactly 4 short shots with hard cuts, total duration 6 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; steam hiss, wire scrape, crumb patter. Mandatory timing: 0.0-1.0s: hot layer inverts with steam; 1.0-2.5s: wire leveler shaves dome, crumb curl falls; 2.5-4.0s: flat disk reveal; 4.0-6.0s: three leveled disks on rack context. Scale lock: 15 cm diameter disks, 2 cm thick after level, four disks total. Global negatives: no collapsed layers, no giant cake diameter, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault and @KitchenIslandOverhead for cool and level views. Use @LeveledCakeLayerFrame only as flat 15 cm disk 2 cm thick with even golden edge. Use @BakedCakeLayerFrame only for domed pre-level topology in shave beat. Generate exactly 4 short shots with hard cuts, total duration 6 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; steam hiss, wire scrape, crumb patter. Mandatory timing: 0.0-1.0s: hot layer inverts with steam; 1.0-2.5s: wire leveler shaves dome, crumb curl falls; 2.5-4.0s: flat disk reveal; 4.0-6.0s: three leveled disks on rack context. Scale lock: 15 cm diameter disks, 2 cm thick after level, four disks total. Global negatives: no collapsed layers, no giant cake diameter, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "island cooling view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead level view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flat leveled disk state",
+          "name": "LeveledCakeLayerFrame",
+          "label": "LeveledCakeLayerFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "domed pre-level state",
+          "name": "BakedCakeLayerFrame",
+          "label": "BakedCakeLayerFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "steam invert",
+        "dome shave",
+        "flat disk",
+        "four layers"
+      ],
+      "timing": [
+        "1.0-2.5s: crumb curl",
+        "2.5-4.0s: flat disk"
+      ],
+      "continuity": "Disk geometry locked for stack segment.",
+      "risk": "Model may shrink disks or merge layers.",
+      "audioPrompt": "steam hiss; wire scrape; crumb patter",
+      "negatives": [
+        "no collapsed cake",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 5,
+      "title": "Rose buttercream whip",
+      "arc": "buttercream whip",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-23",
+        "scene-24"
+      ],
+      "description": "Pale butter to blush satin peaks.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault as active view. Use @StandMixer and @Whisk only as equipment silhouettes. Use @RoseButtercreamPeaksFrame only as pale blush satin peaks, pipeable, not greasy split. Generate exactly 2 short shots with hard cuts, total duration 5 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; whisk whoosh, peak kiss. Mandatory timing: 0.0-2.5s: pale butter whips to airy white volume; 2.5-5.0s: blush peaks on whisk. Color lock: pale blush pink, not magenta. Global negatives: no split greasy butter, no neon color, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault as active view. Use @StandMixer and @Whisk only as equipment silhouettes. Use @RoseButtercreamPeaksFrame only as pale blush satin peaks, pipeable, not greasy split. Generate exactly 2 short shots with hard cuts, total duration 5 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; whisk whoosh, peak kiss. Mandatory timing: 0.0-2.5s: pale butter whips to airy white volume; 2.5-5.0s: blush peaks on whisk. Color lock: pale blush pink, not magenta. Global negatives: no split greasy butter, no neon color, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "mixer silhouette",
+          "name": "StandMixer",
+          "label": "StandMixer",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "whisk silhouette",
+          "name": "Whisk",
+          "label": "Whisk",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "blush buttercream peaks state",
+          "name": "RoseButtercreamPeaksFrame",
+          "label": "RoseButtercreamPeaksFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "butter whip",
+        "blush peaks"
+      ],
+      "timing": [
+        "0.0-2.5s: butter whip",
+        "2.5-5.0s: blush peaks"
+      ],
+      "continuity": "Frosting color carries to assembly.",
+      "risk": "Neon pink or split grease risk.",
+      "audioPrompt": "whisk whoosh; peak kiss",
+      "negatives": [
+        "no magenta",
+        "no greasy split",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 6,
+      "title": "Stack coat slice",
+      "arc": "stack and coat",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-25",
+        "scene-26",
+        "scene-27",
+        "scene-28",
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32"
+      ],
+      "description": "Frosting smear, stack squeeze, crumb to smooth coat, rosette, wedge slice.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault and @KitchenIslandOverhead for stack and pipe views. Use @OffsetSpatula only as offset spatula silhouette. Use @StackedCakePartialFrame only as three-layer partial stack on white stand 15 cm diameter. Use @CakeCrossSectionFrame only for wedge slice geometry: four sponge layers with blush bands. Use @CharacterSheet and @PoseThreeQuarterLeft for hands. Generate exactly 8 short shots with hard cuts, total duration 10 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; spatula glide, soft cake land, pip squeak, slice pull. Mandatory timing: 0.0-1.0s: first frosting smear; 1.0-1.9s: layer place with filling squeeze; 1.9-2.9s: partial stack context; 2.9-3.8s: speckled crumb coat; 3.8-4.8s: mirror smooth final coat; 4.8-5.7s: rosette pip; 5.7-7.5s: wedge slice reveals cross-section; 7.5-10.0s: stand with wedge removed. Scale lock: 15 cm diameter, four layers, 12-14 cm total height with frosting, white cake stand 18-20 cm plate. Destructive slice allowed here only. Global negatives: no fork dive on hero, no leaning tower, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault and @KitchenIslandOverhead for stack and pipe views. Use @OffsetSpatula only as offset spatula silhouette. Use @StackedCakePartialFrame only as three-layer partial stack on white stand 15 cm diameter. Use @CakeCrossSectionFrame only for wedge slice geometry: four sponge layers with blush bands. Use @CharacterSheet and @PoseThreeQuarterLeft for hands. Generate exactly 8 short shots with hard cuts, total duration 10 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; spatula glide, soft cake land, pip squeak, slice pull. Mandatory timing: 0.0-1.0s: first frosting smear; 1.0-1.9s: layer place with filling squeeze; 1.9-2.9s: partial stack context; 2.9-3.8s: speckled crumb coat; 3.8-4.8s: mirror smooth final coat; 4.8-5.7s: rosette pip; 5.7-7.5s: wedge slice reveals cross-section; 7.5-10.0s: stand with wedge removed. Scale lock: 15 cm diameter, four layers, 12-14 cm total height with frosting, white cake stand 18-20 cm plate. Destructive slice allowed here only. Global negatives: no fork dive on hero, no leaning tower, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active island stack view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead pipe view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "offset spatula silhouette",
+          "name": "OffsetSpatula",
+          "label": "OffsetSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "partial stack state",
+          "name": "StackedCakePartialFrame",
+          "label": "StackedCakePartialFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "cross-section slice state",
+          "name": "CakeCrossSectionFrame",
+          "label": "CakeCrossSectionFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hands pose",
+          "name": "PoseThreeQuarterLeft",
+          "label": "PoseThreeQuarterLeft",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "frosting smear",
+        "stack squeeze",
+        "smooth coat",
+        "rosette",
+        "wedge slice"
+      ],
+      "timing": [
+        "5.7-7.5s: wedge slice",
+        "3.8-4.8s: smooth coat"
+      ],
+      "continuity": "Slice happens here; segment-07 must restore intact hero per FinalDishVisual.",
+      "risk": "Wedge missing in seg-07; model may keep slice gap.",
+      "audioPrompt": "spatula glide; cake land; pip; slice pull",
+      "negatives": [
+        "no leaning tower",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 10,
+      "status": "ready"
+    },
+    {
+      "id": "segment-07",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 7,
+      "title": "Final hero lock for outro",
+      "arc": "final hero lock",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36",
+        "scene-37"
+      ],
+      "description": "Rosette refresh, rose dust sparkle, motionless intact cake for outro.",
+      "prompt": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault as active hero view. Use @KitchenIslandOverhead for dust and rosette beats. Use @FinalDishVisual only as intact final cake: four layers, 15 cm diameter, pale blush smooth coat, piped rosette border, on white cake stand, NO wedge missing, NO slice, NO fork in cake. Generate exactly 5 short shots with hard cuts, total duration 6 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; soft pip, powder whisper, ambient hush. Mandatory timing: 0.0-1.0s: rosette border refresh pip; 1.0-2.0s: rose powder snow on frosting; 2.0-4.0s: cake completely motionless on stand; 4.0-5.0s: slow push-in, static cake; 5.0-6.0s: wide kitchen context, cake foreground static. Critical: no slice, no missing wedge, no fork lift after 2.0s, dish unchanged. Scale lock: same 15 cm four-layer cake as segment-06 but fully intact. Global negatives: no character touching cake, no food destruction, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural Licorn kitchen context only. Use @KitchenIslandDefault as active hero view. Use @KitchenIslandOverhead for dust and rosette beats. Use @FinalDishVisual only as intact final cake: four layers, 15 cm diameter, pale blush smooth coat, piped rosette border, on white cake stand, NO wedge missing, NO slice, NO fork in cake. Generate exactly 5 short shots with hard cuts, total duration 6 seconds, no extra shots. Integrated audio: no speech, no voiceover, no music; soft pip, powder whisper, ambient hush. Mandatory timing: 0.0-1.0s: rosette border refresh pip; 1.0-2.0s: rose powder snow on frosting; 2.0-4.0s: cake completely motionless on stand; 4.0-5.0s: slow push-in, static cake; 5.0-6.0s: wide kitchen context, cake foreground static. Critical: no slice, no missing wedge, no fork lift after 2.0s, dish unchanged. Scale lock: same 15 cm four-layer cake as segment-06 but fully intact. Global negatives: no character touching cake, no food destruction, no text, no music.",
+      "references": [
+        {
+          "role": "structural Licorn kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hero kitchen view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead garnish view",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "intact final dish identity for outro",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "rosette refresh",
+        "rose dust",
+        "motionless hero",
+        "kitchen wide"
+      ],
+      "timing": [
+        "2.0-4.0s: motionless hold",
+        "5.0-6.0s: wide context"
+      ],
+      "continuity": "N-1 segment: intact cake frozen for standardized outro. Matches FinalDishVisual.",
+      "risk": "Model may keep wedge gap from segment-06; forbid missing slice.",
+      "audioPrompt": "pip squeak; powder whisper; ambient hush",
+      "negatives": [
+        "no wedge missing",
+        "no slice",
+        "no fork",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-outro",
+      "videoId": "abf433ea-5abb-4586-b0f5-0d8e6020cfee",
+      "position": 8,
+      "title": "Licorn celebration outro",
+      "arc": "licorn_celebration_outro",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-outro"
+      ],
+      "description": "Standardized Licorn celebration outro; Recipe2Video injects prompt, timing, beats, and negatives at sync.",
+      "prompt": "<APP_OVERRIDE>",
+      "promptInitial": "<APP_OVERRIDE>",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn celebration motion reference",
+          "name": "LicornOutroVideo",
+          "label": "LicornOutroVideo",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity lock",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [],
+      "timing": [],
+      "continuity": "FinalDishVisual matches segment-07 motionless intact cake.",
+      "risk": "",
+      "audioPrompt": "",
+      "negatives": [],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction",
+          "asset-reference-system"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

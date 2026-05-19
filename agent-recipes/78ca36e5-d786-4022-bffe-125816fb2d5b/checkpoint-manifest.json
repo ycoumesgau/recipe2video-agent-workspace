@@ -1,7 +1,7 @@
 {
   "videoId": "78ca36e5-d786-4022-bffe-125816fb2d5b",
   "branch": "cursor/ube-mochi-donuts-ingest-de6e",
-  "commitSha": "9cacec29f500cc9c8bfda5055108171ff563ef1b",
+  "commitSha": "f897b3ce21604efa97edf364044863daedbf144d",
   "stage": "recipe_ingest",
   "updatedAt": "2026-05-19T00:00:00Z",
   "artifacts": [

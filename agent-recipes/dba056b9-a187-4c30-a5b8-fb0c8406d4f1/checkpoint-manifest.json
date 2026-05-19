@@ -1,7 +1,7 @@
 {
   "videoId": "dba056b9-a187-4c30-a5b8-fb0c8406d4f1",
   "branch": "cursor/recipe-ingest-lemon-burrata-pasta-e63f",
-  "commitSha": "6de503052795ddad53a7522b02d652327742bd84",
+  "commitSha": "a0adb47b6b27acbb3012e71ee212cdee26b1b661",
   "manifestPath": "agent-recipes/dba056b9-a187-4c30-a5b8-fb0c8406d4f1/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",

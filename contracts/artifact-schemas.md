@@ -136,8 +136,6 @@ Scale guidance for `logical-scenes.json`:
 
 The app requires 5-10 Seedance segments.
 
-**Runway Seedance 2 duration:** each segment's `durationTarget` must be an **integer** from **5** to **15** seconds inclusive. Values outside that range fail Recipe2Video validation (artifact sync) or pre-flight checks before Runway is called.
-
 Scale guidance for `seedance-segments.json`:
 
 - put size/proportion continuity in `continuity`;
@@ -160,43 +158,12 @@ Scale guidance for `seedance-segments.json`:
       "mediaAssetId": null,
       "usedInSegmentIds": ["segment-01"],
       "status": "planned"
-    },
-    {
-      "type": "recipe_state",
-      "canonicalName": "FinishedDishCutaway",
-      "role": "finished dish geometry and cutaway anchor for hero shots",
-      "priority": 1,
-      "source": "generated_reference_needed",
-      "prompt": "Generate one vertical-reference still of the finished dish in its serving pan on a light terrazzo kitchen island, with the canonical Licorn macro food-porn lighting and a partial cutaway revealing the internal structure.",
-      "runwayUri": null,
-      "mediaAssetId": null,
-      "usedInSegmentIds": ["segment-01", "segment-07", "segment-08"],
-      "status": "planned",
-      "conditioningReferences": ["KitchenIslandDefault", "baking_dish", "TurningSpatula"]
     }
   ]
 }
 ```
 
 References are Seedance inputs. They must be planned before video generation.
-
-### `conditioningReferences` (recipe-specific entries only)
-
-For every entry whose `canonicalName` is NOT a library global (i.e. the entry would create a row in `reference_assets` via `source: "generated_reference_needed"`), declare `conditioningReferences`: an ordered list of `@Tag` library names that Recipe2Video will pass to GPT-Image 2 as `referenceImages[]` when generating the anchor.
-
-Without `conditioningReferences`, GPT-Image 2 invents the kitchen and pan from scratch and breaks visual continuity with the Seedance segments that consume the anchor.
-
-Minimum coverage for a `recipe_state` entry:
-
-- one kitchen view (`KitchenIslandDefault` or the relevant `KitchenIslandOverhead` / `InductionWide` / `OvenWide` variant) so the dish sits in the Licorn kitchen;
-- the cookware that holds the dish (`baking_dish`, `SaucepanLarge`, `Blender`, …) so the model preserves the right pan/vessel shape;
-- the dominant utensil when it is visible in the anchor (`TurningSpatula`, `Spoon`, …).
-
-**Never** include character anchors (`@CharacterSheet`, character poses such as `@PoseFront`, expressions such as `@CharacterExpressions`). Recipe2Video filters them out at generation time because the mascot adds noise to dish frames; the kitchen anchor already carries the Licorn visual identity for recipe-state images. Including them in the plan only wastes a planning slot.
-
-Do NOT list the recipe-specific entry itself in its own `conditioningReferences` — only library canonical names belong here.
-
-For entries whose `canonicalName` IS already a library global (e.g. `KitchenIslandDefault`), `conditioningReferences` is irrelevant and should be omitted: those entries are not generated through GPT-Image 2, the app reuses the stored library image directly.
 
 ## Outro Segment Contract
 
@@ -213,6 +180,15 @@ standardized Licorn celebration outro. It MUST satisfy:
   3. `LicornOutroVideo` (kind: video, library asset)
   4. `CharacterSheet` (kind: image)
   5. `FinalDishVisual` (kind: image, recipe-specific entry in `reference-plan.json`).
+
+### `FinalDishVisual.prompt` (dual use)
+
+The `prompt` on the recipe-specific `FinalDishVisual` entry is used both for GPT-Image 2 reference generation and as the dish identity clause injected into the canonical outro at sync time.
+
+- **Outro embed:** one short dish-only sentence, **≤ 280 characters**, neutral, no character, no action, no image-generation boilerplate ("Generate one vertical-reference still…"). Example: `a shallow hero bowl of lemon butter orecchiette with torn burrata, pistachio crunch and basil, intact on the countertop`.
+- **Image generation:** you may add kitchen or GPT-Image detail after that lead sentence, or in separate recipe_state entries; declare `conditioningReferences` per `contracts/reference-image-generation.md`.
+
+Recipe2Video can derive a short clause from a long GPT-Image prompt, but leading with the compact sentence is the reliable contract.
 
 The segment immediately before the outro (position N-1) MUST end with
 the dish in its final visible state, intact and motionless. Destructive

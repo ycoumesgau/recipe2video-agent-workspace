@@ -75,6 +75,10 @@ For a `recipe_state` anchor, include at least:
 - the cookware that holds the dish;
 - the dominant utensil when it appears in the anchor.
 
+### `FinalDishVisual` exception (outro + image gen)
+
+`FinalDishVisual` uses the same `prompt` field for GPT-Image 2 **and** for the dish clause embedded in the standardized Licorn outro at sync. **Start** the prompt with one short dish-only sentence (≤ 280 characters, no "Generate one vertical-reference still…" lead-in) that names the finished dish on the counter. You may append GPT-Image detail after that sentence for reference generation. Full rules: `.cursor/rules/seedance-outro.mdc`.
+
 ### Self-reference prohibition
 
 Never list the recipe-specific entry's own `canonicalName` inside its `conditioningReferences`. The app resolves names against the global library only.

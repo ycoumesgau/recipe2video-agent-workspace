@@ -1,0 +1,31 @@
+{
+  "videoId": "ef42a802-3cbc-489d-96ad-c9631ed08c78",
+  "branch": "cursor/recipe-ingest-dubai-chewy-cookie-82d5",
+  "commitSha": "fe4bbc89312d23a3965cbcfbd4a5b7552b87a4d7",
+  "manifestPath": "agent-recipes/ef42a802-3cbc-489d-96ad-c9631ed08c78/checkpoint-manifest.json",
+  "stage": "recipe_ingest",
+  "status": "validated",
+  "updatedAt": "2026-05-19T12:00:00Z",
+  "artifacts": [
+    "recipe-analysis.json",
+    "logical-scenes.json",
+    "seedance-segments.json",
+    "reference-plan.json",
+    "suno-prompt.json",
+    "suno-prompt.md",
+    "decisions.md",
+    "changelog.md",
+    "checkpoint-manifest.json"
+  ],
+  "validation": {
+    "jsonReadBack": true,
+    "strictJsonValidated": true,
+    "notes": [
+      "36 logical scenes; 7 Seedance segments including licorn_celebration_outro with scene-outro placeholder.",
+      "Texture-first opening: kataifi butter sizzle with crunch payoff in scene 2.",
+      "Cross-section food porn in segment-05; motionless hero lock segment-06 for outro handoff.",
+      "FinalDishVisual lead sentence under 280 chars for outro embed.",
+      "suno-prompt.json: agent baseline + instructions.fullSongOperatorEdits per contracts/suno-music.md."
+    ]
+  }
+}

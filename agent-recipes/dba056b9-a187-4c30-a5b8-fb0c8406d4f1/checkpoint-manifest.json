@@ -1,11 +1,11 @@
 {
   "videoId": "dba056b9-a187-4c30-a5b8-fb0c8406d4f1",
   "branch": "cursor/recipe-ingest-lemon-burrata-pasta-e63f",
-  "commitSha": "ea0c7939bc1137a6f2da3a5921f218b06a6cd44b",
+  "commitSha": "6de503052795ddad53a7522b02d652327742bd84",
   "manifestPath": "agent-recipes/dba056b9-a187-4c30-a5b8-fb0c8406d4f1/checkpoint-manifest.json",
   "stage": "recipe_ingest",
   "status": "validated",
-  "updatedAt": "2026-05-19T12:05:00Z",
+  "updatedAt": "2026-05-19T14:00:00Z",
   "artifacts": [
     "recipe-analysis.json",
     "logical-scenes.json",
@@ -21,11 +21,10 @@
     "jsonReadBack": true,
     "strictJsonValidated": true,
     "notes": [
-      "JSON artifacts read back and parsed with Python json module.",
-      "37 logical scenes (30-48 range), 8 Seedance segments including licorn_celebration_outro.",
-      "All segment durationTarget integers 5-15; references at or below 9 per segment.",
-      "Kitchen continuity pair present on creative segments; FinalDishVisual with conditioningReferences.",
-      "Creator overrides: orecchiette pasta, roasted pistachio sub-recipe, food-porn ASMR tone."
+      "seedance-segments.json and suno-prompt.json corrected for Recipe2Video contract compliance.",
+      "Timing entries use start-endXs: beat colon format; promptInitial follows prompt on every segment.",
+      "segment-outro: empty beats/timing/negatives; five canonical reference roles; APP_OVERRIDE prompts.",
+      "suno-prompt.json: agent baseline autoLyricsPrompt + instructions.fullSongOperatorEdits per contracts/suno-music.md."
     ]
   }
 }

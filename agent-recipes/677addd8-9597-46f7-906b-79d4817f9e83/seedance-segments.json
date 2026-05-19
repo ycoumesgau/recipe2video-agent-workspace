@@ -1,0 +1,788 @@
+{
+  "seedanceSegments": [
+    {
+      "id": "segment-01",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 1,
+      "title": "Lamination fold hook",
+      "arc": "lamination hook",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-01",
+        "scene-02",
+        "scene-03",
+        "scene-04",
+        "scene-05",
+        "scene-06"
+      ],
+      "description": "Butter lock, feuilletage folds, triangle cut, raw crescent spiral.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for overhead lamination actions. Use @KitchenIslandDefault to preserve terrazzo and cabinet identity if framing widens. Use @RollingPin only as rolling pin shape. Use @BakingMat only as silicone mat surface. Use @LaminatedDoughLayersFrame only as laminated butter-layer topology: visible alternating dough and butter strata, not a smooth single slab. Use @CharacterSheet and @PoseTopDown for visible hands on folds.\n\nKitchen continuity lock: light terrazzo island, same cabinet layout as kitchen references; no invented wood counters.\n\nGenerate exactly 8 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, texture-first, no text on screen.\n\nIntegrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts.\n\nMandatory timing:\n- 0.0-0.7s: cold butter block centered on dough square;\n- 0.7-1.4s: first envelope fold, layers peek;\n- 1.4-2.1s: roll to rectangle, stripe ridges;\n- 2.1-2.8s: single tour fold three layers visible;\n- 2.8-3.4s: double tour portefeuille press;\n- 3.4-4.0s: cut triangles overhead;\n- 4.0-4.6s: roll crescent, spiral tip macro;\n- 4.6-5.0s: hold spiral feuilletage raw.\n\nScale lock: croissant length 14-16 cm raw; butter block ~12 cm square. Negatives: not oversized croissant, not miniature, no melted butter bleed.\n\nGlobal negatives: no ingredient lineup, no text, no music, no smooth unlaminated dough.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for overhead lamination actions. Use @KitchenIslandDefault to preserve terrazzo and cabinet identity if framing widens. Use @RollingPin only as rolling pin shape. Use @BakingMat only as silicone mat surface. Use @LaminatedDoughLayersFrame only as laminated butter-layer topology: visible alternating dough and butter strata, not a smooth single slab. Use @CharacterSheet and @PoseTopDown for visible hands on folds.\n\nKitchen continuity lock: light terrazzo island, same cabinet layout as kitchen references; no invented wood counters.\n\nGenerate exactly 8 short shots with hard cuts, total duration 5 seconds, no slow motion, no soft transitions, no extra shots. TikTok/Reels food ASMR style, texture-first, no text on screen.\n\nIntegrated audio: no speech, no voiceover, no music. Only close-up kitchen ASMR synchronized with cuts.\n\nMandatory timing:\n- 0.0-0.7s: cold butter block centered on dough square;\n- 0.7-1.4s: first envelope fold, layers peek;\n- 1.4-2.1s: roll to rectangle, stripe ridges;\n- 2.1-2.8s: single tour fold three layers visible;\n- 2.8-3.4s: double tour portefeuille press;\n- 3.4-4.0s: cut triangles overhead;\n- 4.0-4.6s: roll crescent, spiral tip macro;\n- 4.6-5.0s: hold spiral feuilletage raw.\n\nScale lock: croissant length 14-16 cm raw; butter block ~12 cm square. Negatives: not oversized croissant, not miniature, no melted butter bleed.\n\nGlobal negatives: no ingredient lineup, no text, no music, no smooth unlaminated dough.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead lamination surface",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "global kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "rolling pin shape",
+          "name": "RollingPin",
+          "label": "RollingPin",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "silicone mat surface",
+          "name": "BakingMat",
+          "label": "BakingMat",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "laminated butter-layer topology",
+          "name": "LaminatedDoughLayersFrame",
+          "label": "LaminatedDoughLayersFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "butter lock",
+        "layer fold",
+        "crescent spiral"
+      ],
+      "timing": [
+        "0.0-0.7s butter block",
+        "1.4-2.1s layer reveal",
+        "4.0-4.6s spiral tip"
+      ],
+      "continuity": "Opening texture-first; scene 2 pays off visible strata from scene 1.",
+      "risk": "Seedance may smooth lamination into one dough mass; LaminatedDoughLayersFrame mandatory.",
+      "audioPrompt": "dry fold; butter tap; roll ridges; soft dough roll",
+      "negatives": [
+        "no text",
+        "no music",
+        "no ingredient lineup",
+        "no smooth unlaminated dough"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-02",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 2,
+      "title": "Bake golden croissants",
+      "arc": "shape proof bake croissant",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-07",
+        "scene-08",
+        "scene-09",
+        "scene-10",
+        "scene-11",
+        "scene-12"
+      ],
+      "description": "Egg wash, oven slide, hard cut raw to baked, flake pull, syrup gloss.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @OvenWide for tray slide into already-open oven (no door action). Use @OvenCloseup for baked reveal. Use @KitchenIslandDefault for kitchen identity. Use @RawCroissantCrescentsFrame only as raw crescent topology: 14-16 cm, spaced on parchment, pale unbaked layers. Use @BakedCroissantGoldenFrame only as baked target: puffed golden laminated horns, visible flake, not brioche smooth. Use @PastryBrush only as brush shape for egg wash and syrup.\n\nGenerate exactly 6 short shots with hard cuts, total duration 6 seconds, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.8s: egg wash gloss on raw crescents;\n- 0.8-1.6s: tray slides into open oven;\n- 1.6-2.2s: raw reference state;\n- 2.2-2.4s: hard cut;\n- 2.4-4.0s: baked golden crescents match reference;\n- 4.0-5.2s: flake pull-apart lamella;\n- 5.2-6.0s: syrup glaze shine.\n\nScale lock: 14-16 cm crescents, 4-6 pieces on tray visible. Negatives: not baguette, not pain au chocolat bar, no oven door swing.\n\nGlobal negatives: no morphing raw-to-baked, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @OvenWide for tray slide into already-open oven (no door action). Use @OvenCloseup for baked reveal. Use @KitchenIslandDefault for kitchen identity. Use @RawCroissantCrescentsFrame only as raw crescent topology: 14-16 cm, spaced on parchment, pale unbaked layers. Use @BakedCroissantGoldenFrame only as baked target: puffed golden laminated horns, visible flake, not brioche smooth. Use @PastryBrush only as brush shape for egg wash and syrup.\n\nGenerate exactly 6 short shots with hard cuts, total duration 6 seconds, no extra shots, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.8s: egg wash gloss on raw crescents;\n- 0.8-1.6s: tray slides into open oven;\n- 1.6-2.2s: raw reference state;\n- 2.2-2.4s: hard cut;\n- 2.4-4.0s: baked golden crescents match reference;\n- 4.0-5.2s: flake pull-apart lamella;\n- 5.2-6.0s: syrup glaze shine.\n\nScale lock: 14-16 cm crescents, 4-6 pieces on tray visible. Negatives: not baguette, not pain au chocolat bar, no oven door swing.\n\nGlobal negatives: no morphing raw-to-baked, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "oven tray context",
+          "name": "OvenWide",
+          "label": "OvenWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "baked reveal angle",
+          "name": "OvenCloseup",
+          "label": "OvenCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "global kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "raw crescent topology",
+          "name": "RawCroissantCrescentsFrame",
+          "label": "RawCroissantCrescentsFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "baked golden crescent target",
+          "name": "BakedCroissantGoldenFrame",
+          "label": "BakedCroissantGoldenFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pastry brush shape",
+          "name": "PastryBrush",
+          "label": "PastryBrush",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "egg wash",
+        "hard cut bake",
+        "flake pull",
+        "syrup gloss"
+      ],
+      "timing": [
+        "0.8-1.6s tray slide",
+        "2.2-2.4s hard cut",
+        "4.0-5.2s flake pull"
+      ],
+      "continuity": "Croissant length 14-16 cm locked from segment 01 spiral.",
+      "risk": "Morphing raw-to-baked or brioche-smooth surface; state refs required.",
+      "audioPrompt": "oven warmth; crust crackle; syrup brush",
+      "negatives": [
+        "no oven door swing",
+        "no morph bake",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-03",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 3,
+      "title": "Cookie dough mix and chill",
+      "arc": "cookie dough",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-13",
+        "scene-14",
+        "scene-15",
+        "scene-16",
+        "scene-17",
+        "scene-18"
+      ],
+      "description": "Melted butter, mix, chips, chilled dough balls.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for mixing. Use @KitchenIslandDefault for identity. Use @Whisk, @Spoon, @SiliconeSpatula only as utensil shapes. Use @CookieDoughBallsFrame only as chilled dough ball target: ~4 cm spheres, chocolate chips visible, matte cold surface. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 7 short shots with hard cuts, total duration 5 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.6s: melted butter pours onto sugars;\n- 0.6-1.2s: glossy ribbon stir;\n- 1.2-1.8s: egg whisk in;\n- 1.8-2.4s: flour cloud sift;\n- 2.4-3.0s: chips fold minimal;\n- 3.0-3.8s: bowl to fridge implied cut;\n- 3.8-5.0s: 16 firm balls match reference.\n\nScale lock: dough balls 3.5-4 cm diameter. Negatives: not liquid batter, not oversized scoops.\n\nGlobal negatives: no speech, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for mixing. Use @KitchenIslandDefault for identity. Use @Whisk, @Spoon, @SiliconeSpatula only as utensil shapes. Use @CookieDoughBallsFrame only as chilled dough ball target: ~4 cm spheres, chocolate chips visible, matte cold surface. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 7 short shots with hard cuts, total duration 5 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.6s: melted butter pours onto sugars;\n- 0.6-1.2s: glossy ribbon stir;\n- 1.2-1.8s: egg whisk in;\n- 1.8-2.4s: flour cloud sift;\n- 2.4-3.0s: chips fold minimal;\n- 3.0-3.8s: bowl to fridge implied cut;\n- 3.8-5.0s: 16 firm balls match reference.\n\nScale lock: dough balls 3.5-4 cm diameter. Negatives: not liquid batter, not oversized scoops.\n\nGlobal negatives: no speech, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead mixing",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "global kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "whisk shape",
+          "name": "Whisk",
+          "label": "Whisk",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "spoon shape",
+          "name": "Spoon",
+          "label": "Spoon",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flexible spatula shape",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "chilled dough ball target",
+          "name": "CookieDoughBallsFrame",
+          "label": "CookieDoughBallsFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "butter pour",
+        "chip fold",
+        "chill balls"
+      ],
+      "timing": [
+        "0.0-0.6s butter pour",
+        "3.8-5.0s dough balls"
+      ],
+      "continuity": "Cookie balls 3.5-4 cm for assembly segment 04.",
+      "risk": "Liquid batter instead of firm chill; CookieDoughBallsFrame required.",
+      "audioPrompt": "butter pour; whisk; chip clatter; bowl tap",
+      "negatives": [
+        "no text",
+        "no music",
+        "no runny batter"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    },
+    {
+      "id": "segment-04",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 4,
+      "title": "Fill and stage crookies",
+      "arc": "crookie assembly",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-19",
+        "scene-20",
+        "scene-21",
+        "scene-22",
+        "scene-23",
+        "scene-24"
+      ],
+      "description": "Hinge cut, cookie fill inside and out, topping, pre-bake tray.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for assembly. Use @KitchenIslandDefault for terrazzo lock. Use @ChefKnife only as long serrated knife shape for hinge cut. Use @SiliconeSpatula only as flexible spreader. Use @CrookiePreBakeFrame only as filled crookie identity: split croissant hinge intact, cookie dough inside and on top, pecan and chips, unbaked matte cookie. Use @BakedCroissantGoldenFrame only as croissant shell color reference before second bake. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 7 short shots with hard cuts, total duration 7 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.9s: hinge cut without separating;\n- 0.9-1.8s: flatten cookie ball inside;\n- 1.8-2.6s: second disk outside top;\n- 2.6-3.4s: chips and pecan press;\n- 3.4-4.2s: tray spacing overhead;\n- 4.2-5.4s: pre-bake reference match;\n- 5.4-7.0s: hands exit, static pre-bake row.\n\nScale lock: crookie length 14-16 cm; cookie disks 4-5 cm diameter each side. Negatives: not closed whole croissant, not cookie-only disc without croissant.\n\nGlobal negatives: no character eating, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandOverhead for assembly. Use @KitchenIslandDefault for terrazzo lock. Use @ChefKnife only as long serrated knife shape for hinge cut. Use @SiliconeSpatula only as flexible spreader. Use @CrookiePreBakeFrame only as filled crookie identity: split croissant hinge intact, cookie dough inside and on top, pecan and chips, unbaked matte cookie. Use @BakedCroissantGoldenFrame only as croissant shell color reference before second bake. Use @CharacterSheet and @PoseTopDown for hands.\n\nGenerate exactly 7 short shots with hard cuts, total duration 7 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.9s: hinge cut without separating;\n- 0.9-1.8s: flatten cookie ball inside;\n- 1.8-2.6s: second disk outside top;\n- 2.6-3.4s: chips and pecan press;\n- 3.4-4.2s: tray spacing overhead;\n- 4.2-5.4s: pre-bake reference match;\n- 5.4-7.0s: hands exit, static pre-bake row.\n\nScale lock: crookie length 14-16 cm; cookie disks 4-5 cm diameter each side. Negatives: not closed whole croissant, not cookie-only disc without croissant.\n\nGlobal negatives: no character eating, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "overhead assembly",
+          "name": "KitchenIslandOverhead",
+          "label": "KitchenIslandOverhead",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "terrazzo lock",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "serrated knife shape",
+          "name": "ChefKnife",
+          "label": "ChefKnife",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "flexible spreader",
+          "name": "SiliconeSpatula",
+          "label": "SiliconeSpatula",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "filled pre-bake crookie identity",
+          "name": "CrookiePreBakeFrame",
+          "label": "CrookiePreBakeFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "croissant shell color reference",
+          "name": "BakedCroissantGoldenFrame",
+          "label": "BakedCroissantGoldenFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "top-down hands pose",
+          "name": "PoseTopDown",
+          "label": "PoseTopDown",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "hinge cut",
+        "double fill",
+        "pre-bake lock"
+      ],
+      "timing": [
+        "0.0-0.9s hinge cut",
+        "4.2-5.4s pre-bake match"
+      ],
+      "continuity": "Same 14-16 cm croissant shell; pre-bake state flows to segment 05.",
+      "risk": "Cookie slides off or croissant separates; hinge must stay intact.",
+      "audioPrompt": "knife crust; dough press; pecan crack",
+      "negatives": [
+        "no closed whole croissant",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 7,
+      "status": "ready"
+    },
+    {
+      "id": "segment-05",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 5,
+      "title": "Bake and gooey reveal",
+      "arc": "bake reveal crookie",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-25",
+        "scene-26",
+        "scene-27",
+        "scene-28"
+      ],
+      "description": "Second bake, steam, controlled break showing molten cookie center.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @OvenCloseup for bake and steam. Use @OvenWide for tray context. Use @KitchenIslandDefault for identity. Use @CrookiePreBakeFrame as start state. Use @CrossSectionCrookieGooeyFrame only for controlled break reveal: molten chocolate chip center, flaky outer croissant, not a clean slice. Use @BakingDish only as sheet pan edge if needed.\n\nDestructive beat allowed in this segment only.\n\nGenerate exactly 6 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.0s: oven rise, cookie edges darken;\n- 1.0-2.0s: steam on golden crookie;\n- 2.0-3.0s: tray out implied;\n- 3.0-4.2s: break open gooey center;\n- 4.2-5.0s: chocolate stretch;\n- 5.0-6.0s: cooling rack context wide.\n\nScale lock: 14-16 cm crookie. Negatives: not raw dough center, not hollow croissant.\n\nGlobal negatives: no spoon dive on hero platter, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @OvenCloseup for bake and steam. Use @OvenWide for tray context. Use @KitchenIslandDefault for identity. Use @CrookiePreBakeFrame as start state. Use @CrossSectionCrookieGooeyFrame only for controlled break reveal: molten chocolate chip center, flaky outer croissant, not a clean slice. Use @BakingDish only as sheet pan edge if needed.\n\nDestructive beat allowed in this segment only.\n\nGenerate exactly 6 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-1.0s: oven rise, cookie edges darken;\n- 1.0-2.0s: steam on golden crookie;\n- 2.0-3.0s: tray out implied;\n- 3.0-4.2s: break open gooey center;\n- 4.2-5.0s: chocolate stretch;\n- 5.0-6.0s: cooling rack context wide.\n\nScale lock: 14-16 cm crookie. Negatives: not raw dough center, not hollow croissant.\n\nGlobal negatives: no spoon dive on hero platter, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "bake and steam",
+          "name": "OvenCloseup",
+          "label": "OvenCloseup",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "tray context",
+          "name": "OvenWide",
+          "label": "OvenWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "global kitchen identity",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "pre-bake start state",
+          "name": "CrookiePreBakeFrame",
+          "label": "CrookiePreBakeFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "gooey break reveal topology",
+          "name": "CrossSectionCrookieGooeyFrame",
+          "label": "CrossSectionCrookieGooeyFrame",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "sheet pan edge",
+          "name": "BakingDish",
+          "label": "BakingDish",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "oven rise",
+        "steam",
+        "gooey break"
+      ],
+      "timing": [
+        "0.0-1.0s oven rise",
+        "3.0-4.2s gooey break"
+      ],
+      "continuity": "Destructive reveal here only; segment 06 returns to intact hero.",
+      "risk": "Model may break hero crookies in later segment if break too prominent; isolate to this segment.",
+      "audioPrompt": "oven hum; sizzle; chocolate stretch",
+      "negatives": [
+        "no hero platter break",
+        "no text",
+        "no music"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-06",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 6,
+      "title": "Hero lock intact crookies",
+      "arc": "hero lock",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-29",
+        "scene-30",
+        "scene-31",
+        "scene-32",
+        "scene-33",
+        "scene-34",
+        "scene-35",
+        "scene-36"
+      ],
+      "description": "Intact golden crookies on rack and island; character satisfied; motionless outro handoff.",
+      "prompt": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero island view. Use @FinalDishVisual only as finished dish identity: one intact golden crookie with pecan and chocolate chips on light terrazzo, motionless. Use @CharacterSheet and @PoseThreeQuarterRight for satisfied character at frame edge.\n\nNo slice, bite, break, spoon dive, or garnish drop on intact crookie.\n\nGenerate exactly 8 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.8s: crookie placed on cooling rack;\n- 0.8-1.6s: macro intact surface pecan and chips;\n- 1.6-2.6s: trio on terrazzo island motionless;\n- 2.6-3.4s: single hero crookie 14-16 cm macro;\n- 3.4-4.2s: wide island no hands;\n- 4.2-5.0s: side light on flaky edge;\n- 5.0-5.6s: character pleased at edge, food untouched;\n- 5.6-6.0s: hold matches FinalDishVisual exactly.\n\nScale lock: crookie 14-16 cm length; trio count 3 on island. Negatives: not miniature pastry, not oversized brioche, no broken shell on hero.\n\nGlobal negatives: no break on hero crookie, no character touching food, no text, no music.",
+      "promptInitial": "Use @KitchenLayoutContextWide as structural kitchen context. Use @KitchenIslandDefault as hero island view. Use @FinalDishVisual only as finished dish identity: one intact golden crookie with pecan and chocolate chips on light terrazzo, motionless. Use @CharacterSheet and @PoseThreeQuarterRight for satisfied character at frame edge.\n\nNo slice, bite, break, spoon dive, or garnish drop on intact crookie.\n\nGenerate exactly 8 short shots with hard cuts, total duration 6 seconds, no text.\n\nIntegrated audio: no speech, no voiceover, no music.\n\nMandatory timing:\n- 0.0-0.8s: crookie placed on cooling rack;\n- 0.8-1.6s: macro intact surface pecan and chips;\n- 1.6-2.6s: trio on terrazzo island motionless;\n- 2.6-3.4s: single hero crookie 14-16 cm macro;\n- 3.4-4.2s: wide island no hands;\n- 4.2-5.0s: side light on flaky edge;\n- 5.0-5.6s: character pleased at edge, food untouched;\n- 5.6-6.0s: hold matches FinalDishVisual exactly.\n\nScale lock: crookie 14-16 cm length; trio count 3 on island. Negatives: not miniature pastry, not oversized brioche, no broken shell on hero.\n\nGlobal negatives: no break on hero crookie, no character touching food, no text, no music.",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "character identity",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "satisfaction pose",
+          "name": "PoseThreeQuarterRight",
+          "label": "PoseThreeQuarterRight",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "intact macro",
+        "trio platter",
+        "character satisfaction",
+        "hold"
+      ],
+      "timing": [
+        "5.6-6.0s FinalDishVisual hold"
+      ],
+      "continuity": "Matches FinalDishVisual exactly for licorn_celebration_outro; no break or touch.",
+      "risk": "Accidental slice or bite on hero; restate intact lock in negatives.",
+      "audioPrompt": "quiet kitchen; subtle crust tap; satisfied exhale",
+      "negatives": [
+        "no break on hero",
+        "no character touching food",
+        "no text"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-workflow",
+          "food-physics-reference",
+          "tiktok-food-direction"
+        ]
+      },
+      "durationTarget": 6,
+      "status": "ready"
+    },
+    {
+      "id": "segment-outro",
+      "videoId": "677addd8-9597-46f7-906b-79d4817f9e83",
+      "position": 7,
+      "title": "Licorn celebration outro",
+      "arc": "licorn_celebration_outro",
+      "mode": "References",
+      "logicalSceneIds": [
+        "scene-outro"
+      ],
+      "description": "App-injected standardized Licorn celebration; dish from FinalDishVisual.",
+      "prompt": "<APP_OVERRIDE>",
+      "promptInitial": "<APP_OVERRIDE>",
+      "references": [
+        {
+          "role": "structural kitchen context",
+          "name": "KitchenLayoutContextWide",
+          "label": "KitchenLayoutContextWide",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "active hero island view",
+          "name": "KitchenIslandDefault",
+          "label": "KitchenIslandDefault",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn celebration motion reference",
+          "name": "LicornOutroVideo",
+          "label": "LicornOutroVideo",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "Licorn character identity lock",
+          "name": "CharacterSheet",
+          "label": "CharacterSheet",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        },
+        {
+          "role": "finished dish identity",
+          "name": "FinalDishVisual",
+          "label": "FinalDishVisual",
+          "runwayUri": null,
+          "mediaAssetId": null,
+          "required": true
+        }
+      ],
+      "beats": [
+        "licorn celebration"
+      ],
+      "timing": [
+        "app-injected"
+      ],
+      "continuity": "Follows segment-06 intact FinalDishVisual state.",
+      "risk": "Custom outro prompts forbidden.",
+      "audioPrompt": "app-injected",
+      "negatives": [
+        "no custom prompt",
+        "no dish interaction"
+      ],
+      "qaChecklist": {
+        "referencesWithinLimit": true,
+        "globalKitchenReferencePresent": true,
+        "referenceRolesExplicit": true,
+        "promptWithinPracticalLimit": true,
+        "hardCutsSpecified": true,
+        "mandatoryTimingSpecified": true,
+        "noSpeechVoiceoverOrMusic": true,
+        "fragileFoodPhysicsHandled": true,
+        "nonStandardGeometryHandled": true,
+        "sourcePoliciesApplied": [
+          "seedance-outro"
+        ]
+      },
+      "durationTarget": 5,
+      "status": "ready"
+    }
+  ]
+}

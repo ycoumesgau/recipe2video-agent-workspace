@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "status": {
+    "recipeName": "Crookie (Croissant Cookie) — croissants maison",
+    "goal": "Full song 2-3 min for streaming; 45-90s excerpt for vertical edit",
+    "model": "Suno 5.5 Advanced / Custom Mode",
+    "targetDuration": "2-3 minutes (full, operator-tuned); excerpt for short video"
+  },
+  "fields": {
+    "title": "Butter Fold Midnight",
+    "styleOfMusic": "Warm French-touch K-pop pop with brushed acoustic guitar harmonics, soft trap hats, buttery synth bass, and airy stacked vocals; verses stay intimate and tactile, pre-chorus lifts with rising filtered pads, chorus blooms golden and flaky with gang-vocal hooks. ASMR ear candy: dry dough fold, oven hush, chocolate chip clatter, pecan crack, gooey stretch. Clean bakery-glow mix, morning terrazzo light, no harsh drops., pop, electronic, acoustic",
+    "excludeStyles": "No aggressive rap, no metal, no heavy rock, no children's choir, no advertising voice-over, no real artist imitation, no brand names, no recipe-tutorial lyrics, no ingredient counting, no Paris boulangerie name-drops, no TikTok trend callouts.",
+    "autoLyricsPrompt": "Write original English song lyrics about a playful unicorn chef making homemade crookies: laminated croissant layers folded with cold butter, golden baked crescents, chocolate-chip cookie dough pressed inside and out, pecan crunch, and a second bake until the center melts. Use only lyrics and section tags; do not explain the prompt. Do not include genre, production, instrument, mix, or vocal-style instructions. Do not write a recipe tutorial, quantities, numbered steps, brand names, or social media references.\n\nMood: buttery, flaky, gooey, midnight-gold, pecan-brown, chocolate-gloss, cozy bakery ASMR, satisfied not saccharine.\n\nLyric style: short singable lines, clipped phrasing, catchy repetitions, call-and-response energy, simple hooks, occasional parenthetical echoes like \"(fold it)\" or \"(golden horn)\". Keep the chorus reusable for a 45-90 second video edit.\n\nStory and imagery to weave in naturally:\n- cold butter square locked in dough, fold after fold, visible layers\n- raw crescent spiral, oven breath, golden flake that pulls apart\n- melted butter and muscovado ribbon, chip storm, chilled dough balls\n- hinge cut croissant, cookie disk inside and out, pecan rain\n- steam on the tray, gooey heart stretch, cooling rack shine\n- intact crookie on the Licorn island, satisfied glow, feuilleté still proud\n\nMust include naturally: crookie, croissant layers, cookie heart, chocolate chips, pecan crack, butter fold, golden horn, unicorn, Licorn kitchen.\n\nStructure:\n[Verse 1]\nCold square, warm hands, layers whisper low.\n\n[Pre-Chorus]\nSpiral tip waits; oven gold begins.\n\n[Chorus]\nChantable hook around butter fold, flaky crown, cookie heart, chew and pull.\n\n[Verse 2]\nChip rain, pecan snap, second fire glow.\n\n[Bridge]\nSofter breath: break and stretch, then hero still on stone.\n\n[Final Chorus]\nRepeat chorus with richer harmony; crookie intact on the counter.",
+    "shortVersionPlan": "Open on Verse 1 lamination fold synced to segment-01, pre-chorus into baked crescent pull (segment-02) and cookie ball chill (segment-03), chorus over crookie fill and second bake (segments 04-05), tag the motionless intact crookie hero from segment-06 before the Licorn outro. Keep chorus hook under 15 seconds for TikTok/Reels."
+  },
+  "instructions": {
+    "voice": "Warm close-mic lead with soft doubles on chorus; playful bakery intimacy, not explicit.",
+    "structure": "Chorus must survive a 45-90s vertical cut over gooey reveal (segment-05) and hero lock (segment-06).",
+    "workflowNotes": "Suno is manual. Paste fields into Suno Custom Mode.",
+    "fullSongOperatorEdits": {
+      "styleOfMusicSuffix": "2-3 minutes song.",
+      "autoLyricsPrompt": [
+        "Opening line: change \"Write original English song lyrics\" to \"Write original 2-3 minutes English song lyrics\".",
+        "Lyric style line: after \"Keep the chorus reusable for a 45-90 second video edit.\", add \", but make a 2-3 minutes song\".",
+        "Structure header: change \"Structure:\" to \"Extend this structure to fit a 2-3 minutes song:\""
+      ]
+    }
+  },
+  "qualityChecks": [
+    "Title avoids protected brands and artists.",
+    "Style of Music has no 2-3 minutes suffix in agent baseline.",
+    "Auto Lyrics Prompt is English, uses baseline opener, and ends lyric style with the 45-90 second video edit clause.",
+    "instructions.fullSongOperatorEdits documents operator Suno edits.",
+    "Short version aligns with lamination hook, bake reveal, and hero lock beats.",
+    "No music requested in Seedance prompts.",
+    "Lyrics honor homemade croissant path per creator instruction (not store-bought shortcut)."
+  ]
+}

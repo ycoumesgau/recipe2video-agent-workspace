@@ -1,0 +1,256 @@
+{
+  "recipe": {
+    "title": "Crookie (Croissant Cookie) — croissants maison",
+    "sourceType": "url",
+    "sourceUrl": "https://www.auxdelicesdupalais.net/crookie-le-fameux-croissant-cookie.html",
+    "ingredients": [
+      {
+        "name": "farine T55 (détrempe croissant)",
+        "quantity": "500 g",
+        "note": "Atelier des Chefs PLF"
+      },
+      {
+        "name": "sel fin",
+        "quantity": "10 g",
+        "note": "détrempe"
+      },
+      {
+        "name": "sucre en poudre",
+        "quantity": "50 g",
+        "note": "détrempe"
+      },
+      {
+        "name": "levure de boulanger",
+        "quantity": "20 g",
+        "note": "délayée dans eau tiède"
+      },
+      {
+        "name": "eau",
+        "quantity": "30 cl",
+        "note": "pétrissage détrempe"
+      },
+      {
+        "name": "beurre doux (détrempe)",
+        "quantity": "50 g",
+        "note": "incorporé au pétrissage"
+      },
+      {
+        "name": "beurre doux (tourage)",
+        "quantity": "250 g",
+        "note": "bloc froid au centre du carré de pâte"
+      },
+      {
+        "name": "eau + sucre (sirop)",
+        "quantity": "10 cl + 100 g",
+        "note": "napage croissants à la sortie du four"
+      },
+      {
+        "name": "jaune d'œuf (dorure)",
+        "quantity": "50 g",
+        "note": "badigeonnage avant cuisson croissant"
+      },
+      {
+        "name": "beurre demi-sel fondu",
+        "quantity": "120 g",
+        "note": "pâte à cookie"
+      },
+      {
+        "name": "sucre muscovado / vergeoise",
+        "quantity": "100 g",
+        "note": "cookie"
+      },
+      {
+        "name": "sucre blanc",
+        "quantity": "50 g",
+        "note": "cookie"
+      },
+      {
+        "name": "œuf",
+        "quantity": "1 gros",
+        "note": "cookie"
+      },
+      {
+        "name": "farine T55",
+        "quantity": "210 g",
+        "note": "cookie, tamisée avec levures"
+      },
+      {
+        "name": "levure chimique + bicarbonate",
+        "quantity": "1/2 c. à c. + 2 g",
+        "note": "cookie"
+      },
+      {
+        "name": "sel fin",
+        "quantity": "1/3 c. à c.",
+        "note": "cookie"
+      },
+      {
+        "name": "vanille en poudre",
+        "quantity": "1/4 c. à c.",
+        "note": "cookie"
+      },
+      {
+        "name": "pépites de chocolat",
+        "quantity": "180 g",
+        "note": "dans la pâte + garniture"
+      },
+      {
+        "name": "noix de pécan concassées",
+        "quantity": "60 g",
+        "note": "optionnel, sur le dessus"
+      }
+    ],
+    "steps": [
+      {
+        "position": 1,
+        "text": "Fontaine, levure, pétrissage détrempe",
+        "timing": "~10 min + 1 h frigo",
+        "visualCue": "farine en puits, levure moussante au centre, détrempe lisse qui se décolle",
+        "block": "croissant_dough",
+        "textureCue": "pâte mate et élastique",
+        "runwayRisk": "pâte trop collante ou trop sèche si hydratation mal lue"
+      },
+      {
+        "position": 2,
+        "text": "Abaisser, beurre de tourage, premier pli en croix",
+        "timing": "25 min repos frigo entre tours",
+        "visualCue": "carré de beurre froid enfermé dans la pâte, premiers plis visibles",
+        "block": "lamination",
+        "textureCue": "couches pâte/beurre nettes avant étalement",
+        "runwayRisk": "beurre qui perce ou fusionne — pas de marbrure nette"
+      },
+      {
+        "position": 3,
+        "text": "Tours simple + double, repos au froid",
+        "timing": "25 min frigo",
+        "visualCue": "rectangle laminé, rainures de rouleau, épaisseur ~1 cm",
+        "block": "lamination",
+        "textureCue": "feuilletage en strates fines",
+        "runwayRisk": "modèle invente une seule couche épaisse"
+      },
+      {
+        "position": 4,
+        "text": "Abaisser 4 mm, triangles, roulage croissants",
+        "timing": "15 min",
+        "visualCue": "croissants en croissant non cuits, spirale visible à l'extrémité",
+        "block": "shaping",
+        "textureCue": "cônes roulés serrés, extrémité pointue",
+        "runwayRisk": "forme pain au lait ou croissant géant"
+      },
+      {
+        "position": 5,
+        "text": "Pointage, dorure, cuisson croissants",
+        "timing": "~15 min à 180°C",
+        "visualCue": "dorure brillante, feuilletage doré, vapeur à l'ouverture",
+        "block": "bake_croissant",
+        "textureCue": "croustillant feuilleté extérieur, couches internes",
+        "runwayRisk": "croissant aplati, pas de feuilletage, porte four manipulée"
+      },
+      {
+        "position": 6,
+        "text": "Sirop de sortie de four sur croissants",
+        "timing": "1 min",
+        "visualCue": "glacis brillant qui accroche la lumière",
+        "block": "bake_croissant",
+        "textureCue": "surface laquée sans ramollir le feuilletage",
+        "runwayRisk": "croissant détrempé ou brillant uniforme type donut"
+      },
+      {
+        "position": 7,
+        "text": "Cookie : beurre fondu + sucres + œuf",
+        "timing": "5 min",
+        "visualCue": "bol satiné brun clair, maryse qui trace un ruban",
+        "block": "cookie_dough",
+        "textureCue": "pâte liquide qui épaissit",
+        "runwayRisk": "séparation grasse"
+      },
+      {
+        "position": 8,
+        "text": "Farine + levures, pépites, repos 30 min au frais",
+        "timing": "30 min frigo",
+        "visualCue": "pâte ferme, pépites visibles, boules froides",
+        "block": "cookie_dough",
+        "textureCue": "pâte cookie épaisse et malléable froide",
+        "runwayRisk": "pâte trop liquide ou sans pépites"
+      },
+      {
+        "position": 9,
+        "text": "Couper croissant en sandwich, garnir intérieur et extérieur",
+        "timing": "10 min",
+        "visualCue": "charnière intacte, boules de cookie aplaties adhérant au feuilleté",
+        "block": "assembly",
+        "textureCue": "double couche cookie sur croissant ouvert",
+        "runwayRisk": "croissant qui se défait, cookie qui glisse"
+      },
+      {
+        "position": 10,
+        "text": "Pépites et pécan, cuisson crookie 175°C",
+        "timing": "10-12 min",
+        "visualCue": "bords dorés, centre cookie qui fond, vapeur",
+        "block": "bake_crookie",
+        "textureCue": "coque feuilletée + cœur fondant chocolat",
+        "runwayRisk": "cookie brûlé, croissant carbonisé"
+      },
+      {
+        "position": 11,
+        "text": "Refroidissement sur grille, pépites finales",
+        "timing": "5 min",
+        "visualCue": "crookies intacts sur grille, brillants",
+        "block": "finish",
+        "textureCue": "extérieur croustillant, centre encore malléable",
+        "runwayRisk": "écrasement en manipulation"
+      }
+    ],
+    "subRecipes": [
+      "laminated_croissant_dough",
+      "baked_croissants",
+      "cookie_dough",
+      "crookie_assembly"
+    ],
+    "assumptions": [
+      "Instruction créateur : croissants faits maison (recette PLF Atelier des Chefs), pas de viennoiserie du commerce.",
+      "Référence croissant : https://www.atelierdeschefs.fr/recettes/32139/pate-levee-feuilletee-les-croissants/ (1 tour simple + 1 tour double, repos 25 min).",
+      "Vidéo montre 8 crookies héros (~14-16 cm longueur chacun) issus d'un batch croissant maison ; on ne montre pas les 12 croissants restants du batch de 20.",
+      "Ouverture texture-first : pli de tourage / feuilletage, payé en scène 2 par révélation des couches.",
+      "Pas de pain au chocolat dans le montage principal (option blog écartée pour clarté narrative).",
+      "Food-porn destructif (casse, centre fondant) limité au segment 05 ; segment 06 et outro : crookies intacts et immobiles."
+    ],
+    "timing": {
+      "prep": "Croissant maison : ~2 h actif + repos froid (compressé à l'écran) ; cookie 15 min + 30 min au frais",
+      "cook": "Croissants ~15 min à 180°C ; crookies 10-12 min à 175°C",
+      "total": null
+    },
+    "criticalTransformations": [
+      "Enfermement du beurre de tourage dans la détrempe et tours feuilletés (simple + double)",
+      "Pointage et cuisson du croissant : pâte crue à coquille dorée feuilletée",
+      "Mélange cookie : beurre fondu émulsionné puis prise au froid en boules fermes",
+      "Ouverture en charnière du croissant et adhésion de la pâte à cookie intérieur/extérieur",
+      "Deuxième cuisson : fusion du cookie fondant sous coque croissant croustillante"
+    ],
+    "visualTextureOpportunities": [
+      "Carré de beurre froid enfermé puis premier pli révélant les strates",
+      "Extrémité spiralée du croissant cru en gros plan",
+      "Feuilletage doré qui se détache en lamelle fine (payoff scène 2)",
+      "Beurre fondu et sucres qui brillent dans le bol cookie",
+      "Pépites de chocolat qui accrochent la pâte ferme",
+      "Boule de cookie pressée sur le croissant ouvert",
+      "Pécan qui craque sous les doigts sur le dessus",
+      "Centre cookie fondu et filant à la cassure (segment 05 uniquement)"
+    ],
+    "possibleHooks": [
+      "Macro du pli de pâte feuilletée : beurre visible entre deux feuilles de détrempe",
+      "Pull-apart d'un croissant cuit montrant les couches (payoff immédiat après le pli)",
+      "Pression d'une boule de cookie sur un croissant fendu encore froid",
+      "Sortie de four : crookies dorés, vapeur et pépites brillantes"
+    ],
+    "promptPolicySources": [
+      "seedance-workflow",
+      "food-physics-reference",
+      "tiktok-food-direction",
+      "seedance-references",
+      "seedance-outro",
+      "recipe-ingest"
+    ]
+  },
+  "clarifyingQuestions": []
+}

@@ -1,0 +1,386 @@
+{
+  "references": [
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenLayoutContextWide",
+      "role": "structural kitchen context",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Preserve cabinet layout, terrazzo, and lighting.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandDefault",
+      "role": "hero island and terrazzo lock",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Light terrazzo countertop, black flush induction unchanged.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-02",
+        "segment-03",
+        "segment-04",
+        "segment-05",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "KitchenIslandOverhead",
+      "role": "overhead prep and assembly",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Overhead island for lamination, cookie mix, crookie fill.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenWide",
+      "role": "oven tray context",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Already-open oven, tray slide only.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "kitchen",
+      "canonicalName": "OvenCloseup",
+      "role": "baked reveal and crookie steam",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Close baked goods inside oven cavity.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "RollingPin",
+      "role": "lamination rolling",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Wood rolling pin shape only.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "BakingMat",
+      "role": "silicone mat surface",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Green silicone mat topology.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "PastryBrush",
+      "role": "egg wash and syrup brush",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Pastry brush bristles for gloss application.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Whisk",
+      "role": "cookie mixing",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Ball whisk shape.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "Spoon",
+      "role": "mixing spoon",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Wooden spoon shape.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "SiliconeSpatula",
+      "role": "cookie fold and spread",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Flexible silicone spatula.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "ChefKnife",
+      "role": "hinge cut knife",
+      "priority": 3,
+      "source": "existing_asset",
+      "prompt": "Long serrated chef knife for croissant split.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "utensil",
+      "canonicalName": "BakingDish",
+      "role": "sheet pan edge",
+      "priority": 4,
+      "source": "existing_asset",
+      "prompt": "Rimmed metal baking sheet.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "CharacterSheet",
+      "role": "Licorn character identity",
+      "priority": 1,
+      "source": "existing_asset",
+      "prompt": "Mascot proportions and colors.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04",
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseTopDown",
+      "role": "top-down hands",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Hands visible from above.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01",
+        "segment-03",
+        "segment-04"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "character",
+      "canonicalName": "PoseThreeQuarterRight",
+      "role": "satisfaction pose",
+      "priority": 2,
+      "source": "existing_asset",
+      "prompt": "Pleased character at frame edge.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06"
+      ],
+      "status": "planned"
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "LaminatedDoughLayersFrame",
+      "role": "laminated butter strata topology",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Generate one vertical 9:16 reference still of laminated croissant dough on the Licorn terrazzo island overhead: visible alternating butter and dough layers after folds, matte cold dough, ~4 mm thick edge, no baked color. Match @KitchenIslandOverhead lighting and surface. No character. No text.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-01"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "BakingMat",
+        "RollingPin"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "RawCroissantCrescentsFrame",
+      "role": "raw crescent croissants on parchment",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "4-6 pale unbaked crescents 14-16 cm on parchment on baking sheet, visible spiral tips, spaced 5 cm, overhead Licorn kitchen.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "BakingDish",
+        "BakingMat"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "BakedCroissantGoldenFrame",
+      "role": "baked golden laminated crescents",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "4-6 golden baked croissants 14-16 cm, puffed laminated layers, flaky surface, on parchment, overhead. No pain au chocolat bars.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-02",
+        "segment-04"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "OvenCloseup",
+        "KitchenIslandDefault",
+        "BakingDish"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CookieDoughBallsFrame",
+      "role": "chilled chocolate chip dough balls",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "16 firm chocolate-chip cookie dough balls ~4 cm on parchment, matte cold surface, chips visible, overhead terrazzo island bowl nearby.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-03"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "Whisk",
+        "Spoon"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CrookiePreBakeFrame",
+      "role": "filled pre-bake crookie",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Single split croissant hinge intact 14-16 cm, cookie dough disk inside and on top, pecan and chips, unbaked matte cookie, on parchment, overhead.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-04",
+        "segment-05"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandOverhead",
+        "BakingDish",
+        "SiliconeSpatula"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "CrossSectionCrookieGooeyFrame",
+      "role": "broken crookie gooey center",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "One crookie broken open: flaky golden croissant shell, molten chocolate-chip cookie center stretching, steam, not a clean slice.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-05"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "OvenCloseup",
+        "BakingDish"
+      ]
+    },
+    {
+      "type": "recipe_state",
+      "canonicalName": "FinalDishVisual",
+      "role": "finished intact crookie hero",
+      "priority": 1,
+      "source": "generated_reference_needed",
+      "prompt": "Golden homemade crookie with pecan and chocolate chips on the terrazzo island, intact feuilleté shell and motionless cookie top, single hero piece 14-16 cm long. Generate one vertical 9:16 reference still on Licorn light terrazzo island, single hero crookie on cooling rack, no character, no hands, no bite, no motion blur. Match @KitchenIslandDefault.",
+      "runwayUri": null,
+      "mediaAssetId": null,
+      "usedInSegmentIds": [
+        "segment-06",
+        "segment-outro"
+      ],
+      "status": "planned",
+      "conditioningReferences": [
+        "KitchenIslandDefault",
+        "BakingDish"
+      ]
+    }
+  ]
+}

@@ -19,6 +19,7 @@ The last segment in `seedance-segments.json` (highest `position`) MUST:
 - have `id: "segment-outro"` (or a stable id ending in `-outro`);
 - have `durationTarget: 5` (Seedance 2 minimum, hard requirement);
 - have `mode: "References"`;
+- have `logicalSceneIds` with **at least one** non-empty placeholder id (e.g. `["scene-outro"]`). The outro is not derived from `logical-scenes.json`, but Recipe2Video's sync validator rejects an empty array — never emit `[]`;
 - have `prompt: "<APP_OVERRIDE>"` and `promptInitial: "<APP_OVERRIDE>"` (the app rewrites both at sync time with the canonical outro template);
 - list exactly these 5 references in this order:
   1. `KitchenLayoutContextWide` (image, role: "structural kitchen context")
